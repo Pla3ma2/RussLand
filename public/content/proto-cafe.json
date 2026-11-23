@@ -1,0 +1,316 @@
+{
+ "id": "proto-cafe",
+ "titleFr": "Au café",
+ "sceneFr": "Luka entre dans un petit café à Saint-Pétersbourg.",
+ "speakers": {
+  "barista": {
+   "name": "Masha",
+   "color": "#e07a5f"
+  },
+  "luka": {
+   "name": "Luka",
+   "color": "#3d5a80"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "barista",
+   "ru": "Здравствуйте!",
+   "fr": "Bonjour !",
+   "tokens": [
+    {
+     "t": "Здравствуйте",
+     "s": 3,
+     "w": true,
+     "a": "0e6270054cd1.mp3"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "d382f949170b.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Здравствуйте!",
+   "fr": "Bonjour !",
+   "tokens": [
+    {
+     "t": "Здравствуйте",
+     "s": 3,
+     "w": true,
+     "a": "0e6270054cd1.mp3"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "0062aea749d8.mp3"
+  },
+  {
+   "speaker": "barista",
+   "ru": "Что вы хотите?",
+   "fr": "Qu'est-ce que vous voulez ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вы",
+     "s": 1,
+     "w": true,
+     "a": "8b7efd6df007.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хотите",
+     "s": 3,
+     "w": true,
+     "a": "ddec86766e69.mp3"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "ddef6ae63283.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Я хочу воду, пожалуйста.",
+   "fr": "Je veux de l'eau, s'il vous plaît.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "воду",
+     "s": 1,
+     "w": true,
+     "a": "9a6b49502738.mp3"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ebcb50d0bb59.mp3"
+  },
+  {
+   "speaker": "barista",
+   "ru": "Вот, пожалуйста.",
+   "fr": "Voilà.",
+   "tokens": [
+    {
+     "t": "Вот",
+     "s": 1,
+     "w": true,
+     "a": "a716dd666e5a.mp3"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "d2216dc980c9.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Спасибо!",
+   "fr": "Merci !",
+   "tokens": [
+    {
+     "t": "Спасибо",
+     "s": 4,
+     "w": true,
+     "a": "84fecfa1b01c.mp3"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "79862b3359fa.mp3"
+  }
+ ],
+ "puzzle": {
+  "before": [
+   {
+    "t": "Я",
+    "s": 0,
+    "w": true,
+    "a": "70b9d9783365.mp3"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "хочу",
+    "s": 3,
+    "w": true,
+    "a": "aae1250833fa.mp3"
+   },
+   {
+    "t": " ",
+    "w": false
+   }
+  ],
+  "after": ".",
+  "frameFr": "Je veux ___.",
+  "caseColor": "#3a86ff",
+  "words": [
+   {
+    "lemma": "вода",
+    "fr": "l'eau",
+    "phraseFr": "Je veux de l'eau.",
+    "form": "воду",
+    "stem": "вод",
+    "endLemma": "а",
+    "endForm": "у",
+    "changed": true,
+    "gender": "femn",
+    "stressLemma": 3,
+    "stressForm": 1,
+    "audioLemma": "1b83b6fefbb0.mp3",
+    "audioPhrase": "e5357ec615ee.mp3"
+   },
+   {
+    "lemma": "булочка",
+    "fr": "une brioche",
+    "phraseFr": "Je veux une brioche.",
+    "form": "булочку",
+    "stem": "булочк",
+    "endLemma": "а",
+    "endForm": "у",
+    "changed": true,
+    "gender": "femn",
+    "stressLemma": 1,
+    "stressForm": 1,
+    "audioLemma": "b201bf3a65f9.mp3",
+    "audioPhrase": "4c09c03c5bae.mp3"
+   },
+   {
+    "lemma": "чай",
+    "fr": "du thé",
+    "phraseFr": "Je veux du thé.",
+    "form": "чай",
+    "stem": "чай",
+    "endLemma": "",
+    "endForm": "",
+    "changed": false,
+    "gender": "masc",
+    "stressLemma": 1,
+    "stressForm": 1,
+    "audioLemma": "0f1ca028b347.mp3",
+    "audioPhrase": "73f938b4386f.mp3"
+   }
+  ],
+  "task": {
+   "fr": "Demande une brioche.",
+   "answer": "булочка"
+  },
+  "insightFr": [
+   "Tu as remarqué ? Après « хочу » (je veux), « вода » devient « воду » : le -а se change en -у.",
+   "« Чай » ne change pas : c'est un mot masculin, et ici les masculins restent tels quels.",
+   "Cette couleur bleue, tu la reverras chaque fois qu'un mot est « ce que l'on veut, voit, prend »."
+  ]
+ },
+ "speak": {
+  "line": {
+   "speaker": "luka",
+   "ru": "Я хочу воду.",
+   "fr": "Je veux de l'eau.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "воду",
+     "s": 1,
+     "w": true,
+     "a": "9a6b49502738.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "e5357ec615ee.mp3"
+  },
+  "grammar": [
+   "я хочу воду",
+   "я хочу чай",
+   "я хочу булочку",
+   "я хочу",
+   "[unk]"
+  ]
+ },
+ "hasAudio": false
+}

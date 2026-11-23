@@ -1,0 +1,88 @@
+name: Build & deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Озвучка: переиспользуем уже готовые mp3, озвучиваем только новые фразы
+      - name: Cache audio
+        uses: actions/cache@v4
+        with:
+          path: public/audio
+          key: audio-${{ hashFiles('content/**', 'tools/build_content.py') }}
+          restore-keys: audio-
+
+      - name: Cache Silero model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/torch
+          key: torch-hub-silero-v4-ru
+
+      - name: Install Python deps
+        run: |
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -r tools/requirements.txt numpy omegaconf
+
+      - name: Build content (stress, word forms, audio)
+        run: python tools/build_content.py --audio
+
+      # Офлайн-распознавание речи: модель Vosk (small ru), упаковываем в tar.gz для vosk-browser
+      - name: Cache Vosk model
+        id: vosk-cache
+        uses: actions/cache@v4
+        with:
+          path: vosk-ru.tar.gz
+          key: vosk-small-ru-0.22
+
+      - name: Download Vosk model
+        if: steps.vosk-cache.outputs.cache-hit != 'true'
+        run: |
+          curl -L --fail -o /tmp/vosk.zip https://alphacephei.com/vosk/models/vosk-model-small-ru-0.22.zip
+          unzip -q /tmp/vosk.zip -d /tmp/vosk
+          tar -czf vosk-ru.tar.gz -C /tmp/vosk vosk-model-small-ru-0.22
+
+      - name: Put Vosk model into site
+        run: mkdir -p public/models && cp vosk-ru.tar.gz public/models/
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+      - run: npm run build
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

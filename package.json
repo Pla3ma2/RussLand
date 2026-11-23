@@ -1,0 +1,29 @@
+{
+  "name": "russland",
+  "version": "0.1.0",
+  "description": "RussLand — apprendre le russe pour les francophones",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "content": "python tools/build_content.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pla3ma2/russland.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Pla3ma2/russland/issues"
+  },
+  "homepage": "https://github.com/Pla3ma2/russland#readme",
+  "dependencies": {
+    "vosk-browser": "^0.0.8"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vite-plugin-pwa": "^2.0.0"
+  },
+  "private": true,
+  "type": "module"
+}
