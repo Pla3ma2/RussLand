@@ -40,6 +40,7 @@ jobs:
 
       - name: Install Python deps
         run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
           pip install torch --index-url https://download.pytorch.org/whl/cpu
           pip install -r tools/requirements.txt numpy omegaconf
 
