@@ -1,0 +1,72 @@
+{
+  "id": "01-rencontre",
+  "order": 1,
+  "titleFr": "Faire connaissance",
+  "titleRu": "Знакомство",
+  "emoji": "👋",
+  "sceneFr": "Luka vient d'arriver à Saint-Pétersbourg. Dans l'escalier de son immeuble, il croise sa voisine.",
+  "learner": "luka",
+  "dialogue": [
+    { "speaker": "masha", "ru": "Здравствуйте!", "fr": "Bonjour !" },
+    { "speaker": "luka", "ru": "Здравствуйте!", "fr": "Bonjour !" },
+    { "speaker": "masha", "ru": "Меня зовут М+аша. А как вас зовут?", "fr": "Je m'appelle Macha. Et vous, comment vous appelez-vous ?" },
+    { "speaker": "luka", "ru": "Меня зовут Л+ука.", "fr": "Je m'appelle Luka." },
+    { "speaker": "masha", "ru": "Очень приятно!", "fr": "Enchantée !" },
+    { "speaker": "luka", "ru": "Очень приятно!", "fr": "Enchanté !" },
+    { "speaker": "masha", "ru": "Вы из Франции?", "fr": "Vous venez de France ?" },
+    { "speaker": "luka", "ru": "Да, я из Франции. Я француз.", "fr": "Oui, je viens de France. Je suis français." }
+  ],
+  "explore": {
+    "type": "plain",
+    "speaker": "luka",
+    "frame": "Меня зовут ___.",
+    "frameFr": "Je m'appelle ___.",
+    "color": "#5c677d",
+    "words": [
+      { "tile": "Л+ука", "fr": "Luka", "phraseFr": "Je m'appelle Luka." },
+      { "tile": "М+аша", "fr": "Macha", "phraseFr": "Je m'appelle Macha." },
+      { "tile": "+Анна", "fr": "Anna", "phraseFr": "Je m'appelle Anna." },
+      { "tile": "Ол+ег", "fr": "Oleg", "phraseFr": "Je m'appelle Oleg." }
+    ]
+  },
+  "tasks": [
+    { "type": "pick", "fr": "Présente-toi comme si tu t'appelais Anna.", "answer": "Анна" },
+    { "type": "order", "ru": "Да, я из Франции.", "fr": "Oui, je viens de France." }
+  ],
+  "insight": {
+    "by": "masha",
+    "fr": [
+      "« Меня зовут » veut dire mot à mot « on m'appelle ». Pour donner ton prénom, tu commences toujours par ces deux mots.",
+      "Tu as remarqué ? « Я француз » : il n'y a pas de verbe « être ». Au présent, le russe s'en passe : « Я Лука » = « Je suis Luka ».",
+      "Une femme dirait « Я француженка ». Comme en français, le mot change selon qu'on est un homme ou une femme."
+    ]
+  },
+  "speak": [
+    { "ru": "Меня зовут Л+ука.", "fr": "Je m'appelle Luka." },
+    { "ru": "Очень приятно!", "fr": "Enchanté !" },
+    { "ru": "Я француз.", "fr": "Je suis français." }
+  ],
+  "cando": ["saluer poliment", "dire comment tu t'appelles", "dire d'où tu viens"],
+  "unlocks": [
+    { "case": "nomn", "gender": "masc", "from": "француз", "to": "француз" },
+    { "case": "nomn", "gender": "femn", "from": "Маша", "to": "Маша" }
+  ],
+  "glossary": {
+    "здравствуйте": "bonjour (poli)",
+    "меня": "me, moi",
+    "зовут": "(on) appelle",
+    "маша": "Macha (prénom)",
+    "а": "et, et puis",
+    "как": "comment",
+    "вас": "vous",
+    "лука": "Luka (prénom)",
+    "очень": "très",
+    "приятно": "agréable",
+    "вы": "vous",
+    "из": "de (provenance)",
+    "франции": "France",
+    "да": "oui",
+    "я": "je, moi",
+    "француз": "Français (homme)"
+  }
+}

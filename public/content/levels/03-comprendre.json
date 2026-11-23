@@ -1,0 +1,1084 @@
+{
+ "id": "03-comprendre",
+ "order": 3,
+ "titleFr": "Je ne comprends pas",
+ "titleRu": "Я не понимаю",
+ "emoji": "🤔",
+ "sceneFr": "Dans la rue, un passant pressé demande son chemin à Luka. Il parle vite… beaucoup trop vite.",
+ "learner": "luka",
+ "speakers": {
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  },
+  "oleg": {
+   "name": "Олег",
+   "nameFr": "Oleg",
+   "color": "#9a6fb0"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "oleg",
+   "ru": "Извините, где здесь банк?",
+   "fr": "Excusez-moi, où est la banque, par ici ?",
+   "tokens": [
+    {
+     "t": "Извините",
+     "s": 5,
+     "w": true,
+     "a": "253f3869438c.mp3"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "здесь",
+     "s": 2,
+     "w": true,
+     "a": "5dc51c8ef3d7.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "банк",
+     "s": 1,
+     "w": true,
+     "a": "7bc003bf4da8.mp3"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "14e8e37b6d78.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Извините, я не понимаю.",
+   "fr": "Pardon, je ne comprends pas.",
+   "tokens": [
+    {
+     "t": "Извините",
+     "s": 5,
+     "w": true,
+     "a": "253f3869438c.mp3"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "понимаю",
+     "s": 5,
+     "w": true,
+     "a": "452b5c31ec17.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "bbc2084d7956.mp3"
+  },
+  {
+   "speaker": "oleg",
+   "ru": "Где здесь банк?",
+   "fr": "Où est la banque, par ici ?",
+   "tokens": [
+    {
+     "t": "Где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "здесь",
+     "s": 2,
+     "w": true,
+     "a": "5dc51c8ef3d7.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "банк",
+     "s": 1,
+     "w": true,
+     "a": "7bc003bf4da8.mp3"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "51a48ad8d40e.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Говорите медленнее, пожалуйста.",
+   "fr": "Parlez plus lentement, s'il vous plaît.",
+   "tokens": [
+    {
+     "t": "Говорите",
+     "s": 5,
+     "w": true,
+     "a": "af41f5721ac9.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "медленнее",
+     "s": 1,
+     "w": true,
+     "a": "072a7ce06e76.mp3"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ed17b4ea2b5b.mp3"
+  },
+  {
+   "speaker": "oleg",
+   "ru": "Вы говорите по-русски?",
+   "fr": "Vous parlez russe ?",
+   "tokens": [
+    {
+     "t": "Вы",
+     "s": 1,
+     "w": true,
+     "a": "8b7efd6df007.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говорите",
+     "s": 5,
+     "w": true,
+     "a": "af41f5721ac9.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-русски",
+     "s": 4,
+     "w": true,
+     "a": "1875ccbd5a57.mp3"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "dfe6ebb361db.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Немного. Я понимаю, но плохо.",
+   "fr": "Un peu. Je comprends, mais mal.",
+   "tokens": [
+    {
+     "t": "Немного",
+     "s": 4,
+     "w": true,
+     "a": "16f0ae3fba76.mp3"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "понимаю",
+     "s": 5,
+     "w": true,
+     "a": "452b5c31ec17.mp3"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "но",
+     "s": 1,
+     "w": true,
+     "a": "e9cdd3dfae39.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "плохо",
+     "s": 2,
+     "w": true,
+     "a": "07daac928bc7.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "353c489223bc.mp3"
+  },
+  {
+   "speaker": "oleg",
+   "ru": "А по-английски?",
+   "fr": "Et anglais ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-английски",
+     "s": 7,
+     "w": true,
+     "a": "c0f8fa40aea5.mp3"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "7322cc4a3e24.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Нет. Я говорю по-французски.",
+   "fr": "Non. Je parle français.",
+   "tokens": [
+    {
+     "t": "Нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говорю",
+     "s": 5,
+     "w": true,
+     "a": "7060cf7cbf69.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-французски",
+     "s": 8,
+     "w": true,
+     "a": "53b0bb0cb11b.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "c12de2c68c1f.mp3"
+  },
+  {
+   "speaker": "oleg",
+   "ru": "Ничего! Банк там.",
+   "fr": "Ce n'est pas grave ! La banque est là-bas.",
+   "tokens": [
+    {
+     "t": "Ничего",
+     "s": 5,
+     "w": true,
+     "a": "803a7b86c540.mp3"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Банк",
+     "s": 1,
+     "w": true,
+     "a": "7bc003bf4da8.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "там",
+     "s": 1,
+     "w": true,
+     "a": "a93f0ec75463.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ecf5d93dc575.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Спасибо!",
+   "fr": "Merci !",
+   "tokens": [
+    {
+     "t": "Спасибо",
+     "s": 4,
+     "w": true,
+     "a": "84fecfa1b01c.mp3"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "79862b3359fa.mp3"
+  }
+ ],
+ "explore": {
+  "type": "person",
+  "frameFr": "___ comprendre le russe.",
+  "color": "#8e44ad",
+  "before": [],
+  "after": [
+   {
+    "t": "  ",
+    "w": false
+   },
+   {
+    "t": "по-русски",
+    "s": 4,
+    "w": true,
+    "a": "1875ccbd5a57.mp3"
+   },
+   {
+    "t": ".",
+    "w": false
+   }
+  ],
+  "verb": "понимать",
+  "words": [
+   {
+    "tile": "я",
+    "tileStress": 0,
+    "fr": "je",
+    "phraseFr": "Je comprends le russe.",
+    "phrase": "Я понимаю по-русски.",
+    "morph": {
+     "from": "понимать",
+     "to": "понимаю",
+     "stem": "понима",
+     "endFrom": "ть",
+     "endTo": "ю",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": true
+    },
+    "audioTile": "70b9d9783365.mp3",
+    "audioPhrase": "3c9a9c1bbdea.mp3"
+   },
+   {
+    "tile": "ты",
+    "tileStress": 1,
+    "fr": "tu",
+    "phraseFr": "Tu comprends le russe.",
+    "phrase": "Ты понимаешь по-русски.",
+    "morph": {
+     "from": "понимать",
+     "to": "понимаешь",
+     "stem": "понима",
+     "endFrom": "ть",
+     "endTo": "ешь",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": true
+    },
+    "audioTile": "984afcea50b6.mp3",
+    "audioPhrase": "026b6262920d.mp3"
+   },
+   {
+    "tile": "она",
+    "tileStress": 2,
+    "fr": "elle",
+    "phraseFr": "Elle comprend le russe.",
+    "phrase": "Она понимает по-русски.",
+    "morph": {
+     "from": "понимать",
+     "to": "понимает",
+     "stem": "понима",
+     "endFrom": "ть",
+     "endTo": "ет",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": true
+    },
+    "audioTile": "bd63622a7f54.mp3",
+    "audioPhrase": "246cbfa26323.mp3"
+   },
+   {
+    "tile": "мы",
+    "tileStress": 1,
+    "fr": "nous",
+    "phraseFr": "Nous comprenons le russe.",
+    "phrase": "Мы понимаем по-русски.",
+    "morph": {
+     "from": "понимать",
+     "to": "понимаем",
+     "stem": "понима",
+     "endFrom": "ть",
+     "endTo": "ем",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": true
+    },
+    "audioTile": "a234675be3c5.mp3",
+    "audioPhrase": "fdc060abe2d6.mp3"
+   },
+   {
+    "tile": "вы",
+    "tileStress": 1,
+    "fr": "vous",
+    "phraseFr": "Vous comprenez le russe.",
+    "phrase": "Вы понимаете по-русски.",
+    "morph": {
+     "from": "понимать",
+     "to": "понимаете",
+     "stem": "понима",
+     "endFrom": "ть",
+     "endTo": "ете",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": true
+    },
+    "audioTile": "8b7efd6df007.mp3",
+    "audioPhrase": "c1c32ede6993.mp3"
+   },
+   {
+    "tile": "они",
+    "tileStress": 2,
+    "fr": "ils, elles",
+    "phraseFr": "Ils comprennent le russe.",
+    "phrase": "Они понимают по-русски.",
+    "morph": {
+     "from": "понимать",
+     "to": "понимают",
+     "stem": "понима",
+     "endFrom": "ть",
+     "endTo": "ют",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": true
+    },
+    "audioTile": "7c61158febc8.mp3",
+    "audioPhrase": "29153c6ab9eb.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Dis « Vous comprenez le russe ».",
+   "answer": "вы"
+  },
+  {
+   "type": "order",
+   "line": {
+    "speaker": "luka",
+    "ru": "Говорите медленнее, пожалуйста.",
+    "fr": "Parlez plus lentement, s'il vous plaît.",
+    "tokens": [
+     {
+      "t": "Говорите",
+      "s": 5,
+      "w": true,
+      "a": "af41f5721ac9.mp3"
+     },
+     {
+      "t": " ",
+      "w": false
+     },
+     {
+      "t": "медленнее",
+      "s": 1,
+      "w": true,
+      "a": "072a7ce06e76.mp3"
+     },
+     {
+      "t": ", ",
+      "w": false
+     },
+     {
+      "t": "пожалуйста",
+      "s": 3,
+      "w": true,
+      "a": "6a0f645d4907.mp3"
+     },
+     {
+      "t": ".",
+      "w": false
+     }
+    ],
+    "audio": "ed17b4ea2b5b.mp3"
+   }
+  }
+ ],
+ "insight": {
+  "by": "oleg",
+  "fr": [
+   "Comme en français, la fin du verbe change avec la personne : « je comprends », « vous comprenez »…",
+   "Я понима-ю, ты понима-ешь, мы понима-ем, вы понима-ете : écoute surtout la fin violette, c'est elle qui dit qui parle.",
+   "« Вы » sert à vouvoyer quelqu'un ou à parler à plusieurs personnes, exactement comme « vous ».",
+   "Pour dire non, il suffit de mettre « не » devant le verbe : « я не понимаю » = « je ne comprends pas »."
+  ]
+ },
+ "speak": [
+  {
+   "speaker": "luka",
+   "ru": "Я не понимаю.",
+   "fr": "Je ne comprends pas.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "понимаю",
+     "s": 5,
+     "w": true,
+     "a": "452b5c31ec17.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "5a92111e111d.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Говорите медленнее, пожалуйста.",
+   "fr": "Parlez plus lentement, s'il vous plaît.",
+   "tokens": [
+    {
+     "t": "Говорите",
+     "s": 5,
+     "w": true,
+     "a": "af41f5721ac9.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "медленнее",
+     "s": 1,
+     "w": true,
+     "a": "072a7ce06e76.mp3"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ed17b4ea2b5b.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Я говорю по-французски.",
+   "fr": "Je parle français.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говорю",
+     "s": 5,
+     "w": true,
+     "a": "7060cf7cbf69.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-французски",
+     "s": 8,
+     "w": true,
+     "a": "53b0bb0cb11b.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "a49804e748ab.mp3"
+  }
+ ],
+ "grammar": [
+  "говорите медленнее пожалуйста",
+  "извините я не понимаю",
+  "немного я понимаю но плохо",
+  "нет я говорю пофранцузски",
+  "спасибо",
+  "я говорю пофранцузски",
+  "я не понимаю",
+  "[unk]"
+ ],
+ "cando": [
+  "dire que tu ne comprends pas",
+  "demander de parler plus lentement",
+  "dire quelle langue tu parles"
+ ],
+ "glossary": {
+  "извините": "excusez-moi, pardon",
+  "где": "où",
+  "здесь": "ici",
+  "банк": "banque",
+  "я": "je",
+  "не": "ne… pas",
+  "понимаю": "(je) comprends",
+  "говорите": "parlez",
+  "медленнее": "plus lentement",
+  "пожалуйста": "s'il vous plaît",
+  "вы": "vous",
+  "по-русски": "en russe",
+  "немного": "un peu",
+  "но": "mais",
+  "плохо": "mal",
+  "а": "et",
+  "по-английски": "en anglais",
+  "нет": "non",
+  "говорю": "(je) parle",
+  "по-французски": "en français",
+  "ничего": "ce n'est pas grave (mot à mot : rien)",
+  "там": "là-bas",
+  "спасибо": "merci"
+ },
+ "unlocks": [
+  {
+   "verb": "понимать",
+   "persons": [
+    "я",
+    "ты",
+    "он",
+    "мы",
+    "вы",
+    "они"
+   ]
+  },
+  {
+   "verb": "говорить",
+   "persons": [
+    "я",
+    "вы"
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "03-comprendre:38e8f488",
+   "ru": "Я не понимаю.",
+   "fr": "Je ne comprends pas.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "понимаю",
+     "s": 5,
+     "w": true,
+     "a": "452b5c31ec17.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "5a92111e111d.mp3"
+  },
+  {
+   "id": "03-comprendre:a306fff5",
+   "ru": "Говорите медленнее, пожалуйста.",
+   "fr": "Parlez plus lentement, s'il vous plaît.",
+   "tokens": [
+    {
+     "t": "Говорите",
+     "s": 5,
+     "w": true,
+     "a": "af41f5721ac9.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "медленнее",
+     "s": 1,
+     "w": true,
+     "a": "072a7ce06e76.mp3"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ed17b4ea2b5b.mp3"
+  },
+  {
+   "id": "03-comprendre:04ae89f8",
+   "ru": "Я говорю по-французски.",
+   "fr": "Je parle français.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говорю",
+     "s": 5,
+     "w": true,
+     "a": "7060cf7cbf69.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-французски",
+     "s": 8,
+     "w": true,
+     "a": "53b0bb0cb11b.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "a49804e748ab.mp3"
+  },
+  {
+   "id": "03-comprendre:af22a242",
+   "ru": "Извините, я не понимаю.",
+   "fr": "Pardon, je ne comprends pas.",
+   "tokens": [
+    {
+     "t": "Извините",
+     "s": 5,
+     "w": true,
+     "a": "253f3869438c.mp3"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "понимаю",
+     "s": 5,
+     "w": true,
+     "a": "452b5c31ec17.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "bbc2084d7956.mp3"
+  },
+  {
+   "id": "03-comprendre:76e5e113",
+   "ru": "Немного. Я понимаю, но плохо.",
+   "fr": "Un peu. Je comprends, mais mal.",
+   "tokens": [
+    {
+     "t": "Немного",
+     "s": 4,
+     "w": true,
+     "a": "16f0ae3fba76.mp3"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "понимаю",
+     "s": 5,
+     "w": true,
+     "a": "452b5c31ec17.mp3"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "но",
+     "s": 1,
+     "w": true,
+     "a": "e9cdd3dfae39.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "плохо",
+     "s": 2,
+     "w": true,
+     "a": "07daac928bc7.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "353c489223bc.mp3"
+  },
+  {
+   "id": "03-comprendre:97bb736c",
+   "ru": "Нет. Я говорю по-французски.",
+   "fr": "Non. Je parle français.",
+   "tokens": [
+    {
+     "t": "Нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говорю",
+     "s": 5,
+     "w": true,
+     "a": "7060cf7cbf69.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-французски",
+     "s": 8,
+     "w": true,
+     "a": "53b0bb0cb11b.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "c12de2c68c1f.mp3"
+  },
+  {
+   "id": "03-comprendre:b6d1b7c8",
+   "ru": "Спасибо!",
+   "fr": "Merci !",
+   "tokens": [
+    {
+     "t": "Спасибо",
+     "s": 4,
+     "w": true,
+     "a": "84fecfa1b01c.mp3"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "79862b3359fa.mp3"
+  }
+ ],
+ "hasAudio": false
+}

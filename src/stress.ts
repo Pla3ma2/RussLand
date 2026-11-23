@@ -9,7 +9,7 @@ export function needsMark(word: string): boolean {
 }
 
 /**
- * Слово с видимым ударением: ударная гласная выделена и получает знак «´».
+ * Слово с видимым ударением: ударная гласная выделена и получает знак «´» (рисуется CSS, чтобы не зависеть от шрифта).
  * offset — сдвиг, если рисуем только кусок слова (основу или окончание).
  */
 export function renderStressed(part: string, stress: number | null | undefined, fullWord: string, offset = 0): string {

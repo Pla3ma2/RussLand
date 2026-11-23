@@ -1,0 +1,815 @@
+{
+ "id": "02-cafe",
+ "order": 2,
+ "titleFr": "Au café",
+ "titleRu": "В кафе",
+ "emoji": "☕",
+ "sceneFr": "Luka entre dans un petit café au coin de sa rue. Derrière le comptoir, Anna lui sourit.",
+ "learner": "luka",
+ "speakers": {
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  },
+  "anna": {
+   "name": "Анна",
+   "nameFr": "Anna",
+   "color": "#81b29a"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "anna",
+   "ru": "Здравствуйте! Что вы хотите?",
+   "fr": "Bonjour ! Qu'est-ce que vous voulez ?",
+   "tokens": [
+    {
+     "t": "Здравствуйте",
+     "s": 3,
+     "w": true,
+     "a": "0e6270054cd1.mp3"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вы",
+     "s": 1,
+     "w": true,
+     "a": "8b7efd6df007.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хотите",
+     "s": 3,
+     "w": true,
+     "a": "ddec86766e69.mp3"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "09ac6d0f00fb.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Здравствуйте! Я хочу кофе, пожалуйста.",
+   "fr": "Bonjour ! Je veux un café, s'il vous plaît.",
+   "tokens": [
+    {
+     "t": "Здравствуйте",
+     "s": 3,
+     "w": true,
+     "a": "0e6270054cd1.mp3"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кофе",
+     "s": 1,
+     "w": true,
+     "a": "4cff920b1130.mp3"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "be1585f6d137.mp3"
+  },
+  {
+   "speaker": "anna",
+   "ru": "Что-нибудь ещё?",
+   "fr": "Autre chose ?",
+   "tokens": [
+    {
+     "t": "Что-нибудь",
+     "s": 2,
+     "w": true,
+     "a": "2ced355b9e0e.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ещё",
+     "s": 2,
+     "w": true,
+     "a": "62bf7c150e0b.mp3"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "8a5bca98fbf1.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Да, я хочу булочку.",
+   "fr": "Oui, je veux une brioche.",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "булочку",
+     "s": 1,
+     "w": true,
+     "a": "795fcf42b2fd.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "aa51a505a646.mp3"
+  },
+  {
+   "speaker": "anna",
+   "ru": "Вот, пожалуйста.",
+   "fr": "Voilà.",
+   "tokens": [
+    {
+     "t": "Вот",
+     "s": 1,
+     "w": true,
+     "a": "a716dd666e5a.mp3"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "9131edae9f91.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Спасибо!",
+   "fr": "Merci !",
+   "tokens": [
+    {
+     "t": "Спасибо",
+     "s": 4,
+     "w": true,
+     "a": "84fecfa1b01c.mp3"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "79862b3359fa.mp3"
+  },
+  {
+   "speaker": "anna",
+   "ru": "Пожалуйста!",
+   "fr": "Je vous en prie !",
+   "tokens": [
+    {
+     "t": "Пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "0c1d309ae3f5.mp3"
+  }
+ ],
+ "explore": {
+  "type": "case",
+  "frameFr": "Je veux ___.",
+  "color": "#3a86ff",
+  "before": [
+   {
+    "t": "Я",
+    "s": 0,
+    "w": true,
+    "a": "70b9d9783365.mp3"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "хочу",
+    "s": 3,
+    "w": true,
+    "a": "aae1250833fa.mp3"
+   },
+   {
+    "t": " ",
+    "w": false
+   }
+  ],
+  "after": [
+   {
+    "t": ".",
+    "w": false
+   }
+  ],
+  "verb": null,
+  "words": [
+   {
+    "tile": "вода",
+    "tileStress": 3,
+    "fr": "l'eau",
+    "phraseFr": "Je veux de l'eau.",
+    "phrase": "Я хочу воду.",
+    "morph": {
+     "from": "вода",
+     "to": "воду",
+     "stem": "вод",
+     "endFrom": "а",
+     "endTo": "у",
+     "stressFrom": 3,
+     "stressTo": 1,
+     "changed": true
+    },
+    "audioTile": "1b83b6fefbb0.mp3",
+    "audioPhrase": "e5357ec615ee.mp3"
+   },
+   {
+    "tile": "булочка",
+    "tileStress": 1,
+    "fr": "une brioche",
+    "phraseFr": "Je veux une brioche.",
+    "phrase": "Я хочу булочку.",
+    "morph": {
+     "from": "булочка",
+     "to": "булочку",
+     "stem": "булочк",
+     "endFrom": "а",
+     "endTo": "у",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": true
+    },
+    "audioTile": "b201bf3a65f9.mp3",
+    "audioPhrase": "4c09c03c5bae.mp3"
+   },
+   {
+    "tile": "чай",
+    "tileStress": 1,
+    "fr": "le thé",
+    "phraseFr": "Je veux du thé.",
+    "phrase": "Я хочу чай.",
+    "morph": {
+     "from": "чай",
+     "to": "чай",
+     "stem": "чай",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": false
+    },
+    "audioTile": "0f1ca028b347.mp3",
+    "audioPhrase": "73f938b4386f.mp3"
+   },
+   {
+    "tile": "пицца",
+    "tileStress": 1,
+    "fr": "une pizza",
+    "phraseFr": "Je veux une pizza.",
+    "phrase": "Я хочу пиццу.",
+    "morph": {
+     "from": "пицца",
+     "to": "пиццу",
+     "stem": "пицц",
+     "endFrom": "а",
+     "endTo": "у",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": true
+    },
+    "audioTile": "e554d3ed8479.mp3",
+    "audioPhrase": "74cb13ae6192.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Commande une pizza.",
+   "answer": "пицца"
+  },
+  {
+   "type": "order",
+   "line": {
+    "speaker": "luka",
+    "ru": "Я хочу булочку.",
+    "fr": "Je veux une brioche.",
+    "tokens": [
+     {
+      "t": "Я",
+      "s": 0,
+      "w": true,
+      "a": "70b9d9783365.mp3"
+     },
+     {
+      "t": " ",
+      "w": false
+     },
+     {
+      "t": "хочу",
+      "s": 3,
+      "w": true,
+      "a": "aae1250833fa.mp3"
+     },
+     {
+      "t": " ",
+      "w": false
+     },
+     {
+      "t": "булочку",
+      "s": 1,
+      "w": true,
+      "a": "795fcf42b2fd.mp3"
+     },
+     {
+      "t": ".",
+      "w": false
+     }
+    ],
+    "audio": "4c09c03c5bae.mp3"
+   }
+  }
+ ],
+ "insight": {
+  "by": "anna",
+  "fr": [
+   "Tu as remarqué ? Après « хочу » (je veux), « вода » devient « воду » et « булочка » devient « булочку » : le -а final se change en -у.",
+   "« Чай » ne bouge pas : c'est un mot masculin, et ici les masculins restent tels quels.",
+   "Ce bleu, tu le reverras chaque fois qu'un mot désigne la chose qu'on veut, qu'on prend ou qu'on aime.",
+   "Et rassure-toi : « Я хочу…, пожалуйста » est tout à fait poli en russe."
+  ]
+ },
+ "speak": [
+  {
+   "speaker": "luka",
+   "ru": "Я хочу воду.",
+   "fr": "Je veux de l'eau.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "воду",
+     "s": 1,
+     "w": true,
+     "a": "9a6b49502738.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "e5357ec615ee.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Я хочу чай, пожалуйста.",
+   "fr": "Je veux du thé, s'il vous plaît.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "чай",
+     "s": 1,
+     "w": true,
+     "a": "0f1ca028b347.mp3"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "e55ae404ac1d.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Спасибо!",
+   "fr": "Merci !",
+   "tokens": [
+    {
+     "t": "Спасибо",
+     "s": 4,
+     "w": true,
+     "a": "84fecfa1b01c.mp3"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "79862b3359fa.mp3"
+  }
+ ],
+ "grammar": [
+  "да я хочу булочку",
+  "здравствуйте я хочу кофе пожалуйста",
+  "спасибо",
+  "я хочу воду",
+  "я хочу чай пожалуйста",
+  "[unk]"
+ ],
+ "cando": [
+  "commander à boire et à manger",
+  "dire s'il vous plaît et merci",
+  "reconnaître la terminaison bleue -у"
+ ],
+ "glossary": {
+  "здравствуйте": "bonjour (poli)",
+  "что": "quoi, qu'est-ce que",
+  "вы": "vous",
+  "хотите": "(vous) voulez",
+  "я": "je, moi",
+  "хочу": "(je) veux",
+  "кофе": "café",
+  "пожалуйста": "s'il vous plaît / je vous en prie",
+  "что-нибудь": "quelque chose",
+  "еще": "encore, d'autre",
+  "да": "oui",
+  "булочку": "brioche, petit pain",
+  "вот": "voilà",
+  "спасибо": "merci",
+  "воду": "eau",
+  "чай": "thé"
+ },
+ "unlocks": [
+  {
+   "case": "accs",
+   "gender": "femn",
+   "from": "вода",
+   "to": "воду"
+  },
+  {
+   "case": "accs",
+   "gender": "masc",
+   "from": "чай",
+   "to": "чай"
+  },
+  {
+   "case": "nomn",
+   "gender": "masc",
+   "from": "чай",
+   "to": "чай"
+  },
+  {
+   "verb": "хотеть",
+   "persons": [
+    "я",
+    "вы"
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "02-cafe:bdbfceb2",
+   "ru": "Я хочу воду.",
+   "fr": "Je veux de l'eau.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "воду",
+     "s": 1,
+     "w": true,
+     "a": "9a6b49502738.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "e5357ec615ee.mp3"
+  },
+  {
+   "id": "02-cafe:b1d77659",
+   "ru": "Я хочу чай, пожалуйста.",
+   "fr": "Je veux du thé, s'il vous plaît.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "чай",
+     "s": 1,
+     "w": true,
+     "a": "0f1ca028b347.mp3"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "e55ae404ac1d.mp3"
+  },
+  {
+   "id": "02-cafe:b6d1b7c8",
+   "ru": "Спасибо!",
+   "fr": "Merci !",
+   "tokens": [
+    {
+     "t": "Спасибо",
+     "s": 4,
+     "w": true,
+     "a": "84fecfa1b01c.mp3"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "79862b3359fa.mp3"
+  },
+  {
+   "id": "02-cafe:adf32247",
+   "ru": "Здравствуйте! Я хочу кофе, пожалуйста.",
+   "fr": "Bonjour ! Je veux un café, s'il vous plaît.",
+   "tokens": [
+    {
+     "t": "Здравствуйте",
+     "s": 3,
+     "w": true,
+     "a": "0e6270054cd1.mp3"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кофе",
+     "s": 1,
+     "w": true,
+     "a": "4cff920b1130.mp3"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "be1585f6d137.mp3"
+  },
+  {
+   "id": "02-cafe:c1bef185",
+   "ru": "Да, я хочу булочку.",
+   "fr": "Oui, je veux une brioche.",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "булочку",
+     "s": 1,
+     "w": true,
+     "a": "795fcf42b2fd.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "aa51a505a646.mp3"
+  }
+ ],
+ "hasAudio": false
+}

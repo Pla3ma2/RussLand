@@ -26,7 +26,15 @@ export default defineConfig({
       workbox: {
         // уроки и озвучка — в офлайн-кэш сразу; модель Vosk (45 МБ) сама сохраняется в IndexedDB, когда её включат
         globPatterns: ["**/*.{js,css,html,svg,png,json,mp3}"],
-        globIgnores: ["**/models/**"],
+        globIgnores: ["**/models/**", "**/vosk-*.js"],
+        runtimeCaching: [
+          {
+            // движок распознавания (5 МБ) кэшируем, только когда его включат
+            urlPattern: ({ url }) => /\/assets\/vosk-.*\.js$/.test(url.pathname),
+            handler: "CacheFirst",
+            options: { cacheName: "vosk-engine", expiration: { maxEntries: 4 } },
+          },
+        ],
         maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
       },
     }),

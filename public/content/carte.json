@@ -1,0 +1,402 @@
+{
+ "cases": [
+  {
+   "id": "nomn",
+   "fr": "Forme de base",
+   "hintFr": "qui ? quoi ? — le mot du dictionnaire",
+   "color": "#5c677d"
+  },
+  {
+   "id": "accs",
+   "fr": "Ce qu'on veut, prend, aime",
+   "hintFr": "après хочу, дайте, люблю",
+   "color": "#3a86ff"
+  },
+  {
+   "id": "loct",
+   "fr": "Le lieu où l'on est",
+   "hintFr": "après в (dans, à)",
+   "color": "#2a9d8f"
+  }
+ ],
+ "genders": [
+  {
+   "id": "masc",
+   "fr": "masculin",
+   "hintFr": "souvent une consonne à la fin"
+  },
+  {
+   "id": "femn",
+   "fr": "féminin",
+   "hintFr": "-а, -я"
+  },
+  {
+   "id": "neut",
+   "fr": "neutre",
+   "hintFr": "-о, -е"
+  }
+ ],
+ "verbColor": "#8e44ad",
+ "verbs": [
+  {
+   "verb": "хотеть",
+   "fr": "vouloir",
+   "forms": {
+    "я": {
+     "from": "хотеть",
+     "to": "хочу",
+     "stem": "хо",
+     "endFrom": "теть",
+     "endTo": "чу",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": true,
+     "audio": "aae1250833fa.mp3"
+    },
+    "ты": {
+     "from": "хотеть",
+     "to": "хочешь",
+     "stem": "хо",
+     "endFrom": "теть",
+     "endTo": "чешь",
+     "stressFrom": 3,
+     "stressTo": 1,
+     "changed": true,
+     "audio": "14d6c2c314f5.mp3"
+    },
+    "он": {
+     "from": "хотеть",
+     "to": "хочет",
+     "stem": "хо",
+     "endFrom": "теть",
+     "endTo": "чет",
+     "stressFrom": 3,
+     "stressTo": 1,
+     "changed": true,
+     "audio": "045fdb3119d7.mp3"
+    },
+    "мы": {
+     "from": "хотеть",
+     "to": "хотим",
+     "stem": "хот",
+     "endFrom": "еть",
+     "endTo": "им",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": true,
+     "audio": "8bca1dec10a1.mp3"
+    },
+    "вы": {
+     "from": "хотеть",
+     "to": "хотите",
+     "stem": "хот",
+     "endFrom": "еть",
+     "endTo": "ите",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": true,
+     "audio": "ddec86766e69.mp3"
+    },
+    "они": {
+     "from": "хотеть",
+     "to": "хотят",
+     "stem": "хот",
+     "endFrom": "еть",
+     "endTo": "ят",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": true,
+     "audio": "012a14356431.mp3"
+    }
+   }
+  },
+  {
+   "verb": "понимать",
+   "fr": "comprendre",
+   "forms": {
+    "я": {
+     "from": "понимать",
+     "to": "понимаю",
+     "stem": "понима",
+     "endFrom": "ть",
+     "endTo": "ю",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": true,
+     "audio": "452b5c31ec17.mp3"
+    },
+    "ты": {
+     "from": "понимать",
+     "to": "понимаешь",
+     "stem": "понима",
+     "endFrom": "ть",
+     "endTo": "ешь",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": true,
+     "audio": "0ee0f9ea781d.mp3"
+    },
+    "он": {
+     "from": "понимать",
+     "to": "понимает",
+     "stem": "понима",
+     "endFrom": "ть",
+     "endTo": "ет",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": true,
+     "audio": "a1da434ce4ee.mp3"
+    },
+    "мы": {
+     "from": "понимать",
+     "to": "понимаем",
+     "stem": "понима",
+     "endFrom": "ть",
+     "endTo": "ем",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": true,
+     "audio": "084b3dbb3a41.mp3"
+    },
+    "вы": {
+     "from": "понимать",
+     "to": "понимаете",
+     "stem": "понима",
+     "endFrom": "ть",
+     "endTo": "ете",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": true,
+     "audio": "c7079f79e7d1.mp3"
+    },
+    "они": {
+     "from": "понимать",
+     "to": "понимают",
+     "stem": "понима",
+     "endFrom": "ть",
+     "endTo": "ют",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": true,
+     "audio": "3215be162ac1.mp3"
+    }
+   }
+  },
+  {
+   "verb": "говорить",
+   "fr": "parler",
+   "forms": {
+    "я": {
+     "from": "говорить",
+     "to": "говорю",
+     "stem": "говор",
+     "endFrom": "ить",
+     "endTo": "ю",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": true,
+     "audio": "7060cf7cbf69.mp3"
+    },
+    "ты": {
+     "from": "говорить",
+     "to": "говоришь",
+     "stem": "говори",
+     "endFrom": "ть",
+     "endTo": "шь",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": true,
+     "audio": "7e8a5711a5f1.mp3"
+    },
+    "он": {
+     "from": "говорить",
+     "to": "говорит",
+     "stem": "говорит",
+     "endFrom": "ь",
+     "endTo": "",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": true,
+     "audio": "f6e27065d9f5.mp3"
+    },
+    "мы": {
+     "from": "говорить",
+     "to": "говорим",
+     "stem": "говори",
+     "endFrom": "ть",
+     "endTo": "м",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": true,
+     "audio": "5c923d67ed38.mp3"
+    },
+    "вы": {
+     "from": "говорить",
+     "to": "говорите",
+     "stem": "говорит",
+     "endFrom": "ь",
+     "endTo": "е",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": true,
+     "audio": "af41f5721ac9.mp3"
+    },
+    "они": {
+     "from": "говорить",
+     "to": "говорят",
+     "stem": "говор",
+     "endFrom": "ить",
+     "endTo": "ят",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": true,
+     "audio": "b86b65a30016.mp3"
+    }
+   }
+  },
+  {
+   "verb": "жить",
+   "fr": "habiter, vivre",
+   "forms": {
+    "я": {
+     "from": "жить",
+     "to": "живу",
+     "stem": "жи",
+     "endFrom": "ть",
+     "endTo": "ву",
+     "stressFrom": 1,
+     "stressTo": 3,
+     "changed": true,
+     "audio": "1fe8f57e8827.mp3"
+    },
+    "ты": {
+     "from": "жить",
+     "to": "живёшь",
+     "stem": "жи",
+     "endFrom": "ть",
+     "endTo": "вёшь",
+     "stressFrom": 1,
+     "stressTo": 3,
+     "changed": true,
+     "audio": "3d92af7d3970.mp3"
+    },
+    "он": {
+     "from": "жить",
+     "to": "живёт",
+     "stem": "жи",
+     "endFrom": "ть",
+     "endTo": "вёт",
+     "stressFrom": 1,
+     "stressTo": 3,
+     "changed": true,
+     "audio": "27315d7acbbd.mp3"
+    },
+    "мы": {
+     "from": "жить",
+     "to": "живём",
+     "stem": "жи",
+     "endFrom": "ть",
+     "endTo": "вём",
+     "stressFrom": 1,
+     "stressTo": 3,
+     "changed": true,
+     "audio": "c219f67b7372.mp3"
+    },
+    "вы": {
+     "from": "жить",
+     "to": "живёте",
+     "stem": "жи",
+     "endFrom": "ть",
+     "endTo": "вёте",
+     "stressFrom": 1,
+     "stressTo": 3,
+     "changed": true,
+     "audio": "82fd5176ac76.mp3"
+    },
+    "они": {
+     "from": "жить",
+     "to": "живут",
+     "stem": "жи",
+     "endFrom": "ть",
+     "endTo": "вут",
+     "stressFrom": 1,
+     "stressTo": 3,
+     "changed": true,
+     "audio": "c79951b62b1c.mp3"
+    }
+   }
+  },
+  {
+   "verb": "любить",
+   "fr": "aimer",
+   "forms": {
+    "я": {
+     "from": "любить",
+     "to": "люблю",
+     "stem": "люб",
+     "endFrom": "ить",
+     "endTo": "лю",
+     "stressFrom": 3,
+     "stressTo": 4,
+     "changed": true,
+     "audio": "1b47671db5c8.mp3"
+    },
+    "ты": {
+     "from": "любить",
+     "to": "любишь",
+     "stem": "люби",
+     "endFrom": "ть",
+     "endTo": "шь",
+     "stressFrom": 3,
+     "stressTo": 1,
+     "changed": true,
+     "audio": "43a2843c63be.mp3"
+    },
+    "он": {
+     "from": "любить",
+     "to": "любит",
+     "stem": "любит",
+     "endFrom": "ь",
+     "endTo": "",
+     "stressFrom": 3,
+     "stressTo": 1,
+     "changed": true,
+     "audio": "fc1906665782.mp3"
+    },
+    "мы": {
+     "from": "любить",
+     "to": "любим",
+     "stem": "люби",
+     "endFrom": "ть",
+     "endTo": "м",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": true,
+     "audio": "152e5e44581c.mp3"
+    },
+    "вы": {
+     "from": "любить",
+     "to": "любите",
+     "stem": "любит",
+     "endFrom": "ь",
+     "endTo": "е",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": true,
+     "audio": "0995157b9a0c.mp3"
+    },
+    "они": {
+     "from": "любить",
+     "to": "любят",
+     "stem": "люб",
+     "endFrom": "ить",
+     "endTo": "ят",
+     "stressFrom": 3,
+     "stressTo": 1,
+     "changed": true,
+     "audio": "d2d6d63bb91d.mp3"
+    }
+   }
+  }
+ ]
+}

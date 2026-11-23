@@ -1,0 +1,179 @@
+{
+  "stages": [
+    {
+      "id": "r1",
+      "titleFr": "Premiers pas",
+      "letters": ["А", "О", "У", "М"],
+      "tipFr": [
+        "Trois voyelles et une consonne suffisent déjà pour lire tes premières syllabes.",
+        "Attention : « У » ressemble à un Y, mais se prononce « ou ».",
+        "Une consonne s'accroche à la voyelle qui la suit : м + а = « ма ». Glisse de l'une à l'autre sans t'arrêter."
+      ],
+      "syllables": ["ма", "мо", "му", "ам", "ом", "ум"],
+      "words": [
+        { "ru": "мама", "fr": "maman" },
+        { "ru": "ум", "fr": "esprit, intelligence" }
+      ]
+    },
+    {
+      "id": "r2",
+      "titleFr": "Des lettres familières",
+      "letters": ["Т", "К"],
+      "tipFr": [
+        "« Т » et « К » se lisent comme en français.",
+        "Avec seulement six lettres, tu peux déjà lire de vrais mots utiles !"
+      ],
+      "syllables": ["та", "то", "ту", "ка", "ко", "ку", "от", "ак"],
+      "words": [
+        { "ru": "кот", "fr": "chat" },
+        { "ru": "там", "fr": "là-bas" },
+        { "ru": "тут", "fr": "ici" },
+        { "ru": "так", "fr": "ainsi, comme ça" },
+        { "ru": "как", "fr": "comment" },
+        { "ru": "кто", "fr": "qui" },
+        { "ru": "мак", "fr": "coquelicot" }
+      ]
+    },
+    {
+      "id": "r3",
+      "titleFr": "Premier faux ami",
+      "letters": ["Н"],
+      "tipFr": [
+        "« Н » ressemble à un H majuscule, mais c'est un « n ». C'est le premier faux ami : méfie-toi de lui !"
+      ],
+      "syllables": ["на", "но", "ну", "он", "ан"],
+      "words": [
+        { "ru": "он", "fr": "il" },
+        { "ru": "она", "fr": "elle" },
+        { "ru": "нам", "fr": "à nous" },
+        { "ru": "окно", "fr": "fenêtre" },
+        { "ru": "нота", "fr": "note (de musique)" }
+      ]
+    },
+    {
+      "id": "r4",
+      "titleFr": "Encore des faux amis",
+      "letters": ["С", "Р"],
+      "tipFr": [
+        "« С » se lit toujours « s » (jamais « k »).",
+        "« Р » n'est pas un « p » : c'est un « r » roulé du bout de la langue."
+      ],
+      "syllables": ["са", "со", "су", "ра", "ро", "ру"],
+      "words": [
+        { "ru": "нос", "fr": "nez" },
+        { "ru": "сок", "fr": "jus" },
+        { "ru": "рот", "fr": "bouche" },
+        { "ru": "торт", "fr": "gâteau" },
+        { "ru": "мост", "fr": "pont" },
+        { "ru": "роман", "fr": "roman" },
+        { "ru": "сон", "fr": "rêve, sommeil" }
+      ]
+    },
+    {
+      "id": "r5",
+      "titleFr": "L'accent qui change tout",
+      "letters": ["Е", "И", "Л", "В"],
+      "tipFr": [
+        "« В » ressemble à un B mais se lit « v ». « Е » se lit « ié ».",
+        "Regarde l'accent rouge : seule la voyelle accentuée se prononce « en entier ». Un « о » sans accent se dit presque « a » : « молоко » se prononce « malako »."
+      ],
+      "syllables": ["ла", "ло", "ли", "ле", "ва", "во", "ви", "ве"],
+      "words": [
+        { "ru": "вот", "fr": "voici, voilà" },
+        { "ru": "нет", "fr": "non" },
+        { "ru": "вино", "fr": "vin" },
+        { "ru": "кино", "fr": "cinéma" },
+        { "ru": "лес", "fr": "forêt" },
+        { "ru": "вилка", "fr": "fourchette" },
+        { "ru": "молоко", "fr": "lait" }
+      ]
+    },
+    {
+      "id": "r6",
+      "titleFr": "Deux familles de voyelles",
+      "letters": ["Я", "Ю", "Ё", "Ы", "Э"],
+      "tipFr": [
+        "Les voyelles russes vont par paires : а/я, у/ю, о/ё, ы/и, э/е.",
+        "Celles de droite rendent la consonne d'avant plus douce, comme si tu souriais : « ма » / « мя ».",
+        "Au début d'un mot, elles ajoutent un petit « i » : « я » = « ia », « ю » = « iou »."
+      ],
+      "pairs": [["ма", "мя"], ["му", "мю"], ["мо", "мё"], ["мы", "ми"], ["мэ", "ме"]],
+      "syllables": ["мя", "мю", "мё", "ня", "ню", "ты", "вы"],
+      "words": [
+        { "ru": "мы", "fr": "nous" },
+        { "ru": "ты", "fr": "tu" },
+        { "ru": "вы", "fr": "vous" },
+        { "ru": "это", "fr": "c'est, ça" },
+        { "ru": "моя", "fr": "ma" },
+        { "ru": "мясо", "fr": "viande" },
+        { "ru": "сыр", "fr": "fromage" },
+        { "ru": "ёлка", "fr": "sapin" },
+        { "ru": "юмор", "fr": "humour" }
+      ]
+    },
+    {
+      "id": "r7",
+      "titleFr": "Nouvelles consonnes",
+      "letters": ["Б", "Д", "Г", "П", "З", "Ф"],
+      "tipFr": [
+        "Ces lettres sont nouvelles, mais leurs sons sont simples : b, d, g, p, z, f.",
+        "« П » ressemble à la lettre grecque π et se lit « p ». « З » ressemble au chiffre 3 et se lit « z »."
+      ],
+      "syllables": ["ба", "бо", "да", "до", "га", "го", "па", "по", "за", "фа"],
+      "words": [
+        { "ru": "да", "fr": "oui" },
+        { "ru": "дом", "fr": "maison" },
+        { "ru": "вода", "fr": "eau" },
+        { "ru": "папа", "fr": "papa" },
+        { "ru": "суп", "fr": "soupe" },
+        { "ru": "где", "fr": "où" },
+        { "ru": "газета", "fr": "journal" },
+        { "ru": "фото", "fr": "photo" },
+        { "ru": "зима", "fr": "hiver" },
+        { "ru": "банк", "fr": "banque" }
+      ]
+    },
+    {
+      "id": "r8",
+      "titleFr": "Les chuintantes",
+      "letters": ["Ш", "Ж", "Ч", "Щ", "Ц", "Х", "Й"],
+      "tipFr": [
+        "Ш = « ch », Ж = « j », Ч = « tch », Щ = « ch » long et doux, Ц = « ts ».",
+        "Х ressemble à un X, mais c'est un souffle rauque. Й est un « i » très bref, comme dans « ail »."
+      ],
+      "syllables": ["ша", "шу", "жа", "жу", "ча", "чу", "ща", "ца", "ха", "хо"],
+      "words": [
+        { "ru": "чай", "fr": "thé" },
+        { "ru": "хорошо", "fr": "bien" },
+        { "ru": "шапка", "fr": "bonnet" },
+        { "ru": "журнал", "fr": "magazine" },
+        { "ru": "борщ", "fr": "bortsch" },
+        { "ru": "центр", "fr": "centre" },
+        { "ru": "хлеб", "fr": "pain" },
+        { "ru": "мой", "fr": "mon" },
+        { "ru": "чашка", "fr": "tasse" }
+      ]
+    },
+    {
+      "id": "r9",
+      "titleFr": "Les signes sans son",
+      "letters": ["Ь", "Ъ"],
+      "tipFr": [
+        "Ь (signe mou) rend la consonne d'avant plus douce : « мат » (échec et mat) / « мать » (mère).",
+        "Ъ (signe dur) est rare : il sépare la consonne et la voyelle : « сел » / « съел ».",
+        "Bravo : avec ces deux signes, tu connais toutes les lettres de l'alphabet russe !"
+      ],
+      "pairs": [["мат", "мать"], ["брат", "брать"], ["сел", "съел"]],
+      "syllables": [],
+      "words": [
+        { "ru": "мать", "fr": "mère" },
+        { "ru": "день", "fr": "jour" },
+        { "ru": "соль", "fr": "sel" },
+        { "ru": "семь", "fr": "sept" },
+        { "ru": "словарь", "fr": "dictionnaire" },
+        { "ru": "съел", "fr": "(il) a mangé" },
+        { "ru": "подъезд", "fr": "entrée d'immeuble" }
+      ]
+    }
+  ]
+}

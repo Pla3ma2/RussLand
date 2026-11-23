@@ -1,0 +1,81 @@
+{
+  "id": "04-ville",
+  "order": 4,
+  "titleFr": "Où es-tu ?",
+  "titleRu": "Ты где?",
+  "emoji": "🗺️",
+  "sceneFr": "Luka se promène en ville quand son téléphone sonne : c'est Macha, sa voisine.",
+  "learner": "luka",
+  "dialogue": [
+    { "speaker": "masha", "ru": "Алло, Л+ука! Ты где?", "fr": "Allô, Luka ! Tu es où ?" },
+    { "speaker": "luka", "ru": "Привет, М+аша! Я в парке.", "fr": "Salut, Macha ! Je suis au parc." },
+    { "speaker": "masha", "ru": "А я в кафе. Это близко.", "fr": "Et moi, je suis au café. C'est tout près." },
+    { "speaker": "luka", "ru": "Где кафе?", "fr": "Où est le café ?" },
+    { "speaker": "masha", "ru": "Прямо, потом направо.", "fr": "Tout droit, puis à droite." },
+    { "speaker": "luka", "ru": "Это далеко?", "fr": "C'est loin ?" },
+    { "speaker": "masha", "ru": "Нет, пять минут.", "fr": "Non, cinq minutes." },
+    { "speaker": "luka", "ru": "Хорошо, иду!", "fr": "D'accord, j'arrive !" }
+  ],
+  "explore": {
+    "type": "case",
+    "speaker": "luka",
+    "case": "loct",
+    "frame": "Я в ___.",
+    "frameFr": "Je suis ___.",
+    "color": "#2a9d8f",
+    "words": [
+      { "tile": "парк", "fr": "le parc", "phraseFr": "Je suis au parc." },
+      { "tile": "Москва", "fr": "Moscou", "phraseFr": "Je suis à Moscou." },
+      { "tile": "гостиница", "fr": "l'hôtel", "phraseFr": "Je suis à l'hôtel." },
+      { "tile": "театр", "fr": "le théâtre", "phraseFr": "Je suis au théâtre." }
+    ]
+  },
+  "tasks": [
+    { "type": "pick", "fr": "Dis que tu es à l'hôtel.", "answer": "гостиница" },
+    { "type": "order", "ru": "Прямо, потом направо.", "fr": "Tout droit, puis à droite." }
+  ],
+  "insight": {
+    "by": "masha",
+    "fr": [
+      "Pour dire où tu es, on met « в » (dans, à) devant le lieu, et la fin du mot change : « парк » → « в парке ».",
+      "Le plus souvent, on ajoute ou on remplace par -е : « театр » → « в театре », « Москва » → « в Москве ».",
+      "Ce vert marque toujours le lieu où l'on se trouve.",
+      "« Кафе » et « метро » sont des mots venus d'ailleurs : ils ne changent jamais."
+    ]
+  },
+  "speak": [
+    { "ru": "Я в парке.", "fr": "Je suis au parc." },
+    { "ru": "Где кафе?", "fr": "Où est le café ?" },
+    { "ru": "Это далеко?", "fr": "C'est loin ?" }
+  ],
+  "cando": ["dire où tu es", "demander où se trouve un endroit", "comprendre « tout droit » et « à droite »"],
+  "unlocks": [
+    { "case": "loct", "gender": "masc", "from": "парк", "to": "парке" },
+    { "case": "loct", "gender": "femn", "from": "Москва", "to": "Москве" },
+    { "case": "nomn", "gender": "femn", "from": "Москва", "to": "Москва" }
+  ],
+  "glossary": {
+    "алло": "allô",
+    "лука": "Luka (prénom)",
+    "ты": "tu",
+    "где": "où",
+    "привет": "salut",
+    "маша": "Macha (prénom)",
+    "я": "je",
+    "в": "dans, à",
+    "парке": "parc",
+    "а": "et",
+    "кафе": "café",
+    "это": "c'est, ça",
+    "близко": "près",
+    "прямо": "tout droit",
+    "потом": "puis, ensuite",
+    "направо": "à droite",
+    "далеко": "loin",
+    "нет": "non",
+    "пять": "cinq",
+    "минут": "minutes",
+    "хорошо": "bien, d'accord",
+    "иду": "(j')arrive, (je) vais"
+  }
+}

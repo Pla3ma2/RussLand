@@ -1,0 +1,839 @@
+{
+ "id": "01-rencontre",
+ "order": 1,
+ "titleFr": "Faire connaissance",
+ "titleRu": "Знакомство",
+ "emoji": "👋",
+ "sceneFr": "Luka vient d'arriver à Saint-Pétersbourg. Dans l'escalier de son immeuble, il croise sa voisine.",
+ "learner": "luka",
+ "speakers": {
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  },
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "masha",
+   "ru": "Здравствуйте!",
+   "fr": "Bonjour !",
+   "tokens": [
+    {
+     "t": "Здравствуйте",
+     "s": 3,
+     "w": true,
+     "a": "0e6270054cd1.mp3"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "d382f949170b.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Здравствуйте!",
+   "fr": "Bonjour !",
+   "tokens": [
+    {
+     "t": "Здравствуйте",
+     "s": 3,
+     "w": true,
+     "a": "0e6270054cd1.mp3"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "0062aea749d8.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Меня зовут Маша. А как вас зовут?",
+   "fr": "Je m'appelle Macha. Et vous, comment vous appelez-vous ?",
+   "tokens": [
+    {
+     "t": "Меня",
+     "s": 3,
+     "w": true,
+     "a": "2e3dc1afb7c3.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "зовут",
+     "s": 3,
+     "w": true,
+     "a": "52c2ddd4d21f.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Маша",
+     "s": 1,
+     "w": true,
+     "a": "db2f8c7ea687.mp3"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "как",
+     "s": 1,
+     "w": true,
+     "a": "5211d8f6c0b1.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вас",
+     "s": 1,
+     "w": true,
+     "a": "70a693011bec.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "зовут",
+     "s": 3,
+     "w": true,
+     "a": "52c2ddd4d21f.mp3"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "f35d5a361bc3.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Меня зовут Лука.",
+   "fr": "Je m'appelle Luka.",
+   "tokens": [
+    {
+     "t": "Меня",
+     "s": 3,
+     "w": true,
+     "a": "2e3dc1afb7c3.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "зовут",
+     "s": 3,
+     "w": true,
+     "a": "52c2ddd4d21f.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "0586d0a5b3fb.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Очень приятно!",
+   "fr": "Enchantée !",
+   "tokens": [
+    {
+     "t": "Очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "приятно",
+     "s": 3,
+     "w": true,
+     "a": "5728d5aa0fde.mp3"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "5ce1b03f4fa7.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Очень приятно!",
+   "fr": "Enchanté !",
+   "tokens": [
+    {
+     "t": "Очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "приятно",
+     "s": 3,
+     "w": true,
+     "a": "5728d5aa0fde.mp3"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "ab3b62c9037c.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Вы из Франции?",
+   "fr": "Vous venez de France ?",
+   "tokens": [
+    {
+     "t": "Вы",
+     "s": 1,
+     "w": true,
+     "a": "8b7efd6df007.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "из",
+     "s": 0,
+     "w": true,
+     "a": "176d0e85dfd2.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Франции",
+     "s": 2,
+     "w": true,
+     "a": "d249934360f5.mp3"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "aeb61c30434b.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Да, я из Франции. Я француз.",
+   "fr": "Oui, je viens de France. Je suis français.",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "из",
+     "s": 0,
+     "w": true,
+     "a": "176d0e85dfd2.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Франции",
+     "s": 2,
+     "w": true,
+     "a": "d249934360f5.mp3"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "француз",
+     "s": 5,
+     "w": true,
+     "a": "89464d320698.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "707084501860.mp3"
+  }
+ ],
+ "explore": {
+  "type": "plain",
+  "frameFr": "Je m'appelle ___.",
+  "color": "#5c677d",
+  "before": [
+   {
+    "t": "Меня",
+    "s": 3,
+    "w": true,
+    "a": "2e3dc1afb7c3.mp3"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "зовут",
+    "s": 3,
+    "w": true,
+    "a": "52c2ddd4d21f.mp3"
+   },
+   {
+    "t": " ",
+    "w": false
+   }
+  ],
+  "after": [
+   {
+    "t": ".",
+    "w": false
+   }
+  ],
+  "verb": null,
+  "words": [
+   {
+    "tile": "Лука",
+    "tileStress": 1,
+    "fr": "Luka",
+    "phraseFr": "Je m'appelle Luka.",
+    "phrase": "Меня зовут Лука.",
+    "morph": {
+     "from": "Лука",
+     "to": "Лука",
+     "stem": "Лука",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": false
+    },
+    "audioTile": "805013b1f494.mp3",
+    "audioPhrase": "0586d0a5b3fb.mp3"
+   },
+   {
+    "tile": "Маша",
+    "tileStress": 1,
+    "fr": "Macha",
+    "phraseFr": "Je m'appelle Macha.",
+    "phrase": "Меня зовут Маша.",
+    "morph": {
+     "from": "Маша",
+     "to": "Маша",
+     "stem": "Маша",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": false
+    },
+    "audioTile": "db2f8c7ea687.mp3",
+    "audioPhrase": "94eadbc58bb4.mp3"
+   },
+   {
+    "tile": "Анна",
+    "tileStress": 0,
+    "fr": "Anna",
+    "phraseFr": "Je m'appelle Anna.",
+    "phrase": "Меня зовут Анна.",
+    "morph": {
+     "from": "Анна",
+     "to": "Анна",
+     "stem": "Анна",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 0,
+     "stressTo": 0,
+     "changed": false
+    },
+    "audioTile": "3b145c7baf49.mp3",
+    "audioPhrase": "6f858399665e.mp3"
+   },
+   {
+    "tile": "Олег",
+    "tileStress": 2,
+    "fr": "Oleg",
+    "phraseFr": "Je m'appelle Oleg.",
+    "phrase": "Меня зовут Олег.",
+    "morph": {
+     "from": "Олег",
+     "to": "Олег",
+     "stem": "Олег",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": false
+    },
+    "audioTile": "26ccd9749ec0.mp3",
+    "audioPhrase": "2d7140118be2.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Présente-toi comme si tu t'appelais Anna.",
+   "answer": "Анна"
+  },
+  {
+   "type": "order",
+   "line": {
+    "speaker": "luka",
+    "ru": "Да, я из Франции.",
+    "fr": "Oui, je viens de France.",
+    "tokens": [
+     {
+      "t": "Да",
+      "s": 1,
+      "w": true,
+      "a": "ef28ca08681f.mp3"
+     },
+     {
+      "t": ", ",
+      "w": false
+     },
+     {
+      "t": "я",
+      "s": 0,
+      "w": true,
+      "a": "70b9d9783365.mp3"
+     },
+     {
+      "t": " ",
+      "w": false
+     },
+     {
+      "t": "из",
+      "s": 0,
+      "w": true,
+      "a": "176d0e85dfd2.mp3"
+     },
+     {
+      "t": " ",
+      "w": false
+     },
+     {
+      "t": "Франции",
+      "s": 2,
+      "w": true,
+      "a": "d249934360f5.mp3"
+     },
+     {
+      "t": ".",
+      "w": false
+     }
+    ],
+    "audio": "9c92b3f81742.mp3"
+   }
+  }
+ ],
+ "insight": {
+  "by": "masha",
+  "fr": [
+   "« Меня зовут » veut dire mot à mot « on m'appelle ». Pour donner ton prénom, tu commences toujours par ces deux mots.",
+   "Tu as remarqué ? « Я француз » : il n'y a pas de verbe « être ». Au présent, le russe s'en passe : « Я Лука » = « Je suis Luka ».",
+   "Une femme dirait « Я француженка ». Comme en français, le mot change selon qu'on est un homme ou une femme."
+  ]
+ },
+ "speak": [
+  {
+   "speaker": "luka",
+   "ru": "Меня зовут Лука.",
+   "fr": "Je m'appelle Luka.",
+   "tokens": [
+    {
+     "t": "Меня",
+     "s": 3,
+     "w": true,
+     "a": "2e3dc1afb7c3.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "зовут",
+     "s": 3,
+     "w": true,
+     "a": "52c2ddd4d21f.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "0586d0a5b3fb.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Очень приятно!",
+   "fr": "Enchanté !",
+   "tokens": [
+    {
+     "t": "Очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "приятно",
+     "s": 3,
+     "w": true,
+     "a": "5728d5aa0fde.mp3"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "ab3b62c9037c.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Я француз.",
+   "fr": "Je suis français.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "француз",
+     "s": 5,
+     "w": true,
+     "a": "89464d320698.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "6078d56864f5.mp3"
+  }
+ ],
+ "grammar": [
+  "да я из франции я француз",
+  "здравствуйте",
+  "меня зовут лука",
+  "очень приятно",
+  "я француз",
+  "[unk]"
+ ],
+ "cando": [
+  "saluer poliment",
+  "dire comment tu t'appelles",
+  "dire d'où tu viens"
+ ],
+ "glossary": {
+  "здравствуйте": "bonjour (poli)",
+  "меня": "me, moi",
+  "зовут": "(on) appelle",
+  "маша": "Macha (prénom)",
+  "а": "et, et puis",
+  "как": "comment",
+  "вас": "vous",
+  "лука": "Luka (prénom)",
+  "очень": "très",
+  "приятно": "agréable",
+  "вы": "vous",
+  "из": "de (provenance)",
+  "франции": "France",
+  "да": "oui",
+  "я": "je, moi",
+  "француз": "Français (homme)"
+ },
+ "unlocks": [
+  {
+   "case": "nomn",
+   "gender": "masc",
+   "from": "француз",
+   "to": "француз"
+  },
+  {
+   "case": "nomn",
+   "gender": "femn",
+   "from": "Маша",
+   "to": "Маша"
+  }
+ ],
+ "items": [
+  {
+   "id": "01-rencontre:09b6d950",
+   "ru": "Меня зовут Лука.",
+   "fr": "Je m'appelle Luka.",
+   "tokens": [
+    {
+     "t": "Меня",
+     "s": 3,
+     "w": true,
+     "a": "2e3dc1afb7c3.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "зовут",
+     "s": 3,
+     "w": true,
+     "a": "52c2ddd4d21f.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "0586d0a5b3fb.mp3"
+  },
+  {
+   "id": "01-rencontre:38f6e0f7",
+   "ru": "Очень приятно!",
+   "fr": "Enchanté !",
+   "tokens": [
+    {
+     "t": "Очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "приятно",
+     "s": 3,
+     "w": true,
+     "a": "5728d5aa0fde.mp3"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "ab3b62c9037c.mp3"
+  },
+  {
+   "id": "01-rencontre:4fc7cea1",
+   "ru": "Я француз.",
+   "fr": "Je suis français.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "француз",
+     "s": 5,
+     "w": true,
+     "a": "89464d320698.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "6078d56864f5.mp3"
+  },
+  {
+   "id": "01-rencontre:8755407d",
+   "ru": "Здравствуйте!",
+   "fr": "Bonjour !",
+   "tokens": [
+    {
+     "t": "Здравствуйте",
+     "s": 3,
+     "w": true,
+     "a": "0e6270054cd1.mp3"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "0062aea749d8.mp3"
+  },
+  {
+   "id": "01-rencontre:43841225",
+   "ru": "Да, я из Франции. Я француз.",
+   "fr": "Oui, je viens de France. Je suis français.",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "из",
+     "s": 0,
+     "w": true,
+     "a": "176d0e85dfd2.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Франции",
+     "s": 2,
+     "w": true,
+     "a": "d249934360f5.mp3"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "француз",
+     "s": 5,
+     "w": true,
+     "a": "89464d320698.mp3"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "707084501860.mp3"
+  }
+ ],
+ "hasAudio": false
+}

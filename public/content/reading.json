@@ -1,0 +1,873 @@
+{
+ "stages": [
+  {
+   "id": "r1",
+   "titleFr": "Premiers pas",
+   "letters": [
+    "А",
+    "О",
+    "У",
+    "М"
+   ],
+   "tipFr": [
+    "Trois voyelles et une consonne suffisent déjà pour lire tes premières syllabes.",
+    "Attention : « У » ressemble à un Y, mais se prononce « ou ».",
+    "Une consonne s'accroche à la voyelle qui la suit : м + а = « ма ». Glisse de l'une à l'autre sans t'arrêter."
+   ],
+   "syllables": [
+    {
+     "t": "ма",
+     "audio": "a2cfdf51e00d.mp3"
+    },
+    {
+     "t": "мо",
+     "audio": "73812ab9f7ed.mp3"
+    },
+    {
+     "t": "му",
+     "audio": "80cee82b1679.mp3"
+    },
+    {
+     "t": "ам",
+     "audio": "7a03ae3f2ec7.mp3"
+    },
+    {
+     "t": "ом",
+     "audio": "64fe4527ef65.mp3"
+    },
+    {
+     "t": "ум",
+     "audio": "1c2538945036.mp3"
+    }
+   ],
+   "words": [
+    {
+     "t": "мама",
+     "s": 1,
+     "fr": "maman",
+     "audio": "c6dd96399edb.mp3"
+    },
+    {
+     "t": "ум",
+     "s": 0,
+     "fr": "esprit, intelligence",
+     "audio": "b8c658984f9a.mp3"
+    }
+   ],
+   "pairs": []
+  },
+  {
+   "id": "r2",
+   "titleFr": "Des lettres familières",
+   "letters": [
+    "Т",
+    "К"
+   ],
+   "tipFr": [
+    "« Т » et « К » se lisent comme en français.",
+    "Avec seulement six lettres, tu peux déjà lire de vrais mots utiles !"
+   ],
+   "syllables": [
+    {
+     "t": "та",
+     "audio": "00c7334ec5cc.mp3"
+    },
+    {
+     "t": "то",
+     "audio": "3bf8b516c88b.mp3"
+    },
+    {
+     "t": "ту",
+     "audio": "f5b9b599bc53.mp3"
+    },
+    {
+     "t": "ка",
+     "audio": "545ca8f8ccf1.mp3"
+    },
+    {
+     "t": "ко",
+     "audio": "6057c5da8239.mp3"
+    },
+    {
+     "t": "ку",
+     "audio": "8e3b888ef24d.mp3"
+    },
+    {
+     "t": "от",
+     "audio": "dbce9f86ad6f.mp3"
+    },
+    {
+     "t": "ак",
+     "audio": "e09ca07a972b.mp3"
+    }
+   ],
+   "words": [
+    {
+     "t": "кот",
+     "s": 1,
+     "fr": "chat",
+     "audio": "099fd6e82b8e.mp3"
+    },
+    {
+     "t": "там",
+     "s": 1,
+     "fr": "là-bas",
+     "audio": "a93f0ec75463.mp3"
+    },
+    {
+     "t": "тут",
+     "s": 1,
+     "fr": "ici",
+     "audio": "3232d1cf2038.mp3"
+    },
+    {
+     "t": "так",
+     "s": 1,
+     "fr": "ainsi, comme ça",
+     "audio": "4b4a256e0d11.mp3"
+    },
+    {
+     "t": "как",
+     "s": 1,
+     "fr": "comment",
+     "audio": "5211d8f6c0b1.mp3"
+    },
+    {
+     "t": "кто",
+     "s": 2,
+     "fr": "qui",
+     "audio": "72d9eab0cc53.mp3"
+    },
+    {
+     "t": "мак",
+     "s": 1,
+     "fr": "coquelicot",
+     "audio": "4c4acc60f83d.mp3"
+    }
+   ],
+   "pairs": []
+  },
+  {
+   "id": "r3",
+   "titleFr": "Premier faux ami",
+   "letters": [
+    "Н"
+   ],
+   "tipFr": [
+    "« Н » ressemble à un H majuscule, mais c'est un « n ». C'est le premier faux ami : méfie-toi de lui !"
+   ],
+   "syllables": [
+    {
+     "t": "на",
+     "audio": "385e4cd73291.mp3"
+    },
+    {
+     "t": "но",
+     "audio": "e4038cb17f91.mp3"
+    },
+    {
+     "t": "ну",
+     "audio": "cf07c95aced5.mp3"
+    },
+    {
+     "t": "он",
+     "audio": "b28744395556.mp3"
+    },
+    {
+     "t": "ан",
+     "audio": "0b4d00e366aa.mp3"
+    }
+   ],
+   "words": [
+    {
+     "t": "он",
+     "s": 0,
+     "fr": "il",
+     "audio": "3adf56884a0b.mp3"
+    },
+    {
+     "t": "она",
+     "s": 2,
+     "fr": "elle",
+     "audio": "bd63622a7f54.mp3"
+    },
+    {
+     "t": "нам",
+     "s": 1,
+     "fr": "à nous",
+     "audio": "605b1269d028.mp3"
+    },
+    {
+     "t": "окно",
+     "s": 3,
+     "fr": "fenêtre",
+     "audio": "0947720f6505.mp3"
+    },
+    {
+     "t": "нота",
+     "s": 1,
+     "fr": "note (de musique)",
+     "audio": "99cf68d28db6.mp3"
+    }
+   ],
+   "pairs": []
+  },
+  {
+   "id": "r4",
+   "titleFr": "Encore des faux amis",
+   "letters": [
+    "С",
+    "Р"
+   ],
+   "tipFr": [
+    "« С » se lit toujours « s » (jamais « k »).",
+    "« Р » n'est pas un « p » : c'est un « r » roulé du bout de la langue."
+   ],
+   "syllables": [
+    {
+     "t": "са",
+     "audio": "b0724fc4653a.mp3"
+    },
+    {
+     "t": "со",
+     "audio": "46f3db23d6c2.mp3"
+    },
+    {
+     "t": "су",
+     "audio": "b9c5b81c3a20.mp3"
+    },
+    {
+     "t": "ра",
+     "audio": "1a5326c544ab.mp3"
+    },
+    {
+     "t": "ро",
+     "audio": "fd2eab29536d.mp3"
+    },
+    {
+     "t": "ру",
+     "audio": "259bcd6ebed3.mp3"
+    }
+   ],
+   "words": [
+    {
+     "t": "нос",
+     "s": 1,
+     "fr": "nez",
+     "audio": "76d1256817d4.mp3"
+    },
+    {
+     "t": "сок",
+     "s": 1,
+     "fr": "jus",
+     "audio": "fed4dde9f98e.mp3"
+    },
+    {
+     "t": "рот",
+     "s": 1,
+     "fr": "bouche",
+     "audio": "a121955ff9fa.mp3"
+    },
+    {
+     "t": "торт",
+     "s": 1,
+     "fr": "gâteau",
+     "audio": "cdf01c4f248e.mp3"
+    },
+    {
+     "t": "мост",
+     "s": 1,
+     "fr": "pont",
+     "audio": "440b2aa5edb4.mp3"
+    },
+    {
+     "t": "роман",
+     "s": 3,
+     "fr": "roman",
+     "audio": "8b3c8e444718.mp3"
+    },
+    {
+     "t": "сон",
+     "s": 1,
+     "fr": "rêve, sommeil",
+     "audio": "531ea03ecf08.mp3"
+    }
+   ],
+   "pairs": []
+  },
+  {
+   "id": "r5",
+   "titleFr": "L'accent qui change tout",
+   "letters": [
+    "Е",
+    "И",
+    "Л",
+    "В"
+   ],
+   "tipFr": [
+    "« В » ressemble à un B mais se lit « v ». « Е » se lit « ié ».",
+    "Regarde l'accent rouge : seule la voyelle accentuée se prononce « en entier ». Un « о » sans accent se dit presque « a » : « молоко » se prononce « malako »."
+   ],
+   "syllables": [
+    {
+     "t": "ла",
+     "audio": "c280d0a53884.mp3"
+    },
+    {
+     "t": "ло",
+     "audio": "946e5fdc2d6b.mp3"
+    },
+    {
+     "t": "ли",
+     "audio": "3200e52d029a.mp3"
+    },
+    {
+     "t": "ле",
+     "audio": "dd478d2af44a.mp3"
+    },
+    {
+     "t": "ва",
+     "audio": "fd17e0cf7a8f.mp3"
+    },
+    {
+     "t": "во",
+     "audio": "0e30f1a0cbba.mp3"
+    },
+    {
+     "t": "ви",
+     "audio": "d9363ede0f6c.mp3"
+    },
+    {
+     "t": "ве",
+     "audio": "d0f2ae70b33a.mp3"
+    }
+   ],
+   "words": [
+    {
+     "t": "вот",
+     "s": 1,
+     "fr": "voici, voilà",
+     "audio": "a716dd666e5a.mp3"
+    },
+    {
+     "t": "нет",
+     "s": 1,
+     "fr": "non",
+     "audio": "2e0323d3f1b3.mp3"
+    },
+    {
+     "t": "вино",
+     "s": 3,
+     "fr": "vin",
+     "audio": "bf94163ae1ab.mp3"
+    },
+    {
+     "t": "кино",
+     "s": 3,
+     "fr": "cinéma",
+     "audio": "c3efe5a31dae.mp3"
+    },
+    {
+     "t": "лес",
+     "s": 1,
+     "fr": "forêt",
+     "audio": "52d1b8d9e284.mp3"
+    },
+    {
+     "t": "вилка",
+     "s": 1,
+     "fr": "fourchette",
+     "audio": "9b2fe422286d.mp3"
+    },
+    {
+     "t": "молоко",
+     "s": 5,
+     "fr": "lait",
+     "audio": "37048ec5851a.mp3"
+    }
+   ],
+   "pairs": []
+  },
+  {
+   "id": "r6",
+   "titleFr": "Deux familles de voyelles",
+   "letters": [
+    "Я",
+    "Ю",
+    "Ё",
+    "Ы",
+    "Э"
+   ],
+   "tipFr": [
+    "Les voyelles russes vont par paires : а/я, у/ю, о/ё, ы/и, э/е.",
+    "Celles de droite rendent la consonne d'avant plus douce, comme si tu souriais : « ма » / « мя ».",
+    "Au début d'un mot, elles ajoutent un petit « i » : « я » = « ia », « ю » = « iou »."
+   ],
+   "syllables": [
+    {
+     "t": "мя",
+     "audio": "a0cf3295784a.mp3"
+    },
+    {
+     "t": "мю",
+     "audio": "9601e7af7f52.mp3"
+    },
+    {
+     "t": "мё",
+     "audio": "53f78e7c19f0.mp3"
+    },
+    {
+     "t": "ня",
+     "audio": "8c85313975ce.mp3"
+    },
+    {
+     "t": "ню",
+     "audio": "76751cf66fa3.mp3"
+    },
+    {
+     "t": "ты",
+     "audio": "04ef552344c8.mp3"
+    },
+    {
+     "t": "вы",
+     "audio": "f0da0b730ed4.mp3"
+    }
+   ],
+   "words": [
+    {
+     "t": "мы",
+     "s": 1,
+     "fr": "nous",
+     "audio": "a234675be3c5.mp3"
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "fr": "tu",
+     "audio": "984afcea50b6.mp3"
+    },
+    {
+     "t": "вы",
+     "s": 1,
+     "fr": "vous",
+     "audio": "8b7efd6df007.mp3"
+    },
+    {
+     "t": "это",
+     "s": 0,
+     "fr": "c'est, ça",
+     "audio": "eecbe7a3009e.mp3"
+    },
+    {
+     "t": "моя",
+     "s": 2,
+     "fr": "ma",
+     "audio": "256d62a930d9.mp3"
+    },
+    {
+     "t": "мясо",
+     "s": 1,
+     "fr": "viande",
+     "audio": "fac91e468a51.mp3"
+    },
+    {
+     "t": "сыр",
+     "s": 1,
+     "fr": "fromage",
+     "audio": "d52bedeba444.mp3"
+    },
+    {
+     "t": "ёлка",
+     "s": 0,
+     "fr": "sapin",
+     "audio": "72b41cc25a86.mp3"
+    },
+    {
+     "t": "юмор",
+     "s": 0,
+     "fr": "humour",
+     "audio": "af341df46f95.mp3"
+    }
+   ],
+   "pairs": [
+    [
+     {
+      "t": "ма",
+      "audio": "a2cfdf51e00d.mp3"
+     },
+     {
+      "t": "мя",
+      "audio": "a0cf3295784a.mp3"
+     }
+    ],
+    [
+     {
+      "t": "му",
+      "audio": "80cee82b1679.mp3"
+     },
+     {
+      "t": "мю",
+      "audio": "9601e7af7f52.mp3"
+     }
+    ],
+    [
+     {
+      "t": "мо",
+      "audio": "73812ab9f7ed.mp3"
+     },
+     {
+      "t": "мё",
+      "audio": "53f78e7c19f0.mp3"
+     }
+    ],
+    [
+     {
+      "t": "мы",
+      "audio": "76b1575787b5.mp3"
+     },
+     {
+      "t": "ми",
+      "audio": "71cf5c9a7cc9.mp3"
+     }
+    ],
+    [
+     {
+      "t": "мэ",
+      "audio": "b679388ed3d3.mp3"
+     },
+     {
+      "t": "ме",
+      "audio": "aba237e916bb.mp3"
+     }
+    ]
+   ]
+  },
+  {
+   "id": "r7",
+   "titleFr": "Nouvelles consonnes",
+   "letters": [
+    "Б",
+    "Д",
+    "Г",
+    "П",
+    "З",
+    "Ф"
+   ],
+   "tipFr": [
+    "Ces lettres sont nouvelles, mais leurs sons sont simples : b, d, g, p, z, f.",
+    "« П » ressemble à la lettre grecque π et se lit « p ». « З » ressemble au chiffre 3 et se lit « z »."
+   ],
+   "syllables": [
+    {
+     "t": "ба",
+     "audio": "1e185008912f.mp3"
+    },
+    {
+     "t": "бо",
+     "audio": "41e9d78affd2.mp3"
+    },
+    {
+     "t": "да",
+     "audio": "470a2efa06e1.mp3"
+    },
+    {
+     "t": "до",
+     "audio": "86a98f661f21.mp3"
+    },
+    {
+     "t": "га",
+     "audio": "f411c8d2bd7d.mp3"
+    },
+    {
+     "t": "го",
+     "audio": "f25df4503a9c.mp3"
+    },
+    {
+     "t": "па",
+     "audio": "44b5856ae267.mp3"
+    },
+    {
+     "t": "по",
+     "audio": "da4bc6291522.mp3"
+    },
+    {
+     "t": "за",
+     "audio": "043292af7269.mp3"
+    },
+    {
+     "t": "фа",
+     "audio": "f925a82ebda1.mp3"
+    }
+   ],
+   "words": [
+    {
+     "t": "да",
+     "s": 1,
+     "fr": "oui",
+     "audio": "ef28ca08681f.mp3"
+    },
+    {
+     "t": "дом",
+     "s": 1,
+     "fr": "maison",
+     "audio": "0bdad8b0c306.mp3"
+    },
+    {
+     "t": "вода",
+     "s": 3,
+     "fr": "eau",
+     "audio": "1b83b6fefbb0.mp3"
+    },
+    {
+     "t": "папа",
+     "s": 1,
+     "fr": "papa",
+     "audio": "bc1c0e6f10e8.mp3"
+    },
+    {
+     "t": "суп",
+     "s": 1,
+     "fr": "soupe",
+     "audio": "527de7696f59.mp3"
+    },
+    {
+     "t": "где",
+     "s": 2,
+     "fr": "où",
+     "audio": "fe72644ce047.mp3"
+    },
+    {
+     "t": "газета",
+     "s": 3,
+     "fr": "journal",
+     "audio": "81ba1decd970.mp3"
+    },
+    {
+     "t": "фото",
+     "s": 1,
+     "fr": "photo",
+     "audio": "be48445f561d.mp3"
+    },
+    {
+     "t": "зима",
+     "s": 3,
+     "fr": "hiver",
+     "audio": "3503e8930f3d.mp3"
+    },
+    {
+     "t": "банк",
+     "s": 1,
+     "fr": "banque",
+     "audio": "7bc003bf4da8.mp3"
+    }
+   ],
+   "pairs": []
+  },
+  {
+   "id": "r8",
+   "titleFr": "Les chuintantes",
+   "letters": [
+    "Ш",
+    "Ж",
+    "Ч",
+    "Щ",
+    "Ц",
+    "Х",
+    "Й"
+   ],
+   "tipFr": [
+    "Ш = « ch », Ж = « j », Ч = « tch », Щ = « ch » long et doux, Ц = « ts ».",
+    "Х ressemble à un X, mais c'est un souffle rauque. Й est un « i » très bref, comme dans « ail »."
+   ],
+   "syllables": [
+    {
+     "t": "ша",
+     "audio": "ffea7361c555.mp3"
+    },
+    {
+     "t": "шу",
+     "audio": "454c4066e382.mp3"
+    },
+    {
+     "t": "жа",
+     "audio": "8f7286ccbf27.mp3"
+    },
+    {
+     "t": "жу",
+     "audio": "2a93888dc074.mp3"
+    },
+    {
+     "t": "ча",
+     "audio": "4960dd95fe13.mp3"
+    },
+    {
+     "t": "чу",
+     "audio": "70e29da163d8.mp3"
+    },
+    {
+     "t": "ща",
+     "audio": "2c268188dd12.mp3"
+    },
+    {
+     "t": "ца",
+     "audio": "e0427d4bf9b3.mp3"
+    },
+    {
+     "t": "ха",
+     "audio": "502a46907ea6.mp3"
+    },
+    {
+     "t": "хо",
+     "audio": "2d7ec8a0c01c.mp3"
+    }
+   ],
+   "words": [
+    {
+     "t": "чай",
+     "s": 1,
+     "fr": "thé",
+     "audio": "0f1ca028b347.mp3"
+    },
+    {
+     "t": "хорошо",
+     "s": 5,
+     "fr": "bien",
+     "audio": "a779ac8a9072.mp3"
+    },
+    {
+     "t": "шапка",
+     "s": 1,
+     "fr": "bonnet",
+     "audio": "5ae771d4b676.mp3"
+    },
+    {
+     "t": "журнал",
+     "s": 4,
+     "fr": "magazine",
+     "audio": "627fb4cebc94.mp3"
+    },
+    {
+     "t": "борщ",
+     "s": 1,
+     "fr": "bortsch",
+     "audio": "8a9434e8f18d.mp3"
+    },
+    {
+     "t": "центр",
+     "s": 1,
+     "fr": "centre",
+     "audio": "45ff07304d02.mp3"
+    },
+    {
+     "t": "хлеб",
+     "s": 2,
+     "fr": "pain",
+     "audio": "0ca301267827.mp3"
+    },
+    {
+     "t": "мой",
+     "s": 1,
+     "fr": "mon",
+     "audio": "5e69d8e4000b.mp3"
+    },
+    {
+     "t": "чашка",
+     "s": 1,
+     "fr": "tasse",
+     "audio": "89b1a23a47ec.mp3"
+    }
+   ],
+   "pairs": []
+  },
+  {
+   "id": "r9",
+   "titleFr": "Les signes sans son",
+   "letters": [
+    "Ь",
+    "Ъ"
+   ],
+   "tipFr": [
+    "Ь (signe mou) rend la consonne d'avant plus douce : « мат » (échec et mat) / « мать » (mère).",
+    "Ъ (signe dur) est rare : il sépare la consonne et la voyelle : « сел » / « съел ».",
+    "Bravo : avec ces deux signes, tu connais toutes les lettres de l'alphabet russe !"
+   ],
+   "syllables": [],
+   "words": [
+    {
+     "t": "мать",
+     "s": 1,
+     "fr": "mère",
+     "audio": "ac921f0d8aaa.mp3"
+    },
+    {
+     "t": "день",
+     "s": 1,
+     "fr": "jour",
+     "audio": "f0d5c469ba4e.mp3"
+    },
+    {
+     "t": "соль",
+     "s": 1,
+     "fr": "sel",
+     "audio": "61866fed642c.mp3"
+    },
+    {
+     "t": "семь",
+     "s": 1,
+     "fr": "sept",
+     "audio": "51a184b078fc.mp3"
+    },
+    {
+     "t": "словарь",
+     "s": 4,
+     "fr": "dictionnaire",
+     "audio": "633976a2f783.mp3"
+    },
+    {
+     "t": "съел",
+     "s": 2,
+     "fr": "(il) a mangé",
+     "audio": "e8db0d62bef0.mp3"
+    },
+    {
+     "t": "подъезд",
+     "s": 4,
+     "fr": "entrée d'immeuble",
+     "audio": "1d57d412c21e.mp3"
+    }
+   ],
+   "pairs": [
+    [
+     {
+      "t": "мат",
+      "audio": "9e17925fc473.mp3"
+     },
+     {
+      "t": "мать",
+      "audio": "42948794e230.mp3"
+     }
+    ],
+    [
+     {
+      "t": "брат",
+      "audio": "4c2ee5caa9f8.mp3"
+     },
+     {
+      "t": "брать",
+      "audio": "ff6d85577d7e.mp3"
+     }
+    ],
+    [
+     {
+      "t": "сел",
+      "audio": "2281a855f102.mp3"
+     },
+     {
+      "t": "съел",
+      "audio": "bfabc7c544f3.mp3"
+     }
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+  "cases": [
+    { "id": "nomn", "fr": "Forme de base", "hintFr": "qui ? quoi ? — le mot du dictionnaire", "color": "#5c677d" },
+    { "id": "accs", "fr": "Ce qu'on veut, prend, aime", "hintFr": "après хочу, дайте, люблю", "color": "#3a86ff" },
+    { "id": "loct", "fr": "Le lieu où l'on est", "hintFr": "après в (dans, à)", "color": "#2a9d8f" }
+  ],
+  "genders": [
+    { "id": "masc", "fr": "masculin", "hintFr": "souvent une consonne à la fin" },
+    { "id": "femn", "fr": "féminin", "hintFr": "-а, -я" },
+    { "id": "neut", "fr": "neutre", "hintFr": "-о, -е" }
+  ],
+  "verbColor": "#8e44ad",
+  "verbs": [
+    { "verb": "хотеть", "fr": "vouloir" },
+    { "verb": "понимать", "fr": "comprendre" },
+    { "verb": "говорить", "fr": "parler" },
+    { "verb": "жить", "fr": "habiter, vivre" },
+    { "verb": "любить", "fr": "aimer" }
+  ]
+}

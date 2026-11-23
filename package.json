@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Pla3ma2/russland#readme",
   "dependencies": {
+    "ts-fsrs": "^5.4.2",
     "vosk-browser": "^0.0.8"
   },
   "devDependencies": {

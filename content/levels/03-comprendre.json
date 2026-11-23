@@ -1,0 +1,85 @@
+{
+  "id": "03-comprendre",
+  "order": 3,
+  "titleFr": "Je ne comprends pas",
+  "titleRu": "Я не понимаю",
+  "emoji": "🤔",
+  "sceneFr": "Dans la rue, un passant pressé demande son chemin à Luka. Il parle vite… beaucoup trop vite.",
+  "learner": "luka",
+  "dialogue": [
+    { "speaker": "oleg", "ru": "Извините, где здесь банк?", "fr": "Excusez-moi, où est la banque, par ici ?" },
+    { "speaker": "luka", "ru": "Извините, я не понимаю.", "fr": "Pardon, je ne comprends pas." },
+    { "speaker": "oleg", "ru": "Где здесь банк?", "fr": "Où est la banque, par ici ?" },
+    { "speaker": "luka", "ru": "Говорите медленнее, пожалуйста.", "fr": "Parlez plus lentement, s'il vous plaît." },
+    { "speaker": "oleg", "ru": "Вы говорите по-р+усски?", "fr": "Vous parlez russe ?" },
+    { "speaker": "luka", "ru": "Немного. Я понимаю, но плохо.", "fr": "Un peu. Je comprends, mais mal." },
+    { "speaker": "oleg", "ru": "А по-англ+ийски?", "fr": "Et anglais ?" },
+    { "speaker": "luka", "ru": "Нет. Я говорю по-франц+узски.", "fr": "Non. Je parle français." },
+    { "speaker": "oleg", "ru": "Ничего! Банк там.", "fr": "Ce n'est pas grave ! La banque est là-bas." },
+    { "speaker": "luka", "ru": "Спасибо!", "fr": "Merci !" }
+  ],
+  "explore": {
+    "type": "person",
+    "speaker": "luka",
+    "verb": "понимать",
+    "frame": "___ {V} по-р+усски.",
+    "frameFr": "___ comprendre le russe.",
+    "color": "#8e44ad",
+    "words": [
+      { "tile": "я", "fr": "je", "phraseFr": "Je comprends le russe." },
+      { "tile": "ты", "fr": "tu", "phraseFr": "Tu comprends le russe." },
+      { "tile": "она", "fr": "elle", "phraseFr": "Elle comprend le russe." },
+      { "tile": "мы", "fr": "nous", "phraseFr": "Nous comprenons le russe." },
+      { "tile": "вы", "fr": "vous", "phraseFr": "Vous comprenez le russe." },
+      { "tile": "они", "fr": "ils, elles", "phraseFr": "Ils comprennent le russe." }
+    ]
+  },
+  "tasks": [
+    { "type": "pick", "fr": "Dis « Vous comprenez le russe ».", "answer": "вы" },
+    { "type": "order", "ru": "Говорите медленнее, пожалуйста.", "fr": "Parlez plus lentement, s'il vous plaît." }
+  ],
+  "insight": {
+    "by": "oleg",
+    "fr": [
+      "Comme en français, la fin du verbe change avec la personne : « je comprends », « vous comprenez »…",
+      "Я понима-ю, ты понима-ешь, мы понима-ем, вы понима-ете : écoute surtout la fin violette, c'est elle qui dit qui parle.",
+      "« Вы » sert à vouvoyer quelqu'un ou à parler à plusieurs personnes, exactement comme « vous ».",
+      "Pour dire non, il suffit de mettre « не » devant le verbe : « я не понимаю » = « je ne comprends pas »."
+    ]
+  },
+  "speak": [
+    { "ru": "Я не понимаю.", "fr": "Je ne comprends pas." },
+    { "ru": "Говорите медленнее, пожалуйста.", "fr": "Parlez plus lentement, s'il vous plaît." },
+    { "ru": "Я говорю по-франц+узски.", "fr": "Je parle français." }
+  ],
+  "cando": ["dire que tu ne comprends pas", "demander de parler plus lentement", "dire quelle langue tu parles"],
+  "unlocks": [
+    { "verb": "понимать", "persons": ["я", "ты", "он", "мы", "вы", "они"] },
+    { "verb": "говорить", "persons": ["я", "вы"] }
+  ],
+  "glossary": {
+    "извините": "excusez-moi, pardon",
+    "где": "où",
+    "здесь": "ici",
+    "банк": "banque",
+    "я": "je",
+    "не": "ne… pas",
+    "понимаю": "(je) comprends",
+    "говорите": "parlez",
+    "медленнее": "plus lentement",
+    "пожалуйста": "s'il vous plaît",
+    "вы": "vous",
+    "по-русски": "en russe",
+    "немного": "un peu",
+    "но": "mais",
+    "плохо": "mal",
+    "а": "et",
+    "по-английски": "en anglais",
+    "нет": "non",
+    "говорю": "(je) parle",
+    "по-французски": "en français",
+    "ничего": "ce n'est pas grave (mot à mot : rien)",
+    "там": "là-bas",
+    "спасибо": "merci"
+  }
+}

@@ -1,6 +1,77 @@
-[
- {
-  "id": "proto-cafe",
-  "titleFr": "Au café"
- }
-]
+{
+ "hasAudio": false,
+ "levels": [
+  {
+   "id": "01-rencontre",
+   "order": 1,
+   "titleFr": "Faire connaissance",
+   "titleRu": "Знакомство",
+   "emoji": "👋",
+   "cando": [
+    "saluer poliment",
+    "dire comment tu t'appelles",
+    "dire d'où tu viens"
+   ]
+  },
+  {
+   "id": "02-cafe",
+   "order": 2,
+   "titleFr": "Au café",
+   "titleRu": "В кафе",
+   "emoji": "☕",
+   "cando": [
+    "commander à boire et à manger",
+    "dire s'il vous plaît et merci",
+    "reconnaître la terminaison bleue -у"
+   ]
+  },
+  {
+   "id": "03-comprendre",
+   "order": 3,
+   "titleFr": "Je ne comprends pas",
+   "titleRu": "Я не понимаю",
+   "emoji": "🤔",
+   "cando": [
+    "dire que tu ne comprends pas",
+    "demander de parler plus lentement",
+    "dire quelle langue tu parles"
+   ]
+  },
+  {
+   "id": "04-ville",
+   "order": 4,
+   "titleFr": "Où es-tu ?",
+   "titleRu": "Ты где?",
+   "emoji": "🗺️",
+   "cando": [
+    "dire où tu es",
+    "demander où se trouve un endroit",
+    "comprendre « tout droit » et « à droite »"
+   ]
+  },
+  {
+   "id": "05-magasin",
+   "order": 5,
+   "titleFr": "Au magasin",
+   "titleRu": "В магазине",
+   "emoji": "🛒",
+   "cando": [
+    "demander si un produit est disponible",
+    "demander le prix",
+    "dire au revoir"
+   ]
+  },
+  {
+   "id": "06-amis",
+   "order": 6,
+   "titleFr": "Chez des amis",
+   "titleRu": "В гостях",
+   "emoji": "🍲",
+   "cando": [
+    "présenter un ami",
+    "dire où tu habites",
+    "parler de ce que tu aimes"
+   ]
+  }
+ ]
+}
