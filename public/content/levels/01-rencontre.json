@@ -7,15 +7,15 @@
  "sceneFr": "Luka vient d'arriver à Saint-Pétersbourg. Dans l'escalier de son immeuble, il croise sa voisine.",
  "learner": "luka",
  "speakers": {
-  "luka": {
-   "name": "Лука",
-   "nameFr": "Luka",
-   "color": "#3d5a80"
-  },
   "masha": {
    "name": "Маша",
    "nameFr": "Macha",
    "color": "#e07a5f"
+  },
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
   }
  },
  "dialogue": [
