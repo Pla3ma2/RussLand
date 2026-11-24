@@ -4,6 +4,7 @@ export interface Token {
   w: boolean;
   s?: number | null;
   a?: string;
+  l?: string; // начальная форма (для поиска в базе слов)
 }
 
 export interface Line {
@@ -178,4 +179,15 @@ export interface LevelV2 {
   glossary: Record<string, string>;
   unlocks: Unlock[];
   items: ReviewItem[];
+}
+
+/** Слово из базы 5000: [слово, ударение, перевод, род, аудио]. */
+export type RawWord = [string, number | null, string, string, string];
+export interface Word {
+  i: number; // место по частотности (0 = самое частое)
+  ru: string;
+  s: number | null;
+  fr: string;
+  g: string; // m / f / n для существительных
+  a: string;
 }

@@ -26,8 +26,14 @@ export default defineConfig({
       workbox: {
         // уроки и озвучка — в офлайн-кэш сразу; модель Vosk (45 МБ) сама сохраняется в IndexedDB, когда её включат
         globPatterns: ["**/*.{js,css,html,svg,png,json,mp3}"],
-        globIgnores: ["**/models/**", "**/vosk-*.js"],
+        globIgnores: ["**/models/**", "**/vosk-*.js", "**/audio/w/**"],
         runtimeCaching: [
+          {
+            // озвучка 5000 слов (~5000 файлов) — сохраняется по мере прослушивания
+            urlPattern: ({ url }) => /\/audio\/w\//.test(url.pathname),
+            handler: "CacheFirst",
+            options: { cacheName: "word-audio", expiration: { maxEntries: 6000 } },
+          },
           {
             // движок распознавания (5 МБ) кэшируем, только когда его включат
             urlPattern: ({ url }) => /\/assets\/vosk-.*\.js$/.test(url.pathname),

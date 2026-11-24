@@ -31,7 +31,8 @@
      "t": "мама",
      "s": 1,
      "w": true,
-     "a": "c6dd96399edb.mp3"
+     "a": "c6dd96399edb.mp3",
+     "l": "мама"
     }
    ],
    "exampleAudio": "c6dd96399edb.mp3"
@@ -49,7 +50,8 @@
      "t": "банк",
      "s": 1,
      "w": true,
-     "a": "7bc003bf4da8.mp3"
+     "a": "7bc003bf4da8.mp3",
+     "l": "банк"
     }
    ],
    "exampleAudio": "7bc003bf4da8.mp3"
@@ -67,7 +69,8 @@
      "t": "вода",
      "s": 3,
      "w": true,
-     "a": "1b83b6fefbb0.mp3"
+     "a": "1b83b6fefbb0.mp3",
+     "l": "вода"
     }
    ],
    "exampleAudio": "1b83b6fefbb0.mp3"
@@ -85,7 +88,8 @@
      "t": "газета",
      "s": 3,
      "w": true,
-     "a": "81ba1decd970.mp3"
+     "a": "81ba1decd970.mp3",
+     "l": "газета"
     }
    ],
    "exampleAudio": "81ba1decd970.mp3"
@@ -103,7 +107,8 @@
      "t": "дом",
      "s": 1,
      "w": true,
-     "a": "0bdad8b0c306.mp3"
+     "a": "0bdad8b0c306.mp3",
+     "l": "дом"
     }
    ],
    "exampleAudio": "0bdad8b0c306.mp3"
@@ -121,7 +126,8 @@
      "t": "нет",
      "s": 1,
      "w": true,
-     "a": "2e0323d3f1b3.mp3"
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
     }
    ],
    "exampleAudio": "2e0323d3f1b3.mp3"
@@ -139,7 +145,8 @@
      "t": "ёлка",
      "s": 0,
      "w": true,
-     "a": "72b41cc25a86.mp3"
+     "a": "72b41cc25a86.mp3",
+     "l": "ёлка"
     }
    ],
    "exampleAudio": "72b41cc25a86.mp3"
@@ -157,7 +164,8 @@
      "t": "журнал",
      "s": 4,
      "w": true,
-     "a": "627fb4cebc94.mp3"
+     "a": "627fb4cebc94.mp3",
+     "l": "журнал"
     }
    ],
    "exampleAudio": "627fb4cebc94.mp3"
@@ -175,7 +183,8 @@
      "t": "зима",
      "s": 3,
      "w": true,
-     "a": "3503e8930f3d.mp3"
+     "a": "3503e8930f3d.mp3",
+     "l": "зима"
     }
    ],
    "exampleAudio": "3503e8930f3d.mp3"
@@ -193,7 +202,8 @@
      "t": "кино",
      "s": 3,
      "w": true,
-     "a": "c3efe5a31dae.mp3"
+     "a": "c3efe5a31dae.mp3",
+     "l": "кино"
     }
    ],
    "exampleAudio": "c3efe5a31dae.mp3"
@@ -211,7 +221,8 @@
      "t": "чай",
      "s": 1,
      "w": true,
-     "a": "0f1ca028b347.mp3"
+     "a": "0f1ca028b347.mp3",
+     "l": "чай"
     }
    ],
    "exampleAudio": "0f1ca028b347.mp3"
@@ -229,7 +240,8 @@
      "t": "кот",
      "s": 1,
      "w": true,
-     "a": "099fd6e82b8e.mp3"
+     "a": "099fd6e82b8e.mp3",
+     "l": "кот"
     }
    ],
    "exampleAudio": "099fd6e82b8e.mp3"
@@ -247,7 +259,8 @@
      "t": "лампа",
      "s": 1,
      "w": true,
-     "a": "e56fd9503148.mp3"
+     "a": "e56fd9503148.mp3",
+     "l": "лампа"
     }
    ],
    "exampleAudio": "e56fd9503148.mp3"
@@ -265,7 +278,8 @@
      "t": "мама",
      "s": 1,
      "w": true,
-     "a": "c6dd96399edb.mp3"
+     "a": "c6dd96399edb.mp3",
+     "l": "мама"
     }
    ],
    "exampleAudio": "c6dd96399edb.mp3"
@@ -283,7 +297,8 @@
      "t": "нос",
      "s": 1,
      "w": true,
-     "a": "76d1256817d4.mp3"
+     "a": "76d1256817d4.mp3",
+     "l": "нос"
     }
    ],
    "exampleAudio": "76d1256817d4.mp3"
@@ -301,7 +316,8 @@
      "t": "кот",
      "s": 1,
      "w": true,
-     "a": "099fd6e82b8e.mp3"
+     "a": "099fd6e82b8e.mp3",
+     "l": "кот"
     }
    ],
    "exampleAudio": "099fd6e82b8e.mp3"
@@ -319,7 +335,8 @@
      "t": "папа",
      "s": 1,
      "w": true,
-     "a": "bc1c0e6f10e8.mp3"
+     "a": "bc1c0e6f10e8.mp3",
+     "l": "папа"
     }
    ],
    "exampleAudio": "bc1c0e6f10e8.mp3"
@@ -337,7 +354,8 @@
      "t": "рот",
      "s": 1,
      "w": true,
-     "a": "a121955ff9fa.mp3"
+     "a": "a121955ff9fa.mp3",
+     "l": "рот"
     }
    ],
    "exampleAudio": "a121955ff9fa.mp3"
@@ -355,7 +373,8 @@
      "t": "сок",
      "s": 1,
      "w": true,
-     "a": "fed4dde9f98e.mp3"
+     "a": "fed4dde9f98e.mp3",
+     "l": "сок"
     }
    ],
    "exampleAudio": "fed4dde9f98e.mp3"
@@ -373,7 +392,8 @@
      "t": "там",
      "s": 1,
      "w": true,
-     "a": "a93f0ec75463.mp3"
+     "a": "a93f0ec75463.mp3",
+     "l": "там"
     }
    ],
    "exampleAudio": "a93f0ec75463.mp3"
@@ -391,7 +411,8 @@
      "t": "суп",
      "s": 1,
      "w": true,
-     "a": "527de7696f59.mp3"
+     "a": "527de7696f59.mp3",
+     "l": "суп"
     }
    ],
    "exampleAudio": "527de7696f59.mp3"
@@ -409,7 +430,8 @@
      "t": "фото",
      "s": 1,
      "w": true,
-     "a": "be48445f561d.mp3"
+     "a": "be48445f561d.mp3",
+     "l": "фото"
     }
    ],
    "exampleAudio": "be48445f561d.mp3"
@@ -427,7 +449,8 @@
      "t": "хлеб",
      "s": 2,
      "w": true,
-     "a": "0ca301267827.mp3"
+     "a": "0ca301267827.mp3",
+     "l": "хлеб"
     }
    ],
    "exampleAudio": "0ca301267827.mp3"
@@ -445,7 +468,8 @@
      "t": "центр",
      "s": 1,
      "w": true,
-     "a": "45ff07304d02.mp3"
+     "a": "45ff07304d02.mp3",
+     "l": "центр"
     }
    ],
    "exampleAudio": "45ff07304d02.mp3"
@@ -463,7 +487,8 @@
      "t": "чай",
      "s": 1,
      "w": true,
-     "a": "0f1ca028b347.mp3"
+     "a": "0f1ca028b347.mp3",
+     "l": "чай"
     }
    ],
    "exampleAudio": "0f1ca028b347.mp3"
@@ -481,7 +506,8 @@
      "t": "шапка",
      "s": 1,
      "w": true,
-     "a": "5ae771d4b676.mp3"
+     "a": "5ae771d4b676.mp3",
+     "l": "шапка"
     }
    ],
    "exampleAudio": "5ae771d4b676.mp3"
@@ -499,7 +525,8 @@
      "t": "борщ",
      "s": 1,
      "w": true,
-     "a": "8a9434e8f18d.mp3"
+     "a": "8a9434e8f18d.mp3",
+     "l": "борщ"
     }
    ],
    "exampleAudio": "8a9434e8f18d.mp3"
@@ -517,7 +544,8 @@
      "t": "съел",
      "s": 2,
      "w": true,
-     "a": "e8db0d62bef0.mp3"
+     "a": "e8db0d62bef0.mp3",
+     "l": "съесть"
     }
    ],
    "exampleAudio": "e8db0d62bef0.mp3"
@@ -535,7 +563,8 @@
      "t": "мы",
      "s": 1,
      "w": true,
-     "a": "a234675be3c5.mp3"
+     "a": "a234675be3c5.mp3",
+     "l": "мы"
     }
    ],
    "exampleAudio": "a234675be3c5.mp3"
@@ -553,7 +582,8 @@
      "t": "мать",
      "s": 1,
      "w": true,
-     "a": "ac921f0d8aaa.mp3"
+     "a": "ac921f0d8aaa.mp3",
+     "l": "мать"
     }
    ],
    "exampleAudio": "ac921f0d8aaa.mp3"
@@ -571,7 +601,8 @@
      "t": "это",
      "s": 0,
      "w": true,
-     "a": "eecbe7a3009e.mp3"
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
     }
    ],
    "exampleAudio": "eecbe7a3009e.mp3"
@@ -589,7 +620,8 @@
      "t": "юмор",
      "s": 0,
      "w": true,
-     "a": "af341df46f95.mp3"
+     "a": "af341df46f95.mp3",
+     "l": "юмор"
     }
    ],
    "exampleAudio": "af341df46f95.mp3"
@@ -607,7 +639,8 @@
      "t": "я",
      "s": 0,
      "w": true,
-     "a": "70b9d9783365.mp3"
+     "a": "70b9d9783365.mp3",
+     "l": "я"
     }
    ],
    "exampleAudio": "70b9d9783365.mp3"

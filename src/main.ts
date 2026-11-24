@@ -7,9 +7,9 @@ import { $, $$, esc } from "./ui";
 
 const app = document.querySelector<HTMLDivElement>("#app")!;
 
-type Tab = "lessons" | "reading" | "review" | "carte";
+type Tab = "lessons" | "reading" | "words" | "review" | "carte";
 
-/** Каркас для четырёх главных вкладок: шапка с алфавитом + нижнее меню. */
+/** Каркас для пяти главных вкладок: шапка с алфавитом + нижнее меню. */
 function shell(tab: Tab): HTMLElement {
   const due = dueIds().length;
   const s = streak();
@@ -26,13 +26,14 @@ function shell(tab: Tab): HTMLElement {
       <nav class="tabbar">
         <button data-t="lessons" class="${tab === "lessons" ? "on" : ""}"><span>🗣️</span>Leçons</button>
         <button data-t="reading" class="${tab === "reading" ? "on" : ""}"><span>📖</span>Lecture</button>
+        <button data-t="words" class="${tab === "words" ? "on" : ""}"><span>🃏</span>Mots</button>
         <button data-t="review" class="${tab === "review" ? "on" : ""}"><span>🔁</span>Révision${due ? `<i class="badge">${due}</i>` : ""}</button>
         <button data-t="carte" class="${tab === "carte" ? "on" : ""}"><span>🗺️</span>Carte</button>
       </nav>
     </div>`;
   $(".abc-btn", app).onclick = () => import("./alphabet").then((m) => m.openAlphabet());
   $$<HTMLButtonElement>(".tabbar button", app).forEach((b) => {
-    b.onclick = () => navigate({ lessons: "", reading: "reading", review: "review", carte: "carte" }[b.dataset.t as Tab]);
+    b.onclick = () => navigate({ lessons: "", reading: "reading", words: "words", review: "review", carte: "carte" }[b.dataset.t as Tab]);
   });
   return app;
 }
@@ -106,6 +107,14 @@ route("reading", async () => {
   await (await import("./reading")).renderReadingHome(app);
 });
 route("reading/:id", async (root, id) => (await import("./reading")).renderStage(root, id));
+route("words", async () => {
+  shell("words");
+  await (await import("./words")).renderWordsHome(app);
+});
+route("words/s/:n", async (root, n) => (await import("./words")).renderStage(root, n));
+route("words/l/:n", async (root, n) => (await import("./words")).renderWordLevel(root, n));
+route("words/marathon", async (root) => (await import("./words")).renderMarathon(root));
+route("words/cards", async (root) => (await import("./words")).renderMyCards(root));
 route("review", async () => {
   shell("review");
   await (await import("./review")).renderReviewHome(app);

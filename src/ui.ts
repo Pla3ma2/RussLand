@@ -27,9 +27,10 @@ export function shuffle<T>(arr: T[]): T[] {
 
 let tipEl: HTMLDivElement | null = null;
 let tipTimer: ReturnType<typeof setTimeout> | undefined;
+let tipSeq = 0;
 
 function hideTip() {
-  tipEl?.classList.remove("show");
+  tipEl?.classList.remove("show", "has-star");
 }
 
 export function showWordTip(anchor: HTMLElement, token: Token, gloss?: string) {
@@ -39,15 +40,40 @@ export function showWordTip(anchor: HTMLElement, token: Token, gloss?: string) {
     document.body.appendChild(tipEl);
     window.addEventListener("scroll", hideTip, { passive: true });
   }
-  tipEl.innerHTML = `<div class="tl">${translitHtml(token.t, token.s)}</div>${gloss ? `<div class="gl">${esc(gloss)}</div>` : ""}`;
-  tipEl.classList.add("show");
-  const r = anchor.getBoundingClientRect();
-  const tw = tipEl.offsetWidth;
-  const left = Math.min(Math.max(8, r.left + r.width / 2 - tw / 2), window.innerWidth - tw - 8);
-  tipEl.style.left = `${left}px`;
-  tipEl.style.top = `${r.top + window.scrollY - tipEl.offsetHeight - 8}px`;
+  const el = tipEl;
+  const seq = ++tipSeq;
+  el.innerHTML = `<div class="tip-txt"><div class="tl">${translitHtml(token.t, token.s)}</div>${gloss ? `<div class="gl">${esc(gloss)}</div>` : ""}</div><span class="tip-star"></span>`;
+  el.classList.add("show");
+  const place = () => {
+    const r = anchor.getBoundingClientRect();
+    const tw = el.offsetWidth;
+    const left = Math.min(Math.max(8, r.left + r.width / 2 - tw / 2), window.innerWidth - tw - 8);
+    el.style.left = `${left}px`;
+    el.style.top = `${r.top + window.scrollY - el.offsetHeight - 8}px`;
+  };
+  place();
   clearTimeout(tipTimer);
-  tipTimer = setTimeout(hideTip, 2600);
+  tipTimer = setTimeout(hideTip, 3500);
+  // ★ — в «Mes cartes». Если начальная форма есть в базе 5000 — сохраняем её (с переводом и озвучкой из базы).
+  void (async () => {
+    const [{ lookupWord }, cards] = await Promise.all([import("./content"), import("./cards")]);
+    const base = (token.l && (await lookupWord(token.l))) || (await lookupWord(token.t));
+    if (seq !== tipSeq || !el.classList.contains("show")) return;
+    const key = base?.ru ?? token.t.toLowerCase();
+    const slot = el.querySelector<HTMLElement>(".tip-star")!;
+    slot.innerHTML = cards.STAR(cards.isSaved(key));
+    el.classList.add("has-star");
+    place();
+    const btn = slot.querySelector<HTMLButtonElement>(".star")!;
+    btn.onclick = async (e) => {
+      e.stopPropagation();
+      const on = await cards.toggleBookmark(key, base?.fr ?? gloss ?? "", base ? base.s : token.s, base?.a ?? token.a);
+      btn.classList.toggle("on", on);
+      btn.textContent = on ? "★" : "☆";
+      clearTimeout(tipTimer);
+      tipTimer = setTimeout(hideTip, 1500);
+    };
+  })();
 }
 
 export interface TokenOpts {

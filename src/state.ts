@@ -6,19 +6,31 @@ export interface SrsEntry {
   card: Card;
 }
 
+export interface MyCard {
+  id: string;
+  ru: string;
+  fr: string;
+  s?: number | null;
+  a?: string; // аудио из базы, если слово там есть
+  src: "custom" | "bookmark";
+  added: string;
+}
+
 export interface Progress {
   v: 1;
   levels: Record<string, { done: boolean; doneAt?: string; parts?: number }>;
   reading: Record<string, boolean>;
   srs: Record<string, SrsEntry>;
   settings: { vosk: boolean };
+  words: { levels: Record<number, boolean>; best: number; cardsBest?: number };
+  cards: MyCard[];
   days: string[]; // дни, когда человек занимался (для серии)
 }
 
 const KEY = "russland-progress-v1";
 
 function empty(): Progress {
-  return { v: 1, levels: {}, reading: {}, srs: {}, settings: { vosk: false }, days: [] };
+  return { v: 1, levels: {}, reading: {}, srs: {}, settings: { vosk: false }, days: [], words: { levels: {}, best: 0 }, cards: [] };
 }
 
 function revive(p: Progress): Progress {

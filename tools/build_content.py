@@ -85,8 +85,9 @@ def split_word(acc: str) -> tuple[str, int | None]:
     return acc.replace("+", ""), (i if i >= 0 else None)
 
 
-def clip(acc_text: str, voice: str) -> str:
-    cid = hashlib.sha1(f"{voice}|{acc_text}".encode()).hexdigest()[:12]
+def clip(acc_text: str, voice: str, folder: str = "") -> str:
+    """Регистрирует фразу для озвучки; folder — подпапка (слова карточек лежат в w/, их не кладём в офлайн-кэш)."""
+    cid = folder + hashlib.sha1(f"{voice}|{acc_text}".encode()).hexdigest()[:12]
     clips[cid] = (acc_text, voice)
     return f"{cid}.mp3"
 
@@ -99,11 +100,19 @@ def tokenize(text: str) -> list[dict]:
         if m.start() > pos:
             tokens.append({"t": acc[pos:m.start()], "w": False})
         plain, stress = split_word(m.group())
-        tokens.append({"t": plain, "s": stress, "w": True, "a": clip(m.group().lower(), WORD_VOICE)})
+        tokens.append({"t": plain, "s": stress, "w": True, "a": clip(m.group().lower(), WORD_VOICE),
+                       "l": lemma_of(plain)})
         pos = m.end()
     if pos < len(acc):
         tokens.append({"t": acc[pos:], "w": False})
     return tokens
+
+
+def lemma_of(word: str) -> str:
+    w = word.lower()
+    if "-" in w and w.startswith("по-"):
+        return w
+    return morph.parse(w)[0].normal_form
 
 
 def line(ru: str, fr: str, speaker: str) -> dict:
@@ -383,6 +392,34 @@ def build_carte() -> dict:
     return {**src, "verbs": verbs}
 
 
+# ---------- 5000 слов ----------
+
+def build_words() -> list:
+    """[слово, ударение, перевод, род, аудио] — компактно, порядок = частотность."""
+    out = []
+    seen = set()
+    for raw in (SRC / "words.tsv").read_text(encoding="utf-8").splitlines():
+        if not raw.strip() or raw.startswith("#"):
+            continue
+        ru, fr = (x.strip() for x in raw.split("|", 1))
+        key = ru.replace("+", "").lower().replace("ё", "е")
+        if key in seen:
+            errors.append(f"words.tsv: повтор «{ru}»")
+            continue
+        seen.add(key)
+        acc = ru if "+" in ru else accent(ru)
+        plain = acc.replace("+", "")
+        stress = split_word(acc)[1] if " " not in plain else None
+        g = ""
+        if " " not in plain:
+            parses = morph.parse(plain)
+            p = parses[0]
+            if p.tag.POS == "NOUN" and p.normal_form == plain.lower() and not any(x.tag.POS == "INFN" for x in parses):
+                g = {"masc": "m", "femn": "f", "neut": "n"}.get(str(p.tag.gender), "")
+        out.append([plain, stress, fr, g, clip(acc.lower(), WORD_VOICE, "w/")])
+    return out
+
+
 # ---------- озвучка ----------
 
 def synthesize(force: bool) -> int:
@@ -404,12 +441,13 @@ def synthesize(force: bool) -> int:
                 print(f"  ⚠ не озвучено «{text}»: {e}")
                 continue
             pcm = (audio.clamp(-1, 1) * 32767).short().numpy().tobytes()
-            wav_path = Path(tmp) / f"{cid}.wav"
+            wav_path = Path(tmp) / f"{cid.replace('/', '_')}.wav"
             with wave.open(str(wav_path), "wb") as wf:
                 wf.setnchannels(1)
                 wf.setsampwidth(2)
                 wf.setframerate(sr)
                 wf.writeframes(pcm)
+            (AUDIO_DIR / f"{cid}.mp3").parent.mkdir(parents=True, exist_ok=True)
             subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav_path),
                             "-af", "silenceremove=start_periods=1:start_threshold=-50dB",
                             "-ac", "1", "-ar", "24000", "-b:a", "48k", str(AUDIO_DIR / f"{cid}.mp3")], check=True)
@@ -431,6 +469,7 @@ def main() -> int:
     alphabet = build_alphabet()
     reading = build_reading(alphabet)
     carte = build_carte()
+    words = build_words()
 
     if errors:
         print("\n✗ Ошибки в контенте:")
@@ -450,6 +489,7 @@ def main() -> int:
     write("alphabet.json", alphabet)
     write("reading.json", reading)
     write("carte.json", carte)
+    write("words.json", words)
     print(f"Аудиофраз: {len(clips)}")
     if args.audio:
         print(f"Озвучено новых: {synthesize(args.force)}")
