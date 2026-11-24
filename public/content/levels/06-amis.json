@@ -7,15 +7,15 @@
  "sceneFr": "Macha invite Luka à dîner. Son ami Oleg est là aussi : c'est le moment de faire connaissance.",
  "learner": "luka",
  "speakers": {
-  "oleg": {
-   "name": "Олег",
-   "nameFr": "Oleg",
-   "color": "#9a6fb0"
-  },
   "luka": {
    "name": "Лука",
    "nameFr": "Luka",
    "color": "#3d5a80"
+  },
+  "oleg": {
+   "name": "Олег",
+   "nameFr": "Oleg",
+   "color": "#9a6fb0"
   },
   "masha": {
    "name": "Маша",

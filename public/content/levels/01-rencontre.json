@@ -8,15 +8,15 @@
  "sceneFr": "Luka vient d'arriver à Saint-Pétersbourg. Dans l'escalier de son immeuble, il croise sa voisine Macha.",
  "learner": "luka",
  "speakers": {
-  "masha": {
-   "name": "Маша",
-   "nameFr": "Macha",
-   "color": "#e07a5f"
-  },
   "luka": {
    "name": "Лука",
    "nameFr": "Luka",
    "color": "#3d5a80"
+  },
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
   }
  },
  "dialogue": [
@@ -384,7 +384,7 @@
    ],
    "audio": "0586d0a5b3fb.mp3",
    "id": "myname",
-   "noteFr": "Mot à mot : « on m'appelle Luka ».",
+   "noteFr": "En français on dit « je m'appelle » (je m'appelle moi-même). En russe, mot à mot, on dit « on m'appelle » : « меня » = me, « зовут » = (ils) appellent.",
    "gap": {
     "index": 2,
     "distractors": [
@@ -444,7 +444,7 @@
    ],
    "audio": "73ef6308e0ed.mp3",
    "id": "askname",
-   "noteFr": "Mot à mot : « comment vous appelle-t-on ? ». « Вас » = « vous ».",
+   "noteFr": "Mot à mot : « comment vous appelle-t-on ? ». Même construction que « меня зовут », avec « вас » (vous) à la place de « меня » (me).",
    "gap": {
     "index": 0,
     "distractors": [
@@ -764,7 +764,7 @@
   {
    "by": "masha",
    "fr": [
-    "« Меня зовут » veut dire mot à mot « on m'appelle ». Pour dire ton prénom, tu commences toujours par ces deux mots : « Меня зовут… ».",
+    "« Меня зовут » se traduit par « je m'appelle », mais la construction est différente : mot à mot, c'est « on m'appelle ». Donc on ne dit jamais « я » ici : on commence toujours par « Меня зовут… ».",
     "Et pour demander le prénom de quelqu'un, on remplace « меня » (me) par « вас » (vous) : « Как вас зовут ? »"
    ]
   },

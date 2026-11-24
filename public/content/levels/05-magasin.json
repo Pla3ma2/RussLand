@@ -7,15 +7,15 @@
  "sceneFr": "Luka fait ses courses dans la petite épicerie du quartier. Oleg tient la caisse.",
  "learner": "luka",
  "speakers": {
-  "oleg": {
-   "name": "Олег",
-   "nameFr": "Oleg",
-   "color": "#9a6fb0"
-  },
   "luka": {
    "name": "Лука",
    "nameFr": "Luka",
    "color": "#3d5a80"
+  },
+  "oleg": {
+   "name": "Олег",
+   "nameFr": "Oleg",
+   "color": "#9a6fb0"
   }
  },
  "dialogue": [

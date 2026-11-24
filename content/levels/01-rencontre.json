@@ -8,79 +8,230 @@
   "sceneFr": "Luka vient d'arriver à Saint-Pétersbourg. Dans l'escalier de son immeuble, il croise sa voisine Macha.",
   "learner": "luka",
   "dialogue": [
-    { "speaker": "masha", "ru": "Здравствуйте!", "fr": "Bonjour !" },
-    { "speaker": "luka", "ru": "Здравствуйте!", "fr": "Bonjour !" },
-    { "speaker": "masha", "ru": "Меня зовут М+аша. Как вас зовут?", "fr": "Je m'appelle Macha. Comment vous appelez-vous ?" },
-    { "speaker": "luka", "ru": "Меня зовут Л+ука.", "fr": "Je m'appelle Luka." },
-    { "speaker": "masha", "ru": "Очень приятно!", "fr": "Enchantée !" },
-    { "speaker": "luka", "ru": "Очень приятно!", "fr": "Enchanté !" },
-    { "speaker": "masha", "ru": "Вы из Франции?", "fr": "Vous venez de France ?" },
-    { "speaker": "luka", "ru": "Да, я из Франции. Я француз.", "fr": "Oui, je viens de France. Je suis français." }
+    {
+      "speaker": "masha",
+      "ru": "Здравствуйте!",
+      "fr": "Bonjour !"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Здравствуйте!",
+      "fr": "Bonjour !"
+    },
+    {
+      "speaker": "masha",
+      "ru": "Меня зовут М+аша. Как вас зовут?",
+      "fr": "Je m'appelle Macha. Comment vous appelez-vous ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Меня зовут Л+ука.",
+      "fr": "Je m'appelle Luka."
+    },
+    {
+      "speaker": "masha",
+      "ru": "Очень приятно!",
+      "fr": "Enchantée !"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Очень приятно!",
+      "fr": "Enchanté !"
+    },
+    {
+      "speaker": "masha",
+      "ru": "Вы из Франции?",
+      "fr": "Vous venez de France ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Да, я из Франции. Я француз.",
+      "fr": "Oui, je viens de France. Je suis français."
+    }
   ],
   "phrases": [
     {
-      "id": "hello", "speaker": "masha", "ru": "Здравствуйте!", "fr": "Bonjour !",
+      "id": "hello",
+      "speaker": "masha",
+      "ru": "Здравствуйте!",
+      "fr": "Bonjour !",
       "noteFr": "Le premier « в » ne se prononce pas : on dit « zdrastvouïtié ». C'est le « bonjour » poli, à dire à tout le monde."
     },
     {
-      "id": "myname", "speaker": "luka", "ru": "Меня зовут Л+ука.", "fr": "Je m'appelle Luka.",
-      "noteFr": "Mot à mot : « on m'appelle Luka ».",
-      "gap": { "word": "зовут", "distractors": ["здравствуйте", "вас"] },
-      "orders": ["меня зовут лука", "зовут меня лука", "лука меня зовут"]
+      "id": "myname",
+      "speaker": "luka",
+      "ru": "Меня зовут Л+ука.",
+      "fr": "Je m'appelle Luka.",
+      "noteFr": "En français on dit « je m'appelle » (je m'appelle moi-même). En russe, mot à mot, on dit « on m'appelle » : « меня » = me, « зовут » = (ils) appellent.",
+      "gap": {
+        "word": "зовут",
+        "distractors": [
+          "здравствуйте",
+          "вас"
+        ]
+      },
+      "orders": [
+        "меня зовут лука",
+        "зовут меня лука",
+        "лука меня зовут"
+      ]
     },
     {
-      "id": "askname", "speaker": "masha", "ru": "Как вас зовут?", "fr": "Comment vous appelez-vous ?",
-      "noteFr": "Mot à mot : « comment vous appelle-t-on ? ». « Вас » = « vous ».",
-      "gap": { "word": "как", "distractors": ["очень", "меня"] },
-      "orders": ["как вас зовут", "как зовут вас"]
+      "id": "askname",
+      "speaker": "masha",
+      "ru": "Как вас зовут?",
+      "fr": "Comment vous appelez-vous ?",
+      "noteFr": "Mot à mot : « comment vous appelle-t-on ? ». Même construction que « меня зовут », avec « вас » (vous) à la place de « меня » (me).",
+      "gap": {
+        "word": "как",
+        "distractors": [
+          "очень",
+          "меня"
+        ]
+      },
+      "orders": [
+        "как вас зовут",
+        "как зовут вас"
+      ]
     },
     {
-      "id": "nice", "speaker": "luka", "ru": "Очень приятно!", "fr": "Enchanté !",
+      "id": "nice",
+      "speaker": "luka",
+      "ru": "Очень приятно!",
+      "fr": "Enchanté !",
       "noteFr": "Mot à mot : « très agréable ». C'est pareil pour un homme et pour une femme.",
-      "gap": { "word": "приятно", "distractors": ["зовут", "вас"] }
+      "gap": {
+        "word": "приятно",
+        "distractors": [
+          "зовут",
+          "вас"
+        ]
+      }
     },
     {
-      "id": "from", "speaker": "masha", "ru": "Вы из Франции?", "fr": "Vous venez de France ?",
+      "id": "from",
+      "speaker": "masha",
+      "ru": "Вы из Франции?",
+      "fr": "Vous venez de France ?",
       "noteFr": "« Вы » = « vous », « из » = « de » (d'où l'on vient). Pas de verbe « venir » : le russe va droit au but.",
-      "gap": { "word": "из", "distractors": ["как", "очень"] },
-      "orders": ["вы из франции", "из франции вы"]
+      "gap": {
+        "word": "из",
+        "distractors": [
+          "как",
+          "очень"
+        ]
+      },
+      "orders": [
+        "вы из франции",
+        "из франции вы"
+      ]
     },
     {
-      "id": "yesfrom", "speaker": "luka", "ru": "Да, я из Франции.", "fr": "Oui, je viens de France.",
+      "id": "yesfrom",
+      "speaker": "luka",
+      "ru": "Да, я из Франции.",
+      "fr": "Oui, je viens de France.",
       "noteFr": "« Да » = « oui », « я » = « je ».",
-      "gap": { "word": "франции", "distractors": ["приятно", "зовут"] },
-      "orders": ["да я из франции", "да из франции я"]
+      "gap": {
+        "word": "франции",
+        "distractors": [
+          "приятно",
+          "зовут"
+        ]
+      },
+      "orders": [
+        "да я из франции",
+        "да из франции я"
+      ]
     },
     {
-      "id": "french", "speaker": "luka", "ru": "Я француз.", "fr": "Je suis français.",
+      "id": "french",
+      "speaker": "luka",
+      "ru": "Я француз.",
+      "fr": "Je suis français.",
       "noteFr": "Mot à mot : « moi Français ». Il n'y a pas de verbe « être » !",
-      "gap": { "word": "француз", "distractors": ["приятно", "из"] }
+      "gap": {
+        "word": "француз",
+        "distractors": [
+          "приятно",
+          "из"
+        ]
+      }
     }
   ],
   "parts": [
     {
       "titleFr": "Dire bonjour et son prénom",
       "steps": [
-        { "type": "scene" },
-        { "type": "block", "phrases": ["hello", "myname"] },
-        { "type": "insight", "index": 0 },
-        { "type": "block", "phrases": ["askname", "nice"], "review": ["hello", "myname"] }
+        {
+          "type": "scene"
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "hello",
+            "myname"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 0
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "askname",
+            "nice"
+          ],
+          "review": [
+            "hello",
+            "myname"
+          ]
+        }
       ]
     },
     {
       "titleFr": "Dire d'où l'on vient",
       "steps": [
-        { "type": "warmup", "phrases": ["hello", "myname", "askname", "nice"] },
-        { "type": "block", "phrases": ["from", "yesfrom", "french"], "review": ["askname", "nice"] },
-        { "type": "explore" },
-        { "type": "insight", "index": 1 }
+        {
+          "type": "warmup",
+          "phrases": [
+            "hello",
+            "myname",
+            "askname",
+            "nice"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "from",
+            "yesfrom",
+            "french"
+          ],
+          "review": [
+            "askname",
+            "nice"
+          ]
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 1
+        }
       ]
     },
     {
       "titleFr": "Joue la scène",
       "steps": [
-        { "type": "final" },
-        { "type": "roleplay" }
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
       ]
     }
   ],
@@ -88,7 +239,7 @@
     {
       "by": "masha",
       "fr": [
-        "« Меня зовут » veut dire mot à mot « on m'appelle ». Pour dire ton prénom, tu commences toujours par ces deux mots : « Меня зовут… ».",
+        "« Меня зовут » se traduit par « je m'appelle », mais la construction est différente : mot à mot, c'est « on m'appelle ». Donc on ne dit jamais « я » ici : on commence toujours par « Меня зовут… ».",
         "Et pour demander le prénom de quelqu'un, on remplace « меня » (me) par « вас » (vous) : « Как вас зовут ? »"
       ]
     },
@@ -107,20 +258,58 @@
     "frameFr": "Je suis ___.",
     "color": "#5c677d",
     "words": [
-      { "tile": "француз", "fr": "Français", "phraseFr": "Je suis français." },
-      { "tile": "француженка", "fr": "Française", "phraseFr": "Je suis française." },
-      { "tile": "студент", "fr": "étudiant", "phraseFr": "Je suis étudiant." },
-      { "tile": "студентка", "fr": "étudiante", "phraseFr": "Je suis étudiante." }
+      {
+        "tile": "француз",
+        "fr": "Français",
+        "phraseFr": "Je suis français."
+      },
+      {
+        "tile": "француженка",
+        "fr": "Française",
+        "phraseFr": "Je suis française."
+      },
+      {
+        "tile": "студент",
+        "fr": "étudiant",
+        "phraseFr": "Je suis étudiant."
+      },
+      {
+        "tile": "студентка",
+        "fr": "étudiante",
+        "phraseFr": "Je suis étudiante."
+      }
     ]
   },
   "tasks": [
-    { "type": "pick", "fr": "Dis : « Je suis française. »", "answer": "француженка" },
-    { "type": "pick", "fr": "Dis : « Je suis étudiant. »", "answer": "студент" }
+    {
+      "type": "pick",
+      "fr": "Dis : « Je suis française. »",
+      "answer": "француженка"
+    },
+    {
+      "type": "pick",
+      "fr": "Dis : « Je suis étudiant. »",
+      "answer": "студент"
+    }
   ],
-  "cando": ["saluer poliment", "dire comment tu t'appelles et demander un prénom", "dire d'où tu viens"],
+  "cando": [
+    "saluer poliment",
+    "dire comment tu t'appelles et demander un prénom",
+    "dire d'où tu viens"
+  ],
   "unlocks": [
-    { "case": "nomn", "gender": "masc", "from": "француз", "to": "француз" },
-    { "case": "nomn", "gender": "femn", "from": "француженка", "to": "француженка" }
+    {
+      "case": "nomn",
+      "gender": "masc",
+      "from": "француз",
+      "to": "француз"
+    },
+    {
+      "case": "nomn",
+      "gender": "femn",
+      "from": "француженка",
+      "to": "француженка"
+    }
   ],
   "glossary": {
     "здравствуйте": "bonjour (poli)",
