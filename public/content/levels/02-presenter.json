@@ -1,0 +1,1406 @@
+{
+ "version": 2,
+ "id": "02-presenter",
+ "order": 2,
+ "titleFr": "Se présenter",
+ "titleRu": "О себе",
+ "emoji": "🙋",
+ "sceneFr": "Suite de la rencontre dans l'escalier : Macha veut en savoir un peu plus sur son nouveau voisin.",
+ "learner": "luka",
+ "speakers": {
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  },
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "masha",
+   "ru": "Вы студент?",
+   "fr": "Vous êtes étudiant ?",
+   "tokens": [
+    {
+     "t": "Вы",
+     "s": 1,
+     "w": true,
+     "a": "8b7efd6df007.mp3",
+     "l": "вы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "студент",
+     "s": 4,
+     "w": true,
+     "a": "599b3911274d.mp3",
+     "l": "студент"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "5f8a875579e8.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Да, я студент. А вы?",
+   "fr": "Oui, je suis étudiant. Et vous ?",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "студент",
+     "s": 4,
+     "w": true,
+     "a": "599b3911274d.mp3",
+     "l": "студент"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вы",
+     "s": 1,
+     "w": true,
+     "a": "8b7efd6df007.mp3",
+     "l": "вы"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "910b54070f1a.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Я врач.",
+   "fr": "Je suis médecin.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "врач",
+     "s": 2,
+     "w": true,
+     "a": "6419a3676ae1.mp3",
+     "l": "врач"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "311a1d2bfca3.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Вы говорите по-русски?",
+   "fr": "Vous parlez russe ?",
+   "tokens": [
+    {
+     "t": "Вы",
+     "s": 1,
+     "w": true,
+     "a": "8b7efd6df007.mp3",
+     "l": "вы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говорите",
+     "s": 5,
+     "w": true,
+     "a": "af41f5721ac9.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-русски",
+     "s": 4,
+     "w": true,
+     "a": "1875ccbd5a57.mp3",
+     "l": "по-русски"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "50861e776815.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Немного. Я говорю по-французски и по-английски.",
+   "fr": "Un peu. Je parle français et anglais.",
+   "tokens": [
+    {
+     "t": "Немного",
+     "s": 4,
+     "w": true,
+     "a": "16f0ae3fba76.mp3",
+     "l": "немного"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говорю",
+     "s": 5,
+     "w": true,
+     "a": "7060cf7cbf69.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-французски",
+     "s": 8,
+     "w": true,
+     "a": "53b0bb0cb11b.mp3",
+     "l": "по-французски"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-английски",
+     "s": 7,
+     "w": true,
+     "a": "c0f8fa40aea5.mp3",
+     "l": "по-английски"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "bcbc7649a9be.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Вы хорошо говорите!",
+   "fr": "Vous parlez bien !",
+   "tokens": [
+    {
+     "t": "Вы",
+     "s": 1,
+     "w": true,
+     "a": "8b7efd6df007.mp3",
+     "l": "вы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говорите",
+     "s": 5,
+     "w": true,
+     "a": "af41f5721ac9.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "069eda610182.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Спасибо!",
+   "fr": "Merci !",
+   "tokens": [
+    {
+     "t": "Спасибо",
+     "s": 4,
+     "w": true,
+     "a": "84fecfa1b01c.mp3",
+     "l": "спасибо"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "79862b3359fa.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "До свидания, Лука!",
+   "fr": "Au revoir, Luka !",
+   "tokens": [
+    {
+     "t": "До",
+     "s": 1,
+     "w": true,
+     "a": "f2096c168fa3.mp3",
+     "l": "до"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "свидания",
+     "s": 4,
+     "w": true,
+     "a": "7e0ee3fb9b63.mp3",
+     "l": "свидание"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "c614c326bdc0.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "До свидания!",
+   "fr": "Au revoir !",
+   "tokens": [
+    {
+     "t": "До",
+     "s": 1,
+     "w": true,
+     "a": "f2096c168fa3.mp3",
+     "l": "до"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "свидания",
+     "s": 4,
+     "w": true,
+     "a": "7e0ee3fb9b63.mp3",
+     "l": "свидание"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "73dcc8f1d7f1.mp3"
+  }
+ ],
+ "phrases": {
+  "student": {
+   "speaker": "luka",
+   "ru": "Да, я студент. А вы?",
+   "fr": "Oui, je suis étudiant. Et vous ?",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "студент",
+     "s": 4,
+     "w": true,
+     "a": "599b3911274d.mp3",
+     "l": "студент"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вы",
+     "s": 1,
+     "w": true,
+     "a": "8b7efd6df007.mp3",
+     "l": "вы"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "910b54070f1a.mp3",
+   "id": "student",
+   "noteFr": "Toujours pas de verbe « être » : « я студент » = « je suis étudiant ». « А вы ? » = « et vous ? », pour renvoyer la question.",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "спасибо",
+      "a": "84fecfa1b01c.mp3",
+      "s": 4
+     },
+     {
+      "t": "до",
+      "a": "f2096c168fa3.mp3",
+      "s": 1
+     }
+    ]
+   },
+   "orders": [
+    "да я студент а вы"
+   ]
+  },
+  "doctor": {
+   "speaker": "masha",
+   "ru": "Я врач.",
+   "fr": "Je suis médecin.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "врач",
+     "s": 2,
+     "w": true,
+     "a": "6419a3676ae1.mp3",
+     "l": "врач"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "311a1d2bfca3.mp3",
+   "id": "doctor",
+   "noteFr": "« Врач » = médecin. Macha est une femme, mais on dit aussi « врач » : ce mot ne change pas.",
+   "gap": {
+    "index": 2,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "спасибо",
+      "a": "84fecfa1b01c.mp3",
+      "s": 4
+     },
+     {
+      "t": "до",
+      "a": "f2096c168fa3.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "speakru": {
+   "speaker": "masha",
+   "ru": "Вы говорите по-русски?",
+   "fr": "Vous parlez russe ?",
+   "tokens": [
+    {
+     "t": "Вы",
+     "s": 1,
+     "w": true,
+     "a": "8b7efd6df007.mp3",
+     "l": "вы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говорите",
+     "s": 5,
+     "w": true,
+     "a": "af41f5721ac9.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-русски",
+     "s": 4,
+     "w": true,
+     "a": "1875ccbd5a57.mp3",
+     "l": "по-русски"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "50861e776815.mp3",
+   "id": "speakru",
+   "noteFr": "« По-русски » = « en russe ». Mot à mot : « vous parlez en russe ? ».",
+   "gap": {
+    "index": 2,
+    "whyFr": "Avec « вы », le verbe finit en -ите : « вы говорите ». « Говорю », c'est pour « я ».",
+    "distractors": [
+     {
+      "t": "говорю",
+      "a": "7060cf7cbf69.mp3",
+      "s": 5
+     },
+     {
+      "t": "спасибо",
+      "a": "84fecfa1b01c.mp3",
+      "s": 4
+     }
+    ]
+   },
+   "orders": [
+    "вы говорите по-русски",
+    "по-русски вы говорите",
+    "вы по-русски говорите"
+   ]
+  },
+  "little": {
+   "speaker": "luka",
+   "ru": "Немного.",
+   "fr": "Un peu.",
+   "tokens": [
+    {
+     "t": "Немного",
+     "s": 4,
+     "w": true,
+     "a": "16f0ae3fba76.mp3",
+     "l": "немного"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "4e051166786a.mp3",
+   "id": "little",
+   "noteFr": "« Немного » = un peu. La réponse la plus utile quand on apprend le russe !"
+  },
+  "speakfr": {
+   "speaker": "luka",
+   "ru": "Я говорю по-французски и по-английски.",
+   "fr": "Je parle français et anglais.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говорю",
+     "s": 5,
+     "w": true,
+     "a": "7060cf7cbf69.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-французски",
+     "s": 8,
+     "w": true,
+     "a": "53b0bb0cb11b.mp3",
+     "l": "по-французски"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-английски",
+     "s": 7,
+     "w": true,
+     "a": "c0f8fa40aea5.mp3",
+     "l": "по-английски"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "25f1f0f96ded.mp3",
+   "id": "speakfr",
+   "noteFr": "« И » = « et ». « По-французски » = en français, « по-английски » = en anglais.",
+   "gap": {
+    "index": 2,
+    "whyFr": "Avec « я », le verbe finit en -ю : « я говорю ». « Говорите », c'est pour « вы ».",
+    "distractors": [
+     {
+      "t": "говорите",
+      "a": "af41f5721ac9.mp3",
+      "s": 5
+     },
+     {
+      "t": "спасибо",
+      "a": "84fecfa1b01c.mp3",
+      "s": 4
+     }
+    ]
+   },
+   "orders": [
+    "я говорю по-французски и по-английски",
+    "я говорю по-английски и по-французски",
+    "по-французски и по-английски я говорю"
+   ]
+  },
+  "well": {
+   "speaker": "masha",
+   "ru": "Вы хорошо говорите!",
+   "fr": "Vous parlez bien !",
+   "tokens": [
+    {
+     "t": "Вы",
+     "s": 1,
+     "w": true,
+     "a": "8b7efd6df007.mp3",
+     "l": "вы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говорите",
+     "s": 5,
+     "w": true,
+     "a": "af41f5721ac9.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "069eda610182.mp3",
+   "id": "well",
+   "noteFr": "« Хорошо » = bien.",
+   "gap": {
+    "index": 2,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "спасибо",
+      "a": "84fecfa1b01c.mp3",
+      "s": 4
+     },
+     {
+      "t": "студент",
+      "a": "599b3911274d.mp3",
+      "s": 4
+     }
+    ]
+   },
+   "orders": [
+    "вы хорошо говорите",
+    "вы говорите хорошо"
+   ]
+  },
+  "thanks": {
+   "speaker": "luka",
+   "ru": "Спасибо!",
+   "fr": "Merci !",
+   "tokens": [
+    {
+     "t": "Спасибо",
+     "s": 4,
+     "w": true,
+     "a": "84fecfa1b01c.mp3",
+     "l": "спасибо"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "79862b3359fa.mp3",
+   "id": "thanks",
+   "noteFr": "Le « merci » russe, pour toutes les situations."
+  },
+  "bye": {
+   "speaker": "masha",
+   "ru": "До свидания!",
+   "fr": "Au revoir !",
+   "tokens": [
+    {
+     "t": "До",
+     "s": 1,
+     "w": true,
+     "a": "f2096c168fa3.mp3",
+     "l": "до"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "свидания",
+     "s": 4,
+     "w": true,
+     "a": "7e0ee3fb9b63.mp3",
+     "l": "свидание"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "fc11a06dcb32.mp3",
+   "id": "bye",
+   "noteFr": "Mot à mot : « jusqu'au revoir ». Le « о » de « до » se prononce presque « a » : « dasvidaniya ».",
+   "gap": {
+    "index": 2,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "спасибо",
+      "a": "84fecfa1b01c.mp3",
+      "s": 4
+     },
+     {
+      "t": "хорошо",
+      "a": "a779ac8a9072.mp3",
+      "s": 5
+     }
+    ]
+   }
+  }
+ },
+ "parts": [
+  {
+   "titleFr": "Dire ce que tu fais",
+   "steps": [
+    {
+     "type": "scene"
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "student",
+      "doctor"
+     ]
+    },
+    {
+     "type": "explore"
+    },
+    {
+     "type": "insight",
+     "index": 0
+    }
+   ]
+  },
+  {
+   "titleFr": "Les langues que tu parles",
+   "steps": [
+    {
+     "type": "warmup",
+     "phrases": [
+      "student",
+      "doctor"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "speakru",
+      "little"
+     ],
+     "review": [
+      "student"
+     ]
+    },
+    {
+     "type": "insight",
+     "index": 1
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "speakfr",
+      "well"
+     ],
+     "review": [
+      "speakru",
+      "little"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "thanks",
+      "bye"
+     ],
+     "review": [
+      "speakfr",
+      "well"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Joue la scène",
+   "steps": [
+    {
+     "type": "final"
+    },
+    {
+     "type": "roleplay"
+    }
+   ]
+  }
+ ],
+ "insights": [
+  {
+   "by": "masha",
+   "fr": [
+    "Pour dire ton métier, c'est comme pour « я француз » : pas de verbe « être ». « Я врач » = « je suis médecin ».",
+    "Certains métiers changent pour une femme : « учитель » → « учительница », comme « студент » → « студентка ». D'autres restent pareils : une femme dit aussi « я врач », « я инженер »."
+   ]
+  },
+  {
+   "by": "masha",
+   "fr": [
+    "Le verbe change selon la personne, comme en français : « я говорю » (je parle), « вы говорите » (vous parlez).",
+    "Écoute la fin du mot : -ю pour « я », -ите pour « вы ». C'est elle qui dit qui parle.",
+    "« По-русски », « по-французски » = « en russe », « en français »."
+   ]
+  }
+ ],
+ "explore": {
+  "type": "plain",
+  "frameFr": "Je suis ___.",
+  "color": "#5c677d",
+  "hintFr": "Mets chaque métier dans la phrase et écoute.",
+  "before": [
+   {
+    "t": "Я",
+    "s": 0,
+    "w": true,
+    "a": "70b9d9783365.mp3",
+    "l": "я"
+   },
+   {
+    "t": " ",
+    "w": false
+   }
+  ],
+  "after": [
+   {
+    "t": ".",
+    "w": false
+   }
+  ],
+  "verb": null,
+  "words": [
+   {
+    "tile": "врач",
+    "tileStress": 2,
+    "fr": "médecin",
+    "phraseFr": "Je suis médecin.",
+    "phrase": "Я врач.",
+    "morph": {
+     "from": "врач",
+     "to": "врач",
+     "stem": "врач",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": false
+    },
+    "audioTile": "6419a3676ae1.mp3",
+    "audioPhrase": "900eeaa5eea4.mp3"
+   },
+   {
+    "tile": "инженер",
+    "tileStress": 5,
+    "fr": "ingénieur",
+    "phraseFr": "Je suis ingénieur.",
+    "phrase": "Я инженер.",
+    "morph": {
+     "from": "инженер",
+     "to": "инженер",
+     "stem": "инженер",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": false
+    },
+    "audioTile": "ac5574d99647.mp3",
+    "audioPhrase": "7209b7d0ba50.mp3"
+   },
+   {
+    "tile": "учитель",
+    "tileStress": 2,
+    "fr": "professeur",
+    "phraseFr": "Je suis professeur.",
+    "phrase": "Я учитель.",
+    "morph": {
+     "from": "учитель",
+     "to": "учитель",
+     "stem": "учитель",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": false
+    },
+    "audioTile": "4cd92b9c342b.mp3",
+    "audioPhrase": "bbc40c4893d2.mp3"
+   },
+   {
+    "tile": "учительница",
+    "tileStress": 2,
+    "fr": "professeure",
+    "phraseFr": "Je suis professeure.",
+    "phrase": "Я учительница.",
+    "morph": {
+     "from": "учительница",
+     "to": "учительница",
+     "stem": "учительница",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": false
+    },
+    "audioTile": "37a1fa3e7a05.mp3",
+    "audioPhrase": "1fb2b3b44ec8.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Dis : « Je suis professeure. »",
+   "answer": "учительница"
+  },
+  {
+   "type": "pick",
+   "fr": "Dis : « Je suis ingénieur. »",
+   "answer": "инженер"
+  }
+ ],
+ "grammar": [
+  "вы говорите порусски",
+  "вы студент",
+  "вы хорошо говорите",
+  "да я студент а вы",
+  "до свидания",
+  "до свидания лука",
+  "немного",
+  "немного я говорю пофранцузски и поанглийски",
+  "спасибо",
+  "я врач",
+  "я говорю пофранцузски и поанглийски",
+  "[unk]"
+ ],
+ "cando": [
+  "dire ce que tu fais dans la vie",
+  "dire quelles langues tu parles",
+  "dire au revoir"
+ ],
+ "glossary": {
+  "вы": "vous",
+  "студент": "étudiant",
+  "да": "oui",
+  "я": "je, moi",
+  "а": "et, mais",
+  "врач": "médecin",
+  "говорите": "(vous) parlez",
+  "по-русски": "en russe",
+  "немного": "un peu",
+  "говорю": "(je) parle",
+  "по-французски": "en français",
+  "и": "et",
+  "по-английски": "en anglais",
+  "хорошо": "bien",
+  "спасибо": "merci",
+  "до": "jusqu'à",
+  "свидания": "revoir (до свидания = au revoir)",
+  "лука": "Luka (prénom)",
+  "инженер": "ingénieur",
+  "учитель": "professeur",
+  "учительница": "professeure"
+ },
+ "unlocks": [
+  {
+   "verb": "говорить",
+   "persons": [
+    "я",
+    "вы"
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "02-presenter:student",
+   "ru": "Да, я студент. А вы?",
+   "fr": "Oui, je suis étudiant. Et vous ?",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "студент",
+     "s": 4,
+     "w": true,
+     "a": "599b3911274d.mp3",
+     "l": "студент"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вы",
+     "s": 1,
+     "w": true,
+     "a": "8b7efd6df007.mp3",
+     "l": "вы"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "910b54070f1a.mp3"
+  },
+  {
+   "id": "02-presenter:doctor",
+   "ru": "Я врач.",
+   "fr": "Je suis médecin.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "врач",
+     "s": 2,
+     "w": true,
+     "a": "6419a3676ae1.mp3",
+     "l": "врач"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "311a1d2bfca3.mp3"
+  },
+  {
+   "id": "02-presenter:speakru",
+   "ru": "Вы говорите по-русски?",
+   "fr": "Vous parlez russe ?",
+   "tokens": [
+    {
+     "t": "Вы",
+     "s": 1,
+     "w": true,
+     "a": "8b7efd6df007.mp3",
+     "l": "вы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говорите",
+     "s": 5,
+     "w": true,
+     "a": "af41f5721ac9.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-русски",
+     "s": 4,
+     "w": true,
+     "a": "1875ccbd5a57.mp3",
+     "l": "по-русски"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "50861e776815.mp3"
+  },
+  {
+   "id": "02-presenter:little",
+   "ru": "Немного.",
+   "fr": "Un peu.",
+   "tokens": [
+    {
+     "t": "Немного",
+     "s": 4,
+     "w": true,
+     "a": "16f0ae3fba76.mp3",
+     "l": "немного"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "4e051166786a.mp3"
+  },
+  {
+   "id": "02-presenter:speakfr",
+   "ru": "Я говорю по-французски и по-английски.",
+   "fr": "Je parle français et anglais.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говорю",
+     "s": 5,
+     "w": true,
+     "a": "7060cf7cbf69.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-французски",
+     "s": 8,
+     "w": true,
+     "a": "53b0bb0cb11b.mp3",
+     "l": "по-французски"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-английски",
+     "s": 7,
+     "w": true,
+     "a": "c0f8fa40aea5.mp3",
+     "l": "по-английски"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "25f1f0f96ded.mp3"
+  },
+  {
+   "id": "02-presenter:well",
+   "ru": "Вы хорошо говорите!",
+   "fr": "Vous parlez bien !",
+   "tokens": [
+    {
+     "t": "Вы",
+     "s": 1,
+     "w": true,
+     "a": "8b7efd6df007.mp3",
+     "l": "вы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говорите",
+     "s": 5,
+     "w": true,
+     "a": "af41f5721ac9.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "069eda610182.mp3"
+  },
+  {
+   "id": "02-presenter:thanks",
+   "ru": "Спасибо!",
+   "fr": "Merci !",
+   "tokens": [
+    {
+     "t": "Спасибо",
+     "s": 4,
+     "w": true,
+     "a": "84fecfa1b01c.mp3",
+     "l": "спасибо"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "79862b3359fa.mp3"
+  },
+  {
+   "id": "02-presenter:bye",
+   "ru": "До свидания!",
+   "fr": "Au revoir !",
+   "tokens": [
+    {
+     "t": "До",
+     "s": 1,
+     "w": true,
+     "a": "f2096c168fa3.mp3",
+     "l": "до"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "свидания",
+     "s": 4,
+     "w": true,
+     "a": "7e0ee3fb9b63.mp3",
+     "l": "свидание"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "fc11a06dcb32.mp3"
+  }
+ ],
+ "hasAudio": false
+}

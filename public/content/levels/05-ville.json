@@ -1,0 +1,1546 @@
+{
+ "version": 2,
+ "id": "05-ville",
+ "order": 5,
+ "titleFr": "Où es-tu ?",
+ "titleRu": "Ты где?",
+ "emoji": "🗺️",
+ "sceneFr": "Luka se promène en ville quand son téléphone sonne : c'est Macha, sa voisine. Depuis leur rencontre, ils se tutoient.",
+ "learner": "luka",
+ "speakers": {
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  },
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "masha",
+   "ru": "Алло, Лука! Ты где?",
+   "fr": "Allô, Luka ! Tu es où ?",
+   "tokens": [
+    {
+     "t": "Алло",
+     "s": 3,
+     "w": true,
+     "a": "a6f45cfe38f6.mp3",
+     "l": "алло"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "9de43f2542c4.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Привет, Маша! Я в парке.",
+   "fr": "Salut, Macha ! Je suis au parc.",
+   "tokens": [
+    {
+     "t": "Привет",
+     "s": 4,
+     "w": true,
+     "a": "465595078eb6.mp3",
+     "l": "привет"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Маша",
+     "s": 1,
+     "w": true,
+     "a": "db2f8c7ea687.mp3",
+     "l": "маша"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "парке",
+     "s": 1,
+     "w": true,
+     "a": "4f451702cba3.mp3",
+     "l": "парка"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "6e6c8b0f3932.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "А я в кафе. Это близко.",
+   "fr": "Et moi, je suis au café. C'est tout près.",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кафе",
+     "s": 3,
+     "w": true,
+     "a": "d700d700529b.mp3",
+     "l": "кафе"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "близко",
+     "s": 2,
+     "w": true,
+     "a": "dfdea2f166d5.mp3",
+     "l": "близко"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "56f183a2e548.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Где кафе?",
+   "fr": "Où est le café ?",
+   "tokens": [
+    {
+     "t": "Где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кафе",
+     "s": 3,
+     "w": true,
+     "a": "d700d700529b.mp3",
+     "l": "кафе"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "4302760289a8.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Прямо, потом направо.",
+   "fr": "Tout droit, puis à droite.",
+   "tokens": [
+    {
+     "t": "Прямо",
+     "s": 2,
+     "w": true,
+     "a": "30fdb4c9ce7e.mp3",
+     "l": "прямо"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "потом",
+     "s": 3,
+     "w": true,
+     "a": "88ef6411a08b.mp3",
+     "l": "потом"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "направо",
+     "s": 4,
+     "w": true,
+     "a": "d56915cee3b9.mp3",
+     "l": "направо"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "9a94dd2ec7e5.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Это далеко?",
+   "fr": "C'est loin ?",
+   "tokens": [
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "далеко",
+     "s": 5,
+     "w": true,
+     "a": "142b03006798.mp3",
+     "l": "далеко"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "105808f55971.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Нет, пять минут.",
+   "fr": "Non, cinq minutes.",
+   "tokens": [
+    {
+     "t": "Нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пять",
+     "s": 1,
+     "w": true,
+     "a": "c08ef4250ab4.mp3",
+     "l": "пять"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "минут",
+     "s": 3,
+     "w": true,
+     "a": "2e01f27b926b.mp3",
+     "l": "минута"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "00eec08947b3.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Хорошо, иду!",
+   "fr": "D'accord, j'arrive !",
+   "tokens": [
+    {
+     "t": "Хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "иду",
+     "s": 2,
+     "w": true,
+     "a": "7d1f57a66b7b.mp3",
+     "l": "идти"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "fd724015e1eb.mp3"
+  }
+ ],
+ "phrases": {
+  "where": {
+   "speaker": "masha",
+   "ru": "Алло, Лука! Ты где?",
+   "fr": "Allô, Luka ! Tu es où ?",
+   "tokens": [
+    {
+     "t": "Алло",
+     "s": 3,
+     "w": true,
+     "a": "a6f45cfe38f6.mp3",
+     "l": "алло"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "9de43f2542c4.mp3",
+   "id": "where",
+   "noteFr": "« Ты » = tu : entre amis, on se tutoie. « Где » = où.",
+   "gap": {
+    "index": 6,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "парке",
+      "a": "4f451702cba3.mp3",
+      "s": 1
+     },
+     {
+      "t": "привет",
+      "a": "465595078eb6.mp3",
+      "s": 4
+     }
+    ]
+   }
+  },
+  "park": {
+   "speaker": "luka",
+   "ru": "Привет, Маша! Я в парке.",
+   "fr": "Salut, Macha ! Je suis au parc.",
+   "tokens": [
+    {
+     "t": "Привет",
+     "s": 4,
+     "w": true,
+     "a": "465595078eb6.mp3",
+     "l": "привет"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Маша",
+     "s": 1,
+     "w": true,
+     "a": "db2f8c7ea687.mp3",
+     "l": "маша"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "парке",
+     "s": 1,
+     "w": true,
+     "a": "4f451702cba3.mp3",
+     "l": "парка"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "6e6c8b0f3932.mp3",
+   "id": "park",
+   "noteFr": "« Привет » = salut (entre amis). « В парке » = au parc : « парк » devient « парке ».",
+   "gap": {
+    "index": 8,
+    "whyFr": "Après « в » (pour dire où l'on est), on ajoute -е : « парк » → « в парке ».",
+    "distractors": [
+     {
+      "t": "парк",
+      "a": "3ca7ccbdbe24.mp3",
+      "s": 1
+     },
+     {
+      "t": "близко",
+      "a": "dfdea2f166d5.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "cafe": {
+   "speaker": "masha",
+   "ru": "А я в кафе. Это близко.",
+   "fr": "Et moi, je suis au café. C'est tout près.",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кафе",
+     "s": 3,
+     "w": true,
+     "a": "d700d700529b.mp3",
+     "l": "кафе"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "близко",
+     "s": 2,
+     "w": true,
+     "a": "dfdea2f166d5.mp3",
+     "l": "близко"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "56f183a2e548.mp3",
+   "id": "cafe",
+   "noteFr": "« Кафе » ne change jamais. « Это » = c'est, « близко » = près.",
+   "gap": {
+    "index": 10,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "привет",
+      "a": "465595078eb6.mp3",
+      "s": 4
+     },
+     {
+      "t": "минут",
+      "a": "2e01f27b926b.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "wherecafe": {
+   "speaker": "luka",
+   "ru": "Где кафе?",
+   "fr": "Où est le café ?",
+   "tokens": [
+    {
+     "t": "Где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кафе",
+     "s": 3,
+     "w": true,
+     "a": "d700d700529b.mp3",
+     "l": "кафе"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "4302760289a8.mp3",
+   "id": "wherecafe",
+   "noteFr": "Toujours sans verbe « être » : « où café ? ».",
+   "gap": {
+    "index": 0,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "иду",
+      "a": "7d1f57a66b7b.mp3",
+      "s": 2
+     },
+     {
+      "t": "хорошо",
+      "a": "a779ac8a9072.mp3",
+      "s": 5
+     }
+    ]
+   }
+  },
+  "direction": {
+   "speaker": "masha",
+   "ru": "Прямо, потом направо.",
+   "fr": "Tout droit, puis à droite.",
+   "tokens": [
+    {
+     "t": "Прямо",
+     "s": 2,
+     "w": true,
+     "a": "30fdb4c9ce7e.mp3",
+     "l": "прямо"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "потом",
+     "s": 3,
+     "w": true,
+     "a": "88ef6411a08b.mp3",
+     "l": "потом"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "направо",
+     "s": 4,
+     "w": true,
+     "a": "d56915cee3b9.mp3",
+     "l": "направо"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "9a94dd2ec7e5.mp3",
+   "id": "direction",
+   "noteFr": "« Прямо » = tout droit, « потом » = puis, « направо » = à droite.",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "парке",
+      "a": "4f451702cba3.mp3",
+      "s": 1
+     },
+     {
+      "t": "минут",
+      "a": "2e01f27b926b.mp3",
+      "s": 3
+     }
+    ]
+   },
+   "orders": [
+    "прямо потом направо"
+   ]
+  },
+  "far": {
+   "speaker": "luka",
+   "ru": "Это далеко?",
+   "fr": "C'est loin ?",
+   "tokens": [
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "далеко",
+     "s": 5,
+     "w": true,
+     "a": "142b03006798.mp3",
+     "l": "далеко"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "105808f55971.mp3",
+   "id": "far",
+   "noteFr": "« Далеко » = loin, le contraire de « близко ».",
+   "gap": {
+    "index": 2,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "привет",
+      "a": "465595078eb6.mp3",
+      "s": 4
+     },
+     {
+      "t": "иду",
+      "a": "7d1f57a66b7b.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "five": {
+   "speaker": "masha",
+   "ru": "Нет, пять минут.",
+   "fr": "Non, cinq minutes.",
+   "tokens": [
+    {
+     "t": "Нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пять",
+     "s": 1,
+     "w": true,
+     "a": "c08ef4250ab4.mp3",
+     "l": "пять"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "минут",
+     "s": 3,
+     "w": true,
+     "a": "2e01f27b926b.mp3",
+     "l": "минута"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "00eec08947b3.mp3",
+   "id": "five",
+   "noteFr": "« Пять » = cinq, « минут » = minutes.",
+   "gap": {
+    "index": 2,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "где",
+      "a": "fe72644ce047.mp3",
+      "s": 2
+     },
+     {
+      "t": "иду",
+      "a": "7d1f57a66b7b.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "coming": {
+   "speaker": "luka",
+   "ru": "Хорошо, иду!",
+   "fr": "D'accord, j'arrive !",
+   "tokens": [
+    {
+     "t": "Хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "иду",
+     "s": 2,
+     "w": true,
+     "a": "7d1f57a66b7b.mp3",
+     "l": "идти"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "fd724015e1eb.mp3",
+   "id": "coming",
+   "noteFr": "« Хорошо » = bien, d'accord. « Иду » = (je) vais, j'arrive (à pied).",
+   "gap": {
+    "index": 2,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "минут",
+      "a": "2e01f27b926b.mp3",
+      "s": 3
+     },
+     {
+      "t": "парке",
+      "a": "4f451702cba3.mp3",
+      "s": 1
+     }
+    ]
+   }
+  }
+ },
+ "parts": [
+  {
+   "titleFr": "Dire où tu es",
+   "steps": [
+    {
+     "type": "scene"
+    },
+    {
+     "type": "explore"
+    },
+    {
+     "type": "insight",
+     "index": 0
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "where",
+      "park"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "cafe",
+      "wherecafe"
+     ],
+     "review": [
+      "park"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Trouver le chemin",
+   "steps": [
+    {
+     "type": "warmup",
+     "phrases": [
+      "where",
+      "park",
+      "cafe",
+      "wherecafe"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "direction",
+      "far"
+     ],
+     "review": [
+      "cafe",
+      "wherecafe"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "five",
+      "coming"
+     ],
+     "review": [
+      "direction",
+      "far"
+     ]
+    },
+    {
+     "type": "insight",
+     "index": 1
+    }
+   ]
+  },
+  {
+   "titleFr": "Joue la scène",
+   "steps": [
+    {
+     "type": "final"
+    },
+    {
+     "type": "roleplay"
+    }
+   ]
+  }
+ ],
+ "insights": [
+  {
+   "by": "masha",
+   "fr": [
+    "Pour dire où tu es, on met « в » (dans, à) devant le lieu, et la fin du mot change : « парк » → « в парке ».",
+    "Le plus souvent, on ajoute -е ou on remplace la dernière voyelle par -е : « театр » → « в театре », « Москва » → « в Москве ».",
+    "Ce vert marque toujours le lieu où l'on se trouve. « Кафе » et « метро » sont des mots venus d'ailleurs : ils ne changent jamais."
+   ]
+  },
+  {
+   "by": "masha",
+   "fr": [
+    "Entre amis, on dit « привет » (salut) et « ты » (tu). Avec un inconnu, c'est « здравствуйте » et « вы ».",
+    "Macha et Luka se connaissent maintenant : ils se tutoient !"
+   ]
+  }
+ ],
+ "explore": {
+  "type": "case",
+  "frameFr": "Je suis ___.",
+  "color": "#2a9d8f",
+  "hintFr": "Mets chaque lieu après « в » et regarde bien la fin du mot.",
+  "before": [
+   {
+    "t": "Я",
+    "s": 0,
+    "w": true,
+    "a": "70b9d9783365.mp3",
+    "l": "я"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "в",
+    "s": null,
+    "w": true,
+    "a": "3c5b79b7f921.mp3",
+    "l": "в"
+   },
+   {
+    "t": " ",
+    "w": false
+   }
+  ],
+  "after": [
+   {
+    "t": ".",
+    "w": false
+   }
+  ],
+  "verb": null,
+  "words": [
+   {
+    "tile": "парк",
+    "tileStress": 1,
+    "fr": "le parc",
+    "phraseFr": "Je suis au parc.",
+    "phrase": "Я в парке.",
+    "morph": {
+     "from": "парк",
+     "to": "парке",
+     "stem": "парк",
+     "endFrom": "",
+     "endTo": "е",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": true
+    },
+    "audioTile": "3ca7ccbdbe24.mp3",
+    "audioPhrase": "af24937184d0.mp3"
+   },
+   {
+    "tile": "Москва",
+    "tileStress": 5,
+    "fr": "Moscou",
+    "phraseFr": "Je suis à Moscou.",
+    "phrase": "Я в Москве.",
+    "morph": {
+     "from": "Москва",
+     "to": "Москве",
+     "stem": "Москв",
+     "endFrom": "а",
+     "endTo": "е",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": true
+    },
+    "audioTile": "84f280146c14.mp3",
+    "audioPhrase": "63d30ca4b2ff.mp3"
+   },
+   {
+    "tile": "гостиница",
+    "tileStress": 4,
+    "fr": "l'hôtel",
+    "phraseFr": "Je suis à l'hôtel.",
+    "phrase": "Я в гостинице.",
+    "morph": {
+     "from": "гостиница",
+     "to": "гостинице",
+     "stem": "гостиниц",
+     "endFrom": "а",
+     "endTo": "е",
+     "stressFrom": 4,
+     "stressTo": 4,
+     "changed": true
+    },
+    "audioTile": "70ce623b74c4.mp3",
+    "audioPhrase": "fa833909e874.mp3"
+   },
+   {
+    "tile": "театр",
+    "tileStress": 2,
+    "fr": "le théâtre",
+    "phraseFr": "Je suis au théâtre.",
+    "phrase": "Я в театре.",
+    "morph": {
+     "from": "театр",
+     "to": "театре",
+     "stem": "театр",
+     "endFrom": "",
+     "endTo": "е",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": true
+    },
+    "audioTile": "f532e3828e20.mp3",
+    "audioPhrase": "ac92a6aef400.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Dis que tu es à l'hôtel.",
+   "answer": "гостиница"
+  },
+  {
+   "type": "pick",
+   "fr": "Dis que tu es à Moscou.",
+   "answer": "Москва"
+  }
+ ],
+ "grammar": [
+  "а я в кафе это близко",
+  "алло лука ты где",
+  "где кафе",
+  "нет пять минут",
+  "привет маша я в парке",
+  "прямо потом направо",
+  "хорошо иду",
+  "это далеко",
+  "[unk]"
+ ],
+ "cando": [
+  "dire où tu es",
+  "demander si c'est loin",
+  "comprendre un chemin simple"
+ ],
+ "glossary": {
+  "алло": "allô",
+  "лука": "Luka (prénom)",
+  "ты": "tu",
+  "где": "où",
+  "привет": "salut",
+  "маша": "Macha (prénom)",
+  "я": "je, moi",
+  "в": "dans, à",
+  "парке": "parc (après в)",
+  "парк": "parc",
+  "а": "et, mais",
+  "кафе": "café",
+  "это": "c'est, ce",
+  "близко": "près",
+  "прямо": "tout droit",
+  "потом": "puis, ensuite",
+  "направо": "à droite",
+  "далеко": "loin",
+  "нет": "non",
+  "пять": "cinq",
+  "минут": "minutes",
+  "хорошо": "bien, d'accord",
+  "иду": "(je) vais, j'arrive",
+  "москва": "Moscou",
+  "гостиница": "hôtel",
+  "театр": "théâtre"
+ },
+ "unlocks": [
+  {
+   "case": "loct",
+   "gender": "masc",
+   "from": "парк",
+   "to": "парке"
+  },
+  {
+   "case": "loct",
+   "gender": "femn",
+   "from": "Москва",
+   "to": "Москве"
+  }
+ ],
+ "items": [
+  {
+   "id": "05-ville:where",
+   "ru": "Алло, Лука! Ты где?",
+   "fr": "Allô, Luka ! Tu es où ?",
+   "tokens": [
+    {
+     "t": "Алло",
+     "s": 3,
+     "w": true,
+     "a": "a6f45cfe38f6.mp3",
+     "l": "алло"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "9de43f2542c4.mp3"
+  },
+  {
+   "id": "05-ville:park",
+   "ru": "Привет, Маша! Я в парке.",
+   "fr": "Salut, Macha ! Je suis au parc.",
+   "tokens": [
+    {
+     "t": "Привет",
+     "s": 4,
+     "w": true,
+     "a": "465595078eb6.mp3",
+     "l": "привет"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Маша",
+     "s": 1,
+     "w": true,
+     "a": "db2f8c7ea687.mp3",
+     "l": "маша"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "парке",
+     "s": 1,
+     "w": true,
+     "a": "4f451702cba3.mp3",
+     "l": "парка"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "6e6c8b0f3932.mp3"
+  },
+  {
+   "id": "05-ville:cafe",
+   "ru": "А я в кафе. Это близко.",
+   "fr": "Et moi, je suis au café. C'est tout près.",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кафе",
+     "s": 3,
+     "w": true,
+     "a": "d700d700529b.mp3",
+     "l": "кафе"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "близко",
+     "s": 2,
+     "w": true,
+     "a": "dfdea2f166d5.mp3",
+     "l": "близко"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "56f183a2e548.mp3"
+  },
+  {
+   "id": "05-ville:wherecafe",
+   "ru": "Где кафе?",
+   "fr": "Où est le café ?",
+   "tokens": [
+    {
+     "t": "Где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кафе",
+     "s": 3,
+     "w": true,
+     "a": "d700d700529b.mp3",
+     "l": "кафе"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "4302760289a8.mp3"
+  },
+  {
+   "id": "05-ville:direction",
+   "ru": "Прямо, потом направо.",
+   "fr": "Tout droit, puis à droite.",
+   "tokens": [
+    {
+     "t": "Прямо",
+     "s": 2,
+     "w": true,
+     "a": "30fdb4c9ce7e.mp3",
+     "l": "прямо"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "потом",
+     "s": 3,
+     "w": true,
+     "a": "88ef6411a08b.mp3",
+     "l": "потом"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "направо",
+     "s": 4,
+     "w": true,
+     "a": "d56915cee3b9.mp3",
+     "l": "направо"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "9a94dd2ec7e5.mp3"
+  },
+  {
+   "id": "05-ville:far",
+   "ru": "Это далеко?",
+   "fr": "C'est loin ?",
+   "tokens": [
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "далеко",
+     "s": 5,
+     "w": true,
+     "a": "142b03006798.mp3",
+     "l": "далеко"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "105808f55971.mp3"
+  },
+  {
+   "id": "05-ville:five",
+   "ru": "Нет, пять минут.",
+   "fr": "Non, cinq minutes.",
+   "tokens": [
+    {
+     "t": "Нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пять",
+     "s": 1,
+     "w": true,
+     "a": "c08ef4250ab4.mp3",
+     "l": "пять"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "минут",
+     "s": 3,
+     "w": true,
+     "a": "2e01f27b926b.mp3",
+     "l": "минута"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "00eec08947b3.mp3"
+  },
+  {
+   "id": "05-ville:coming",
+   "ru": "Хорошо, иду!",
+   "fr": "D'accord, j'arrive !",
+   "tokens": [
+    {
+     "t": "Хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "иду",
+     "s": 2,
+     "w": true,
+     "a": "7d1f57a66b7b.mp3",
+     "l": "идти"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "fd724015e1eb.mp3"
+  }
+ ],
+ "hasAudio": false
+}

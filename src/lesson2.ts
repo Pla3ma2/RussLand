@@ -415,7 +415,7 @@ const RENDER: { [K in Ex["k"]]: (ex: Extract<Ex, { k: K }>, ctx: Ctx) => void } 
         slot.innerHTML = renderStressed(cap(right.t), right.s, right.t);
         b.classList.add(o.ok ? "right" : "wrong");
         if (!o.ok) $$<HTMLButtonElement>("[data-o]", ctx.body).find((x) => opts[Number(x.dataset.o)].ok)?.classList.add("right");
-        ctx.result(o.ok, `« ${ruHtml(p)} »`);
+        ctx.result(o.ok, `« ${ruHtml(p)} »${!o.ok && g.whyFr ? `<small>${esc(g.whyFr)}</small>` : ""}`);
         await play(p.audio, p.ru);
       };
     });
@@ -541,7 +541,7 @@ const RENDER: { [K in Ex["k"]]: (ex: Extract<Ex, { k: K }>, ctx: Ctx) => void } 
     const ex = lv.explore;
     ctx.body.innerHTML = `
       <div class="task-kicker">Construis la phrase</div>
-      <p class="hint">Mets chaque mot dans la phrase et écoute. Regarde comment le mot change pour une femme.</p>
+      <p class="hint">${esc(ex.hintFr || "Mets chaque mot dans la phrase et écoute.")}</p>
       <div class="frame"><div class="frame-host"></div><div class="fr frame-fr">${esc(ex.frameFr)}</div></div>
       <div class="tiles explore-tiles">${ex.words.map((w, i) => `<button class="tile" data-w="${i}">
         <span class="tile-ru">${renderStressed(w.tile, w.tileStress, w.tile)}</span><span class="tile-fr">${esc(w.fr)}</span></button>`).join("")}</div>`;

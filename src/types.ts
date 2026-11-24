@@ -42,6 +42,7 @@ export interface Explore {
   type: "plain" | "case" | "person";
   frameFr: string;
   color: string;
+  hintFr?: string;
   before: Token[];
   after: Token[];
   verb: string | null;
@@ -144,7 +145,7 @@ export interface Carte {
 export interface PhraseV2 extends Line {
   id: string;
   noteFr: string;
-  gap?: { index: number; distractors: { t: string; a: string; s: number | null }[] };
+  gap?: { index: number; whyFr?: string; distractors: { t: string; a: string; s: number | null }[] };
   orders?: string[];
 }
 

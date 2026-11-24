@@ -1,0 +1,451 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "07-amis",
+  "order": 7,
+  "titleFr": "Chez des amis",
+  "titleRu": "В гостях",
+  "emoji": "🍽️",
+  "sceneFr": "Le soir, Macha invite Luka à dîner. Son ami Oleg est là aussi… et Luka a l'impression de l'avoir déjà vu quelque part.",
+  "dialogue": [
+    {
+      "speaker": "masha",
+      "ru": "Л+ука, это мой друг Ол+ег.",
+      "fr": "Luka, voici mon ami Oleg."
+    },
+    {
+      "speaker": "oleg",
+      "ru": "Привет! Мы знакомы! Банк, да?",
+      "fr": "Salut ! On se connaît ! La banque, c'est ça ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Да! Очень приятно, Ол+ег.",
+      "fr": "Oui ! Enchanté, Oleg."
+    },
+    {
+      "speaker": "oleg",
+      "ru": "Где ты живёшь, Л+ука?",
+      "fr": "Où est-ce que tu habites, Luka ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Сейчас я живу в Петерб+урге. А дома я живу в Ли+оне.",
+      "fr": "En ce moment, j'habite à Saint-Pétersbourg. Mais chez moi, j'habite à Lyon."
+    },
+    {
+      "speaker": "oleg",
+      "ru": "Как интересно! Что ты любишь?",
+      "fr": "Comme c'est intéressant ! Qu'est-ce que tu aimes ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Я люблю музыку и кино.",
+      "fr": "J'aime la musique et le cinéma."
+    },
+    {
+      "speaker": "masha",
+      "ru": "А я люблю книги.",
+      "fr": "Et moi, j'aime les livres."
+    },
+    {
+      "speaker": "oleg",
+      "ru": "Давайте ужинать!",
+      "fr": "À table !"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "friend",
+      "speaker": "masha",
+      "ru": "Л+ука, это мой друг Ол+ег.",
+      "fr": "Luka, voici mon ami Oleg.",
+      "noteFr": "« Это » = voici, c'est. « Мой друг » = mon ami.",
+      "gap": {
+        "word": "друг",
+        "distractors": [
+          "кино",
+          "живу"
+        ]
+      }
+    },
+    {
+      "id": "known",
+      "speaker": "oleg",
+      "ru": "Привет! Мы знакомы!",
+      "fr": "Salut ! On se connaît !",
+      "noteFr": "« Мы знакомы » = nous nous connaissons. C'est le passant de la banque !",
+      "gap": {
+        "word": "знакомы",
+        "distractors": [
+          "живу",
+          "люблю"
+        ]
+      }
+    },
+    {
+      "id": "nice",
+      "speaker": "luka",
+      "ru": "Да! Очень приятно, Ол+ег.",
+      "fr": "Oui ! Enchanté, Oleg.",
+      "noteFr": "Tu connais « очень приятно » depuis ta rencontre avec Macha.",
+      "gap": {
+        "word": "приятно",
+        "distractors": [
+          "живу",
+          "люблю"
+        ]
+      }
+    },
+    {
+      "id": "livewhere",
+      "speaker": "oleg",
+      "ru": "Где ты живёшь, Л+ука?",
+      "fr": "Où est-ce que tu habites, Luka ?",
+      "noteFr": "Entre amis, on se tutoie : « ты живёшь » (tu habites).",
+      "gap": {
+        "word": "живёшь",
+        "distractors": [
+          "живу",
+          "кино"
+        ],
+        "whyFr": "Avec « ты », le verbe finit en -ёшь : « ты живёшь ». « Живу », c'est pour « я »."
+      },
+      "orders": [
+        "где ты живёшь лука",
+        "лука где ты живёшь"
+      ]
+    },
+    {
+      "id": "livespb",
+      "speaker": "luka",
+      "ru": "Сейчас я живу в Петерб+урге.",
+      "fr": "En ce moment, j'habite à Saint-Pétersbourg.",
+      "noteFr": "« Сейчас » = maintenant, en ce moment. Les Russes disent souvent « Петербург » tout court.",
+      "gap": {
+        "word": "петербурге",
+        "distractors": [
+          "петербург",
+          "люблю"
+        ],
+        "whyFr": "Après « в » (pour dire où l'on est), « Петербург » devient « в Петербурге »."
+      },
+      "orders": [
+        "сейчас я живу в петербурге",
+        "я сейчас живу в петербурге",
+        "я живу в петербурге сейчас"
+      ]
+    },
+    {
+      "id": "livelyon",
+      "speaker": "luka",
+      "ru": "А дома я живу в Ли+оне.",
+      "fr": "Mais chez moi, j'habite à Lyon.",
+      "noteFr": "« Дома » = à la maison, chez moi.",
+      "gap": {
+        "word": "лионе",
+        "distractors": [
+          "лион",
+          "люблю"
+        ],
+        "whyFr": "Après « в » (pour dire où l'on est), « Лион » devient « в Лионе »."
+      },
+      "orders": [
+        "а дома я живу в лионе",
+        "а я дома живу в лионе"
+      ]
+    },
+    {
+      "id": "like",
+      "speaker": "oleg",
+      "ru": "Как интересно! Что ты любишь?",
+      "fr": "Comme c'est intéressant ! Qu'est-ce que tu aimes ?",
+      "noteFr": "« Интересно » = intéressant. « Любишь » = (tu) aimes.",
+      "gap": {
+        "word": "любишь",
+        "distractors": [
+          "люблю",
+          "живу"
+        ],
+        "whyFr": "Avec « ты », c'est « любишь ». « Люблю », c'est pour « я »."
+      }
+    },
+    {
+      "id": "music",
+      "speaker": "luka",
+      "ru": "Я люблю музыку и кино.",
+      "fr": "J'aime la musique et le cinéma.",
+      "noteFr": "Après « люблю », c'est comme après « хочу » : « музыка » → « музыку ». « Кино » ne change jamais.",
+      "gap": {
+        "word": "музыку",
+        "distractors": [
+          "музыка",
+          "живу"
+        ],
+        "whyFr": "Après « люблю », le -а final devient -у : « музыка » → « музыку »."
+      },
+      "orders": [
+        "я люблю музыку и кино",
+        "я люблю кино и музыку"
+      ]
+    },
+    {
+      "id": "books",
+      "speaker": "masha",
+      "ru": "А я люблю книги.",
+      "fr": "Et moi, j'aime les livres.",
+      "noteFr": "« Книги » = des livres.",
+      "gap": {
+        "word": "люблю",
+        "distractors": [
+          "любишь",
+          "живу"
+        ],
+        "whyFr": "Avec « я », c'est « люблю ». « Любишь », c'est pour « ты »."
+      }
+    },
+    {
+      "id": "dinner",
+      "speaker": "oleg",
+      "ru": "Давайте ужинать!",
+      "fr": "À table !",
+      "noteFr": "Mot à mot : « allons dîner ! »."
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Retrouvailles",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "friend",
+            "known"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "nice",
+            "livewhere"
+          ],
+          "review": [
+            "known"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Où tu habites, ce que tu aimes",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "friend",
+            "nice",
+            "livewhere"
+          ]
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 0
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "livespb",
+            "livelyon"
+          ],
+          "review": [
+            "livewhere"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "like",
+            "music",
+            "books"
+          ],
+          "review": [
+            "livespb",
+            "livelyon"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "dinner"
+          ],
+          "review": [
+            "music",
+            "books"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "masha",
+      "fr": [
+        "Tu connais déjà ce vert : « в парке ». C'est pareil pour les villes : « в Лионе », « в Париже ».",
+        "Les mots en -ия sont un peu spéciaux : « Россия » → « в России »."
+      ]
+    },
+    {
+      "by": "masha",
+      "fr": [
+        "« Люблю » (j'aime) fonctionne comme « хочу » : « музыка » → « я люблю музыку ». En bleu !",
+        "À la banque, Oleg disait « вы » à Luka. Maintenant ils sont amis : « ты живёшь », « ты любишь »."
+      ]
+    }
+  ],
+  "explore": {
+    "type": "case",
+    "speaker": "luka",
+    "case": "loct",
+    "frame": "Я живу в ___.",
+    "frameFr": "J'habite ___.",
+    "color": "#2a9d8f",
+    "hintFr": "Mets chaque ville après « в » et regarde bien la fin du mot.",
+    "words": [
+      {
+        "tile": "Ли+он",
+        "fr": "Lyon",
+        "phraseFr": "J'habite à Lyon."
+      },
+      {
+        "tile": "Париж",
+        "fr": "Paris",
+        "phraseFr": "J'habite à Paris."
+      },
+      {
+        "tile": "Марс+ель",
+        "formAcc": "Марс+еле",
+        "fr": "Marseille",
+        "phraseFr": "J'habite à Marseille."
+      },
+      {
+        "tile": "Россия",
+        "fr": "la Russie",
+        "phraseFr": "J'habite en Russie."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Dis que tu habites à Paris.",
+      "answer": "Париж"
+    },
+    {
+      "type": "pick",
+      "fr": "Dis que tu habites en Russie.",
+      "answer": "Россия"
+    }
+  ],
+  "cando": [
+    "présenter quelqu'un",
+    "dire où tu habites",
+    "dire ce que tu aimes"
+  ],
+  "unlocks": [
+    {
+      "case": "loct",
+      "gender": "masc",
+      "from": "Лион",
+      "to": "Лионе"
+    },
+    {
+      "case": "loct",
+      "gender": "femn",
+      "from": "Россия",
+      "to": "России"
+    },
+    {
+      "case": "accs",
+      "gender": "femn",
+      "from": "музыка",
+      "to": "музыку"
+    },
+    {
+      "verb": "жить",
+      "persons": [
+        "я",
+        "ты"
+      ]
+    },
+    {
+      "verb": "любить",
+      "persons": [
+        "я",
+        "ты"
+      ]
+    }
+  ],
+  "glossary": {
+    "лука": "Luka (prénom)",
+    "это": "voici, c'est",
+    "мой": "mon",
+    "друг": "ami",
+    "олег": "Oleg (prénom)",
+    "привет": "salut",
+    "мы": "nous",
+    "знакомы": "(nous) nous connaissons",
+    "банк": "banque",
+    "да": "oui",
+    "очень": "très",
+    "приятно": "agréable",
+    "где": "où",
+    "ты": "tu",
+    "живёшь": "(tu) habites",
+    "живешь": "(tu) habites",
+    "сейчас": "maintenant",
+    "я": "je, moi",
+    "живу": "(j')habite",
+    "в": "dans, à",
+    "петербурге": "Saint-Pétersbourg (après в)",
+    "петербург": "Saint-Pétersbourg",
+    "а": "et, mais",
+    "дома": "à la maison",
+    "лионе": "Lyon (après в)",
+    "лион": "Lyon",
+    "как": "comme, comment",
+    "интересно": "intéressant",
+    "что": "quoi, que",
+    "любишь": "(tu) aimes",
+    "люблю": "(j')aime",
+    "музыку": "musique (après люблю)",
+    "музыка": "musique",
+    "и": "et",
+    "кино": "cinéma",
+    "книги": "livres",
+    "давайте": "allons, faisons",
+    "ужинать": "dîner",
+    "париж": "Paris",
+    "марсель": "Marseille",
+    "россия": "Russie"
+  }
+}

@@ -3,5 +3,6 @@
   "luka":  { "name": "Лука",  "nameFr": "Luka",  "voice": "aidar",   "color": "#3d5a80" },
   "masha": { "name": "Маша",  "nameFr": "Macha", "voice": "baya",    "color": "#e07a5f" },
   "anna":  { "name": "Анна",  "nameFr": "Anna",  "voice": "kseniya", "color": "#81b29a" },
-  "oleg":  { "name": "Олег",  "nameFr": "Oleg",  "voice": "eugene",  "color": "#9a6fb0" }
+  "oleg":  { "name": "Олег",  "nameFr": "Oleg",  "voice": "eugene",  "color": "#9a6fb0" },
+  "nina":  { "name": "Нина",  "nameFr": "Nina",  "voice": "xenia",   "color": "#c9a227" }
 }

@@ -198,7 +198,7 @@ def build_explore(ex: dict) -> dict:
         })
     after_txt = after.replace("{V}", "")
     return {
-        "type": t, "frameFr": ex["frameFr"], "color": ex.get("color", "#3d5a80"),
+        "type": t, "frameFr": ex["frameFr"], "color": ex.get("color", "#3d5a80"), "hintFr": ex.get("hintFr", ""),
         "before": tokenize(before) if before.strip() else [],
         "after": tokenize(after_txt) if after_txt.strip(" ") else [],
         "verb": ex.get("verb"), "words": words,
@@ -267,6 +267,7 @@ def build_lesson_v2(src: dict) -> dict:
             else:
                 out["gap"] = {
                     "index": idx,
+                    "whyFr": g.get("whyFr", ""),
                     "distractors": [{"t": d, "a": clip(accent(d).lower(), WORD_VOICE), "s": split_word(accent(d))[1]}
                                     for d in g["distractors"]],
                 }
@@ -477,6 +478,10 @@ def main() -> int:
             print("  -", e)
         return 1
 
+    live = {f"{lv['id']}.json" for lv in levels}
+    for old in (OUT / "levels").glob("*.json"):
+        if old.name not in live:
+            old.unlink()
     for lv in levels:
         lv["hasAudio"] = args.audio
         write(f"levels/{lv['id']}.json", lv)

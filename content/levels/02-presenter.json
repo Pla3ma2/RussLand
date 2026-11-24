@@ -1,0 +1,355 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "02-presenter",
+  "order": 2,
+  "titleFr": "Se présenter",
+  "titleRu": "О себе",
+  "emoji": "🙋",
+  "sceneFr": "Suite de la rencontre dans l'escalier : Macha veut en savoir un peu plus sur son nouveau voisin.",
+  "dialogue": [
+    {
+      "speaker": "masha",
+      "ru": "Вы студент?",
+      "fr": "Vous êtes étudiant ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Да, я студент. А вы?",
+      "fr": "Oui, je suis étudiant. Et vous ?"
+    },
+    {
+      "speaker": "masha",
+      "ru": "Я врач.",
+      "fr": "Je suis médecin."
+    },
+    {
+      "speaker": "masha",
+      "ru": "Вы говорите по-р+усски?",
+      "fr": "Vous parlez russe ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Немного. Я говорю по-франц+узски и по-англ+ийски.",
+      "fr": "Un peu. Je parle français et anglais."
+    },
+    {
+      "speaker": "masha",
+      "ru": "Вы хорошо говорите!",
+      "fr": "Vous parlez bien !"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Спасибо!",
+      "fr": "Merci !"
+    },
+    {
+      "speaker": "masha",
+      "ru": "До свидания, Л+ука!",
+      "fr": "Au revoir, Luka !"
+    },
+    {
+      "speaker": "luka",
+      "ru": "До свидания!",
+      "fr": "Au revoir !"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "student",
+      "speaker": "luka",
+      "ru": "Да, я студент. А вы?",
+      "fr": "Oui, je suis étudiant. Et vous ?",
+      "noteFr": "Toujours pas de verbe « être » : « я студент » = « je suis étudiant ». « А вы ? » = « et vous ? », pour renvoyer la question.",
+      "gap": {
+        "word": "студент",
+        "distractors": [
+          "спасибо",
+          "до"
+        ]
+      },
+      "orders": [
+        "да я студент а вы"
+      ]
+    },
+    {
+      "id": "doctor",
+      "speaker": "masha",
+      "ru": "Я врач.",
+      "fr": "Je suis médecin.",
+      "noteFr": "« Врач » = médecin. Macha est une femme, mais on dit aussi « врач » : ce mot ne change pas.",
+      "gap": {
+        "word": "врач",
+        "distractors": [
+          "спасибо",
+          "до"
+        ]
+      }
+    },
+    {
+      "id": "speakru",
+      "speaker": "masha",
+      "ru": "Вы говорите по-р+усски?",
+      "fr": "Vous parlez russe ?",
+      "noteFr": "« По-русски » = « en russe ». Mot à mot : « vous parlez en russe ? ».",
+      "gap": {
+        "word": "говорите",
+        "distractors": [
+          "говорю",
+          "спасибо"
+        ],
+        "whyFr": "Avec « вы », le verbe finit en -ите : « вы говорите ». « Говорю », c'est pour « я »."
+      },
+      "orders": [
+        "вы говорите по-русски",
+        "по-русски вы говорите",
+        "вы по-русски говорите"
+      ]
+    },
+    {
+      "id": "little",
+      "speaker": "luka",
+      "ru": "Немного.",
+      "fr": "Un peu.",
+      "noteFr": "« Немного » = un peu. La réponse la plus utile quand on apprend le russe !"
+    },
+    {
+      "id": "speakfr",
+      "speaker": "luka",
+      "ru": "Я говорю по-франц+узски и по-англ+ийски.",
+      "fr": "Je parle français et anglais.",
+      "noteFr": "« И » = « et ». « По-французски » = en français, « по-английски » = en anglais.",
+      "gap": {
+        "word": "говорю",
+        "distractors": [
+          "говорите",
+          "спасибо"
+        ],
+        "whyFr": "Avec « я », le verbe finit en -ю : « я говорю ». « Говорите », c'est pour « вы »."
+      },
+      "orders": [
+        "я говорю по-французски и по-английски",
+        "я говорю по-английски и по-французски",
+        "по-французски и по-английски я говорю"
+      ]
+    },
+    {
+      "id": "well",
+      "speaker": "masha",
+      "ru": "Вы хорошо говорите!",
+      "fr": "Vous parlez bien !",
+      "noteFr": "« Хорошо » = bien.",
+      "gap": {
+        "word": "хорошо",
+        "distractors": [
+          "спасибо",
+          "студент"
+        ]
+      },
+      "orders": [
+        "вы хорошо говорите",
+        "вы говорите хорошо"
+      ]
+    },
+    {
+      "id": "thanks",
+      "speaker": "luka",
+      "ru": "Спасибо!",
+      "fr": "Merci !",
+      "noteFr": "Le « merci » russe, pour toutes les situations."
+    },
+    {
+      "id": "bye",
+      "speaker": "masha",
+      "ru": "До свидания!",
+      "fr": "Au revoir !",
+      "noteFr": "Mot à mot : « jusqu'au revoir ». Le « о » de « до » se prononce presque « a » : « dasvidaniya ».",
+      "gap": {
+        "word": "свидания",
+        "distractors": [
+          "спасибо",
+          "хорошо"
+        ]
+      }
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Dire ce que tu fais",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "student",
+            "doctor"
+          ]
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "titleFr": "Les langues que tu parles",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "student",
+            "doctor"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "speakru",
+            "little"
+          ],
+          "review": [
+            "student"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "speakfr",
+            "well"
+          ],
+          "review": [
+            "speakru",
+            "little"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "thanks",
+            "bye"
+          ],
+          "review": [
+            "speakfr",
+            "well"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "masha",
+      "fr": [
+        "Pour dire ton métier, c'est comme pour « я француз » : pas de verbe « être ». « Я врач » = « je suis médecin ».",
+        "Certains métiers changent pour une femme : « учитель » → « учительница », comme « студент » → « студентка ». D'autres restent pareils : une femme dit aussi « я врач », « я инженер »."
+      ]
+    },
+    {
+      "by": "masha",
+      "fr": [
+        "Le verbe change selon la personne, comme en français : « я говорю » (je parle), « вы говорите » (vous parlez).",
+        "Écoute la fin du mot : -ю pour « я », -ите pour « вы ». C'est elle qui dit qui parle.",
+        "« По-русски », « по-французски » = « en russe », « en français »."
+      ]
+    }
+  ],
+  "explore": {
+    "type": "plain",
+    "speaker": "luka",
+    "frame": "Я ___.",
+    "frameFr": "Je suis ___.",
+    "color": "#5c677d",
+    "hintFr": "Mets chaque métier dans la phrase et écoute.",
+    "words": [
+      {
+        "tile": "врач",
+        "fr": "médecin",
+        "phraseFr": "Je suis médecin."
+      },
+      {
+        "tile": "инженер",
+        "fr": "ingénieur",
+        "phraseFr": "Je suis ingénieur."
+      },
+      {
+        "tile": "учитель",
+        "fr": "professeur",
+        "phraseFr": "Je suis professeur."
+      },
+      {
+        "tile": "учительница",
+        "fr": "professeure",
+        "phraseFr": "Je suis professeure."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Dis : « Je suis professeure. »",
+      "answer": "учительница"
+    },
+    {
+      "type": "pick",
+      "fr": "Dis : « Je suis ingénieur. »",
+      "answer": "инженер"
+    }
+  ],
+  "cando": [
+    "dire ce que tu fais dans la vie",
+    "dire quelles langues tu parles",
+    "dire au revoir"
+  ],
+  "unlocks": [
+    {
+      "verb": "говорить",
+      "persons": [
+        "я",
+        "вы"
+      ]
+    }
+  ],
+  "glossary": {
+    "вы": "vous",
+    "студент": "étudiant",
+    "да": "oui",
+    "я": "je, moi",
+    "а": "et, mais",
+    "врач": "médecin",
+    "говорите": "(vous) parlez",
+    "по-русски": "en russe",
+    "немного": "un peu",
+    "говорю": "(je) parle",
+    "по-французски": "en français",
+    "и": "et",
+    "по-английски": "en anglais",
+    "хорошо": "bien",
+    "спасибо": "merci",
+    "до": "jusqu'à",
+    "свидания": "revoir (до свидания = au revoir)",
+    "лука": "Luka (prénom)",
+    "инженер": "ingénieur",
+    "учитель": "professeur",
+    "учительница": "professeure"
+  }
+}

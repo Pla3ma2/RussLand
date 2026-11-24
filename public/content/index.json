@@ -16,22 +16,35 @@
    "parts": 3
   },
   {
-   "id": "02-cafe",
+   "id": "02-presenter",
    "order": 2,
+   "titleFr": "Se présenter",
+   "titleRu": "О себе",
+   "emoji": "🙋",
+   "cando": [
+    "dire ce que tu fais dans la vie",
+    "dire quelles langues tu parles",
+    "dire au revoir"
+   ],
+   "version": 2,
+   "parts": 3
+  },
+  {
+   "id": "03-cafe",
+   "order": 3,
    "titleFr": "Au café",
    "titleRu": "В кафе",
    "emoji": "☕",
    "cando": [
-    "commander à boire et à manger",
-    "dire s'il vous plaît et merci",
-    "reconnaître la terminaison bleue -у"
+    "commander au café",
+    "dire merci et répondre à un merci"
    ],
-   "version": 1,
-   "parts": 0
+   "version": 2,
+   "parts": 3
   },
   {
-   "id": "03-comprendre",
-   "order": 3,
+   "id": "04-comprendre",
+   "order": 4,
    "titleFr": "Je ne comprends pas",
    "titleRu": "Я не понимаю",
    "emoji": "🤔",
@@ -40,50 +53,50 @@
     "demander de parler plus lentement",
     "dire quelle langue tu parles"
    ],
-   "version": 1,
-   "parts": 0
+   "version": 2,
+   "parts": 3
   },
   {
-   "id": "04-ville",
-   "order": 4,
+   "id": "05-ville",
+   "order": 5,
    "titleFr": "Où es-tu ?",
    "titleRu": "Ты где?",
    "emoji": "🗺️",
    "cando": [
     "dire où tu es",
-    "demander où se trouve un endroit",
-    "comprendre « tout droit » et « à droite »"
+    "demander si c'est loin",
+    "comprendre un chemin simple"
    ],
-   "version": 1,
-   "parts": 0
+   "version": 2,
+   "parts": 3
   },
   {
-   "id": "05-magasin",
-   "order": 5,
+   "id": "06-magasin",
+   "order": 6,
    "titleFr": "Au magasin",
    "titleRu": "В магазине",
    "emoji": "🛒",
    "cando": [
-    "demander si un produit est disponible",
-    "demander le prix",
-    "dire au revoir"
+    "demander si un produit est là",
+    "demander quelque chose poliment",
+    "demander le prix"
    ],
-   "version": 1,
-   "parts": 0
+   "version": 2,
+   "parts": 3
   },
   {
-   "id": "06-amis",
-   "order": 6,
+   "id": "07-amis",
+   "order": 7,
    "titleFr": "Chez des amis",
    "titleRu": "В гостях",
-   "emoji": "🍲",
+   "emoji": "🍽️",
    "cando": [
-    "présenter un ami",
+    "présenter quelqu'un",
     "dire où tu habites",
-    "parler de ce que tu aimes"
+    "dire ce que tu aimes"
    ],
-   "version": 1,
-   "parts": 0
+   "version": 2,
+   "parts": 3
   }
  ]
 }

@@ -8,15 +8,15 @@
  "sceneFr": "Luka vient d'arriver à Saint-Pétersbourg. Dans l'escalier de son immeuble, il croise sa voisine Macha.",
  "learner": "luka",
  "speakers": {
-  "masha": {
-   "name": "Маша",
-   "nameFr": "Macha",
-   "color": "#e07a5f"
-  },
   "luka": {
    "name": "Лука",
    "nameFr": "Luka",
    "color": "#3d5a80"
+  },
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
   }
  },
  "dialogue": [
@@ -415,6 +415,7 @@
    "noteFr": "En français on dit « je m'appelle » (je m'appelle moi-même). En russe, mot à mot, on dit « on m'appelle » : « меня » = me, « зовут » = (ils) appellent.",
    "gap": {
     "index": 2,
+    "whyFr": "",
     "distractors": [
      {
       "t": "здравствуйте",
@@ -478,6 +479,7 @@
    "noteFr": "Mot à mot : « comment vous appelle-t-on ? ». Même construction que « меня зовут », avec « вас » (vous) à la place de « меня » (me).",
    "gap": {
     "index": 0,
+    "whyFr": "",
     "distractors": [
      {
       "t": "очень",
@@ -529,6 +531,7 @@
    "noteFr": "Mot à mot : « très agréable ». C'est pareil pour un homme et pour une femme.",
    "gap": {
     "index": 2,
+    "whyFr": "",
     "distractors": [
      {
       "t": "зовут",
@@ -587,6 +590,7 @@
    "noteFr": "« Вы » = « vous », « из » = « de » (d'où l'on vient). Pas de verbe « venir » : le russe va droit au but.",
    "gap": {
     "index": 2,
+    "whyFr": "",
     "distractors": [
      {
       "t": "как",
@@ -660,6 +664,7 @@
    "noteFr": "« Да » = « oui », « я » = « je ».",
    "gap": {
     "index": 6,
+    "whyFr": "",
     "distractors": [
      {
       "t": "приятно",
@@ -711,6 +716,7 @@
    "noteFr": "Mot à mot : « moi Français ». Il n'y a pas de verbe « être » !",
    "gap": {
     "index": 2,
+    "whyFr": "",
     "distractors": [
      {
       "t": "приятно",
@@ -822,6 +828,7 @@
   "type": "plain",
   "frameFr": "Je suis ___.",
   "color": "#5c677d",
+  "hintFr": "",
   "before": [
    {
     "t": "Я",

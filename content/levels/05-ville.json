@@ -1,0 +1,362 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "05-ville",
+  "order": 5,
+  "titleFr": "Où es-tu ?",
+  "titleRu": "Ты где?",
+  "emoji": "🗺️",
+  "sceneFr": "Luka se promène en ville quand son téléphone sonne : c'est Macha, sa voisine. Depuis leur rencontre, ils se tutoient.",
+  "dialogue": [
+    {
+      "speaker": "masha",
+      "ru": "Алло, Л+ука! Ты где?",
+      "fr": "Allô, Luka ! Tu es où ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Привет, М+аша! Я в парке.",
+      "fr": "Salut, Macha ! Je suis au parc."
+    },
+    {
+      "speaker": "masha",
+      "ru": "А я в кафе. Это близко.",
+      "fr": "Et moi, je suis au café. C'est tout près."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Где кафе?",
+      "fr": "Où est le café ?"
+    },
+    {
+      "speaker": "masha",
+      "ru": "Прямо, потом направо.",
+      "fr": "Tout droit, puis à droite."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Это далеко?",
+      "fr": "C'est loin ?"
+    },
+    {
+      "speaker": "masha",
+      "ru": "Нет, пять минут.",
+      "fr": "Non, cinq minutes."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Хорошо, иду!",
+      "fr": "D'accord, j'arrive !"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "where",
+      "speaker": "masha",
+      "ru": "Алло, Л+ука! Ты где?",
+      "fr": "Allô, Luka ! Tu es où ?",
+      "noteFr": "« Ты » = tu : entre amis, on se tutoie. « Где » = où.",
+      "gap": {
+        "word": "где",
+        "distractors": [
+          "парке",
+          "привет"
+        ]
+      }
+    },
+    {
+      "id": "park",
+      "speaker": "luka",
+      "ru": "Привет, М+аша! Я в парке.",
+      "fr": "Salut, Macha ! Je suis au parc.",
+      "noteFr": "« Привет » = salut (entre amis). « В парке » = au parc : « парк » devient « парке ».",
+      "gap": {
+        "word": "парке",
+        "distractors": [
+          "парк",
+          "близко"
+        ],
+        "whyFr": "Après « в » (pour dire où l'on est), on ajoute -е : « парк » → « в парке »."
+      }
+    },
+    {
+      "id": "cafe",
+      "speaker": "masha",
+      "ru": "А я в кафе. Это близко.",
+      "fr": "Et moi, je suis au café. C'est tout près.",
+      "noteFr": "« Кафе » ne change jamais. « Это » = c'est, « близко » = près.",
+      "gap": {
+        "word": "близко",
+        "distractors": [
+          "привет",
+          "минут"
+        ]
+      }
+    },
+    {
+      "id": "wherecafe",
+      "speaker": "luka",
+      "ru": "Где кафе?",
+      "fr": "Où est le café ?",
+      "noteFr": "Toujours sans verbe « être » : « où café ? ».",
+      "gap": {
+        "word": "где",
+        "distractors": [
+          "иду",
+          "хорошо"
+        ]
+      }
+    },
+    {
+      "id": "direction",
+      "speaker": "masha",
+      "ru": "Прямо, потом направо.",
+      "fr": "Tout droit, puis à droite.",
+      "noteFr": "« Прямо » = tout droit, « потом » = puis, « направо » = à droite.",
+      "gap": {
+        "word": "направо",
+        "distractors": [
+          "парке",
+          "минут"
+        ]
+      },
+      "orders": [
+        "прямо потом направо"
+      ]
+    },
+    {
+      "id": "far",
+      "speaker": "luka",
+      "ru": "Это далеко?",
+      "fr": "C'est loin ?",
+      "noteFr": "« Далеко » = loin, le contraire de « близко ».",
+      "gap": {
+        "word": "далеко",
+        "distractors": [
+          "привет",
+          "иду"
+        ]
+      }
+    },
+    {
+      "id": "five",
+      "speaker": "masha",
+      "ru": "Нет, пять минут.",
+      "fr": "Non, cinq minutes.",
+      "noteFr": "« Пять » = cinq, « минут » = minutes.",
+      "gap": {
+        "word": "пять",
+        "distractors": [
+          "где",
+          "иду"
+        ]
+      }
+    },
+    {
+      "id": "coming",
+      "speaker": "luka",
+      "ru": "Хорошо, иду!",
+      "fr": "D'accord, j'arrive !",
+      "noteFr": "« Хорошо » = bien, d'accord. « Иду » = (je) vais, j'arrive (à pied).",
+      "gap": {
+        "word": "иду",
+        "distractors": [
+          "минут",
+          "парке"
+        ]
+      }
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Dire où tu es",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 0
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "where",
+            "park"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "cafe",
+            "wherecafe"
+          ],
+          "review": [
+            "park"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Trouver le chemin",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "where",
+            "park",
+            "cafe",
+            "wherecafe"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "direction",
+            "far"
+          ],
+          "review": [
+            "cafe",
+            "wherecafe"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "five",
+            "coming"
+          ],
+          "review": [
+            "direction",
+            "far"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "masha",
+      "fr": [
+        "Pour dire où tu es, on met « в » (dans, à) devant le lieu, et la fin du mot change : « парк » → « в парке ».",
+        "Le plus souvent, on ajoute -е ou on remplace la dernière voyelle par -е : « театр » → « в театре », « Москва » → « в Москве ».",
+        "Ce vert marque toujours le lieu où l'on se trouve. « Кафе » et « метро » sont des mots venus d'ailleurs : ils ne changent jamais."
+      ]
+    },
+    {
+      "by": "masha",
+      "fr": [
+        "Entre amis, on dit « привет » (salut) et « ты » (tu). Avec un inconnu, c'est « здравствуйте » et « вы ».",
+        "Macha et Luka se connaissent maintenant : ils se tutoient !"
+      ]
+    }
+  ],
+  "explore": {
+    "type": "case",
+    "speaker": "luka",
+    "case": "loct",
+    "frame": "Я в ___.",
+    "frameFr": "Je suis ___.",
+    "color": "#2a9d8f",
+    "hintFr": "Mets chaque lieu après « в » et regarde bien la fin du mot.",
+    "words": [
+      {
+        "tile": "парк",
+        "fr": "le parc",
+        "phraseFr": "Je suis au parc."
+      },
+      {
+        "tile": "Москва",
+        "fr": "Moscou",
+        "phraseFr": "Je suis à Moscou."
+      },
+      {
+        "tile": "гостиница",
+        "fr": "l'hôtel",
+        "phraseFr": "Je suis à l'hôtel."
+      },
+      {
+        "tile": "театр",
+        "fr": "le théâtre",
+        "phraseFr": "Je suis au théâtre."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Dis que tu es à l'hôtel.",
+      "answer": "гостиница"
+    },
+    {
+      "type": "pick",
+      "fr": "Dis que tu es à Moscou.",
+      "answer": "Москва"
+    }
+  ],
+  "cando": [
+    "dire où tu es",
+    "demander si c'est loin",
+    "comprendre un chemin simple"
+  ],
+  "unlocks": [
+    {
+      "case": "loct",
+      "gender": "masc",
+      "from": "парк",
+      "to": "парке"
+    },
+    {
+      "case": "loct",
+      "gender": "femn",
+      "from": "Москва",
+      "to": "Москве"
+    }
+  ],
+  "glossary": {
+    "алло": "allô",
+    "лука": "Luka (prénom)",
+    "ты": "tu",
+    "где": "où",
+    "привет": "salut",
+    "маша": "Macha (prénom)",
+    "я": "je, moi",
+    "в": "dans, à",
+    "парке": "parc (après в)",
+    "парк": "parc",
+    "а": "et, mais",
+    "кафе": "café",
+    "это": "c'est, ce",
+    "близко": "près",
+    "прямо": "tout droit",
+    "потом": "puis, ensuite",
+    "направо": "à droite",
+    "далеко": "loin",
+    "нет": "non",
+    "пять": "cinq",
+    "минут": "minutes",
+    "хорошо": "bien, d'accord",
+    "иду": "(je) vais, j'arrive",
+    "москва": "Moscou",
+    "гостиница": "hôtel",
+    "театр": "théâtre"
+  }
+}

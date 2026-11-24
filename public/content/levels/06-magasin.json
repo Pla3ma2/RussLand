@@ -1,0 +1,1665 @@
+{
+ "version": 2,
+ "id": "06-magasin",
+ "order": 6,
+ "titleFr": "Au magasin",
+ "titleRu": "В магазине",
+ "emoji": "🛒",
+ "sceneFr": "Avant de rejoindre Macha, Luka fait quelques courses dans la petite épicerie du quartier. Nina tient la caisse.",
+ "learner": "luka",
+ "speakers": {
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  },
+  "nina": {
+   "name": "Нина",
+   "nameFr": "Nina",
+   "color": "#c9a227"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "nina",
+   "ru": "Здравствуйте! Я вас слушаю.",
+   "fr": "Bonjour ! Je vous écoute.",
+   "tokens": [
+    {
+     "t": "Здравствуйте",
+     "s": 3,
+     "w": true,
+     "a": "0e6270054cd1.mp3",
+     "l": "здравствуйте"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вас",
+     "s": 1,
+     "w": true,
+     "a": "70a693011bec.mp3",
+     "l": "вы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "слушаю",
+     "s": 2,
+     "w": true,
+     "a": "41e04c9e8867.mp3",
+     "l": "слушать"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "20588ce6540b.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Здравствуйте! У вас есть хлеб?",
+   "fr": "Bonjour ! Vous avez du pain ?",
+   "tokens": [
+    {
+     "t": "Здравствуйте",
+     "s": 3,
+     "w": true,
+     "a": "0e6270054cd1.mp3",
+     "l": "здравствуйте"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "У",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вас",
+     "s": 1,
+     "w": true,
+     "a": "70a693011bec.mp3",
+     "l": "вы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "есть",
+     "s": 0,
+     "w": true,
+     "a": "91c9dda6ba7c.mp3",
+     "l": "есть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хлеб",
+     "s": 2,
+     "w": true,
+     "a": "0ca301267827.mp3",
+     "l": "хлеб"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "54a8f6cd6dd3.mp3"
+  },
+  {
+   "speaker": "nina",
+   "ru": "Да, есть.",
+   "fr": "Oui, il y en a.",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "есть",
+     "s": 0,
+     "w": true,
+     "a": "91c9dda6ba7c.mp3",
+     "l": "есть"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "c2f3e2afec82.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Дайте, пожалуйста, хлеб и молоко.",
+   "fr": "Donnez-moi du pain et du lait, s'il vous plaît.",
+   "tokens": [
+    {
+     "t": "Дайте",
+     "s": 1,
+     "w": true,
+     "a": "ef41927a9538.mp3",
+     "l": "дать"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3",
+     "l": "пожалуйста"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "хлеб",
+     "s": 2,
+     "w": true,
+     "a": "0ca301267827.mp3",
+     "l": "хлеб"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "молоко",
+     "s": 5,
+     "w": true,
+     "a": "37048ec5851a.mp3",
+     "l": "молоко"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "85a6253f9705.mp3"
+  },
+  {
+   "speaker": "nina",
+   "ru": "Что-нибудь ещё?",
+   "fr": "Autre chose ?",
+   "tokens": [
+    {
+     "t": "Что-нибудь",
+     "s": 2,
+     "w": true,
+     "a": "2ced355b9e0e.mp3",
+     "l": "что-нибудь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ещё",
+     "s": 2,
+     "w": true,
+     "a": "62bf7c150e0b.mp3",
+     "l": "ещё"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "d50a2e805957.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Да, дайте рыбу. Сколько стоит рыба?",
+   "fr": "Oui, donnez-moi du poisson. Combien coûte le poisson ?",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "дайте",
+     "s": 1,
+     "w": true,
+     "a": "ef41927a9538.mp3",
+     "l": "дать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "рыбу",
+     "s": 1,
+     "w": true,
+     "a": "969bfc818aa9.mp3",
+     "l": "рыба"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Сколько",
+     "s": 2,
+     "w": true,
+     "a": "68f717ec536d.mp3",
+     "l": "сколько"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "стоит",
+     "s": 2,
+     "w": true,
+     "a": "846dc140fb7c.mp3",
+     "l": "стоить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "рыба",
+     "s": 1,
+     "w": true,
+     "a": "1c3789b0d5c4.mp3",
+     "l": "рыба"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "d5f40480f226.mp3"
+  },
+  {
+   "speaker": "nina",
+   "ru": "Триста рублей.",
+   "fr": "Trois cents roubles.",
+   "tokens": [
+    {
+     "t": "Триста",
+     "s": 2,
+     "w": true,
+     "a": "48b9226061ae.mp3",
+     "l": "триста"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "рублей",
+     "s": 4,
+     "w": true,
+     "a": "47725f308bb0.mp3",
+     "l": "рубль"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "39f6e434c4ad.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Хорошо. Вот, пожалуйста.",
+   "fr": "D'accord. Voilà.",
+   "tokens": [
+    {
+     "t": "Хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Вот",
+     "s": 1,
+     "w": true,
+     "a": "a716dd666e5a.mp3",
+     "l": "вот"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3",
+     "l": "пожалуйста"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "2f076e8855c2.mp3"
+  },
+  {
+   "speaker": "nina",
+   "ru": "Спасибо! До свидания!",
+   "fr": "Merci ! Au revoir !",
+   "tokens": [
+    {
+     "t": "Спасибо",
+     "s": 4,
+     "w": true,
+     "a": "84fecfa1b01c.mp3",
+     "l": "спасибо"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "До",
+     "s": 1,
+     "w": true,
+     "a": "f2096c168fa3.mp3",
+     "l": "до"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "свидания",
+     "s": 4,
+     "w": true,
+     "a": "7e0ee3fb9b63.mp3",
+     "l": "свидание"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "87153142548c.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "До свидания!",
+   "fr": "Au revoir !",
+   "tokens": [
+    {
+     "t": "До",
+     "s": 1,
+     "w": true,
+     "a": "f2096c168fa3.mp3",
+     "l": "до"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "свидания",
+     "s": 4,
+     "w": true,
+     "a": "7e0ee3fb9b63.mp3",
+     "l": "свидание"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "73dcc8f1d7f1.mp3"
+  }
+ ],
+ "phrases": {
+  "listen": {
+   "speaker": "nina",
+   "ru": "Здравствуйте! Я вас слушаю.",
+   "fr": "Bonjour ! Je vous écoute.",
+   "tokens": [
+    {
+     "t": "Здравствуйте",
+     "s": 3,
+     "w": true,
+     "a": "0e6270054cd1.mp3",
+     "l": "здравствуйте"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вас",
+     "s": 1,
+     "w": true,
+     "a": "70a693011bec.mp3",
+     "l": "вы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "слушаю",
+     "s": 2,
+     "w": true,
+     "a": "41e04c9e8867.mp3",
+     "l": "слушать"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "20588ce6540b.mp3",
+   "id": "listen",
+   "noteFr": "Ce que disent souvent les vendeurs : « je vous écoute » = « que puis-je pour vous ? ».",
+   "gap": {
+    "index": 6,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "хлеб",
+      "a": "0ca301267827.mp3",
+      "s": 2
+     },
+     {
+      "t": "стоит",
+      "a": "5f47774b0413.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "have": {
+   "speaker": "luka",
+   "ru": "У вас есть хлеб?",
+   "fr": "Vous avez du pain ?",
+   "tokens": [
+    {
+     "t": "У",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вас",
+     "s": 1,
+     "w": true,
+     "a": "70a693011bec.mp3",
+     "l": "вы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "есть",
+     "s": 0,
+     "w": true,
+     "a": "91c9dda6ba7c.mp3",
+     "l": "есть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хлеб",
+     "s": 2,
+     "w": true,
+     "a": "0ca301267827.mp3",
+     "l": "хлеб"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "e2da2ecd1e13.mp3",
+   "id": "have",
+   "noteFr": "« У вас есть…? » = « Vous avez… ? ». Mot à mot : « chez vous, il y a… ? ». Très pratique dans les magasins.",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "дайте",
+      "a": "ef41927a9538.mp3",
+      "s": 1
+     },
+     {
+      "t": "стоит",
+      "a": "5f47774b0413.mp3",
+      "s": 3
+     }
+    ]
+   },
+   "orders": [
+    "у вас есть хлеб",
+    "хлеб у вас есть",
+    "есть у вас хлеб"
+   ]
+  },
+  "yes": {
+   "speaker": "nina",
+   "ru": "Да, есть.",
+   "fr": "Oui, il y en a.",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "есть",
+     "s": 0,
+     "w": true,
+     "a": "91c9dda6ba7c.mp3",
+     "l": "есть"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "c2f3e2afec82.mp3",
+   "id": "yes",
+   "noteFr": "« Есть » = il y a. On répond simplement « да, есть »."
+  },
+  "give": {
+   "speaker": "luka",
+   "ru": "Дайте, пожалуйста, хлеб и молоко.",
+   "fr": "Donnez-moi du pain et du lait, s'il vous plaît.",
+   "tokens": [
+    {
+     "t": "Дайте",
+     "s": 1,
+     "w": true,
+     "a": "ef41927a9538.mp3",
+     "l": "дать"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3",
+     "l": "пожалуйста"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "хлеб",
+     "s": 2,
+     "w": true,
+     "a": "0ca301267827.mp3",
+     "l": "хлеб"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "молоко",
+     "s": 5,
+     "w": true,
+     "a": "37048ec5851a.mp3",
+     "l": "молоко"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "85a6253f9705.mp3",
+   "id": "give",
+   "noteFr": "« Дайте » = donnez. « Хлеб » (masculin) et « молоко » (neutre) ne changent pas ici.",
+   "gap": {
+    "index": 0,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "сколько",
+      "a": "68f717ec536d.mp3",
+      "s": 2
+     },
+     {
+      "t": "стоит",
+      "a": "5f47774b0413.mp3",
+      "s": 3
+     }
+    ]
+   },
+   "orders": [
+    "дайте пожалуйста хлеб и молоко",
+    "дайте хлеб и молоко пожалуйста",
+    "пожалуйста дайте хлеб и молоко"
+   ]
+  },
+  "fish": {
+   "speaker": "luka",
+   "ru": "Да, дайте рыбу.",
+   "fr": "Oui, donnez-moi du poisson.",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "дайте",
+     "s": 1,
+     "w": true,
+     "a": "ef41927a9538.mp3",
+     "l": "дать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "рыбу",
+     "s": 1,
+     "w": true,
+     "a": "969bfc818aa9.mp3",
+     "l": "рыба"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "6d12a7d49308.mp3",
+   "id": "fish",
+   "noteFr": "Après « дайте », c'est comme après « хочу » : « рыба » → « рыбу ».",
+   "gap": {
+    "index": 4,
+    "whyFr": "Après « дайте », le -а final devient -у : « рыба » → « рыбу ».",
+    "distractors": [
+     {
+      "t": "рыба",
+      "a": "1c3789b0d5c4.mp3",
+      "s": 1
+     },
+     {
+      "t": "стоит",
+      "a": "5f47774b0413.mp3",
+      "s": 3
+     }
+    ]
+   },
+   "orders": [
+    "да дайте рыбу"
+   ]
+  },
+  "price": {
+   "speaker": "luka",
+   "ru": "Сколько стоит рыба?",
+   "fr": "Combien coûte le poisson ?",
+   "tokens": [
+    {
+     "t": "Сколько",
+     "s": 2,
+     "w": true,
+     "a": "68f717ec536d.mp3",
+     "l": "сколько"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "стоит",
+     "s": 2,
+     "w": true,
+     "a": "846dc140fb7c.mp3",
+     "l": "стоить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "рыба",
+     "s": 1,
+     "w": true,
+     "a": "1c3789b0d5c4.mp3",
+     "l": "рыба"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "8c3d4c7adb47.mp3",
+   "id": "price",
+   "noteFr": "« Сколько стоит…? » = combien coûte… ? Ici, le poisson fait l'action (il coûte) : il garde sa forme de base, « рыба ».",
+   "gap": {
+    "index": 4,
+    "whyFr": "Ici, « рыба » fait l'action (c'est elle qui coûte) : pas de -у. « Рыбу », c'est après « дайте » ou « хочу ».",
+    "distractors": [
+     {
+      "t": "рыбу",
+      "a": "969bfc818aa9.mp3",
+      "s": 1
+     },
+     {
+      "t": "дайте",
+      "a": "ef41927a9538.mp3",
+      "s": 1
+     }
+    ]
+   },
+   "orders": [
+    "сколько стоит рыба",
+    "рыба сколько стоит"
+   ]
+  },
+  "rubles": {
+   "speaker": "nina",
+   "ru": "Триста рублей.",
+   "fr": "Trois cents roubles.",
+   "tokens": [
+    {
+     "t": "Триста",
+     "s": 2,
+     "w": true,
+     "a": "48b9226061ae.mp3",
+     "l": "триста"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "рублей",
+     "s": 4,
+     "w": true,
+     "a": "47725f308bb0.mp3",
+     "l": "рубль"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "39f6e434c4ad.mp3",
+   "id": "rubles",
+   "noteFr": "« Триста » = trois cents, « рублей » = roubles."
+  },
+  "ok": {
+   "speaker": "luka",
+   "ru": "Хорошо. Вот, пожалуйста.",
+   "fr": "D'accord. Voilà.",
+   "tokens": [
+    {
+     "t": "Хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Вот",
+     "s": 1,
+     "w": true,
+     "a": "a716dd666e5a.mp3",
+     "l": "вот"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3",
+     "l": "пожалуйста"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "2f076e8855c2.mp3",
+   "id": "ok",
+   "noteFr": "Tu connais déjà tous ces mots !",
+   "gap": {
+    "index": 2,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "сколько",
+      "a": "68f717ec536d.mp3",
+      "s": 2
+     },
+     {
+      "t": "стоит",
+      "a": "5f47774b0413.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "bye": {
+   "speaker": "luka",
+   "ru": "До свидания!",
+   "fr": "Au revoir !",
+   "tokens": [
+    {
+     "t": "До",
+     "s": 1,
+     "w": true,
+     "a": "f2096c168fa3.mp3",
+     "l": "до"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "свидания",
+     "s": 4,
+     "w": true,
+     "a": "7e0ee3fb9b63.mp3",
+     "l": "свидание"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "73dcc8f1d7f1.mp3",
+   "id": "bye",
+   "noteFr": "Tu le connais depuis ta rencontre avec Macha."
+  }
+ },
+ "parts": [
+  {
+   "titleFr": "Demander",
+   "steps": [
+    {
+     "type": "scene"
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "listen",
+      "have"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "give",
+      "yes"
+     ],
+     "review": [
+      "have"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Combien ça coûte ?",
+   "steps": [
+    {
+     "type": "warmup",
+     "phrases": [
+      "have",
+      "give",
+      "yes"
+     ]
+    },
+    {
+     "type": "explore"
+    },
+    {
+     "type": "insight",
+     "index": 0
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "fish",
+      "price"
+     ],
+     "review": [
+      "give"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "rubles",
+      "ok",
+      "bye"
+     ],
+     "review": [
+      "fish",
+      "price"
+     ]
+    },
+    {
+     "type": "insight",
+     "index": 1
+    }
+   ]
+  },
+  {
+   "titleFr": "Joue la scène",
+   "steps": [
+    {
+     "type": "final"
+    },
+    {
+     "type": "roleplay"
+    }
+   ]
+  }
+ ],
+ "insights": [
+  {
+   "by": "nina",
+   "fr": [
+    "Tu reconnais ce bleu ? Après « дайте » (donnez), c'est comme après « хочу » : « рыба » → « рыбу », « газета » → « газету ».",
+    "« Хлеб » (masculin) et « молоко » (neutre) ne changent pas.",
+    "Le russe a trois genres : masculin (souvent une consonne à la fin), féminin (-а, -я) et neutre (-о, -е)."
+   ]
+  },
+  {
+   "by": "nina",
+   "fr": [
+    "Mais attention : dans « Сколько стоит рыба ? », c'est le poisson qui coûte. Il fait l'action, donc il reste « рыба ».",
+    "La règle simple : -у pour la chose qu'on veut, qu'on prend, qu'on demande. La forme de base pour ce qui fait l'action."
+   ]
+  }
+ ],
+ "explore": {
+  "type": "case",
+  "frameFr": "Donnez-moi ___, s'il vous plaît.",
+  "color": "#3a86ff",
+  "hintFr": "Mets chaque mot après « дайте » et regarde bien la fin du mot.",
+  "before": [
+   {
+    "t": "Дайте",
+    "s": 1,
+    "w": true,
+    "a": "ef41927a9538.mp3",
+    "l": "дать"
+   },
+   {
+    "t": ", ",
+    "w": false
+   },
+   {
+    "t": "пожалуйста",
+    "s": 3,
+    "w": true,
+    "a": "6a0f645d4907.mp3",
+    "l": "пожалуйста"
+   },
+   {
+    "t": ", ",
+    "w": false
+   }
+  ],
+  "after": [
+   {
+    "t": ".",
+    "w": false
+   }
+  ],
+  "verb": null,
+  "words": [
+   {
+    "tile": "хлеб",
+    "tileStress": 2,
+    "fr": "le pain",
+    "phraseFr": "Donnez-moi du pain, s'il vous plaît.",
+    "phrase": "Дайте, пожалуйста, хлеб.",
+    "morph": {
+     "from": "хлеб",
+     "to": "хлеб",
+     "stem": "хлеб",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": false
+    },
+    "audioTile": "0ca301267827.mp3",
+    "audioPhrase": "3d4d0ef9c7c5.mp3"
+   },
+   {
+    "tile": "молоко",
+    "tileStress": 5,
+    "fr": "le lait",
+    "phraseFr": "Donnez-moi du lait, s'il vous plaît.",
+    "phrase": "Дайте, пожалуйста, молоко.",
+    "morph": {
+     "from": "молоко",
+     "to": "молоко",
+     "stem": "молоко",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": false
+    },
+    "audioTile": "37048ec5851a.mp3",
+    "audioPhrase": "d953099493ce.mp3"
+   },
+   {
+    "tile": "рыба",
+    "tileStress": 1,
+    "fr": "le poisson",
+    "phraseFr": "Donnez-moi du poisson, s'il vous plaît.",
+    "phrase": "Дайте, пожалуйста, рыбу.",
+    "morph": {
+     "from": "рыба",
+     "to": "рыбу",
+     "stem": "рыб",
+     "endFrom": "а",
+     "endTo": "у",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": true
+    },
+    "audioTile": "1c3789b0d5c4.mp3",
+    "audioPhrase": "d8570c7a8184.mp3"
+   },
+   {
+    "tile": "газета",
+    "tileStress": 3,
+    "fr": "un journal",
+    "phraseFr": "Donnez-moi un journal, s'il vous plaît.",
+    "phrase": "Дайте, пожалуйста, газету.",
+    "morph": {
+     "from": "газета",
+     "to": "газету",
+     "stem": "газет",
+     "endFrom": "а",
+     "endTo": "у",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": true
+    },
+    "audioTile": "81ba1decd970.mp3",
+    "audioPhrase": "634e8e61f213.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Demande un journal.",
+   "answer": "газета"
+  },
+  {
+   "type": "pick",
+   "fr": "Demande du lait.",
+   "answer": "молоко"
+  }
+ ],
+ "grammar": [
+  "да дайте рыбу",
+  "да дайте рыбу сколько стоит рыба",
+  "да есть",
+  "дайте пожалуйста хлеб и молоко",
+  "до свидания",
+  "здравствуйте у вас есть хлеб",
+  "здравствуйте я вас слушаю",
+  "сколько стоит рыба",
+  "спасибо до свидания",
+  "триста рублей",
+  "у вас есть хлеб",
+  "хорошо вот пожалуйста",
+  "чтонибудь ещё",
+  "[unk]"
+ ],
+ "cando": [
+  "demander si un produit est là",
+  "demander quelque chose poliment",
+  "demander le prix"
+ ],
+ "glossary": {
+  "здравствуйте": "bonjour (poli)",
+  "я": "je, moi",
+  "вас": "vous",
+  "слушаю": "(j')écoute",
+  "у": "chez (у вас есть = vous avez)",
+  "есть": "il y a",
+  "хлеб": "pain",
+  "да": "oui",
+  "дайте": "donnez",
+  "пожалуйста": "s'il vous plaît",
+  "и": "et",
+  "молоко": "lait",
+  "что-нибудь": "quelque chose",
+  "еще": "encore",
+  "рыбу": "poisson (après дайте)",
+  "рыба": "poisson",
+  "сколько": "combien",
+  "стоит": "coûte",
+  "триста": "trois cents",
+  "рублей": "roubles",
+  "хорошо": "bien, d'accord",
+  "вот": "voici, voilà",
+  "спасибо": "merci",
+  "до": "jusqu'à",
+  "свидания": "revoir (до свидания = au revoir)",
+  "газета": "journal"
+ },
+ "unlocks": [
+  {
+   "case": "accs",
+   "gender": "neut",
+   "from": "молоко",
+   "to": "молоко"
+  },
+  {
+   "case": "accs",
+   "gender": "femn",
+   "from": "рыба",
+   "to": "рыбу"
+  }
+ ],
+ "items": [
+  {
+   "id": "06-magasin:listen",
+   "ru": "Здравствуйте! Я вас слушаю.",
+   "fr": "Bonjour ! Je vous écoute.",
+   "tokens": [
+    {
+     "t": "Здравствуйте",
+     "s": 3,
+     "w": true,
+     "a": "0e6270054cd1.mp3",
+     "l": "здравствуйте"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вас",
+     "s": 1,
+     "w": true,
+     "a": "70a693011bec.mp3",
+     "l": "вы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "слушаю",
+     "s": 2,
+     "w": true,
+     "a": "41e04c9e8867.mp3",
+     "l": "слушать"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "20588ce6540b.mp3"
+  },
+  {
+   "id": "06-magasin:have",
+   "ru": "У вас есть хлеб?",
+   "fr": "Vous avez du pain ?",
+   "tokens": [
+    {
+     "t": "У",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вас",
+     "s": 1,
+     "w": true,
+     "a": "70a693011bec.mp3",
+     "l": "вы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "есть",
+     "s": 0,
+     "w": true,
+     "a": "91c9dda6ba7c.mp3",
+     "l": "есть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хлеб",
+     "s": 2,
+     "w": true,
+     "a": "0ca301267827.mp3",
+     "l": "хлеб"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "e2da2ecd1e13.mp3"
+  },
+  {
+   "id": "06-magasin:yes",
+   "ru": "Да, есть.",
+   "fr": "Oui, il y en a.",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "есть",
+     "s": 0,
+     "w": true,
+     "a": "91c9dda6ba7c.mp3",
+     "l": "есть"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "c2f3e2afec82.mp3"
+  },
+  {
+   "id": "06-magasin:give",
+   "ru": "Дайте, пожалуйста, хлеб и молоко.",
+   "fr": "Donnez-moi du pain et du lait, s'il vous plaît.",
+   "tokens": [
+    {
+     "t": "Дайте",
+     "s": 1,
+     "w": true,
+     "a": "ef41927a9538.mp3",
+     "l": "дать"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3",
+     "l": "пожалуйста"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "хлеб",
+     "s": 2,
+     "w": true,
+     "a": "0ca301267827.mp3",
+     "l": "хлеб"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "молоко",
+     "s": 5,
+     "w": true,
+     "a": "37048ec5851a.mp3",
+     "l": "молоко"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "85a6253f9705.mp3"
+  },
+  {
+   "id": "06-magasin:fish",
+   "ru": "Да, дайте рыбу.",
+   "fr": "Oui, donnez-moi du poisson.",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "дайте",
+     "s": 1,
+     "w": true,
+     "a": "ef41927a9538.mp3",
+     "l": "дать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "рыбу",
+     "s": 1,
+     "w": true,
+     "a": "969bfc818aa9.mp3",
+     "l": "рыба"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "6d12a7d49308.mp3"
+  },
+  {
+   "id": "06-magasin:price",
+   "ru": "Сколько стоит рыба?",
+   "fr": "Combien coûte le poisson ?",
+   "tokens": [
+    {
+     "t": "Сколько",
+     "s": 2,
+     "w": true,
+     "a": "68f717ec536d.mp3",
+     "l": "сколько"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "стоит",
+     "s": 2,
+     "w": true,
+     "a": "846dc140fb7c.mp3",
+     "l": "стоить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "рыба",
+     "s": 1,
+     "w": true,
+     "a": "1c3789b0d5c4.mp3",
+     "l": "рыба"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "8c3d4c7adb47.mp3"
+  },
+  {
+   "id": "06-magasin:rubles",
+   "ru": "Триста рублей.",
+   "fr": "Trois cents roubles.",
+   "tokens": [
+    {
+     "t": "Триста",
+     "s": 2,
+     "w": true,
+     "a": "48b9226061ae.mp3",
+     "l": "триста"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "рублей",
+     "s": 4,
+     "w": true,
+     "a": "47725f308bb0.mp3",
+     "l": "рубль"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "39f6e434c4ad.mp3"
+  },
+  {
+   "id": "06-magasin:ok",
+   "ru": "Хорошо. Вот, пожалуйста.",
+   "fr": "D'accord. Voilà.",
+   "tokens": [
+    {
+     "t": "Хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Вот",
+     "s": 1,
+     "w": true,
+     "a": "a716dd666e5a.mp3",
+     "l": "вот"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3",
+     "l": "пожалуйста"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "2f076e8855c2.mp3"
+  },
+  {
+   "id": "06-magasin:bye",
+   "ru": "До свидания!",
+   "fr": "Au revoir !",
+   "tokens": [
+    {
+     "t": "До",
+     "s": 1,
+     "w": true,
+     "a": "f2096c168fa3.mp3",
+     "l": "до"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "свидания",
+     "s": 4,
+     "w": true,
+     "a": "7e0ee3fb9b63.mp3",
+     "l": "свидание"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "73dcc8f1d7f1.mp3"
+  }
+ ],
+ "hasAudio": false
+}

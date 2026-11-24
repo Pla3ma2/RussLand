@@ -1,0 +1,334 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "03-cafe",
+  "order": 3,
+  "titleFr": "Au café",
+  "titleRu": "В кафе",
+  "emoji": "☕",
+  "sceneFr": "Le lendemain matin, Luka entre dans le petit café au coin de sa rue. Derrière le comptoir, Anna lui sourit.",
+  "dialogue": [
+    {
+      "speaker": "anna",
+      "ru": "Здравствуйте! Что вы хотите?",
+      "fr": "Bonjour ! Qu'est-ce que vous désirez ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Здравствуйте! Я хочу кофе, пожалуйста.",
+      "fr": "Bonjour ! Je voudrais un café, s'il vous plaît."
+    },
+    {
+      "speaker": "anna",
+      "ru": "Вы француз?",
+      "fr": "Vous êtes français ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Да, я из Франции.",
+      "fr": "Oui, je viens de France."
+    },
+    {
+      "speaker": "anna",
+      "ru": "Что-нибудь ещё?",
+      "fr": "Autre chose ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Да, я хочу булочку.",
+      "fr": "Oui, je voudrais une brioche."
+    },
+    {
+      "speaker": "anna",
+      "ru": "Вот, пожалуйста.",
+      "fr": "Voilà."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Спасибо!",
+      "fr": "Merci !"
+    },
+    {
+      "speaker": "anna",
+      "ru": "Пожалуйста!",
+      "fr": "Je vous en prie !"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "want",
+      "speaker": "anna",
+      "ru": "Что вы хотите?",
+      "fr": "Qu'est-ce que vous désirez ?",
+      "noteFr": "« Что » = quoi, « хотите » = (vous) voulez. Mot à mot : « quoi vous voulez ? ».",
+      "gap": {
+        "word": "хотите",
+        "distractors": [
+          "хочу",
+          "спасибо"
+        ],
+        "whyFr": "Avec « вы », c'est « хотите ». « Хочу », c'est pour « я »."
+      },
+      "orders": [
+        "что вы хотите"
+      ]
+    },
+    {
+      "id": "coffee",
+      "speaker": "luka",
+      "ru": "Я хочу кофе, пожалуйста.",
+      "fr": "Je voudrais un café, s'il vous plaît.",
+      "noteFr": "« Я хочу » = je veux. Avec « пожалуйста », c'est tout à fait poli en russe.",
+      "gap": {
+        "word": "хочу",
+        "distractors": [
+          "хотите",
+          "спасибо"
+        ],
+        "whyFr": "Avec « я », c'est « хочу ». « Хотите », c'est pour « вы »."
+      },
+      "orders": [
+        "я хочу кофе пожалуйста",
+        "пожалуйста я хочу кофе"
+      ]
+    },
+    {
+      "id": "more",
+      "speaker": "anna",
+      "ru": "Что-нибудь ещё?",
+      "fr": "Autre chose ?",
+      "noteFr": "Mot à mot : « quelque chose encore ? ». On l'entend dans tous les cafés et magasins.",
+      "gap": {
+        "word": "ещё",
+        "distractors": [
+          "вот",
+          "хочу"
+        ]
+      }
+    },
+    {
+      "id": "bun",
+      "speaker": "luka",
+      "ru": "Да, я хочу булочку.",
+      "fr": "Oui, je voudrais une brioche.",
+      "noteFr": "« Булочка » = une brioche. Après « хочу », elle devient « булочку ».",
+      "gap": {
+        "word": "булочку",
+        "distractors": [
+          "булочка",
+          "спасибо"
+        ],
+        "whyFr": "Après « хочу », le -а final devient -у : « булочка » → « булочку »."
+      },
+      "orders": [
+        "да я хочу булочку"
+      ]
+    },
+    {
+      "id": "here",
+      "speaker": "anna",
+      "ru": "Вот, пожалуйста.",
+      "fr": "Voilà.",
+      "noteFr": "« Вот » = voici, voilà. On ajoute souvent « пожалуйста » en tendant quelque chose.",
+      "gap": {
+        "word": "вот",
+        "distractors": [
+          "хотите",
+          "спасибо"
+        ]
+      }
+    },
+    {
+      "id": "thanks",
+      "speaker": "luka",
+      "ru": "Спасибо!",
+      "fr": "Merci !",
+      "noteFr": "Tu le connais déjà !"
+    },
+    {
+      "id": "welcome",
+      "speaker": "anna",
+      "ru": "Пожалуйста!",
+      "fr": "Je vous en prie !",
+      "noteFr": "« Пожалуйста » veut dire « s'il vous plaît », mais aussi « je vous en prie » en réponse à « спасибо »."
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Commander",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "want",
+            "coffee"
+          ]
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 0
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "more",
+            "bun"
+          ],
+          "review": [
+            "want",
+            "coffee"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Remercier",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "want",
+            "coffee",
+            "more",
+            "bun"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "here",
+            "thanks",
+            "welcome"
+          ],
+          "review": [
+            "more",
+            "bun"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "anna",
+      "fr": [
+        "Tu as vu ? Après « хочу » (je veux), « вода » devient « воду » et « булочка » devient « булочку » : le -а final se change en -у.",
+        "« Чай » ne bouge pas : c'est un mot masculin, et ici les masculins restent tels quels.",
+        "Ce bleu, tu le reverras chaque fois qu'un mot désigne la chose qu'on veut, qu'on prend ou qu'on aime."
+      ]
+    },
+    {
+      "by": "anna",
+      "fr": [
+        "« Пожалуйста » a deux sens : « s'il vous plaît » quand tu demandes, et « je vous en prie » quand tu réponds à « спасибо ».",
+        "Et « вот » = « voilà », quand on tend quelque chose."
+      ]
+    }
+  ],
+  "explore": {
+    "type": "case",
+    "speaker": "luka",
+    "case": "accs",
+    "frame": "Я хочу ___.",
+    "frameFr": "Je voudrais ___.",
+    "color": "#3a86ff",
+    "hintFr": "Mets chaque mot après « хочу » et regarde bien la fin du mot.",
+    "words": [
+      {
+        "tile": "вода",
+        "fr": "l'eau",
+        "phraseFr": "Je voudrais de l'eau."
+      },
+      {
+        "tile": "булочка",
+        "fr": "une brioche",
+        "phraseFr": "Je voudrais une brioche."
+      },
+      {
+        "tile": "чай",
+        "fr": "le thé",
+        "phraseFr": "Je voudrais du thé."
+      },
+      {
+        "tile": "пицца",
+        "fr": "une pizza",
+        "phraseFr": "Je voudrais une pizza."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Commande une pizza.",
+      "answer": "пицца"
+    },
+    {
+      "type": "pick",
+      "fr": "Demande de l'eau.",
+      "answer": "вода"
+    }
+  ],
+  "cando": [
+    "commander au café",
+    "dire merci et répondre à un merci"
+  ],
+  "unlocks": [
+    {
+      "case": "accs",
+      "gender": "femn",
+      "from": "вода",
+      "to": "воду"
+    },
+    {
+      "case": "accs",
+      "gender": "masc",
+      "from": "чай",
+      "to": "чай"
+    }
+  ],
+  "glossary": {
+    "здравствуйте": "bonjour (poli)",
+    "что": "quoi, que",
+    "вы": "vous",
+    "хотите": "(vous) voulez",
+    "я": "je, moi",
+    "хочу": "(je) veux",
+    "кофе": "café",
+    "пожалуйста": "s'il vous plaît / je vous en prie",
+    "француз": "Français",
+    "да": "oui",
+    "из": "de (provenance)",
+    "франции": "France",
+    "что-нибудь": "quelque chose",
+    "ещё": "encore",
+    "булочку": "brioche (après хочу)",
+    "булочка": "brioche",
+    "вот": "voici, voilà",
+    "спасибо": "merci",
+    "вода": "eau",
+    "воду": "eau (après хочу)",
+    "чай": "thé",
+    "пицца": "pizza"
+  }
+}

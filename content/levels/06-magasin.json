@@ -1,0 +1,379 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "06-magasin",
+  "order": 6,
+  "titleFr": "Au magasin",
+  "titleRu": "В магазине",
+  "emoji": "🛒",
+  "sceneFr": "Avant de rejoindre Macha, Luka fait quelques courses dans la petite épicerie du quartier. Nina tient la caisse.",
+  "dialogue": [
+    {
+      "speaker": "nina",
+      "ru": "Здравствуйте! Я вас слушаю.",
+      "fr": "Bonjour ! Je vous écoute."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Здравствуйте! У вас есть хлеб?",
+      "fr": "Bonjour ! Vous avez du pain ?"
+    },
+    {
+      "speaker": "nina",
+      "ru": "Да, есть.",
+      "fr": "Oui, il y en a."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Дайте, пожалуйста, хлеб и молоко.",
+      "fr": "Donnez-moi du pain et du lait, s'il vous plaît."
+    },
+    {
+      "speaker": "nina",
+      "ru": "Что-нибудь ещё?",
+      "fr": "Autre chose ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Да, дайте рыбу. Сколько стоит рыба?",
+      "fr": "Oui, donnez-moi du poisson. Combien coûte le poisson ?"
+    },
+    {
+      "speaker": "nina",
+      "ru": "Триста рублей.",
+      "fr": "Trois cents roubles."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Хорошо. Вот, пожалуйста.",
+      "fr": "D'accord. Voilà."
+    },
+    {
+      "speaker": "nina",
+      "ru": "Спасибо! До свидания!",
+      "fr": "Merci ! Au revoir !"
+    },
+    {
+      "speaker": "luka",
+      "ru": "До свидания!",
+      "fr": "Au revoir !"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "listen",
+      "speaker": "nina",
+      "ru": "Здравствуйте! Я вас слушаю.",
+      "fr": "Bonjour ! Je vous écoute.",
+      "noteFr": "Ce que disent souvent les vendeurs : « je vous écoute » = « que puis-je pour vous ? ».",
+      "gap": {
+        "word": "слушаю",
+        "distractors": [
+          "хлеб",
+          "стоит"
+        ]
+      }
+    },
+    {
+      "id": "have",
+      "speaker": "luka",
+      "ru": "У вас есть хлеб?",
+      "fr": "Vous avez du pain ?",
+      "noteFr": "« У вас есть…? » = « Vous avez… ? ». Mot à mot : « chez vous, il y a… ? ». Très pratique dans les magasins.",
+      "gap": {
+        "word": "есть",
+        "distractors": [
+          "дайте",
+          "стоит"
+        ]
+      },
+      "orders": [
+        "у вас есть хлеб",
+        "хлеб у вас есть",
+        "есть у вас хлеб"
+      ]
+    },
+    {
+      "id": "yes",
+      "speaker": "nina",
+      "ru": "Да, есть.",
+      "fr": "Oui, il y en a.",
+      "noteFr": "« Есть » = il y a. On répond simplement « да, есть »."
+    },
+    {
+      "id": "give",
+      "speaker": "luka",
+      "ru": "Дайте, пожалуйста, хлеб и молоко.",
+      "fr": "Donnez-moi du pain et du lait, s'il vous plaît.",
+      "noteFr": "« Дайте » = donnez. « Хлеб » (masculin) et « молоко » (neutre) ne changent pas ici.",
+      "gap": {
+        "word": "дайте",
+        "distractors": [
+          "сколько",
+          "стоит"
+        ]
+      },
+      "orders": [
+        "дайте пожалуйста хлеб и молоко",
+        "дайте хлеб и молоко пожалуйста",
+        "пожалуйста дайте хлеб и молоко"
+      ]
+    },
+    {
+      "id": "fish",
+      "speaker": "luka",
+      "ru": "Да, дайте рыбу.",
+      "fr": "Oui, donnez-moi du poisson.",
+      "noteFr": "Après « дайте », c'est comme après « хочу » : « рыба » → « рыбу ».",
+      "gap": {
+        "word": "рыбу",
+        "distractors": [
+          "рыба",
+          "стоит"
+        ],
+        "whyFr": "Après « дайте », le -а final devient -у : « рыба » → « рыбу »."
+      },
+      "orders": [
+        "да дайте рыбу"
+      ]
+    },
+    {
+      "id": "price",
+      "speaker": "luka",
+      "ru": "Сколько стоит рыба?",
+      "fr": "Combien coûte le poisson ?",
+      "noteFr": "« Сколько стоит…? » = combien coûte… ? Ici, le poisson fait l'action (il coûte) : il garde sa forme de base, « рыба ».",
+      "gap": {
+        "word": "рыба",
+        "distractors": [
+          "рыбу",
+          "дайте"
+        ],
+        "whyFr": "Ici, « рыба » fait l'action (c'est elle qui coûte) : pas de -у. « Рыбу », c'est après « дайте » ou « хочу »."
+      },
+      "orders": [
+        "сколько стоит рыба",
+        "рыба сколько стоит"
+      ]
+    },
+    {
+      "id": "rubles",
+      "speaker": "nina",
+      "ru": "Триста рублей.",
+      "fr": "Trois cents roubles.",
+      "noteFr": "« Триста » = trois cents, « рублей » = roubles."
+    },
+    {
+      "id": "ok",
+      "speaker": "luka",
+      "ru": "Хорошо. Вот, пожалуйста.",
+      "fr": "D'accord. Voilà.",
+      "noteFr": "Tu connais déjà tous ces mots !",
+      "gap": {
+        "word": "вот",
+        "distractors": [
+          "сколько",
+          "стоит"
+        ]
+      }
+    },
+    {
+      "id": "bye",
+      "speaker": "luka",
+      "ru": "До свидания!",
+      "fr": "Au revoir !",
+      "noteFr": "Tu le connais depuis ta rencontre avec Macha."
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Demander",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "listen",
+            "have"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "give",
+            "yes"
+          ],
+          "review": [
+            "have"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Combien ça coûte ?",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "have",
+            "give",
+            "yes"
+          ]
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 0
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "fish",
+            "price"
+          ],
+          "review": [
+            "give"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "rubles",
+            "ok",
+            "bye"
+          ],
+          "review": [
+            "fish",
+            "price"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "nina",
+      "fr": [
+        "Tu reconnais ce bleu ? Après « дайте » (donnez), c'est comme après « хочу » : « рыба » → « рыбу », « газета » → « газету ».",
+        "« Хлеб » (masculin) et « молоко » (neutre) ne changent pas.",
+        "Le russe a trois genres : masculin (souvent une consonne à la fin), féminin (-а, -я) et neutre (-о, -е)."
+      ]
+    },
+    {
+      "by": "nina",
+      "fr": [
+        "Mais attention : dans « Сколько стоит рыба ? », c'est le poisson qui coûte. Il fait l'action, donc il reste « рыба ».",
+        "La règle simple : -у pour la chose qu'on veut, qu'on prend, qu'on demande. La forme de base pour ce qui fait l'action."
+      ]
+    }
+  ],
+  "explore": {
+    "type": "case",
+    "speaker": "luka",
+    "case": "accs",
+    "frame": "Дайте, пожалуйста, ___.",
+    "frameFr": "Donnez-moi ___, s'il vous plaît.",
+    "color": "#3a86ff",
+    "hintFr": "Mets chaque mot après « дайте » et regarde bien la fin du mot.",
+    "words": [
+      {
+        "tile": "хлеб",
+        "fr": "le pain",
+        "phraseFr": "Donnez-moi du pain, s'il vous plaît."
+      },
+      {
+        "tile": "молоко",
+        "fr": "le lait",
+        "phraseFr": "Donnez-moi du lait, s'il vous plaît."
+      },
+      {
+        "tile": "рыба",
+        "fr": "le poisson",
+        "phraseFr": "Donnez-moi du poisson, s'il vous plaît."
+      },
+      {
+        "tile": "газета",
+        "fr": "un journal",
+        "phraseFr": "Donnez-moi un journal, s'il vous plaît."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Demande un journal.",
+      "answer": "газета"
+    },
+    {
+      "type": "pick",
+      "fr": "Demande du lait.",
+      "answer": "молоко"
+    }
+  ],
+  "cando": [
+    "demander si un produit est là",
+    "demander quelque chose poliment",
+    "demander le prix"
+  ],
+  "unlocks": [
+    {
+      "case": "accs",
+      "gender": "neut",
+      "from": "молоко",
+      "to": "молоко"
+    },
+    {
+      "case": "accs",
+      "gender": "femn",
+      "from": "рыба",
+      "to": "рыбу"
+    }
+  ],
+  "glossary": {
+    "здравствуйте": "bonjour (poli)",
+    "я": "je, moi",
+    "вас": "vous",
+    "слушаю": "(j')écoute",
+    "у": "chez (у вас есть = vous avez)",
+    "есть": "il y a",
+    "хлеб": "pain",
+    "да": "oui",
+    "дайте": "donnez",
+    "пожалуйста": "s'il vous plaît",
+    "и": "et",
+    "молоко": "lait",
+    "что-нибудь": "quelque chose",
+    "ещё": "encore",
+    "рыбу": "poisson (après дайте)",
+    "рыба": "poisson",
+    "сколько": "combien",
+    "стоит": "coûte",
+    "триста": "trois cents",
+    "рублей": "roubles",
+    "хорошо": "bien, d'accord",
+    "вот": "voici, voilà",
+    "спасибо": "merci",
+    "до": "jusqu'à",
+    "свидания": "revoir (до свидания = au revoir)",
+    "газета": "journal"
+  }
+}

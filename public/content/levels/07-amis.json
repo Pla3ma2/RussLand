@@ -1,0 +1,2232 @@
+{
+ "version": 2,
+ "id": "07-amis",
+ "order": 7,
+ "titleFr": "Chez des amis",
+ "titleRu": "В гостях",
+ "emoji": "🍽️",
+ "sceneFr": "Le soir, Macha invite Luka à dîner. Son ami Oleg est là aussi… et Luka a l'impression de l'avoir déjà vu quelque part.",
+ "learner": "luka",
+ "speakers": {
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  },
+  "oleg": {
+   "name": "Олег",
+   "nameFr": "Oleg",
+   "color": "#9a6fb0"
+  },
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "masha",
+   "ru": "Лука, это мой друг Олег.",
+   "fr": "Luka, voici mon ami Oleg.",
+   "tokens": [
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мой",
+     "s": 1,
+     "w": true,
+     "a": "5e69d8e4000b.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "друг",
+     "s": 2,
+     "w": true,
+     "a": "fe74b24be4f9.mp3",
+     "l": "друг"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Олег",
+     "s": 2,
+     "w": true,
+     "a": "26ccd9749ec0.mp3",
+     "l": "олег"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "2409901b57ec.mp3"
+  },
+  {
+   "speaker": "oleg",
+   "ru": "Привет! Мы знакомы! Банк, да?",
+   "fr": "Salut ! On se connaît ! La banque, c'est ça ?",
+   "tokens": [
+    {
+     "t": "Привет",
+     "s": 4,
+     "w": true,
+     "a": "465595078eb6.mp3",
+     "l": "привет"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Мы",
+     "s": 1,
+     "w": true,
+     "a": "a234675be3c5.mp3",
+     "l": "мы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "знакомы",
+     "s": 4,
+     "w": true,
+     "a": "c3d31c8b8f02.mp3",
+     "l": "знакомый"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Банк",
+     "s": 1,
+     "w": true,
+     "a": "7bc003bf4da8.mp3",
+     "l": "банк"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "c7fb44889c56.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Да! Очень приятно, Олег.",
+   "fr": "Oui ! Enchanté, Oleg.",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "приятно",
+     "s": 3,
+     "w": true,
+     "a": "5728d5aa0fde.mp3",
+     "l": "приятно"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Олег",
+     "s": 2,
+     "w": true,
+     "a": "26ccd9749ec0.mp3",
+     "l": "олег"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ccfff3ba59a6.mp3"
+  },
+  {
+   "speaker": "oleg",
+   "ru": "Где ты живёшь, Лука?",
+   "fr": "Où est-ce que tu habites, Luka ?",
+   "tokens": [
+    {
+     "t": "Где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "живёшь",
+     "s": 3,
+     "w": true,
+     "a": "3d92af7d3970.mp3",
+     "l": "жить"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "de25f4187407.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Сейчас я живу в Петербурге. А дома я живу в Лионе.",
+   "fr": "En ce moment, j'habite à Saint-Pétersbourg. Mais chez moi, j'habite à Lyon.",
+   "tokens": [
+    {
+     "t": "Сейчас",
+     "s": 4,
+     "w": true,
+     "a": "f97236955f75.mp3",
+     "l": "сейчас"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "живу",
+     "s": 3,
+     "w": true,
+     "a": "1fe8f57e8827.mp3",
+     "l": "жить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Петербурге",
+     "s": 6,
+     "w": true,
+     "a": "b6acec023825.mp3",
+     "l": "петербург"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дома",
+     "s": 1,
+     "w": true,
+     "a": "97f89f92319f.mp3",
+     "l": "дом"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "живу",
+     "s": 3,
+     "w": true,
+     "a": "1fe8f57e8827.mp3",
+     "l": "жить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Лионе",
+     "s": 2,
+     "w": true,
+     "a": "edafc0018f4f.mp3",
+     "l": "лион"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "d8cc27ef0f0d.mp3"
+  },
+  {
+   "speaker": "oleg",
+   "ru": "Как интересно! Что ты любишь?",
+   "fr": "Comme c'est intéressant ! Qu'est-ce que tu aimes ?",
+   "tokens": [
+    {
+     "t": "Как",
+     "s": 1,
+     "w": true,
+     "a": "5211d8f6c0b1.mp3",
+     "l": "как"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "интересно",
+     "s": 5,
+     "w": true,
+     "a": "a60fbdeaa4d8.mp3",
+     "l": "интересно"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "любишь",
+     "s": 1,
+     "w": true,
+     "a": "43a2843c63be.mp3",
+     "l": "любить"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "e531aae4a64f.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Я люблю музыку и кино.",
+   "fr": "J'aime la musique et le cinéma.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "люблю",
+     "s": 4,
+     "w": true,
+     "a": "1b47671db5c8.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "музыку",
+     "s": 1,
+     "w": true,
+     "a": "08caf8df7db8.mp3",
+     "l": "музыка"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кино",
+     "s": 3,
+     "w": true,
+     "a": "c3efe5a31dae.mp3",
+     "l": "кино"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ca913bdaee9b.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "А я люблю книги.",
+   "fr": "Et moi, j'aime les livres.",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "люблю",
+     "s": 4,
+     "w": true,
+     "a": "1b47671db5c8.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "книги",
+     "s": 2,
+     "w": true,
+     "a": "567c12b2aa96.mp3",
+     "l": "книга"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "501b12db9b8c.mp3"
+  },
+  {
+   "speaker": "oleg",
+   "ru": "Давайте ужинать!",
+   "fr": "À table !",
+   "tokens": [
+    {
+     "t": "Давайте",
+     "s": 3,
+     "w": true,
+     "a": "72177a2ba306.mp3",
+     "l": "давать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ужинать",
+     "s": 0,
+     "w": true,
+     "a": "59c624e6a33e.mp3",
+     "l": "ужинать"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "ca0ee4d6c57f.mp3"
+  }
+ ],
+ "phrases": {
+  "friend": {
+   "speaker": "masha",
+   "ru": "Лука, это мой друг Олег.",
+   "fr": "Luka, voici mon ami Oleg.",
+   "tokens": [
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мой",
+     "s": 1,
+     "w": true,
+     "a": "5e69d8e4000b.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "друг",
+     "s": 2,
+     "w": true,
+     "a": "fe74b24be4f9.mp3",
+     "l": "друг"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Олег",
+     "s": 2,
+     "w": true,
+     "a": "26ccd9749ec0.mp3",
+     "l": "олег"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "2409901b57ec.mp3",
+   "id": "friend",
+   "noteFr": "« Это » = voici, c'est. « Мой друг » = mon ami.",
+   "gap": {
+    "index": 6,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "кино",
+      "a": "c3efe5a31dae.mp3",
+      "s": 3
+     },
+     {
+      "t": "живу",
+      "a": "1fe8f57e8827.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "known": {
+   "speaker": "oleg",
+   "ru": "Привет! Мы знакомы!",
+   "fr": "Salut ! On se connaît !",
+   "tokens": [
+    {
+     "t": "Привет",
+     "s": 4,
+     "w": true,
+     "a": "465595078eb6.mp3",
+     "l": "привет"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Мы",
+     "s": 1,
+     "w": true,
+     "a": "a234675be3c5.mp3",
+     "l": "мы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "знакомы",
+     "s": 4,
+     "w": true,
+     "a": "c3d31c8b8f02.mp3",
+     "l": "знакомый"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "e09a61d5acca.mp3",
+   "id": "known",
+   "noteFr": "« Мы знакомы » = nous nous connaissons. C'est le passant de la banque !",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "живу",
+      "a": "1fe8f57e8827.mp3",
+      "s": 3
+     },
+     {
+      "t": "люблю",
+      "a": "1b47671db5c8.mp3",
+      "s": 4
+     }
+    ]
+   }
+  },
+  "nice": {
+   "speaker": "luka",
+   "ru": "Да! Очень приятно, Олег.",
+   "fr": "Oui ! Enchanté, Oleg.",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "приятно",
+     "s": 3,
+     "w": true,
+     "a": "5728d5aa0fde.mp3",
+     "l": "приятно"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Олег",
+     "s": 2,
+     "w": true,
+     "a": "26ccd9749ec0.mp3",
+     "l": "олег"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ccfff3ba59a6.mp3",
+   "id": "nice",
+   "noteFr": "Tu connais « очень приятно » depuis ta rencontre avec Macha.",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "живу",
+      "a": "1fe8f57e8827.mp3",
+      "s": 3
+     },
+     {
+      "t": "люблю",
+      "a": "1b47671db5c8.mp3",
+      "s": 4
+     }
+    ]
+   }
+  },
+  "livewhere": {
+   "speaker": "oleg",
+   "ru": "Где ты живёшь, Лука?",
+   "fr": "Où est-ce que tu habites, Luka ?",
+   "tokens": [
+    {
+     "t": "Где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "живёшь",
+     "s": 3,
+     "w": true,
+     "a": "3d92af7d3970.mp3",
+     "l": "жить"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "de25f4187407.mp3",
+   "id": "livewhere",
+   "noteFr": "Entre amis, on se tutoie : « ты живёшь » (tu habites).",
+   "gap": {
+    "index": 4,
+    "whyFr": "Avec « ты », le verbe finit en -ёшь : « ты живёшь ». « Живу », c'est pour « я ».",
+    "distractors": [
+     {
+      "t": "живу",
+      "a": "1fe8f57e8827.mp3",
+      "s": 3
+     },
+     {
+      "t": "кино",
+      "a": "c3efe5a31dae.mp3",
+      "s": 3
+     }
+    ]
+   },
+   "orders": [
+    "где ты живёшь лука",
+    "лука где ты живёшь"
+   ]
+  },
+  "livespb": {
+   "speaker": "luka",
+   "ru": "Сейчас я живу в Петербурге.",
+   "fr": "En ce moment, j'habite à Saint-Pétersbourg.",
+   "tokens": [
+    {
+     "t": "Сейчас",
+     "s": 4,
+     "w": true,
+     "a": "f97236955f75.mp3",
+     "l": "сейчас"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "живу",
+     "s": 3,
+     "w": true,
+     "a": "1fe8f57e8827.mp3",
+     "l": "жить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Петербурге",
+     "s": 6,
+     "w": true,
+     "a": "b6acec023825.mp3",
+     "l": "петербург"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "e684aa5cce5d.mp3",
+   "id": "livespb",
+   "noteFr": "« Сейчас » = maintenant, en ce moment. Les Russes disent souvent « Петербург » tout court.",
+   "gap": {
+    "index": 8,
+    "whyFr": "Après « в » (pour dire où l'on est), « Петербург » devient « в Петербурге ».",
+    "distractors": [
+     {
+      "t": "петербург",
+      "a": "51030830758b.mp3",
+      "s": 6
+     },
+     {
+      "t": "люблю",
+      "a": "1b47671db5c8.mp3",
+      "s": 4
+     }
+    ]
+   },
+   "orders": [
+    "сейчас я живу в петербурге",
+    "я сейчас живу в петербурге",
+    "я живу в петербурге сейчас"
+   ]
+  },
+  "livelyon": {
+   "speaker": "luka",
+   "ru": "А дома я живу в Лионе.",
+   "fr": "Mais chez moi, j'habite à Lyon.",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дома",
+     "s": 1,
+     "w": true,
+     "a": "97f89f92319f.mp3",
+     "l": "дом"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "живу",
+     "s": 3,
+     "w": true,
+     "a": "1fe8f57e8827.mp3",
+     "l": "жить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Лионе",
+     "s": 2,
+     "w": true,
+     "a": "edafc0018f4f.mp3",
+     "l": "лион"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "c8287d278e2b.mp3",
+   "id": "livelyon",
+   "noteFr": "« Дома » = à la maison, chez moi.",
+   "gap": {
+    "index": 10,
+    "whyFr": "Après « в » (pour dire où l'on est), « Лион » devient « в Лионе ».",
+    "distractors": [
+     {
+      "t": "лион",
+      "a": "f03c5a202fc6.mp3",
+      "s": 2
+     },
+     {
+      "t": "люблю",
+      "a": "1b47671db5c8.mp3",
+      "s": 4
+     }
+    ]
+   },
+   "orders": [
+    "а дома я живу в лионе",
+    "а я дома живу в лионе"
+   ]
+  },
+  "like": {
+   "speaker": "oleg",
+   "ru": "Как интересно! Что ты любишь?",
+   "fr": "Comme c'est intéressant ! Qu'est-ce que tu aimes ?",
+   "tokens": [
+    {
+     "t": "Как",
+     "s": 1,
+     "w": true,
+     "a": "5211d8f6c0b1.mp3",
+     "l": "как"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "интересно",
+     "s": 5,
+     "w": true,
+     "a": "a60fbdeaa4d8.mp3",
+     "l": "интересно"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "любишь",
+     "s": 1,
+     "w": true,
+     "a": "43a2843c63be.mp3",
+     "l": "любить"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "e531aae4a64f.mp3",
+   "id": "like",
+   "noteFr": "« Интересно » = intéressant. « Любишь » = (tu) aimes.",
+   "gap": {
+    "index": 8,
+    "whyFr": "Avec « ты », c'est « любишь ». « Люблю », c'est pour « я ».",
+    "distractors": [
+     {
+      "t": "люблю",
+      "a": "1b47671db5c8.mp3",
+      "s": 4
+     },
+     {
+      "t": "живу",
+      "a": "1fe8f57e8827.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "music": {
+   "speaker": "luka",
+   "ru": "Я люблю музыку и кино.",
+   "fr": "J'aime la musique et le cinéma.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "люблю",
+     "s": 4,
+     "w": true,
+     "a": "1b47671db5c8.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "музыку",
+     "s": 1,
+     "w": true,
+     "a": "08caf8df7db8.mp3",
+     "l": "музыка"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кино",
+     "s": 3,
+     "w": true,
+     "a": "c3efe5a31dae.mp3",
+     "l": "кино"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ca913bdaee9b.mp3",
+   "id": "music",
+   "noteFr": "Après « люблю », c'est comme après « хочу » : « музыка » → « музыку ». « Кино » ne change jamais.",
+   "gap": {
+    "index": 4,
+    "whyFr": "Après « люблю », le -а final devient -у : « музыка » → « музыку ».",
+    "distractors": [
+     {
+      "t": "музыка",
+      "a": "2bd73f6029ff.mp3",
+      "s": 1
+     },
+     {
+      "t": "живу",
+      "a": "1fe8f57e8827.mp3",
+      "s": 3
+     }
+    ]
+   },
+   "orders": [
+    "я люблю музыку и кино",
+    "я люблю кино и музыку"
+   ]
+  },
+  "books": {
+   "speaker": "masha",
+   "ru": "А я люблю книги.",
+   "fr": "Et moi, j'aime les livres.",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "люблю",
+     "s": 4,
+     "w": true,
+     "a": "1b47671db5c8.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "книги",
+     "s": 2,
+     "w": true,
+     "a": "567c12b2aa96.mp3",
+     "l": "книга"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "501b12db9b8c.mp3",
+   "id": "books",
+   "noteFr": "« Книги » = des livres.",
+   "gap": {
+    "index": 4,
+    "whyFr": "Avec « я », c'est « люблю ». « Любишь », c'est pour « ты ».",
+    "distractors": [
+     {
+      "t": "любишь",
+      "a": "43a2843c63be.mp3",
+      "s": 1
+     },
+     {
+      "t": "живу",
+      "a": "1fe8f57e8827.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "dinner": {
+   "speaker": "oleg",
+   "ru": "Давайте ужинать!",
+   "fr": "À table !",
+   "tokens": [
+    {
+     "t": "Давайте",
+     "s": 3,
+     "w": true,
+     "a": "72177a2ba306.mp3",
+     "l": "давать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ужинать",
+     "s": 0,
+     "w": true,
+     "a": "59c624e6a33e.mp3",
+     "l": "ужинать"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "ca0ee4d6c57f.mp3",
+   "id": "dinner",
+   "noteFr": "Mot à mot : « allons dîner ! »."
+  }
+ },
+ "parts": [
+  {
+   "titleFr": "Retrouvailles",
+   "steps": [
+    {
+     "type": "scene"
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "friend",
+      "known"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "nice",
+      "livewhere"
+     ],
+     "review": [
+      "known"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Où tu habites, ce que tu aimes",
+   "steps": [
+    {
+     "type": "warmup",
+     "phrases": [
+      "friend",
+      "nice",
+      "livewhere"
+     ]
+    },
+    {
+     "type": "explore"
+    },
+    {
+     "type": "insight",
+     "index": 0
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "livespb",
+      "livelyon"
+     ],
+     "review": [
+      "livewhere"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "like",
+      "music",
+      "books"
+     ],
+     "review": [
+      "livespb",
+      "livelyon"
+     ]
+    },
+    {
+     "type": "insight",
+     "index": 1
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "dinner"
+     ],
+     "review": [
+      "music",
+      "books"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Joue la scène",
+   "steps": [
+    {
+     "type": "final"
+    },
+    {
+     "type": "roleplay"
+    }
+   ]
+  }
+ ],
+ "insights": [
+  {
+   "by": "masha",
+   "fr": [
+    "Tu connais déjà ce vert : « в парке ». C'est pareil pour les villes : « в Лионе », « в Париже ».",
+    "Les mots en -ия sont un peu spéciaux : « Россия » → « в России »."
+   ]
+  },
+  {
+   "by": "masha",
+   "fr": [
+    "« Люблю » (j'aime) fonctionne comme « хочу » : « музыка » → « я люблю музыку ». En bleu !",
+    "À la banque, Oleg disait « вы » à Luka. Maintenant ils sont amis : « ты живёшь », « ты любишь »."
+   ]
+  }
+ ],
+ "explore": {
+  "type": "case",
+  "frameFr": "J'habite ___.",
+  "color": "#2a9d8f",
+  "hintFr": "Mets chaque ville après « в » et regarde bien la fin du mot.",
+  "before": [
+   {
+    "t": "Я",
+    "s": 0,
+    "w": true,
+    "a": "70b9d9783365.mp3",
+    "l": "я"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "живу",
+    "s": 3,
+    "w": true,
+    "a": "1fe8f57e8827.mp3",
+    "l": "жить"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "в",
+    "s": null,
+    "w": true,
+    "a": "3c5b79b7f921.mp3",
+    "l": "в"
+   },
+   {
+    "t": " ",
+    "w": false
+   }
+  ],
+  "after": [
+   {
+    "t": ".",
+    "w": false
+   }
+  ],
+  "verb": null,
+  "words": [
+   {
+    "tile": "Лион",
+    "tileStress": 2,
+    "fr": "Lyon",
+    "phraseFr": "J'habite à Lyon.",
+    "phrase": "Я живу в Лионе.",
+    "morph": {
+     "from": "Лион",
+     "to": "Лионе",
+     "stem": "Лион",
+     "endFrom": "",
+     "endTo": "е",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": true
+    },
+    "audioTile": "f03c5a202fc6.mp3",
+    "audioPhrase": "4d2e06812fa4.mp3"
+   },
+   {
+    "tile": "Париж",
+    "tileStress": 3,
+    "fr": "Paris",
+    "phraseFr": "J'habite à Paris.",
+    "phrase": "Я живу в Париже.",
+    "morph": {
+     "from": "Париж",
+     "to": "Париже",
+     "stem": "Париж",
+     "endFrom": "",
+     "endTo": "е",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": true
+    },
+    "audioTile": "739866fc21dd.mp3",
+    "audioPhrase": "6d9ca79cb771.mp3"
+   },
+   {
+    "tile": "Марсель",
+    "tileStress": 4,
+    "fr": "Marseille",
+    "phraseFr": "J'habite à Marseille.",
+    "phrase": "Я живу в Марселе.",
+    "morph": {
+     "from": "Марсель",
+     "to": "Марселе",
+     "stem": "Марсел",
+     "endFrom": "ь",
+     "endTo": "е",
+     "stressFrom": 4,
+     "stressTo": 4,
+     "changed": true
+    },
+    "audioTile": "f3604870f35e.mp3",
+    "audioPhrase": "64bb32a22f31.mp3"
+   },
+   {
+    "tile": "Россия",
+    "tileStress": 4,
+    "fr": "la Russie",
+    "phraseFr": "J'habite en Russie.",
+    "phrase": "Я живу в России.",
+    "morph": {
+     "from": "Россия",
+     "to": "России",
+     "stem": "Росси",
+     "endFrom": "я",
+     "endTo": "и",
+     "stressFrom": 4,
+     "stressTo": 4,
+     "changed": true
+    },
+    "audioTile": "10e96ba558a9.mp3",
+    "audioPhrase": "a84a3f74df3b.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Dis que tu habites à Paris.",
+   "answer": "Париж"
+  },
+  {
+   "type": "pick",
+   "fr": "Dis que tu habites en Russie.",
+   "answer": "Россия"
+  }
+ ],
+ "grammar": [
+  "а дома я живу в лионе",
+  "а я люблю книги",
+  "где ты живёшь лука",
+  "да очень приятно олег",
+  "давайте ужинать",
+  "как интересно что ты любишь",
+  "лука это мой друг олег",
+  "привет мы знакомы",
+  "привет мы знакомы банк да",
+  "сейчас я живу в петербурге",
+  "сейчас я живу в петербурге а дома я живу в лионе",
+  "я люблю музыку и кино",
+  "[unk]"
+ ],
+ "cando": [
+  "présenter quelqu'un",
+  "dire où tu habites",
+  "dire ce que tu aimes"
+ ],
+ "glossary": {
+  "лука": "Luka (prénom)",
+  "это": "voici, c'est",
+  "мой": "mon",
+  "друг": "ami",
+  "олег": "Oleg (prénom)",
+  "привет": "salut",
+  "мы": "nous",
+  "знакомы": "(nous) nous connaissons",
+  "банк": "banque",
+  "да": "oui",
+  "очень": "très",
+  "приятно": "agréable",
+  "где": "où",
+  "ты": "tu",
+  "живешь": "(tu) habites",
+  "сейчас": "maintenant",
+  "я": "je, moi",
+  "живу": "(j')habite",
+  "в": "dans, à",
+  "петербурге": "Saint-Pétersbourg (après в)",
+  "петербург": "Saint-Pétersbourg",
+  "а": "et, mais",
+  "дома": "à la maison",
+  "лионе": "Lyon (après в)",
+  "лион": "Lyon",
+  "как": "comme, comment",
+  "интересно": "intéressant",
+  "что": "quoi, que",
+  "любишь": "(tu) aimes",
+  "люблю": "(j')aime",
+  "музыку": "musique (après люблю)",
+  "музыка": "musique",
+  "и": "et",
+  "кино": "cinéma",
+  "книги": "livres",
+  "давайте": "allons, faisons",
+  "ужинать": "dîner",
+  "париж": "Paris",
+  "марсель": "Marseille",
+  "россия": "Russie"
+ },
+ "unlocks": [
+  {
+   "case": "loct",
+   "gender": "masc",
+   "from": "Лион",
+   "to": "Лионе"
+  },
+  {
+   "case": "loct",
+   "gender": "femn",
+   "from": "Россия",
+   "to": "России"
+  },
+  {
+   "case": "accs",
+   "gender": "femn",
+   "from": "музыка",
+   "to": "музыку"
+  },
+  {
+   "verb": "жить",
+   "persons": [
+    "я",
+    "ты"
+   ]
+  },
+  {
+   "verb": "любить",
+   "persons": [
+    "я",
+    "ты"
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "07-amis:friend",
+   "ru": "Лука, это мой друг Олег.",
+   "fr": "Luka, voici mon ami Oleg.",
+   "tokens": [
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мой",
+     "s": 1,
+     "w": true,
+     "a": "5e69d8e4000b.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "друг",
+     "s": 2,
+     "w": true,
+     "a": "fe74b24be4f9.mp3",
+     "l": "друг"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Олег",
+     "s": 2,
+     "w": true,
+     "a": "26ccd9749ec0.mp3",
+     "l": "олег"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "2409901b57ec.mp3"
+  },
+  {
+   "id": "07-amis:known",
+   "ru": "Привет! Мы знакомы!",
+   "fr": "Salut ! On se connaît !",
+   "tokens": [
+    {
+     "t": "Привет",
+     "s": 4,
+     "w": true,
+     "a": "465595078eb6.mp3",
+     "l": "привет"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Мы",
+     "s": 1,
+     "w": true,
+     "a": "a234675be3c5.mp3",
+     "l": "мы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "знакомы",
+     "s": 4,
+     "w": true,
+     "a": "c3d31c8b8f02.mp3",
+     "l": "знакомый"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "e09a61d5acca.mp3"
+  },
+  {
+   "id": "07-amis:nice",
+   "ru": "Да! Очень приятно, Олег.",
+   "fr": "Oui ! Enchanté, Oleg.",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "приятно",
+     "s": 3,
+     "w": true,
+     "a": "5728d5aa0fde.mp3",
+     "l": "приятно"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Олег",
+     "s": 2,
+     "w": true,
+     "a": "26ccd9749ec0.mp3",
+     "l": "олег"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ccfff3ba59a6.mp3"
+  },
+  {
+   "id": "07-amis:livewhere",
+   "ru": "Где ты живёшь, Лука?",
+   "fr": "Où est-ce que tu habites, Luka ?",
+   "tokens": [
+    {
+     "t": "Где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "живёшь",
+     "s": 3,
+     "w": true,
+     "a": "3d92af7d3970.mp3",
+     "l": "жить"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "de25f4187407.mp3"
+  },
+  {
+   "id": "07-amis:livespb",
+   "ru": "Сейчас я живу в Петербурге.",
+   "fr": "En ce moment, j'habite à Saint-Pétersbourg.",
+   "tokens": [
+    {
+     "t": "Сейчас",
+     "s": 4,
+     "w": true,
+     "a": "f97236955f75.mp3",
+     "l": "сейчас"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "живу",
+     "s": 3,
+     "w": true,
+     "a": "1fe8f57e8827.mp3",
+     "l": "жить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Петербурге",
+     "s": 6,
+     "w": true,
+     "a": "b6acec023825.mp3",
+     "l": "петербург"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "e684aa5cce5d.mp3"
+  },
+  {
+   "id": "07-amis:livelyon",
+   "ru": "А дома я живу в Лионе.",
+   "fr": "Mais chez moi, j'habite à Lyon.",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дома",
+     "s": 1,
+     "w": true,
+     "a": "97f89f92319f.mp3",
+     "l": "дом"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "живу",
+     "s": 3,
+     "w": true,
+     "a": "1fe8f57e8827.mp3",
+     "l": "жить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Лионе",
+     "s": 2,
+     "w": true,
+     "a": "edafc0018f4f.mp3",
+     "l": "лион"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "c8287d278e2b.mp3"
+  },
+  {
+   "id": "07-amis:like",
+   "ru": "Как интересно! Что ты любишь?",
+   "fr": "Comme c'est intéressant ! Qu'est-ce que tu aimes ?",
+   "tokens": [
+    {
+     "t": "Как",
+     "s": 1,
+     "w": true,
+     "a": "5211d8f6c0b1.mp3",
+     "l": "как"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "интересно",
+     "s": 5,
+     "w": true,
+     "a": "a60fbdeaa4d8.mp3",
+     "l": "интересно"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "любишь",
+     "s": 1,
+     "w": true,
+     "a": "43a2843c63be.mp3",
+     "l": "любить"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "e531aae4a64f.mp3"
+  },
+  {
+   "id": "07-amis:music",
+   "ru": "Я люблю музыку и кино.",
+   "fr": "J'aime la musique et le cinéma.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "люблю",
+     "s": 4,
+     "w": true,
+     "a": "1b47671db5c8.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "музыку",
+     "s": 1,
+     "w": true,
+     "a": "08caf8df7db8.mp3",
+     "l": "музыка"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кино",
+     "s": 3,
+     "w": true,
+     "a": "c3efe5a31dae.mp3",
+     "l": "кино"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ca913bdaee9b.mp3"
+  },
+  {
+   "id": "07-amis:books",
+   "ru": "А я люблю книги.",
+   "fr": "Et moi, j'aime les livres.",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "люблю",
+     "s": 4,
+     "w": true,
+     "a": "1b47671db5c8.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "книги",
+     "s": 2,
+     "w": true,
+     "a": "567c12b2aa96.mp3",
+     "l": "книга"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "501b12db9b8c.mp3"
+  },
+  {
+   "id": "07-amis:dinner",
+   "ru": "Давайте ужинать!",
+   "fr": "À table !",
+   "tokens": [
+    {
+     "t": "Давайте",
+     "s": 3,
+     "w": true,
+     "a": "72177a2ba306.mp3",
+     "l": "давать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ужинать",
+     "s": 0,
+     "w": true,
+     "a": "59c624e6a33e.mp3",
+     "l": "ужинать"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "ca0ee4d6c57f.mp3"
+  }
+ ],
+ "hasAudio": false
+}

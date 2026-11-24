@@ -1,0 +1,394 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "04-comprendre",
+  "order": 4,
+  "titleFr": "Je ne comprends pas",
+  "titleRu": "Я не понимаю",
+  "emoji": "🤔",
+  "sceneFr": "En sortant du café, un passant pressé demande son chemin à Luka. Il parle vite… beaucoup trop vite.",
+  "dialogue": [
+    {
+      "speaker": "oleg",
+      "ru": "Извините, где здесь банк?",
+      "fr": "Excusez-moi, où est la banque, par ici ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Извините, я не понимаю.",
+      "fr": "Pardon, je ne comprends pas."
+    },
+    {
+      "speaker": "oleg",
+      "ru": "Где здесь банк?",
+      "fr": "Où est la banque, par ici ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Говорите медленнее, пожалуйста.",
+      "fr": "Parlez plus lentement, s'il vous plaît."
+    },
+    {
+      "speaker": "oleg",
+      "ru": "Вы говорите по-р+усски?",
+      "fr": "Vous parlez russe ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Немного. Я понимаю, но плохо.",
+      "fr": "Un peu. Je comprends, mais mal."
+    },
+    {
+      "speaker": "oleg",
+      "ru": "А по-англ+ийски?",
+      "fr": "Et anglais ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Нет. Я говорю по-франц+узски.",
+      "fr": "Non. Je parle français."
+    },
+    {
+      "speaker": "oleg",
+      "ru": "Ничего! Банк там.",
+      "fr": "Ce n'est pas grave ! La banque est là-bas."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Спасибо!",
+      "fr": "Merci !"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "bank",
+      "speaker": "oleg",
+      "ru": "Извините, где здесь банк?",
+      "fr": "Excusez-moi, où est la banque, par ici ?",
+      "noteFr": "« Где » = où, « здесь » = ici. Encore une phrase sans verbe « être ».",
+      "gap": {
+        "word": "где",
+        "distractors": [
+          "спасибо",
+          "нет"
+        ]
+      },
+      "orders": [
+        "извините где здесь банк",
+        "извините где банк здесь"
+      ]
+    },
+    {
+      "id": "notund",
+      "speaker": "luka",
+      "ru": "Извините, я не понимаю.",
+      "fr": "Pardon, je ne comprends pas.",
+      "noteFr": "« Не » devant le verbe = ne… pas. La phrase de survie n° 1 !",
+      "gap": {
+        "word": "понимаю",
+        "distractors": [
+          "понимаете",
+          "банк"
+        ],
+        "whyFr": "Avec « я », c'est « понимаю » (-ю). « Понимаете », c'est pour « вы »."
+      },
+      "orders": [
+        "извините я не понимаю"
+      ]
+    },
+    {
+      "id": "slower",
+      "speaker": "luka",
+      "ru": "Говорите медленнее, пожалуйста.",
+      "fr": "Parlez plus lentement, s'il vous plaît.",
+      "noteFr": "« Говорите » = parlez, « медленнее » = plus lentement. La phrase de survie n° 2 !",
+      "gap": {
+        "word": "медленнее",
+        "distractors": [
+          "банк",
+          "спасибо"
+        ]
+      },
+      "orders": [
+        "говорите медленнее пожалуйста",
+        "пожалуйста говорите медленнее"
+      ]
+    },
+    {
+      "id": "speakru",
+      "speaker": "oleg",
+      "ru": "Вы говорите по-р+усски?",
+      "fr": "Vous parlez russe ?",
+      "noteFr": "Tu la connais déjà : Macha t'a posé la même question.",
+      "gap": {
+        "word": "говорите",
+        "distractors": [
+          "говорю",
+          "банк"
+        ],
+        "whyFr": "Avec « вы », le verbe finit en -ите : « вы говорите »."
+      },
+      "orders": [
+        "вы говорите по-русски",
+        "по-русски вы говорите",
+        "вы по-русски говорите"
+      ]
+    },
+    {
+      "id": "badly",
+      "speaker": "luka",
+      "ru": "Немного. Я понимаю, но плохо.",
+      "fr": "Un peu. Je comprends, mais mal.",
+      "noteFr": "« Но » = mais, « плохо » = mal (le contraire de « хорошо »).",
+      "gap": {
+        "word": "плохо",
+        "distractors": [
+          "банк",
+          "где"
+        ]
+      }
+    },
+    {
+      "id": "english",
+      "speaker": "oleg",
+      "ru": "А по-англ+ийски?",
+      "fr": "Et anglais ?",
+      "noteFr": "« А » = et (pour enchaîner sur autre chose)."
+    },
+    {
+      "id": "no",
+      "speaker": "luka",
+      "ru": "Нет. Я говорю по-франц+узски.",
+      "fr": "Non. Je parle français.",
+      "noteFr": "« Нет » = non.",
+      "gap": {
+        "word": "нет",
+        "distractors": [
+          "где",
+          "как"
+        ]
+      }
+    },
+    {
+      "id": "nevermind",
+      "speaker": "oleg",
+      "ru": "Ничего! Банк там.",
+      "fr": "Ce n'est pas grave ! La banque est là-bas.",
+      "noteFr": "« Ничего » = mot à mot « rien » ; ici « ce n'est rien, pas grave ». « Там » = là-bas.",
+      "gap": {
+        "word": "там",
+        "distractors": [
+          "не",
+          "как"
+        ]
+      }
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Dire qu'on ne comprend pas",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "bank",
+            "notund"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "slower",
+            "speakru"
+          ],
+          "review": [
+            "notund"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Comprendre et parler",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "notund",
+            "slower",
+            "speakru"
+          ]
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 0
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "badly",
+            "english",
+            "no"
+          ],
+          "review": [
+            "slower",
+            "speakru"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "nevermind"
+          ],
+          "review": [
+            "badly",
+            "no"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "oleg",
+      "fr": [
+        "Comme en français, la fin du verbe change avec la personne : « je comprends », « vous comprenez »…",
+        "Я понима-ю, ты понима-ешь, мы понима-ем, вы понима-ете : écoute surtout la fin violette, c'est elle qui dit qui parle.",
+        "« Вы » sert à vouvoyer quelqu'un ou à parler à plusieurs personnes, exactement comme « vous »."
+      ]
+    },
+    {
+      "by": "oleg",
+      "fr": [
+        "Pour dire non, il suffit de mettre « не » devant le verbe : « я не понимаю » = « je ne comprends pas ».",
+        "Et pour répondre « non » tout court : « нет »."
+      ]
+    }
+  ],
+  "explore": {
+    "type": "person",
+    "speaker": "luka",
+    "verb": "понимать",
+    "frame": "___ {V} по-р+усски.",
+    "frameFr": "___ comprendre le russe.",
+    "color": "#8e44ad",
+    "hintFr": "Change la personne et écoute la fin du verbe.",
+    "words": [
+      {
+        "tile": "я",
+        "fr": "je",
+        "phraseFr": "Je comprends le russe."
+      },
+      {
+        "tile": "ты",
+        "fr": "tu",
+        "phraseFr": "Tu comprends le russe."
+      },
+      {
+        "tile": "она",
+        "fr": "elle",
+        "phraseFr": "Elle comprend le russe."
+      },
+      {
+        "tile": "мы",
+        "fr": "nous",
+        "phraseFr": "Nous comprenons le russe."
+      },
+      {
+        "tile": "вы",
+        "fr": "vous",
+        "phraseFr": "Vous comprenez le russe."
+      },
+      {
+        "tile": "они",
+        "fr": "ils, elles",
+        "phraseFr": "Ils comprennent le russe."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Dis : « Vous comprenez le russe. »",
+      "answer": "вы"
+    },
+    {
+      "type": "pick",
+      "fr": "Dis : « Nous comprenons le russe. »",
+      "answer": "мы"
+    }
+  ],
+  "cando": [
+    "dire que tu ne comprends pas",
+    "demander de parler plus lentement",
+    "dire quelle langue tu parles"
+  ],
+  "unlocks": [
+    {
+      "verb": "понимать",
+      "persons": [
+        "я",
+        "ты",
+        "он",
+        "мы",
+        "вы",
+        "они"
+      ]
+    }
+  ],
+  "glossary": {
+    "извините": "excusez-moi, pardon",
+    "где": "où",
+    "здесь": "ici",
+    "банк": "banque",
+    "я": "je, moi",
+    "не": "ne… pas",
+    "понимаю": "(je) comprends",
+    "понимаете": "(vous) comprenez",
+    "говорите": "parlez / (vous) parlez",
+    "медленнее": "plus lentement",
+    "пожалуйста": "s'il vous plaît",
+    "вы": "vous",
+    "по-русски": "en russe",
+    "немного": "un peu",
+    "но": "mais",
+    "плохо": "mal",
+    "а": "et, mais",
+    "по-английски": "en anglais",
+    "нет": "non",
+    "говорю": "(je) parle",
+    "по-французски": "en français",
+    "ничего": "pas grave (mot à mot : rien)",
+    "там": "là-bas",
+    "спасибо": "merci",
+    "ты": "tu",
+    "она": "elle",
+    "мы": "nous",
+    "они": "ils, elles",
+    "понимаешь": "(tu) comprends",
+    "понимает": "(il, elle) comprend",
+    "понимаем": "(nous) comprenons",
+    "понимают": "(ils) comprennent",
+    "как": "comment"
+  }
+}
