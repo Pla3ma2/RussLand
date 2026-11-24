@@ -3,7 +3,7 @@ import type { Explore, ExploreWord, Level, Line, Task } from "./types";
 import { getIndex, getLevel } from "./content";
 import { renderStressed } from "./stress";
 import { play, stop } from "./audio";
-import { $, $$, bindTokens, confetti, esc, shuffle, sleep, speakBox, tokensHtml, voskToggle } from "./ui";
+import { $, $$, ABC_BTN, bindAbc, bindTokens, confetti, esc, shuffle, sleep, speakBox, tokensHtml, voskToggle } from "./ui";
 import { markActiveToday, progress, save } from "./state";
 import { addItems } from "./srs";
 import { navigate } from "./router";
@@ -31,6 +31,7 @@ function frame(body: string, nextLabel = "Continuer", nextEnabled = true) {
       <header class="flow-head">
         <button class="close" aria-label="Fermer">✕</button>
         <div class="flow-title">${lv.emoji} ${esc(lv.titleFr)}</div>
+        ${ABC_BTN}
       </header>
       <div class="progress">${bar}</div>
       <main class="card-stack">${body}</main>
@@ -40,6 +41,7 @@ function frame(body: string, nextLabel = "Continuer", nextEnabled = true) {
     stop();
     navigate("");
   };
+  bindAbc(app);
   $("#next", app).onclick = () => {
     stop();
     step++;

@@ -91,7 +91,7 @@ export async function renderStage(root: HTMLElement, id: string) {
       <div class="flow">
         <header class="flow-head"><button class="close" aria-label="Fermer">✕</button>
           <div class="flow-title">📖 ${esc(st.titleFr)}</div>
-          <button class="abc-btn small" aria-label="Alphabet">АБВ</button></header>
+</header>
         <div class="progress">${PARTS.map((p, i) => `<div class="pstep ${i < part ? "done" : i === part ? "now" : ""}"><span></span>${p}</div>`).join("")}</div>
         <main class="card-stack">${body}</main>
         <footer class="flow-foot"><button id="next" class="primary" ${enabled ? "" : "disabled"}>${label}</button></footer>
@@ -100,7 +100,6 @@ export async function renderStage(root: HTMLElement, id: string) {
       stop();
       navigate("reading");
     };
-    $(".abc-btn", root).onclick = () => import("./alphabet").then((m) => m.openAlphabet());
     $("#next", root).onclick = () => {
       stop();
       part++;

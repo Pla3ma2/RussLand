@@ -229,3 +229,16 @@ export function confetti(container: HTMLElement) {
     setTimeout(() => s.remove(), 2200);
   }
 }
+
+/* ---------- кнопка «Алфавит» в шапке экранов-потоков ---------- */
+
+export const ABC_BTN = `<button class="abc-btn small" type="button" aria-label="Alphabet">АБВ</button>`;
+
+export function bindAbc(root: ParentNode) {
+  root.querySelectorAll<HTMLButtonElement>(".abc-btn").forEach((b) => {
+    b.onclick = (e) => {
+      e.stopPropagation();
+      import("./alphabet").then((m) => m.openAlphabet());
+    };
+  });
+}

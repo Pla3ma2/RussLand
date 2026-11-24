@@ -1,7 +1,7 @@
 /** Révision : фразы возвращаются по расписанию FSRS. Два вида заданий: понять на слух и сказать самому. */
 import { getAllLevels } from "./content";
 import { play, stop } from "./audio";
-import { $, $$, bindTokens, confetti, esc, shuffle, sleep, speakBox, tokensHtml, voskToggle } from "./ui";
+import { $, $$, ABC_BTN, bindAbc, bindTokens, confetti, esc, shuffle, sleep, speakBox, tokensHtml, voskToggle } from "./ui";
 import { dueIds, findItem, grade, Rating, weakestIds } from "./srs";
 import { markActiveToday, progress } from "./state";
 import { navigate } from "./router";
@@ -47,7 +47,7 @@ export async function renderSession(root: HTMLElement, mode: string) {
     root.innerHTML = `
       <div class="flow">
         <header class="flow-head"><button class="close" aria-label="Fermer">✕</button>
-          <div class="flow-title">🔁 Révision ${k + 1}/${items.length}</div></header>
+          <div class="flow-title">🔁 Révision ${k + 1}/${items.length}</div>${ABC_BTN}</header>
         <div class="progress single"><div class="pstep now"><span style="--p:${(k / items.length) * 100}%"></span></div></div>
         <main class="card-stack">${body}</main>
         <footer class="flow-foot"><button id="next" class="primary hidden">Suivant</button></footer>
@@ -56,6 +56,7 @@ export async function renderSession(root: HTMLElement, mode: string) {
       stop();
       navigate("review");
     };
+    bindAbc(root);
   };
 
   const nextItem = () => {

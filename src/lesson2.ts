@@ -7,7 +7,7 @@ import type { LevelV2, Line, PhraseV2, StepV2 } from "./types";
 import { getIndex, getLevel } from "./content";
 import { renderStressed } from "./stress";
 import { play, playBlob, stop } from "./audio";
-import { $, $$, bindTokens, confetti, esc, shuffle, sleep, speakBox, tokensHtml, voskToggle } from "./ui";
+import { $, $$, ABC_BTN, bindAbc, bindTokens, confetti, esc, shuffle, sleep, speakBox, tokensHtml, voskToggle } from "./ui";
 import { Recorder, normalize, recognize, toWav } from "./speech";
 import { markActiveToday, progress, save } from "./state";
 import { addItems } from "./srs";
@@ -45,7 +45,7 @@ export async function renderLessonHome(root: HTMLElement, id: string) {
   app.innerHTML = `
     <div class="flow">
       <header class="flow-head"><button class="close" aria-label="Fermer">✕</button>
-        <div class="flow-title">${lv.emoji} ${esc(lv.titleFr)}</div></header>
+        <div class="flow-title">${lv.emoji} ${esc(lv.titleFr)}</div>${ABC_BTN}</header>
       <main class="card-stack">
         <section class="card">
           <div class="task-kicker">Leçon ${lv.order} · ${esc(lv.titleRu)}</div>
@@ -65,6 +65,7 @@ export async function renderLessonHome(root: HTMLElement, id: string) {
       </main>
     </div>`;
   $(".close", app).onclick = () => navigate("");
+  bindAbc(app);
   $$<HTMLButtonElement>(".stage:not(.locked)", app).forEach((b) => (b.onclick = () => navigate(`level/${lv.id}/${b.dataset.i}`)));
 }
 
@@ -161,7 +162,7 @@ export async function renderPart(root: HTMLElement, id: string, partStr: string)
     app.innerHTML = `
       <div class="flow">
         <header class="flow-head"><button class="close" aria-label="Fermer">✕</button>
-          <div class="flow-title">${lv.emoji} ${esc(lv.titleFr)} · ${partIdx + 1}/${lv.parts.length}</div></header>
+          <div class="flow-title">${lv.emoji} ${esc(lv.titleFr)} · ${partIdx + 1}/${lv.parts.length}</div>${ABC_BTN}</header>
         <div class="progress single"><div class="pstep now"><span style="--p:${(k / queue.length) * 100}%"></span></div></div>
         <main class="card-stack"><section class="card ex-card" id="ex"></section></main>
         <footer class="flow-foot">
@@ -173,6 +174,7 @@ export async function renderPart(root: HTMLElement, id: string, partStr: string)
       stop();
       navigate(`level/${lv.id}`);
     };
+    bindAbc(app);
     $("#next", app).onclick = () => {
       stop();
       k++;
