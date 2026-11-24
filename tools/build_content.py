@@ -237,6 +237,83 @@ def build_level(src: dict) -> dict:
     }
 
 
+def norm_words(s: str) -> str:
+    return " ".join(re.sub(r"[^а-яё\- ]", " ", s.replace("+", "").lower()).split())
+
+
+def build_lesson_v2(src: dict) -> dict:
+    """Урок новой схемы: фразы проходят «лестницу» упражнений блоками, урок делится на части."""
+    lid = src["id"]
+    learner = src["learner"]
+    phrases = {}
+    for p in src["phrases"]:
+        ln = line(p["ru"], p["fr"], p["speaker"])
+        words = [t for t in ln["tokens"] if t["w"]]
+        out = {**ln, "id": p["id"], "noteFr": p.get("noteFr", "")}
+        if "gap" in p:
+            g = p["gap"]
+            idx = next((i for i, t in enumerate(ln["tokens"]) if t["w"] and t["t"].lower() == g["word"].lower()), None)
+            if idx is None:
+                errors.append(f"{lid}/{p['id']}: слова «{g['word']}» нет во фразе")
+            else:
+                out["gap"] = {
+                    "index": idx,
+                    "distractors": [{"t": d, "a": clip(accent(d).lower(), WORD_VOICE), "s": split_word(accent(d))[1]}
+                                    for d in g["distractors"]],
+                }
+                full = norm_words(p["ru"])
+                for d in g["distractors"]:
+                    if d.lower() == g["word"].lower():
+                        errors.append(f"{lid}/{p['id']}: отвлекающий вариант совпадает с ответом")
+                    swapped = re.sub(rf"(?i)(?<![а-яё]){re.escape(g['word'])}(?![а-яё])", d, p["ru"].replace("+", ""))
+                    if norm_words(swapped) == full:
+                        errors.append(f"{lid}/{p['id']}: отвлекающий вариант даёт ту же фразу")
+        if "orders" in p:
+            main = norm_words(p["ru"]).replace("-", " - ")
+            alts = [norm_words(o) for o in p["orders"]]
+            if norm_words(p["ru"]) not in alts:
+                errors.append(f"{lid}/{p['id']}: основной порядок слов не входит в orders")
+            if len(words) < 3:
+                errors.append(f"{lid}/{p['id']}: «собери фразу» имеет смысл от 3 слов")
+            out["orders"] = alts
+            del main
+        phrases[p["id"]] = out
+
+    for part in src["parts"]:
+        for st in part["steps"]:
+            for pid in st.get("phrases", []) + st.get("review", []):
+                if pid not in phrases:
+                    errors.append(f"{lid}: шаг ссылается на неизвестную фразу «{pid}»")
+
+    explore = build_explore(src["explore"])
+    for t in src["tasks"]:
+        if not any(w["tile"] == t["answer"] for w in explore["words"]):
+            errors.append(f"{lid}: ответа «{t['answer']}» нет среди плиток")
+
+    dialogue = [line(d["ru"], d["fr"], d["speaker"]) for d in src["dialogue"]]
+    by = {i["by"] for i in src["insights"]}
+    speakers = {s: {"name": CHARS[s]["name"], "nameFr": CHARS[s]["nameFr"], "color": CHARS[s]["color"]}
+                for s in {d["speaker"] for d in src["dialogue"]} | {learner} | by | {p["speaker"] for p in src["phrases"]}}
+    grammar = sorted({re.sub(r"[^а-яё ]", "", x["ru"].lower()).strip() for x in phrases.values()}
+                     | {re.sub(r"[^а-яё ]", "", d["ru"].lower()).strip() for d in dialogue}) + ["[unk]"]
+
+    glossary = {k.lower().replace("ё", "е"): v for k, v in src.get("glossary", {}).items()}
+    missing = sorted({t["t"].lower() for ln in dialogue + list(phrases.values()) for t in ln["tokens"]
+                      if t["w"] and t["t"].lower().replace("ё", "е") not in glossary})
+    if missing:
+        print(f"  ⚠ {lid}: нет перевода в glossary для: {', '.join(missing)}")
+
+    items = [{"id": f"{lid}:{p['id']}", "ru": p["ru"], "fr": p["fr"], "tokens": p["tokens"], "audio": p["audio"]}
+             for p in phrases.values()]
+    return {
+        "version": 2, "id": lid, "order": src["order"], "titleFr": src["titleFr"], "titleRu": src["titleRu"],
+        "emoji": src["emoji"], "sceneFr": src["sceneFr"], "learner": learner, "speakers": speakers,
+        "dialogue": dialogue, "phrases": phrases, "parts": src["parts"], "insights": src["insights"],
+        "explore": explore, "tasks": src["tasks"], "grammar": grammar, "cando": src["cando"],
+        "glossary": glossary, "unlocks": src.get("unlocks", []), "items": items,
+    }
+
+
 # ---------- чтение и алфавит ----------
 
 def build_alphabet() -> dict:
@@ -346,7 +423,10 @@ def main() -> int:
     ap.add_argument("--force", action="store_true")
     args = ap.parse_args()
 
-    levels = [build_level(load(p)) for p in sorted((SRC / "levels").glob("*.json"))]
+    levels = []
+    for p in sorted((SRC / "levels").glob("*.json")):
+        src = load(p)
+        levels.append(build_lesson_v2(src) if src.get("version") == 2 else build_level(src))
     levels.sort(key=lambda lv: lv["order"])
     alphabet = build_alphabet()
     reading = build_reading(alphabet)
@@ -364,7 +444,8 @@ def main() -> int:
     write("index.json", {
         "hasAudio": args.audio,
         "levels": [{"id": lv["id"], "order": lv["order"], "titleFr": lv["titleFr"], "titleRu": lv["titleRu"],
-                    "emoji": lv["emoji"], "cando": lv["cando"]} for lv in levels],
+                    "emoji": lv["emoji"], "cando": lv["cando"], "version": lv.get("version", 1),
+                    "parts": len(lv.get("parts", []))} for lv in levels],
     })
     write("alphabet.json", alphabet)
     write("reading.json", reading)

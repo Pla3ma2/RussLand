@@ -15,7 +15,7 @@ function spelled(text: string, stress: number | null = null): string {
   return [...text]
     .map((ch, i) => {
       const mark = stress === i && /[аеиоуыэюя]/i.test(ch) && countV(text) > 1;
-      return `<button class="ltr ${mark ? "stressed-l" : ""}" data-ch="${esc(ch)}">${esc(ch)}${mark ? "́" : ""}</button>`;
+      return `<button class="ltr ${mark ? "stressed-l" : ""}" data-ch="${esc(ch)}">${esc(ch)}</button>`;
     })
     .join("");
 }

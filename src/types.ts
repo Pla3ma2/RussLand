@@ -86,6 +86,8 @@ export interface Level {
 }
 
 export interface LevelSummary {
+  version?: number;
+  parts?: number;
   id: string;
   order: number;
   titleFr: string;
@@ -136,4 +138,44 @@ export interface Carte {
   genders: { id: string; fr: string; hintFr: string }[];
   verbColor: string;
   verbs: { verb: string; fr: string; forms: Record<string, Morph> }[];
+}
+
+export interface PhraseV2 extends Line {
+  id: string;
+  noteFr: string;
+  gap?: { index: number; distractors: { t: string; a: string; s: number | null }[] };
+  orders?: string[];
+}
+
+export type StepV2 =
+  | { type: "scene" }
+  | { type: "block"; phrases: string[]; review?: string[] }
+  | { type: "warmup"; phrases: string[] }
+  | { type: "insight"; index: number }
+  | { type: "explore" }
+  | { type: "final" }
+  | { type: "roleplay" };
+
+export interface LevelV2 {
+  version: 2;
+  id: string;
+  order: number;
+  titleFr: string;
+  titleRu: string;
+  emoji: string;
+  sceneFr: string;
+  learner: string;
+  hasAudio?: boolean;
+  speakers: Record<string, { name: string; nameFr: string; color: string }>;
+  dialogue: Line[];
+  phrases: Record<string, PhraseV2>;
+  parts: { titleFr: string; steps: StepV2[] }[];
+  insights: { by: string; fr: string[] }[];
+  explore: Explore;
+  tasks: { type: "pick"; fr: string; answer: string }[];
+  grammar: string[];
+  cando: string[];
+  glossary: Record<string, string>;
+  unlocks: Unlock[];
+  items: ReviewItem[];
 }

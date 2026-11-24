@@ -18,10 +18,11 @@ export function renderStressed(part: string, stress: number | null | undefined, 
   for (let i = 0; i < part.length; i++) {
     const ch = esc(part[i]);
     if (show && i + offset === stress) {
-      html += `<span class="stressed">${ch}́</span>`;
+      html += `<span class="stressed${part[i] !== part[i].toLowerCase() ? " cap" : ""}">${ch}</span>`;
     } else {
       html += ch;
     }
   }
-  return html;
+  // целое слово не должно переноситься посередине (ударная буква — отдельный inline-block)
+  return offset === 0 && part === fullWord ? `<span class="nw">${html}</span>` : html;
 }

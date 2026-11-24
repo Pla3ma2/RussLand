@@ -9,9 +9,11 @@
    "emoji": "👋",
    "cando": [
     "saluer poliment",
-    "dire comment tu t'appelles",
+    "dire comment tu t'appelles et demander un prénom",
     "dire d'où tu viens"
-   ]
+   ],
+   "version": 2,
+   "parts": 3
   },
   {
    "id": "02-cafe",
@@ -23,7 +25,9 @@
     "commander à boire et à manger",
     "dire s'il vous plaît et merci",
     "reconnaître la terminaison bleue -у"
-   ]
+   ],
+   "version": 1,
+   "parts": 0
   },
   {
    "id": "03-comprendre",
@@ -35,7 +39,9 @@
     "dire que tu ne comprends pas",
     "demander de parler plus lentement",
     "dire quelle langue tu parles"
-   ]
+   ],
+   "version": 1,
+   "parts": 0
   },
   {
    "id": "04-ville",
@@ -47,7 +53,9 @@
     "dire où tu es",
     "demander où se trouve un endroit",
     "comprendre « tout droit » et « à droite »"
-   ]
+   ],
+   "version": 1,
+   "parts": 0
   },
   {
    "id": "05-magasin",
@@ -59,7 +67,9 @@
     "demander si un produit est disponible",
     "demander le prix",
     "dire au revoir"
-   ]
+   ],
+   "version": 1,
+   "parts": 0
   },
   {
    "id": "06-amis",
@@ -71,7 +81,9 @@
     "présenter un ami",
     "dire où tu habites",
     "parler de ce que tu aimes"
-   ]
+   ],
+   "version": 1,
+   "parts": 0
   }
  ]
 }

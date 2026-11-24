@@ -64,7 +64,7 @@ async function renderLessons() {
           <span class="lesson-body">
             <small>Leçon ${l.order}</small>
             <b>${esc(l.titleFr)}</b>
-            <span class="lesson-ru">${esc(l.titleRu)}</span>
+            <span class="lesson-ru">${esc(l.titleRu)}${l.parts && !isDone && (done[l.id]?.parts ?? 0) > 0 ? ` · partie ${(done[l.id]?.parts ?? 0) + 1}/${l.parts}` : ""}</span>
           </span>
           <span class="go">${locked ? "🔒" : isNext ? "▶" : "↺"}</span>
         </button>`;
@@ -95,7 +95,12 @@ async function renderLessons() {
 }
 
 route("", renderLessons);
-route("level/:id", async (root, id) => (await import("./level")).renderLevel(root, id));
+route("level/:id", async (root, id) => {
+  const idx = await getIndex();
+  if (idx.levels.find((l) => l.id === id)?.version === 2) return (await import("./lesson2")).renderLessonHome(root, id);
+  return (await import("./level")).renderLevel(root, id);
+});
+route("level/:id/:part", async (root, id, part) => (await import("./lesson2")).renderPart(root, id, part));
 route("reading", async () => {
   shell("reading");
   await (await import("./reading")).renderReadingHome(app);

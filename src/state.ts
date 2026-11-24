@@ -8,7 +8,7 @@ export interface SrsEntry {
 
 export interface Progress {
   v: 1;
-  levels: Record<string, { done: boolean; doneAt?: string }>;
+  levels: Record<string, { done: boolean; doneAt?: string; parts?: number }>;
   reading: Record<string, boolean>;
   srs: Record<string, SrsEntry>;
   settings: { vosk: boolean };

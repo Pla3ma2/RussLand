@@ -117,7 +117,7 @@ function renderListen() {
 
 /* ---------- 2. Construis ---------- */
 
-function morphHtml(ex: Explore, w: ExploreWord, done: boolean): string {
+export function morphHtml(ex: Explore, w: ExploreWord, done: boolean): string {
   const m = w.morph;
   if (!done || !m.changed) {
     return `${renderStressed(m.stem, m.stressFrom, m.from)}<span class="ending">${renderStressed(m.endFrom, m.stressFrom, m.from, m.stem.length)}</span>`;
@@ -126,7 +126,7 @@ function morphHtml(ex: Explore, w: ExploreWord, done: boolean): string {
 }
 
 /** Рамка фразы со слотом. Возвращает функцию, которая «ставит» слово в слот. */
-function frameBox(host: HTMLElement, ex: Explore, interactiveTokens = true) {
+export function frameBox(host: HTMLElement, ex: Explore, interactiveTokens = true) {
   const tokensOf = (toks: typeof ex.before) => (toks.length ? tokensHtml(toks) : "");
   const after = ex.after.map((t) => ({ ...t, t: t.w ? t.t : t.t.replace(/^\s+/, ex.type === "person" ? " " : "") }));
   if (ex.type === "person") {
