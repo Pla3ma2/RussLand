@@ -1,9 +1,32 @@
 import "./style.css";
 import { route, startRouter, navigate } from "./router";
 import { getIndex } from "./content";
-import { progress, streak, resetProgress } from "./state";
+import { progress, save, streak, resetProgress } from "./state";
 import { dueIds } from "./srs";
 import { $, $$, esc } from "./ui";
+import { registerSW } from "virtual:pwa-register";
+
+/* После каждого обновления сайта старые файлы удаляются. Если в телефоне осталась старая
+   версия страницы, её куски уже не скачать — тогда просто перезагружаемся на новую версию. */
+registerSW({ immediate: true });
+window.addEventListener("vite:preloadError", (e) => {
+  e.preventDefault();
+  reloadOnce();
+});
+function reloadOnce() {
+  const k = "russland-reloaded";
+  if (sessionStorage.getItem(k)) return;
+  sessionStorage.setItem(k, "1");
+  location.reload();
+}
+setTimeout(() => sessionStorage.removeItem("russland-reloaded"), 10000);
+
+/* Повторения из уроков, которых больше нет (уроки переделаны), убираем. */
+getIndex().then((idx) => {
+  const ids = new Set(idx.levels.map((l) => l.id));
+  const stale = Object.keys(progress().srs).filter((k) => !ids.has(progress().srs[k].levelId));
+  if (stale.length) save((p) => stale.forEach((k) => delete p.srs[k]));
+}).catch(() => {});
 
 const app = document.querySelector<HTMLDivElement>("#app")!;
 

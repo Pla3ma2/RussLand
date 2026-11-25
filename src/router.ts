@@ -22,6 +22,15 @@ async function resolve() {
       try {
         await r.h(root, ...m.slice(1));
       } catch (e) {
+        // устаревшая версия страницы после обновления сайта — перезагрузка
+        if (/dynamically imported module|Importing a module script failed|error loading dynamically|Failed to fetch/i.test(String(e))) {
+          const k = "russland-reloaded";
+          if (!sessionStorage.getItem(k)) {
+            sessionStorage.setItem(k, "1");
+            location.reload();
+            return;
+          }
+        }
         root.innerHTML = `<p class="error">Oups, une erreur : ${String(e)}</p>`;
       }
       return;
