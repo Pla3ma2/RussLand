@@ -103,11 +103,11 @@
       "l": "И",
       "type": "vowel",
       "group": "new",
-      "soundText": "ии",
+      "soundText": "и",
       "exampleRu": "кино",
       "exampleFr": "cinéma",
       "tipFr": "Comme le « i » de « ici ».",
-      "tempo": 0.45
+      "tempo": 0.3
     },
     {
       "l": "Й",

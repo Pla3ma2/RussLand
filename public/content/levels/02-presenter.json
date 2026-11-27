@@ -8,15 +8,15 @@
  "sceneFr": "Suite de la rencontre dans l'escalier : Macha veut en savoir un peu plus sur son nouveau voisin.",
  "learner": "luka",
  "speakers": {
-  "masha": {
-   "name": "Маша",
-   "nameFr": "Macha",
-   "color": "#e07a5f"
-  },
   "luka": {
    "name": "Лука",
    "nameFr": "Luka",
    "color": "#3d5a80"
+  },
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
   }
  },
  "dialogue": [
