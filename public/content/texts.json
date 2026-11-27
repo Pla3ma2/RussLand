@@ -1,0 +1,3351 @@
+{
+ "texts": [
+  {
+   "id": "t1",
+   "after": "02-presenter",
+   "titleFr": "Je me présente",
+   "titleRu": "Меня зовут Лука",
+   "by": "luka",
+   "byFr": "Luka",
+   "color": "#3d5a80",
+   "sentences": [
+    {
+     "ru": "Здравствуйте!",
+     "fr": "Bonjour !",
+     "tokens": [
+      {
+       "t": "Здравствуйте",
+       "s": 3,
+       "w": true,
+       "a": "0e6270054cd1.mp3",
+       "l": "здравствуйте"
+      },
+      {
+       "t": "!",
+       "w": false
+      }
+     ],
+     "audio": "0062aea749d8.mp3"
+    },
+    {
+     "ru": "Меня зовут Лука.",
+     "fr": "Je m'appelle Luka.",
+     "tokens": [
+      {
+       "t": "Меня",
+       "s": 3,
+       "w": true,
+       "a": "2e3dc1afb7c3.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "зовут",
+       "s": 3,
+       "w": true,
+       "a": "52c2ddd4d21f.mp3",
+       "l": "звать"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Лука",
+       "s": 1,
+       "w": true,
+       "a": "805013b1f494.mp3",
+       "l": "лука"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "0586d0a5b3fb.mp3"
+    },
+    {
+     "ru": "Я француз. Я из Франции.",
+     "fr": "Je suis français. Je viens de France.",
+     "tokens": [
+      {
+       "t": "Я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "француз",
+       "s": 5,
+       "w": true,
+       "a": "89464d320698.mp3",
+       "l": "француз"
+      },
+      {
+       "t": ". ",
+       "w": false
+      },
+      {
+       "t": "Я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "из",
+       "s": 0,
+       "w": true,
+       "a": "176d0e85dfd2.mp3",
+       "l": "из"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Франции",
+       "s": 2,
+       "w": true,
+       "a": "d249934360f5.mp3",
+       "l": "франция"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "ed2f86aa710c.mp3"
+    },
+    {
+     "ru": "Я студент.",
+     "fr": "Je suis étudiant.",
+     "tokens": [
+      {
+       "t": "Я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "студент",
+       "s": 4,
+       "w": true,
+       "a": "599b3911274d.mp3",
+       "l": "студент"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "5972a070633c.mp3"
+    },
+    {
+     "ru": "Я говорю по-французски и по-английски.",
+     "fr": "Je parle français et anglais.",
+     "tokens": [
+      {
+       "t": "Я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "говорю",
+       "s": 5,
+       "w": true,
+       "a": "7060cf7cbf69.mp3",
+       "l": "говорить"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "по-французски",
+       "s": 8,
+       "w": true,
+       "a": "53b0bb0cb11b.mp3",
+       "l": "по-французски"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "и",
+       "s": 0,
+       "w": true,
+       "a": "200abcf7ec0e.mp3",
+       "l": "и"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "по-английски",
+       "s": 7,
+       "w": true,
+       "a": "c0f8fa40aea5.mp3",
+       "l": "по-английски"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "25f1f0f96ded.mp3"
+    },
+    {
+     "ru": "И немного по-русски!",
+     "fr": "Et un peu russe !",
+     "tokens": [
+      {
+       "t": "И",
+       "s": 0,
+       "w": true,
+       "a": "200abcf7ec0e.mp3",
+       "l": "и"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "немного",
+       "s": 4,
+       "w": true,
+       "a": "16f0ae3fba76.mp3",
+       "l": "немного"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "по-русски",
+       "s": 4,
+       "w": true,
+       "a": "1875ccbd5a57.mp3",
+       "l": "по-русски"
+      },
+      {
+       "t": "!",
+       "w": false
+      }
+     ],
+     "audio": "57097abae7fa.mp3"
+    }
+   ],
+   "glossary": {
+    "здравствуйте": "bonjour (poli)",
+    "меня": "me, moi",
+    "зовут": "(on) appelle",
+    "лука": "Luka (prénom)",
+    "я": "je, moi",
+    "француз": "Français (homme)",
+    "из": "de (provenance)",
+    "франции": "France",
+    "студент": "étudiant",
+    "говорю": "(je) parle",
+    "по-французски": "en français",
+    "и": "et",
+    "по-английски": "en anglais",
+    "немного": "un peu",
+    "по-русски": "en russe"
+   },
+   "newWords": [],
+   "questions": [
+    {
+     "q": "D'où vient Luka ?",
+     "options": [
+      "De France",
+      "De Russie",
+      "D'Angleterre"
+     ]
+    },
+    {
+     "q": "Quelles langues parle Luka ?",
+     "options": [
+      "Français, anglais et un peu russe",
+      "Seulement russe",
+      "Seulement français"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "after": "04-comprendre",
+   "titleFr": "Macha",
+   "titleRu": "Маша",
+   "by": "masha",
+   "byFr": "Macha",
+   "color": "#e07a5f",
+   "sentences": [
+    {
+     "ru": "Меня зовут Маша.",
+     "fr": "Je m'appelle Macha.",
+     "tokens": [
+      {
+       "t": "Меня",
+       "s": 3,
+       "w": true,
+       "a": "2e3dc1afb7c3.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "зовут",
+       "s": 3,
+       "w": true,
+       "a": "52c2ddd4d21f.mp3",
+       "l": "звать"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Маша",
+       "s": 1,
+       "w": true,
+       "a": "db2f8c7ea687.mp3",
+       "l": "маша"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "a95339fc25a2.mp3"
+    },
+    {
+     "ru": "Я врач.",
+     "fr": "Je suis médecin.",
+     "tokens": [
+      {
+       "t": "Я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "врач",
+       "s": 2,
+       "w": true,
+       "a": "6419a3676ae1.mp3",
+       "l": "врач"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "311a1d2bfca3.mp3"
+    },
+    {
+     "ru": "Я говорю по-русски и немного по-английски.",
+     "fr": "Je parle russe et un peu anglais.",
+     "tokens": [
+      {
+       "t": "Я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "говорю",
+       "s": 5,
+       "w": true,
+       "a": "7060cf7cbf69.mp3",
+       "l": "говорить"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "по-русски",
+       "s": 4,
+       "w": true,
+       "a": "1875ccbd5a57.mp3",
+       "l": "по-русски"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "и",
+       "s": 0,
+       "w": true,
+       "a": "200abcf7ec0e.mp3",
+       "l": "и"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "немного",
+       "s": 4,
+       "w": true,
+       "a": "16f0ae3fba76.mp3",
+       "l": "немного"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "по-английски",
+       "s": 7,
+       "w": true,
+       "a": "c0f8fa40aea5.mp3",
+       "l": "по-английски"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "f7e76dcb0fa6.mp3"
+    },
+    {
+     "ru": "Но я не говорю по-французски.",
+     "fr": "Mais je ne parle pas français.",
+     "tokens": [
+      {
+       "t": "Но",
+       "s": 1,
+       "w": true,
+       "a": "e9cdd3dfae39.mp3",
+       "l": "но"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "не",
+       "s": 1,
+       "w": true,
+       "a": "e20f13ca63d8.mp3",
+       "l": "не"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "говорю",
+       "s": 5,
+       "w": true,
+       "a": "7060cf7cbf69.mp3",
+       "l": "говорить"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "по-французски",
+       "s": 8,
+       "w": true,
+       "a": "53b0bb0cb11b.mp3",
+       "l": "по-французски"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "447cbcc321ec.mp3"
+    },
+    {
+     "ru": "Вы говорите по-французски? Извините, я не понимаю!",
+     "fr": "Vous parlez français ? Pardon, je ne comprends pas !",
+     "tokens": [
+      {
+       "t": "Вы",
+       "s": 1,
+       "w": true,
+       "a": "8b7efd6df007.mp3",
+       "l": "вы"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "говорите",
+       "s": 5,
+       "w": true,
+       "a": "af41f5721ac9.mp3",
+       "l": "говорить"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "по-французски",
+       "s": 8,
+       "w": true,
+       "a": "53b0bb0cb11b.mp3",
+       "l": "по-французски"
+      },
+      {
+       "t": "? ",
+       "w": false
+      },
+      {
+       "t": "Извините",
+       "s": 5,
+       "w": true,
+       "a": "253f3869438c.mp3",
+       "l": "извинить"
+      },
+      {
+       "t": ", ",
+       "w": false
+      },
+      {
+       "t": "я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "не",
+       "s": 1,
+       "w": true,
+       "a": "e20f13ca63d8.mp3",
+       "l": "не"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "понимаю",
+       "s": 5,
+       "w": true,
+       "a": "452b5c31ec17.mp3",
+       "l": "понимать"
+      },
+      {
+       "t": "!",
+       "w": false
+      }
+     ],
+     "audio": "adc58f45e78b.mp3"
+    }
+   ],
+   "glossary": {
+    "меня": "me, moi",
+    "зовут": "(on) appelle",
+    "маша": "Macha (prénom)",
+    "я": "je, moi",
+    "врач": "médecin",
+    "говорю": "(je) parle",
+    "по-русски": "en russe",
+    "и": "et",
+    "немного": "un peu",
+    "по-английски": "en anglais",
+    "но": "mais",
+    "не": "ne… pas",
+    "по-французски": "en français",
+    "вы": "vous",
+    "говорите": "(vous) parlez",
+    "извините": "excusez-moi, pardon",
+    "понимаю": "(je) comprends"
+   },
+   "newWords": [],
+   "questions": [
+    {
+     "q": "Quel est le métier de Macha ?",
+     "options": [
+      "Médecin",
+      "Étudiante",
+      "Professeure"
+     ]
+    },
+    {
+     "q": "Macha parle-t-elle français ?",
+     "options": [
+      "Non",
+      "Oui, très bien",
+      "Oui, un peu"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "after": "06-magasin",
+   "titleFr": "Un café, s'il vous plaît",
+   "titleRu": "Где кафе?",
+   "by": "luka",
+   "byFr": "Luka",
+   "color": "#3d5a80",
+   "sentences": [
+    {
+     "ru": "Я в парке.",
+     "fr": "Je suis au parc.",
+     "tokens": [
+      {
+       "t": "Я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "в",
+       "s": null,
+       "w": true,
+       "a": "3c5b79b7f921.mp3",
+       "l": "в"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "парке",
+       "s": 1,
+       "w": true,
+       "a": "4f451702cba3.mp3",
+       "l": "парка"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "af24937184d0.mp3"
+    },
+    {
+     "ru": "Я хочу кофе. Где здесь кафе?",
+     "fr": "Je veux un café. Où est le café, par ici ?",
+     "tokens": [
+      {
+       "t": "Я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "хочу",
+       "s": 3,
+       "w": true,
+       "a": "aae1250833fa.mp3",
+       "l": "хотеть"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "кофе",
+       "s": 1,
+       "w": true,
+       "a": "4cff920b1130.mp3",
+       "l": "кофе"
+      },
+      {
+       "t": ". ",
+       "w": false
+      },
+      {
+       "t": "Где",
+       "s": 2,
+       "w": true,
+       "a": "fe72644ce047.mp3",
+       "l": "где"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "здесь",
+       "s": 2,
+       "w": true,
+       "a": "5dc51c8ef3d7.mp3",
+       "l": "здесь"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "кафе",
+       "s": 3,
+       "w": true,
+       "a": "d700d700529b.mp3",
+       "l": "кафе"
+      },
+      {
+       "t": "?",
+       "w": false
+      }
+     ],
+     "audio": "e49c560ffe33.mp3"
+    },
+    {
+     "ru": "Кафе там: прямо, потом направо.",
+     "fr": "Le café est là-bas : tout droit, puis à droite.",
+     "tokens": [
+      {
+       "t": "Кафе",
+       "s": 3,
+       "w": true,
+       "a": "d700d700529b.mp3",
+       "l": "кафе"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "там",
+       "s": 1,
+       "w": true,
+       "a": "a93f0ec75463.mp3",
+       "l": "там"
+      },
+      {
+       "t": ": ",
+       "w": false
+      },
+      {
+       "t": "прямо",
+       "s": 2,
+       "w": true,
+       "a": "30fdb4c9ce7e.mp3",
+       "l": "прямо"
+      },
+      {
+       "t": ", ",
+       "w": false
+      },
+      {
+       "t": "потом",
+       "s": 3,
+       "w": true,
+       "a": "88ef6411a08b.mp3",
+       "l": "потом"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "направо",
+       "s": 4,
+       "w": true,
+       "a": "d56915cee3b9.mp3",
+       "l": "направо"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "de2078f7d343.mp3"
+    },
+    {
+     "ru": "Это близко, пять минут.",
+     "fr": "C'est tout près, cinq minutes.",
+     "tokens": [
+      {
+       "t": "Это",
+       "s": 0,
+       "w": true,
+       "a": "eecbe7a3009e.mp3",
+       "l": "это"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "близко",
+       "s": 2,
+       "w": true,
+       "a": "dfdea2f166d5.mp3",
+       "l": "близко"
+      },
+      {
+       "t": ", ",
+       "w": false
+      },
+      {
+       "t": "пять",
+       "s": 1,
+       "w": true,
+       "a": "c08ef4250ab4.mp3",
+       "l": "пять"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "минут",
+       "s": 3,
+       "w": true,
+       "a": "2e01f27b926b.mp3",
+       "l": "минута"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "124d5665c840.mp3"
+    },
+    {
+     "ru": "В кафе я хочу кофе и булочку.",
+     "fr": "Au café, je veux un café et une brioche.",
+     "tokens": [
+      {
+       "t": "В",
+       "s": null,
+       "w": true,
+       "a": "3c5b79b7f921.mp3",
+       "l": "в"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "кафе",
+       "s": 3,
+       "w": true,
+       "a": "d700d700529b.mp3",
+       "l": "кафе"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "хочу",
+       "s": 3,
+       "w": true,
+       "a": "aae1250833fa.mp3",
+       "l": "хотеть"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "кофе",
+       "s": 1,
+       "w": true,
+       "a": "4cff920b1130.mp3",
+       "l": "кофе"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "и",
+       "s": 0,
+       "w": true,
+       "a": "200abcf7ec0e.mp3",
+       "l": "и"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "булочку",
+       "s": 1,
+       "w": true,
+       "a": "795fcf42b2fd.mp3",
+       "l": "булочка"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "025c78cfbbd0.mp3"
+    },
+    {
+     "ru": "Сколько стоит кофе? Триста рублей!",
+     "fr": "Combien coûte le café ? Trois cents roubles !",
+     "tokens": [
+      {
+       "t": "Сколько",
+       "s": 2,
+       "w": true,
+       "a": "68f717ec536d.mp3",
+       "l": "сколько"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "стоит",
+       "s": 2,
+       "w": true,
+       "a": "846dc140fb7c.mp3",
+       "l": "стоить"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "кофе",
+       "s": 1,
+       "w": true,
+       "a": "4cff920b1130.mp3",
+       "l": "кофе"
+      },
+      {
+       "t": "? ",
+       "w": false
+      },
+      {
+       "t": "Триста",
+       "s": 2,
+       "w": true,
+       "a": "48b9226061ae.mp3",
+       "l": "триста"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "рублей",
+       "s": 4,
+       "w": true,
+       "a": "47725f308bb0.mp3",
+       "l": "рубль"
+      },
+      {
+       "t": "!",
+       "w": false
+      }
+     ],
+     "audio": "80f2a30d93dd.mp3"
+    }
+   ],
+   "glossary": {
+    "я": "je, moi",
+    "в": "dans, à",
+    "парке": "parc (après в)",
+    "хочу": "(je) veux",
+    "кофе": "café",
+    "где": "où",
+    "здесь": "ici",
+    "кафе": "café",
+    "там": "là-bas",
+    "прямо": "tout droit",
+    "потом": "puis, ensuite",
+    "направо": "à droite",
+    "это": "c'est, ce",
+    "близко": "près",
+    "пять": "cinq",
+    "минут": "minutes",
+    "и": "et",
+    "булочку": "brioche (après хочу)",
+    "сколько": "combien",
+    "стоит": "coûte",
+    "триста": "trois cents",
+    "рублей": "roubles"
+   },
+   "newWords": [],
+   "questions": [
+    {
+     "q": "Où est Luka au début ?",
+     "options": [
+      "Au parc",
+      "Au café",
+      "À la banque"
+     ]
+    },
+    {
+     "q": "Que veut Luka au café ?",
+     "options": [
+      "Un café et une brioche",
+      "Du thé",
+      "Du poisson"
+     ]
+    },
+    {
+     "q": "Le café est…",
+     "options": [
+      "Tout près",
+      "Très loin",
+      "À Moscou"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "after": "08-famille",
+   "titleFr": "Ma famille",
+   "titleRu": "Моя семья",
+   "by": "luka",
+   "byFr": "Luka",
+   "color": "#3d5a80",
+   "sentences": [
+    {
+     "ru": "Меня зовут Лука.",
+     "fr": "Je m'appelle Luka.",
+     "tokens": [
+      {
+       "t": "Меня",
+       "s": 3,
+       "w": true,
+       "a": "2e3dc1afb7c3.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "зовут",
+       "s": 3,
+       "w": true,
+       "a": "52c2ddd4d21f.mp3",
+       "l": "звать"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Лука",
+       "s": 1,
+       "w": true,
+       "a": "805013b1f494.mp3",
+       "l": "лука"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "0586d0a5b3fb.mp3"
+    },
+    {
+     "ru": "У меня есть сестра. Её зовут Жюли.",
+     "fr": "J'ai une sœur. Elle s'appelle Julie.",
+     "tokens": [
+      {
+       "t": "У",
+       "s": 0,
+       "w": true,
+       "a": "4e374e10f94b.mp3",
+       "l": "у"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "меня",
+       "s": 3,
+       "w": true,
+       "a": "2e3dc1afb7c3.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "есть",
+       "s": 0,
+       "w": true,
+       "a": "91c9dda6ba7c.mp3",
+       "l": "есть"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "сестра",
+       "s": 5,
+       "w": true,
+       "a": "76ae2fd8219b.mp3",
+       "l": "сестра"
+      },
+      {
+       "t": ". ",
+       "w": false
+      },
+      {
+       "t": "Её",
+       "s": 1,
+       "w": true,
+       "a": "28d7abf8d9e9.mp3",
+       "l": "её"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "зовут",
+       "s": 3,
+       "w": true,
+       "a": "52c2ddd4d21f.mp3",
+       "l": "звать"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Жюли",
+       "s": 1,
+       "w": true,
+       "a": "966d580ffaa0.mp3",
+       "l": "жюли"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "c6352543e4d4.mp3"
+    },
+    {
+     "ru": "Она студентка. Она живёт в Париже.",
+     "fr": "Elle est étudiante. Elle habite à Paris.",
+     "tokens": [
+      {
+       "t": "Она",
+       "s": 2,
+       "w": true,
+       "a": "bd63622a7f54.mp3",
+       "l": "она"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "студентка",
+       "s": 4,
+       "w": true,
+       "a": "b96c6c797103.mp3",
+       "l": "студентка"
+      },
+      {
+       "t": ". ",
+       "w": false
+      },
+      {
+       "t": "Она",
+       "s": 2,
+       "w": true,
+       "a": "bd63622a7f54.mp3",
+       "l": "она"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "живёт",
+       "s": 3,
+       "w": true,
+       "a": "27315d7acbbd.mp3",
+       "l": "жить"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "в",
+       "s": null,
+       "w": true,
+       "a": "3c5b79b7f921.mp3",
+       "l": "в"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Париже",
+       "s": 3,
+       "w": true,
+       "a": "69178e915968.mp3",
+       "l": "париж"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "a43d4bd20bbe.mp3"
+    },
+    {
+     "ru": "Мама и папа живут в Лионе.",
+     "fr": "Maman et papa habitent à Lyon.",
+     "tokens": [
+      {
+       "t": "Мама",
+       "s": 1,
+       "w": true,
+       "a": "c6dd96399edb.mp3",
+       "l": "мама"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "и",
+       "s": 0,
+       "w": true,
+       "a": "200abcf7ec0e.mp3",
+       "l": "и"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "папа",
+       "s": 1,
+       "w": true,
+       "a": "bc1c0e6f10e8.mp3",
+       "l": "папа"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "живут",
+       "s": 3,
+       "w": true,
+       "a": "c79951b62b1c.mp3",
+       "l": "жить"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "в",
+       "s": null,
+       "w": true,
+       "a": "3c5b79b7f921.mp3",
+       "l": "в"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Лионе",
+       "s": 2,
+       "w": true,
+       "a": "edafc0018f4f.mp3",
+       "l": "лион"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "0ff11db04818.mp3"
+    },
+    {
+     "ru": "А ещё у меня есть собака. Её зовут Рекс!",
+     "fr": "Et j'ai aussi un chien. Il s'appelle Rex !",
+     "tokens": [
+      {
+       "t": "А",
+       "s": 0,
+       "w": true,
+       "a": "1cf82fa4439c.mp3",
+       "l": "а"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "ещё",
+       "s": 2,
+       "w": true,
+       "a": "62bf7c150e0b.mp3",
+       "l": "ещё"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "у",
+       "s": 0,
+       "w": true,
+       "a": "4e374e10f94b.mp3",
+       "l": "у"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "меня",
+       "s": 3,
+       "w": true,
+       "a": "2e3dc1afb7c3.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "есть",
+       "s": 0,
+       "w": true,
+       "a": "91c9dda6ba7c.mp3",
+       "l": "есть"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "собака",
+       "s": 3,
+       "w": true,
+       "a": "aca66e0a70ff.mp3",
+       "l": "собака"
+      },
+      {
+       "t": ". ",
+       "w": false
+      },
+      {
+       "t": "Её",
+       "s": 1,
+       "w": true,
+       "a": "28d7abf8d9e9.mp3",
+       "l": "её"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "зовут",
+       "s": 3,
+       "w": true,
+       "a": "52c2ddd4d21f.mp3",
+       "l": "звать"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Рекс",
+       "s": 1,
+       "w": true,
+       "a": "ac599fd19974.mp3",
+       "l": "рекс"
+      },
+      {
+       "t": "!",
+       "w": false
+      }
+     ],
+     "audio": "b0a677ff89c5.mp3"
+    }
+   ],
+   "glossary": {
+    "меня": "me, moi",
+    "зовут": "(on) appelle",
+    "лука": "Luka (prénom)",
+    "у": "chez (у вас есть = vous avez)",
+    "есть": "il y a",
+    "сестра": "sœur",
+    "ее": "elle, la (её зовут = elle s'appelle)",
+    "жюли": "Julie",
+    "она": "elle",
+    "студентка": "étudiante",
+    "живет": "(il) habite",
+    "в": "dans, à",
+    "мама": "maman, mère",
+    "и": "et",
+    "папа": "papa, père",
+    "живут": "(ils) habitent",
+    "лионе": "Lyon (après в)",
+    "а": "et, mais",
+    "еще": "encore",
+    "собака": "chien",
+    "рекс": "Rex (nom de chien)"
+   },
+   "newWords": [
+    "живут",
+    "рекс"
+   ],
+   "questions": [
+    {
+     "q": "Où habite Julie ?",
+     "options": [
+      "À Paris",
+      "À Lyon",
+      "À Moscou"
+     ]
+    },
+    {
+     "q": "Qui habite à Lyon ?",
+     "options": [
+      "Les parents de Luka",
+      "Julie",
+      "Macha"
+     ]
+    },
+    {
+     "q": "Comment s'appelle le chien ?",
+     "options": [
+      "Rex",
+      "Julie",
+      "Anton"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "after": "10-restaurant",
+   "titleFr": "La journée d'Anna",
+   "titleRu": "День Анны",
+   "by": "anna",
+   "byFr": "Anna",
+   "color": "#81b29a",
+   "sentences": [
+    {
+     "ru": "Меня зовут Анна.",
+     "fr": "Je m'appelle Anna.",
+     "tokens": [
+      {
+       "t": "Меня",
+       "s": 3,
+       "w": true,
+       "a": "2e3dc1afb7c3.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "зовут",
+       "s": 3,
+       "w": true,
+       "a": "52c2ddd4d21f.mp3",
+       "l": "звать"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Анна",
+       "s": 0,
+       "w": true,
+       "a": "3b145c7baf49.mp3",
+       "l": "анна"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "105b7312cb6b.mp3"
+    },
+    {
+     "ru": "Утром я работаю в кафе.",
+     "fr": "Le matin, je travaille au café.",
+     "tokens": [
+      {
+       "t": "Утром",
+       "s": 0,
+       "w": true,
+       "a": "de7476a2f814.mp3",
+       "l": "утром"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "работаю",
+       "s": 3,
+       "w": true,
+       "a": "c044cc17ebbc.mp3",
+       "l": "работать"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "в",
+       "s": null,
+       "w": true,
+       "a": "3c5b79b7f921.mp3",
+       "l": "в"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "кафе",
+       "s": 3,
+       "w": true,
+       "a": "d700d700529b.mp3",
+       "l": "кафе"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "fd36aaf2bc94.mp3"
+    },
+    {
+     "ru": "Вечером я работаю в ресторане.",
+     "fr": "Le soir, je travaille au restaurant.",
+     "tokens": [
+      {
+       "t": "Вечером",
+       "s": 1,
+       "w": true,
+       "a": "27c36ef3a59f.mp3",
+       "l": "вечером"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "работаю",
+       "s": 3,
+       "w": true,
+       "a": "c044cc17ebbc.mp3",
+       "l": "работать"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "в",
+       "s": null,
+       "w": true,
+       "a": "3c5b79b7f921.mp3",
+       "l": "в"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "ресторане",
+       "s": 6,
+       "w": true,
+       "a": "9ed988ad7a33.mp3",
+       "l": "ресторан"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "d60532d94c24.mp3"
+    },
+    {
+     "ru": "Я очень люблю кофе!",
+     "fr": "J'adore le café !",
+     "tokens": [
+      {
+       "t": "Я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "очень",
+       "s": 0,
+       "w": true,
+       "a": "c94f0362a664.mp3",
+       "l": "очень"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "люблю",
+       "s": 4,
+       "w": true,
+       "a": "1b47671db5c8.mp3",
+       "l": "любить"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "кофе",
+       "s": 1,
+       "w": true,
+       "a": "4cff920b1130.mp3",
+       "l": "кофе"
+      },
+      {
+       "t": "!",
+       "w": false
+      }
+     ],
+     "audio": "880b81564c84.mp3"
+    },
+    {
+     "ru": "Но вечером я не пью кофе. Я пью чай.",
+     "fr": "Mais le soir, je ne bois pas de café. Je bois du thé.",
+     "tokens": [
+      {
+       "t": "Но",
+       "s": 1,
+       "w": true,
+       "a": "e9cdd3dfae39.mp3",
+       "l": "но"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "вечером",
+       "s": 1,
+       "w": true,
+       "a": "27c36ef3a59f.mp3",
+       "l": "вечером"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "не",
+       "s": 1,
+       "w": true,
+       "a": "e20f13ca63d8.mp3",
+       "l": "не"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "пью",
+       "s": 2,
+       "w": true,
+       "a": "9cbf20bdb855.mp3",
+       "l": "пить"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "кофе",
+       "s": 1,
+       "w": true,
+       "a": "4cff920b1130.mp3",
+       "l": "кофе"
+      },
+      {
+       "t": ". ",
+       "w": false
+      },
+      {
+       "t": "Я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "пью",
+       "s": 2,
+       "w": true,
+       "a": "9cbf20bdb855.mp3",
+       "l": "пить"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "чай",
+       "s": 1,
+       "w": true,
+       "a": "0f1ca028b347.mp3",
+       "l": "чай"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "ef242eaea21c.mp3"
+    },
+    {
+     "ru": "В ресторане я говорю: «Что вы будете?»",
+     "fr": "Au restaurant, je dis : « Qu'est-ce que vous prenez ? »",
+     "tokens": [
+      {
+       "t": "В",
+       "s": null,
+       "w": true,
+       "a": "3c5b79b7f921.mp3",
+       "l": "в"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "ресторане",
+       "s": 6,
+       "w": true,
+       "a": "9ed988ad7a33.mp3",
+       "l": "ресторан"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "говорю",
+       "s": 5,
+       "w": true,
+       "a": "7060cf7cbf69.mp3",
+       "l": "говорить"
+      },
+      {
+       "t": ": «",
+       "w": false
+      },
+      {
+       "t": "Что",
+       "s": 2,
+       "w": true,
+       "a": "209f9228f26e.mp3",
+       "l": "что"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "вы",
+       "s": 1,
+       "w": true,
+       "a": "8b7efd6df007.mp3",
+       "l": "вы"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "будете",
+       "s": 1,
+       "w": true,
+       "a": "6d0b4339d1ba.mp3",
+       "l": "быть"
+      },
+      {
+       "t": "?»",
+       "w": false
+      }
+     ],
+     "audio": "a04a94d4cc5c.mp3"
+    }
+   ],
+   "glossary": {
+    "меня": "me, moi",
+    "зовут": "(on) appelle",
+    "анна": "Anna (prénom)",
+    "утром": "le matin",
+    "я": "je, moi",
+    "работаю": "(je) travaille",
+    "в": "dans, à",
+    "кафе": "café",
+    "вечером": "le soir",
+    "ресторане": "restaurant (après в)",
+    "очень": "très",
+    "люблю": "(j')aime",
+    "кофе": "café",
+    "но": "mais",
+    "не": "ne… pas",
+    "пью": "(je) bois",
+    "чай": "thé",
+    "говорю": "(je) parle",
+    "что": "quoi, que",
+    "вы": "vous",
+    "будете": "(vous) serez / prendrez"
+   },
+   "newWords": [
+    "пью",
+    "ресторане"
+   ],
+   "questions": [
+    {
+     "q": "Où travaille Anna le soir ?",
+     "options": [
+      "Au restaurant",
+      "Au café",
+      "À la banque"
+     ]
+    },
+    {
+     "q": "Que boit Anna le soir ?",
+     "options": [
+      "Du thé",
+      "Du café",
+      "Du lait"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t6",
+   "after": "12-weekend",
+   "titleFr": "Le week-end de Macha",
+   "titleRu": "Выходные Маши",
+   "by": "masha",
+   "byFr": "Macha",
+   "color": "#e07a5f",
+   "sentences": [
+    {
+     "ru": "В субботу я работала.",
+     "fr": "Samedi, j'ai travaillé.",
+     "tokens": [
+      {
+       "t": "В",
+       "s": null,
+       "w": true,
+       "a": "3c5b79b7f921.mp3",
+       "l": "в"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "субботу",
+       "s": 4,
+       "w": true,
+       "a": "dcc66f37de17.mp3",
+       "l": "суббота"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "работала",
+       "s": 3,
+       "w": true,
+       "a": "bcf619bcd3f0.mp3",
+       "l": "работать"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "109b551a30cf.mp3"
+    },
+    {
+     "ru": "Вечером я была в кино с Лукой.",
+     "fr": "Le soir, j'étais au cinéma avec Luka.",
+     "tokens": [
+      {
+       "t": "Вечером",
+       "s": 1,
+       "w": true,
+       "a": "27c36ef3a59f.mp3",
+       "l": "вечером"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "была",
+       "s": 3,
+       "w": true,
+       "a": "32318fe62e2b.mp3",
+       "l": "быть"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "в",
+       "s": null,
+       "w": true,
+       "a": "3c5b79b7f921.mp3",
+       "l": "в"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "кино",
+       "s": 3,
+       "w": true,
+       "a": "c3efe5a31dae.mp3",
+       "l": "кино"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "с",
+       "s": null,
+       "w": true,
+       "a": "37421d1ce7f3.mp3",
+       "l": "с"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Лукой",
+       "s": 1,
+       "w": true,
+       "a": "c7e8d90fb211.mp3",
+       "l": "лука"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "6e6bc23e7937.mp3"
+    },
+    {
+     "ru": "Было очень интересно!",
+     "fr": "C'était très intéressant !",
+     "tokens": [
+      {
+       "t": "Было",
+       "s": 1,
+       "w": true,
+       "a": "b9c8b948282f.mp3",
+       "l": "быть"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "очень",
+       "s": 0,
+       "w": true,
+       "a": "c94f0362a664.mp3",
+       "l": "очень"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "интересно",
+       "s": 5,
+       "w": true,
+       "a": "a60fbdeaa4d8.mp3",
+       "l": "интересно"
+      },
+      {
+       "t": "!",
+       "w": false
+      }
+     ],
+     "audio": "e22dcd06d74c.mp3"
+    },
+    {
+     "ru": "В воскресенье я отдыхала дома.",
+     "fr": "Dimanche, je me suis reposée à la maison.",
+     "tokens": [
+      {
+       "t": "В",
+       "s": null,
+       "w": true,
+       "a": "3c5b79b7f921.mp3",
+       "l": "в"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "воскресенье",
+       "s": 7,
+       "w": true,
+       "a": "bf220bdc451f.mp3",
+       "l": "воскресение"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "отдыхала",
+       "s": 5,
+       "w": true,
+       "a": "965c85d9947f.mp3",
+       "l": "отдыхать"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "дома",
+       "s": 1,
+       "w": true,
+       "a": "97f89f92319f.mp3",
+       "l": "дом"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "3fa0f1064e80.mp3"
+    },
+    {
+     "ru": "А Анна работала весь день. Бедная Анна!",
+     "fr": "Et Anna a travaillé toute la journée. Pauvre Anna !",
+     "tokens": [
+      {
+       "t": "А",
+       "s": 0,
+       "w": true,
+       "a": "1cf82fa4439c.mp3",
+       "l": "а"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Анна",
+       "s": 0,
+       "w": true,
+       "a": "3b145c7baf49.mp3",
+       "l": "анна"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "работала",
+       "s": 3,
+       "w": true,
+       "a": "bcf619bcd3f0.mp3",
+       "l": "работать"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "весь",
+       "s": 1,
+       "w": true,
+       "a": "c7bdb61ff9ab.mp3",
+       "l": "весь"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "день",
+       "s": 1,
+       "w": true,
+       "a": "f0d5c469ba4e.mp3",
+       "l": "день"
+      },
+      {
+       "t": ". ",
+       "w": false
+      },
+      {
+       "t": "Бедная",
+       "s": 1,
+       "w": true,
+       "a": "a97461a39614.mp3",
+       "l": "бедный"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Анна",
+       "s": 0,
+       "w": true,
+       "a": "3b145c7baf49.mp3",
+       "l": "анна"
+      },
+      {
+       "t": "!",
+       "w": false
+      }
+     ],
+     "audio": "bf4700fef1f3.mp3"
+    }
+   ],
+   "glossary": {
+    "в": "dans, à",
+    "субботу": "samedi (в субботу)",
+    "я": "je, moi",
+    "работала": "(j')ai travaillé (femme)",
+    "вечером": "le soir",
+    "была": "(j')étais (femme)",
+    "кино": "cinéma",
+    "с": "avec",
+    "лукой": "Luka (après с)",
+    "было": "c'était",
+    "очень": "très",
+    "интересно": "intéressant",
+    "воскресенье": "dimanche",
+    "отдыхала": "(je) me suis reposée",
+    "дома": "à la maison",
+    "а": "et, mais",
+    "анна": "Anna (prénom)",
+    "весь": "tout",
+    "день": "jour, journée",
+    "бедная": "pauvre"
+   },
+   "newWords": [
+    "была",
+    "лукой"
+   ],
+   "questions": [
+    {
+     "q": "Qu'a fait Macha samedi soir ?",
+     "options": [
+      "Elle était au cinéma",
+      "Elle a travaillé",
+      "Elle s'est reposée"
+     ]
+    },
+    {
+     "q": "Qui a travaillé toute la journée ?",
+     "options": [
+      "Anna",
+      "Macha",
+      "Luka"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t7",
+   "after": "14-medecin",
+   "titleFr": "Un message pour Oleg",
+   "titleRu": "Записка Олегу",
+   "by": "luka",
+   "byFr": "Luka",
+   "color": "#3d5a80",
+   "sentences": [
+    {
+     "ru": "Олег, привет!",
+     "fr": "Oleg, salut !",
+     "tokens": [
+      {
+       "t": "Олег",
+       "s": 2,
+       "w": true,
+       "a": "26ccd9749ec0.mp3",
+       "l": "олег"
+      },
+      {
+       "t": ", ",
+       "w": false
+      },
+      {
+       "t": "привет",
+       "s": 4,
+       "w": true,
+       "a": "465595078eb6.mp3",
+       "l": "привет"
+      },
+      {
+       "t": "!",
+       "w": false
+      }
+     ],
+     "audio": "15bacb2a7880.mp3"
+    },
+    {
+     "ru": "Завтра я не буду играть в футбол.",
+     "fr": "Demain, je ne vais pas jouer au foot.",
+     "tokens": [
+      {
+       "t": "Завтра",
+       "s": 1,
+       "w": true,
+       "a": "8c010caec9ab.mp3",
+       "l": "завтра"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "не",
+       "s": 1,
+       "w": true,
+       "a": "e20f13ca63d8.mp3",
+       "l": "не"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "буду",
+       "s": 1,
+       "w": true,
+       "a": "f863b4d8649d.mp3",
+       "l": "быть"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "играть",
+       "s": 3,
+       "w": true,
+       "a": "fdefbe32f178.mp3",
+       "l": "играть"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "в",
+       "s": null,
+       "w": true,
+       "a": "3c5b79b7f921.mp3",
+       "l": "в"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "футбол",
+       "s": 4,
+       "w": true,
+       "a": "b96f2b03b8b6.mp3",
+       "l": "футбол"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "de403a606bbd.mp3"
+    },
+    {
+     "ru": "Мне плохо. У меня болит голова и горло.",
+     "fr": "Je ne me sens pas bien. J'ai mal à la tête et à la gorge.",
+     "tokens": [
+      {
+       "t": "Мне",
+       "s": 2,
+       "w": true,
+       "a": "f7ae2aa9215e.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "плохо",
+       "s": 2,
+       "w": true,
+       "a": "07daac928bc7.mp3",
+       "l": "плохо"
+      },
+      {
+       "t": ". ",
+       "w": false
+      },
+      {
+       "t": "У",
+       "s": 0,
+       "w": true,
+       "a": "4e374e10f94b.mp3",
+       "l": "у"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "меня",
+       "s": 3,
+       "w": true,
+       "a": "2e3dc1afb7c3.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "болит",
+       "s": 3,
+       "w": true,
+       "a": "dcea905286ac.mp3",
+       "l": "болеть"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "голова",
+       "s": 5,
+       "w": true,
+       "a": "6e487ea48e95.mp3",
+       "l": "голова"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "и",
+       "s": 0,
+       "w": true,
+       "a": "200abcf7ec0e.mp3",
+       "l": "и"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "горло",
+       "s": 1,
+       "w": true,
+       "a": "611e843f6abd.mp3",
+       "l": "горло"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "e645127d3b44.mp3"
+    },
+    {
+     "ru": "Маша говорит: «Это грипп».",
+     "fr": "Macha dit : « C'est la grippe ».",
+     "tokens": [
+      {
+       "t": "Маша",
+       "s": 1,
+       "w": true,
+       "a": "db2f8c7ea687.mp3",
+       "l": "маша"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "говорит",
+       "s": 5,
+       "w": true,
+       "a": "f6e27065d9f5.mp3",
+       "l": "говорить"
+      },
+      {
+       "t": ": «",
+       "w": false
+      },
+      {
+       "t": "Это",
+       "s": 0,
+       "w": true,
+       "a": "eecbe7a3009e.mp3",
+       "l": "это"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "грипп",
+       "s": 2,
+       "w": true,
+       "a": "79eb19003628.mp3",
+       "l": "грипп"
+      },
+      {
+       "t": "».",
+       "w": false
+      }
+     ],
+     "audio": "9e35af660365.mp3"
+    },
+    {
+     "ru": "Я буду отдыхать дома и пить чай.",
+     "fr": "Je vais me reposer à la maison et boire du thé.",
+     "tokens": [
+      {
+       "t": "Я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "буду",
+       "s": 1,
+       "w": true,
+       "a": "f863b4d8649d.mp3",
+       "l": "быть"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "отдыхать",
+       "s": 5,
+       "w": true,
+       "a": "bbb38b666094.mp3",
+       "l": "отдыхать"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "дома",
+       "s": 1,
+       "w": true,
+       "a": "97f89f92319f.mp3",
+       "l": "дом"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "и",
+       "s": 0,
+       "w": true,
+       "a": "200abcf7ec0e.mp3",
+       "l": "и"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "пить",
+       "s": 1,
+       "w": true,
+       "a": "c85ae7fc4439.mp3",
+       "l": "пить"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "чай",
+       "s": 1,
+       "w": true,
+       "a": "0f1ca028b347.mp3",
+       "l": "чай"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "bb2d1ddd6658.mp3"
+    },
+    {
+     "ru": "В субботу я буду играть! Лука",
+     "fr": "Samedi, je jouerai ! Luka",
+     "tokens": [
+      {
+       "t": "В",
+       "s": null,
+       "w": true,
+       "a": "3c5b79b7f921.mp3",
+       "l": "в"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "субботу",
+       "s": 4,
+       "w": true,
+       "a": "dcc66f37de17.mp3",
+       "l": "суббота"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "буду",
+       "s": 1,
+       "w": true,
+       "a": "f863b4d8649d.mp3",
+       "l": "быть"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "играть",
+       "s": 3,
+       "w": true,
+       "a": "fdefbe32f178.mp3",
+       "l": "играть"
+      },
+      {
+       "t": "! ",
+       "w": false
+      },
+      {
+       "t": "Лука",
+       "s": 1,
+       "w": true,
+       "a": "805013b1f494.mp3",
+       "l": "лука"
+      }
+     ],
+     "audio": "90650c74d659.mp3"
+    }
+   ],
+   "glossary": {
+    "олег": "Oleg (prénom)",
+    "привет": "salut",
+    "завтра": "demain",
+    "я": "je, moi",
+    "не": "ne… pas",
+    "буду": "(je) serai / prendrai",
+    "играть": "jouer",
+    "в": "dans, à",
+    "футбол": "football",
+    "мне": "à moi",
+    "плохо": "mal",
+    "у": "chez (у вас есть = vous avez)",
+    "меня": "me, moi",
+    "болит": "fait mal",
+    "голова": "tête",
+    "и": "et",
+    "горло": "gorge",
+    "маша": "Macha (prénom)",
+    "говорит": "(elle) dit",
+    "это": "c'est, ce",
+    "грипп": "grippe",
+    "отдыхать": "se reposer",
+    "дома": "à la maison",
+    "пить": "boire",
+    "чай": "thé",
+    "субботу": "samedi (в субботу)",
+    "лука": "Luka (prénom)"
+   },
+   "newWords": [
+    "говорит"
+   ],
+   "questions": [
+    {
+     "q": "Pourquoi Luka ne joue pas au foot ?",
+     "options": [
+      "Il est malade",
+      "Il travaille",
+      "Il est à Moscou"
+     ]
+    },
+    {
+     "q": "Que va faire Luka ?",
+     "options": [
+      "Se reposer et boire du thé",
+      "Aller au théâtre",
+      "Travailler à la banque"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t8",
+   "after": "16-hiver",
+   "titleFr": "Lettre à Julie",
+   "titleRu": "Письмо Жюли",
+   "by": "luka",
+   "byFr": "Luka",
+   "color": "#3d5a80",
+   "sentences": [
+    {
+     "ru": "Привет, Жюли!",
+     "fr": "Salut, Julie !",
+     "tokens": [
+      {
+       "t": "Привет",
+       "s": 4,
+       "w": true,
+       "a": "465595078eb6.mp3",
+       "l": "привет"
+      },
+      {
+       "t": ", ",
+       "w": false
+      },
+      {
+       "t": "Жюли",
+       "s": 1,
+       "w": true,
+       "a": "966d580ffaa0.mp3",
+       "l": "жюли"
+      },
+      {
+       "t": "!",
+       "w": false
+      }
+     ],
+     "audio": "76cc7797b1eb.mp3"
+    },
+    {
+     "ru": "Я живу в Петербурге. Сейчас зима.",
+     "fr": "J'habite à Saint-Pétersbourg. C'est l'hiver maintenant.",
+     "tokens": [
+      {
+       "t": "Я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "живу",
+       "s": 3,
+       "w": true,
+       "a": "1fe8f57e8827.mp3",
+       "l": "жить"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "в",
+       "s": null,
+       "w": true,
+       "a": "3c5b79b7f921.mp3",
+       "l": "в"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Петербурге",
+       "s": 6,
+       "w": true,
+       "a": "b6acec023825.mp3",
+       "l": "петербург"
+      },
+      {
+       "t": ". ",
+       "w": false
+      },
+      {
+       "t": "Сейчас",
+       "s": 4,
+       "w": true,
+       "a": "f97236955f75.mp3",
+       "l": "сейчас"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "зима",
+       "s": 3,
+       "w": true,
+       "a": "3503e8930f3d.mp3",
+       "l": "зима"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "39e9919e3b79.mp3"
+    },
+    {
+     "ru": "Сегодня очень холодно: минус десять!",
+     "fr": "Aujourd'hui, il fait très froid : moins dix !",
+     "tokens": [
+      {
+       "t": "Сегодня",
+       "s": 3,
+       "w": true,
+       "a": "ee9959a29d9b.mp3",
+       "l": "сегодня"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "очень",
+       "s": 0,
+       "w": true,
+       "a": "c94f0362a664.mp3",
+       "l": "очень"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "холодно",
+       "s": 1,
+       "w": true,
+       "a": "8482b15f9a14.mp3",
+       "l": "холодно"
+      },
+      {
+       "t": ": ",
+       "w": false
+      },
+      {
+       "t": "минус",
+       "s": 1,
+       "w": true,
+       "a": "2dd61ded53c7.mp3",
+       "l": "минус"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "десять",
+       "s": 1,
+       "w": true,
+       "a": "b765b1ecc0c3.mp3",
+       "l": "десять"
+      },
+      {
+       "t": "!",
+       "w": false
+      }
+     ],
+     "audio": "705ccd0f1f3d.mp3"
+    },
+    {
+     "ru": "Вчера я был в театре с Машей.",
+     "fr": "Hier, j'étais au théâtre avec Macha.",
+     "tokens": [
+      {
+       "t": "Вчера",
+       "s": 4,
+       "w": true,
+       "a": "2334f6a49ca2.mp3",
+       "l": "вчера"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "был",
+       "s": 1,
+       "w": true,
+       "a": "fe467c080eca.mp3",
+       "l": "быть"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "в",
+       "s": null,
+       "w": true,
+       "a": "3c5b79b7f921.mp3",
+       "l": "в"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "театре",
+       "s": 2,
+       "w": true,
+       "a": "5702abdc7a87.mp3",
+       "l": "театр"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "с",
+       "s": null,
+       "w": true,
+       "a": "37421d1ce7f3.mp3",
+       "l": "с"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Машей",
+       "s": 1,
+       "w": true,
+       "a": "a63b7a6d1a87.mp3",
+       "l": "маша"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "1d2eaa125db7.mp3"
+    },
+    {
+     "ru": "Это опера «Евгений Онегин». Было очень красиво!",
+     "fr": "C'est l'opéra « Eugène Onéguine ». C'était très beau !",
+     "tokens": [
+      {
+       "t": "Это",
+       "s": 0,
+       "w": true,
+       "a": "eecbe7a3009e.mp3",
+       "l": "это"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "опера",
+       "s": 0,
+       "w": true,
+       "a": "35415d8fd44f.mp3",
+       "l": "опера"
+      },
+      {
+       "t": " «",
+       "w": false
+      },
+      {
+       "t": "Евгений",
+       "s": 3,
+       "w": true,
+       "a": "ba1ba1fd9abc.mp3",
+       "l": "евгений"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Онегин",
+       "s": 2,
+       "w": true,
+       "a": "263e4f457ae1.mp3",
+       "l": "онегин"
+      },
+      {
+       "t": "». ",
+       "w": false
+      },
+      {
+       "t": "Было",
+       "s": 1,
+       "w": true,
+       "a": "b9c8b948282f.mp3",
+       "l": "быть"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "очень",
+       "s": 0,
+       "w": true,
+       "a": "c94f0362a664.mp3",
+       "l": "очень"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "красиво",
+       "s": 4,
+       "w": true,
+       "a": "468310ed94a4.mp3",
+       "l": "красиво"
+      },
+      {
+       "t": "!",
+       "w": false
+      }
+     ],
+     "audio": "3993e85caf07.mp3"
+    },
+    {
+     "ru": "У меня нет шапки. Завтра надо купить шапку!",
+     "fr": "Je n'ai pas de bonnet. Demain, il faut acheter un bonnet !",
+     "tokens": [
+      {
+       "t": "У",
+       "s": 0,
+       "w": true,
+       "a": "4e374e10f94b.mp3",
+       "l": "у"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "меня",
+       "s": 3,
+       "w": true,
+       "a": "2e3dc1afb7c3.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "нет",
+       "s": 1,
+       "w": true,
+       "a": "2e0323d3f1b3.mp3",
+       "l": "нет"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "шапки",
+       "s": 1,
+       "w": true,
+       "a": "054df05c438e.mp3",
+       "l": "шапка"
+      },
+      {
+       "t": ". ",
+       "w": false
+      },
+      {
+       "t": "Завтра",
+       "s": 1,
+       "w": true,
+       "a": "8c010caec9ab.mp3",
+       "l": "завтра"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "надо",
+       "s": 1,
+       "w": true,
+       "a": "6da396553a75.mp3",
+       "l": "надо"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "купить",
+       "s": 3,
+       "w": true,
+       "a": "8317c23f0a81.mp3",
+       "l": "купить"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "шапку",
+       "s": 1,
+       "w": true,
+       "a": "0811f8bb6308.mp3",
+       "l": "шапка"
+      },
+      {
+       "t": "!",
+       "w": false
+      }
+     ],
+     "audio": "2a1cc94d4ff5.mp3"
+    },
+    {
+     "ru": "Пока! Лука",
+     "fr": "Salut ! Luka",
+     "tokens": [
+      {
+       "t": "Пока",
+       "s": 3,
+       "w": true,
+       "a": "f78104620718.mp3",
+       "l": "пока"
+      },
+      {
+       "t": "! ",
+       "w": false
+      },
+      {
+       "t": "Лука",
+       "s": 1,
+       "w": true,
+       "a": "805013b1f494.mp3",
+       "l": "лука"
+      }
+     ],
+     "audio": "fd9b6e743943.mp3"
+    }
+   ],
+   "glossary": {
+    "привет": "salut",
+    "жюли": "Julie",
+    "я": "je, moi",
+    "живу": "(j')habite",
+    "в": "dans, à",
+    "петербурге": "Saint-Pétersbourg (après в)",
+    "сейчас": "maintenant",
+    "зима": "hiver",
+    "сегодня": "aujourd'hui",
+    "очень": "très",
+    "холодно": "il fait froid",
+    "минус": "moins",
+    "десять": "dix",
+    "вчера": "hier",
+    "был": "(j')étais (homme)",
+    "театре": "théâtre (après в, on y est)",
+    "с": "avec",
+    "машей": "Macha (après с)",
+    "это": "c'est, ce",
+    "опера": "opéra",
+    "евгений": "Eugène",
+    "онегин": "Onéguine",
+    "было": "c'était",
+    "красиво": "c'est beau",
+    "у": "chez (у вас есть = vous avez)",
+    "меня": "me, moi",
+    "нет": "non",
+    "шапки": "bonnet (après нет)",
+    "завтра": "demain",
+    "надо": "il faut",
+    "купить": "acheter",
+    "шапку": "bonnet (après купить)",
+    "пока": "salut (au revoir)",
+    "лука": "Luka (prénom)"
+   },
+   "newWords": [
+    "зима"
+   ],
+   "questions": [
+    {
+     "q": "Quel temps fait-il à Saint-Pétersbourg ?",
+     "options": [
+      "Très froid",
+      "Doux",
+      "Chaud"
+     ]
+    },
+    {
+     "q": "Où était Luka hier ?",
+     "options": [
+      "Au théâtre",
+      "À l'hôpital",
+      "Au parc"
+     ]
+    },
+    {
+     "q": "Que doit acheter Luka ?",
+     "options": [
+      "Un bonnet",
+      "Des billets",
+      "Du pain"
+     ]
+    }
+   ]
+  }
+ ]
+}

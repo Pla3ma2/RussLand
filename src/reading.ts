@@ -67,7 +67,9 @@ export async function renderReadingHome(root: HTMLElement) {
           <span class="stage-body"><b>${esc(st.titleFr)}</b><span class="stage-letters">${st.letters.join(" ")}</span></span>
           <span class="stage-go">${open ? "›" : "🔒"}</span></button>`;
       }).join("")}
-    </div>`;
+    </div>
+    <div id="texts-slot"></div>`;
+  import("./texts").then((m) => m.renderTextList($("#texts-slot", root)));
   $$<HTMLButtonElement>(".stage:not(.locked)", root).forEach((b) => (b.onclick = () => navigate(`reading/${b.dataset.id}`)));
 }
 

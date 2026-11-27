@@ -376,6 +376,49 @@ def build_lesson_v2(src: dict) -> dict:
     }
 
 
+# ---------- маленькие тексты для чтения (только из изученных слов) ----------
+
+KNOWN_AT: dict[str, dict] = {}
+
+
+def build_texts() -> dict:
+    src = load(SRC / "texts.json")
+    out = []
+    for t in src["texts"]:
+        tid, after = t["id"], t["after"]
+        known = KNOWN_AT.get(after)
+        if known is None:
+            errors.append(f"тексты/{tid}: нет урока «{after}»")
+            continue
+        new = {nk(k): v for k, v in t.get("newWords", {}).items()}
+        if len(new) > 3:
+            errors.append(f"тексты/{tid}: больше 3 новых слов — текст должен быть из знакомых слов")
+        voice = CHARS[t["by"]]["voice"]
+        sentences = []
+        for snt in t["sentences"]:
+            bad = [f for f in forms_of(snt["ru"]) if f not in known and f not in new]
+            if bad:
+                errors.append(f"тексты/{tid}: незнакомые слова {bad} в «{snt['ru']}»")
+            ln = line(snt["ru"], snt["fr"], t["by"])
+            sentences.append({"ru": ln["ru"], "fr": ln["fr"], "tokens": ln["tokens"], "audio": ln["audio"]})
+        gloss = {}
+        for snt in sentences:
+            for tok in snt["tokens"]:
+                k = nk(tok["t"]) if tok["w"] else None
+                if k and k not in gloss:
+                    g = new.get(k) or GLOSS_ALL.get(k)
+                    if g:
+                        gloss[k] = g
+        for q in t["questions"]:
+            if len(q["options"]) < 2:
+                errors.append(f"тексты/{tid}: в вопросе меньше двух вариантов")
+        out.append({"id": tid, "after": after, "titleFr": t["titleFr"], "titleRu": t["titleRu"], "by": t["by"],
+                    "byFr": CHARS[t["by"]]["nameFr"], "color": CHARS[t["by"]]["color"],
+                    "sentences": sentences, "glossary": gloss, "newWords": sorted(new),
+                    "questions": t["questions"]})
+    return {"texts": out}
+
+
 # ---------- чтение и алфавит ----------
 
 def build_alphabet() -> dict:
@@ -518,11 +561,13 @@ def main() -> int:
     for p in sorted((SRC / "levels").glob("*.json")):
         src = load(p)
         levels.append(build_lesson_v2(src) if src.get("version") == 2 else build_level(src))
+        KNOWN_AT[src["id"]] = dict(KNOWN)
     levels.sort(key=lambda lv: lv["order"])
     alphabet = build_alphabet()
     reading = build_reading(alphabet)
     carte = build_carte()
     words = build_words()
+    texts = build_texts()
 
     if errors:
         print("\n✗ Ошибки в контенте:")
@@ -547,6 +592,7 @@ def main() -> int:
     write("reading.json", reading)
     write("carte.json", carte)
     write("words.json", words)
+    write("texts.json", texts)
     print(f"Аудиофраз: {len(clips)}")
     if args.audio:
         print(f"Озвучено новых: {synthesize(args.force)}")

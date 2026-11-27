@@ -130,6 +130,7 @@ route("reading", async () => {
   await (await import("./reading")).renderReadingHome(app);
 });
 route("reading/:id", async (root, id) => (await import("./reading")).renderStage(root, id));
+route("reading/t/:id", async (root, id) => (await import("./texts")).renderText(root, id));
 route("words", async () => {
   shell("words");
   await (await import("./words")).renderWordsHome(app);

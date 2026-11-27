@@ -1,4 +1,4 @@
-import type { Alphabet, Carte, Index, Level, RawWord, ReadingStage, Word } from "./types";
+import type { Alphabet, Carte, Index, Level, RawWord, ReadText, ReadingStage, Word } from "./types";
 import { setUseFiles } from "./audio";
 
 const cache = new Map<string, Promise<unknown>>();
@@ -24,6 +24,7 @@ export const getLevel = (id: string) => get<Level>(`levels/${id}.json`);
 export const getAlphabet = () => get<Alphabet>("alphabet.json");
 export const getReading = () => get<{ stages: ReadingStage[] }>("reading.json");
 export const getCarte = () => get<Carte>("carte.json");
+export const getTexts = () => get<{ texts: ReadText[] }>("texts.json");
 
 export async function getAllLevels(): Promise<Level[]> {
   const idx = await getIndex();

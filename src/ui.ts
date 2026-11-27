@@ -82,13 +82,25 @@ export interface TokenOpts {
 }
 
 export function tokensHtml(tokens: Token[]): string {
-  return tokens
-    .map((t, i) =>
-      t.w
-        ? `<button class="word" data-i="${i}">${renderStressed(t.t, t.s, t.t)}</button>`
-        : `<span class="punct">${esc(t.t)}</span>`,
-    )
-    .join("");
+  // знак препинания сразу после слова не должен уезжать на новую строку
+  let html = "";
+  for (let i = 0; i < tokens.length; i++) {
+    const t = tokens[i];
+    if (!t.w) {
+      html += `<span class="punct">${esc(t.t)}</span>`;
+      continue;
+    }
+    const word = `<button class="word" data-i="${i}">${renderStressed(t.t, t.s, t.t)}</button>`;
+    const nx = tokens[i + 1];
+    const m = nx && !nx.w ? /^[^\s]+/.exec(nx.t) : null;
+    if (m) {
+      html += `<span class="nw">${word}<span class="punct">${esc(m[0])}</span></span>`;
+      const rest = nx.t.slice(m[0].length);
+      if (rest) html += `<span class="punct">${esc(rest)}</span>`;
+      i++;
+    } else html += word;
+  }
+  return html;
 }
 
 /** Делает слова внутри root нажимаемыми: озвучка + подсказка над словом. */

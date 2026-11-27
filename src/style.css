@@ -401,3 +401,15 @@ table.carte td small { display: block; font-size: 11px; }
   .lvl, .flash { background: #1f2229; }
 }
 .puzzle-hint { margin-top: -2px; }
+
+/* ---------- Petites histoires ---------- */
+.text-head { display: flex; align-items: center; gap: 12px; margin-bottom: 4px; }
+.text-title { margin: 0; }
+.read-text { display: flex; flex-direction: column; gap: 6px; margin-top: 12px; }
+.snt { display: flex; align-items: flex-start; gap: 8px; padding: 6px 4px; border-radius: 12px; transition: background .2s; }
+.snt.reading { background: var(--soft); }
+.snt-body { flex: 1; min-width: 0; }
+.snt .ru { font-size: 20px; }
+.snt .icon { margin-top: 4px; }
+.word.new-w, .new-w { text-decoration: underline; text-decoration-color: var(--accent-2); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+.text-sub { display: block; font-size: 14px; color: var(--muted); margin-top: 2px; }

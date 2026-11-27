@@ -194,3 +194,18 @@ export interface Word {
   g: string; // m / f / n для существительных
   a: string;
 }
+
+/** Маленький текст для чтения — только из изученных слов. */
+export interface ReadText {
+  id: string;
+  after: string;
+  titleFr: string;
+  titleRu: string;
+  by: string;
+  byFr: string;
+  color: string;
+  sentences: { ru: string; fr: string; tokens: Token[]; audio: string }[];
+  glossary: Record<string, string>;
+  newWords: string[];
+  questions: { q: string; options: string[] }[]; // первый вариант — правильный
+}

@@ -1,0 +1,446 @@
+{
+  "texts": [
+    {
+      "id": "t1",
+      "after": "02-presenter",
+      "by": "luka",
+      "titleFr": "Je me présente",
+      "titleRu": "Меня зовут Лука",
+      "sentences": [
+        {
+          "ru": "Здравствуйте!",
+          "fr": "Bonjour !"
+        },
+        {
+          "ru": "Меня зовут Л+ука.",
+          "fr": "Je m'appelle Luka."
+        },
+        {
+          "ru": "Я француз. Я из Франции.",
+          "fr": "Je suis français. Je viens de France."
+        },
+        {
+          "ru": "Я студент.",
+          "fr": "Je suis étudiant."
+        },
+        {
+          "ru": "Я говорю по-франц+узски и по-англ+ийски.",
+          "fr": "Je parle français et anglais."
+        },
+        {
+          "ru": "И немного по-р+усски!",
+          "fr": "Et un peu russe !"
+        }
+      ],
+      "questions": [
+        {
+          "q": "D'où vient Luka ?",
+          "options": [
+            "De France",
+            "De Russie",
+            "D'Angleterre"
+          ]
+        },
+        {
+          "q": "Quelles langues parle Luka ?",
+          "options": [
+            "Français, anglais et un peu russe",
+            "Seulement russe",
+            "Seulement français"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "after": "04-comprendre",
+      "by": "masha",
+      "titleFr": "Macha",
+      "titleRu": "Маша",
+      "sentences": [
+        {
+          "ru": "Меня зовут М+аша.",
+          "fr": "Je m'appelle Macha."
+        },
+        {
+          "ru": "Я врач.",
+          "fr": "Je suis médecin."
+        },
+        {
+          "ru": "Я говорю по-р+усски и немного по-англ+ийски.",
+          "fr": "Je parle russe et un peu anglais."
+        },
+        {
+          "ru": "Но я не говорю по-франц+узски.",
+          "fr": "Mais je ne parle pas français."
+        },
+        {
+          "ru": "Вы говорите по-франц+узски? Извините, я не понимаю!",
+          "fr": "Vous parlez français ? Pardon, je ne comprends pas !"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Quel est le métier de Macha ?",
+          "options": [
+            "Médecin",
+            "Étudiante",
+            "Professeure"
+          ]
+        },
+        {
+          "q": "Macha parle-t-elle français ?",
+          "options": [
+            "Non",
+            "Oui, très bien",
+            "Oui, un peu"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "after": "06-magasin",
+      "by": "luka",
+      "titleFr": "Un café, s'il vous plaît",
+      "titleRu": "Где кафе?",
+      "sentences": [
+        {
+          "ru": "Я в парке.",
+          "fr": "Je suis au parc."
+        },
+        {
+          "ru": "Я хочу кофе. Где здесь кафе?",
+          "fr": "Je veux un café. Où est le café, par ici ?"
+        },
+        {
+          "ru": "Кафе там: прямо, потом направо.",
+          "fr": "Le café est là-bas : tout droit, puis à droite."
+        },
+        {
+          "ru": "Это близко, пять минут.",
+          "fr": "C'est tout près, cinq minutes."
+        },
+        {
+          "ru": "В кафе я хочу кофе и булочку.",
+          "fr": "Au café, je veux un café et une brioche."
+        },
+        {
+          "ru": "Сколько стоит кофе? Триста рублей!",
+          "fr": "Combien coûte le café ? Trois cents roubles !"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Où est Luka au début ?",
+          "options": [
+            "Au parc",
+            "Au café",
+            "À la banque"
+          ]
+        },
+        {
+          "q": "Que veut Luka au café ?",
+          "options": [
+            "Un café et une brioche",
+            "Du thé",
+            "Du poisson"
+          ]
+        },
+        {
+          "q": "Le café est…",
+          "options": [
+            "Tout près",
+            "Très loin",
+            "À Moscou"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t4",
+      "after": "08-famille",
+      "by": "luka",
+      "titleFr": "Ma famille",
+      "titleRu": "Моя семья",
+      "newWords": {
+        "живут": "(ils) habitent",
+        "рекс": "Rex (nom de chien)"
+      },
+      "sentences": [
+        {
+          "ru": "Меня зовут Л+ука.",
+          "fr": "Je m'appelle Luka."
+        },
+        {
+          "ru": "У меня есть сестра. Её зовут Ж+юли.",
+          "fr": "J'ai une sœur. Elle s'appelle Julie."
+        },
+        {
+          "ru": "Она студентка. Она живёт в Париже.",
+          "fr": "Elle est étudiante. Elle habite à Paris."
+        },
+        {
+          "ru": "Мама и папа живут в Ли+оне.",
+          "fr": "Maman et papa habitent à Lyon."
+        },
+        {
+          "ru": "А ещё у меня есть собака. Её зовут Рекс!",
+          "fr": "Et j'ai aussi un chien. Il s'appelle Rex !"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Où habite Julie ?",
+          "options": [
+            "À Paris",
+            "À Lyon",
+            "À Moscou"
+          ]
+        },
+        {
+          "q": "Qui habite à Lyon ?",
+          "options": [
+            "Les parents de Luka",
+            "Julie",
+            "Macha"
+          ]
+        },
+        {
+          "q": "Comment s'appelle le chien ?",
+          "options": [
+            "Rex",
+            "Julie",
+            "Anton"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "after": "10-restaurant",
+      "by": "anna",
+      "titleFr": "La journée d'Anna",
+      "titleRu": "День Анны",
+      "newWords": {
+        "ресторане": "restaurant (après в)",
+        "пью": "(je) bois"
+      },
+      "sentences": [
+        {
+          "ru": "Меня зовут +Анна.",
+          "fr": "Je m'appelle Anna."
+        },
+        {
+          "ru": "Утром я работаю в кафе.",
+          "fr": "Le matin, je travaille au café."
+        },
+        {
+          "ru": "Вечером я работаю в ресторане.",
+          "fr": "Le soir, je travaille au restaurant."
+        },
+        {
+          "ru": "Я очень люблю кофе!",
+          "fr": "J'adore le café !"
+        },
+        {
+          "ru": "Но вечером я не пью кофе. Я пью чай.",
+          "fr": "Mais le soir, je ne bois pas de café. Je bois du thé."
+        },
+        {
+          "ru": "В ресторане я говорю: «Что вы будете?»",
+          "fr": "Au restaurant, je dis : « Qu'est-ce que vous prenez ? »"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Où travaille Anna le soir ?",
+          "options": [
+            "Au restaurant",
+            "Au café",
+            "À la banque"
+          ]
+        },
+        {
+          "q": "Que boit Anna le soir ?",
+          "options": [
+            "Du thé",
+            "Du café",
+            "Du lait"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t6",
+      "after": "12-weekend",
+      "by": "masha",
+      "titleFr": "Le week-end de Macha",
+      "titleRu": "Выходные Маши",
+      "newWords": {
+        "была": "(j')étais (femme)",
+        "лукой": "Luka (après с)"
+      },
+      "sentences": [
+        {
+          "ru": "В субботу я работала.",
+          "fr": "Samedi, j'ai travaillé."
+        },
+        {
+          "ru": "Вечером я была в кино с Л+укой.",
+          "fr": "Le soir, j'étais au cinéma avec Luka."
+        },
+        {
+          "ru": "Было очень интересно!",
+          "fr": "C'était très intéressant !"
+        },
+        {
+          "ru": "В воскресенье я отдыхала д+ома.",
+          "fr": "Dimanche, je me suis reposée à la maison."
+        },
+        {
+          "ru": "А +Анна работала весь день. Бедная +Анна!",
+          "fr": "Et Anna a travaillé toute la journée. Pauvre Anna !"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Qu'a fait Macha samedi soir ?",
+          "options": [
+            "Elle était au cinéma",
+            "Elle a travaillé",
+            "Elle s'est reposée"
+          ]
+        },
+        {
+          "q": "Qui a travaillé toute la journée ?",
+          "options": [
+            "Anna",
+            "Macha",
+            "Luka"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "after": "14-medecin",
+      "by": "luka",
+      "titleFr": "Un message pour Oleg",
+      "titleRu": "Записка Олегу",
+      "newWords": {
+        "говорит": "(elle) dit"
+      },
+      "sentences": [
+        {
+          "ru": "Ол+ег, привет!",
+          "fr": "Oleg, salut !"
+        },
+        {
+          "ru": "Завтра я не буду играть в футбол.",
+          "fr": "Demain, je ne vais pas jouer au foot."
+        },
+        {
+          "ru": "Мне плохо. У меня болит голова и горло.",
+          "fr": "Je ne me sens pas bien. J'ai mal à la tête et à la gorge."
+        },
+        {
+          "ru": "М+аша говорит: «Это грипп».",
+          "fr": "Macha dit : « C'est la grippe »."
+        },
+        {
+          "ru": "Я буду отдыхать д+ома и пить чай.",
+          "fr": "Je vais me reposer à la maison et boire du thé."
+        },
+        {
+          "ru": "В субботу я буду играть! Л+ука",
+          "fr": "Samedi, je jouerai ! Luka"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Pourquoi Luka ne joue pas au foot ?",
+          "options": [
+            "Il est malade",
+            "Il travaille",
+            "Il est à Moscou"
+          ]
+        },
+        {
+          "q": "Que va faire Luka ?",
+          "options": [
+            "Se reposer et boire du thé",
+            "Aller au théâtre",
+            "Travailler à la banque"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t8",
+      "after": "16-hiver",
+      "by": "luka",
+      "titleFr": "Lettre à Julie",
+      "titleRu": "Письмо Жюли",
+      "sentences": [
+        {
+          "ru": "Привет, Ж+юли!",
+          "fr": "Salut, Julie !"
+        },
+        {
+          "ru": "Я живу в Петерб+урге. Сейчас зима.",
+          "fr": "J'habite à Saint-Pétersbourg. C'est l'hiver maintenant."
+        },
+        {
+          "ru": "Сегодня очень холодно: минус десять!",
+          "fr": "Aujourd'hui, il fait très froid : moins dix !"
+        },
+        {
+          "ru": "Вчера я был в театре с М+ашей.",
+          "fr": "Hier, j'étais au théâtre avec Macha."
+        },
+        {
+          "ru": "Это опера «Евгений Он+егин». Было очень красиво!",
+          "fr": "C'est l'opéra « Eugène Onéguine ». C'était très beau !"
+        },
+        {
+          "ru": "У меня нет шапки. Завтра надо купить шапку!",
+          "fr": "Je n'ai pas de bonnet. Demain, il faut acheter un bonnet !"
+        },
+        {
+          "ru": "Пока! Л+ука",
+          "fr": "Salut ! Luka"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Quel temps fait-il à Saint-Pétersbourg ?",
+          "options": [
+            "Très froid",
+            "Doux",
+            "Chaud"
+          ]
+        },
+        {
+          "q": "Où était Luka hier ?",
+          "options": [
+            "Au théâtre",
+            "À l'hôpital",
+            "Au parc"
+          ]
+        },
+        {
+          "q": "Que doit acheter Luka ?",
+          "options": [
+            "Un bonnet",
+            "Des billets",
+            "Du pain"
+          ]
+        }
+      ],
+      "newWords": {
+        "зима": "hiver"
+      }
+    }
+  ]
+}
