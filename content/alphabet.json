@@ -159,11 +159,11 @@
       "l": "О",
       "type": "vowel",
       "group": "familiar",
-      "soundText": "о",
+      "soundText": "оо",
       "exampleRu": "кот",
       "exampleFr": "chat",
       "tipFr": "Comme « o » quand il est accentué. Sans accent, il se prononce presque comme « a ».",
-      "tempo": 0.44
+      "tempo": 0.38
     },
     {
       "l": "П",

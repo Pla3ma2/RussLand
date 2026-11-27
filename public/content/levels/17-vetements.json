@@ -8,15 +8,15 @@
  "sceneFr": "Comme Macha l'a dit, Luka va acheter un bonnet. Il entre dans un magasin de vêtements.",
  "learner": "luka",
  "speakers": {
-  "seller": {
-   "name": "Продавщица",
-   "nameFr": "Vendeuse",
-   "color": "#bc6c25"
-  },
   "luka": {
    "name": "Лука",
    "nameFr": "Luka",
    "color": "#3d5a80"
+  },
+  "seller": {
+   "name": "Продавщица",
+   "nameFr": "Vendeuse",
+   "color": "#bc6c25"
   }
  },
  "dialogue": [

@@ -8,6 +8,11 @@
  "sceneFr": "Le 30 décembre, Luka et Macha arrivent à Moscou. Anton, le frère de Macha, les attend à la gare.",
  "learner": "luka",
  "speakers": {
+  "anton": {
+   "name": "Антон",
+   "nameFr": "Anton",
+   "color": "#457b9d"
+  },
   "masha": {
    "name": "Маша",
    "nameFr": "Macha",
@@ -17,11 +22,6 @@
    "name": "Лука",
    "nameFr": "Luka",
    "color": "#3d5a80"
-  },
-  "anton": {
-   "name": "Антон",
-   "nameFr": "Anton",
-   "color": "#457b9d"
   }
  },
  "dialogue": [

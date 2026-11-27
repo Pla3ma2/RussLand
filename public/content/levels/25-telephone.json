@@ -8,15 +8,15 @@
  "sceneFr": "Fin janvier, c'est bientôt l'anniversaire de Luka. Il appelle Anna pour l'inviter.",
  "learner": "luka",
  "speakers": {
-  "anna": {
-   "name": "Анна",
-   "nameFr": "Anna",
-   "color": "#81b29a"
-  },
   "luka": {
    "name": "Лука",
    "nameFr": "Luka",
    "color": "#3d5a80"
+  },
+  "anna": {
+   "name": "Анна",
+   "nameFr": "Anna",
+   "color": "#81b29a"
   }
  },
  "dialogue": [
