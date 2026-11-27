@@ -310,7 +310,7 @@
    "exampleRu": "кот",
    "exampleFr": "chat",
    "tipFr": "Comme « o » quand il est accentué. Sans accent, il se prononce presque comme « a ».",
-   "audio": "cut/d69ca977cda0.mp3",
+   "audio": "manual/o.mp3",
    "exampleTokens": [
     {
      "t": "кот",
