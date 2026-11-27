@@ -3346,6 +3346,1973 @@
      ]
     }
    ]
+  },
+  {
+   "id": "t9",
+   "after": "18-gare",
+   "titleFr": "Le départ",
+   "titleRu": "Едем в Москву!",
+   "by": "luka",
+   "byFr": "Luka",
+   "color": "#3d5a80",
+   "sentences": [
+    {
+     "ru": "Тридцатое декабря.",
+     "fr": "Le trente décembre.",
+     "tokens": [
+      {
+       "t": "Тридцатое",
+       "s": 5,
+       "w": true,
+       "a": "df83dcb25524.mp3",
+       "l": "тридцатый"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "декабря",
+       "s": 6,
+       "w": true,
+       "a": "fd82783d4fea.mp3",
+       "l": "декабрь"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "2bbbaab7b36b.mp3"
+    },
+    {
+     "ru": "Сегодня мы с Машей едем в Москву!",
+     "fr": "Aujourd'hui, Macha et moi, nous allons à Moscou !",
+     "tokens": [
+      {
+       "t": "Сегодня",
+       "s": 3,
+       "w": true,
+       "a": "ee9959a29d9b.mp3",
+       "l": "сегодня"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "мы",
+       "s": 1,
+       "w": true,
+       "a": "a234675be3c5.mp3",
+       "l": "мы"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "с",
+       "s": null,
+       "w": true,
+       "a": "37421d1ce7f3.mp3",
+       "l": "с"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Машей",
+       "s": 1,
+       "w": true,
+       "a": "a63b7a6d1a87.mp3",
+       "l": "маша"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "едем",
+       "s": 0,
+       "w": true,
+       "a": "ac01bdc240a3.mp3",
+       "l": "ехать"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "в",
+       "s": null,
+       "w": true,
+       "a": "3c5b79b7f921.mp3",
+       "l": "в"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Москву",
+       "s": 5,
+       "w": true,
+       "a": "5ad93f99f6c7.mp3",
+       "l": "москва"
+      },
+      {
+       "t": "!",
+       "w": false
+      }
+     ],
+     "audio": "aac309821377.mp3"
+    },
+    {
+     "ru": "Я купил два билета.",
+     "fr": "J'ai acheté deux billets.",
+     "tokens": [
+      {
+       "t": "Я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "купил",
+       "s": 3,
+       "w": true,
+       "a": "4192b6f81b36.mp3",
+       "l": "купить"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "два",
+       "s": 2,
+       "w": true,
+       "a": "7e852b84ef6d.mp3",
+       "l": "два"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "билета",
+       "s": 3,
+       "w": true,
+       "a": "ab3278fedb88.mp3",
+       "l": "билет"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "a0f04a26d5e6.mp3"
+    },
+    {
+     "ru": "Поезд в восемь утра. Ехать четыре часа.",
+     "fr": "Le train est à huit heures du matin. Le trajet dure quatre heures.",
+     "tokens": [
+      {
+       "t": "Поезд",
+       "s": 1,
+       "w": true,
+       "a": "06f22e270293.mp3",
+       "l": "поезд"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "в",
+       "s": null,
+       "w": true,
+       "a": "3c5b79b7f921.mp3",
+       "l": "в"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "восемь",
+       "s": 1,
+       "w": true,
+       "a": "a47b3c484775.mp3",
+       "l": "восемь"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "утра",
+       "s": 3,
+       "w": true,
+       "a": "0321aba4027c.mp3",
+       "l": "утро"
+      },
+      {
+       "t": ". ",
+       "w": false
+      },
+      {
+       "t": "Ехать",
+       "s": 0,
+       "w": true,
+       "a": "1c8fcf070e8b.mp3",
+       "l": "ехать"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "четыре",
+       "s": 3,
+       "w": true,
+       "a": "cd2999c669b1.mp3",
+       "l": "четыре"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "часа",
+       "s": 3,
+       "w": true,
+       "a": "19674662e1d6.mp3",
+       "l": "час"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "e5670f77b15d.mp3"
+    },
+    {
+     "ru": "В Москве живёт брат Маши. Его зовут Антон.",
+     "fr": "Le frère de Macha habite à Moscou. Il s'appelle Anton.",
+     "tokens": [
+      {
+       "t": "В",
+       "s": null,
+       "w": true,
+       "a": "3c5b79b7f921.mp3",
+       "l": "в"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Москве",
+       "s": 5,
+       "w": true,
+       "a": "93a66821e1ad.mp3",
+       "l": "москва"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "живёт",
+       "s": 3,
+       "w": true,
+       "a": "27315d7acbbd.mp3",
+       "l": "жить"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "брат",
+       "s": 2,
+       "w": true,
+       "a": "f2dad5bf24ef.mp3",
+       "l": "брат"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Маши",
+       "s": 1,
+       "w": true,
+       "a": "965ded58677d.mp3",
+       "l": "маша"
+      },
+      {
+       "t": ". ",
+       "w": false
+      },
+      {
+       "t": "Его",
+       "s": 2,
+       "w": true,
+       "a": "3b36e161803c.mp3",
+       "l": "он"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "зовут",
+       "s": 3,
+       "w": true,
+       "a": "52c2ddd4d21f.mp3",
+       "l": "звать"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Антон",
+       "s": 3,
+       "w": true,
+       "a": "8380dea9f409.mp3",
+       "l": "антон"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "3b8e5b130a5c.mp3"
+    },
+    {
+     "ru": "Я купил шапку и шарф. В Москве очень холодно!",
+     "fr": "J'ai acheté un bonnet et une écharpe. À Moscou, il fait très froid !",
+     "tokens": [
+      {
+       "t": "Я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "купил",
+       "s": 3,
+       "w": true,
+       "a": "4192b6f81b36.mp3",
+       "l": "купить"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "шапку",
+       "s": 1,
+       "w": true,
+       "a": "0811f8bb6308.mp3",
+       "l": "шапка"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "и",
+       "s": 0,
+       "w": true,
+       "a": "200abcf7ec0e.mp3",
+       "l": "и"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "шарф",
+       "s": 1,
+       "w": true,
+       "a": "40abecf70a7a.mp3",
+       "l": "шарф"
+      },
+      {
+       "t": ". ",
+       "w": false
+      },
+      {
+       "t": "В",
+       "s": null,
+       "w": true,
+       "a": "3c5b79b7f921.mp3",
+       "l": "в"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Москве",
+       "s": 5,
+       "w": true,
+       "a": "93a66821e1ad.mp3",
+       "l": "москва"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "очень",
+       "s": 0,
+       "w": true,
+       "a": "c94f0362a664.mp3",
+       "l": "очень"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "холодно",
+       "s": 1,
+       "w": true,
+       "a": "8482b15f9a14.mp3",
+       "l": "холодно"
+      },
+      {
+       "t": "!",
+       "w": false
+      }
+     ],
+     "audio": "7f8fb79e869e.mp3"
+    }
+   ],
+   "glossary": {
+    "тридцатое": "trente (date)",
+    "декабря": "décembre",
+    "сегодня": "aujourd'hui",
+    "мы": "nous",
+    "с": "avec",
+    "машей": "Macha (après с)",
+    "едем": "(nous) allons (en véhicule)",
+    "в": "dans, à",
+    "москву": "Moscou (vers)",
+    "я": "je, moi",
+    "купил": "(j')ai acheté",
+    "два": "deux",
+    "билета": "billets (après 2, 3, 4)",
+    "поезд": "train",
+    "восемь": "huit",
+    "утра": "du matin",
+    "ехать": "aller (en véhicule)",
+    "четыре": "quatre",
+    "часа": "heures (après 2, 3, 4)",
+    "москве": "Moscou (après в)",
+    "живет": "(il) habite",
+    "брат": "frère",
+    "маши": "de Macha",
+    "его": "lui, le (его зовут = il s'appelle)",
+    "зовут": "(on) appelle",
+    "антон": "Anton",
+    "шапку": "bonnet (après купить)",
+    "и": "et",
+    "шарф": "écharpe",
+    "очень": "très",
+    "холодно": "il fait froid"
+   },
+   "newWords": [
+    "едем",
+    "купил",
+    "маши"
+   ],
+   "questions": [
+    {
+     "q": "Combien de billets Luka a-t-il achetés ?",
+     "options": [
+      "Deux",
+      "Un",
+      "Quatre"
+     ]
+    },
+    {
+     "q": "Qui habite à Moscou ?",
+     "options": [
+      "Le frère de Macha",
+      "Oleg",
+      "Julie"
+     ]
+    },
+    {
+     "q": "Combien de temps dure le trajet ?",
+     "options": [
+      "Quatre heures",
+      "Huit heures",
+      "Deux heures"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t10",
+   "after": "20-nouvel-an",
+   "titleFr": "Carte de vœux",
+   "titleRu": "С Новым годом!",
+   "by": "masha",
+   "byFr": "Macha",
+   "color": "#e07a5f",
+   "sentences": [
+    {
+     "ru": "Дорогая Жюли!",
+     "fr": "Chère Julie !",
+     "tokens": [
+      {
+       "t": "Дорогая",
+       "s": 5,
+       "w": true,
+       "a": "33139f8027cc.mp3",
+       "l": "дорогой"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Жюли",
+       "s": 1,
+       "w": true,
+       "a": "966d580ffaa0.mp3",
+       "l": "жюли"
+      },
+      {
+       "t": "!",
+       "w": false
+      }
+     ],
+     "audio": "1f9d168a188b.mp3"
+    },
+    {
+     "ru": "С Новым годом!",
+     "fr": "Bonne année !",
+     "tokens": [
+      {
+       "t": "С",
+       "s": null,
+       "w": true,
+       "a": "37421d1ce7f3.mp3",
+       "l": "с"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Новым",
+       "s": 1,
+       "w": true,
+       "a": "0f495eda6d74.mp3",
+       "l": "новый"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "годом",
+       "s": 1,
+       "w": true,
+       "a": "048eefdd7f4d.mp3",
+       "l": "год"
+      },
+      {
+       "t": "!",
+       "w": false
+      }
+     ],
+     "audio": "23e48ca21030.mp3"
+    },
+    {
+     "ru": "Мы в Москве. Здесь очень холодно, но красиво.",
+     "fr": "Nous sommes à Moscou. Ici, il fait très froid, mais c'est beau.",
+     "tokens": [
+      {
+       "t": "Мы",
+       "s": 1,
+       "w": true,
+       "a": "a234675be3c5.mp3",
+       "l": "мы"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "в",
+       "s": null,
+       "w": true,
+       "a": "3c5b79b7f921.mp3",
+       "l": "в"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Москве",
+       "s": 5,
+       "w": true,
+       "a": "93a66821e1ad.mp3",
+       "l": "москва"
+      },
+      {
+       "t": ". ",
+       "w": false
+      },
+      {
+       "t": "Здесь",
+       "s": 2,
+       "w": true,
+       "a": "5dc51c8ef3d7.mp3",
+       "l": "здесь"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "очень",
+       "s": 0,
+       "w": true,
+       "a": "c94f0362a664.mp3",
+       "l": "очень"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "холодно",
+       "s": 1,
+       "w": true,
+       "a": "8482b15f9a14.mp3",
+       "l": "холодно"
+      },
+      {
+       "t": ", ",
+       "w": false
+      },
+      {
+       "t": "но",
+       "s": 1,
+       "w": true,
+       "a": "e9cdd3dfae39.mp3",
+       "l": "но"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "красиво",
+       "s": 4,
+       "w": true,
+       "a": "468310ed94a4.mp3",
+       "l": "красиво"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "0dad032c0cc5.mp3"
+    },
+    {
+     "ru": "Лука уже хорошо говорит по-русски!",
+     "fr": "Luka parle déjà bien russe !",
+     "tokens": [
+      {
+       "t": "Лука",
+       "s": 1,
+       "w": true,
+       "a": "805013b1f494.mp3",
+       "l": "лука"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "уже",
+       "s": 2,
+       "w": true,
+       "a": "957fda31f8f5.mp3",
+       "l": "уже"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "хорошо",
+       "s": 5,
+       "w": true,
+       "a": "a779ac8a9072.mp3",
+       "l": "хорошо"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "говорит",
+       "s": 5,
+       "w": true,
+       "a": "f6e27065d9f5.mp3",
+       "l": "говорить"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "по-русски",
+       "s": 4,
+       "w": true,
+       "a": "1875ccbd5a57.mp3",
+       "l": "по-русски"
+      },
+      {
+       "t": "!",
+       "w": false
+      }
+     ],
+     "audio": "4810d19a57b4.mp3"
+    },
+    {
+     "ru": "Сейчас двенадцать часов. Мы пьём шампанское.",
+     "fr": "Il est minuit. Nous buvons du champagne.",
+     "tokens": [
+      {
+       "t": "Сейчас",
+       "s": 4,
+       "w": true,
+       "a": "f97236955f75.mp3",
+       "l": "сейчас"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "двенадцать",
+       "s": 4,
+       "w": true,
+       "a": "7f41ac768449.mp3",
+       "l": "двенадцать"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "часов",
+       "s": 3,
+       "w": true,
+       "a": "caca8ccd3093.mp3",
+       "l": "час"
+      },
+      {
+       "t": ". ",
+       "w": false
+      },
+      {
+       "t": "Мы",
+       "s": 1,
+       "w": true,
+       "a": "a234675be3c5.mp3",
+       "l": "мы"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "пьём",
+       "s": 2,
+       "w": true,
+       "a": "0876fc9a2b6c.mp3",
+       "l": "пить"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "шампанское",
+       "s": 4,
+       "w": true,
+       "a": "d3172837b367.mp3",
+       "l": "шампанский"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "958dadd3d488.mp3"
+    },
+    {
+     "ru": "За дружбу! Маша",
+     "fr": "À l'amitié ! Macha",
+     "tokens": [
+      {
+       "t": "За",
+       "s": 1,
+       "w": true,
+       "a": "73d8cf87c237.mp3",
+       "l": "за"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "дружбу",
+       "s": 2,
+       "w": true,
+       "a": "9a5acd93dd3e.mp3",
+       "l": "дружба"
+      },
+      {
+       "t": "! ",
+       "w": false
+      },
+      {
+       "t": "Маша",
+       "s": 1,
+       "w": true,
+       "a": "db2f8c7ea687.mp3",
+       "l": "маша"
+      }
+     ],
+     "audio": "764a56fe9632.mp3"
+    }
+   ],
+   "glossary": {
+    "дорогая": "chère",
+    "жюли": "Julie",
+    "с": "avec",
+    "новым": "nouveau (après с)",
+    "годом": "année (с Новым годом = bonne année)",
+    "мы": "nous",
+    "в": "dans, à",
+    "москве": "Moscou (après в)",
+    "здесь": "ici",
+    "очень": "très",
+    "холодно": "il fait froid",
+    "но": "mais",
+    "красиво": "c'est beau",
+    "лука": "Luka (prénom)",
+    "уже": "déjà",
+    "хорошо": "bien",
+    "говорит": "(il) parle",
+    "по-русски": "en russe",
+    "сейчас": "maintenant",
+    "двенадцать": "douze",
+    "часов": "heures",
+    "пьем": "(nous) buvons",
+    "шампанское": "champagne",
+    "за": "à (pour trinquer)",
+    "дружбу": "amitié (après за)",
+    "маша": "Macha (prénom)"
+   },
+   "newWords": [
+    "говорит",
+    "дорогая",
+    "пьем"
+   ],
+   "questions": [
+    {
+     "q": "Où sont Macha et Luka ?",
+     "options": [
+      "À Moscou",
+      "À Paris",
+      "À Lyon"
+     ]
+    },
+    {
+     "q": "Que boivent-ils à minuit ?",
+     "options": [
+      "Du champagne",
+      "Du thé",
+      "Du café"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t11",
+   "after": "22-plaire",
+   "titleFr": "Anton",
+   "titleRu": "Антон",
+   "by": "anton",
+   "byFr": "Anton",
+   "color": "#457b9d",
+   "sentences": [
+    {
+     "ru": "Меня зовут Антон. Я живу в Москве.",
+     "fr": "Je m'appelle Anton. J'habite à Moscou.",
+     "tokens": [
+      {
+       "t": "Меня",
+       "s": 3,
+       "w": true,
+       "a": "2e3dc1afb7c3.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "зовут",
+       "s": 3,
+       "w": true,
+       "a": "52c2ddd4d21f.mp3",
+       "l": "звать"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Антон",
+       "s": 3,
+       "w": true,
+       "a": "8380dea9f409.mp3",
+       "l": "антон"
+      },
+      {
+       "t": ". ",
+       "w": false
+      },
+      {
+       "t": "Я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "живу",
+       "s": 3,
+       "w": true,
+       "a": "1fe8f57e8827.mp3",
+       "l": "жить"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "в",
+       "s": null,
+       "w": true,
+       "a": "3c5b79b7f921.mp3",
+       "l": "в"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Москве",
+       "s": 5,
+       "w": true,
+       "a": "93a66821e1ad.mp3",
+       "l": "москва"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "3d7d7fe16d40.mp3"
+    },
+    {
+     "ru": "Москва — большой и красивый город.",
+     "fr": "Moscou est une grande et belle ville.",
+     "tokens": [
+      {
+       "t": "Москва",
+       "s": 5,
+       "w": true,
+       "a": "84f280146c14.mp3",
+       "l": "москва"
+      },
+      {
+       "t": " — ",
+       "w": false
+      },
+      {
+       "t": "большой",
+       "s": 5,
+       "w": true,
+       "a": "d648a4d6e7b7.mp3",
+       "l": "большой"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "и",
+       "s": 0,
+       "w": true,
+       "a": "200abcf7ec0e.mp3",
+       "l": "и"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "красивый",
+       "s": 4,
+       "w": true,
+       "a": "9860d85e3802.mp3",
+       "l": "красивый"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "город",
+       "s": 1,
+       "w": true,
+       "a": "ac382b4fb5d3.mp3",
+       "l": "город"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "aed5d34278d0.mp3"
+    },
+    {
+     "ru": "Мне очень нравится метро.",
+     "fr": "J'aime beaucoup le métro.",
+     "tokens": [
+      {
+       "t": "Мне",
+       "s": 2,
+       "w": true,
+       "a": "f7ae2aa9215e.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "очень",
+       "s": 0,
+       "w": true,
+       "a": "c94f0362a664.mp3",
+       "l": "очень"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "нравится",
+       "s": 2,
+       "w": true,
+       "a": "b8f522482fb7.mp3",
+       "l": "нравиться"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "метро",
+       "s": 4,
+       "w": true,
+       "a": "bf84861a30b9.mp3",
+       "l": "метро"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "82153eb6f193.mp3"
+    },
+    {
+     "ru": "Я работаю в банке.",
+     "fr": "Je travaille dans une banque.",
+     "tokens": [
+      {
+       "t": "Я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "работаю",
+       "s": 3,
+       "w": true,
+       "a": "c044cc17ebbc.mp3",
+       "l": "работать"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "в",
+       "s": null,
+       "w": true,
+       "a": "3c5b79b7f921.mp3",
+       "l": "в"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "банке",
+       "s": 1,
+       "w": true,
+       "a": "692bfa43e6ea.mp3",
+       "l": "банк"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "ac33f7a09c2f.mp3"
+    },
+    {
+     "ru": "Я люблю лето, а моя сестра Маша любит зиму.",
+     "fr": "J'aime l'été, et ma sœur Macha aime l'hiver.",
+     "tokens": [
+      {
+       "t": "Я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "люблю",
+       "s": 4,
+       "w": true,
+       "a": "1b47671db5c8.mp3",
+       "l": "любить"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "лето",
+       "s": 1,
+       "w": true,
+       "a": "7d0a239ac739.mp3",
+       "l": "лето"
+      },
+      {
+       "t": ", ",
+       "w": false
+      },
+      {
+       "t": "а",
+       "s": 0,
+       "w": true,
+       "a": "1cf82fa4439c.mp3",
+       "l": "а"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "моя",
+       "s": 2,
+       "w": true,
+       "a": "256d62a930d9.mp3",
+       "l": "мой"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "сестра",
+       "s": 5,
+       "w": true,
+       "a": "76ae2fd8219b.mp3",
+       "l": "сестра"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Маша",
+       "s": 1,
+       "w": true,
+       "a": "db2f8c7ea687.mp3",
+       "l": "маша"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "любит",
+       "s": 1,
+       "w": true,
+       "a": "fc1906665782.mp3",
+       "l": "любить"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "зиму",
+       "s": 1,
+       "w": true,
+       "a": "b85ff1e99d89.mp3",
+       "l": "зима"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "2cb94f0f32fd.mp3"
+    },
+    {
+     "ru": "Зимой в Москве очень холодно.",
+     "fr": "En hiver, à Moscou, il fait très froid.",
+     "tokens": [
+      {
+       "t": "Зимой",
+       "s": 3,
+       "w": true,
+       "a": "49091c222a7f.mp3",
+       "l": "зимой"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "в",
+       "s": null,
+       "w": true,
+       "a": "3c5b79b7f921.mp3",
+       "l": "в"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Москве",
+       "s": 5,
+       "w": true,
+       "a": "93a66821e1ad.mp3",
+       "l": "москва"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "очень",
+       "s": 0,
+       "w": true,
+       "a": "c94f0362a664.mp3",
+       "l": "очень"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "холодно",
+       "s": 1,
+       "w": true,
+       "a": "8482b15f9a14.mp3",
+       "l": "холодно"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "994a583ee178.mp3"
+    }
+   ],
+   "glossary": {
+    "меня": "me, moi",
+    "зовут": "(on) appelle",
+    "антон": "Anton",
+    "я": "je, moi",
+    "живу": "(j')habite",
+    "в": "dans, à",
+    "москве": "Moscou (après в)",
+    "москва": "Moscou",
+    "большой": "grand",
+    "и": "et",
+    "красивый": "beau",
+    "город": "ville",
+    "мне": "à moi",
+    "очень": "très",
+    "нравится": "plaît",
+    "метро": "métro",
+    "работаю": "(je) travaille",
+    "банке": "banque (après в)",
+    "люблю": "(j')aime",
+    "лето": "été",
+    "а": "et, mais",
+    "моя": "ma",
+    "сестра": "sœur",
+    "маша": "Macha (prénom)",
+    "любит": "(il, elle) aime",
+    "зиму": "hiver (après люблю)",
+    "зимой": "en hiver",
+    "холодно": "il fait froid"
+   },
+   "newWords": [],
+   "questions": [
+    {
+     "q": "Où travaille Anton ?",
+     "options": [
+      "Dans une banque",
+      "Dans un café",
+      "À l'hôpital"
+     ]
+    },
+    {
+     "q": "Quelle saison préfère Anton ?",
+     "options": [
+      "L'été",
+      "L'hiver",
+      "L'automne"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t12",
+   "after": "24-retour",
+   "titleFr": "Mon voyage à Moscou",
+   "titleRu": "Я был в Москве",
+   "by": "luka",
+   "byFr": "Luka",
+   "color": "#3d5a80",
+   "sentences": [
+    {
+     "ru": "Привет, Жюли!",
+     "fr": "Salut, Julie !",
+     "tokens": [
+      {
+       "t": "Привет",
+       "s": 4,
+       "w": true,
+       "a": "465595078eb6.mp3",
+       "l": "привет"
+      },
+      {
+       "t": ", ",
+       "w": false
+      },
+      {
+       "t": "Жюли",
+       "s": 1,
+       "w": true,
+       "a": "966d580ffaa0.mp3",
+       "l": "жюли"
+      },
+      {
+       "t": "!",
+       "w": false
+      }
+     ],
+     "audio": "76cc7797b1eb.mp3"
+    },
+    {
+     "ru": "Я был в Москве!",
+     "fr": "J'étais à Moscou !",
+     "tokens": [
+      {
+       "t": "Я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "был",
+       "s": 1,
+       "w": true,
+       "a": "fe467c080eca.mp3",
+       "l": "быть"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "в",
+       "s": null,
+       "w": true,
+       "a": "3c5b79b7f921.mp3",
+       "l": "в"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Москве",
+       "s": 5,
+       "w": true,
+       "a": "93a66821e1ad.mp3",
+       "l": "москва"
+      },
+      {
+       "t": "!",
+       "w": false
+      }
+     ],
+     "audio": "9d1beac2719d.mp3"
+    },
+    {
+     "ru": "Мы гуляли в центре и смотрели Кремль. Было очень интересно!",
+     "fr": "On s'est promenés dans le centre et on a regardé le Kremlin. C'était très intéressant !",
+     "tokens": [
+      {
+       "t": "Мы",
+       "s": 1,
+       "w": true,
+       "a": "a234675be3c5.mp3",
+       "l": "мы"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "гуляли",
+       "s": 3,
+       "w": true,
+       "a": "da3b313e27a8.mp3",
+       "l": "гулять"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "в",
+       "s": null,
+       "w": true,
+       "a": "3c5b79b7f921.mp3",
+       "l": "в"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "центре",
+       "s": 1,
+       "w": true,
+       "a": "f49f4324f934.mp3",
+       "l": "центр"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "и",
+       "s": 0,
+       "w": true,
+       "a": "200abcf7ec0e.mp3",
+       "l": "и"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "смотрели",
+       "s": 5,
+       "w": true,
+       "a": "84c62e069436.mp3",
+       "l": "смотреть"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Кремль",
+       "s": 2,
+       "w": true,
+       "a": "a83c3542b37f.mp3",
+       "l": "кремль"
+      },
+      {
+       "t": ". ",
+       "w": false
+      },
+      {
+       "t": "Было",
+       "s": 1,
+       "w": true,
+       "a": "b9c8b948282f.mp3",
+       "l": "быть"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "очень",
+       "s": 0,
+       "w": true,
+       "a": "c94f0362a664.mp3",
+       "l": "очень"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "интересно",
+       "s": 5,
+       "w": true,
+       "a": "a60fbdeaa4d8.mp3",
+       "l": "интересно"
+      },
+      {
+       "t": "!",
+       "w": false
+      }
+     ],
+     "audio": "56292ae86e85.mp3"
+    },
+    {
+     "ru": "Новый год мы встречали у Антона.",
+     "fr": "On a fêté le Nouvel An chez Anton.",
+     "tokens": [
+      {
+       "t": "Новый",
+       "s": 1,
+       "w": true,
+       "a": "e8a2d9f49e3f.mp3",
+       "l": "новый"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "год",
+       "s": 1,
+       "w": true,
+       "a": "79050f6306ed.mp3",
+       "l": "год"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "мы",
+       "s": 1,
+       "w": true,
+       "a": "a234675be3c5.mp3",
+       "l": "мы"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "встречали",
+       "s": 6,
+       "w": true,
+       "a": "a7cdcc3926d1.mp3",
+       "l": "встречать"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "у",
+       "s": 0,
+       "w": true,
+       "a": "4e374e10f94b.mp3",
+       "l": "у"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Антона",
+       "s": 3,
+       "w": true,
+       "a": "b20313b57d97.mp3",
+       "l": "антон"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "5cee7215db1b.mp3"
+    },
+    {
+     "ru": "Мы были на катке. Я катался, но плохо!",
+     "fr": "On est allés à la patinoire. J'ai patiné, mais mal !",
+     "tokens": [
+      {
+       "t": "Мы",
+       "s": 1,
+       "w": true,
+       "a": "a234675be3c5.mp3",
+       "l": "мы"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "были",
+       "s": 1,
+       "w": true,
+       "a": "0515ac9b9af7.mp3",
+       "l": "быть"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "на",
+       "s": 1,
+       "w": true,
+       "a": "618d69551a14.mp3",
+       "l": "на"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "катке",
+       "s": 4,
+       "w": true,
+       "a": "32633d84b4d9.mp3",
+       "l": "каток"
+      },
+      {
+       "t": ". ",
+       "w": false
+      },
+      {
+       "t": "Я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "катался",
+       "s": 3,
+       "w": true,
+       "a": "f4ee954b56ac.mp3",
+       "l": "кататься"
+      },
+      {
+       "t": ", ",
+       "w": false
+      },
+      {
+       "t": "но",
+       "s": 1,
+       "w": true,
+       "a": "e9cdd3dfae39.mp3",
+       "l": "но"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "плохо",
+       "s": 2,
+       "w": true,
+       "a": "07daac928bc7.mp3",
+       "l": "плохо"
+      },
+      {
+       "t": "!",
+       "w": false
+      }
+     ],
+     "audio": "f350c2242bdb.mp3"
+    },
+    {
+     "ru": "Мне очень понравилась Москва. Но Петербург я люблю больше.",
+     "fr": "Moscou m'a beaucoup plu. Mais je préfère Saint-Pétersbourg.",
+     "tokens": [
+      {
+       "t": "Мне",
+       "s": 2,
+       "w": true,
+       "a": "f7ae2aa9215e.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "очень",
+       "s": 0,
+       "w": true,
+       "a": "c94f0362a664.mp3",
+       "l": "очень"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "понравилась",
+       "s": 4,
+       "w": true,
+       "a": "b2d31a2ac19b.mp3",
+       "l": "понравиться"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Москва",
+       "s": 5,
+       "w": true,
+       "a": "84f280146c14.mp3",
+       "l": "москва"
+      },
+      {
+       "t": ". ",
+       "w": false
+      },
+      {
+       "t": "Но",
+       "s": 1,
+       "w": true,
+       "a": "e9cdd3dfae39.mp3",
+       "l": "но"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "Петербург",
+       "s": 6,
+       "w": true,
+       "a": "51030830758b.mp3",
+       "l": "петербург"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "я",
+       "s": 0,
+       "w": true,
+       "a": "70b9d9783365.mp3",
+       "l": "я"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "люблю",
+       "s": 4,
+       "w": true,
+       "a": "1b47671db5c8.mp3",
+       "l": "любить"
+      },
+      {
+       "t": " ",
+       "w": false
+      },
+      {
+       "t": "больше",
+       "s": 1,
+       "w": true,
+       "a": "4bf11931d94f.mp3",
+       "l": "большой"
+      },
+      {
+       "t": ".",
+       "w": false
+      }
+     ],
+     "audio": "7ac42c2d8591.mp3"
+    },
+    {
+     "ru": "Пока! Лука",
+     "fr": "Salut ! Luka",
+     "tokens": [
+      {
+       "t": "Пока",
+       "s": 3,
+       "w": true,
+       "a": "f78104620718.mp3",
+       "l": "пока"
+      },
+      {
+       "t": "! ",
+       "w": false
+      },
+      {
+       "t": "Лука",
+       "s": 1,
+       "w": true,
+       "a": "805013b1f494.mp3",
+       "l": "лука"
+      }
+     ],
+     "audio": "fd9b6e743943.mp3"
+    }
+   ],
+   "glossary": {
+    "привет": "salut",
+    "жюли": "Julie",
+    "я": "je, moi",
+    "был": "(j')étais (homme)",
+    "в": "dans, à",
+    "москве": "Moscou (après в)",
+    "мы": "nous",
+    "гуляли": "(nous) nous sommes promenés",
+    "центре": "centre (après в)",
+    "и": "et",
+    "смотрели": "(nous) avons regardé",
+    "кремль": "Kremlin",
+    "было": "c'était",
+    "очень": "très",
+    "интересно": "intéressant",
+    "новый": "nouveau",
+    "год": "année, an",
+    "встречали": "(nous) avons fêté, accueilli",
+    "у": "chez (у вас есть = vous avez)",
+    "антона": "Anton (у Антона = chez Anton)",
+    "были": "(nous) étions",
+    "на": "sur, en",
+    "катке": "patinoire (on y est)",
+    "катался": "(j')ai patiné",
+    "но": "mais",
+    "плохо": "mal",
+    "мне": "à moi",
+    "понравилась": "a plu (féminin)",
+    "москва": "Moscou",
+    "петербург": "Saint-Pétersbourg",
+    "люблю": "(j')aime",
+    "больше": "plus",
+    "пока": "salut (au revoir)",
+    "лука": "Luka (prénom)"
+   },
+   "newWords": [],
+   "questions": [
+    {
+     "q": "Où Luka a-t-il fêté le Nouvel An ?",
+     "options": [
+      "Chez Anton",
+      "Chez Oleg",
+      "À la maison"
+     ]
+    },
+    {
+     "q": "Comment Luka a-t-il patiné ?",
+     "options": [
+      "Mal",
+      "Très bien",
+      "Il n'a pas patiné"
+     ]
+    },
+    {
+     "q": "Quelle ville Luka préfère-t-il ?",
+     "options": [
+      "Saint-Pétersbourg",
+      "Moscou",
+      "Paris"
+     ]
+    }
+   ]
   }
  ]
 }

@@ -1,0 +1,470 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "24-retour",
+  "order": 24,
+  "titleFr": "De retour",
+  "titleRu": "Снова дома",
+  "emoji": "🧳",
+  "sceneFr": "De retour à Saint-Pétersbourg, Luka retrouve Oleg et lui raconte son voyage à Moscou.",
+  "dialogue": [
+    {
+      "speaker": "oleg",
+      "ru": "Привет, Л+ука! Ну, как Москва?",
+      "fr": "Salut, Luka ! Alors, comment c'était Moscou ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Привет! Было очень интересно!",
+      "fr": "Salut ! C'était très intéressant !"
+    },
+    {
+      "speaker": "oleg",
+      "ru": "Что вы делали?",
+      "fr": "Qu'est-ce que vous avez fait ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Мы гуляли в центре и смотрели Кремль.",
+      "fr": "On s'est promenés dans le centre et on a regardé le Kremlin."
+    },
+    {
+      "speaker": "luka",
+      "ru": "А Новый год мы встречали у Антона.",
+      "fr": "Et on a fêté le Nouvel An chez Anton."
+    },
+    {
+      "speaker": "oleg",
+      "ru": "А что ещё?",
+      "fr": "Et quoi d'autre ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Мы были на катке. Я катался, но плохо!",
+      "fr": "On est allés à la patinoire. J'ai patiné, mais mal !"
+    },
+    {
+      "speaker": "oleg",
+      "ru": "Молодец! Тебе понравилась Москва?",
+      "fr": "Bravo ! Moscou t'a plu ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Очень понравилась! Но Петербург я люблю больше.",
+      "fr": "Beaucoup ! Mais je préfère Saint-Pétersbourg."
+    }
+  ],
+  "phrases": [
+    {
+      "id": "howwas",
+      "speaker": "oleg",
+      "ru": "Ну, как Москва?",
+      "fr": "Alors, comment c'était Moscou ?",
+      "noteFr": "« Ну » = alors, bon. On l'entend partout en russe.",
+      "gap": {
+        "word": "москва",
+        "distractors": [
+          "москве",
+          "центре"
+        ]
+      }
+    },
+    {
+      "id": "interesting",
+      "speaker": "luka",
+      "ru": "Было очень интересно!",
+      "fr": "C'était très intéressant !",
+      "noteFr": "Tu le connais : « было » = c'était.",
+      "gap": {
+        "word": "было",
+        "distractors": [
+          "был",
+          "были"
+        ],
+        "whyFr": "Pour « c'était » (sans nom), on dit « было »."
+      }
+    },
+    {
+      "id": "whatdid",
+      "speaker": "oleg",
+      "ru": "Что вы делали?",
+      "fr": "Qu'est-ce que vous avez fait ?",
+      "noteFr": "Au pluriel, le passé finit en -ли : « вы делали ».",
+      "gap": {
+        "word": "делали",
+        "distractors": [
+          "делал",
+          "делаете"
+        ],
+        "whyFr": "Avec « вы » (ou « мы »), le passé finit en -ли : « делали »."
+      }
+    },
+    {
+      "id": "walked",
+      "speaker": "luka",
+      "ru": "Мы гуляли в центре и смотрели Кремль.",
+      "fr": "On s'est promenés dans le centre et on a regardé le Kremlin.",
+      "noteFr": "« Гуляли » = nous nous sommes promenés. « В центре » = dans le centre.",
+      "gap": {
+        "word": "гуляли",
+        "distractors": [
+          "гулял",
+          "гулять"
+        ],
+        "whyFr": "Avec « мы », le passé finit en -ли : « гуляли »."
+      },
+      "orders": [
+        "мы гуляли в центре и смотрели кремль",
+        "мы смотрели кремль и гуляли в центре"
+      ]
+    },
+    {
+      "id": "newyear",
+      "speaker": "luka",
+      "ru": "А Новый год мы встречали у Антона.",
+      "fr": "Et on a fêté le Nouvel An chez Anton.",
+      "noteFr": "« Встречать Новый год » = fêter le Nouvel An (mot à mot : accueillir). « У Антона » = chez Anton (comme « у меня »).",
+      "gap": {
+        "word": "встречали",
+        "distractors": [
+          "встречал",
+          "катке"
+        ]
+      }
+    },
+    {
+      "id": "rink",
+      "speaker": "luka",
+      "ru": "Мы были на катке.",
+      "fr": "On est allés à la patinoire.",
+      "noteFr": "« Мы были » = nous étions. « На катке » : le vert du lieu.",
+      "gap": {
+        "word": "катке",
+        "distractors": [
+          "каток",
+          "центр"
+        ],
+        "whyFr": "On y était : « на катке » (-е). « На каток », c'est quand on y va."
+      }
+    },
+    {
+      "id": "skated",
+      "speaker": "luka",
+      "ru": "Я катался, но плохо!",
+      "fr": "J'ai patiné, mais mal !",
+      "noteFr": "« Я катался » = j'ai patiné (homme).",
+      "gap": {
+        "word": "плохо",
+        "distractors": [
+          "катке",
+          "было"
+        ],
+        "whyFr": "Luka a patiné « mais mal » : « но плохо »."
+      }
+    },
+    {
+      "id": "liked",
+      "speaker": "oleg",
+      "ru": "Тебе понравилась Москва?",
+      "fr": "Moscou t'a plu ?",
+      "noteFr": "Le passé de « нравится » : « понравилась » (Moscou est féminin).",
+      "gap": {
+        "word": "понравилась",
+        "distractors": [
+          "понравилось",
+          "понравился"
+        ],
+        "whyFr": "Au passé, et « Москва » est féminin : « понравилась »."
+      }
+    },
+    {
+      "id": "more",
+      "speaker": "luka",
+      "ru": "Но Петербург я люблю больше.",
+      "fr": "Mais je préfère Saint-Pétersbourg.",
+      "noteFr": "« Больше » = plus. « Люблю больше » = j'aime plus, je préfère.",
+      "gap": {
+        "word": "больше",
+        "distractors": [
+          "было",
+          "были"
+        ]
+      }
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Raconter",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 0
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "howwas",
+            "interesting"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "whatdid",
+            "walked"
+          ],
+          "review": [
+            "interesting"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "La fête et la patinoire",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "howwas",
+            "interesting",
+            "walked"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "newyear",
+            "rink"
+          ],
+          "review": [
+            "whatdid",
+            "walked"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "skated",
+            "liked",
+            "more"
+          ],
+          "review": [
+            "rink"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "oleg",
+      "fr": [
+        "Pour raconter ce que « nous » avons fait : le passé en -ли. « Мы гуляли », « мы смотрели », « мы были ».",
+        "Rappel : homme -л (я гулял), femme -ла (я гуляла), pluriel -ли (мы гуляли)."
+      ]
+    },
+    {
+      "by": "oleg",
+      "fr": [
+        "Le passé de « нравится » : « понравился » (masculin), « понравилась » (féminin), « понравилось » (neutre). « Мне понравилось ! » = ça m'a plu !",
+        "Bravo : tu sais maintenant raconter un voyage entier en russe !"
+      ]
+    }
+  ],
+  "explore": {
+    "type": "plain",
+    "speaker": "luka",
+    "frame": "Вчера мы ___.",
+    "frameFr": "Hier, nous ___.",
+    "color": "#5c677d",
+    "hintFr": "Écoute la fin : avec « мы », le passé finit en -ли.",
+    "words": [
+      {
+        "tile": "гуляли",
+        "fr": "nous sommes promenés",
+        "phraseFr": "Hier, nous nous sommes promenés."
+      },
+      {
+        "tile": "отдыхали",
+        "fr": "nous sommes reposés",
+        "phraseFr": "Hier, nous nous sommes reposés."
+      },
+      {
+        "tile": "работали",
+        "fr": "avons travaillé",
+        "phraseFr": "Hier, nous avons travaillé."
+      },
+      {
+        "tile": "ужинали",
+        "fr": "avons dîné",
+        "phraseFr": "Hier, nous avons dîné."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Dis : « Hier, nous avons travaillé. »",
+      "answer": "работали"
+    },
+    {
+      "type": "pick",
+      "fr": "Dis : « Hier, nous avons dîné. »",
+      "answer": "ужинали"
+    }
+  ],
+  "cando": [
+    "raconter un voyage",
+    "parler au passé au pluriel",
+    "dire ce qui t'a plu"
+  ],
+  "unlocks": [
+    {
+      "case": "loct",
+      "gender": "masc",
+      "from": "центр",
+      "to": "центре"
+    }
+  ],
+  "glossary": {
+    "здравствуйте": "bonjour (poli)",
+    "я": "je, moi",
+    "ты": "tu",
+    "вы": "vous",
+    "да": "oui",
+    "нет": "non",
+    "а": "et, mais",
+    "и": "et",
+    "это": "c'est, voici",
+    "не": "ne… pas",
+    "в": "dans, à",
+    "на": "sur, en",
+    "что": "quoi, que",
+    "как": "comment, comme",
+    "где": "où",
+    "очень": "très",
+    "спасибо": "merci",
+    "пожалуйста": "s'il te plaît / je t'en prie",
+    "хорошо": "bien, d'accord",
+    "привет": "salut",
+    "лука": "Luka (prénom)",
+    "маша": "Macha (prénom)",
+    "олег": "Oleg (prénom)",
+    "анна": "Anna (prénom)",
+    "у": "chez",
+    "меня": "moi (у меня = j'ai)",
+    "тебя": "toi (у тебя = tu as)",
+    "есть": "il y a",
+    "мой": "mon",
+    "моя": "ma",
+    "мне": "à moi",
+    "тоже": "aussi",
+    "сегодня": "aujourd'hui",
+    "завтра": "demain",
+    "вчера": "hier",
+    "потом": "puis, ensuite",
+    "давай": "allons-y, faisons",
+    "ну": "alors, bon",
+    "москва": "Moscou",
+    "москве": "Moscou (après в)",
+    "было": "c'était",
+    "был": "(il) était",
+    "будет": "(ce) sera",
+    "интересно": "intéressant",
+    "делали": "(vous) avez fait",
+    "делал": "(il) a fait",
+    "делаете": "(vous) faites",
+    "мы": "nous",
+    "гуляли": "(nous) nous sommes promenés",
+    "гулял": "(il) s'est promené",
+    "гулять": "se promener",
+    "центре": "centre (après в)",
+    "центр": "centre",
+    "смотрели": "(nous) avons regardé",
+    "кремль": "Kremlin",
+    "новый": "nouveau",
+    "год": "année",
+    "встречали": "(nous) avons fêté, accueilli",
+    "встречал": "(il) a fêté",
+    "антона": "Anton (у Антона = chez Anton)",
+    "ещё": "encore",
+    "были": "(nous) étions",
+    "катке": "patinoire (on y est)",
+    "каток": "patinoire",
+    "катался": "(j')ai patiné",
+    "но": "mais",
+    "плохо": "mal",
+    "молодец": "bravo",
+    "тебе": "à toi",
+    "понравилась": "a plu (féminin)",
+    "понравился": "a plu (masculin)",
+    "понравилось": "a plu (neutre)",
+    "нравится": "plaît",
+    "петербург": "Saint-Pétersbourg",
+    "люблю": "(j')aime",
+    "больше": "plus",
+    "отдыхали": "(nous) nous sommes reposés",
+    "работали": "(nous) avons travaillé",
+    "ужинали": "(nous) avons dîné"
+  },
+  "combos": [
+    {
+      "ru": "Вчера мы были в театре.",
+      "fr": "Hier, nous étions au théâtre.",
+      "extra": [
+        "театр"
+      ],
+      "orders": [
+        "вчера мы были в театре",
+        "мы были в театре вчера"
+      ]
+    },
+    {
+      "ru": "Мне понравилась Москва, но я люблю Петербург.",
+      "fr": "Moscou m'a plu, mais j'aime Saint-Pétersbourg.",
+      "extra": [
+        "нравится"
+      ]
+    },
+    {
+      "ru": "Вы гуляли в центре?",
+      "fr": "Vous vous êtes promenés dans le centre ?",
+      "extra": [
+        "гулять"
+      ],
+      "orders": [
+        "вы гуляли в центре",
+        "в центре вы гуляли"
+      ]
+    }
+  ]
+}

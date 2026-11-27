@@ -1,0 +1,438 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "21-appartement",
+  "order": 21,
+  "titleFr": "L'appartement d'Anton",
+  "titleRu": "Квартира",
+  "emoji": "🏠",
+  "sceneFr": "Anton fait visiter son appartement à Luka et Macha.",
+  "dialogue": [
+    {
+      "speaker": "anton",
+      "ru": "Вот моя квартира. Проходите!",
+      "fr": "Voici mon appartement. Entrez !"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Какая большая квартира!",
+      "fr": "Quel grand appartement !"
+    },
+    {
+      "speaker": "anton",
+      "ru": "Это моя комната, а это кухня.",
+      "fr": "Ça, c'est ma chambre, et ça, c'est la cuisine."
+    },
+    {
+      "speaker": "luka",
+      "ru": "А где туалет?",
+      "fr": "Et où sont les toilettes ?"
+    },
+    {
+      "speaker": "anton",
+      "ru": "Туалет там, направо.",
+      "fr": "Les toilettes sont là-bas, à droite."
+    },
+    {
+      "speaker": "masha",
+      "ru": "А где Л+ука будет спать?",
+      "fr": "Et où va dormir Luka ?"
+    },
+    {
+      "speaker": "anton",
+      "ru": "Здесь, на диване.",
+      "fr": "Ici, sur le canapé."
+    },
+    {
+      "speaker": "masha",
+      "ru": "Отлично! А ужинать мы будем на кухне.",
+      "fr": "Parfait ! Et on va dîner dans la cuisine."
+    }
+  ],
+  "phrases": [
+    {
+      "id": "flat",
+      "speaker": "anton",
+      "ru": "Вот моя квартира.",
+      "fr": "Voici mon appartement.",
+      "noteFr": "« Квартира » = appartement (féminin en russe : « моя »).",
+      "gap": {
+        "word": "квартира",
+        "distractors": [
+          "квартире",
+          "комнате"
+        ],
+        "whyFr": "Ici, « квартира » est juste présentée : forme de base, sans -е."
+      }
+    },
+    {
+      "id": "bigflat",
+      "speaker": "luka",
+      "ru": "Какая большая квартира!",
+      "fr": "Quel grand appartement !",
+      "noteFr": "Féminin : « какая большая квартира ».",
+      "gap": {
+        "word": "большая",
+        "distractors": [
+          "большой",
+          "кухне"
+        ],
+        "whyFr": "« Квартира » est féminin : « большая » (-ая)."
+      },
+      "orders": [
+        "какая большая квартира"
+      ]
+    },
+    {
+      "id": "room",
+      "speaker": "anton",
+      "ru": "Это моя комната, а это кухня.",
+      "fr": "Ça, c'est ma chambre, et ça, c'est la cuisine.",
+      "noteFr": "« Комната » = chambre, pièce. « Кухня » = cuisine.",
+      "gap": {
+        "word": "кухня",
+        "distractors": [
+          "кухне",
+          "спать"
+        ],
+        "whyFr": "On présente la cuisine : forme de base « кухня ». « На кухне », c'est « dans la cuisine »."
+      }
+    },
+    {
+      "id": "toilet",
+      "speaker": "luka",
+      "ru": "А где туалет?",
+      "fr": "Et où sont les toilettes ?",
+      "noteFr": "« Туалет » = les toilettes. Phrase de survie !",
+      "gap": {
+        "word": "туалет",
+        "distractors": [
+          "диване",
+          "кухне"
+        ]
+      }
+    },
+    {
+      "id": "there",
+      "speaker": "anton",
+      "ru": "Туалет там, направо.",
+      "fr": "Les toilettes sont là-bas, à droite.",
+      "noteFr": "Tu connais « там » et « направо » !",
+      "gap": {
+        "word": "направо",
+        "distractors": [
+          "диване",
+          "спать"
+        ]
+      }
+    },
+    {
+      "id": "sleep",
+      "speaker": "masha",
+      "ru": "А где Л+ука будет спать?",
+      "fr": "Et où va dormir Luka ?",
+      "noteFr": "« Спать » = dormir. « Будет спать » = va dormir (le futur, avec « он будет »).",
+      "gap": {
+        "word": "спать",
+        "distractors": [
+          "сплю",
+          "диване"
+        ],
+        "whyFr": "Après « будет », l'infinitif : « спать »."
+      }
+    },
+    {
+      "id": "sofa",
+      "speaker": "anton",
+      "ru": "Здесь, на диване.",
+      "fr": "Ici, sur le canapé.",
+      "noteFr": "« Диван » = canapé → « на диване » (sur le canapé) : le vert du lieu.",
+      "gap": {
+        "word": "диване",
+        "distractors": [
+          "диван",
+          "кухня"
+        ],
+        "whyFr": "Pour dire où : « на » + -е : « диван » → « на диване »."
+      }
+    },
+    {
+      "id": "kitchen",
+      "speaker": "masha",
+      "ru": "А ужинать мы будем на кухне.",
+      "fr": "Et on va dîner dans la cuisine.",
+      "noteFr": "Attention : on dit « на кухне » (et pas « в кухне »). C'est une exception à retenir.",
+      "gap": {
+        "word": "кухне",
+        "distractors": [
+          "кухня",
+          "диван"
+        ],
+        "whyFr": "Pour dire où : « на кухне » (-е). « Кухня », c'est la forme de base."
+      },
+      "orders": [
+        "а ужинать мы будем на кухне",
+        "а мы будем ужинать на кухне"
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "La visite",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "flat",
+            "bigflat"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "room",
+            "toilet"
+          ],
+          "review": [
+            "bigflat"
+          ]
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "titleFr": "Qui dort où ?",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "flat",
+            "room",
+            "toilet"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "there",
+            "sleep"
+          ],
+          "review": [
+            "room"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "sofa",
+            "kitchen"
+          ],
+          "review": [
+            "sleep",
+            "there"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "anton",
+      "fr": [
+        "Tu connais bien ce vert maintenant : « в комнате », « в квартире », « в сумке ». Pour dire où se trouve quelque chose, -е à la fin.",
+        "Ça marche pour les choses aussi, pas seulement les villes !"
+      ]
+    },
+    {
+      "by": "anton",
+      "fr": [
+        "Certains lieux prennent « на » au lieu de « в » : « на кухне » (dans la cuisine), « на диване » (sur le canapé), « на работе » (au travail).",
+        "Pas de règle simple : retiens-les avec leur « на »."
+      ]
+    }
+  ],
+  "explore": {
+    "type": "case",
+    "speaker": "anton",
+    "case": "loct",
+    "frame": "Кошка в ___.",
+    "frameFr": "Le chat est dans ___.",
+    "color": "#2a9d8f",
+    "hintFr": "Mets chaque endroit après « в » et regarde bien la fin du mot.",
+    "words": [
+      {
+        "tile": "комната",
+        "fr": "la chambre",
+        "phraseFr": "Le chat est dans la chambre."
+      },
+      {
+        "tile": "квартира",
+        "fr": "l'appartement",
+        "phraseFr": "Le chat est dans l'appartement."
+      },
+      {
+        "tile": "сумка",
+        "fr": "le sac",
+        "phraseFr": "Le chat est dans le sac."
+      },
+      {
+        "tile": "коробка",
+        "fr": "la boîte",
+        "phraseFr": "Le chat est dans la boîte."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Dis que le chat est dans le sac.",
+      "answer": "сумка"
+    },
+    {
+      "type": "pick",
+      "fr": "Dis que le chat est dans la boîte.",
+      "answer": "коробка"
+    }
+  ],
+  "cando": [
+    "décrire un appartement",
+    "demander où sont les toilettes",
+    "dire où se trouve quelque chose"
+  ],
+  "unlocks": [
+    {
+      "case": "loct",
+      "gender": "femn",
+      "from": "комната",
+      "to": "комнате"
+    }
+  ],
+  "glossary": {
+    "здравствуйте": "bonjour (poli)",
+    "я": "je, moi",
+    "ты": "tu",
+    "вы": "vous",
+    "да": "oui",
+    "нет": "non",
+    "а": "et, mais",
+    "и": "et",
+    "это": "c'est, voici",
+    "не": "ne… pas",
+    "в": "dans, à",
+    "на": "sur, en",
+    "что": "quoi, que",
+    "как": "comment, comme",
+    "где": "où",
+    "очень": "très",
+    "спасибо": "merci",
+    "пожалуйста": "s'il te plaît / je t'en prie",
+    "хорошо": "bien, d'accord",
+    "привет": "salut",
+    "лука": "Luka (prénom)",
+    "маша": "Macha (prénom)",
+    "олег": "Oleg (prénom)",
+    "анна": "Anna (prénom)",
+    "у": "chez",
+    "меня": "moi (у меня = j'ai)",
+    "тебя": "toi (у тебя = tu as)",
+    "есть": "il y a",
+    "мой": "mon",
+    "моя": "ma",
+    "мне": "à moi",
+    "тоже": "aussi",
+    "сегодня": "aujourd'hui",
+    "завтра": "demain",
+    "вчера": "hier",
+    "потом": "puis, ensuite",
+    "давай": "allons-y, faisons",
+    "вот": "voici",
+    "квартира": "appartement",
+    "квартире": "appartement (après в)",
+    "проходите": "entrez",
+    "какая": "quelle",
+    "большая": "grande",
+    "большой": "grand",
+    "комната": "chambre, pièce",
+    "комнате": "chambre (après в)",
+    "кухня": "cuisine",
+    "кухне": "cuisine (на кухне)",
+    "туалет": "toilettes",
+    "там": "là-bas",
+    "направо": "à droite",
+    "будет": "(il) sera / va",
+    "спать": "dormir",
+    "сплю": "(je) dors",
+    "здесь": "ici",
+    "диване": "canapé (après на)",
+    "диван": "canapé",
+    "отлично": "parfait",
+    "ужинать": "dîner",
+    "мы": "nous",
+    "будем": "(nous) allons",
+    "антон": "Anton (prénom)",
+    "кошка": "chat",
+    "сумка": "sac",
+    "сумке": "sac (après в)",
+    "коробка": "boîte",
+    "коробке": "boîte (après в)"
+  },
+  "combos": [
+    {
+      "ru": "Моя сестра в Москве, а я в Петербурге.",
+      "fr": "Ma sœur est à Moscou, et moi, je suis à Saint-Pétersbourg.",
+      "extra": [
+        "москва"
+      ]
+    },
+    {
+      "ru": "Кошка на диване.",
+      "fr": "Le chat est sur le canapé.",
+      "extra": [
+        "кухня"
+      ],
+      "orders": [
+        "кошка на диване",
+        "на диване кошка"
+      ]
+    },
+    {
+      "ru": "Где моя сумка? На кухне?",
+      "fr": "Où est mon sac ? Dans la cuisine ?",
+      "extra": [
+        "кухня"
+      ]
+    }
+  ]
+}

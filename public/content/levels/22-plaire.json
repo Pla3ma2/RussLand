@@ -1,0 +1,2367 @@
+{
+ "version": 2,
+ "id": "22-plaire",
+ "order": 22,
+ "titleFr": "Ça te plaît ?",
+ "titleRu": "Тебе нравится?",
+ "emoji": "💛",
+ "sceneFr": "Le 1er janvier, en se promenant dans Moscou, Anton demande à Luka ce qu'il pense de la ville.",
+ "learner": "luka",
+ "speakers": {
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
+  },
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  },
+  "anton": {
+   "name": "Антон",
+   "nameFr": "Anton",
+   "color": "#457b9d"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "anton",
+   "ru": "Лука, тебе нравится Москва?",
+   "fr": "Luka, Moscou te plaît ?",
+   "tokens": [
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "тебе",
+     "s": 3,
+     "w": true,
+     "a": "801a217b6a9c.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нравится",
+     "s": 2,
+     "w": true,
+     "a": "b8f522482fb7.mp3",
+     "l": "нравиться"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Москва",
+     "s": 5,
+     "w": true,
+     "a": "84f280146c14.mp3",
+     "l": "москва"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "d027f48be592.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Да, очень нравится!",
+   "fr": "Oui, beaucoup !",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нравится",
+     "s": 2,
+     "w": true,
+     "a": "b8f522482fb7.mp3",
+     "l": "нравиться"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "774c46770191.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Мне нравится метро. Оно очень красивое.",
+   "fr": "J'aime bien le métro. Il est très beau.",
+   "tokens": [
+    {
+     "t": "Мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нравится",
+     "s": 2,
+     "w": true,
+     "a": "b8f522482fb7.mp3",
+     "l": "нравиться"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "метро",
+     "s": 4,
+     "w": true,
+     "a": "bf84861a30b9.mp3",
+     "l": "метро"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Оно",
+     "s": 2,
+     "w": true,
+     "a": "d9b4168f1fe9.mp3",
+     "l": "оно"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "красивое",
+     "s": 4,
+     "w": true,
+     "a": "e8538548e6f1.mp3",
+     "l": "красивый"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "b5e97b077468.mp3"
+  },
+  {
+   "speaker": "anton",
+   "ru": "А что тебе не нравится?",
+   "fr": "Et qu'est-ce qui ne te plaît pas ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тебе",
+     "s": 3,
+     "w": true,
+     "a": "801a217b6a9c.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нравится",
+     "s": 2,
+     "w": true,
+     "a": "b8f522482fb7.mp3",
+     "l": "нравиться"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "a1947ec87044.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Мне не нравится холод!",
+   "fr": "Je n'aime pas le froid !",
+   "tokens": [
+    {
+     "t": "Мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нравится",
+     "s": 2,
+     "w": true,
+     "a": "b8f522482fb7.mp3",
+     "l": "нравиться"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "холод",
+     "s": 1,
+     "w": true,
+     "a": "92fe54951c21.mp3",
+     "l": "холод"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "851827ac9101.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "А мне нравится зима!",
+   "fr": "Et moi, j'aime l'hiver !",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нравится",
+     "s": 2,
+     "w": true,
+     "a": "b8f522482fb7.mp3",
+     "l": "нравиться"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "зима",
+     "s": 3,
+     "w": true,
+     "a": "3503e8930f3d.mp3",
+     "l": "зима"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "390037dd828b.mp3"
+  },
+  {
+   "speaker": "anton",
+   "ru": "Маша любит зиму, а я люблю лето.",
+   "fr": "Macha aime l'hiver, et moi, j'aime l'été.",
+   "tokens": [
+    {
+     "t": "Маша",
+     "s": 1,
+     "w": true,
+     "a": "db2f8c7ea687.mp3",
+     "l": "маша"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "любит",
+     "s": 1,
+     "w": true,
+     "a": "fc1906665782.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "зиму",
+     "s": 1,
+     "w": true,
+     "a": "b85ff1e99d89.mp3",
+     "l": "зима"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "а",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "люблю",
+     "s": 4,
+     "w": true,
+     "a": "1b47671db5c8.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "лето",
+     "s": 1,
+     "w": true,
+     "a": "7d0a239ac739.mp3",
+     "l": "лето"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "12298c20edfb.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Я тоже люблю лето!",
+   "fr": "Moi aussi, j'aime l'été !",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тоже",
+     "s": 1,
+     "w": true,
+     "a": "0b041fee8598.mp3",
+     "l": "тоже"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "люблю",
+     "s": 4,
+     "w": true,
+     "a": "1b47671db5c8.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "лето",
+     "s": 1,
+     "w": true,
+     "a": "7d0a239ac739.mp3",
+     "l": "лето"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "644e806e7446.mp3"
+  }
+ ],
+ "phrases": {
+  "like": {
+   "speaker": "anton",
+   "ru": "Тебе нравится Москва?",
+   "fr": "Moscou te plaît ?",
+   "tokens": [
+    {
+     "t": "Тебе",
+     "s": 3,
+     "w": true,
+     "a": "801a217b6a9c.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нравится",
+     "s": 2,
+     "w": true,
+     "a": "b8f522482fb7.mp3",
+     "l": "нравиться"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Москва",
+     "s": 5,
+     "w": true,
+     "a": "84f280146c14.mp3",
+     "l": "москва"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "2826b19a421e.mp3",
+   "id": "like",
+   "noteFr": "Mot à mot : « à toi plaît Moscou ? ». « Тебе » = à toi.",
+   "gap": {
+    "index": 0,
+    "whyFr": "Avec « нравится », c'est « тебе » (à toi). « Тебя » sert dans « у тебя есть ».",
+    "distractors": [
+     {
+      "t": "тебя",
+      "a": "a677bbe7ebdf.mp3",
+      "s": 3
+     },
+     {
+      "t": "меня",
+      "a": "2e3dc1afb7c3.mp3",
+      "s": 3
+     }
+    ]
+   },
+   "orders": [
+    "тебе нравится москва",
+    "москва тебе нравится"
+   ]
+  },
+  "verymuch": {
+   "speaker": "luka",
+   "ru": "Да, очень нравится!",
+   "fr": "Oui, beaucoup !",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нравится",
+     "s": 2,
+     "w": true,
+     "a": "b8f522482fb7.mp3",
+     "l": "нравиться"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "774c46770191.mp3",
+   "id": "verymuch",
+   "noteFr": "« Очень нравится » = ça me plaît beaucoup.",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "тоже",
+      "a": "0b041fee8598.mp3",
+      "s": 1
+     },
+     {
+      "t": "холод",
+      "a": "92fe54951c21.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "metro": {
+   "speaker": "luka",
+   "ru": "Мне нравится метро.",
+   "fr": "J'aime bien le métro.",
+   "tokens": [
+    {
+     "t": "Мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нравится",
+     "s": 2,
+     "w": true,
+     "a": "b8f522482fb7.mp3",
+     "l": "нравиться"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "метро",
+     "s": 4,
+     "w": true,
+     "a": "bf84861a30b9.mp3",
+     "l": "метро"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "1a1f2f409dd2.mp3",
+   "id": "metro",
+   "noteFr": "« Мне нравится » = ça me plaît, j'aime bien. Mot à mot : « à moi plaît le métro ».",
+   "gap": {
+    "index": 0,
+    "whyFr": "Pour soi : « мне нравится » (à moi). « Меня » sert dans « меня зовут ».",
+    "distractors": [
+     {
+      "t": "меня",
+      "a": "2e3dc1afb7c3.mp3",
+      "s": 3
+     },
+     {
+      "t": "тебя",
+      "a": "a677bbe7ebdf.mp3",
+      "s": 3
+     }
+    ]
+   },
+   "orders": [
+    "мне нравится метро",
+    "метро мне нравится"
+   ]
+  },
+  "beautiful": {
+   "speaker": "luka",
+   "ru": "Оно очень красивое.",
+   "fr": "Il est très beau.",
+   "tokens": [
+    {
+     "t": "Оно",
+     "s": 2,
+     "w": true,
+     "a": "d9b4168f1fe9.mp3",
+     "l": "оно"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "красивое",
+     "s": 4,
+     "w": true,
+     "a": "e8538548e6f1.mp3",
+     "l": "красивый"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "584c9ccddeea.mp3",
+   "id": "beautiful",
+   "noteFr": "« Метро » est neutre : « оно » (il) et « красивое » (-ое).",
+   "gap": {
+    "index": 4,
+    "whyFr": "« Метро » est neutre : « красивое » (-ое). « Красивая », c'est pour un mot féminin.",
+    "distractors": [
+     {
+      "t": "красивая",
+      "a": "dc986c01ee71.mp3",
+      "s": 4
+     },
+     {
+      "t": "холод",
+      "a": "92fe54951c21.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "dislike": {
+   "speaker": "anton",
+   "ru": "А что тебе не нравится?",
+   "fr": "Et qu'est-ce qui ne te plaît pas ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тебе",
+     "s": 3,
+     "w": true,
+     "a": "801a217b6a9c.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нравится",
+     "s": 2,
+     "w": true,
+     "a": "b8f522482fb7.mp3",
+     "l": "нравиться"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "a1947ec87044.mp3",
+   "id": "dislike",
+   "noteFr": "« Не нравится » = ne plaît pas.",
+   "gap": {
+    "index": 6,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "холод",
+      "a": "92fe54951c21.mp3",
+      "s": 1
+     },
+     {
+      "t": "лето",
+      "a": "7d0a239ac739.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "cold": {
+   "speaker": "luka",
+   "ru": "Мне не нравится холод!",
+   "fr": "Je n'aime pas le froid !",
+   "tokens": [
+    {
+     "t": "Мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нравится",
+     "s": 2,
+     "w": true,
+     "a": "b8f522482fb7.mp3",
+     "l": "нравиться"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "холод",
+     "s": 1,
+     "w": true,
+     "a": "92fe54951c21.mp3",
+     "l": "холод"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "851827ac9101.mp3",
+   "id": "cold",
+   "noteFr": "« Холод » = le froid (le nom). Tu connais « холодно » (il fait froid).",
+   "gap": {
+    "index": 6,
+    "whyFr": "Ici il faut un nom : « холод » (le froid). « Холодно », c'est « il fait froid ».",
+    "distractors": [
+     {
+      "t": "холодно",
+      "a": "8482b15f9a14.mp3",
+      "s": 1
+     },
+     {
+      "t": "зиму",
+      "a": "b85ff1e99d89.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "winter": {
+   "speaker": "masha",
+   "ru": "А мне нравится зима!",
+   "fr": "Et moi, j'aime l'hiver !",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нравится",
+     "s": 2,
+     "w": true,
+     "a": "b8f522482fb7.mp3",
+     "l": "нравиться"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "зима",
+     "s": 3,
+     "w": true,
+     "a": "3503e8930f3d.mp3",
+     "l": "зима"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "390037dd828b.mp3",
+   "id": "winter",
+   "noteFr": "Avec « нравится », la chose qui plaît reste à la forme de base : « зима » (et pas « зиму » !).",
+   "gap": {
+    "index": 6,
+    "whyFr": "Avec « нравится », forme de base : « зима ». « Зиму », c'est après « люблю ».",
+    "distractors": [
+     {
+      "t": "зиму",
+      "a": "b85ff1e99d89.mp3",
+      "s": 1
+     },
+     {
+      "t": "холодно",
+      "a": "8482b15f9a14.mp3",
+      "s": 1
+     }
+    ]
+   },
+   "orders": [
+    "а мне нравится зима",
+    "а мне зима нравится"
+   ]
+  },
+  "summer": {
+   "speaker": "anton",
+   "ru": "Маша любит зиму, а я люблю лето.",
+   "fr": "Macha aime l'hiver, et moi, j'aime l'été.",
+   "tokens": [
+    {
+     "t": "Маша",
+     "s": 1,
+     "w": true,
+     "a": "db2f8c7ea687.mp3",
+     "l": "маша"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "любит",
+     "s": 1,
+     "w": true,
+     "a": "fc1906665782.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "зиму",
+     "s": 1,
+     "w": true,
+     "a": "b85ff1e99d89.mp3",
+     "l": "зима"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "а",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "люблю",
+     "s": 4,
+     "w": true,
+     "a": "1b47671db5c8.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "лето",
+     "s": 1,
+     "w": true,
+     "a": "7d0a239ac739.mp3",
+     "l": "лето"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "12298c20edfb.mp3",
+   "id": "summer",
+   "noteFr": "Avec « люблю / любит », le bleu : « зиму ». « Лето » (été, neutre) ne change pas.",
+   "gap": {
+    "index": 4,
+    "whyFr": "Après « любит », le bleu : « зиму » (-у). Avec « нравится », ce serait « зима ».",
+    "distractors": [
+     {
+      "t": "зима",
+      "a": "3503e8930f3d.mp3",
+      "s": 3
+     },
+     {
+      "t": "нравится",
+      "a": "b8f522482fb7.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "metoo": {
+   "speaker": "luka",
+   "ru": "Я тоже люблю лето!",
+   "fr": "Moi aussi, j'aime l'été !",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тоже",
+     "s": 1,
+     "w": true,
+     "a": "0b041fee8598.mp3",
+     "l": "тоже"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "люблю",
+     "s": 4,
+     "w": true,
+     "a": "1b47671db5c8.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "лето",
+     "s": 1,
+     "w": true,
+     "a": "7d0a239ac739.mp3",
+     "l": "лето"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "644e806e7446.mp3",
+   "id": "metoo",
+   "noteFr": "« Тоже » = aussi.",
+   "gap": {
+    "index": 2,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "мне",
+      "a": "f7ae2aa9215e.mp3",
+      "s": 2
+     },
+     {
+      "t": "тебе",
+      "a": "801a217b6a9c.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "c1": {
+   "speaker": "luka",
+   "ru": "Тебе нравится Лион?",
+   "fr": "Lyon te plaît ?",
+   "tokens": [
+    {
+     "t": "Тебе",
+     "s": 3,
+     "w": true,
+     "a": "801a217b6a9c.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нравится",
+     "s": 2,
+     "w": true,
+     "a": "b8f522482fb7.mp3",
+     "l": "нравиться"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Лион",
+     "s": 2,
+     "w": true,
+     "a": "f03c5a202fc6.mp3",
+     "l": "лион"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "e946e6e13c1a.mp3",
+   "id": "c1",
+   "noteFr": "",
+   "orders": [
+    "тебе нравится лион",
+    "лион тебе нравится"
+   ],
+   "combo": {
+    "from": [
+     "Ça te plaît ?",
+     "Chez des amis"
+    ],
+    "extra": [
+     {
+      "t": "тебя",
+      "a": "a677bbe7ebdf.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "c2": {
+   "speaker": "luka",
+   "ru": "Мне не нравится зима, но я люблю лето.",
+   "fr": "Je n'aime pas l'hiver, mais j'aime l'été.",
+   "tokens": [
+    {
+     "t": "Мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нравится",
+     "s": 2,
+     "w": true,
+     "a": "b8f522482fb7.mp3",
+     "l": "нравиться"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "зима",
+     "s": 3,
+     "w": true,
+     "a": "3503e8930f3d.mp3",
+     "l": "зима"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "но",
+     "s": 1,
+     "w": true,
+     "a": "e9cdd3dfae39.mp3",
+     "l": "но"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "люблю",
+     "s": 4,
+     "w": true,
+     "a": "1b47671db5c8.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "лето",
+     "s": 1,
+     "w": true,
+     "a": "7d0a239ac739.mp3",
+     "l": "лето"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "8ecae9c64981.mp3",
+   "id": "c2",
+   "noteFr": "",
+   "orders": [
+    "мне не нравится зима но я люблю лето"
+   ],
+   "combo": {
+    "from": [
+     "Je suis malade",
+     "Je ne comprends pas",
+     "Ça te plaît ?",
+     "Faire connaissance",
+     "Chez des amis"
+    ],
+    "extra": [
+     {
+      "t": "зиму",
+      "a": "b85ff1e99d89.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "c3": {
+   "speaker": "luka",
+   "ru": "Мне очень нравится музыка.",
+   "fr": "J'aime beaucoup la musique.",
+   "tokens": [
+    {
+     "t": "Мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нравится",
+     "s": 2,
+     "w": true,
+     "a": "b8f522482fb7.mp3",
+     "l": "нравиться"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "музыка",
+     "s": 1,
+     "w": true,
+     "a": "2bd73f6029ff.mp3",
+     "l": "музыка"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "c43964faef6d.mp3",
+   "id": "c3",
+   "noteFr": "",
+   "orders": [
+    "мне очень нравится музыка",
+    "музыка мне очень нравится"
+   ],
+   "combo": {
+    "from": [
+     "Je suis malade",
+     "Faire connaissance",
+     "Ça te plaît ?"
+    ],
+    "extra": [
+     {
+      "t": "музыку",
+      "a": "08caf8df7db8.mp3",
+      "s": 1
+     }
+    ]
+   }
+  }
+ },
+ "parts": [
+  {
+   "titleFr": "Ça me plaît",
+   "steps": [
+    {
+     "type": "scene"
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "like",
+      "verymuch"
+     ]
+    },
+    {
+     "type": "explore"
+    },
+    {
+     "type": "insight",
+     "index": 0
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "metro",
+      "beautiful"
+     ],
+     "review": [
+      "like"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Les goûts",
+   "steps": [
+    {
+     "type": "warmup",
+     "phrases": [
+      "like",
+      "verymuch",
+      "metro"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "dislike",
+      "cold"
+     ],
+     "review": [
+      "metro",
+      "beautiful"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "winter",
+      "summer",
+      "metoo"
+     ],
+     "review": [
+      "cold"
+     ]
+    },
+    {
+     "type": "insight",
+     "index": 1
+    },
+    {
+     "type": "combine",
+     "phrases": [
+      "c1",
+      "c2",
+      "c3"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Joue la scène",
+   "steps": [
+    {
+     "type": "final"
+    },
+    {
+     "type": "roleplay"
+    }
+   ]
+  }
+ ],
+ "insights": [
+  {
+   "by": "anton",
+   "fr": [
+    "« Мне нравится… » = j'aime bien, ça me plaît. Mot à mot : « à moi plaît… ».",
+    "Et la chose qui plaît reste à la forme de base : « мне нравится Москва », « мне нравится музыка ». Pas de -у ici !"
+   ]
+  },
+  {
+   "by": "anton",
+   "fr": [
+    "Compare : « я люблю зиму » (bleu, -у) mais « мне нравится зима » (forme de base). Même idée, deux constructions.",
+    "Pour les autres : « тебе нравится » (ça te plaît), « Маше нравится » (ça plaît à Macha)."
+   ]
+  }
+ ],
+ "explore": {
+  "type": "plain",
+  "frameFr": "J'aime bien ___.",
+  "color": "#5c677d",
+  "hintFr": "Mets chaque mot après « нравится » et écoute : le mot ne change pas !",
+  "before": [
+   {
+    "t": "Мне",
+    "s": 2,
+    "w": true,
+    "a": "f7ae2aa9215e.mp3",
+    "l": "я"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "нравится",
+    "s": 2,
+    "w": true,
+    "a": "b8f522482fb7.mp3",
+    "l": "нравиться"
+   },
+   {
+    "t": " ",
+    "w": false
+   }
+  ],
+  "after": [
+   {
+    "t": ".",
+    "w": false
+   }
+  ],
+  "verb": null,
+  "words": [
+   {
+    "tile": "Москва",
+    "tileStress": 5,
+    "fr": "Moscou",
+    "phraseFr": "Moscou me plaît.",
+    "phrase": "Мне нравится Москва.",
+    "morph": {
+     "from": "Москва",
+     "to": "Москва",
+     "stem": "Москва",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": false
+    },
+    "audioTile": "84f280146c14.mp3",
+    "audioPhrase": "d271f7bbc597.mp3"
+   },
+   {
+    "tile": "музыка",
+    "tileStress": 1,
+    "fr": "la musique",
+    "phraseFr": "J'aime bien la musique.",
+    "phrase": "Мне нравится музыка.",
+    "morph": {
+     "from": "музыка",
+     "to": "музыка",
+     "stem": "музыка",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": false
+    },
+    "audioTile": "2bd73f6029ff.mp3",
+    "audioPhrase": "abeac957b325.mp3"
+   },
+   {
+    "tile": "зима",
+    "tileStress": 3,
+    "fr": "l'hiver",
+    "phraseFr": "J'aime bien l'hiver.",
+    "phrase": "Мне нравится зима.",
+    "morph": {
+     "from": "зима",
+     "to": "зима",
+     "stem": "зима",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": false
+    },
+    "audioTile": "3503e8930f3d.mp3",
+    "audioPhrase": "7e7434d9417f.mp3"
+   },
+   {
+    "tile": "метро",
+    "tileStress": 4,
+    "fr": "le métro",
+    "phraseFr": "J'aime bien le métro.",
+    "phrase": "Мне нравится метро.",
+    "morph": {
+     "from": "метро",
+     "to": "метро",
+     "stem": "метро",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 4,
+     "stressTo": 4,
+     "changed": false
+    },
+    "audioTile": "bf84861a30b9.mp3",
+    "audioPhrase": "1a1f2f409dd2.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Dis que tu aimes bien la musique.",
+   "answer": "музыка"
+  },
+  {
+   "type": "pick",
+   "fr": "Dis que l'hiver te plaît.",
+   "answer": "зима"
+  }
+ ],
+ "grammar": [
+  "а мне нравится зима",
+  "а что тебе не нравится",
+  "да очень нравится",
+  "лука тебе нравится москва",
+  "маша любит зиму а я люблю лето",
+  "мне не нравится зима но я люблю лето",
+  "мне не нравится холод",
+  "мне нравится метро",
+  "мне нравится метро оно очень красивое",
+  "мне очень нравится музыка",
+  "оно очень красивое",
+  "тебе нравится лион",
+  "тебе нравится москва",
+  "я тоже люблю лето",
+  "[unk]"
+ ],
+ "cando": [
+  "dire ce qui te plaît",
+  "dire ce qui ne te plaît pas",
+  "demander l'avis de quelqu'un"
+ ],
+ "glossary": {
+  "здравствуйте": "bonjour (poli)",
+  "я": "je, moi",
+  "ты": "tu",
+  "вы": "vous",
+  "да": "oui",
+  "нет": "non",
+  "а": "et, mais",
+  "и": "et",
+  "это": "c'est, voici",
+  "не": "ne… pas",
+  "в": "dans, à",
+  "на": "sur, en",
+  "что": "quoi, que",
+  "как": "comment, comme",
+  "где": "où",
+  "очень": "très",
+  "спасибо": "merci",
+  "пожалуйста": "s'il te plaît / je t'en prie",
+  "хорошо": "bien, d'accord",
+  "привет": "salut",
+  "лука": "Luka (prénom)",
+  "маша": "Macha (prénom)",
+  "олег": "Oleg (prénom)",
+  "анна": "Anna (prénom)",
+  "у": "chez",
+  "меня": "me, moi",
+  "тебя": "te, toi",
+  "есть": "il y a",
+  "мой": "mon",
+  "моя": "ma",
+  "мне": "à moi",
+  "тоже": "aussi",
+  "сегодня": "aujourd'hui",
+  "завтра": "demain",
+  "вчера": "hier",
+  "потом": "puis, ensuite",
+  "давай": "allons-y, faisons",
+  "тебе": "à toi",
+  "нравится": "plaît",
+  "метро": "métro",
+  "оно": "il (neutre)",
+  "красивое": "beau (neutre)",
+  "красивая": "belle",
+  "холод": "le froid",
+  "холодно": "il fait froid",
+  "зима": "hiver",
+  "зиму": "hiver (après люблю)",
+  "любит": "(il, elle) aime",
+  "люблю": "(j')aime",
+  "лето": "été",
+  "москва": "Moscou",
+  "музыка": "musique",
+  "лион": "Lyon",
+  "но": "mais"
+ },
+ "unlocks": [],
+ "items": [
+  {
+   "id": "22-plaire:like",
+   "ru": "Тебе нравится Москва?",
+   "fr": "Moscou te plaît ?",
+   "tokens": [
+    {
+     "t": "Тебе",
+     "s": 3,
+     "w": true,
+     "a": "801a217b6a9c.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нравится",
+     "s": 2,
+     "w": true,
+     "a": "b8f522482fb7.mp3",
+     "l": "нравиться"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Москва",
+     "s": 5,
+     "w": true,
+     "a": "84f280146c14.mp3",
+     "l": "москва"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "2826b19a421e.mp3"
+  },
+  {
+   "id": "22-plaire:verymuch",
+   "ru": "Да, очень нравится!",
+   "fr": "Oui, beaucoup !",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нравится",
+     "s": 2,
+     "w": true,
+     "a": "b8f522482fb7.mp3",
+     "l": "нравиться"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "774c46770191.mp3"
+  },
+  {
+   "id": "22-plaire:metro",
+   "ru": "Мне нравится метро.",
+   "fr": "J'aime bien le métro.",
+   "tokens": [
+    {
+     "t": "Мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нравится",
+     "s": 2,
+     "w": true,
+     "a": "b8f522482fb7.mp3",
+     "l": "нравиться"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "метро",
+     "s": 4,
+     "w": true,
+     "a": "bf84861a30b9.mp3",
+     "l": "метро"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "1a1f2f409dd2.mp3"
+  },
+  {
+   "id": "22-plaire:beautiful",
+   "ru": "Оно очень красивое.",
+   "fr": "Il est très beau.",
+   "tokens": [
+    {
+     "t": "Оно",
+     "s": 2,
+     "w": true,
+     "a": "d9b4168f1fe9.mp3",
+     "l": "оно"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "красивое",
+     "s": 4,
+     "w": true,
+     "a": "e8538548e6f1.mp3",
+     "l": "красивый"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "584c9ccddeea.mp3"
+  },
+  {
+   "id": "22-plaire:dislike",
+   "ru": "А что тебе не нравится?",
+   "fr": "Et qu'est-ce qui ne te plaît pas ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тебе",
+     "s": 3,
+     "w": true,
+     "a": "801a217b6a9c.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нравится",
+     "s": 2,
+     "w": true,
+     "a": "b8f522482fb7.mp3",
+     "l": "нравиться"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "a1947ec87044.mp3"
+  },
+  {
+   "id": "22-plaire:cold",
+   "ru": "Мне не нравится холод!",
+   "fr": "Je n'aime pas le froid !",
+   "tokens": [
+    {
+     "t": "Мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нравится",
+     "s": 2,
+     "w": true,
+     "a": "b8f522482fb7.mp3",
+     "l": "нравиться"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "холод",
+     "s": 1,
+     "w": true,
+     "a": "92fe54951c21.mp3",
+     "l": "холод"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "851827ac9101.mp3"
+  },
+  {
+   "id": "22-plaire:winter",
+   "ru": "А мне нравится зима!",
+   "fr": "Et moi, j'aime l'hiver !",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нравится",
+     "s": 2,
+     "w": true,
+     "a": "b8f522482fb7.mp3",
+     "l": "нравиться"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "зима",
+     "s": 3,
+     "w": true,
+     "a": "3503e8930f3d.mp3",
+     "l": "зима"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "390037dd828b.mp3"
+  },
+  {
+   "id": "22-plaire:summer",
+   "ru": "Маша любит зиму, а я люблю лето.",
+   "fr": "Macha aime l'hiver, et moi, j'aime l'été.",
+   "tokens": [
+    {
+     "t": "Маша",
+     "s": 1,
+     "w": true,
+     "a": "db2f8c7ea687.mp3",
+     "l": "маша"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "любит",
+     "s": 1,
+     "w": true,
+     "a": "fc1906665782.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "зиму",
+     "s": 1,
+     "w": true,
+     "a": "b85ff1e99d89.mp3",
+     "l": "зима"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "а",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "люблю",
+     "s": 4,
+     "w": true,
+     "a": "1b47671db5c8.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "лето",
+     "s": 1,
+     "w": true,
+     "a": "7d0a239ac739.mp3",
+     "l": "лето"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "12298c20edfb.mp3"
+  },
+  {
+   "id": "22-plaire:metoo",
+   "ru": "Я тоже люблю лето!",
+   "fr": "Moi aussi, j'aime l'été !",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тоже",
+     "s": 1,
+     "w": true,
+     "a": "0b041fee8598.mp3",
+     "l": "тоже"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "люблю",
+     "s": 4,
+     "w": true,
+     "a": "1b47671db5c8.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "лето",
+     "s": 1,
+     "w": true,
+     "a": "7d0a239ac739.mp3",
+     "l": "лето"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "644e806e7446.mp3"
+  },
+  {
+   "id": "22-plaire:c1",
+   "ru": "Тебе нравится Лион?",
+   "fr": "Lyon te plaît ?",
+   "tokens": [
+    {
+     "t": "Тебе",
+     "s": 3,
+     "w": true,
+     "a": "801a217b6a9c.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нравится",
+     "s": 2,
+     "w": true,
+     "a": "b8f522482fb7.mp3",
+     "l": "нравиться"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Лион",
+     "s": 2,
+     "w": true,
+     "a": "f03c5a202fc6.mp3",
+     "l": "лион"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "e946e6e13c1a.mp3"
+  },
+  {
+   "id": "22-plaire:c2",
+   "ru": "Мне не нравится зима, но я люблю лето.",
+   "fr": "Je n'aime pas l'hiver, mais j'aime l'été.",
+   "tokens": [
+    {
+     "t": "Мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нравится",
+     "s": 2,
+     "w": true,
+     "a": "b8f522482fb7.mp3",
+     "l": "нравиться"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "зима",
+     "s": 3,
+     "w": true,
+     "a": "3503e8930f3d.mp3",
+     "l": "зима"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "но",
+     "s": 1,
+     "w": true,
+     "a": "e9cdd3dfae39.mp3",
+     "l": "но"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "люблю",
+     "s": 4,
+     "w": true,
+     "a": "1b47671db5c8.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "лето",
+     "s": 1,
+     "w": true,
+     "a": "7d0a239ac739.mp3",
+     "l": "лето"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "8ecae9c64981.mp3"
+  },
+  {
+   "id": "22-plaire:c3",
+   "ru": "Мне очень нравится музыка.",
+   "fr": "J'aime beaucoup la musique.",
+   "tokens": [
+    {
+     "t": "Мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нравится",
+     "s": 2,
+     "w": true,
+     "a": "b8f522482fb7.mp3",
+     "l": "нравиться"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "музыка",
+     "s": 1,
+     "w": true,
+     "a": "2bd73f6029ff.mp3",
+     "l": "музыка"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "c43964faef6d.mp3"
+  }
+ ],
+ "hasAudio": false
+}

@@ -1,0 +1,2251 @@
+{
+ "version": 2,
+ "id": "21-appartement",
+ "order": 21,
+ "titleFr": "L'appartement d'Anton",
+ "titleRu": "Квартира",
+ "emoji": "🏠",
+ "sceneFr": "Anton fait visiter son appartement à Luka et Macha.",
+ "learner": "luka",
+ "speakers": {
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
+  },
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  },
+  "anton": {
+   "name": "Антон",
+   "nameFr": "Anton",
+   "color": "#457b9d"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "anton",
+   "ru": "Вот моя квартира. Проходите!",
+   "fr": "Voici mon appartement. Entrez !",
+   "tokens": [
+    {
+     "t": "Вот",
+     "s": 1,
+     "w": true,
+     "a": "a716dd666e5a.mp3",
+     "l": "вот"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "моя",
+     "s": 2,
+     "w": true,
+     "a": "256d62a930d9.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "квартира",
+     "s": 5,
+     "w": true,
+     "a": "0df8be89585d.mp3",
+     "l": "квартира"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Проходите",
+     "s": 6,
+     "w": true,
+     "a": "1495417147c3.mp3",
+     "l": "проходить"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "ab62cfdaa68a.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Какая большая квартира!",
+   "fr": "Quel grand appartement !",
+   "tokens": [
+    {
+     "t": "Какая",
+     "s": 3,
+     "w": true,
+     "a": "1cdce61f032f.mp3",
+     "l": "какой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "большая",
+     "s": 5,
+     "w": true,
+     "a": "5175ff563ece.mp3",
+     "l": "больший"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "квартира",
+     "s": 5,
+     "w": true,
+     "a": "0df8be89585d.mp3",
+     "l": "квартира"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "54fdf842d37b.mp3"
+  },
+  {
+   "speaker": "anton",
+   "ru": "Это моя комната, а это кухня.",
+   "fr": "Ça, c'est ma chambre, et ça, c'est la cuisine.",
+   "tokens": [
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "моя",
+     "s": 2,
+     "w": true,
+     "a": "256d62a930d9.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "комната",
+     "s": 1,
+     "w": true,
+     "a": "aa0bf05959e3.mp3",
+     "l": "комната"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "а",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кухня",
+     "s": 1,
+     "w": true,
+     "a": "7d582e124e17.mp3",
+     "l": "кухня"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "daa294fbdadc.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "А где туалет?",
+   "fr": "Et où sont les toilettes ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "туалет",
+     "s": 4,
+     "w": true,
+     "a": "c3b54253b6cd.mp3",
+     "l": "туалет"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "fe77b3aa1743.mp3"
+  },
+  {
+   "speaker": "anton",
+   "ru": "Туалет там, направо.",
+   "fr": "Les toilettes sont là-bas, à droite.",
+   "tokens": [
+    {
+     "t": "Туалет",
+     "s": 4,
+     "w": true,
+     "a": "c3b54253b6cd.mp3",
+     "l": "туалет"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "там",
+     "s": 1,
+     "w": true,
+     "a": "a93f0ec75463.mp3",
+     "l": "там"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "направо",
+     "s": 4,
+     "w": true,
+     "a": "d56915cee3b9.mp3",
+     "l": "направо"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "b3a23dc4d4d9.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "А где Лука будет спать?",
+   "fr": "Et où va dormir Luka ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "будет",
+     "s": 1,
+     "w": true,
+     "a": "87f092448e66.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "спать",
+     "s": 2,
+     "w": true,
+     "a": "25c37d17942f.mp3",
+     "l": "спать"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "46874b20bfaf.mp3"
+  },
+  {
+   "speaker": "anton",
+   "ru": "Здесь, на диване.",
+   "fr": "Ici, sur le canapé.",
+   "tokens": [
+    {
+     "t": "Здесь",
+     "s": 2,
+     "w": true,
+     "a": "5dc51c8ef3d7.mp3",
+     "l": "здесь"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "диване",
+     "s": 3,
+     "w": true,
+     "a": "cd14d28ccb21.mp3",
+     "l": "диван"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "5dcf5c616a3d.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Отлично! А ужинать мы будем на кухне.",
+   "fr": "Parfait ! Et on va dîner dans la cuisine.",
+   "tokens": [
+    {
+     "t": "Отлично",
+     "s": 3,
+     "w": true,
+     "a": "1b0c3f2d1ffd.mp3",
+     "l": "отлично"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ужинать",
+     "s": 0,
+     "w": true,
+     "a": "59c624e6a33e.mp3",
+     "l": "ужинать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мы",
+     "s": 1,
+     "w": true,
+     "a": "a234675be3c5.mp3",
+     "l": "мы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "будем",
+     "s": 1,
+     "w": true,
+     "a": "56b90073e866.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кухне",
+     "s": 1,
+     "w": true,
+     "a": "fbf274a930c0.mp3",
+     "l": "кухня"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "32babe838395.mp3"
+  }
+ ],
+ "phrases": {
+  "flat": {
+   "speaker": "anton",
+   "ru": "Вот моя квартира.",
+   "fr": "Voici mon appartement.",
+   "tokens": [
+    {
+     "t": "Вот",
+     "s": 1,
+     "w": true,
+     "a": "a716dd666e5a.mp3",
+     "l": "вот"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "моя",
+     "s": 2,
+     "w": true,
+     "a": "256d62a930d9.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "квартира",
+     "s": 5,
+     "w": true,
+     "a": "0df8be89585d.mp3",
+     "l": "квартира"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "587c8abe533b.mp3",
+   "id": "flat",
+   "noteFr": "« Квартира » = appartement (féminin en russe : « моя »).",
+   "gap": {
+    "index": 4,
+    "whyFr": "Ici, « квартира » est juste présentée : forme de base, sans -е.",
+    "distractors": [
+     {
+      "t": "квартире",
+      "a": "1ecaa0161e84.mp3",
+      "s": 5
+     },
+     {
+      "t": "комнате",
+      "a": "56d4ec22f24e.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "bigflat": {
+   "speaker": "luka",
+   "ru": "Какая большая квартира!",
+   "fr": "Quel grand appartement !",
+   "tokens": [
+    {
+     "t": "Какая",
+     "s": 3,
+     "w": true,
+     "a": "1cdce61f032f.mp3",
+     "l": "какой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "большая",
+     "s": 5,
+     "w": true,
+     "a": "5175ff563ece.mp3",
+     "l": "больший"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "квартира",
+     "s": 5,
+     "w": true,
+     "a": "0df8be89585d.mp3",
+     "l": "квартира"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "54fdf842d37b.mp3",
+   "id": "bigflat",
+   "noteFr": "Féminin : « какая большая квартира ».",
+   "gap": {
+    "index": 2,
+    "whyFr": "« Квартира » est féminin : « большая » (-ая).",
+    "distractors": [
+     {
+      "t": "большой",
+      "a": "d648a4d6e7b7.mp3",
+      "s": 5
+     },
+     {
+      "t": "кухне",
+      "a": "fbf274a930c0.mp3",
+      "s": 1
+     }
+    ]
+   },
+   "orders": [
+    "какая большая квартира"
+   ]
+  },
+  "room": {
+   "speaker": "anton",
+   "ru": "Это моя комната, а это кухня.",
+   "fr": "Ça, c'est ma chambre, et ça, c'est la cuisine.",
+   "tokens": [
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "моя",
+     "s": 2,
+     "w": true,
+     "a": "256d62a930d9.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "комната",
+     "s": 1,
+     "w": true,
+     "a": "aa0bf05959e3.mp3",
+     "l": "комната"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "а",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кухня",
+     "s": 1,
+     "w": true,
+     "a": "7d582e124e17.mp3",
+     "l": "кухня"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "daa294fbdadc.mp3",
+   "id": "room",
+   "noteFr": "« Комната » = chambre, pièce. « Кухня » = cuisine.",
+   "gap": {
+    "index": 10,
+    "whyFr": "On présente la cuisine : forme de base « кухня ». « На кухне », c'est « dans la cuisine ».",
+    "distractors": [
+     {
+      "t": "кухне",
+      "a": "fbf274a930c0.mp3",
+      "s": 1
+     },
+     {
+      "t": "спать",
+      "a": "25c37d17942f.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "toilet": {
+   "speaker": "luka",
+   "ru": "А где туалет?",
+   "fr": "Et où sont les toilettes ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "туалет",
+     "s": 4,
+     "w": true,
+     "a": "c3b54253b6cd.mp3",
+     "l": "туалет"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "fe77b3aa1743.mp3",
+   "id": "toilet",
+   "noteFr": "« Туалет » = les toilettes. Phrase de survie !",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "диване",
+      "a": "cd14d28ccb21.mp3",
+      "s": 3
+     },
+     {
+      "t": "кухне",
+      "a": "fbf274a930c0.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "there": {
+   "speaker": "anton",
+   "ru": "Туалет там, направо.",
+   "fr": "Les toilettes sont là-bas, à droite.",
+   "tokens": [
+    {
+     "t": "Туалет",
+     "s": 4,
+     "w": true,
+     "a": "c3b54253b6cd.mp3",
+     "l": "туалет"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "там",
+     "s": 1,
+     "w": true,
+     "a": "a93f0ec75463.mp3",
+     "l": "там"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "направо",
+     "s": 4,
+     "w": true,
+     "a": "d56915cee3b9.mp3",
+     "l": "направо"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "b3a23dc4d4d9.mp3",
+   "id": "there",
+   "noteFr": "Tu connais « там » et « направо » !",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "диване",
+      "a": "cd14d28ccb21.mp3",
+      "s": 3
+     },
+     {
+      "t": "спать",
+      "a": "25c37d17942f.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "sleep": {
+   "speaker": "masha",
+   "ru": "А где Лука будет спать?",
+   "fr": "Et où va dormir Luka ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "будет",
+     "s": 1,
+     "w": true,
+     "a": "87f092448e66.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "спать",
+     "s": 2,
+     "w": true,
+     "a": "25c37d17942f.mp3",
+     "l": "спать"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "46874b20bfaf.mp3",
+   "id": "sleep",
+   "noteFr": "« Спать » = dormir. « Будет спать » = va dormir (le futur, avec « он будет »).",
+   "gap": {
+    "index": 8,
+    "whyFr": "Après « будет », l'infinitif : « спать ».",
+    "distractors": [
+     {
+      "t": "сплю",
+      "a": "4ddc1d5e8bf7.mp3",
+      "s": 3
+     },
+     {
+      "t": "диване",
+      "a": "cd14d28ccb21.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "sofa": {
+   "speaker": "anton",
+   "ru": "Здесь, на диване.",
+   "fr": "Ici, sur le canapé.",
+   "tokens": [
+    {
+     "t": "Здесь",
+     "s": 2,
+     "w": true,
+     "a": "5dc51c8ef3d7.mp3",
+     "l": "здесь"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "диване",
+     "s": 3,
+     "w": true,
+     "a": "cd14d28ccb21.mp3",
+     "l": "диван"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "5dcf5c616a3d.mp3",
+   "id": "sofa",
+   "noteFr": "« Диван » = canapé → « на диване » (sur le canapé) : le vert du lieu.",
+   "gap": {
+    "index": 4,
+    "whyFr": "Pour dire où : « на » + -е : « диван » → « на диване ».",
+    "distractors": [
+     {
+      "t": "диван",
+      "a": "6583243c930f.mp3",
+      "s": 3
+     },
+     {
+      "t": "кухня",
+      "a": "7d582e124e17.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "kitchen": {
+   "speaker": "masha",
+   "ru": "А ужинать мы будем на кухне.",
+   "fr": "Et on va dîner dans la cuisine.",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ужинать",
+     "s": 0,
+     "w": true,
+     "a": "59c624e6a33e.mp3",
+     "l": "ужинать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мы",
+     "s": 1,
+     "w": true,
+     "a": "a234675be3c5.mp3",
+     "l": "мы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "будем",
+     "s": 1,
+     "w": true,
+     "a": "56b90073e866.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кухне",
+     "s": 1,
+     "w": true,
+     "a": "fbf274a930c0.mp3",
+     "l": "кухня"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ef2f52a26b47.mp3",
+   "id": "kitchen",
+   "noteFr": "Attention : on dit « на кухне » (et pas « в кухне »). C'est une exception à retenir.",
+   "gap": {
+    "index": 10,
+    "whyFr": "Pour dire où : « на кухне » (-е). « Кухня », c'est la forme de base.",
+    "distractors": [
+     {
+      "t": "кухня",
+      "a": "7d582e124e17.mp3",
+      "s": 1
+     },
+     {
+      "t": "диван",
+      "a": "6583243c930f.mp3",
+      "s": 3
+     }
+    ]
+   },
+   "orders": [
+    "а ужинать мы будем на кухне",
+    "а мы будем ужинать на кухне"
+   ]
+  },
+  "c1": {
+   "speaker": "luka",
+   "ru": "Моя сестра в Москве, а я в Петербурге.",
+   "fr": "Ma sœur est à Moscou, et moi, je suis à Saint-Pétersbourg.",
+   "tokens": [
+    {
+     "t": "Моя",
+     "s": 2,
+     "w": true,
+     "a": "256d62a930d9.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сестра",
+     "s": 5,
+     "w": true,
+     "a": "76ae2fd8219b.mp3",
+     "l": "сестра"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Москве",
+     "s": 5,
+     "w": true,
+     "a": "93a66821e1ad.mp3",
+     "l": "москва"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "а",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Петербурге",
+     "s": 6,
+     "w": true,
+     "a": "b6acec023825.mp3",
+     "l": "петербург"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "fa1713bd009b.mp3",
+   "id": "c1",
+   "noteFr": "",
+   "orders": [
+    "моя сестра в москве а я в петербурге"
+   ],
+   "combo": {
+    "from": [
+     "Ma famille",
+     "Où es-tu ?",
+     "Se présenter",
+     "Faire connaissance",
+     "Chez des amis"
+    ],
+    "extra": [
+     {
+      "t": "москва",
+      "a": "84f280146c14.mp3",
+      "s": 5
+     }
+    ]
+   }
+  },
+  "c2": {
+   "speaker": "luka",
+   "ru": "Кошка на диване.",
+   "fr": "Le chat est sur le canapé.",
+   "tokens": [
+    {
+     "t": "Кошка",
+     "s": 1,
+     "w": true,
+     "a": "cf1247f1fdf0.mp3",
+     "l": "кошка"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "диване",
+     "s": 3,
+     "w": true,
+     "a": "cd14d28ccb21.mp3",
+     "l": "диван"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "3cf5da8f5ca8.mp3",
+   "id": "c2",
+   "noteFr": "",
+   "orders": [
+    "кошка на диване",
+    "на диване кошка"
+   ],
+   "combo": {
+    "from": [
+     "Ma famille",
+     "Prendre le métro",
+     "L'appartement d'Anton"
+    ],
+    "extra": [
+     {
+      "t": "кухня",
+      "a": "7d582e124e17.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "c3": {
+   "speaker": "luka",
+   "ru": "Где моя сумка? На кухне?",
+   "fr": "Où est mon sac ? Dans la cuisine ?",
+   "tokens": [
+    {
+     "t": "Где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "моя",
+     "s": 2,
+     "w": true,
+     "a": "256d62a930d9.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сумка",
+     "s": 1,
+     "w": true,
+     "a": "bd091b68c1ca.mp3",
+     "l": "сумка"
+    },
+    {
+     "t": "? ",
+     "w": false
+    },
+    {
+     "t": "На",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кухне",
+     "s": 1,
+     "w": true,
+     "a": "fbf274a930c0.mp3",
+     "l": "кухня"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "ad7c0f7bb3fb.mp3",
+   "id": "c3",
+   "noteFr": "",
+   "orders": [
+    "где моя сумка на кухне"
+   ],
+   "combo": {
+    "from": [
+     "Je ne comprends pas",
+     "Ma famille",
+     "L'appartement d'Anton",
+     "Prendre le métro"
+    ],
+    "extra": [
+     {
+      "t": "кухня",
+      "a": "7d582e124e17.mp3",
+      "s": 1
+     }
+    ]
+   }
+  }
+ },
+ "parts": [
+  {
+   "titleFr": "La visite",
+   "steps": [
+    {
+     "type": "scene"
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "flat",
+      "bigflat"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "room",
+      "toilet"
+     ],
+     "review": [
+      "bigflat"
+     ]
+    },
+    {
+     "type": "explore"
+    },
+    {
+     "type": "insight",
+     "index": 0
+    }
+   ]
+  },
+  {
+   "titleFr": "Qui dort où ?",
+   "steps": [
+    {
+     "type": "warmup",
+     "phrases": [
+      "flat",
+      "room",
+      "toilet"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "there",
+      "sleep"
+     ],
+     "review": [
+      "room"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "sofa",
+      "kitchen"
+     ],
+     "review": [
+      "sleep",
+      "there"
+     ]
+    },
+    {
+     "type": "insight",
+     "index": 1
+    },
+    {
+     "type": "combine",
+     "phrases": [
+      "c1",
+      "c2",
+      "c3"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Joue la scène",
+   "steps": [
+    {
+     "type": "final"
+    },
+    {
+     "type": "roleplay"
+    }
+   ]
+  }
+ ],
+ "insights": [
+  {
+   "by": "anton",
+   "fr": [
+    "Tu connais bien ce vert maintenant : « в комнате », « в квартире », « в сумке ». Pour dire où se trouve quelque chose, -е à la fin.",
+    "Ça marche pour les choses aussi, pas seulement les villes !"
+   ]
+  },
+  {
+   "by": "anton",
+   "fr": [
+    "Certains lieux prennent « на » au lieu de « в » : « на кухне » (dans la cuisine), « на диване » (sur le canapé), « на работе » (au travail).",
+    "Pas de règle simple : retiens-les avec leur « на »."
+   ]
+  }
+ ],
+ "explore": {
+  "type": "case",
+  "frameFr": "Le chat est dans ___.",
+  "color": "#2a9d8f",
+  "hintFr": "Mets chaque endroit après « в » et regarde bien la fin du mot.",
+  "before": [
+   {
+    "t": "Кошка",
+    "s": 1,
+    "w": true,
+    "a": "cf1247f1fdf0.mp3",
+    "l": "кошка"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "в",
+    "s": null,
+    "w": true,
+    "a": "3c5b79b7f921.mp3",
+    "l": "в"
+   },
+   {
+    "t": " ",
+    "w": false
+   }
+  ],
+  "after": [
+   {
+    "t": ".",
+    "w": false
+   }
+  ],
+  "verb": null,
+  "words": [
+   {
+    "tile": "комната",
+    "tileStress": 1,
+    "fr": "la chambre",
+    "phraseFr": "Le chat est dans la chambre.",
+    "phrase": "Кошка в комнате.",
+    "morph": {
+     "from": "комната",
+     "to": "комнате",
+     "stem": "комнат",
+     "endFrom": "а",
+     "endTo": "е",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": true
+    },
+    "audioTile": "aa0bf05959e3.mp3",
+    "audioPhrase": "7c80765651d0.mp3"
+   },
+   {
+    "tile": "квартира",
+    "tileStress": 5,
+    "fr": "l'appartement",
+    "phraseFr": "Le chat est dans l'appartement.",
+    "phrase": "Кошка в квартире.",
+    "morph": {
+     "from": "квартира",
+     "to": "квартире",
+     "stem": "квартир",
+     "endFrom": "а",
+     "endTo": "е",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": true
+    },
+    "audioTile": "0df8be89585d.mp3",
+    "audioPhrase": "f3527deefb9a.mp3"
+   },
+   {
+    "tile": "сумка",
+    "tileStress": 1,
+    "fr": "le sac",
+    "phraseFr": "Le chat est dans le sac.",
+    "phrase": "Кошка в сумке.",
+    "morph": {
+     "from": "сумка",
+     "to": "сумке",
+     "stem": "сумк",
+     "endFrom": "а",
+     "endTo": "е",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": true
+    },
+    "audioTile": "bd091b68c1ca.mp3",
+    "audioPhrase": "bac7871c2397.mp3"
+   },
+   {
+    "tile": "коробка",
+    "tileStress": 3,
+    "fr": "la boîte",
+    "phraseFr": "Le chat est dans la boîte.",
+    "phrase": "Кошка в коробке.",
+    "morph": {
+     "from": "коробка",
+     "to": "коробке",
+     "stem": "коробк",
+     "endFrom": "а",
+     "endTo": "е",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": true
+    },
+    "audioTile": "92088058ade3.mp3",
+    "audioPhrase": "4308befcb77c.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Dis que le chat est dans le sac.",
+   "answer": "сумка"
+  },
+  {
+   "type": "pick",
+   "fr": "Dis que le chat est dans la boîte.",
+   "answer": "коробка"
+  }
+ ],
+ "grammar": [
+  "а где лука будет спать",
+  "а где туалет",
+  "а ужинать мы будем на кухне",
+  "вот моя квартира",
+  "вот моя квартира проходите",
+  "где моя сумка на кухне",
+  "здесь на диване",
+  "какая большая квартира",
+  "кошка на диване",
+  "моя сестра в москве а я в петербурге",
+  "отлично а ужинать мы будем на кухне",
+  "туалет там направо",
+  "это моя комната а это кухня",
+  "[unk]"
+ ],
+ "cando": [
+  "décrire un appartement",
+  "demander où sont les toilettes",
+  "dire où se trouve quelque chose"
+ ],
+ "glossary": {
+  "здравствуйте": "bonjour (poli)",
+  "я": "je, moi",
+  "ты": "tu",
+  "вы": "vous",
+  "да": "oui",
+  "нет": "non",
+  "а": "et, mais",
+  "и": "et",
+  "это": "c'est, voici",
+  "не": "ne… pas",
+  "в": "dans, à",
+  "на": "sur, en",
+  "что": "quoi, que",
+  "как": "comment, comme",
+  "где": "où",
+  "очень": "très",
+  "спасибо": "merci",
+  "пожалуйста": "s'il te plaît / je t'en prie",
+  "хорошо": "bien, d'accord",
+  "привет": "salut",
+  "лука": "Luka (prénom)",
+  "маша": "Macha (prénom)",
+  "олег": "Oleg (prénom)",
+  "анна": "Anna (prénom)",
+  "у": "chez",
+  "меня": "moi (у меня = j'ai)",
+  "тебя": "toi (у тебя = tu as)",
+  "есть": "il y a",
+  "мой": "mon",
+  "моя": "ma",
+  "мне": "à moi",
+  "тоже": "aussi",
+  "сегодня": "aujourd'hui",
+  "завтра": "demain",
+  "вчера": "hier",
+  "потом": "puis, ensuite",
+  "давай": "allons-y, faisons",
+  "вот": "voici",
+  "квартира": "appartement",
+  "квартире": "appartement (après в)",
+  "проходите": "entrez",
+  "какая": "quelle",
+  "большая": "grande",
+  "большой": "grand",
+  "комната": "chambre, pièce",
+  "комнате": "chambre (après в)",
+  "кухня": "cuisine",
+  "кухне": "cuisine (на кухне)",
+  "туалет": "toilettes",
+  "там": "là-bas",
+  "направо": "à droite",
+  "будет": "(il) sera / va",
+  "спать": "dormir",
+  "сплю": "(je) dors",
+  "здесь": "ici",
+  "диване": "canapé (après на)",
+  "диван": "canapé",
+  "отлично": "parfait",
+  "ужинать": "dîner",
+  "мы": "nous",
+  "будем": "(nous) allons",
+  "антон": "Anton (prénom)",
+  "кошка": "chat",
+  "сумка": "sac",
+  "сумке": "sac (après в)",
+  "коробка": "boîte",
+  "коробке": "boîte (après в)",
+  "сестра": "sœur",
+  "москве": "Moscou (après в)",
+  "петербурге": "Saint-Pétersbourg (après в)"
+ },
+ "unlocks": [
+  {
+   "case": "loct",
+   "gender": "femn",
+   "from": "комната",
+   "to": "комнате"
+  }
+ ],
+ "items": [
+  {
+   "id": "21-appartement:flat",
+   "ru": "Вот моя квартира.",
+   "fr": "Voici mon appartement.",
+   "tokens": [
+    {
+     "t": "Вот",
+     "s": 1,
+     "w": true,
+     "a": "a716dd666e5a.mp3",
+     "l": "вот"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "моя",
+     "s": 2,
+     "w": true,
+     "a": "256d62a930d9.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "квартира",
+     "s": 5,
+     "w": true,
+     "a": "0df8be89585d.mp3",
+     "l": "квартира"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "587c8abe533b.mp3"
+  },
+  {
+   "id": "21-appartement:bigflat",
+   "ru": "Какая большая квартира!",
+   "fr": "Quel grand appartement !",
+   "tokens": [
+    {
+     "t": "Какая",
+     "s": 3,
+     "w": true,
+     "a": "1cdce61f032f.mp3",
+     "l": "какой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "большая",
+     "s": 5,
+     "w": true,
+     "a": "5175ff563ece.mp3",
+     "l": "больший"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "квартира",
+     "s": 5,
+     "w": true,
+     "a": "0df8be89585d.mp3",
+     "l": "квартира"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "54fdf842d37b.mp3"
+  },
+  {
+   "id": "21-appartement:room",
+   "ru": "Это моя комната, а это кухня.",
+   "fr": "Ça, c'est ma chambre, et ça, c'est la cuisine.",
+   "tokens": [
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "моя",
+     "s": 2,
+     "w": true,
+     "a": "256d62a930d9.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "комната",
+     "s": 1,
+     "w": true,
+     "a": "aa0bf05959e3.mp3",
+     "l": "комната"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "а",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кухня",
+     "s": 1,
+     "w": true,
+     "a": "7d582e124e17.mp3",
+     "l": "кухня"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "daa294fbdadc.mp3"
+  },
+  {
+   "id": "21-appartement:toilet",
+   "ru": "А где туалет?",
+   "fr": "Et où sont les toilettes ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "туалет",
+     "s": 4,
+     "w": true,
+     "a": "c3b54253b6cd.mp3",
+     "l": "туалет"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "fe77b3aa1743.mp3"
+  },
+  {
+   "id": "21-appartement:there",
+   "ru": "Туалет там, направо.",
+   "fr": "Les toilettes sont là-bas, à droite.",
+   "tokens": [
+    {
+     "t": "Туалет",
+     "s": 4,
+     "w": true,
+     "a": "c3b54253b6cd.mp3",
+     "l": "туалет"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "там",
+     "s": 1,
+     "w": true,
+     "a": "a93f0ec75463.mp3",
+     "l": "там"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "направо",
+     "s": 4,
+     "w": true,
+     "a": "d56915cee3b9.mp3",
+     "l": "направо"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "b3a23dc4d4d9.mp3"
+  },
+  {
+   "id": "21-appartement:sleep",
+   "ru": "А где Лука будет спать?",
+   "fr": "Et où va dormir Luka ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "будет",
+     "s": 1,
+     "w": true,
+     "a": "87f092448e66.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "спать",
+     "s": 2,
+     "w": true,
+     "a": "25c37d17942f.mp3",
+     "l": "спать"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "46874b20bfaf.mp3"
+  },
+  {
+   "id": "21-appartement:sofa",
+   "ru": "Здесь, на диване.",
+   "fr": "Ici, sur le canapé.",
+   "tokens": [
+    {
+     "t": "Здесь",
+     "s": 2,
+     "w": true,
+     "a": "5dc51c8ef3d7.mp3",
+     "l": "здесь"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "диване",
+     "s": 3,
+     "w": true,
+     "a": "cd14d28ccb21.mp3",
+     "l": "диван"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "5dcf5c616a3d.mp3"
+  },
+  {
+   "id": "21-appartement:kitchen",
+   "ru": "А ужинать мы будем на кухне.",
+   "fr": "Et on va dîner dans la cuisine.",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ужинать",
+     "s": 0,
+     "w": true,
+     "a": "59c624e6a33e.mp3",
+     "l": "ужинать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мы",
+     "s": 1,
+     "w": true,
+     "a": "a234675be3c5.mp3",
+     "l": "мы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "будем",
+     "s": 1,
+     "w": true,
+     "a": "56b90073e866.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кухне",
+     "s": 1,
+     "w": true,
+     "a": "fbf274a930c0.mp3",
+     "l": "кухня"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ef2f52a26b47.mp3"
+  },
+  {
+   "id": "21-appartement:c1",
+   "ru": "Моя сестра в Москве, а я в Петербурге.",
+   "fr": "Ma sœur est à Moscou, et moi, je suis à Saint-Pétersbourg.",
+   "tokens": [
+    {
+     "t": "Моя",
+     "s": 2,
+     "w": true,
+     "a": "256d62a930d9.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сестра",
+     "s": 5,
+     "w": true,
+     "a": "76ae2fd8219b.mp3",
+     "l": "сестра"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Москве",
+     "s": 5,
+     "w": true,
+     "a": "93a66821e1ad.mp3",
+     "l": "москва"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "а",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Петербурге",
+     "s": 6,
+     "w": true,
+     "a": "b6acec023825.mp3",
+     "l": "петербург"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "fa1713bd009b.mp3"
+  },
+  {
+   "id": "21-appartement:c2",
+   "ru": "Кошка на диване.",
+   "fr": "Le chat est sur le canapé.",
+   "tokens": [
+    {
+     "t": "Кошка",
+     "s": 1,
+     "w": true,
+     "a": "cf1247f1fdf0.mp3",
+     "l": "кошка"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "диване",
+     "s": 3,
+     "w": true,
+     "a": "cd14d28ccb21.mp3",
+     "l": "диван"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "3cf5da8f5ca8.mp3"
+  },
+  {
+   "id": "21-appartement:c3",
+   "ru": "Где моя сумка? На кухне?",
+   "fr": "Où est mon sac ? Dans la cuisine ?",
+   "tokens": [
+    {
+     "t": "Где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "моя",
+     "s": 2,
+     "w": true,
+     "a": "256d62a930d9.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сумка",
+     "s": 1,
+     "w": true,
+     "a": "bd091b68c1ca.mp3",
+     "l": "сумка"
+    },
+    {
+     "t": "? ",
+     "w": false
+    },
+    {
+     "t": "На",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кухне",
+     "s": 1,
+     "w": true,
+     "a": "fbf274a930c0.mp3",
+     "l": "кухня"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "ad7c0f7bb3fb.mp3"
+  }
+ ],
+ "hasAudio": false
+}

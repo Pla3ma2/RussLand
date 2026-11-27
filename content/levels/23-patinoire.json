@@ -1,0 +1,445 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "23-patinoire",
+  "order": 23,
+  "titleFr": "À la patinoire",
+  "titleRu": "На катке",
+  "emoji": "⛸️",
+  "sceneFr": "Le 2 janvier, Anton emmène Luka et Macha à la patinoire. Luka n'a jamais patiné…",
+  "dialogue": [
+    {
+      "speaker": "anton",
+      "ru": "Пойдём на каток!",
+      "fr": "Allons à la patinoire !"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Но я не умею кататься на коньках.",
+      "fr": "Mais je ne sais pas patiner."
+    },
+    {
+      "speaker": "anton",
+      "ru": "Ничего, я могу помочь.",
+      "fr": "Pas grave, je peux t'aider."
+    },
+    {
+      "speaker": "masha",
+      "ru": "Это просто! Смотри!",
+      "fr": "C'est facile ! Regarde !"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Антон, ты можешь мне помочь?",
+      "fr": "Anton, tu peux m'aider ?"
+    },
+    {
+      "speaker": "anton",
+      "ru": "Конечно! Дай руку.",
+      "fr": "Bien sûr ! Donne-moi la main."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Ой! Я упал!",
+      "fr": "Aïe ! Je suis tombé !"
+    },
+    {
+      "speaker": "masha",
+      "ru": "Ничего! Ещё раз!",
+      "fr": "Pas grave ! Encore une fois !"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "rink",
+      "speaker": "anton",
+      "ru": "Пойдём на каток!",
+      "fr": "Allons à la patinoire !",
+      "noteFr": "« Каток » = patinoire. « Пойдём » = allons. Tu connais « давай пойдём ».",
+      "gap": {
+        "word": "каток",
+        "distractors": [
+          "катке",
+          "помочь"
+        ],
+        "whyFr": "On y va : « на каток » (forme de base). « На катке », c'est quand on y est."
+      }
+    },
+    {
+      "id": "cant",
+      "speaker": "luka",
+      "ru": "Но я не умею кататься на коньках.",
+      "fr": "Mais je ne sais pas patiner.",
+      "noteFr": "« Уметь » = savoir faire. « Я не умею » = je ne sais pas (faire). « Кататься на коньках » = patiner.",
+      "gap": {
+        "word": "умею",
+        "distractors": [
+          "можешь",
+          "каток"
+        ],
+        "whyFr": "Pour une compétence (savoir patiner) : « умею ». « Могу », c'est « je peux »."
+      }
+    },
+    {
+      "id": "canhelp",
+      "speaker": "anton",
+      "ru": "Ничего, я могу помочь.",
+      "fr": "Pas grave, je peux t'aider.",
+      "noteFr": "« Я могу » = je peux. « Помочь » = aider.",
+      "gap": {
+        "word": "могу",
+        "distractors": [
+          "можешь",
+          "умею"
+        ],
+        "whyFr": "Avec « я » : « могу ». « Можешь », c'est pour « ты »."
+      },
+      "orders": [
+        "ничего я могу помочь"
+      ]
+    },
+    {
+      "id": "easy",
+      "speaker": "masha",
+      "ru": "Это просто! Смотри!",
+      "fr": "C'est facile ! Regarde !",
+      "noteFr": "« Просто » = facile, simple. « Смотри ! » = regarde !",
+      "gap": {
+        "word": "просто",
+        "distractors": [
+          "помочь",
+          "руку"
+        ]
+      }
+    },
+    {
+      "id": "canyou",
+      "speaker": "luka",
+      "ru": "Антон, ты можешь мне помочь?",
+      "fr": "Anton, tu peux m'aider ?",
+      "noteFr": "« Ты можешь » = tu peux. « Мне помочь » = m'aider.",
+      "gap": {
+        "word": "можешь",
+        "distractors": [
+          "могу",
+          "умею"
+        ],
+        "whyFr": "Avec « ты » : « можешь ». « Могу », c'est pour « я »."
+      },
+      "orders": [
+        "антон ты можешь мне помочь",
+        "антон ты можешь помочь мне"
+      ]
+    },
+    {
+      "id": "hand",
+      "speaker": "anton",
+      "ru": "Конечно! Дай руку.",
+      "fr": "Bien sûr ! Donne-moi la main.",
+      "noteFr": "« Дай » = donne (à « ты »). « Рука » = main → « дай руку » (-у).",
+      "gap": {
+        "word": "руку",
+        "distractors": [
+          "рука",
+          "каток"
+        ],
+        "whyFr": "On donne la main : le bleu, « рука » → « руку »."
+      }
+    },
+    {
+      "id": "fell",
+      "speaker": "luka",
+      "ru": "Ой! Я упал!",
+      "fr": "Aïe ! Je suis tombé !",
+      "noteFr": "« Я упал » = je suis tombé (homme). Une femme dirait « я упала ».",
+      "gap": {
+        "word": "упал",
+        "distractors": [
+          "упала",
+          "могу"
+        ],
+        "whyFr": "Luka est un homme : « упал ». « Упала », c'est pour une femme."
+      }
+    },
+    {
+      "id": "again",
+      "speaker": "masha",
+      "ru": "Ничего! Ещё раз!",
+      "fr": "Pas grave ! Encore une fois !",
+      "noteFr": "« Ещё раз » = encore une fois.",
+      "gap": {
+        "word": "раз",
+        "distractors": [
+          "каток",
+          "упал"
+        ]
+      }
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Je ne sais pas…",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "rink",
+            "cant"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "canhelp",
+            "easy"
+          ],
+          "review": [
+            "cant"
+          ]
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "titleFr": "Tu peux m'aider ?",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "rink",
+            "cant",
+            "canhelp"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "canyou",
+            "hand"
+          ],
+          "review": [
+            "canhelp",
+            "easy"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "fell",
+            "again"
+          ],
+          "review": [
+            "canyou"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "anton",
+      "fr": [
+        "« Мочь » = pouvoir : я могу, ты можешь, он может, мы можем, вы можете, они могут.",
+        "Comme « хочу », on ajoute un verbe à l'infinitif : « я могу помочь », « ты можешь говорить медленнее ? »."
+      ]
+    },
+    {
+      "by": "anton",
+      "fr": [
+        "Attention : « уметь » = savoir faire (une compétence) : « я умею кататься », « я не умею плавать ».",
+        "« Мочь » = pouvoir (c'est possible, j'ai le temps, j'ai le droit) : « я не могу, я работаю »."
+      ]
+    }
+  ],
+  "explore": {
+    "type": "person",
+    "speaker": "anton",
+    "verb": "мочь",
+    "frame": "___ {V} помочь.",
+    "frameFr": "___ pouvoir aider.",
+    "color": "#8e44ad",
+    "hintFr": "Change la personne et écoute le verbe : il change beaucoup !",
+    "words": [
+      {
+        "tile": "я",
+        "fr": "je",
+        "phraseFr": "Je peux aider."
+      },
+      {
+        "tile": "ты",
+        "fr": "tu",
+        "phraseFr": "Tu peux aider."
+      },
+      {
+        "tile": "он",
+        "fr": "il",
+        "phraseFr": "Il peut aider."
+      },
+      {
+        "tile": "мы",
+        "fr": "nous",
+        "phraseFr": "Nous pouvons aider."
+      },
+      {
+        "tile": "вы",
+        "fr": "vous",
+        "phraseFr": "Vous pouvez aider."
+      },
+      {
+        "tile": "они",
+        "fr": "ils, elles",
+        "phraseFr": "Ils peuvent aider."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Dis : « Nous pouvons aider. »",
+      "answer": "мы"
+    },
+    {
+      "type": "pick",
+      "fr": "Dis : « Vous pouvez aider. »",
+      "answer": "вы"
+    }
+  ],
+  "cando": [
+    "dire ce que tu sais faire",
+    "demander de l'aide",
+    "dire « je peux / je ne peux pas »"
+  ],
+  "unlocks": [],
+  "glossary": {
+    "здравствуйте": "bonjour (poli)",
+    "я": "je, moi",
+    "ты": "tu",
+    "вы": "vous",
+    "да": "oui",
+    "нет": "non",
+    "а": "et, mais",
+    "и": "et",
+    "это": "c'est, voici",
+    "не": "ne… pas",
+    "в": "dans, à",
+    "на": "sur, en",
+    "что": "quoi, que",
+    "как": "comment, comme",
+    "где": "où",
+    "очень": "très",
+    "спасибо": "merci",
+    "пожалуйста": "s'il te plaît / je t'en prie",
+    "хорошо": "bien, d'accord",
+    "привет": "salut",
+    "лука": "Luka (prénom)",
+    "маша": "Macha (prénom)",
+    "олег": "Oleg (prénom)",
+    "анна": "Anna (prénom)",
+    "у": "chez",
+    "меня": "moi (у меня = j'ai)",
+    "тебя": "toi (у тебя = tu as)",
+    "есть": "il y a",
+    "мой": "mon",
+    "моя": "ma",
+    "мне": "à moi",
+    "тоже": "aussi",
+    "сегодня": "aujourd'hui",
+    "завтра": "demain",
+    "вчера": "hier",
+    "потом": "puis, ensuite",
+    "давай": "allons-y, faisons",
+    "пойдём": "allons",
+    "пойдем": "allons",
+    "каток": "patinoire",
+    "катке": "patinoire (on y est)",
+    "но": "mais",
+    "умею": "(je) sais (faire)",
+    "кататься": "glisser, faire du…",
+    "коньках": "patins (на коньках)",
+    "ничего": "pas grave",
+    "могу": "(je) peux",
+    "можешь": "(tu) peux",
+    "может": "(il) peut",
+    "можем": "(nous) pouvons",
+    "можете": "(vous) pouvez",
+    "могут": "(ils) peuvent",
+    "помочь": "aider",
+    "просто": "facile, simple",
+    "смотри": "regarde !",
+    "антон": "Anton (prénom)",
+    "конечно": "bien sûr",
+    "дай": "donne !",
+    "руку": "main (après дай)",
+    "рука": "main",
+    "ой": "aïe, oh",
+    "упал": "(je suis) tombé",
+    "упала": "(je suis) tombée",
+    "ещё": "encore",
+    "раз": "fois",
+    "он": "il",
+    "мы": "nous",
+    "они": "ils, elles"
+  },
+  "combos": [
+    {
+      "ru": "Я не могу, я работаю.",
+      "fr": "Je ne peux pas, je travaille.",
+      "extra": [
+        "умею"
+      ],
+      "orders": [
+        "я не могу я работаю"
+      ]
+    },
+    {
+      "ru": "Ты можешь говорить медленнее?",
+      "fr": "Tu peux parler plus lentement ?",
+      "extra": [
+        "могу"
+      ],
+      "orders": [
+        "ты можешь говорить медленнее",
+        "ты можешь медленнее говорить"
+      ]
+    },
+    {
+      "ru": "Я не умею играть в футбол.",
+      "fr": "Je ne sais pas jouer au foot.",
+      "extra": [
+        "могу"
+      ]
+    }
+  ]
+}

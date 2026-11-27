@@ -1,0 +1,2328 @@
+{
+ "version": 2,
+ "id": "19-moscou",
+ "order": 19,
+ "titleFr": "Bienvenue à Moscou",
+ "titleRu": "Москва",
+ "emoji": "🏰",
+ "sceneFr": "Le 30 décembre, Luka et Macha arrivent à Moscou. Anton, le frère de Macha, les attend à la gare.",
+ "learner": "luka",
+ "speakers": {
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
+  },
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  },
+  "anton": {
+   "name": "Антон",
+   "nameFr": "Anton",
+   "color": "#457b9d"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "anton",
+   "ru": "Маша! Привет! Как доехали?",
+   "fr": "Macha ! Salut ! Le voyage s'est bien passé ?",
+   "tokens": [
+    {
+     "t": "Маша",
+     "s": 1,
+     "w": true,
+     "a": "db2f8c7ea687.mp3",
+     "l": "маша"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Привет",
+     "s": 4,
+     "w": true,
+     "a": "465595078eb6.mp3",
+     "l": "привет"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Как",
+     "s": 1,
+     "w": true,
+     "a": "5211d8f6c0b1.mp3",
+     "l": "как"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "доехали",
+     "s": 2,
+     "w": true,
+     "a": "236e3dc6788f.mp3",
+     "l": "доехать"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "cd6fccf951a2.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Хорошо! Антон, это Лука, мой друг.",
+   "fr": "Bien ! Anton, voici Luka, mon ami.",
+   "tokens": [
+    {
+     "t": "Хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Антон",
+     "s": 3,
+     "w": true,
+     "a": "8380dea9f409.mp3",
+     "l": "антон"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "мой",
+     "s": 1,
+     "w": true,
+     "a": "5e69d8e4000b.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "друг",
+     "s": 2,
+     "w": true,
+     "a": "fe74b24be4f9.mp3",
+     "l": "друг"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ab14c58a8864.mp3"
+  },
+  {
+   "speaker": "anton",
+   "ru": "Очень приятно, Лука! Добро пожаловать в Москву!",
+   "fr": "Enchanté, Luka ! Bienvenue à Moscou !",
+   "tokens": [
+    {
+     "t": "Очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "приятно",
+     "s": 3,
+     "w": true,
+     "a": "5728d5aa0fde.mp3",
+     "l": "приятно"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Добро",
+     "s": 4,
+     "w": true,
+     "a": "6d662a4c13ce.mp3",
+     "l": "добро"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пожаловать",
+     "s": 3,
+     "w": true,
+     "a": "38c1b0c1cbbf.mp3",
+     "l": "пожаловать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Москву",
+     "s": 5,
+     "w": true,
+     "a": "5ad93f99f6c7.mp3",
+     "l": "москва"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "8ed97c458764.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Спасибо! Москва — очень большой город.",
+   "fr": "Merci ! Moscou, c'est une très grande ville.",
+   "tokens": [
+    {
+     "t": "Спасибо",
+     "s": 4,
+     "w": true,
+     "a": "84fecfa1b01c.mp3",
+     "l": "спасибо"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Москва",
+     "s": 5,
+     "w": true,
+     "a": "84f280146c14.mp3",
+     "l": "москва"
+    },
+    {
+     "t": " — ",
+     "w": false
+    },
+    {
+     "t": "очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "большой",
+     "s": 5,
+     "w": true,
+     "a": "d648a4d6e7b7.mp3",
+     "l": "большой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "город",
+     "s": 1,
+     "w": true,
+     "a": "ac382b4fb5d3.mp3",
+     "l": "город"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ea2a8d568d93.mp3"
+  },
+  {
+   "speaker": "anton",
+   "ru": "Да, и очень красивый. Это Красная площадь.",
+   "fr": "Oui, et très belle. Voici la place Rouge.",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "красивый",
+     "s": 4,
+     "w": true,
+     "a": "9860d85e3802.mp3",
+     "l": "красивый"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Красная",
+     "s": 2,
+     "w": true,
+     "a": "1f333bda4f43.mp3",
+     "l": "красный"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "площадь",
+     "s": 2,
+     "w": true,
+     "a": "b78a3a6ccfaf.mp3",
+     "l": "площадь"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "fc17e63e903a.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Какая большая площадь!",
+   "fr": "Quelle grande place !",
+   "tokens": [
+    {
+     "t": "Какая",
+     "s": 3,
+     "w": true,
+     "a": "1cdce61f032f.mp3",
+     "l": "какой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "большая",
+     "s": 5,
+     "w": true,
+     "a": "5175ff563ece.mp3",
+     "l": "больший"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "площадь",
+     "s": 2,
+     "w": true,
+     "a": "b78a3a6ccfaf.mp3",
+     "l": "площадь"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "4e76680a6ae1.mp3"
+  },
+  {
+   "speaker": "anton",
+   "ru": "А это Кремль. Он очень старый.",
+   "fr": "Et ça, c'est le Kremlin. Il est très vieux.",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Кремль",
+     "s": 2,
+     "w": true,
+     "a": "a83c3542b37f.mp3",
+     "l": "кремль"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Он",
+     "s": 0,
+     "w": true,
+     "a": "3adf56884a0b.mp3",
+     "l": "он"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "старый",
+     "s": 2,
+     "w": true,
+     "a": "0a668f2e444d.mp3",
+     "l": "старый"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "70af5fdca841.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Как интересно! Я хочу всё посмотреть!",
+   "fr": "Comme c'est intéressant ! Je veux tout voir !",
+   "tokens": [
+    {
+     "t": "Как",
+     "s": 1,
+     "w": true,
+     "a": "5211d8f6c0b1.mp3",
+     "l": "как"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "интересно",
+     "s": 5,
+     "w": true,
+     "a": "a60fbdeaa4d8.mp3",
+     "l": "интересно"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "всё",
+     "s": 2,
+     "w": true,
+     "a": "987a246b39e5.mp3",
+     "l": "всё"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "посмотреть",
+     "s": 7,
+     "w": true,
+     "a": "f8a27dac0262.mp3",
+     "l": "посмотреть"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "1451d30b95c3.mp3"
+  }
+ ],
+ "phrases": {
+  "arrived": {
+   "speaker": "anton",
+   "ru": "Как доехали?",
+   "fr": "Le voyage s'est bien passé ?",
+   "tokens": [
+    {
+     "t": "Как",
+     "s": 1,
+     "w": true,
+     "a": "5211d8f6c0b1.mp3",
+     "l": "как"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "доехали",
+     "s": 2,
+     "w": true,
+     "a": "236e3dc6788f.mp3",
+     "l": "доехать"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "9e04763722b4.mp3",
+   "id": "arrived",
+   "noteFr": "Mot à mot : « comment êtes-vous arrivés ? ». La question qu'on pose à la gare.",
+   "gap": {
+    "index": 2,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "старый",
+      "a": "0a668f2e444d.mp3",
+      "s": 2
+     },
+     {
+      "t": "пожаловать",
+      "a": "38c1b0c1cbbf.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "friend": {
+   "speaker": "masha",
+   "ru": "Антон, это Лука, мой друг.",
+   "fr": "Anton, voici Luka, mon ami.",
+   "tokens": [
+    {
+     "t": "Антон",
+     "s": 3,
+     "w": true,
+     "a": "8380dea9f409.mp3",
+     "l": "антон"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "мой",
+     "s": 1,
+     "w": true,
+     "a": "5e69d8e4000b.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "друг",
+     "s": 2,
+     "w": true,
+     "a": "fe74b24be4f9.mp3",
+     "l": "друг"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "e01edc1a01ae.mp3",
+   "id": "friend",
+   "noteFr": "Tu connais « это мой друг » depuis le dîner chez Macha.",
+   "gap": {
+    "index": 8,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "город",
+      "a": "ac382b4fb5d3.mp3",
+      "s": 1
+     },
+     {
+      "t": "кремль",
+      "a": "a83c3542b37f.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "welcome": {
+   "speaker": "anton",
+   "ru": "Добро пожаловать в Москву!",
+   "fr": "Bienvenue à Moscou !",
+   "tokens": [
+    {
+     "t": "Добро",
+     "s": 4,
+     "w": true,
+     "a": "6d662a4c13ce.mp3",
+     "l": "добро"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пожаловать",
+     "s": 3,
+     "w": true,
+     "a": "38c1b0c1cbbf.mp3",
+     "l": "пожаловать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Москву",
+     "s": 5,
+     "w": true,
+     "a": "5ad93f99f6c7.mp3",
+     "l": "москва"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "d8d60e92d181.mp3",
+   "id": "welcome",
+   "noteFr": "« Добро пожаловать » = bienvenue. On y va / on y arrive : « в Москву ».",
+   "gap": {
+    "index": 6,
+    "whyFr": "Après « добро пожаловать в », c'est la direction : « в Москву » (-у).",
+    "distractors": [
+     {
+      "t": "москве",
+      "a": "93a66821e1ad.mp3",
+      "s": 5
+     },
+     {
+      "t": "город",
+      "a": "ac382b4fb5d3.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "big": {
+   "speaker": "luka",
+   "ru": "Москва — очень большой город.",
+   "fr": "Moscou, c'est une très grande ville.",
+   "tokens": [
+    {
+     "t": "Москва",
+     "s": 5,
+     "w": true,
+     "a": "84f280146c14.mp3",
+     "l": "москва"
+    },
+    {
+     "t": " — ",
+     "w": false
+    },
+    {
+     "t": "очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "большой",
+     "s": 5,
+     "w": true,
+     "a": "d648a4d6e7b7.mp3",
+     "l": "большой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "город",
+     "s": 1,
+     "w": true,
+     "a": "ac382b4fb5d3.mp3",
+     "l": "город"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ec61be633b1d.mp3",
+   "id": "big",
+   "noteFr": "« Город » (ville) est masculin en russe : « большой город ». Le tiret « — » remplace le verbe « être ».",
+   "gap": {
+    "index": 4,
+    "whyFr": "« Город » est masculin : « большой ». « Большая », c'est pour un mot féminin.",
+    "distractors": [
+     {
+      "t": "большая",
+      "a": "5175ff563ece.mp3",
+      "s": 5
+     },
+     {
+      "t": "площадь",
+      "a": "b78a3a6ccfaf.mp3",
+      "s": 2
+     }
+    ]
+   },
+   "orders": [
+    "москва очень большой город"
+   ]
+  },
+  "square": {
+   "speaker": "anton",
+   "ru": "Это Красная площадь.",
+   "fr": "Voici la place Rouge.",
+   "tokens": [
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Красная",
+     "s": 2,
+     "w": true,
+     "a": "1f333bda4f43.mp3",
+     "l": "красный"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "площадь",
+     "s": 2,
+     "w": true,
+     "a": "b78a3a6ccfaf.mp3",
+     "l": "площадь"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "325fd9354110.mp3",
+   "id": "square",
+   "noteFr": "« Площадь » = place (féminin). « Красная » = rouge (autrefois : « belle »).",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "город",
+      "a": "ac382b4fb5d3.mp3",
+      "s": 1
+     },
+     {
+      "t": "кремль",
+      "a": "a83c3542b37f.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "bigsquare": {
+   "speaker": "luka",
+   "ru": "Какая большая площадь!",
+   "fr": "Quelle grande place !",
+   "tokens": [
+    {
+     "t": "Какая",
+     "s": 3,
+     "w": true,
+     "a": "1cdce61f032f.mp3",
+     "l": "какой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "большая",
+     "s": 5,
+     "w": true,
+     "a": "5175ff563ece.mp3",
+     "l": "больший"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "площадь",
+     "s": 2,
+     "w": true,
+     "a": "b78a3a6ccfaf.mp3",
+     "l": "площадь"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "4e76680a6ae1.mp3",
+   "id": "bigsquare",
+   "noteFr": "« Площадь » est féminin : « какая большая ». Attention, ce mot finit par -ь mais il est féminin.",
+   "gap": {
+    "index": 2,
+    "whyFr": "« Площадь » est féminin : « большая » (-ая).",
+    "distractors": [
+     {
+      "t": "большой",
+      "a": "d648a4d6e7b7.mp3",
+      "s": 5
+     },
+     {
+      "t": "город",
+      "a": "ac382b4fb5d3.mp3",
+      "s": 1
+     }
+    ]
+   },
+   "orders": [
+    "какая большая площадь"
+   ]
+  },
+  "old": {
+   "speaker": "anton",
+   "ru": "А это Кремль. Он очень старый.",
+   "fr": "Et ça, c'est le Kremlin. Il est très vieux.",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Кремль",
+     "s": 2,
+     "w": true,
+     "a": "a83c3542b37f.mp3",
+     "l": "кремль"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Он",
+     "s": 0,
+     "w": true,
+     "a": "3adf56884a0b.mp3",
+     "l": "он"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "старый",
+     "s": 2,
+     "w": true,
+     "a": "0a668f2e444d.mp3",
+     "l": "старый"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "70af5fdca841.mp3",
+   "id": "old",
+   "noteFr": "« Старый » = vieux. « Кремль » est masculin : « он », « старый ».",
+   "gap": {
+    "index": 10,
+    "whyFr": "« Кремль » est masculin : « старый ». « Старая », c'est pour un mot féminin.",
+    "distractors": [
+     {
+      "t": "старая",
+      "a": "bd42225d5fff.mp3",
+      "s": 2
+     },
+     {
+      "t": "большая",
+      "a": "5175ff563ece.mp3",
+      "s": 5
+     }
+    ]
+   }
+  },
+  "all": {
+   "speaker": "luka",
+   "ru": "Как интересно! Я хочу всё посмотреть!",
+   "fr": "Comme c'est intéressant ! Je veux tout voir !",
+   "tokens": [
+    {
+     "t": "Как",
+     "s": 1,
+     "w": true,
+     "a": "5211d8f6c0b1.mp3",
+     "l": "как"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "интересно",
+     "s": 5,
+     "w": true,
+     "a": "a60fbdeaa4d8.mp3",
+     "l": "интересно"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "всё",
+     "s": 2,
+     "w": true,
+     "a": "987a246b39e5.mp3",
+     "l": "всё"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "посмотреть",
+     "s": 7,
+     "w": true,
+     "a": "f8a27dac0262.mp3",
+     "l": "посмотреть"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "1451d30b95c3.mp3",
+   "id": "all",
+   "noteFr": "« Всё » = tout. « Посмотреть » = voir, regarder.",
+   "gap": {
+    "index": 8,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "большой",
+      "a": "d648a4d6e7b7.mp3",
+      "s": 5
+     },
+     {
+      "t": "старый",
+      "a": "0a668f2e444d.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "c1": {
+   "speaker": "luka",
+   "ru": "Лион — очень красивый город.",
+   "fr": "Lyon est une très belle ville.",
+   "tokens": [
+    {
+     "t": "Лион",
+     "s": 2,
+     "w": true,
+     "a": "f03c5a202fc6.mp3",
+     "l": "лион"
+    },
+    {
+     "t": " — ",
+     "w": false
+    },
+    {
+     "t": "очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "красивый",
+     "s": 4,
+     "w": true,
+     "a": "9860d85e3802.mp3",
+     "l": "красивый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "город",
+     "s": 1,
+     "w": true,
+     "a": "ac382b4fb5d3.mp3",
+     "l": "город"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "e24782d927a9.mp3",
+   "id": "c1",
+   "noteFr": "",
+   "orders": [
+    "лион очень красивый город"
+   ],
+   "combo": {
+    "from": [
+     "Chez des amis",
+     "Faire connaissance",
+     "Bienvenue à Moscou"
+    ],
+    "extra": [
+     {
+      "t": "большая",
+      "a": "5175ff563ece.mp3",
+      "s": 5
+     }
+    ]
+   }
+  },
+  "c2": {
+   "speaker": "luka",
+   "ru": "Это мой друг. Он из Франции.",
+   "fr": "C'est mon ami. Il vient de France.",
+   "tokens": [
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мой",
+     "s": 1,
+     "w": true,
+     "a": "5e69d8e4000b.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "друг",
+     "s": 2,
+     "w": true,
+     "a": "fe74b24be4f9.mp3",
+     "l": "друг"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Он",
+     "s": 0,
+     "w": true,
+     "a": "3adf56884a0b.mp3",
+     "l": "он"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "из",
+     "s": 0,
+     "w": true,
+     "a": "176d0e85dfd2.mp3",
+     "l": "из"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Франции",
+     "s": 2,
+     "w": true,
+     "a": "d249934360f5.mp3",
+     "l": "франция"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "35e92f4fcc9a.mp3",
+   "id": "c2",
+   "noteFr": "",
+   "orders": [
+    "это мой друг он из франции"
+   ],
+   "combo": {
+    "from": [
+     "Où es-tu ?",
+     "Chez des amis",
+     "Ma famille",
+     "Faire connaissance"
+    ],
+    "extra": [
+     {
+      "t": "она",
+      "a": "bd63622a7f54.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "c3": {
+   "speaker": "luka",
+   "ru": "Я хочу посмотреть Кремль.",
+   "fr": "Je veux voir le Kremlin.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "посмотреть",
+     "s": 7,
+     "w": true,
+     "a": "f8a27dac0262.mp3",
+     "l": "посмотреть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Кремль",
+     "s": 2,
+     "w": true,
+     "a": "a83c3542b37f.mp3",
+     "l": "кремль"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "1358191c4359.mp3",
+   "id": "c3",
+   "noteFr": "",
+   "orders": [
+    "я хочу посмотреть кремль",
+    "кремль я хочу посмотреть"
+   ],
+   "combo": {
+    "from": [
+     "Faire connaissance",
+     "Au café",
+     "Acheter un bonnet",
+     "Bienvenue à Moscou"
+    ],
+    "extra": [
+     {
+      "t": "площадь",
+      "a": "b78a3a6ccfaf.mp3",
+      "s": 2
+     }
+    ]
+   }
+  }
+ },
+ "parts": [
+  {
+   "titleFr": "L'arrivée",
+   "steps": [
+    {
+     "type": "scene"
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "arrived",
+      "friend"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "welcome",
+      "big"
+     ],
+     "review": [
+      "friend"
+     ]
+    },
+    {
+     "type": "explore"
+    },
+    {
+     "type": "insight",
+     "index": 0
+    }
+   ]
+  },
+  {
+   "titleFr": "La place Rouge",
+   "steps": [
+    {
+     "type": "warmup",
+     "phrases": [
+      "welcome",
+      "big",
+      "friend"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "square",
+      "bigsquare"
+     ],
+     "review": [
+      "big"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "old",
+      "all"
+     ],
+     "review": [
+      "bigsquare",
+      "square"
+     ]
+    },
+    {
+     "type": "insight",
+     "index": 1
+    },
+    {
+     "type": "combine",
+     "phrases": [
+      "c1",
+      "c2",
+      "c3"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Joue la scène",
+   "steps": [
+    {
+     "type": "final"
+    },
+    {
+     "type": "roleplay"
+    }
+   ]
+  }
+ ],
+ "insights": [
+  {
+   "by": "anton",
+   "fr": [
+    "Les adjectifs suivent le genre du nom : masculin « большой город », « старый город » ; féminin « большая площадь », « старая площадь ».",
+    "Le plus souvent : masculin -ый / -ой, féminin -ая. Écoute la fin !"
+   ]
+  },
+  {
+   "by": "anton",
+   "fr": [
+    "Attention aux mots en -ь : certains sont masculins (« Кремль »), d'autres féminins (« площадь »). On les apprend avec un adjectif : « большая площадь ».",
+    "Le tiret « — » remplace souvent le verbe « être » : « Москва — большой город »."
+   ]
+  }
+ ],
+ "explore": {
+  "type": "plain",
+  "frameFr": "Moscou est une ville ___.",
+  "color": "#5c677d",
+  "hintFr": "Mets chaque adjectif dans la phrase et écoute. « Город » est masculin.",
+  "before": [
+   {
+    "t": "Москва",
+    "s": 5,
+    "w": true,
+    "a": "84f280146c14.mp3",
+    "l": "москва"
+   },
+   {
+    "t": " — ",
+    "w": false
+   }
+  ],
+  "after": [
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "город",
+    "s": 1,
+    "w": true,
+    "a": "ac382b4fb5d3.mp3",
+    "l": "город"
+   },
+   {
+    "t": ".",
+    "w": false
+   }
+  ],
+  "verb": null,
+  "words": [
+   {
+    "tile": "большой",
+    "tileStress": 5,
+    "fr": "grande",
+    "phraseFr": "Moscou est une grande ville.",
+    "phrase": "Москва — большой город.",
+    "morph": {
+     "from": "большой",
+     "to": "большой",
+     "stem": "большой",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": false
+    },
+    "audioTile": "d648a4d6e7b7.mp3",
+    "audioPhrase": "21520ac182c2.mp3"
+   },
+   {
+    "tile": "красивый",
+    "tileStress": 4,
+    "fr": "belle",
+    "phraseFr": "Moscou est une belle ville.",
+    "phrase": "Москва — красивый город.",
+    "morph": {
+     "from": "красивый",
+     "to": "красивый",
+     "stem": "красивый",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 4,
+     "stressTo": 4,
+     "changed": false
+    },
+    "audioTile": "9860d85e3802.mp3",
+    "audioPhrase": "4645a591f760.mp3"
+   },
+   {
+    "tile": "старый",
+    "tileStress": 2,
+    "fr": "vieille",
+    "phraseFr": "Moscou est une vieille ville.",
+    "phrase": "Москва — старый город.",
+    "morph": {
+     "from": "старый",
+     "to": "старый",
+     "stem": "старый",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": false
+    },
+    "audioTile": "0a668f2e444d.mp3",
+    "audioPhrase": "faa408132bf6.mp3"
+   },
+   {
+    "tile": "интересный",
+    "tileStress": 5,
+    "fr": "intéressante",
+    "phraseFr": "Moscou est une ville intéressante.",
+    "phrase": "Москва — интересный город.",
+    "morph": {
+     "from": "интересный",
+     "to": "интересный",
+     "stem": "интересный",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": false
+    },
+    "audioTile": "21a57090ece1.mp3",
+    "audioPhrase": "f7ee0e5ad9e0.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Dis que Moscou est une vieille ville.",
+   "answer": "старый"
+  },
+  {
+   "type": "pick",
+   "fr": "Dis que Moscou est une ville intéressante.",
+   "answer": "интересный"
+  }
+ ],
+ "grammar": [
+  "а это кремль он очень старый",
+  "антон это лука мой друг",
+  "да и очень красивый это красная площадь",
+  "добро пожаловать в москву",
+  "как доехали",
+  "как интересно я хочу всё посмотреть",
+  "какая большая площадь",
+  "лион  очень красивый город",
+  "маша привет как доехали",
+  "москва  очень большой город",
+  "очень приятно лука добро пожаловать в москву",
+  "спасибо москва  очень большой город",
+  "хорошо антон это лука мой друг",
+  "это красная площадь",
+  "это мой друг он из франции",
+  "я хочу посмотреть кремль",
+  "[unk]"
+ ],
+ "cando": [
+  "présenter un ami",
+  "décrire une ville",
+  "dire bienvenue"
+ ],
+ "glossary": {
+  "здравствуйте": "bonjour (poli)",
+  "я": "je, moi",
+  "ты": "tu",
+  "вы": "vous",
+  "да": "oui",
+  "нет": "non",
+  "а": "et, mais",
+  "и": "et",
+  "это": "c'est, voici",
+  "не": "ne… pas",
+  "в": "dans, à",
+  "на": "sur, en",
+  "что": "quoi, que",
+  "как": "comment",
+  "где": "où",
+  "очень": "très",
+  "спасибо": "merci",
+  "пожалуйста": "s'il te plaît / je t'en prie",
+  "хорошо": "bien, d'accord",
+  "привет": "salut",
+  "лука": "Luka (prénom)",
+  "маша": "Macha (prénom)",
+  "олег": "Oleg (prénom)",
+  "анна": "Anna (prénom)",
+  "у": "chez",
+  "меня": "moi (у меня = j'ai)",
+  "тебя": "toi (у тебя = tu as)",
+  "есть": "il y a",
+  "мой": "mon",
+  "моя": "ma",
+  "мне": "à moi",
+  "тоже": "aussi",
+  "сегодня": "aujourd'hui",
+  "завтра": "demain",
+  "вчера": "hier",
+  "потом": "puis, ensuite",
+  "давай": "allons-y, faisons",
+  "доехали": "(êtes) arrivés",
+  "антон": "Anton (prénom)",
+  "друг": "ami",
+  "приятно": "agréable",
+  "добро": "bien (добро пожаловать = bienvenue)",
+  "пожаловать": "(добро пожаловать = bienvenue)",
+  "москву": "Moscou (vers)",
+  "москве": "Moscou (on y est)",
+  "москва": "Moscou",
+  "большой": "grand",
+  "большая": "grande",
+  "город": "ville",
+  "красивый": "beau",
+  "красная": "rouge",
+  "площадь": "place",
+  "какая": "quelle",
+  "кремль": "Kremlin",
+  "он": "il",
+  "старый": "vieux",
+  "старая": "vieille",
+  "интересно": "intéressant",
+  "интересный": "intéressant",
+  "хочу": "(je) veux",
+  "все": "tout",
+  "посмотреть": "voir, regarder",
+  "лион": "Lyon",
+  "из": "de (provenance)",
+  "франции": "France"
+ },
+ "unlocks": [],
+ "items": [
+  {
+   "id": "19-moscou:arrived",
+   "ru": "Как доехали?",
+   "fr": "Le voyage s'est bien passé ?",
+   "tokens": [
+    {
+     "t": "Как",
+     "s": 1,
+     "w": true,
+     "a": "5211d8f6c0b1.mp3",
+     "l": "как"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "доехали",
+     "s": 2,
+     "w": true,
+     "a": "236e3dc6788f.mp3",
+     "l": "доехать"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "9e04763722b4.mp3"
+  },
+  {
+   "id": "19-moscou:friend",
+   "ru": "Антон, это Лука, мой друг.",
+   "fr": "Anton, voici Luka, mon ami.",
+   "tokens": [
+    {
+     "t": "Антон",
+     "s": 3,
+     "w": true,
+     "a": "8380dea9f409.mp3",
+     "l": "антон"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "мой",
+     "s": 1,
+     "w": true,
+     "a": "5e69d8e4000b.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "друг",
+     "s": 2,
+     "w": true,
+     "a": "fe74b24be4f9.mp3",
+     "l": "друг"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "e01edc1a01ae.mp3"
+  },
+  {
+   "id": "19-moscou:welcome",
+   "ru": "Добро пожаловать в Москву!",
+   "fr": "Bienvenue à Moscou !",
+   "tokens": [
+    {
+     "t": "Добро",
+     "s": 4,
+     "w": true,
+     "a": "6d662a4c13ce.mp3",
+     "l": "добро"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пожаловать",
+     "s": 3,
+     "w": true,
+     "a": "38c1b0c1cbbf.mp3",
+     "l": "пожаловать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Москву",
+     "s": 5,
+     "w": true,
+     "a": "5ad93f99f6c7.mp3",
+     "l": "москва"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "d8d60e92d181.mp3"
+  },
+  {
+   "id": "19-moscou:big",
+   "ru": "Москва — очень большой город.",
+   "fr": "Moscou, c'est une très grande ville.",
+   "tokens": [
+    {
+     "t": "Москва",
+     "s": 5,
+     "w": true,
+     "a": "84f280146c14.mp3",
+     "l": "москва"
+    },
+    {
+     "t": " — ",
+     "w": false
+    },
+    {
+     "t": "очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "большой",
+     "s": 5,
+     "w": true,
+     "a": "d648a4d6e7b7.mp3",
+     "l": "большой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "город",
+     "s": 1,
+     "w": true,
+     "a": "ac382b4fb5d3.mp3",
+     "l": "город"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ec61be633b1d.mp3"
+  },
+  {
+   "id": "19-moscou:square",
+   "ru": "Это Красная площадь.",
+   "fr": "Voici la place Rouge.",
+   "tokens": [
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Красная",
+     "s": 2,
+     "w": true,
+     "a": "1f333bda4f43.mp3",
+     "l": "красный"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "площадь",
+     "s": 2,
+     "w": true,
+     "a": "b78a3a6ccfaf.mp3",
+     "l": "площадь"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "325fd9354110.mp3"
+  },
+  {
+   "id": "19-moscou:bigsquare",
+   "ru": "Какая большая площадь!",
+   "fr": "Quelle grande place !",
+   "tokens": [
+    {
+     "t": "Какая",
+     "s": 3,
+     "w": true,
+     "a": "1cdce61f032f.mp3",
+     "l": "какой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "большая",
+     "s": 5,
+     "w": true,
+     "a": "5175ff563ece.mp3",
+     "l": "больший"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "площадь",
+     "s": 2,
+     "w": true,
+     "a": "b78a3a6ccfaf.mp3",
+     "l": "площадь"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "4e76680a6ae1.mp3"
+  },
+  {
+   "id": "19-moscou:old",
+   "ru": "А это Кремль. Он очень старый.",
+   "fr": "Et ça, c'est le Kremlin. Il est très vieux.",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Кремль",
+     "s": 2,
+     "w": true,
+     "a": "a83c3542b37f.mp3",
+     "l": "кремль"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Он",
+     "s": 0,
+     "w": true,
+     "a": "3adf56884a0b.mp3",
+     "l": "он"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "старый",
+     "s": 2,
+     "w": true,
+     "a": "0a668f2e444d.mp3",
+     "l": "старый"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "70af5fdca841.mp3"
+  },
+  {
+   "id": "19-moscou:all",
+   "ru": "Как интересно! Я хочу всё посмотреть!",
+   "fr": "Comme c'est intéressant ! Je veux tout voir !",
+   "tokens": [
+    {
+     "t": "Как",
+     "s": 1,
+     "w": true,
+     "a": "5211d8f6c0b1.mp3",
+     "l": "как"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "интересно",
+     "s": 5,
+     "w": true,
+     "a": "a60fbdeaa4d8.mp3",
+     "l": "интересно"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "всё",
+     "s": 2,
+     "w": true,
+     "a": "987a246b39e5.mp3",
+     "l": "всё"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "посмотреть",
+     "s": 7,
+     "w": true,
+     "a": "f8a27dac0262.mp3",
+     "l": "посмотреть"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "1451d30b95c3.mp3"
+  },
+  {
+   "id": "19-moscou:c1",
+   "ru": "Лион — очень красивый город.",
+   "fr": "Lyon est une très belle ville.",
+   "tokens": [
+    {
+     "t": "Лион",
+     "s": 2,
+     "w": true,
+     "a": "f03c5a202fc6.mp3",
+     "l": "лион"
+    },
+    {
+     "t": " — ",
+     "w": false
+    },
+    {
+     "t": "очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "красивый",
+     "s": 4,
+     "w": true,
+     "a": "9860d85e3802.mp3",
+     "l": "красивый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "город",
+     "s": 1,
+     "w": true,
+     "a": "ac382b4fb5d3.mp3",
+     "l": "город"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "e24782d927a9.mp3"
+  },
+  {
+   "id": "19-moscou:c2",
+   "ru": "Это мой друг. Он из Франции.",
+   "fr": "C'est mon ami. Il vient de France.",
+   "tokens": [
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мой",
+     "s": 1,
+     "w": true,
+     "a": "5e69d8e4000b.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "друг",
+     "s": 2,
+     "w": true,
+     "a": "fe74b24be4f9.mp3",
+     "l": "друг"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Он",
+     "s": 0,
+     "w": true,
+     "a": "3adf56884a0b.mp3",
+     "l": "он"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "из",
+     "s": 0,
+     "w": true,
+     "a": "176d0e85dfd2.mp3",
+     "l": "из"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Франции",
+     "s": 2,
+     "w": true,
+     "a": "d249934360f5.mp3",
+     "l": "франция"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "35e92f4fcc9a.mp3"
+  },
+  {
+   "id": "19-moscou:c3",
+   "ru": "Я хочу посмотреть Кремль.",
+   "fr": "Je veux voir le Kremlin.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "посмотреть",
+     "s": 7,
+     "w": true,
+     "a": "f8a27dac0262.mp3",
+     "l": "посмотреть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Кремль",
+     "s": 2,
+     "w": true,
+     "a": "a83c3542b37f.mp3",
+     "l": "кремль"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "1358191c4359.mp3"
+  }
+ ],
+ "hasAudio": false
+}

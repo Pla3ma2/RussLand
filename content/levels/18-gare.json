@@ -1,0 +1,430 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "18-gare",
+  "order": 18,
+  "titleFr": "À la gare",
+  "titleRu": "На вокзале",
+  "emoji": "🚆",
+  "sceneFr": "Anton, le frère de Macha, les invite à Moscou pour le Nouvel An. Luka va à la gare acheter les billets.",
+  "dialogue": [
+    {
+      "speaker": "luka",
+      "ru": "Здравствуйте! Два билета в Москву, пожалуйста.",
+      "fr": "Bonjour ! Deux billets pour Moscou, s'il vous plaît."
+    },
+    {
+      "speaker": "cashier",
+      "ru": "На какое число?",
+      "fr": "Pour quelle date ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "На тридцатое декабря.",
+      "fr": "Pour le trente décembre."
+    },
+    {
+      "speaker": "cashier",
+      "ru": "Есть поезд в восемь утра.",
+      "fr": "Il y a un train à huit heures du matin."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Отлично. А сколько часов ехать?",
+      "fr": "Parfait. Et combien d'heures de trajet ?"
+    },
+    {
+      "speaker": "cashier",
+      "ru": "Четыре часа.",
+      "fr": "Quatre heures."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Хорошо. Туда и обратно, пожалуйста.",
+      "fr": "D'accord. Aller-retour, s'il vous plaît."
+    },
+    {
+      "speaker": "cashier",
+      "ru": "Вот ваши билеты. Счастливого пути!",
+      "fr": "Voici vos billets. Bon voyage !"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "tickets",
+      "speaker": "luka",
+      "ru": "Два билета в Москву, пожалуйста.",
+      "fr": "Deux billets pour Moscou, s'il vous plaît.",
+      "noteFr": "« В Москву » = vers Moscou : la direction prend le bleu (-у). « Два билета » = deux billets.",
+      "gap": {
+        "word": "москву",
+        "distractors": [
+          "москве",
+          "поезд"
+        ],
+        "whyFr": "On va VERS Moscou : « в Москву » (-у). « В Москве » (-е), c'est quand on y est."
+      },
+      "orders": [
+        "два билета в москву пожалуйста",
+        "пожалуйста два билета в москву"
+      ]
+    },
+    {
+      "id": "date",
+      "speaker": "cashier",
+      "ru": "На какое число?",
+      "fr": "Pour quelle date ?",
+      "noteFr": "« Число » = nombre, date. « На какое число ? » = pour quelle date ?",
+      "gap": {
+        "word": "число",
+        "distractors": [
+          "поезд",
+          "утра"
+        ]
+      }
+    },
+    {
+      "id": "thirty",
+      "speaker": "luka",
+      "ru": "На тридцатое декабря.",
+      "fr": "Pour le trente décembre.",
+      "noteFr": "« Тридцатое декабря » = le trente décembre.",
+      "gap": {
+        "word": "декабря",
+        "distractors": [
+          "поезд",
+          "утра"
+        ]
+      }
+    },
+    {
+      "id": "train",
+      "speaker": "cashier",
+      "ru": "Есть поезд в восемь утра.",
+      "fr": "Il y a un train à huit heures du matin.",
+      "noteFr": "« Поезд » = train. « В восемь утра » = à huit heures du matin.",
+      "gap": {
+        "word": "поезд",
+        "distractors": [
+          "билета",
+          "число"
+        ]
+      }
+    },
+    {
+      "id": "hours",
+      "speaker": "luka",
+      "ru": "А сколько часов ехать?",
+      "fr": "Et combien d'heures de trajet ?",
+      "noteFr": "Mot à mot : « combien d'heures aller (en véhicule) ? ». Tu connais « ехать » : я еду, ты едешь.",
+      "gap": {
+        "word": "ехать",
+        "distractors": [
+          "билета",
+          "утра"
+        ]
+      }
+    },
+    {
+      "id": "four",
+      "speaker": "cashier",
+      "ru": "Четыре часа.",
+      "fr": "Quatre heures.",
+      "noteFr": "Avec 2, 3, 4 : « часа ». Avec 5 et plus : « часов ». Retiens les deux formes.",
+      "gap": {
+        "word": "четыре",
+        "distractors": [
+          "восемь",
+          "поезд"
+        ]
+      }
+    },
+    {
+      "id": "return",
+      "speaker": "luka",
+      "ru": "Туда и обратно, пожалуйста.",
+      "fr": "Aller-retour, s'il vous plaît.",
+      "noteFr": "« Туда » = là-bas (aller), « обратно » = retour.",
+      "gap": {
+        "word": "обратно",
+        "distractors": [
+          "туда",
+          "поезд"
+        ]
+      }
+    },
+    {
+      "id": "trip",
+      "speaker": "cashier",
+      "ru": "Счастливого пути!",
+      "fr": "Bon voyage !",
+      "noteFr": "« Счастливого пути ! » = bon voyage ! (mot à mot : heureux chemin !)."
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Les billets",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 0
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "tickets",
+            "date"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "thirty",
+            "train"
+          ],
+          "review": [
+            "tickets"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Le voyage",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "tickets",
+            "date",
+            "train"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "hours",
+            "four"
+          ],
+          "review": [
+            "thirty",
+            "train"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "return",
+            "trip"
+          ],
+          "review": [
+            "hours"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "cashier",
+      "fr": [
+        "Pour une destination, on utilise « в » + le bleu : « в Москву », « в Казань ». C'est comme « в театр », « в больницу ».",
+        "Rappel : « я в Москве » (j'y suis, vert) / « я еду в Москву » (j'y vais, bleu)."
+      ]
+    },
+    {
+      "by": "cashier",
+      "fr": [
+        "Les nombres russes changent le mot qui suit : « один билет », « два билета », « пять билетов ». Ne t'inquiète pas, on te comprendra même si tu te trompes !",
+        "Pour l'heure : « в восемь утра » (8 h du matin), « в семь вечера » (7 h du soir)."
+      ]
+    }
+  ],
+  "explore": {
+    "type": "case",
+    "speaker": "luka",
+    "case": "accs",
+    "frame": "Один билет в ___, пожалуйста.",
+    "frameFr": "Un billet pour ___, s'il vous plaît.",
+    "color": "#3a86ff",
+    "hintFr": "Mets chaque ville après « в » (on y va) et regarde bien la fin du mot.",
+    "words": [
+      {
+        "tile": "Москва",
+        "fr": "Moscou",
+        "phraseFr": "Un billet pour Moscou, s'il vous plaît."
+      },
+      {
+        "tile": "Казань",
+        "formAcc": "Каз+ань",
+        "fr": "Kazan",
+        "phraseFr": "Un billet pour Kazan, s'il vous plaît."
+      },
+      {
+        "tile": "Сочи",
+        "formAcc": "С+очи",
+        "fr": "Sotchi",
+        "phraseFr": "Un billet pour Sotchi, s'il vous plaît."
+      },
+      {
+        "tile": "Самара",
+        "fr": "Samara",
+        "phraseFr": "Un billet pour Samara, s'il vous plaît."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Demande un billet pour Samara.",
+      "answer": "Самара"
+    },
+    {
+      "type": "pick",
+      "fr": "Demande un billet pour Sotchi.",
+      "answer": "Сочи"
+    }
+  ],
+  "cando": [
+    "acheter un billet de train",
+    "dire une date",
+    "demander la durée du trajet"
+  ],
+  "unlocks": [
+    {
+      "case": "accs",
+      "gender": "femn",
+      "from": "Москва",
+      "to": "Москву"
+    }
+  ],
+  "glossary": {
+    "здравствуйте": "bonjour (poli)",
+    "я": "je, moi",
+    "ты": "tu",
+    "вы": "vous",
+    "да": "oui",
+    "нет": "non",
+    "а": "et, mais",
+    "и": "et",
+    "это": "c'est, voici",
+    "не": "ne… pas",
+    "в": "dans, à",
+    "на": "sur, en",
+    "что": "quoi, que",
+    "как": "comment, comme",
+    "где": "où",
+    "очень": "très",
+    "спасибо": "merci",
+    "пожалуйста": "s'il te plaît / je t'en prie",
+    "хорошо": "bien, d'accord",
+    "привет": "salut",
+    "лука": "Luka (prénom)",
+    "маша": "Macha (prénom)",
+    "олег": "Oleg (prénom)",
+    "анна": "Anna (prénom)",
+    "у": "chez",
+    "меня": "moi (у меня = j'ai)",
+    "тебя": "toi (у тебя = tu as)",
+    "есть": "il y a",
+    "мой": "mon",
+    "моя": "ma",
+    "мне": "à moi",
+    "тоже": "aussi",
+    "сегодня": "aujourd'hui",
+    "завтра": "demain",
+    "вчера": "hier",
+    "потом": "puis, ensuite",
+    "давай": "allons-y, faisons",
+    "два": "deux",
+    "билета": "billets (après 2, 3, 4)",
+    "москву": "Moscou (vers)",
+    "москве": "Moscou (on y est)",
+    "москва": "Moscou",
+    "какое": "quel",
+    "число": "date, nombre",
+    "тридцатое": "trente (date)",
+    "декабря": "décembre",
+    "поезд": "train",
+    "восемь": "huit",
+    "утра": "du matin",
+    "отлично": "parfait",
+    "сколько": "combien",
+    "часов": "heures (après 5…)",
+    "ехать": "aller (en véhicule)",
+    "четыре": "quatre",
+    "часа": "heures (après 2, 3, 4)",
+    "туда": "là-bas (aller)",
+    "обратно": "retour",
+    "вот": "voici",
+    "ваши": "vos",
+    "билеты": "billets",
+    "счастливого": "heureux",
+    "пути": "chemin (счастливого пути = bon voyage)",
+    "один": "un",
+    "билет": "billet",
+    "казань": "Kazan",
+    "сочи": "Sotchi",
+    "самара": "Samara",
+    "самару": "Samara (vers)"
+  },
+  "combos": [
+    {
+      "ru": "Один билет в Москву, пожалуйста.",
+      "fr": "Un billet pour Moscou, s'il vous plaît.",
+      "extra": [
+        "москве"
+      ],
+      "orders": [
+        "один билет в москву пожалуйста",
+        "пожалуйста один билет в москву"
+      ]
+    },
+    {
+      "ru": "Поезд в Москву в восемь утра.",
+      "fr": "Le train pour Moscou est à huit heures du matin.",
+      "extra": [
+        "москве"
+      ]
+    },
+    {
+      "ru": "Завтра я еду в Москву.",
+      "fr": "Demain, je vais à Moscou.",
+      "extra": [
+        "москве"
+      ],
+      "orders": [
+        "завтра я еду в москву",
+        "я еду в москву завтра"
+      ]
+    }
+  ]
+}

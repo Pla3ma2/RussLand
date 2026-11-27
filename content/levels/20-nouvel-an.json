@@ -1,0 +1,451 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "20-nouvel-an",
+  "order": 20,
+  "titleFr": "Le Nouvel An",
+  "titleRu": "Новый год",
+  "emoji": "🎄",
+  "sceneFr": "Le 31 décembre, chez Anton. Il est presque minuit : tout le monde prépare la fête.",
+  "dialogue": [
+    {
+      "speaker": "anton",
+      "ru": "Скоро Новый год! Что ты хочешь на Новый год, Л+ука?",
+      "fr": "Bientôt le Nouvel An ! Qu'est-ce que tu veux pour le Nouvel An, Luka ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Я хочу хорошо говорить по-русски!",
+      "fr": "Je veux bien parler russe !"
+    },
+    {
+      "speaker": "masha",
+      "ru": "Ты уже хорошо говоришь!",
+      "fr": "Tu parles déjà bien !"
+    },
+    {
+      "speaker": "anton",
+      "ru": "Двенадцать часов! С Новым годом!",
+      "fr": "Minuit ! Bonne année !"
+    },
+    {
+      "speaker": "luka",
+      "ru": "С Новым годом! С новым счастьем!",
+      "fr": "Bonne année ! Plein de bonheur !"
+    },
+    {
+      "speaker": "masha",
+      "ru": "Давайте пить шампанское!",
+      "fr": "Buvons du champagne !"
+    },
+    {
+      "speaker": "anton",
+      "ru": "За нас! За дружбу!",
+      "fr": "À nous ! À l'amitié !"
+    },
+    {
+      "speaker": "luka",
+      "ru": "За дружбу!",
+      "fr": "À l'amitié !"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "soon",
+      "speaker": "anton",
+      "ru": "Скоро Новый год!",
+      "fr": "Bientôt le Nouvel An !",
+      "noteFr": "« Скоро » = bientôt. « Новый год » = le Nouvel An (mot à mot : nouvelle année).",
+      "gap": {
+        "word": "скоро",
+        "distractors": [
+          "нас",
+          "давайте"
+        ]
+      }
+    },
+    {
+      "id": "want",
+      "speaker": "anton",
+      "ru": "Что ты хочешь на Новый год?",
+      "fr": "Qu'est-ce que tu veux pour le Nouvel An ?",
+      "noteFr": "« Хочешь » = (tu) veux. « На Новый год » = pour le Nouvel An.",
+      "gap": {
+        "word": "хочешь",
+        "distractors": [
+          "хочу",
+          "скоро"
+        ],
+        "whyFr": "Avec « ты » : « хочешь ». « Хочу », c'est pour « я »."
+      },
+      "orders": [
+        "что ты хочешь на новый год",
+        "что ты на новый год хочешь"
+      ]
+    },
+    {
+      "id": "speak",
+      "speaker": "luka",
+      "ru": "Я хочу хорошо говорить по-р+усски!",
+      "fr": "Je veux bien parler russe !",
+      "noteFr": "« Хочу » + infinitif : je veux (faire). « Говорить » = parler.",
+      "gap": {
+        "word": "говорить",
+        "distractors": [
+          "говорю",
+          "скоро"
+        ],
+        "whyFr": "Après « хочу », le verbe reste à l'infinitif : « хочу говорить »."
+      },
+      "orders": [
+        "я хочу хорошо говорить по-русски",
+        "я хочу говорить по-русски хорошо"
+      ]
+    },
+    {
+      "id": "already",
+      "speaker": "masha",
+      "ru": "Ты уже хорошо говоришь!",
+      "fr": "Tu parles déjà bien !",
+      "noteFr": "« Уже » = déjà. « Ты говоришь » = tu parles.",
+      "gap": {
+        "word": "уже",
+        "distractors": [
+          "нас",
+          "давайте"
+        ]
+      },
+      "orders": [
+        "ты уже хорошо говоришь",
+        "ты уже говоришь хорошо"
+      ]
+    },
+    {
+      "id": "happy",
+      "speaker": "anton",
+      "ru": "С Новым годом!",
+      "fr": "Bonne année !",
+      "noteFr": "Mot à mot : « avec la nouvelle année ! ». La phrase du 31 décembre à minuit.",
+      "gap": {
+        "word": "годом",
+        "distractors": [
+          "год",
+          "счастьем"
+        ],
+        "whyFr": "Après « с » : « с Новым годом ». Retiens-le tel quel !"
+      }
+    },
+    {
+      "id": "happiness",
+      "speaker": "luka",
+      "ru": "С новым счастьем!",
+      "fr": "Plein de bonheur !",
+      "noteFr": "« Счастье » = bonheur. On le dit juste après « С Новым годом ! ».",
+      "gap": {
+        "word": "счастьем",
+        "distractors": [
+          "дружбу",
+          "нас"
+        ]
+      }
+    },
+    {
+      "id": "champagne",
+      "speaker": "masha",
+      "ru": "Давайте пить шампанское!",
+      "fr": "Buvons du champagne !",
+      "noteFr": "« Давайте » + infinitif = faisons… ! Tu connais « давайте ужинать ».",
+      "gap": {
+        "word": "пить",
+        "distractors": [
+          "пей",
+          "шампанское"
+        ],
+        "whyFr": "Après « давайте », l'infinitif : « пить »."
+      },
+      "orders": [
+        "давайте пить шампанское"
+      ]
+    },
+    {
+      "id": "toast",
+      "speaker": "anton",
+      "ru": "За нас! За дружбу!",
+      "fr": "À nous ! À l'amitié !",
+      "noteFr": "« За… ! » = à… ! (pour trinquer). « Дружба » = amitié → « за дружбу » (-у).",
+      "gap": {
+        "word": "дружбу",
+        "distractors": [
+          "дружба",
+          "счастьем"
+        ],
+        "whyFr": "Pour trinquer, « за » + le bleu : « дружба » → « за дружбу »."
+      }
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Avant minuit",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "soon",
+            "want"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "speak",
+            "already"
+          ],
+          "review": [
+            "want"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "titleFr": "Minuit !",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "want",
+            "speak",
+            "already"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "happy",
+            "happiness"
+          ],
+          "review": [
+            "speak"
+          ]
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 1
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "champagne",
+            "toast"
+          ],
+          "review": [
+            "happy",
+            "happiness"
+          ]
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "anton",
+      "fr": [
+        "« Хочу » + un verbe à l'infinitif : « я хочу говорить », « я хочу посмотреть », « я хочу купить ». Super pratique !",
+        "Et « хочу » + une chose (en bleu) : « я хочу шапку »."
+      ]
+    },
+    {
+      "by": "anton",
+      "fr": [
+        "Pour trinquer, on dit « За… ! » + le bleu : « за дружбу ! », « за любовь ! », « за нас ! ».",
+        "Le Nouvel An est LA grande fête en Russie : on fait un sapin, on mange la salade « Оливье », et à minuit on dit « С Новым годом ! »."
+      ]
+    }
+  ],
+  "explore": {
+    "type": "case",
+    "speaker": "anton",
+    "case": "accs",
+    "frame": "За ___!",
+    "frameFr": "À ___ !",
+    "color": "#3a86ff",
+    "hintFr": "Trinque avec chaque mot et regarde bien la fin du mot.",
+    "words": [
+      {
+        "tile": "дружба",
+        "fr": "l'amitié",
+        "phraseFr": "À l'amitié !"
+      },
+      {
+        "tile": "любовь",
+        "fr": "l'amour",
+        "phraseFr": "À l'amour !"
+      },
+      {
+        "tile": "здоровье",
+        "fr": "la santé",
+        "phraseFr": "À la santé !"
+      },
+      {
+        "tile": "Россия",
+        "fr": "la Russie",
+        "phraseFr": "À la Russie !"
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Trinque à l'amour.",
+      "answer": "любовь"
+    },
+    {
+      "type": "pick",
+      "fr": "Trinque à la Russie.",
+      "answer": "Россия"
+    }
+  ],
+  "cando": [
+    "souhaiter une bonne année",
+    "trinquer",
+    "dire ce que tu veux faire"
+  ],
+  "unlocks": [
+    {
+      "case": "accs",
+      "gender": "femn",
+      "from": "дружба",
+      "to": "дружбу"
+    }
+  ],
+  "glossary": {
+    "здравствуйте": "bonjour (poli)",
+    "я": "je, moi",
+    "ты": "tu",
+    "вы": "vous",
+    "да": "oui",
+    "нет": "non",
+    "а": "et, mais",
+    "и": "et",
+    "это": "c'est, voici",
+    "не": "ne… pas",
+    "в": "dans, à",
+    "на": "sur, en",
+    "что": "quoi, que",
+    "как": "comment, comme",
+    "где": "où",
+    "очень": "très",
+    "спасибо": "merci",
+    "пожалуйста": "s'il te plaît / je t'en prie",
+    "хорошо": "bien, d'accord",
+    "привет": "salut",
+    "лука": "Luka (prénom)",
+    "маша": "Macha (prénom)",
+    "олег": "Oleg (prénom)",
+    "анна": "Anna (prénom)",
+    "у": "chez",
+    "меня": "moi (у меня = j'ai)",
+    "тебя": "toi (у тебя = tu as)",
+    "есть": "il y a",
+    "мой": "mon",
+    "моя": "ma",
+    "мне": "à moi",
+    "тоже": "aussi",
+    "сегодня": "aujourd'hui",
+    "завтра": "demain",
+    "вчера": "hier",
+    "потом": "puis, ensuite",
+    "давай": "allons-y, faisons",
+    "скоро": "bientôt",
+    "новый": "nouveau",
+    "год": "année, an",
+    "хочешь": "(tu) veux",
+    "хочу": "(je) veux",
+    "говорить": "parler",
+    "говорю": "(je) parle",
+    "по-русски": "en russe",
+    "уже": "déjà",
+    "говоришь": "(tu) parles",
+    "двенадцать": "douze",
+    "часов": "heures",
+    "с": "avec",
+    "новым": "nouveau (après с)",
+    "годом": "année (с Новым годом = bonne année)",
+    "счастьем": "bonheur (après с)",
+    "давайте": "faisons, allons",
+    "пить": "boire",
+    "пей": "bois !",
+    "шампанское": "champagne",
+    "за": "à (pour trinquer)",
+    "нас": "nous",
+    "дружбу": "amitié (après за)",
+    "дружба": "amitié",
+    "любовь": "amour",
+    "здоровье": "santé",
+    "россию": "Russie (après за)",
+    "россия": "Russie"
+  },
+  "combos": [
+    {
+      "ru": "Я хочу купить шампанское.",
+      "fr": "Je veux acheter du champagne.",
+      "extra": [
+        "пить"
+      ],
+      "orders": [
+        "я хочу купить шампанское",
+        "шампанское я хочу купить"
+      ]
+    },
+    {
+      "ru": "Что ты хочешь посмотреть в Москве?",
+      "fr": "Qu'est-ce que tu veux voir à Moscou ?",
+      "extra": [
+        "москву"
+      ],
+      "orders": [
+        "что ты хочешь посмотреть в москве",
+        "что ты хочешь в москве посмотреть"
+      ]
+    },
+    {
+      "ru": "Ты уже говоришь по-англ+ийски?",
+      "fr": "Tu parles déjà anglais ?",
+      "extra": [
+        "говорю"
+      ],
+      "orders": [
+        "ты уже говоришь по-английски",
+        "ты уже по-английски говоришь"
+      ]
+    }
+  ]
+}

@@ -223,6 +223,118 @@
    ],
    "version": 2,
    "parts": 3
+  },
+  {
+   "id": "17-vetements",
+   "order": 17,
+   "titleFr": "Acheter un bonnet",
+   "titleRu": "В магазине одежды",
+   "emoji": "🧣",
+   "cando": [
+    "demander de l'aide dans un magasin",
+    "demander « je peux… ? »",
+    "acheter un vêtement"
+   ],
+   "version": 2,
+   "parts": 3
+  },
+  {
+   "id": "18-gare",
+   "order": 18,
+   "titleFr": "À la gare",
+   "titleRu": "На вокзале",
+   "emoji": "🚆",
+   "cando": [
+    "acheter un billet de train",
+    "dire une date",
+    "demander la durée du trajet"
+   ],
+   "version": 2,
+   "parts": 3
+  },
+  {
+   "id": "19-moscou",
+   "order": 19,
+   "titleFr": "Bienvenue à Moscou",
+   "titleRu": "Москва",
+   "emoji": "🏰",
+   "cando": [
+    "présenter un ami",
+    "décrire une ville",
+    "dire bienvenue"
+   ],
+   "version": 2,
+   "parts": 3
+  },
+  {
+   "id": "20-nouvel-an",
+   "order": 20,
+   "titleFr": "Le Nouvel An",
+   "titleRu": "Новый год",
+   "emoji": "🎄",
+   "cando": [
+    "souhaiter une bonne année",
+    "trinquer",
+    "dire ce que tu veux faire"
+   ],
+   "version": 2,
+   "parts": 3
+  },
+  {
+   "id": "21-appartement",
+   "order": 21,
+   "titleFr": "L'appartement d'Anton",
+   "titleRu": "Квартира",
+   "emoji": "🏠",
+   "cando": [
+    "décrire un appartement",
+    "demander où sont les toilettes",
+    "dire où se trouve quelque chose"
+   ],
+   "version": 2,
+   "parts": 3
+  },
+  {
+   "id": "22-plaire",
+   "order": 22,
+   "titleFr": "Ça te plaît ?",
+   "titleRu": "Тебе нравится?",
+   "emoji": "💛",
+   "cando": [
+    "dire ce qui te plaît",
+    "dire ce qui ne te plaît pas",
+    "demander l'avis de quelqu'un"
+   ],
+   "version": 2,
+   "parts": 3
+  },
+  {
+   "id": "23-patinoire",
+   "order": 23,
+   "titleFr": "À la patinoire",
+   "titleRu": "На катке",
+   "emoji": "⛸️",
+   "cando": [
+    "dire ce que tu sais faire",
+    "demander de l'aide",
+    "dire « je peux / je ne peux pas »"
+   ],
+   "version": 2,
+   "parts": 3
+  },
+  {
+   "id": "24-retour",
+   "order": 24,
+   "titleFr": "De retour",
+   "titleRu": "Снова дома",
+   "emoji": "🧳",
+   "cando": [
+    "raconter un voyage",
+    "parler au passé au pluriel",
+    "dire ce qui t'a plu"
+   ],
+   "version": 2,
+   "parts": 3
   }
  ]
 }

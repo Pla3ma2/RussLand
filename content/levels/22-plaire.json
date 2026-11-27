@@ -1,0 +1,439 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "22-plaire",
+  "order": 22,
+  "titleFr": "Ça te plaît ?",
+  "titleRu": "Тебе нравится?",
+  "emoji": "💛",
+  "sceneFr": "Le 1er janvier, en se promenant dans Moscou, Anton demande à Luka ce qu'il pense de la ville.",
+  "dialogue": [
+    {
+      "speaker": "anton",
+      "ru": "Л+ука, тебе нравится Москва?",
+      "fr": "Luka, Moscou te plaît ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Да, очень нравится!",
+      "fr": "Oui, beaucoup !"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Мне нравится метро. Оно очень красивое.",
+      "fr": "J'aime bien le métro. Il est très beau."
+    },
+    {
+      "speaker": "anton",
+      "ru": "А что тебе не нравится?",
+      "fr": "Et qu'est-ce qui ne te plaît pas ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Мне не нравится холод!",
+      "fr": "Je n'aime pas le froid !"
+    },
+    {
+      "speaker": "masha",
+      "ru": "А мне нравится зима!",
+      "fr": "Et moi, j'aime l'hiver !"
+    },
+    {
+      "speaker": "anton",
+      "ru": "Маша любит зиму, а я люблю лето.",
+      "fr": "Macha aime l'hiver, et moi, j'aime l'été."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Я тоже люблю лето!",
+      "fr": "Moi aussi, j'aime l'été !"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "like",
+      "speaker": "anton",
+      "ru": "Тебе нравится Москва?",
+      "fr": "Moscou te plaît ?",
+      "noteFr": "Mot à mot : « à toi plaît Moscou ? ». « Тебе » = à toi.",
+      "gap": {
+        "word": "тебе",
+        "distractors": [
+          "тебя",
+          "меня"
+        ],
+        "whyFr": "Avec « нравится », c'est « тебе » (à toi). « Тебя » sert dans « у тебя есть »."
+      },
+      "orders": [
+        "тебе нравится москва",
+        "москва тебе нравится"
+      ]
+    },
+    {
+      "id": "verymuch",
+      "speaker": "luka",
+      "ru": "Да, очень нравится!",
+      "fr": "Oui, beaucoup !",
+      "noteFr": "« Очень нравится » = ça me plaît beaucoup.",
+      "gap": {
+        "word": "нравится",
+        "distractors": [
+          "тоже",
+          "холод"
+        ]
+      }
+    },
+    {
+      "id": "metro",
+      "speaker": "luka",
+      "ru": "Мне нравится метро.",
+      "fr": "J'aime bien le métro.",
+      "noteFr": "« Мне нравится » = ça me plaît, j'aime bien. Mot à mot : « à moi plaît le métro ».",
+      "gap": {
+        "word": "мне",
+        "distractors": [
+          "меня",
+          "тебя"
+        ],
+        "whyFr": "Pour soi : « мне нравится » (à moi). « Меня » sert dans « меня зовут »."
+      },
+      "orders": [
+        "мне нравится метро",
+        "метро мне нравится"
+      ]
+    },
+    {
+      "id": "beautiful",
+      "speaker": "luka",
+      "ru": "Оно очень красивое.",
+      "fr": "Il est très beau.",
+      "noteFr": "« Метро » est neutre : « оно » (il) et « красивое » (-ое).",
+      "gap": {
+        "word": "красивое",
+        "distractors": [
+          "красивая",
+          "холод"
+        ],
+        "whyFr": "« Метро » est neutre : « красивое » (-ое). « Красивая », c'est pour un mot féminin."
+      }
+    },
+    {
+      "id": "dislike",
+      "speaker": "anton",
+      "ru": "А что тебе не нравится?",
+      "fr": "Et qu'est-ce qui ne te plaît pas ?",
+      "noteFr": "« Не нравится » = ne plaît pas.",
+      "gap": {
+        "word": "не",
+        "distractors": [
+          "холод",
+          "лето"
+        ]
+      }
+    },
+    {
+      "id": "cold",
+      "speaker": "luka",
+      "ru": "Мне не нравится холод!",
+      "fr": "Je n'aime pas le froid !",
+      "noteFr": "« Холод » = le froid (le nom). Tu connais « холодно » (il fait froid).",
+      "gap": {
+        "word": "холод",
+        "distractors": [
+          "холодно",
+          "зиму"
+        ],
+        "whyFr": "Ici il faut un nom : « холод » (le froid). « Холодно », c'est « il fait froid »."
+      }
+    },
+    {
+      "id": "winter",
+      "speaker": "masha",
+      "ru": "А мне нравится зима!",
+      "fr": "Et moi, j'aime l'hiver !",
+      "noteFr": "Avec « нравится », la chose qui plaît reste à la forme de base : « зима » (et pas « зиму » !).",
+      "gap": {
+        "word": "зима",
+        "distractors": [
+          "зиму",
+          "холодно"
+        ],
+        "whyFr": "Avec « нравится », forme de base : « зима ». « Зиму », c'est après « люблю »."
+      },
+      "orders": [
+        "а мне нравится зима",
+        "а мне зима нравится"
+      ]
+    },
+    {
+      "id": "summer",
+      "speaker": "anton",
+      "ru": "Маша любит зиму, а я люблю лето.",
+      "fr": "Macha aime l'hiver, et moi, j'aime l'été.",
+      "noteFr": "Avec « люблю / любит », le bleu : « зиму ». « Лето » (été, neutre) ne change pas.",
+      "gap": {
+        "word": "зиму",
+        "distractors": [
+          "зима",
+          "нравится"
+        ],
+        "whyFr": "Après « любит », le bleu : « зиму » (-у). Avec « нравится », ce serait « зима »."
+      }
+    },
+    {
+      "id": "metoo",
+      "speaker": "luka",
+      "ru": "Я тоже люблю лето!",
+      "fr": "Moi aussi, j'aime l'été !",
+      "noteFr": "« Тоже » = aussi.",
+      "gap": {
+        "word": "тоже",
+        "distractors": [
+          "мне",
+          "тебе"
+        ]
+      }
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Ça me plaît",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "like",
+            "verymuch"
+          ]
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 0
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "metro",
+            "beautiful"
+          ],
+          "review": [
+            "like"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Les goûts",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "like",
+            "verymuch",
+            "metro"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "dislike",
+            "cold"
+          ],
+          "review": [
+            "metro",
+            "beautiful"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "winter",
+            "summer",
+            "metoo"
+          ],
+          "review": [
+            "cold"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "anton",
+      "fr": [
+        "« Мне нравится… » = j'aime bien, ça me plaît. Mot à mot : « à moi plaît… ».",
+        "Et la chose qui plaît reste à la forme de base : « мне нравится Москва », « мне нравится музыка ». Pas de -у ici !"
+      ]
+    },
+    {
+      "by": "anton",
+      "fr": [
+        "Compare : « я люблю зиму » (bleu, -у) mais « мне нравится зима » (forme de base). Même idée, deux constructions.",
+        "Pour les autres : « тебе нравится » (ça te plaît), « Маше нравится » (ça plaît à Macha)."
+      ]
+    }
+  ],
+  "explore": {
+    "type": "plain",
+    "speaker": "luka",
+    "frame": "Мне нравится ___.",
+    "frameFr": "J'aime bien ___.",
+    "color": "#5c677d",
+    "hintFr": "Mets chaque mot après « нравится » et écoute : le mot ne change pas !",
+    "words": [
+      {
+        "tile": "Москва",
+        "fr": "Moscou",
+        "phraseFr": "Moscou me plaît."
+      },
+      {
+        "tile": "музыка",
+        "fr": "la musique",
+        "phraseFr": "J'aime bien la musique."
+      },
+      {
+        "tile": "зима",
+        "fr": "l'hiver",
+        "phraseFr": "J'aime bien l'hiver."
+      },
+      {
+        "tile": "метро",
+        "fr": "le métro",
+        "phraseFr": "J'aime bien le métro."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Dis que tu aimes bien la musique.",
+      "answer": "музыка"
+    },
+    {
+      "type": "pick",
+      "fr": "Dis que l'hiver te plaît.",
+      "answer": "зима"
+    }
+  ],
+  "cando": [
+    "dire ce qui te plaît",
+    "dire ce qui ne te plaît pas",
+    "demander l'avis de quelqu'un"
+  ],
+  "unlocks": [],
+  "glossary": {
+    "здравствуйте": "bonjour (poli)",
+    "я": "je, moi",
+    "ты": "tu",
+    "вы": "vous",
+    "да": "oui",
+    "нет": "non",
+    "а": "et, mais",
+    "и": "et",
+    "это": "c'est, voici",
+    "не": "ne… pas",
+    "в": "dans, à",
+    "на": "sur, en",
+    "что": "quoi, que",
+    "как": "comment, comme",
+    "где": "où",
+    "очень": "très",
+    "спасибо": "merci",
+    "пожалуйста": "s'il te plaît / je t'en prie",
+    "хорошо": "bien, d'accord",
+    "привет": "salut",
+    "лука": "Luka (prénom)",
+    "маша": "Macha (prénom)",
+    "олег": "Oleg (prénom)",
+    "анна": "Anna (prénom)",
+    "у": "chez",
+    "меня": "me, moi",
+    "тебя": "te, toi",
+    "есть": "il y a",
+    "мой": "mon",
+    "моя": "ma",
+    "мне": "à moi",
+    "тоже": "aussi",
+    "сегодня": "aujourd'hui",
+    "завтра": "demain",
+    "вчера": "hier",
+    "потом": "puis, ensuite",
+    "давай": "allons-y, faisons",
+    "тебе": "à toi",
+    "нравится": "plaît",
+    "метро": "métro",
+    "оно": "il (neutre)",
+    "красивое": "beau (neutre)",
+    "красивая": "belle",
+    "холод": "le froid",
+    "холодно": "il fait froid",
+    "зима": "hiver",
+    "зиму": "hiver (après люблю)",
+    "любит": "(il, elle) aime",
+    "люблю": "(j')aime",
+    "лето": "été",
+    "москва": "Moscou",
+    "музыка": "musique"
+  },
+  "combos": [
+    {
+      "ru": "Тебе нравится Ли+он?",
+      "fr": "Lyon te plaît ?",
+      "extra": [
+        "тебя"
+      ],
+      "orders": [
+        "тебе нравится лион",
+        "лион тебе нравится"
+      ]
+    },
+    {
+      "ru": "Мне не нравится зима, но я люблю лето.",
+      "fr": "Je n'aime pas l'hiver, mais j'aime l'été.",
+      "extra": [
+        "зиму"
+      ]
+    },
+    {
+      "ru": "Мне очень нравится музыка.",
+      "fr": "J'aime beaucoup la musique.",
+      "extra": [
+        "музыку"
+      ],
+      "orders": [
+        "мне очень нравится музыка",
+        "музыка мне очень нравится"
+      ]
+    }
+  ]
+}

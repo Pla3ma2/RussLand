@@ -1,0 +1,428 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "17-vetements",
+  "order": 17,
+  "titleFr": "Acheter un bonnet",
+  "titleRu": "В магазине одежды",
+  "emoji": "🧣",
+  "sceneFr": "Comme Macha l'a dit, Luka va acheter un bonnet. Il entre dans un magasin de vêtements.",
+  "dialogue": [
+    {
+      "speaker": "seller",
+      "ru": "Здравствуйте! Вам помочь?",
+      "fr": "Bonjour ! Je peux vous aider ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Да, я хочу купить шапку.",
+      "fr": "Oui, je voudrais acheter un bonnet."
+    },
+    {
+      "speaker": "seller",
+      "ru": "Вот эта шапка тёплая.",
+      "fr": "Ce bonnet-ci est chaud."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Можно посмотреть?",
+      "fr": "Je peux regarder ?"
+    },
+    {
+      "speaker": "seller",
+      "ru": "Конечно. Вот, пожалуйста.",
+      "fr": "Bien sûr. Voilà."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Сколько она стоит?",
+      "fr": "Combien il coûte ?"
+    },
+    {
+      "speaker": "seller",
+      "ru": "Тысяча рублей.",
+      "fr": "Mille roubles."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Хорошо, я возьму. И ещё шарф, пожалуйста.",
+      "fr": "D'accord, je le prends. Et aussi une écharpe, s'il vous plaît."
+    }
+  ],
+  "phrases": [
+    {
+      "id": "help",
+      "speaker": "seller",
+      "ru": "Вам помочь?",
+      "fr": "Je peux vous aider ?",
+      "noteFr": "Mot à mot : « vous aider ? ». Les vendeurs le disent tout le temps.",
+      "gap": {
+        "word": "помочь",
+        "distractors": [
+          "тёплая",
+          "возьму"
+        ]
+      }
+    },
+    {
+      "id": "buy",
+      "speaker": "luka",
+      "ru": "Да, я хочу купить шапку.",
+      "fr": "Oui, je voudrais acheter un bonnet.",
+      "noteFr": "« Хочу купить » = je veux acheter. Le bonnet est la chose qu'on achète : « шапку ».",
+      "gap": {
+        "word": "шапку",
+        "distractors": [
+          "шапка",
+          "тысяча"
+        ],
+        "whyFr": "On veut acheter le bonnet : « шапку » (-у), le bleu."
+      },
+      "orders": [
+        "да я хочу купить шапку",
+        "да я шапку хочу купить"
+      ]
+    },
+    {
+      "id": "warm",
+      "speaker": "seller",
+      "ru": "Вот эта шапка тёплая.",
+      "fr": "Ce bonnet-ci est chaud.",
+      "noteFr": "« Эта » = cette. « Тёплая » = chaude (féminin, comme « шапка »).",
+      "gap": {
+        "word": "тёплая",
+        "distractors": [
+          "тёплый",
+          "можно"
+        ],
+        "whyFr": "« Шапка » est féminin : « тёплая » (-ая). « Тёплый », c'est pour un mot masculin."
+      }
+    },
+    {
+      "id": "may",
+      "speaker": "luka",
+      "ru": "Можно посмотреть?",
+      "fr": "Je peux regarder ?",
+      "noteFr": "« Можно…? » = est-ce que je peux… ? Un mot magique pour demander poliment.",
+      "gap": {
+        "word": "можно",
+        "distractors": [
+          "помочь",
+          "сколько"
+        ]
+      }
+    },
+    {
+      "id": "price",
+      "speaker": "luka",
+      "ru": "Сколько она стоит?",
+      "fr": "Combien il coûte ?",
+      "noteFr": "« Она » remplace « шапка » (féminin). En français on dit « il » pour un bonnet, en russe « она ».",
+      "gap": {
+        "word": "она",
+        "distractors": [
+          "он",
+          "можно"
+        ],
+        "whyFr": "« Шапка » est féminin, donc on la remplace par « она »."
+      }
+    },
+    {
+      "id": "thousand",
+      "speaker": "seller",
+      "ru": "Тысяча рублей.",
+      "fr": "Mille roubles.",
+      "noteFr": "« Тысяча » = mille."
+    },
+    {
+      "id": "take",
+      "speaker": "luka",
+      "ru": "Хорошо, я возьму.",
+      "fr": "D'accord, je le prends.",
+      "noteFr": "« Я возьму » = je prends (mot à mot : je prendrai).",
+      "gap": {
+        "word": "возьму",
+        "distractors": [
+          "можно",
+          "помочь"
+        ]
+      }
+    },
+    {
+      "id": "scarf",
+      "speaker": "luka",
+      "ru": "И ещё шарф, пожалуйста.",
+      "fr": "Et aussi une écharpe, s'il vous plaît.",
+      "noteFr": "« Шарф » = écharpe. Masculin : il ne change pas.",
+      "gap": {
+        "word": "шарф",
+        "distractors": [
+          "шарфа",
+          "помочь"
+        ]
+      }
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Demander",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 0
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "help",
+            "buy"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "warm",
+            "may"
+          ],
+          "review": [
+            "buy"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Payer",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "help",
+            "buy",
+            "may"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "price",
+            "thousand"
+          ],
+          "review": [
+            "warm",
+            "may"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "take",
+            "scarf"
+          ],
+          "review": [
+            "price"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "seller",
+      "fr": [
+        "« Хочу купить… » = je veux acheter… Et ce qu'on achète prend le bleu : « шапка » → « шапку », « куртка » → « куртку ».",
+        "« Шарф » (masculin) ne change pas. « Перчатки » (gants) non plus."
+      ]
+    },
+    {
+      "by": "seller",
+      "fr": [
+        "« Можно…? » sert à tout : « Можно посмотреть ? » (je peux regarder ?), « Можно меню ? », « Можно воду ? ».",
+        "Et les adjectifs suivent le genre : « тёплый шарф », « тёплая шапка »."
+      ]
+    }
+  ],
+  "explore": {
+    "type": "case",
+    "speaker": "luka",
+    "case": "accs",
+    "frame": "Я хочу купить ___.",
+    "frameFr": "Je voudrais acheter ___.",
+    "color": "#3a86ff",
+    "hintFr": "Mets chaque vêtement après « купить » et regarde bien la fin du mot.",
+    "words": [
+      {
+        "tile": "шапка",
+        "fr": "un bonnet",
+        "phraseFr": "Je voudrais acheter un bonnet."
+      },
+      {
+        "tile": "шарф",
+        "fr": "une écharpe",
+        "phraseFr": "Je voudrais acheter une écharpe."
+      },
+      {
+        "tile": "куртка",
+        "fr": "une veste",
+        "phraseFr": "Je voudrais acheter une veste."
+      },
+      {
+        "tile": "перчатки",
+        "formAcc": "перчатки",
+        "fr": "des gants",
+        "phraseFr": "Je voudrais acheter des gants."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Dis que tu veux acheter une veste.",
+      "answer": "куртка"
+    },
+    {
+      "type": "pick",
+      "fr": "Dis que tu veux acheter des gants.",
+      "answer": "перчатки"
+    }
+  ],
+  "cando": [
+    "demander de l'aide dans un magasin",
+    "demander « je peux… ? »",
+    "acheter un vêtement"
+  ],
+  "unlocks": [
+    {
+      "case": "accs",
+      "gender": "femn",
+      "from": "куртка",
+      "to": "куртку"
+    }
+  ],
+  "glossary": {
+    "здравствуйте": "bonjour (poli)",
+    "я": "je, moi",
+    "ты": "tu",
+    "вы": "vous",
+    "да": "oui",
+    "нет": "non",
+    "а": "et, mais",
+    "и": "et",
+    "это": "c'est, voici",
+    "не": "ne… pas",
+    "в": "dans, à",
+    "на": "sur, en",
+    "что": "quoi, que",
+    "как": "comment, comme",
+    "где": "où",
+    "очень": "très",
+    "спасибо": "merci",
+    "пожалуйста": "s'il te plaît / je t'en prie",
+    "хорошо": "bien, d'accord",
+    "привет": "salut",
+    "лука": "Luka (prénom)",
+    "маша": "Macha (prénom)",
+    "олег": "Oleg (prénom)",
+    "анна": "Anna (prénom)",
+    "у": "chez",
+    "меня": "moi (у меня = j'ai)",
+    "тебя": "toi (у тебя = tu as)",
+    "есть": "il y a",
+    "мой": "mon",
+    "моя": "ma",
+    "мне": "à moi",
+    "тоже": "aussi",
+    "сегодня": "aujourd'hui",
+    "завтра": "demain",
+    "вчера": "hier",
+    "потом": "puis, ensuite",
+    "давай": "allons-y, faisons",
+    "вам": "vous (à vous)",
+    "помочь": "aider",
+    "хочу": "(je) veux",
+    "купить": "acheter",
+    "шапку": "bonnet (après купить)",
+    "шапка": "bonnet",
+    "вот": "voici",
+    "эта": "cette",
+    "тёплая": "chaude",
+    "теплая": "chaude",
+    "тёплый": "chaud",
+    "теплый": "chaud",
+    "можно": "on peut, je peux",
+    "посмотреть": "regarder",
+    "конечно": "bien sûr",
+    "сколько": "combien",
+    "она": "elle",
+    "он": "il",
+    "стоит": "coûte",
+    "тысяча": "mille",
+    "рублей": "roubles",
+    "возьму": "(je) prendrai",
+    "ещё": "encore, aussi",
+    "шарф": "écharpe",
+    "шарфа": "(forme incorrecte ici)",
+    "куртка": "veste",
+    "куртку": "veste (après купить)",
+    "перчатки": "gants"
+  },
+  "combos": [
+    {
+      "ru": "Можно посмотреть шарф?",
+      "fr": "Je peux regarder l'écharpe ?",
+      "extra": [
+        "шапка"
+      ],
+      "orders": [
+        "можно посмотреть шарф",
+        "шарф можно посмотреть"
+      ]
+    },
+    {
+      "ru": "Вот эта куртка тёплая.",
+      "fr": "Cette veste-ci est chaude.",
+      "extra": [
+        "шарф"
+      ]
+    },
+    {
+      "ru": "Сколько стоит куртка?",
+      "fr": "Combien coûte la veste ?",
+      "extra": [
+        "куртку"
+      ],
+      "orders": [
+        "сколько стоит куртка",
+        "куртка сколько стоит"
+      ]
+    }
+  ]
+}

@@ -8,6 +8,11 @@
  "sceneFr": "Le soir, Macha invite Luka à dîner. Son ami Oleg est là aussi… et Luka a l'impression de l'avoir déjà vu quelque part.",
  "learner": "luka",
  "speakers": {
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
+  },
   "luka": {
    "name": "Лука",
    "nameFr": "Luka",
@@ -17,11 +22,6 @@
    "name": "Олег",
    "nameFr": "Oleg",
    "color": "#9a6fb0"
-  },
-  "masha": {
-   "name": "Маша",
-   "nameFr": "Macha",
-   "color": "#e07a5f"
   }
  },
  "dialogue": [

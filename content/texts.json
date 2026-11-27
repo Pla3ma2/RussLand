@@ -441,6 +441,240 @@
       "newWords": {
         "зима": "hiver"
       }
+    },
+    {
+      "id": "t9",
+      "after": "18-gare",
+      "by": "luka",
+      "titleFr": "Le départ",
+      "titleRu": "Едем в Москву!",
+      "newWords": {
+        "купил": "(j')ai acheté",
+        "едем": "(nous) allons (en véhicule)",
+        "маши": "de Macha"
+      },
+      "sentences": [
+        {
+          "ru": "Тридцатое декабря.",
+          "fr": "Le trente décembre."
+        },
+        {
+          "ru": "Сегодня мы с М+ашей едем в Москву!",
+          "fr": "Aujourd'hui, Macha et moi, nous allons à Moscou !"
+        },
+        {
+          "ru": "Я купил два билета.",
+          "fr": "J'ai acheté deux billets."
+        },
+        {
+          "ru": "Поезд в восемь утра. Ехать четыре часа.",
+          "fr": "Le train est à huit heures du matin. Le trajet dure quatre heures."
+        },
+        {
+          "ru": "В Москве живёт брат М+аши. Его зовут Ант+он.",
+          "fr": "Le frère de Macha habite à Moscou. Il s'appelle Anton."
+        },
+        {
+          "ru": "Я купил шапку и шарф. В Москве очень холодно!",
+          "fr": "J'ai acheté un bonnet et une écharpe. À Moscou, il fait très froid !"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Combien de billets Luka a-t-il achetés ?",
+          "options": [
+            "Deux",
+            "Un",
+            "Quatre"
+          ]
+        },
+        {
+          "q": "Qui habite à Moscou ?",
+          "options": [
+            "Le frère de Macha",
+            "Oleg",
+            "Julie"
+          ]
+        },
+        {
+          "q": "Combien de temps dure le trajet ?",
+          "options": [
+            "Quatre heures",
+            "Huit heures",
+            "Deux heures"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t10",
+      "after": "20-nouvel-an",
+      "by": "masha",
+      "titleFr": "Carte de vœux",
+      "titleRu": "С Новым годом!",
+      "newWords": {
+        "дорогая": "chère",
+        "говорит": "(il) parle",
+        "пьём": "(nous) buvons"
+      },
+      "sentences": [
+        {
+          "ru": "Дорогая Ж+юли!",
+          "fr": "Chère Julie !"
+        },
+        {
+          "ru": "С Новым годом!",
+          "fr": "Bonne année !"
+        },
+        {
+          "ru": "Мы в Москве. Здесь очень холодно, но красиво.",
+          "fr": "Nous sommes à Moscou. Ici, il fait très froid, mais c'est beau."
+        },
+        {
+          "ru": "Л+ука уже хорошо говорит по-р+усски!",
+          "fr": "Luka parle déjà bien russe !"
+        },
+        {
+          "ru": "Сейчас двенадцать часов. Мы пьём шампанское.",
+          "fr": "Il est minuit. Nous buvons du champagne."
+        },
+        {
+          "ru": "За дружбу! М+аша",
+          "fr": "À l'amitié ! Macha"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Où sont Macha et Luka ?",
+          "options": [
+            "À Moscou",
+            "À Paris",
+            "À Lyon"
+          ]
+        },
+        {
+          "q": "Que boivent-ils à minuit ?",
+          "options": [
+            "Du champagne",
+            "Du thé",
+            "Du café"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "after": "22-plaire",
+      "by": "anton",
+      "titleFr": "Anton",
+      "titleRu": "Антон",
+      "sentences": [
+        {
+          "ru": "Меня зовут Ант+он. Я живу в Москве.",
+          "fr": "Je m'appelle Anton. J'habite à Moscou."
+        },
+        {
+          "ru": "Москва — большой и красивый город.",
+          "fr": "Moscou est une grande et belle ville."
+        },
+        {
+          "ru": "Мне очень нравится метро.",
+          "fr": "J'aime beaucoup le métro."
+        },
+        {
+          "ru": "Я работаю в банке.",
+          "fr": "Je travaille dans une banque."
+        },
+        {
+          "ru": "Я люблю лето, а моя сестра М+аша любит зиму.",
+          "fr": "J'aime l'été, et ma sœur Macha aime l'hiver."
+        },
+        {
+          "ru": "Зимой в Москве очень холодно.",
+          "fr": "En hiver, à Moscou, il fait très froid."
+        }
+      ],
+      "questions": [
+        {
+          "q": "Où travaille Anton ?",
+          "options": [
+            "Dans une banque",
+            "Dans un café",
+            "À l'hôpital"
+          ]
+        },
+        {
+          "q": "Quelle saison préfère Anton ?",
+          "options": [
+            "L'été",
+            "L'hiver",
+            "L'automne"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t12",
+      "after": "24-retour",
+      "by": "luka",
+      "titleFr": "Mon voyage à Moscou",
+      "titleRu": "Я был в Москве",
+      "sentences": [
+        {
+          "ru": "Привет, Ж+юли!",
+          "fr": "Salut, Julie !"
+        },
+        {
+          "ru": "Я был в Москве!",
+          "fr": "J'étais à Moscou !"
+        },
+        {
+          "ru": "Мы гуляли в центре и смотрели Кремль. Было очень интересно!",
+          "fr": "On s'est promenés dans le centre et on a regardé le Kremlin. C'était très intéressant !"
+        },
+        {
+          "ru": "Новый год мы встречали у Ант+она.",
+          "fr": "On a fêté le Nouvel An chez Anton."
+        },
+        {
+          "ru": "Мы были на катке. Я катался, но плохо!",
+          "fr": "On est allés à la patinoire. J'ai patiné, mais mal !"
+        },
+        {
+          "ru": "Мне очень понравилась Москва. Но Петербург я люблю больше.",
+          "fr": "Moscou m'a beaucoup plu. Mais je préfère Saint-Pétersbourg."
+        },
+        {
+          "ru": "Пока! Л+ука",
+          "fr": "Salut ! Luka"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Où Luka a-t-il fêté le Nouvel An ?",
+          "options": [
+            "Chez Anton",
+            "Chez Oleg",
+            "À la maison"
+          ]
+        },
+        {
+          "q": "Comment Luka a-t-il patiné ?",
+          "options": [
+            "Mal",
+            "Très bien",
+            "Il n'a pas patiné"
+          ]
+        },
+        {
+          "q": "Quelle ville Luka préfère-t-il ?",
+          "options": [
+            "Saint-Pétersbourg",
+            "Moscou",
+            "Paris"
+          ]
+        }
+      ]
     }
   ]
 }

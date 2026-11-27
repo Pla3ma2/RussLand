@@ -8,15 +8,15 @@
  "sceneFr": "Une semaine plus tard, Luka va mieux. Pour remercier Macha, il veut l'inviter au théâtre.",
  "learner": "luka",
  "speakers": {
-  "luka": {
-   "name": "Лука",
-   "nameFr": "Luka",
-   "color": "#3d5a80"
-  },
   "masha": {
    "name": "Маша",
    "nameFr": "Macha",
    "color": "#e07a5f"
+  },
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
   }
  },
  "dialogue": [

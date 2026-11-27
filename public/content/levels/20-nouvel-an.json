@@ -1,0 +1,2240 @@
+{
+ "version": 2,
+ "id": "20-nouvel-an",
+ "order": 20,
+ "titleFr": "Le Nouvel An",
+ "titleRu": "Новый год",
+ "emoji": "🎄",
+ "sceneFr": "Le 31 décembre, chez Anton. Il est presque minuit : tout le monde prépare la fête.",
+ "learner": "luka",
+ "speakers": {
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
+  },
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  },
+  "anton": {
+   "name": "Антон",
+   "nameFr": "Anton",
+   "color": "#457b9d"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "anton",
+   "ru": "Скоро Новый год! Что ты хочешь на Новый год, Лука?",
+   "fr": "Bientôt le Nouvel An ! Qu'est-ce que tu veux pour le Nouvel An, Luka ?",
+   "tokens": [
+    {
+     "t": "Скоро",
+     "s": 2,
+     "w": true,
+     "a": "c12e5fd21398.mp3",
+     "l": "скоро"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Новый",
+     "s": 1,
+     "w": true,
+     "a": "e8a2d9f49e3f.mp3",
+     "l": "новый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "год",
+     "s": 1,
+     "w": true,
+     "a": "79050f6306ed.mp3",
+     "l": "год"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочешь",
+     "s": 1,
+     "w": true,
+     "a": "14d6c2c314f5.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Новый",
+     "s": 1,
+     "w": true,
+     "a": "e8a2d9f49e3f.mp3",
+     "l": "новый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "год",
+     "s": 1,
+     "w": true,
+     "a": "79050f6306ed.mp3",
+     "l": "год"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "7d28bfc1e8de.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Я хочу хорошо говорить по-русски!",
+   "fr": "Je veux bien parler russe !",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говорить",
+     "s": 5,
+     "w": true,
+     "a": "358fbba8047e.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-русски",
+     "s": 1,
+     "w": true,
+     "a": "ff6e2721c1e8.mp3",
+     "l": "по-русски"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "11c960bb7052.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Ты уже хорошо говоришь!",
+   "fr": "Tu parles déjà bien !",
+   "tokens": [
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "уже",
+     "s": 2,
+     "w": true,
+     "a": "957fda31f8f5.mp3",
+     "l": "уже"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говоришь",
+     "s": 5,
+     "w": true,
+     "a": "7e8a5711a5f1.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "bda411c01349.mp3"
+  },
+  {
+   "speaker": "anton",
+   "ru": "Двенадцать часов! С Новым годом!",
+   "fr": "Minuit ! Bonne année !",
+   "tokens": [
+    {
+     "t": "Двенадцать",
+     "s": 4,
+     "w": true,
+     "a": "7f41ac768449.mp3",
+     "l": "двенадцать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "часов",
+     "s": 3,
+     "w": true,
+     "a": "caca8ccd3093.mp3",
+     "l": "час"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "С",
+     "s": null,
+     "w": true,
+     "a": "37421d1ce7f3.mp3",
+     "l": "с"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Новым",
+     "s": 1,
+     "w": true,
+     "a": "0f495eda6d74.mp3",
+     "l": "новый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "годом",
+     "s": 1,
+     "w": true,
+     "a": "048eefdd7f4d.mp3",
+     "l": "год"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "c74e5c4399cf.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "С Новым годом! С новым счастьем!",
+   "fr": "Bonne année ! Plein de bonheur !",
+   "tokens": [
+    {
+     "t": "С",
+     "s": null,
+     "w": true,
+     "a": "37421d1ce7f3.mp3",
+     "l": "с"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Новым",
+     "s": 1,
+     "w": true,
+     "a": "0f495eda6d74.mp3",
+     "l": "новый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "годом",
+     "s": 1,
+     "w": true,
+     "a": "048eefdd7f4d.mp3",
+     "l": "год"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "С",
+     "s": null,
+     "w": true,
+     "a": "37421d1ce7f3.mp3",
+     "l": "с"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "новым",
+     "s": 1,
+     "w": true,
+     "a": "0f495eda6d74.mp3",
+     "l": "новый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "счастьем",
+     "s": 2,
+     "w": true,
+     "a": "1e73e05d99e7.mp3",
+     "l": "счастие"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "e1386a0fdcb6.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Давайте пить шампанское!",
+   "fr": "Buvons du champagne !",
+   "tokens": [
+    {
+     "t": "Давайте",
+     "s": 3,
+     "w": true,
+     "a": "72177a2ba306.mp3",
+     "l": "давать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пить",
+     "s": 1,
+     "w": true,
+     "a": "c85ae7fc4439.mp3",
+     "l": "пить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "шампанское",
+     "s": 4,
+     "w": true,
+     "a": "d3172837b367.mp3",
+     "l": "шампанский"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "53a41c84a2bd.mp3"
+  },
+  {
+   "speaker": "anton",
+   "ru": "За нас! За дружбу!",
+   "fr": "À nous ! À l'amitié !",
+   "tokens": [
+    {
+     "t": "За",
+     "s": 1,
+     "w": true,
+     "a": "73d8cf87c237.mp3",
+     "l": "за"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нас",
+     "s": 1,
+     "w": true,
+     "a": "bb4f3e31e46c.mp3",
+     "l": "мы"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "За",
+     "s": 1,
+     "w": true,
+     "a": "73d8cf87c237.mp3",
+     "l": "за"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дружбу",
+     "s": 2,
+     "w": true,
+     "a": "9a5acd93dd3e.mp3",
+     "l": "дружба"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "14308b262df2.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "За дружбу!",
+   "fr": "À l'amitié !",
+   "tokens": [
+    {
+     "t": "За",
+     "s": 1,
+     "w": true,
+     "a": "73d8cf87c237.mp3",
+     "l": "за"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дружбу",
+     "s": 2,
+     "w": true,
+     "a": "9a5acd93dd3e.mp3",
+     "l": "дружба"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "d005272fefdd.mp3"
+  }
+ ],
+ "phrases": {
+  "soon": {
+   "speaker": "anton",
+   "ru": "Скоро Новый год!",
+   "fr": "Bientôt le Nouvel An !",
+   "tokens": [
+    {
+     "t": "Скоро",
+     "s": 2,
+     "w": true,
+     "a": "c12e5fd21398.mp3",
+     "l": "скоро"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Новый",
+     "s": 1,
+     "w": true,
+     "a": "e8a2d9f49e3f.mp3",
+     "l": "новый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "год",
+     "s": 1,
+     "w": true,
+     "a": "79050f6306ed.mp3",
+     "l": "год"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "faa40bba8221.mp3",
+   "id": "soon",
+   "noteFr": "« Скоро » = bientôt. « Новый год » = le Nouvel An (mot à mot : nouvelle année).",
+   "gap": {
+    "index": 0,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "нас",
+      "a": "bb4f3e31e46c.mp3",
+      "s": 1
+     },
+     {
+      "t": "давайте",
+      "a": "72177a2ba306.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "want": {
+   "speaker": "anton",
+   "ru": "Что ты хочешь на Новый год?",
+   "fr": "Qu'est-ce que tu veux pour le Nouvel An ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочешь",
+     "s": 1,
+     "w": true,
+     "a": "14d6c2c314f5.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Новый",
+     "s": 1,
+     "w": true,
+     "a": "e8a2d9f49e3f.mp3",
+     "l": "новый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "год",
+     "s": 1,
+     "w": true,
+     "a": "79050f6306ed.mp3",
+     "l": "год"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "738d3aa10496.mp3",
+   "id": "want",
+   "noteFr": "« Хочешь » = (tu) veux. « На Новый год » = pour le Nouvel An.",
+   "gap": {
+    "index": 4,
+    "whyFr": "Avec « ты » : « хочешь ». « Хочу », c'est pour « я ».",
+    "distractors": [
+     {
+      "t": "хочу",
+      "a": "aae1250833fa.mp3",
+      "s": 3
+     },
+     {
+      "t": "скоро",
+      "a": "c12e5fd21398.mp3",
+      "s": 2
+     }
+    ]
+   },
+   "orders": [
+    "что ты хочешь на новый год",
+    "что ты на новый год хочешь"
+   ]
+  },
+  "speak": {
+   "speaker": "luka",
+   "ru": "Я хочу хорошо говорить по-русски!",
+   "fr": "Je veux bien parler russe !",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говорить",
+     "s": 5,
+     "w": true,
+     "a": "358fbba8047e.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-русски",
+     "s": 4,
+     "w": true,
+     "a": "1875ccbd5a57.mp3",
+     "l": "по-русски"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "f06e0b100e0d.mp3",
+   "id": "speak",
+   "noteFr": "« Хочу » + infinitif : je veux (faire). « Говорить » = parler.",
+   "gap": {
+    "index": 6,
+    "whyFr": "Après « хочу », le verbe reste à l'infinitif : « хочу говорить ».",
+    "distractors": [
+     {
+      "t": "говорю",
+      "a": "7060cf7cbf69.mp3",
+      "s": 5
+     },
+     {
+      "t": "скоро",
+      "a": "c12e5fd21398.mp3",
+      "s": 2
+     }
+    ]
+   },
+   "orders": [
+    "я хочу хорошо говорить по-русски",
+    "я хочу говорить по-русски хорошо"
+   ]
+  },
+  "already": {
+   "speaker": "masha",
+   "ru": "Ты уже хорошо говоришь!",
+   "fr": "Tu parles déjà bien !",
+   "tokens": [
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "уже",
+     "s": 2,
+     "w": true,
+     "a": "957fda31f8f5.mp3",
+     "l": "уже"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говоришь",
+     "s": 5,
+     "w": true,
+     "a": "7e8a5711a5f1.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "bda411c01349.mp3",
+   "id": "already",
+   "noteFr": "« Уже » = déjà. « Ты говоришь » = tu parles.",
+   "gap": {
+    "index": 2,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "нас",
+      "a": "bb4f3e31e46c.mp3",
+      "s": 1
+     },
+     {
+      "t": "давайте",
+      "a": "72177a2ba306.mp3",
+      "s": 3
+     }
+    ]
+   },
+   "orders": [
+    "ты уже хорошо говоришь",
+    "ты уже говоришь хорошо"
+   ]
+  },
+  "happy": {
+   "speaker": "anton",
+   "ru": "С Новым годом!",
+   "fr": "Bonne année !",
+   "tokens": [
+    {
+     "t": "С",
+     "s": null,
+     "w": true,
+     "a": "37421d1ce7f3.mp3",
+     "l": "с"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Новым",
+     "s": 1,
+     "w": true,
+     "a": "0f495eda6d74.mp3",
+     "l": "новый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "годом",
+     "s": 1,
+     "w": true,
+     "a": "048eefdd7f4d.mp3",
+     "l": "год"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "e962acb7a343.mp3",
+   "id": "happy",
+   "noteFr": "Mot à mot : « avec la nouvelle année ! ». La phrase du 31 décembre à minuit.",
+   "gap": {
+    "index": 4,
+    "whyFr": "Après « с » : « с Новым годом ». Retiens-le tel quel !",
+    "distractors": [
+     {
+      "t": "год",
+      "a": "79050f6306ed.mp3",
+      "s": 1
+     },
+     {
+      "t": "счастьем",
+      "a": "1e73e05d99e7.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "happiness": {
+   "speaker": "luka",
+   "ru": "С новым счастьем!",
+   "fr": "Plein de bonheur !",
+   "tokens": [
+    {
+     "t": "С",
+     "s": null,
+     "w": true,
+     "a": "37421d1ce7f3.mp3",
+     "l": "с"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "новым",
+     "s": 1,
+     "w": true,
+     "a": "0f495eda6d74.mp3",
+     "l": "новый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "счастьем",
+     "s": 2,
+     "w": true,
+     "a": "1e73e05d99e7.mp3",
+     "l": "счастие"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "b17a2ba6c286.mp3",
+   "id": "happiness",
+   "noteFr": "« Счастье » = bonheur. On le dit juste après « С Новым годом ! ».",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "дружбу",
+      "a": "9a5acd93dd3e.mp3",
+      "s": 2
+     },
+     {
+      "t": "нас",
+      "a": "bb4f3e31e46c.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "champagne": {
+   "speaker": "masha",
+   "ru": "Давайте пить шампанское!",
+   "fr": "Buvons du champagne !",
+   "tokens": [
+    {
+     "t": "Давайте",
+     "s": 3,
+     "w": true,
+     "a": "72177a2ba306.mp3",
+     "l": "давать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пить",
+     "s": 1,
+     "w": true,
+     "a": "c85ae7fc4439.mp3",
+     "l": "пить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "шампанское",
+     "s": 4,
+     "w": true,
+     "a": "d3172837b367.mp3",
+     "l": "шампанский"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "53a41c84a2bd.mp3",
+   "id": "champagne",
+   "noteFr": "« Давайте » + infinitif = faisons… ! Tu connais « давайте ужинать ».",
+   "gap": {
+    "index": 2,
+    "whyFr": "Après « давайте », l'infinitif : « пить ».",
+    "distractors": [
+     {
+      "t": "пей",
+      "a": "cf1f969d0114.mp3",
+      "s": 1
+     },
+     {
+      "t": "шампанское",
+      "a": "d3172837b367.mp3",
+      "s": 4
+     }
+    ]
+   },
+   "orders": [
+    "давайте пить шампанское"
+   ]
+  },
+  "toast": {
+   "speaker": "anton",
+   "ru": "За нас! За дружбу!",
+   "fr": "À nous ! À l'amitié !",
+   "tokens": [
+    {
+     "t": "За",
+     "s": 1,
+     "w": true,
+     "a": "73d8cf87c237.mp3",
+     "l": "за"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нас",
+     "s": 1,
+     "w": true,
+     "a": "bb4f3e31e46c.mp3",
+     "l": "мы"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "За",
+     "s": 1,
+     "w": true,
+     "a": "73d8cf87c237.mp3",
+     "l": "за"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дружбу",
+     "s": 2,
+     "w": true,
+     "a": "9a5acd93dd3e.mp3",
+     "l": "дружба"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "14308b262df2.mp3",
+   "id": "toast",
+   "noteFr": "« За… ! » = à… ! (pour trinquer). « Дружба » = amitié → « за дружбу » (-у).",
+   "gap": {
+    "index": 6,
+    "whyFr": "Pour trinquer, « за » + le bleu : « дружба » → « за дружбу ».",
+    "distractors": [
+     {
+      "t": "дружба",
+      "a": "297a277b0cd7.mp3",
+      "s": 2
+     },
+     {
+      "t": "счастьем",
+      "a": "1e73e05d99e7.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "c1": {
+   "speaker": "luka",
+   "ru": "Я хочу купить шампанское.",
+   "fr": "Je veux acheter du champagne.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "купить",
+     "s": 3,
+     "w": true,
+     "a": "8317c23f0a81.mp3",
+     "l": "купить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "шампанское",
+     "s": 4,
+     "w": true,
+     "a": "d3172837b367.mp3",
+     "l": "шампанский"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "1218c9fbfc3d.mp3",
+   "id": "c1",
+   "noteFr": "",
+   "orders": [
+    "я хочу купить шампанское",
+    "шампанское я хочу купить"
+   ],
+   "combo": {
+    "from": [
+     "Faire connaissance",
+     "Au café",
+     "L'hiver arrive",
+     "Le Nouvel An"
+    ],
+    "extra": [
+     {
+      "t": "пить",
+      "a": "c85ae7fc4439.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "c2": {
+   "speaker": "luka",
+   "ru": "Что ты хочешь посмотреть в Москве?",
+   "fr": "Qu'est-ce que tu veux voir à Moscou ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочешь",
+     "s": 1,
+     "w": true,
+     "a": "14d6c2c314f5.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "посмотреть",
+     "s": 7,
+     "w": true,
+     "a": "f8a27dac0262.mp3",
+     "l": "посмотреть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Москве",
+     "s": 5,
+     "w": true,
+     "a": "93a66821e1ad.mp3",
+     "l": "москва"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "0f7652d58a1e.mp3",
+   "id": "c2",
+   "noteFr": "",
+   "orders": [
+    "что ты хочешь посмотреть в москве",
+    "что ты хочешь в москве посмотреть"
+   ],
+   "combo": {
+    "from": [
+     "Au café",
+     "Je ne comprends pas",
+     "Les projets",
+     "Acheter un bonnet",
+     "Où es-tu ?"
+    ],
+    "extra": [
+     {
+      "t": "москву",
+      "a": "5ad93f99f6c7.mp3",
+      "s": 5
+     }
+    ]
+   }
+  },
+  "c3": {
+   "speaker": "luka",
+   "ru": "Ты уже говоришь по-английски?",
+   "fr": "Tu parles déjà anglais ?",
+   "tokens": [
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "уже",
+     "s": 2,
+     "w": true,
+     "a": "957fda31f8f5.mp3",
+     "l": "уже"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говоришь",
+     "s": 5,
+     "w": true,
+     "a": "7e8a5711a5f1.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-английски",
+     "s": 7,
+     "w": true,
+     "a": "c0f8fa40aea5.mp3",
+     "l": "по-английски"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "547d3d6de746.mp3",
+   "id": "c3",
+   "noteFr": "",
+   "orders": [
+    "ты уже говоришь по-английски",
+    "ты уже по-английски говоришь"
+   ],
+   "combo": {
+    "from": [
+     "Je ne comprends pas",
+     "Le Nouvel An",
+     "Se présenter"
+    ],
+    "extra": [
+     {
+      "t": "говорю",
+      "a": "7060cf7cbf69.mp3",
+      "s": 5
+     }
+    ]
+   }
+  }
+ },
+ "parts": [
+  {
+   "titleFr": "Avant minuit",
+   "steps": [
+    {
+     "type": "scene"
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "soon",
+      "want"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "speak",
+      "already"
+     ],
+     "review": [
+      "want"
+     ]
+    },
+    {
+     "type": "insight",
+     "index": 0
+    }
+   ]
+  },
+  {
+   "titleFr": "Minuit !",
+   "steps": [
+    {
+     "type": "warmup",
+     "phrases": [
+      "want",
+      "speak",
+      "already"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "happy",
+      "happiness"
+     ],
+     "review": [
+      "speak"
+     ]
+    },
+    {
+     "type": "explore"
+    },
+    {
+     "type": "insight",
+     "index": 1
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "champagne",
+      "toast"
+     ],
+     "review": [
+      "happy",
+      "happiness"
+     ]
+    },
+    {
+     "type": "combine",
+     "phrases": [
+      "c1",
+      "c2",
+      "c3"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Joue la scène",
+   "steps": [
+    {
+     "type": "final"
+    },
+    {
+     "type": "roleplay"
+    }
+   ]
+  }
+ ],
+ "insights": [
+  {
+   "by": "anton",
+   "fr": [
+    "« Хочу » + un verbe à l'infinitif : « я хочу говорить », « я хочу посмотреть », « я хочу купить ». Super pratique !",
+    "Et « хочу » + une chose (en bleu) : « я хочу шапку »."
+   ]
+  },
+  {
+   "by": "anton",
+   "fr": [
+    "Pour trinquer, on dit « За… ! » + le bleu : « за дружбу ! », « за любовь ! », « за нас ! ».",
+    "Le Nouvel An est LA grande fête en Russie : on fait un sapin, on mange la salade « Оливье », et à minuit on dit « С Новым годом ! »."
+   ]
+  }
+ ],
+ "explore": {
+  "type": "case",
+  "frameFr": "À ___ !",
+  "color": "#3a86ff",
+  "hintFr": "Trinque avec chaque mot et regarde bien la fin du mot.",
+  "before": [
+   {
+    "t": "За",
+    "s": 1,
+    "w": true,
+    "a": "73d8cf87c237.mp3",
+    "l": "за"
+   },
+   {
+    "t": " ",
+    "w": false
+   }
+  ],
+  "after": [
+   {
+    "t": "!",
+    "w": false
+   }
+  ],
+  "verb": null,
+  "words": [
+   {
+    "tile": "дружба",
+    "tileStress": 2,
+    "fr": "l'amitié",
+    "phraseFr": "À l'amitié !",
+    "phrase": "За дружбу!",
+    "morph": {
+     "from": "дружба",
+     "to": "дружбу",
+     "stem": "дружб",
+     "endFrom": "а",
+     "endTo": "у",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": true
+    },
+    "audioTile": "297a277b0cd7.mp3",
+    "audioPhrase": "cfa517ebc957.mp3"
+   },
+   {
+    "tile": "любовь",
+    "tileStress": 3,
+    "fr": "l'amour",
+    "phraseFr": "À l'amour !",
+    "phrase": "За любовь!",
+    "morph": {
+     "from": "любовь",
+     "to": "любовь",
+     "stem": "любовь",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": false
+    },
+    "audioTile": "1c88db28fa4a.mp3",
+    "audioPhrase": "163ccefb5d7f.mp3"
+   },
+   {
+    "tile": "здоровье",
+    "tileStress": 4,
+    "fr": "la santé",
+    "phraseFr": "À la santé !",
+    "phrase": "За здоровье!",
+    "morph": {
+     "from": "здоровье",
+     "to": "здоровье",
+     "stem": "здоровье",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 4,
+     "stressTo": 4,
+     "changed": false
+    },
+    "audioTile": "c9772466a63c.mp3",
+    "audioPhrase": "7821d6150522.mp3"
+   },
+   {
+    "tile": "Россия",
+    "tileStress": 4,
+    "fr": "la Russie",
+    "phraseFr": "À la Russie !",
+    "phrase": "За Россию!",
+    "morph": {
+     "from": "Россия",
+     "to": "Россию",
+     "stem": "Росси",
+     "endFrom": "я",
+     "endTo": "ю",
+     "stressFrom": 4,
+     "stressTo": 4,
+     "changed": true
+    },
+    "audioTile": "10e96ba558a9.mp3",
+    "audioPhrase": "47e04aaf6dd3.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Trinque à l'amour.",
+   "answer": "любовь"
+  },
+  {
+   "type": "pick",
+   "fr": "Trinque à la Russie.",
+   "answer": "Россия"
+  }
+ ],
+ "grammar": [
+  "давайте пить шампанское",
+  "двенадцать часов с новым годом",
+  "за дружбу",
+  "за нас за дружбу",
+  "с новым годом",
+  "с новым годом с новым счастьем",
+  "с новым счастьем",
+  "скоро новый год",
+  "скоро новый год что ты хочешь на новый год лука",
+  "ты уже говоришь поанглийски",
+  "ты уже хорошо говоришь",
+  "что ты хочешь на новый год",
+  "что ты хочешь посмотреть в москве",
+  "я хочу купить шампанское",
+  "я хочу хорошо говорить порусски",
+  "[unk]"
+ ],
+ "cando": [
+  "souhaiter une bonne année",
+  "trinquer",
+  "dire ce que tu veux faire"
+ ],
+ "glossary": {
+  "здравствуйте": "bonjour (poli)",
+  "я": "je, moi",
+  "ты": "tu",
+  "вы": "vous",
+  "да": "oui",
+  "нет": "non",
+  "а": "et, mais",
+  "и": "et",
+  "это": "c'est, voici",
+  "не": "ne… pas",
+  "в": "dans, à",
+  "на": "sur, en",
+  "что": "quoi, que",
+  "как": "comment, comme",
+  "где": "où",
+  "очень": "très",
+  "спасибо": "merci",
+  "пожалуйста": "s'il te plaît / je t'en prie",
+  "хорошо": "bien, d'accord",
+  "привет": "salut",
+  "лука": "Luka (prénom)",
+  "маша": "Macha (prénom)",
+  "олег": "Oleg (prénom)",
+  "анна": "Anna (prénom)",
+  "у": "chez",
+  "меня": "moi (у меня = j'ai)",
+  "тебя": "toi (у тебя = tu as)",
+  "есть": "il y a",
+  "мой": "mon",
+  "моя": "ma",
+  "мне": "à moi",
+  "тоже": "aussi",
+  "сегодня": "aujourd'hui",
+  "завтра": "demain",
+  "вчера": "hier",
+  "потом": "puis, ensuite",
+  "давай": "allons-y, faisons",
+  "скоро": "bientôt",
+  "новый": "nouveau",
+  "год": "année, an",
+  "хочешь": "(tu) veux",
+  "хочу": "(je) veux",
+  "говорить": "parler",
+  "говорю": "(je) parle",
+  "по-русски": "en russe",
+  "уже": "déjà",
+  "говоришь": "(tu) parles",
+  "двенадцать": "douze",
+  "часов": "heures",
+  "с": "avec",
+  "новым": "nouveau (après с)",
+  "годом": "année (с Новым годом = bonne année)",
+  "счастьем": "bonheur (après с)",
+  "давайте": "faisons, allons",
+  "пить": "boire",
+  "пей": "bois !",
+  "шампанское": "champagne",
+  "за": "à (pour trinquer)",
+  "нас": "nous",
+  "дружбу": "amitié (après за)",
+  "дружба": "amitié",
+  "любовь": "amour",
+  "здоровье": "santé",
+  "россию": "Russie (après за)",
+  "россия": "Russie",
+  "купить": "acheter",
+  "посмотреть": "regarder",
+  "москве": "Moscou (après в)",
+  "по-английски": "en anglais"
+ },
+ "unlocks": [
+  {
+   "case": "accs",
+   "gender": "femn",
+   "from": "дружба",
+   "to": "дружбу"
+  }
+ ],
+ "items": [
+  {
+   "id": "20-nouvel-an:soon",
+   "ru": "Скоро Новый год!",
+   "fr": "Bientôt le Nouvel An !",
+   "tokens": [
+    {
+     "t": "Скоро",
+     "s": 2,
+     "w": true,
+     "a": "c12e5fd21398.mp3",
+     "l": "скоро"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Новый",
+     "s": 1,
+     "w": true,
+     "a": "e8a2d9f49e3f.mp3",
+     "l": "новый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "год",
+     "s": 1,
+     "w": true,
+     "a": "79050f6306ed.mp3",
+     "l": "год"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "faa40bba8221.mp3"
+  },
+  {
+   "id": "20-nouvel-an:want",
+   "ru": "Что ты хочешь на Новый год?",
+   "fr": "Qu'est-ce que tu veux pour le Nouvel An ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочешь",
+     "s": 1,
+     "w": true,
+     "a": "14d6c2c314f5.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Новый",
+     "s": 1,
+     "w": true,
+     "a": "e8a2d9f49e3f.mp3",
+     "l": "новый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "год",
+     "s": 1,
+     "w": true,
+     "a": "79050f6306ed.mp3",
+     "l": "год"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "738d3aa10496.mp3"
+  },
+  {
+   "id": "20-nouvel-an:speak",
+   "ru": "Я хочу хорошо говорить по-русски!",
+   "fr": "Je veux bien parler russe !",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говорить",
+     "s": 5,
+     "w": true,
+     "a": "358fbba8047e.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-русски",
+     "s": 4,
+     "w": true,
+     "a": "1875ccbd5a57.mp3",
+     "l": "по-русски"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "f06e0b100e0d.mp3"
+  },
+  {
+   "id": "20-nouvel-an:already",
+   "ru": "Ты уже хорошо говоришь!",
+   "fr": "Tu parles déjà bien !",
+   "tokens": [
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "уже",
+     "s": 2,
+     "w": true,
+     "a": "957fda31f8f5.mp3",
+     "l": "уже"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говоришь",
+     "s": 5,
+     "w": true,
+     "a": "7e8a5711a5f1.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "bda411c01349.mp3"
+  },
+  {
+   "id": "20-nouvel-an:happy",
+   "ru": "С Новым годом!",
+   "fr": "Bonne année !",
+   "tokens": [
+    {
+     "t": "С",
+     "s": null,
+     "w": true,
+     "a": "37421d1ce7f3.mp3",
+     "l": "с"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Новым",
+     "s": 1,
+     "w": true,
+     "a": "0f495eda6d74.mp3",
+     "l": "новый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "годом",
+     "s": 1,
+     "w": true,
+     "a": "048eefdd7f4d.mp3",
+     "l": "год"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "e962acb7a343.mp3"
+  },
+  {
+   "id": "20-nouvel-an:happiness",
+   "ru": "С новым счастьем!",
+   "fr": "Plein de bonheur !",
+   "tokens": [
+    {
+     "t": "С",
+     "s": null,
+     "w": true,
+     "a": "37421d1ce7f3.mp3",
+     "l": "с"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "новым",
+     "s": 1,
+     "w": true,
+     "a": "0f495eda6d74.mp3",
+     "l": "новый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "счастьем",
+     "s": 2,
+     "w": true,
+     "a": "1e73e05d99e7.mp3",
+     "l": "счастие"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "b17a2ba6c286.mp3"
+  },
+  {
+   "id": "20-nouvel-an:champagne",
+   "ru": "Давайте пить шампанское!",
+   "fr": "Buvons du champagne !",
+   "tokens": [
+    {
+     "t": "Давайте",
+     "s": 3,
+     "w": true,
+     "a": "72177a2ba306.mp3",
+     "l": "давать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пить",
+     "s": 1,
+     "w": true,
+     "a": "c85ae7fc4439.mp3",
+     "l": "пить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "шампанское",
+     "s": 4,
+     "w": true,
+     "a": "d3172837b367.mp3",
+     "l": "шампанский"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "53a41c84a2bd.mp3"
+  },
+  {
+   "id": "20-nouvel-an:toast",
+   "ru": "За нас! За дружбу!",
+   "fr": "À nous ! À l'amitié !",
+   "tokens": [
+    {
+     "t": "За",
+     "s": 1,
+     "w": true,
+     "a": "73d8cf87c237.mp3",
+     "l": "за"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нас",
+     "s": 1,
+     "w": true,
+     "a": "bb4f3e31e46c.mp3",
+     "l": "мы"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "За",
+     "s": 1,
+     "w": true,
+     "a": "73d8cf87c237.mp3",
+     "l": "за"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дружбу",
+     "s": 2,
+     "w": true,
+     "a": "9a5acd93dd3e.mp3",
+     "l": "дружба"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "14308b262df2.mp3"
+  },
+  {
+   "id": "20-nouvel-an:c1",
+   "ru": "Я хочу купить шампанское.",
+   "fr": "Je veux acheter du champagne.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "купить",
+     "s": 3,
+     "w": true,
+     "a": "8317c23f0a81.mp3",
+     "l": "купить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "шампанское",
+     "s": 4,
+     "w": true,
+     "a": "d3172837b367.mp3",
+     "l": "шампанский"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "1218c9fbfc3d.mp3"
+  },
+  {
+   "id": "20-nouvel-an:c2",
+   "ru": "Что ты хочешь посмотреть в Москве?",
+   "fr": "Qu'est-ce que tu veux voir à Moscou ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочешь",
+     "s": 1,
+     "w": true,
+     "a": "14d6c2c314f5.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "посмотреть",
+     "s": 7,
+     "w": true,
+     "a": "f8a27dac0262.mp3",
+     "l": "посмотреть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Москве",
+     "s": 5,
+     "w": true,
+     "a": "93a66821e1ad.mp3",
+     "l": "москва"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "0f7652d58a1e.mp3"
+  },
+  {
+   "id": "20-nouvel-an:c3",
+   "ru": "Ты уже говоришь по-английски?",
+   "fr": "Tu parles déjà anglais ?",
+   "tokens": [
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "уже",
+     "s": 2,
+     "w": true,
+     "a": "957fda31f8f5.mp3",
+     "l": "уже"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говоришь",
+     "s": 5,
+     "w": true,
+     "a": "7e8a5711a5f1.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-английски",
+     "s": 7,
+     "w": true,
+     "a": "c0f8fa40aea5.mp3",
+     "l": "по-английски"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "547d3d6de746.mp3"
+  }
+ ],
+ "hasAudio": false
+}

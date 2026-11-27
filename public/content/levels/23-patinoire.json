@@ -1,0 +1,2193 @@
+{
+ "version": 2,
+ "id": "23-patinoire",
+ "order": 23,
+ "titleFr": "À la patinoire",
+ "titleRu": "На катке",
+ "emoji": "⛸️",
+ "sceneFr": "Le 2 janvier, Anton emmène Luka et Macha à la patinoire. Luka n'a jamais patiné…",
+ "learner": "luka",
+ "speakers": {
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
+  },
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  },
+  "anton": {
+   "name": "Антон",
+   "nameFr": "Anton",
+   "color": "#457b9d"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "anton",
+   "ru": "Пойдём на каток!",
+   "fr": "Allons à la patinoire !",
+   "tokens": [
+    {
+     "t": "Пойдём",
+     "s": 4,
+     "w": true,
+     "a": "634858b1744b.mp3",
+     "l": "пойти"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "каток",
+     "s": 3,
+     "w": true,
+     "a": "f8eed928e392.mp3",
+     "l": "каток"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "2a9b85f91d20.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Но я не умею кататься на коньках.",
+   "fr": "Mais je ne sais pas patiner.",
+   "tokens": [
+    {
+     "t": "Но",
+     "s": 1,
+     "w": true,
+     "a": "e9cdd3dfae39.mp3",
+     "l": "но"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "умею",
+     "s": 2,
+     "w": true,
+     "a": "e1742302f9f1.mp3",
+     "l": "уметь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кататься",
+     "s": 3,
+     "w": true,
+     "a": "19ca327e1f74.mp3",
+     "l": "кататься"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "коньках",
+     "s": 5,
+     "w": true,
+     "a": "f4154a44a866.mp3",
+     "l": "конёк"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "a0adc9d7081f.mp3"
+  },
+  {
+   "speaker": "anton",
+   "ru": "Ничего, я могу помочь.",
+   "fr": "Pas grave, je peux t'aider.",
+   "tokens": [
+    {
+     "t": "Ничего",
+     "s": 5,
+     "w": true,
+     "a": "803a7b86c540.mp3",
+     "l": "ничего"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "могу",
+     "s": 3,
+     "w": true,
+     "a": "a2032b90ac26.mp3",
+     "l": "мочь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "помочь",
+     "s": 3,
+     "w": true,
+     "a": "b0bf54c10e4d.mp3",
+     "l": "помочь"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ce4f98f32e6b.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Это просто! Смотри!",
+   "fr": "C'est facile ! Regarde !",
+   "tokens": [
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "просто",
+     "s": 2,
+     "w": true,
+     "a": "b0f0f569bb47.mp3",
+     "l": "просто"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Смотри",
+     "s": 5,
+     "w": true,
+     "a": "f54268a7f766.mp3",
+     "l": "смотреть"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "3357cca1d4d8.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Антон, ты можешь мне помочь?",
+   "fr": "Anton, tu peux m'aider ?",
+   "tokens": [
+    {
+     "t": "Антон",
+     "s": 3,
+     "w": true,
+     "a": "8380dea9f409.mp3",
+     "l": "антон"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "можешь",
+     "s": 1,
+     "w": true,
+     "a": "6c9b2504ca52.mp3",
+     "l": "мочь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "помочь",
+     "s": 3,
+     "w": true,
+     "a": "b0bf54c10e4d.mp3",
+     "l": "помочь"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "ad25b9d5cf7c.mp3"
+  },
+  {
+   "speaker": "anton",
+   "ru": "Конечно! Дай руку.",
+   "fr": "Bien sûr ! Donne-moi la main.",
+   "tokens": [
+    {
+     "t": "Конечно",
+     "s": 3,
+     "w": true,
+     "a": "4df928ed05d6.mp3",
+     "l": "конечно"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Дай",
+     "s": 1,
+     "w": true,
+     "a": "945c9fbf14b3.mp3",
+     "l": "дать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "руку",
+     "s": 1,
+     "w": true,
+     "a": "3dc2bfde1034.mp3",
+     "l": "рука"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ab3e372cc19d.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Ой! Я упал!",
+   "fr": "Aïe ! Je suis tombé !",
+   "tokens": [
+    {
+     "t": "Ой",
+     "s": 0,
+     "w": true,
+     "a": "d0c6d2387eac.mp3",
+     "l": "ой"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "упал",
+     "s": 2,
+     "w": true,
+     "a": "d57693ef56dd.mp3",
+     "l": "упасть"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "a20a109446e3.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Ничего! Ещё раз!",
+   "fr": "Pas grave ! Encore une fois !",
+   "tokens": [
+    {
+     "t": "Ничего",
+     "s": 5,
+     "w": true,
+     "a": "803a7b86c540.mp3",
+     "l": "ничего"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Ещё",
+     "s": 2,
+     "w": true,
+     "a": "62bf7c150e0b.mp3",
+     "l": "ещё"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "раз",
+     "s": 1,
+     "w": true,
+     "a": "081b84d035a8.mp3",
+     "l": "раз"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "91ab523e19c7.mp3"
+  }
+ ],
+ "phrases": {
+  "rink": {
+   "speaker": "anton",
+   "ru": "Пойдём на каток!",
+   "fr": "Allons à la patinoire !",
+   "tokens": [
+    {
+     "t": "Пойдём",
+     "s": 4,
+     "w": true,
+     "a": "634858b1744b.mp3",
+     "l": "пойти"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "каток",
+     "s": 3,
+     "w": true,
+     "a": "f8eed928e392.mp3",
+     "l": "каток"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "2a9b85f91d20.mp3",
+   "id": "rink",
+   "noteFr": "« Каток » = patinoire. « Пойдём » = allons. Tu connais « давай пойдём ».",
+   "gap": {
+    "index": 4,
+    "whyFr": "On y va : « на каток » (forme de base). « На катке », c'est quand on y est.",
+    "distractors": [
+     {
+      "t": "катке",
+      "a": "32633d84b4d9.mp3",
+      "s": 4
+     },
+     {
+      "t": "помочь",
+      "a": "b0bf54c10e4d.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "cant": {
+   "speaker": "luka",
+   "ru": "Но я не умею кататься на коньках.",
+   "fr": "Mais je ne sais pas patiner.",
+   "tokens": [
+    {
+     "t": "Но",
+     "s": 1,
+     "w": true,
+     "a": "e9cdd3dfae39.mp3",
+     "l": "но"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "умею",
+     "s": 2,
+     "w": true,
+     "a": "e1742302f9f1.mp3",
+     "l": "уметь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кататься",
+     "s": 3,
+     "w": true,
+     "a": "19ca327e1f74.mp3",
+     "l": "кататься"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "коньках",
+     "s": 5,
+     "w": true,
+     "a": "f4154a44a866.mp3",
+     "l": "конёк"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "a0adc9d7081f.mp3",
+   "id": "cant",
+   "noteFr": "« Уметь » = savoir faire. « Я не умею » = je ne sais pas (faire). « Кататься на коньках » = patiner.",
+   "gap": {
+    "index": 6,
+    "whyFr": "Pour une compétence (savoir patiner) : « умею ». « Могу », c'est « je peux ».",
+    "distractors": [
+     {
+      "t": "можешь",
+      "a": "6c9b2504ca52.mp3",
+      "s": 1
+     },
+     {
+      "t": "каток",
+      "a": "f8eed928e392.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "canhelp": {
+   "speaker": "anton",
+   "ru": "Ничего, я могу помочь.",
+   "fr": "Pas grave, je peux t'aider.",
+   "tokens": [
+    {
+     "t": "Ничего",
+     "s": 5,
+     "w": true,
+     "a": "803a7b86c540.mp3",
+     "l": "ничего"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "могу",
+     "s": 3,
+     "w": true,
+     "a": "a2032b90ac26.mp3",
+     "l": "мочь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "помочь",
+     "s": 3,
+     "w": true,
+     "a": "b0bf54c10e4d.mp3",
+     "l": "помочь"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ce4f98f32e6b.mp3",
+   "id": "canhelp",
+   "noteFr": "« Я могу » = je peux. « Помочь » = aider.",
+   "gap": {
+    "index": 4,
+    "whyFr": "Avec « я » : « могу ». « Можешь », c'est pour « ты ».",
+    "distractors": [
+     {
+      "t": "можешь",
+      "a": "6c9b2504ca52.mp3",
+      "s": 1
+     },
+     {
+      "t": "умею",
+      "a": "e1742302f9f1.mp3",
+      "s": 2
+     }
+    ]
+   },
+   "orders": [
+    "ничего я могу помочь"
+   ]
+  },
+  "easy": {
+   "speaker": "masha",
+   "ru": "Это просто! Смотри!",
+   "fr": "C'est facile ! Regarde !",
+   "tokens": [
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "просто",
+     "s": 2,
+     "w": true,
+     "a": "b0f0f569bb47.mp3",
+     "l": "просто"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Смотри",
+     "s": 5,
+     "w": true,
+     "a": "f54268a7f766.mp3",
+     "l": "смотреть"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "3357cca1d4d8.mp3",
+   "id": "easy",
+   "noteFr": "« Просто » = facile, simple. « Смотри ! » = regarde !",
+   "gap": {
+    "index": 2,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "помочь",
+      "a": "b0bf54c10e4d.mp3",
+      "s": 3
+     },
+     {
+      "t": "руку",
+      "a": "3dc2bfde1034.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "canyou": {
+   "speaker": "luka",
+   "ru": "Антон, ты можешь мне помочь?",
+   "fr": "Anton, tu peux m'aider ?",
+   "tokens": [
+    {
+     "t": "Антон",
+     "s": 3,
+     "w": true,
+     "a": "8380dea9f409.mp3",
+     "l": "антон"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "можешь",
+     "s": 1,
+     "w": true,
+     "a": "6c9b2504ca52.mp3",
+     "l": "мочь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "помочь",
+     "s": 3,
+     "w": true,
+     "a": "b0bf54c10e4d.mp3",
+     "l": "помочь"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "ad25b9d5cf7c.mp3",
+   "id": "canyou",
+   "noteFr": "« Ты можешь » = tu peux. « Мне помочь » = m'aider.",
+   "gap": {
+    "index": 4,
+    "whyFr": "Avec « ты » : « можешь ». « Могу », c'est pour « я ».",
+    "distractors": [
+     {
+      "t": "могу",
+      "a": "a2032b90ac26.mp3",
+      "s": 3
+     },
+     {
+      "t": "умею",
+      "a": "e1742302f9f1.mp3",
+      "s": 2
+     }
+    ]
+   },
+   "orders": [
+    "антон ты можешь мне помочь",
+    "антон ты можешь помочь мне"
+   ]
+  },
+  "hand": {
+   "speaker": "anton",
+   "ru": "Конечно! Дай руку.",
+   "fr": "Bien sûr ! Donne-moi la main.",
+   "tokens": [
+    {
+     "t": "Конечно",
+     "s": 3,
+     "w": true,
+     "a": "4df928ed05d6.mp3",
+     "l": "конечно"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Дай",
+     "s": 1,
+     "w": true,
+     "a": "945c9fbf14b3.mp3",
+     "l": "дать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "руку",
+     "s": 1,
+     "w": true,
+     "a": "3dc2bfde1034.mp3",
+     "l": "рука"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ab3e372cc19d.mp3",
+   "id": "hand",
+   "noteFr": "« Дай » = donne (à « ты »). « Рука » = main → « дай руку » (-у).",
+   "gap": {
+    "index": 4,
+    "whyFr": "On donne la main : le bleu, « рука » → « руку ».",
+    "distractors": [
+     {
+      "t": "рука",
+      "a": "f5240b03959d.mp3",
+      "s": 3
+     },
+     {
+      "t": "каток",
+      "a": "f8eed928e392.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "fell": {
+   "speaker": "luka",
+   "ru": "Ой! Я упал!",
+   "fr": "Aïe ! Je suis tombé !",
+   "tokens": [
+    {
+     "t": "Ой",
+     "s": 0,
+     "w": true,
+     "a": "d0c6d2387eac.mp3",
+     "l": "ой"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "упал",
+     "s": 2,
+     "w": true,
+     "a": "d57693ef56dd.mp3",
+     "l": "упасть"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "a20a109446e3.mp3",
+   "id": "fell",
+   "noteFr": "« Я упал » = je suis tombé (homme). Une femme dirait « я упала ».",
+   "gap": {
+    "index": 4,
+    "whyFr": "Luka est un homme : « упал ». « Упала », c'est pour une femme.",
+    "distractors": [
+     {
+      "t": "упала",
+      "a": "d8a0787faaaf.mp3",
+      "s": 2
+     },
+     {
+      "t": "могу",
+      "a": "a2032b90ac26.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "again": {
+   "speaker": "masha",
+   "ru": "Ничего! Ещё раз!",
+   "fr": "Pas grave ! Encore une fois !",
+   "tokens": [
+    {
+     "t": "Ничего",
+     "s": 5,
+     "w": true,
+     "a": "803a7b86c540.mp3",
+     "l": "ничего"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Ещё",
+     "s": 2,
+     "w": true,
+     "a": "62bf7c150e0b.mp3",
+     "l": "ещё"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "раз",
+     "s": 1,
+     "w": true,
+     "a": "081b84d035a8.mp3",
+     "l": "раз"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "91ab523e19c7.mp3",
+   "id": "again",
+   "noteFr": "« Ещё раз » = encore une fois.",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "каток",
+      "a": "f8eed928e392.mp3",
+      "s": 3
+     },
+     {
+      "t": "упал",
+      "a": "d57693ef56dd.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "c1": {
+   "speaker": "luka",
+   "ru": "Я не могу, я работаю.",
+   "fr": "Je ne peux pas, je travaille.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "могу",
+     "s": 3,
+     "w": true,
+     "a": "a2032b90ac26.mp3",
+     "l": "мочь"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работаю",
+     "s": 3,
+     "w": true,
+     "a": "c044cc17ebbc.mp3",
+     "l": "работать"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "94668637d043.mp3",
+   "id": "c1",
+   "noteFr": "",
+   "orders": [
+    "я не могу я работаю"
+   ],
+   "combo": {
+    "from": [
+     "Faire connaissance",
+     "Je ne comprends pas",
+     "À la patinoire",
+     "Ma journée"
+    ],
+    "extra": [
+     {
+      "t": "умею",
+      "a": "e1742302f9f1.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "c2": {
+   "speaker": "luka",
+   "ru": "Ты можешь говорить медленнее?",
+   "fr": "Tu peux parler plus lentement ?",
+   "tokens": [
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "можешь",
+     "s": 1,
+     "w": true,
+     "a": "6c9b2504ca52.mp3",
+     "l": "мочь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говорить",
+     "s": 5,
+     "w": true,
+     "a": "358fbba8047e.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "медленнее",
+     "s": 1,
+     "w": true,
+     "a": "072a7ce06e76.mp3",
+     "l": "медленный"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "ad7e144296b3.mp3",
+   "id": "c2",
+   "noteFr": "",
+   "orders": [
+    "ты можешь говорить медленнее",
+    "ты можешь медленнее говорить"
+   ],
+   "combo": {
+    "from": [
+     "Je ne comprends pas",
+     "À la patinoire",
+     "Le Nouvel An"
+    ],
+    "extra": [
+     {
+      "t": "могу",
+      "a": "a2032b90ac26.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "c3": {
+   "speaker": "luka",
+   "ru": "Я не умею играть в футбол.",
+   "fr": "Je ne sais pas jouer au foot.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "умею",
+     "s": 2,
+     "w": true,
+     "a": "e1742302f9f1.mp3",
+     "l": "уметь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "играть",
+     "s": 3,
+     "w": true,
+     "a": "fdefbe32f178.mp3",
+     "l": "играть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "футбол",
+     "s": 4,
+     "w": true,
+     "a": "b96f2b03b8b6.mp3",
+     "l": "футбол"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "0be3af067553.mp3",
+   "id": "c3",
+   "noteFr": "",
+   "orders": [
+    "я не умею играть в футбол"
+   ],
+   "combo": {
+    "from": [
+     "Faire connaissance",
+     "Je ne comprends pas",
+     "À la patinoire",
+     "Les projets",
+     "Où es-tu ?"
+    ],
+    "extra": [
+     {
+      "t": "могу",
+      "a": "a2032b90ac26.mp3",
+      "s": 3
+     }
+    ]
+   }
+  }
+ },
+ "parts": [
+  {
+   "titleFr": "Je ne sais pas…",
+   "steps": [
+    {
+     "type": "scene"
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "rink",
+      "cant"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "canhelp",
+      "easy"
+     ],
+     "review": [
+      "cant"
+     ]
+    },
+    {
+     "type": "explore"
+    },
+    {
+     "type": "insight",
+     "index": 0
+    }
+   ]
+  },
+  {
+   "titleFr": "Tu peux m'aider ?",
+   "steps": [
+    {
+     "type": "warmup",
+     "phrases": [
+      "rink",
+      "cant",
+      "canhelp"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "canyou",
+      "hand"
+     ],
+     "review": [
+      "canhelp",
+      "easy"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "fell",
+      "again"
+     ],
+     "review": [
+      "canyou"
+     ]
+    },
+    {
+     "type": "insight",
+     "index": 1
+    },
+    {
+     "type": "combine",
+     "phrases": [
+      "c1",
+      "c2",
+      "c3"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Joue la scène",
+   "steps": [
+    {
+     "type": "final"
+    },
+    {
+     "type": "roleplay"
+    }
+   ]
+  }
+ ],
+ "insights": [
+  {
+   "by": "anton",
+   "fr": [
+    "« Мочь » = pouvoir : я могу, ты можешь, он может, мы можем, вы можете, они могут.",
+    "Comme « хочу », on ajoute un verbe à l'infinitif : « я могу помочь », « ты можешь говорить медленнее ? »."
+   ]
+  },
+  {
+   "by": "anton",
+   "fr": [
+    "Attention : « уметь » = savoir faire (une compétence) : « я умею кататься », « я не умею плавать ».",
+    "« Мочь » = pouvoir (c'est possible, j'ai le temps, j'ai le droit) : « я не могу, я работаю »."
+   ]
+  }
+ ],
+ "explore": {
+  "type": "person",
+  "frameFr": "___ pouvoir aider.",
+  "color": "#8e44ad",
+  "hintFr": "Change la personne et écoute le verbe : il change beaucoup !",
+  "before": [],
+  "after": [
+   {
+    "t": "  ",
+    "w": false
+   },
+   {
+    "t": "помочь",
+    "s": 3,
+    "w": true,
+    "a": "b0bf54c10e4d.mp3",
+    "l": "помочь"
+   },
+   {
+    "t": ".",
+    "w": false
+   }
+  ],
+  "verb": "мочь",
+  "words": [
+   {
+    "tile": "я",
+    "tileStress": 0,
+    "fr": "je",
+    "phraseFr": "Je peux aider.",
+    "phrase": "Я могу помочь.",
+    "morph": {
+     "from": "мочь",
+     "to": "могу",
+     "stem": "мо",
+     "endFrom": "чь",
+     "endTo": "гу",
+     "stressFrom": 1,
+     "stressTo": 3,
+     "changed": true
+    },
+    "audioTile": "70b9d9783365.mp3",
+    "audioPhrase": "06ce7f7c6154.mp3"
+   },
+   {
+    "tile": "ты",
+    "tileStress": 1,
+    "fr": "tu",
+    "phraseFr": "Tu peux aider.",
+    "phrase": "Ты можешь помочь.",
+    "morph": {
+     "from": "мочь",
+     "to": "можешь",
+     "stem": "мо",
+     "endFrom": "чь",
+     "endTo": "жешь",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": true
+    },
+    "audioTile": "984afcea50b6.mp3",
+    "audioPhrase": "fa594604608f.mp3"
+   },
+   {
+    "tile": "он",
+    "tileStress": 0,
+    "fr": "il",
+    "phraseFr": "Il peut aider.",
+    "phrase": "Он может помочь.",
+    "morph": {
+     "from": "мочь",
+     "to": "может",
+     "stem": "мо",
+     "endFrom": "чь",
+     "endTo": "жет",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": true
+    },
+    "audioTile": "3adf56884a0b.mp3",
+    "audioPhrase": "854cd10c2dc1.mp3"
+   },
+   {
+    "tile": "мы",
+    "tileStress": 1,
+    "fr": "nous",
+    "phraseFr": "Nous pouvons aider.",
+    "phrase": "Мы можем помочь.",
+    "morph": {
+     "from": "мочь",
+     "to": "можем",
+     "stem": "мо",
+     "endFrom": "чь",
+     "endTo": "жем",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": true
+    },
+    "audioTile": "a234675be3c5.mp3",
+    "audioPhrase": "3ac72ae5beeb.mp3"
+   },
+   {
+    "tile": "вы",
+    "tileStress": 1,
+    "fr": "vous",
+    "phraseFr": "Vous pouvez aider.",
+    "phrase": "Вы можете помочь.",
+    "morph": {
+     "from": "мочь",
+     "to": "можете",
+     "stem": "мо",
+     "endFrom": "чь",
+     "endTo": "жете",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": true
+    },
+    "audioTile": "8b7efd6df007.mp3",
+    "audioPhrase": "fd9852a5d554.mp3"
+   },
+   {
+    "tile": "они",
+    "tileStress": 2,
+    "fr": "ils, elles",
+    "phraseFr": "Ils peuvent aider.",
+    "phrase": "Они могут помочь.",
+    "morph": {
+     "from": "мочь",
+     "to": "могут",
+     "stem": "мо",
+     "endFrom": "чь",
+     "endTo": "гут",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": true
+    },
+    "audioTile": "7c61158febc8.mp3",
+    "audioPhrase": "4533bc62f77e.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Dis : « Nous pouvons aider. »",
+   "answer": "мы"
+  },
+  {
+   "type": "pick",
+   "fr": "Dis : « Vous pouvez aider. »",
+   "answer": "вы"
+  }
+ ],
+ "grammar": [
+  "антон ты можешь мне помочь",
+  "конечно дай руку",
+  "ничего ещё раз",
+  "ничего я могу помочь",
+  "но я не умею кататься на коньках",
+  "ой я упал",
+  "пойдём на каток",
+  "ты можешь говорить медленнее",
+  "это просто смотри",
+  "я не могу я работаю",
+  "я не умею играть в футбол",
+  "[unk]"
+ ],
+ "cando": [
+  "dire ce que tu sais faire",
+  "demander de l'aide",
+  "dire « je peux / je ne peux pas »"
+ ],
+ "glossary": {
+  "здравствуйте": "bonjour (poli)",
+  "я": "je, moi",
+  "ты": "tu",
+  "вы": "vous",
+  "да": "oui",
+  "нет": "non",
+  "а": "et, mais",
+  "и": "et",
+  "это": "c'est, voici",
+  "не": "ne… pas",
+  "в": "dans, à",
+  "на": "sur, en",
+  "что": "quoi, que",
+  "как": "comment, comme",
+  "где": "où",
+  "очень": "très",
+  "спасибо": "merci",
+  "пожалуйста": "s'il te plaît / je t'en prie",
+  "хорошо": "bien, d'accord",
+  "привет": "salut",
+  "лука": "Luka (prénom)",
+  "маша": "Macha (prénom)",
+  "олег": "Oleg (prénom)",
+  "анна": "Anna (prénom)",
+  "у": "chez",
+  "меня": "moi (у меня = j'ai)",
+  "тебя": "toi (у тебя = tu as)",
+  "есть": "il y a",
+  "мой": "mon",
+  "моя": "ma",
+  "мне": "à moi",
+  "тоже": "aussi",
+  "сегодня": "aujourd'hui",
+  "завтра": "demain",
+  "вчера": "hier",
+  "потом": "puis, ensuite",
+  "давай": "allons-y, faisons",
+  "пойдем": "allons",
+  "каток": "patinoire",
+  "катке": "patinoire (on y est)",
+  "но": "mais",
+  "умею": "(je) sais (faire)",
+  "кататься": "glisser, faire du…",
+  "коньках": "patins (на коньках)",
+  "ничего": "pas grave",
+  "могу": "(je) peux",
+  "можешь": "(tu) peux",
+  "может": "(il) peut",
+  "можем": "(nous) pouvons",
+  "можете": "(vous) pouvez",
+  "могут": "(ils) peuvent",
+  "помочь": "aider",
+  "просто": "facile, simple",
+  "смотри": "regarde !",
+  "антон": "Anton (prénom)",
+  "конечно": "bien sûr",
+  "дай": "donne !",
+  "руку": "main (après дай)",
+  "рука": "main",
+  "ой": "aïe, oh",
+  "упал": "(je suis) tombé",
+  "упала": "(je suis) tombée",
+  "еще": "encore",
+  "раз": "fois",
+  "он": "il",
+  "мы": "nous",
+  "они": "ils, elles",
+  "работаю": "(je) travaille",
+  "говорить": "parler",
+  "медленнее": "plus lentement",
+  "играть": "jouer",
+  "футбол": "football"
+ },
+ "unlocks": [],
+ "items": [
+  {
+   "id": "23-patinoire:rink",
+   "ru": "Пойдём на каток!",
+   "fr": "Allons à la patinoire !",
+   "tokens": [
+    {
+     "t": "Пойдём",
+     "s": 4,
+     "w": true,
+     "a": "634858b1744b.mp3",
+     "l": "пойти"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "каток",
+     "s": 3,
+     "w": true,
+     "a": "f8eed928e392.mp3",
+     "l": "каток"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "2a9b85f91d20.mp3"
+  },
+  {
+   "id": "23-patinoire:cant",
+   "ru": "Но я не умею кататься на коньках.",
+   "fr": "Mais je ne sais pas patiner.",
+   "tokens": [
+    {
+     "t": "Но",
+     "s": 1,
+     "w": true,
+     "a": "e9cdd3dfae39.mp3",
+     "l": "но"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "умею",
+     "s": 2,
+     "w": true,
+     "a": "e1742302f9f1.mp3",
+     "l": "уметь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кататься",
+     "s": 3,
+     "w": true,
+     "a": "19ca327e1f74.mp3",
+     "l": "кататься"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "коньках",
+     "s": 5,
+     "w": true,
+     "a": "f4154a44a866.mp3",
+     "l": "конёк"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "a0adc9d7081f.mp3"
+  },
+  {
+   "id": "23-patinoire:canhelp",
+   "ru": "Ничего, я могу помочь.",
+   "fr": "Pas grave, je peux t'aider.",
+   "tokens": [
+    {
+     "t": "Ничего",
+     "s": 5,
+     "w": true,
+     "a": "803a7b86c540.mp3",
+     "l": "ничего"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "могу",
+     "s": 3,
+     "w": true,
+     "a": "a2032b90ac26.mp3",
+     "l": "мочь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "помочь",
+     "s": 3,
+     "w": true,
+     "a": "b0bf54c10e4d.mp3",
+     "l": "помочь"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ce4f98f32e6b.mp3"
+  },
+  {
+   "id": "23-patinoire:easy",
+   "ru": "Это просто! Смотри!",
+   "fr": "C'est facile ! Regarde !",
+   "tokens": [
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "просто",
+     "s": 2,
+     "w": true,
+     "a": "b0f0f569bb47.mp3",
+     "l": "просто"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Смотри",
+     "s": 5,
+     "w": true,
+     "a": "f54268a7f766.mp3",
+     "l": "смотреть"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "3357cca1d4d8.mp3"
+  },
+  {
+   "id": "23-patinoire:canyou",
+   "ru": "Антон, ты можешь мне помочь?",
+   "fr": "Anton, tu peux m'aider ?",
+   "tokens": [
+    {
+     "t": "Антон",
+     "s": 3,
+     "w": true,
+     "a": "8380dea9f409.mp3",
+     "l": "антон"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "можешь",
+     "s": 1,
+     "w": true,
+     "a": "6c9b2504ca52.mp3",
+     "l": "мочь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "помочь",
+     "s": 3,
+     "w": true,
+     "a": "b0bf54c10e4d.mp3",
+     "l": "помочь"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "ad25b9d5cf7c.mp3"
+  },
+  {
+   "id": "23-patinoire:hand",
+   "ru": "Конечно! Дай руку.",
+   "fr": "Bien sûr ! Donne-moi la main.",
+   "tokens": [
+    {
+     "t": "Конечно",
+     "s": 3,
+     "w": true,
+     "a": "4df928ed05d6.mp3",
+     "l": "конечно"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Дай",
+     "s": 1,
+     "w": true,
+     "a": "945c9fbf14b3.mp3",
+     "l": "дать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "руку",
+     "s": 1,
+     "w": true,
+     "a": "3dc2bfde1034.mp3",
+     "l": "рука"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ab3e372cc19d.mp3"
+  },
+  {
+   "id": "23-patinoire:fell",
+   "ru": "Ой! Я упал!",
+   "fr": "Aïe ! Je suis tombé !",
+   "tokens": [
+    {
+     "t": "Ой",
+     "s": 0,
+     "w": true,
+     "a": "d0c6d2387eac.mp3",
+     "l": "ой"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "упал",
+     "s": 2,
+     "w": true,
+     "a": "d57693ef56dd.mp3",
+     "l": "упасть"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "a20a109446e3.mp3"
+  },
+  {
+   "id": "23-patinoire:again",
+   "ru": "Ничего! Ещё раз!",
+   "fr": "Pas grave ! Encore une fois !",
+   "tokens": [
+    {
+     "t": "Ничего",
+     "s": 5,
+     "w": true,
+     "a": "803a7b86c540.mp3",
+     "l": "ничего"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Ещё",
+     "s": 2,
+     "w": true,
+     "a": "62bf7c150e0b.mp3",
+     "l": "ещё"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "раз",
+     "s": 1,
+     "w": true,
+     "a": "081b84d035a8.mp3",
+     "l": "раз"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "91ab523e19c7.mp3"
+  },
+  {
+   "id": "23-patinoire:c1",
+   "ru": "Я не могу, я работаю.",
+   "fr": "Je ne peux pas, je travaille.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "могу",
+     "s": 3,
+     "w": true,
+     "a": "a2032b90ac26.mp3",
+     "l": "мочь"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работаю",
+     "s": 3,
+     "w": true,
+     "a": "c044cc17ebbc.mp3",
+     "l": "работать"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "94668637d043.mp3"
+  },
+  {
+   "id": "23-patinoire:c2",
+   "ru": "Ты можешь говорить медленнее?",
+   "fr": "Tu peux parler plus lentement ?",
+   "tokens": [
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "можешь",
+     "s": 1,
+     "w": true,
+     "a": "6c9b2504ca52.mp3",
+     "l": "мочь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говорить",
+     "s": 5,
+     "w": true,
+     "a": "358fbba8047e.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "медленнее",
+     "s": 1,
+     "w": true,
+     "a": "072a7ce06e76.mp3",
+     "l": "медленный"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "ad7e144296b3.mp3"
+  },
+  {
+   "id": "23-patinoire:c3",
+   "ru": "Я не умею играть в футбол.",
+   "fr": "Je ne sais pas jouer au foot.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "умею",
+     "s": 2,
+     "w": true,
+     "a": "e1742302f9f1.mp3",
+     "l": "уметь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "играть",
+     "s": 3,
+     "w": true,
+     "a": "fdefbe32f178.mp3",
+     "l": "играть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "футбол",
+     "s": 4,
+     "w": true,
+     "a": "b96f2b03b8b6.mp3",
+     "l": "футбол"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "0be3af067553.mp3"
+  }
+ ],
+ "hasAudio": false
+}

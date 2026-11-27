@@ -1,8 +1,51 @@
 {
   "_wordVoice": "xenia",
-  "luka":  { "name": "Лука",  "nameFr": "Luka",  "voice": "aidar",   "color": "#3d5a80" },
-  "masha": { "name": "Маша",  "nameFr": "Macha", "voice": "baya",    "color": "#e07a5f" },
-  "anna":  { "name": "Анна",  "nameFr": "Anna",  "voice": "kseniya", "color": "#81b29a" },
-  "oleg":  { "name": "Олег",  "nameFr": "Oleg",  "voice": "eugene",  "color": "#9a6fb0" },
-  "nina":  { "name": "Нина",  "nameFr": "Nina",  "voice": "xenia",   "color": "#c9a227" }
+  "luka": {
+    "name": "Лука",
+    "nameFr": "Luka",
+    "voice": "aidar",
+    "color": "#3d5a80"
+  },
+  "masha": {
+    "name": "Маша",
+    "nameFr": "Macha",
+    "voice": "baya",
+    "color": "#e07a5f"
+  },
+  "anna": {
+    "name": "Анна",
+    "nameFr": "Anna",
+    "voice": "kseniya",
+    "color": "#81b29a"
+  },
+  "oleg": {
+    "name": "Олег",
+    "nameFr": "Oleg",
+    "voice": "eugene",
+    "color": "#9a6fb0"
+  },
+  "nina": {
+    "name": "Нина",
+    "nameFr": "Nina",
+    "voice": "xenia",
+    "color": "#c9a227"
+  },
+  "anton": {
+    "name": "Антон",
+    "nameFr": "Anton",
+    "voice": "eugene",
+    "color": "#457b9d"
+  },
+  "seller": {
+    "name": "Продавщица",
+    "nameFr": "Vendeuse",
+    "voice": "xenia",
+    "color": "#bc6c25"
+  },
+  "cashier": {
+    "name": "Кассир",
+    "nameFr": "Caissière",
+    "voice": "kseniya",
+    "color": "#6d597a"
+  }
 }

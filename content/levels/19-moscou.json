@@ -1,0 +1,426 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "19-moscou",
+  "order": 19,
+  "titleFr": "Bienvenue à Moscou",
+  "titleRu": "Москва",
+  "emoji": "🏰",
+  "sceneFr": "Le 30 décembre, Luka et Macha arrivent à Moscou. Anton, le frère de Macha, les attend à la gare.",
+  "dialogue": [
+    {
+      "speaker": "anton",
+      "ru": "Маша! Привет! Как доехали?",
+      "fr": "Macha ! Salut ! Le voyage s'est bien passé ?"
+    },
+    {
+      "speaker": "masha",
+      "ru": "Хорошо! Антон, это Л+ука, мой друг.",
+      "fr": "Bien ! Anton, voici Luka, mon ami."
+    },
+    {
+      "speaker": "anton",
+      "ru": "Очень приятно, Л+ука! Добро пожаловать в Москву!",
+      "fr": "Enchanté, Luka ! Bienvenue à Moscou !"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Спасибо! Москва — очень большой город.",
+      "fr": "Merci ! Moscou, c'est une très grande ville."
+    },
+    {
+      "speaker": "anton",
+      "ru": "Да, и очень красивый. Это Красная площадь.",
+      "fr": "Oui, et très belle. Voici la place Rouge."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Какая большая площадь!",
+      "fr": "Quelle grande place !"
+    },
+    {
+      "speaker": "anton",
+      "ru": "А это Кремль. Он очень старый.",
+      "fr": "Et ça, c'est le Kremlin. Il est très vieux."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Как интересно! Я хочу всё посмотреть!",
+      "fr": "Comme c'est intéressant ! Je veux tout voir !"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "arrived",
+      "speaker": "anton",
+      "ru": "Как доехали?",
+      "fr": "Le voyage s'est bien passé ?",
+      "noteFr": "Mot à mot : « comment êtes-vous arrivés ? ». La question qu'on pose à la gare.",
+      "gap": {
+        "word": "доехали",
+        "distractors": [
+          "старый",
+          "пожаловать"
+        ]
+      }
+    },
+    {
+      "id": "friend",
+      "speaker": "masha",
+      "ru": "Антон, это Л+ука, мой друг.",
+      "fr": "Anton, voici Luka, mon ami.",
+      "noteFr": "Tu connais « это мой друг » depuis le dîner chez Macha.",
+      "gap": {
+        "word": "друг",
+        "distractors": [
+          "город",
+          "кремль"
+        ]
+      }
+    },
+    {
+      "id": "welcome",
+      "speaker": "anton",
+      "ru": "Добро пожаловать в Москву!",
+      "fr": "Bienvenue à Moscou !",
+      "noteFr": "« Добро пожаловать » = bienvenue. On y va / on y arrive : « в Москву ».",
+      "gap": {
+        "word": "москву",
+        "distractors": [
+          "москве",
+          "город"
+        ],
+        "whyFr": "Après « добро пожаловать в », c'est la direction : « в Москву » (-у)."
+      }
+    },
+    {
+      "id": "big",
+      "speaker": "luka",
+      "ru": "Москва — очень большой город.",
+      "fr": "Moscou, c'est une très grande ville.",
+      "noteFr": "« Город » (ville) est masculin en russe : « большой город ». Le tiret « — » remplace le verbe « être ».",
+      "gap": {
+        "word": "большой",
+        "distractors": [
+          "большая",
+          "площадь"
+        ],
+        "whyFr": "« Город » est masculin : « большой ». « Большая », c'est pour un mot féminin."
+      },
+      "orders": [
+        "москва очень большой город"
+      ]
+    },
+    {
+      "id": "square",
+      "speaker": "anton",
+      "ru": "Это Красная площадь.",
+      "fr": "Voici la place Rouge.",
+      "noteFr": "« Площадь » = place (féminin). « Красная » = rouge (autrefois : « belle »).",
+      "gap": {
+        "word": "площадь",
+        "distractors": [
+          "город",
+          "кремль"
+        ]
+      }
+    },
+    {
+      "id": "bigsquare",
+      "speaker": "luka",
+      "ru": "Какая большая площадь!",
+      "fr": "Quelle grande place !",
+      "noteFr": "« Площадь » est féminin : « какая большая ». Attention, ce mot finit par -ь mais il est féminin.",
+      "gap": {
+        "word": "большая",
+        "distractors": [
+          "большой",
+          "город"
+        ],
+        "whyFr": "« Площадь » est féminin : « большая » (-ая)."
+      },
+      "orders": [
+        "какая большая площадь"
+      ]
+    },
+    {
+      "id": "old",
+      "speaker": "anton",
+      "ru": "А это Кремль. Он очень старый.",
+      "fr": "Et ça, c'est le Kremlin. Il est très vieux.",
+      "noteFr": "« Старый » = vieux. « Кремль » est masculin : « он », « старый ».",
+      "gap": {
+        "word": "старый",
+        "distractors": [
+          "старая",
+          "большая"
+        ],
+        "whyFr": "« Кремль » est masculin : « старый ». « Старая », c'est pour un mot féminin."
+      }
+    },
+    {
+      "id": "all",
+      "speaker": "luka",
+      "ru": "Как интересно! Я хочу всё посмотреть!",
+      "fr": "Comme c'est intéressant ! Je veux tout voir !",
+      "noteFr": "« Всё » = tout. « Посмотреть » = voir, regarder.",
+      "gap": {
+        "word": "всё",
+        "distractors": [
+          "большой",
+          "старый"
+        ]
+      }
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "L'arrivée",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "arrived",
+            "friend"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "welcome",
+            "big"
+          ],
+          "review": [
+            "friend"
+          ]
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "titleFr": "La place Rouge",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "welcome",
+            "big",
+            "friend"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "square",
+            "bigsquare"
+          ],
+          "review": [
+            "big"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "old",
+            "all"
+          ],
+          "review": [
+            "bigsquare",
+            "square"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "anton",
+      "fr": [
+        "Les adjectifs suivent le genre du nom : masculin « большой город », « старый город » ; féminin « большая площадь », « старая площадь ».",
+        "Le plus souvent : masculin -ый / -ой, féminin -ая. Écoute la fin !"
+      ]
+    },
+    {
+      "by": "anton",
+      "fr": [
+        "Attention aux mots en -ь : certains sont masculins (« Кремль »), d'autres féminins (« площадь »). On les apprend avec un adjectif : « большая площадь ».",
+        "Le tiret « — » remplace souvent le verbe « être » : « Москва — большой город »."
+      ]
+    }
+  ],
+  "explore": {
+    "type": "plain",
+    "speaker": "luka",
+    "frame": "Москва — ___ город.",
+    "frameFr": "Moscou est une ville ___.",
+    "color": "#5c677d",
+    "hintFr": "Mets chaque adjectif dans la phrase et écoute. « Город » est masculin.",
+    "words": [
+      {
+        "tile": "большой",
+        "fr": "grande",
+        "phraseFr": "Moscou est une grande ville."
+      },
+      {
+        "tile": "красивый",
+        "fr": "belle",
+        "phraseFr": "Moscou est une belle ville."
+      },
+      {
+        "tile": "старый",
+        "fr": "vieille",
+        "phraseFr": "Moscou est une vieille ville."
+      },
+      {
+        "tile": "интересный",
+        "fr": "intéressante",
+        "phraseFr": "Moscou est une ville intéressante."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Dis que Moscou est une vieille ville.",
+      "answer": "старый"
+    },
+    {
+      "type": "pick",
+      "fr": "Dis que Moscou est une ville intéressante.",
+      "answer": "интересный"
+    }
+  ],
+  "cando": [
+    "présenter un ami",
+    "décrire une ville",
+    "dire bienvenue"
+  ],
+  "unlocks": [],
+  "glossary": {
+    "здравствуйте": "bonjour (poli)",
+    "я": "je, moi",
+    "ты": "tu",
+    "вы": "vous",
+    "да": "oui",
+    "нет": "non",
+    "а": "et, mais",
+    "и": "et",
+    "это": "c'est, voici",
+    "не": "ne… pas",
+    "в": "dans, à",
+    "на": "sur, en",
+    "что": "quoi, que",
+    "как": "comment",
+    "где": "où",
+    "очень": "très",
+    "спасибо": "merci",
+    "пожалуйста": "s'il te plaît / je t'en prie",
+    "хорошо": "bien, d'accord",
+    "привет": "salut",
+    "лука": "Luka (prénom)",
+    "маша": "Macha (prénom)",
+    "олег": "Oleg (prénom)",
+    "анна": "Anna (prénom)",
+    "у": "chez",
+    "меня": "moi (у меня = j'ai)",
+    "тебя": "toi (у тебя = tu as)",
+    "есть": "il y a",
+    "мой": "mon",
+    "моя": "ma",
+    "мне": "à moi",
+    "тоже": "aussi",
+    "сегодня": "aujourd'hui",
+    "завтра": "demain",
+    "вчера": "hier",
+    "потом": "puis, ensuite",
+    "давай": "allons-y, faisons",
+    "доехали": "(êtes) arrivés",
+    "антон": "Anton (prénom)",
+    "друг": "ami",
+    "приятно": "agréable",
+    "добро": "bien (добро пожаловать = bienvenue)",
+    "пожаловать": "(добро пожаловать = bienvenue)",
+    "москву": "Moscou (vers)",
+    "москве": "Moscou (on y est)",
+    "москва": "Moscou",
+    "большой": "grand",
+    "большая": "grande",
+    "город": "ville",
+    "красивый": "beau",
+    "красная": "rouge",
+    "площадь": "place",
+    "какая": "quelle",
+    "кремль": "Kremlin",
+    "он": "il",
+    "старый": "vieux",
+    "старая": "vieille",
+    "интересно": "intéressant",
+    "интересный": "intéressant",
+    "хочу": "(je) veux",
+    "всё": "tout",
+    "все": "tout",
+    "посмотреть": "voir, regarder"
+  },
+  "combos": [
+    {
+      "ru": "Ли+он — очень красивый город.",
+      "fr": "Lyon est une très belle ville.",
+      "extra": [
+        "большая"
+      ],
+      "orders": [
+        "лион очень красивый город"
+      ]
+    },
+    {
+      "ru": "Это мой друг. Он из Франции.",
+      "fr": "C'est mon ami. Il vient de France.",
+      "extra": [
+        "она"
+      ]
+    },
+    {
+      "ru": "Я хочу посмотреть Кремль.",
+      "fr": "Je veux voir le Kremlin.",
+      "extra": [
+        "площадь"
+      ],
+      "orders": [
+        "я хочу посмотреть кремль",
+        "кремль я хочу посмотреть"
+      ]
+    }
+  ]
+}

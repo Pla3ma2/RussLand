@@ -1,0 +1,2163 @@
+{
+ "version": 2,
+ "id": "18-gare",
+ "order": 18,
+ "titleFr": "À la gare",
+ "titleRu": "На вокзале",
+ "emoji": "🚆",
+ "sceneFr": "Anton, le frère de Macha, les invite à Moscou pour le Nouvel An. Luka va à la gare acheter les billets.",
+ "learner": "luka",
+ "speakers": {
+  "cashier": {
+   "name": "Кассир",
+   "nameFr": "Caissière",
+   "color": "#6d597a"
+  },
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "luka",
+   "ru": "Здравствуйте! Два билета в Москву, пожалуйста.",
+   "fr": "Bonjour ! Deux billets pour Moscou, s'il vous plaît.",
+   "tokens": [
+    {
+     "t": "Здравствуйте",
+     "s": 3,
+     "w": true,
+     "a": "0e6270054cd1.mp3",
+     "l": "здравствуйте"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Два",
+     "s": 2,
+     "w": true,
+     "a": "7e852b84ef6d.mp3",
+     "l": "два"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "билета",
+     "s": 3,
+     "w": true,
+     "a": "ab3278fedb88.mp3",
+     "l": "билет"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Москву",
+     "s": 5,
+     "w": true,
+     "a": "5ad93f99f6c7.mp3",
+     "l": "москва"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3",
+     "l": "пожалуйста"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "c4b4e79a3bff.mp3"
+  },
+  {
+   "speaker": "cashier",
+   "ru": "На какое число?",
+   "fr": "Pour quelle date ?",
+   "tokens": [
+    {
+     "t": "На",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "какое",
+     "s": 3,
+     "w": true,
+     "a": "c7132ac4da27.mp3",
+     "l": "какой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "число",
+     "s": 4,
+     "w": true,
+     "a": "81acb57f3e4d.mp3",
+     "l": "число"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "115099e4086b.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "На тридцатое декабря.",
+   "fr": "Pour le trente décembre.",
+   "tokens": [
+    {
+     "t": "На",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тридцатое",
+     "s": 5,
+     "w": true,
+     "a": "df83dcb25524.mp3",
+     "l": "тридцатый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "декабря",
+     "s": 6,
+     "w": true,
+     "a": "fd82783d4fea.mp3",
+     "l": "декабрь"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "04793fdad106.mp3"
+  },
+  {
+   "speaker": "cashier",
+   "ru": "Есть поезд в восемь утра.",
+   "fr": "Il y a un train à huit heures du matin.",
+   "tokens": [
+    {
+     "t": "Есть",
+     "s": 0,
+     "w": true,
+     "a": "91c9dda6ba7c.mp3",
+     "l": "есть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "поезд",
+     "s": 1,
+     "w": true,
+     "a": "06f22e270293.mp3",
+     "l": "поезд"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "восемь",
+     "s": 1,
+     "w": true,
+     "a": "a47b3c484775.mp3",
+     "l": "восемь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "утра",
+     "s": 3,
+     "w": true,
+     "a": "0321aba4027c.mp3",
+     "l": "утро"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "9eac550691a4.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Отлично. А сколько часов ехать?",
+   "fr": "Parfait. Et combien d'heures de trajet ?",
+   "tokens": [
+    {
+     "t": "Отлично",
+     "s": 3,
+     "w": true,
+     "a": "1b0c3f2d1ffd.mp3",
+     "l": "отлично"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сколько",
+     "s": 2,
+     "w": true,
+     "a": "68f717ec536d.mp3",
+     "l": "сколько"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "часов",
+     "s": 3,
+     "w": true,
+     "a": "caca8ccd3093.mp3",
+     "l": "час"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ехать",
+     "s": 0,
+     "w": true,
+     "a": "1c8fcf070e8b.mp3",
+     "l": "ехать"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "9d28154bd9bc.mp3"
+  },
+  {
+   "speaker": "cashier",
+   "ru": "Четыре часа.",
+   "fr": "Quatre heures.",
+   "tokens": [
+    {
+     "t": "Четыре",
+     "s": 3,
+     "w": true,
+     "a": "cd2999c669b1.mp3",
+     "l": "четыре"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "часа",
+     "s": 3,
+     "w": true,
+     "a": "19674662e1d6.mp3",
+     "l": "час"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "1afa6ac7c4d1.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Хорошо. Туда и обратно, пожалуйста.",
+   "fr": "D'accord. Aller-retour, s'il vous plaît.",
+   "tokens": [
+    {
+     "t": "Хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Туда",
+     "s": 3,
+     "w": true,
+     "a": "8650ca304a4e.mp3",
+     "l": "туда"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "обратно",
+     "s": 3,
+     "w": true,
+     "a": "4eae06ebbeba.mp3",
+     "l": "обратно"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3",
+     "l": "пожалуйста"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "a3f75d97fca2.mp3"
+  },
+  {
+   "speaker": "cashier",
+   "ru": "Вот ваши билеты. Счастливого пути!",
+   "fr": "Voici vos billets. Bon voyage !",
+   "tokens": [
+    {
+     "t": "Вот",
+     "s": 1,
+     "w": true,
+     "a": "a716dd666e5a.mp3",
+     "l": "вот"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ваши",
+     "s": 1,
+     "w": true,
+     "a": "64dd09f94ffb.mp3",
+     "l": "ваш"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "билеты",
+     "s": 3,
+     "w": true,
+     "a": "5def5b4d9364.mp3",
+     "l": "билет"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Счастливого",
+     "s": 6,
+     "w": true,
+     "a": "ed3e0911cc55.mp3",
+     "l": "счастливый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пути",
+     "s": 3,
+     "w": true,
+     "a": "1a1a6eabc764.mp3",
+     "l": "путь"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "cda81098494d.mp3"
+  }
+ ],
+ "phrases": {
+  "tickets": {
+   "speaker": "luka",
+   "ru": "Два билета в Москву, пожалуйста.",
+   "fr": "Deux billets pour Moscou, s'il vous plaît.",
+   "tokens": [
+    {
+     "t": "Два",
+     "s": 2,
+     "w": true,
+     "a": "7e852b84ef6d.mp3",
+     "l": "два"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "билета",
+     "s": 3,
+     "w": true,
+     "a": "ab3278fedb88.mp3",
+     "l": "билет"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Москву",
+     "s": 5,
+     "w": true,
+     "a": "5ad93f99f6c7.mp3",
+     "l": "москва"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3",
+     "l": "пожалуйста"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "23ba82b87746.mp3",
+   "id": "tickets",
+   "noteFr": "« В Москву » = vers Moscou : la direction prend le bleu (-у). « Два билета » = deux billets.",
+   "gap": {
+    "index": 6,
+    "whyFr": "On va VERS Moscou : « в Москву » (-у). « В Москве » (-е), c'est quand on y est.",
+    "distractors": [
+     {
+      "t": "москве",
+      "a": "93a66821e1ad.mp3",
+      "s": 5
+     },
+     {
+      "t": "поезд",
+      "a": "06f22e270293.mp3",
+      "s": 1
+     }
+    ]
+   },
+   "orders": [
+    "два билета в москву пожалуйста",
+    "пожалуйста два билета в москву"
+   ]
+  },
+  "date": {
+   "speaker": "cashier",
+   "ru": "На какое число?",
+   "fr": "Pour quelle date ?",
+   "tokens": [
+    {
+     "t": "На",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "какое",
+     "s": 3,
+     "w": true,
+     "a": "c7132ac4da27.mp3",
+     "l": "какой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "число",
+     "s": 4,
+     "w": true,
+     "a": "81acb57f3e4d.mp3",
+     "l": "число"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "115099e4086b.mp3",
+   "id": "date",
+   "noteFr": "« Число » = nombre, date. « На какое число ? » = pour quelle date ?",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "поезд",
+      "a": "06f22e270293.mp3",
+      "s": 1
+     },
+     {
+      "t": "утра",
+      "a": "0321aba4027c.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "thirty": {
+   "speaker": "luka",
+   "ru": "На тридцатое декабря.",
+   "fr": "Pour le trente décembre.",
+   "tokens": [
+    {
+     "t": "На",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тридцатое",
+     "s": 5,
+     "w": true,
+     "a": "df83dcb25524.mp3",
+     "l": "тридцатый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "декабря",
+     "s": 6,
+     "w": true,
+     "a": "fd82783d4fea.mp3",
+     "l": "декабрь"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "04793fdad106.mp3",
+   "id": "thirty",
+   "noteFr": "« Тридцатое декабря » = le trente décembre.",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "поезд",
+      "a": "06f22e270293.mp3",
+      "s": 1
+     },
+     {
+      "t": "утра",
+      "a": "0321aba4027c.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "train": {
+   "speaker": "cashier",
+   "ru": "Есть поезд в восемь утра.",
+   "fr": "Il y a un train à huit heures du matin.",
+   "tokens": [
+    {
+     "t": "Есть",
+     "s": 0,
+     "w": true,
+     "a": "91c9dda6ba7c.mp3",
+     "l": "есть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "поезд",
+     "s": 1,
+     "w": true,
+     "a": "06f22e270293.mp3",
+     "l": "поезд"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "восемь",
+     "s": 1,
+     "w": true,
+     "a": "a47b3c484775.mp3",
+     "l": "восемь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "утра",
+     "s": 3,
+     "w": true,
+     "a": "0321aba4027c.mp3",
+     "l": "утро"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "9eac550691a4.mp3",
+   "id": "train",
+   "noteFr": "« Поезд » = train. « В восемь утра » = à huit heures du matin.",
+   "gap": {
+    "index": 2,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "билета",
+      "a": "ab3278fedb88.mp3",
+      "s": 3
+     },
+     {
+      "t": "число",
+      "a": "81acb57f3e4d.mp3",
+      "s": 4
+     }
+    ]
+   }
+  },
+  "hours": {
+   "speaker": "luka",
+   "ru": "А сколько часов ехать?",
+   "fr": "Et combien d'heures de trajet ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сколько",
+     "s": 2,
+     "w": true,
+     "a": "68f717ec536d.mp3",
+     "l": "сколько"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "часов",
+     "s": 3,
+     "w": true,
+     "a": "caca8ccd3093.mp3",
+     "l": "час"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ехать",
+     "s": 0,
+     "w": true,
+     "a": "1c8fcf070e8b.mp3",
+     "l": "ехать"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "3f8d67b74864.mp3",
+   "id": "hours",
+   "noteFr": "Mot à mot : « combien d'heures aller (en véhicule) ? ». Tu connais « ехать » : я еду, ты едешь.",
+   "gap": {
+    "index": 6,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "билета",
+      "a": "ab3278fedb88.mp3",
+      "s": 3
+     },
+     {
+      "t": "утра",
+      "a": "0321aba4027c.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "four": {
+   "speaker": "cashier",
+   "ru": "Четыре часа.",
+   "fr": "Quatre heures.",
+   "tokens": [
+    {
+     "t": "Четыре",
+     "s": 3,
+     "w": true,
+     "a": "cd2999c669b1.mp3",
+     "l": "четыре"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "часа",
+     "s": 3,
+     "w": true,
+     "a": "19674662e1d6.mp3",
+     "l": "час"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "1afa6ac7c4d1.mp3",
+   "id": "four",
+   "noteFr": "Avec 2, 3, 4 : « часа ». Avec 5 et plus : « часов ». Retiens les deux formes.",
+   "gap": {
+    "index": 0,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "восемь",
+      "a": "a47b3c484775.mp3",
+      "s": 1
+     },
+     {
+      "t": "поезд",
+      "a": "06f22e270293.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "return": {
+   "speaker": "luka",
+   "ru": "Туда и обратно, пожалуйста.",
+   "fr": "Aller-retour, s'il vous plaît.",
+   "tokens": [
+    {
+     "t": "Туда",
+     "s": 3,
+     "w": true,
+     "a": "8650ca304a4e.mp3",
+     "l": "туда"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "обратно",
+     "s": 3,
+     "w": true,
+     "a": "4eae06ebbeba.mp3",
+     "l": "обратно"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3",
+     "l": "пожалуйста"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "49516d0e55a2.mp3",
+   "id": "return",
+   "noteFr": "« Туда » = là-bas (aller), « обратно » = retour.",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "туда",
+      "a": "8650ca304a4e.mp3",
+      "s": 3
+     },
+     {
+      "t": "поезд",
+      "a": "06f22e270293.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "trip": {
+   "speaker": "cashier",
+   "ru": "Счастливого пути!",
+   "fr": "Bon voyage !",
+   "tokens": [
+    {
+     "t": "Счастливого",
+     "s": 6,
+     "w": true,
+     "a": "ed3e0911cc55.mp3",
+     "l": "счастливый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пути",
+     "s": 3,
+     "w": true,
+     "a": "1a1a6eabc764.mp3",
+     "l": "путь"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "3723e05a826a.mp3",
+   "id": "trip",
+   "noteFr": "« Счастливого пути ! » = bon voyage ! (mot à mot : heureux chemin !)."
+  },
+  "c1": {
+   "speaker": "luka",
+   "ru": "Один билет в Москву, пожалуйста.",
+   "fr": "Un billet pour Moscou, s'il vous plaît.",
+   "tokens": [
+    {
+     "t": "Один",
+     "s": 2,
+     "w": true,
+     "a": "d481fd179fb8.mp3",
+     "l": "один"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "билет",
+     "s": 3,
+     "w": true,
+     "a": "79702229ff01.mp3",
+     "l": "билет"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Москву",
+     "s": 5,
+     "w": true,
+     "a": "5ad93f99f6c7.mp3",
+     "l": "москва"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3",
+     "l": "пожалуйста"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "4af565d7c5ac.mp3",
+   "id": "c1",
+   "noteFr": "",
+   "orders": [
+    "один билет в москву пожалуйста",
+    "пожалуйста один билет в москву"
+   ],
+   "combo": {
+    "from": [
+     "Le week-end",
+     "À la gare",
+     "Où es-tu ?",
+     "Au café"
+    ],
+    "extra": [
+     {
+      "t": "москве",
+      "a": "93a66821e1ad.mp3",
+      "s": 5
+     }
+    ]
+   }
+  },
+  "c2": {
+   "speaker": "luka",
+   "ru": "Поезд в Москву в восемь утра.",
+   "fr": "Le train pour Moscou est à huit heures du matin.",
+   "tokens": [
+    {
+     "t": "Поезд",
+     "s": 1,
+     "w": true,
+     "a": "06f22e270293.mp3",
+     "l": "поезд"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Москву",
+     "s": 5,
+     "w": true,
+     "a": "5ad93f99f6c7.mp3",
+     "l": "москва"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "восемь",
+     "s": 1,
+     "w": true,
+     "a": "a47b3c484775.mp3",
+     "l": "восемь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "утра",
+     "s": 3,
+     "w": true,
+     "a": "0321aba4027c.mp3",
+     "l": "утро"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "afb5628115f5.mp3",
+   "id": "c2",
+   "noteFr": "",
+   "orders": [
+    "поезд в москву в восемь утра"
+   ],
+   "combo": {
+    "from": [
+     "À la gare",
+     "Où es-tu ?",
+     "Je suis malade"
+    ],
+    "extra": [
+     {
+      "t": "москве",
+      "a": "93a66821e1ad.mp3",
+      "s": 5
+     }
+    ]
+   }
+  },
+  "c3": {
+   "speaker": "luka",
+   "ru": "Завтра я еду в Москву.",
+   "fr": "Demain, je vais à Moscou.",
+   "tokens": [
+    {
+     "t": "Завтра",
+     "s": 1,
+     "w": true,
+     "a": "8c010caec9ab.mp3",
+     "l": "завтра"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "еду",
+     "s": 0,
+     "w": true,
+     "a": "e6862b82d048.mp3",
+     "l": "еда"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Москву",
+     "s": 5,
+     "w": true,
+     "a": "5ad93f99f6c7.mp3",
+     "l": "москва"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "7e20670a814b.mp3",
+   "id": "c3",
+   "noteFr": "",
+   "orders": [
+    "завтра я еду в москву",
+    "я еду в москву завтра"
+   ],
+   "combo": {
+    "from": [
+     "Les projets",
+     "Faire connaissance",
+     "Prendre le métro",
+     "Où es-tu ?",
+     "À la gare"
+    ],
+    "extra": [
+     {
+      "t": "москве",
+      "a": "93a66821e1ad.mp3",
+      "s": 5
+     }
+    ]
+   }
+  }
+ },
+ "parts": [
+  {
+   "titleFr": "Les billets",
+   "steps": [
+    {
+     "type": "scene"
+    },
+    {
+     "type": "explore"
+    },
+    {
+     "type": "insight",
+     "index": 0
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "tickets",
+      "date"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "thirty",
+      "train"
+     ],
+     "review": [
+      "tickets"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Le voyage",
+   "steps": [
+    {
+     "type": "warmup",
+     "phrases": [
+      "tickets",
+      "date",
+      "train"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "hours",
+      "four"
+     ],
+     "review": [
+      "thirty",
+      "train"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "return",
+      "trip"
+     ],
+     "review": [
+      "hours"
+     ]
+    },
+    {
+     "type": "insight",
+     "index": 1
+    },
+    {
+     "type": "combine",
+     "phrases": [
+      "c1",
+      "c2",
+      "c3"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Joue la scène",
+   "steps": [
+    {
+     "type": "final"
+    },
+    {
+     "type": "roleplay"
+    }
+   ]
+  }
+ ],
+ "insights": [
+  {
+   "by": "cashier",
+   "fr": [
+    "Pour une destination, on utilise « в » + le bleu : « в Москву », « в Казань ». C'est comme « в театр », « в больницу ».",
+    "Rappel : « я в Москве » (j'y suis, vert) / « я еду в Москву » (j'y vais, bleu)."
+   ]
+  },
+  {
+   "by": "cashier",
+   "fr": [
+    "Les nombres russes changent le mot qui suit : « один билет », « два билета », « пять билетов ». Ne t'inquiète pas, on te comprendra même si tu te trompes !",
+    "Pour l'heure : « в восемь утра » (8 h du matin), « в семь вечера » (7 h du soir)."
+   ]
+  }
+ ],
+ "explore": {
+  "type": "case",
+  "frameFr": "Un billet pour ___, s'il vous plaît.",
+  "color": "#3a86ff",
+  "hintFr": "Mets chaque ville après « в » (on y va) et regarde bien la fin du mot.",
+  "before": [
+   {
+    "t": "Один",
+    "s": 2,
+    "w": true,
+    "a": "d481fd179fb8.mp3",
+    "l": "один"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "билет",
+    "s": 3,
+    "w": true,
+    "a": "79702229ff01.mp3",
+    "l": "билет"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "в",
+    "s": null,
+    "w": true,
+    "a": "3c5b79b7f921.mp3",
+    "l": "в"
+   },
+   {
+    "t": " ",
+    "w": false
+   }
+  ],
+  "after": [
+   {
+    "t": ", ",
+    "w": false
+   },
+   {
+    "t": "пожалуйста",
+    "s": 3,
+    "w": true,
+    "a": "6a0f645d4907.mp3",
+    "l": "пожалуйста"
+   },
+   {
+    "t": ".",
+    "w": false
+   }
+  ],
+  "verb": null,
+  "words": [
+   {
+    "tile": "Москва",
+    "tileStress": 5,
+    "fr": "Moscou",
+    "phraseFr": "Un billet pour Moscou, s'il vous plaît.",
+    "phrase": "Один билет в Москву, пожалуйста.",
+    "morph": {
+     "from": "Москва",
+     "to": "Москву",
+     "stem": "Москв",
+     "endFrom": "а",
+     "endTo": "у",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": true
+    },
+    "audioTile": "84f280146c14.mp3",
+    "audioPhrase": "4af565d7c5ac.mp3"
+   },
+   {
+    "tile": "Казань",
+    "tileStress": 3,
+    "fr": "Kazan",
+    "phraseFr": "Un billet pour Kazan, s'il vous plaît.",
+    "phrase": "Один билет в Казань, пожалуйста.",
+    "morph": {
+     "from": "Казань",
+     "to": "Казань",
+     "stem": "Казань",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": false
+    },
+    "audioTile": "026ab112e15f.mp3",
+    "audioPhrase": "5ea2d84f795b.mp3"
+   },
+   {
+    "tile": "Сочи",
+    "tileStress": 1,
+    "fr": "Sotchi",
+    "phraseFr": "Un billet pour Sotchi, s'il vous plaît.",
+    "phrase": "Один билет в Сочи, пожалуйста.",
+    "morph": {
+     "from": "Сочи",
+     "to": "Сочи",
+     "stem": "Сочи",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": false
+    },
+    "audioTile": "4a346a1d006d.mp3",
+    "audioPhrase": "e65a2c4f0f9e.mp3"
+   },
+   {
+    "tile": "Самара",
+    "tileStress": 3,
+    "fr": "Samara",
+    "phraseFr": "Un billet pour Samara, s'il vous plaît.",
+    "phrase": "Один билет в Самару, пожалуйста.",
+    "morph": {
+     "from": "Самара",
+     "to": "Самару",
+     "stem": "Самар",
+     "endFrom": "а",
+     "endTo": "у",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": true
+    },
+    "audioTile": "7216ad4e7d13.mp3",
+    "audioPhrase": "7b7a29912224.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Demande un billet pour Samara.",
+   "answer": "Самара"
+  },
+  {
+   "type": "pick",
+   "fr": "Demande un billet pour Sotchi.",
+   "answer": "Сочи"
+  }
+ ],
+ "grammar": [
+  "а сколько часов ехать",
+  "вот ваши билеты счастливого пути",
+  "два билета в москву пожалуйста",
+  "есть поезд в восемь утра",
+  "завтра я еду в москву",
+  "здравствуйте два билета в москву пожалуйста",
+  "на какое число",
+  "на тридцатое декабря",
+  "один билет в москву пожалуйста",
+  "отлично а сколько часов ехать",
+  "поезд в москву в восемь утра",
+  "счастливого пути",
+  "туда и обратно пожалуйста",
+  "хорошо туда и обратно пожалуйста",
+  "четыре часа",
+  "[unk]"
+ ],
+ "cando": [
+  "acheter un billet de train",
+  "dire une date",
+  "demander la durée du trajet"
+ ],
+ "glossary": {
+  "здравствуйте": "bonjour (poli)",
+  "я": "je, moi",
+  "ты": "tu",
+  "вы": "vous",
+  "да": "oui",
+  "нет": "non",
+  "а": "et, mais",
+  "и": "et",
+  "это": "c'est, voici",
+  "не": "ne… pas",
+  "в": "dans, à",
+  "на": "sur, en",
+  "что": "quoi, que",
+  "как": "comment, comme",
+  "где": "où",
+  "очень": "très",
+  "спасибо": "merci",
+  "пожалуйста": "s'il te plaît / je t'en prie",
+  "хорошо": "bien, d'accord",
+  "привет": "salut",
+  "лука": "Luka (prénom)",
+  "маша": "Macha (prénom)",
+  "олег": "Oleg (prénom)",
+  "анна": "Anna (prénom)",
+  "у": "chez",
+  "меня": "moi (у меня = j'ai)",
+  "тебя": "toi (у тебя = tu as)",
+  "есть": "il y a",
+  "мой": "mon",
+  "моя": "ma",
+  "мне": "à moi",
+  "тоже": "aussi",
+  "сегодня": "aujourd'hui",
+  "завтра": "demain",
+  "вчера": "hier",
+  "потом": "puis, ensuite",
+  "давай": "allons-y, faisons",
+  "два": "deux",
+  "билета": "billets (après 2, 3, 4)",
+  "москву": "Moscou (vers)",
+  "москве": "Moscou (on y est)",
+  "москва": "Moscou",
+  "какое": "quel",
+  "число": "date, nombre",
+  "тридцатое": "trente (date)",
+  "декабря": "décembre",
+  "поезд": "train",
+  "восемь": "huit",
+  "утра": "du matin",
+  "отлично": "parfait",
+  "сколько": "combien",
+  "часов": "heures (après 5…)",
+  "ехать": "aller (en véhicule)",
+  "четыре": "quatre",
+  "часа": "heures (après 2, 3, 4)",
+  "туда": "là-bas (aller)",
+  "обратно": "retour",
+  "вот": "voici",
+  "ваши": "vos",
+  "билеты": "billets",
+  "счастливого": "heureux",
+  "пути": "chemin (счастливого пути = bon voyage)",
+  "один": "un",
+  "билет": "billet",
+  "казань": "Kazan",
+  "сочи": "Sotchi",
+  "самара": "Samara",
+  "самару": "Samara (vers)",
+  "еду": "(je) vais (en véhicule)"
+ },
+ "unlocks": [
+  {
+   "case": "accs",
+   "gender": "femn",
+   "from": "Москва",
+   "to": "Москву"
+  }
+ ],
+ "items": [
+  {
+   "id": "18-gare:tickets",
+   "ru": "Два билета в Москву, пожалуйста.",
+   "fr": "Deux billets pour Moscou, s'il vous plaît.",
+   "tokens": [
+    {
+     "t": "Два",
+     "s": 2,
+     "w": true,
+     "a": "7e852b84ef6d.mp3",
+     "l": "два"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "билета",
+     "s": 3,
+     "w": true,
+     "a": "ab3278fedb88.mp3",
+     "l": "билет"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Москву",
+     "s": 5,
+     "w": true,
+     "a": "5ad93f99f6c7.mp3",
+     "l": "москва"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3",
+     "l": "пожалуйста"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "23ba82b87746.mp3"
+  },
+  {
+   "id": "18-gare:date",
+   "ru": "На какое число?",
+   "fr": "Pour quelle date ?",
+   "tokens": [
+    {
+     "t": "На",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "какое",
+     "s": 3,
+     "w": true,
+     "a": "c7132ac4da27.mp3",
+     "l": "какой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "число",
+     "s": 4,
+     "w": true,
+     "a": "81acb57f3e4d.mp3",
+     "l": "число"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "115099e4086b.mp3"
+  },
+  {
+   "id": "18-gare:thirty",
+   "ru": "На тридцатое декабря.",
+   "fr": "Pour le trente décembre.",
+   "tokens": [
+    {
+     "t": "На",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тридцатое",
+     "s": 5,
+     "w": true,
+     "a": "df83dcb25524.mp3",
+     "l": "тридцатый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "декабря",
+     "s": 6,
+     "w": true,
+     "a": "fd82783d4fea.mp3",
+     "l": "декабрь"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "04793fdad106.mp3"
+  },
+  {
+   "id": "18-gare:train",
+   "ru": "Есть поезд в восемь утра.",
+   "fr": "Il y a un train à huit heures du matin.",
+   "tokens": [
+    {
+     "t": "Есть",
+     "s": 0,
+     "w": true,
+     "a": "91c9dda6ba7c.mp3",
+     "l": "есть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "поезд",
+     "s": 1,
+     "w": true,
+     "a": "06f22e270293.mp3",
+     "l": "поезд"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "восемь",
+     "s": 1,
+     "w": true,
+     "a": "a47b3c484775.mp3",
+     "l": "восемь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "утра",
+     "s": 3,
+     "w": true,
+     "a": "0321aba4027c.mp3",
+     "l": "утро"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "9eac550691a4.mp3"
+  },
+  {
+   "id": "18-gare:hours",
+   "ru": "А сколько часов ехать?",
+   "fr": "Et combien d'heures de trajet ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сколько",
+     "s": 2,
+     "w": true,
+     "a": "68f717ec536d.mp3",
+     "l": "сколько"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "часов",
+     "s": 3,
+     "w": true,
+     "a": "caca8ccd3093.mp3",
+     "l": "час"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ехать",
+     "s": 0,
+     "w": true,
+     "a": "1c8fcf070e8b.mp3",
+     "l": "ехать"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "3f8d67b74864.mp3"
+  },
+  {
+   "id": "18-gare:four",
+   "ru": "Четыре часа.",
+   "fr": "Quatre heures.",
+   "tokens": [
+    {
+     "t": "Четыре",
+     "s": 3,
+     "w": true,
+     "a": "cd2999c669b1.mp3",
+     "l": "четыре"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "часа",
+     "s": 3,
+     "w": true,
+     "a": "19674662e1d6.mp3",
+     "l": "час"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "1afa6ac7c4d1.mp3"
+  },
+  {
+   "id": "18-gare:return",
+   "ru": "Туда и обратно, пожалуйста.",
+   "fr": "Aller-retour, s'il vous plaît.",
+   "tokens": [
+    {
+     "t": "Туда",
+     "s": 3,
+     "w": true,
+     "a": "8650ca304a4e.mp3",
+     "l": "туда"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "обратно",
+     "s": 3,
+     "w": true,
+     "a": "4eae06ebbeba.mp3",
+     "l": "обратно"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3",
+     "l": "пожалуйста"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "49516d0e55a2.mp3"
+  },
+  {
+   "id": "18-gare:trip",
+   "ru": "Счастливого пути!",
+   "fr": "Bon voyage !",
+   "tokens": [
+    {
+     "t": "Счастливого",
+     "s": 6,
+     "w": true,
+     "a": "ed3e0911cc55.mp3",
+     "l": "счастливый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пути",
+     "s": 3,
+     "w": true,
+     "a": "1a1a6eabc764.mp3",
+     "l": "путь"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "3723e05a826a.mp3"
+  },
+  {
+   "id": "18-gare:c1",
+   "ru": "Один билет в Москву, пожалуйста.",
+   "fr": "Un billet pour Moscou, s'il vous plaît.",
+   "tokens": [
+    {
+     "t": "Один",
+     "s": 2,
+     "w": true,
+     "a": "d481fd179fb8.mp3",
+     "l": "один"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "билет",
+     "s": 3,
+     "w": true,
+     "a": "79702229ff01.mp3",
+     "l": "билет"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Москву",
+     "s": 5,
+     "w": true,
+     "a": "5ad93f99f6c7.mp3",
+     "l": "москва"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3",
+     "l": "пожалуйста"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "4af565d7c5ac.mp3"
+  },
+  {
+   "id": "18-gare:c2",
+   "ru": "Поезд в Москву в восемь утра.",
+   "fr": "Le train pour Moscou est à huit heures du matin.",
+   "tokens": [
+    {
+     "t": "Поезд",
+     "s": 1,
+     "w": true,
+     "a": "06f22e270293.mp3",
+     "l": "поезд"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Москву",
+     "s": 5,
+     "w": true,
+     "a": "5ad93f99f6c7.mp3",
+     "l": "москва"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "восемь",
+     "s": 1,
+     "w": true,
+     "a": "a47b3c484775.mp3",
+     "l": "восемь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "утра",
+     "s": 3,
+     "w": true,
+     "a": "0321aba4027c.mp3",
+     "l": "утро"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "afb5628115f5.mp3"
+  },
+  {
+   "id": "18-gare:c3",
+   "ru": "Завтра я еду в Москву.",
+   "fr": "Demain, je vais à Moscou.",
+   "tokens": [
+    {
+     "t": "Завтра",
+     "s": 1,
+     "w": true,
+     "a": "8c010caec9ab.mp3",
+     "l": "завтра"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "еду",
+     "s": 0,
+     "w": true,
+     "a": "e6862b82d048.mp3",
+     "l": "еда"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Москву",
+     "s": 5,
+     "w": true,
+     "a": "5ad93f99f6c7.mp3",
+     "l": "москва"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "7e20670a814b.mp3"
+  }
+ ],
+ "hasAudio": false
+}
