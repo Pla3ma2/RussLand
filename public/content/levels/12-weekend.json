@@ -8,15 +8,15 @@
  "sceneFr": "Lundi soir, Luka passe au café. Anna lui demande comment s'est passé son week-end.",
  "learner": "luka",
  "speakers": {
-  "luka": {
-   "name": "Лука",
-   "nameFr": "Luka",
-   "color": "#3d5a80"
-  },
   "anna": {
    "name": "Анна",
    "nameFr": "Anna",
    "color": "#81b29a"
+  },
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
   }
  },
  "dialogue": [

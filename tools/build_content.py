@@ -15,6 +15,7 @@
 from __future__ import annotations
 
 import argparse
+import numpy as np
 import hashlib
 import json
 import re
@@ -434,7 +435,10 @@ VOWELS_RU = set("АОУЫЭИЯЁЮЕ")
 
 
 def abc_folder(L: dict) -> str:
-    """Папка = способ обработки: abc/ — растяжение 0.62, abcNN/ — растяжение 0.NN (без изменения высоты)."""
+    """Папка = способ обработки: abc/ — растяжение 0.62, abcNN/ — растяжение 0.NN (без изменения высоты),
+    cut/ — из слога вырезается только гласная (например «си» → «и»), затем она растягивается."""
+    if L.get("cut"):
+        return "cut/"
     t = L.get("tempo")
     if t:
         return "abc/" if abs(t - 0.62) < 1e-6 else f"abc{round(t * 100)}/"
@@ -462,7 +466,7 @@ def build_alphabet() -> dict:
     for L in src["letters"]:
         ex_tokens = tokenize(L["exampleRu"])
         letters.append({
-            **{k: v for k, v in L.items() if k not in ("soundText", "tempo")},
+            **{k: v for k, v in L.items() if k not in ("soundText", "tempo", "cut")},
             # гласные чуть растягиваем (без изменения высоты голоса), чтобы различать «а» и «о»
             "audio": clip(L["soundText"], WORD_VOICE, abc_folder(L)),
             "exampleTokens": ex_tokens,
@@ -554,6 +558,77 @@ def build_words() -> list:
 
 # ---------- озвучка ----------
 
+VOWEL_TARGET = 0.5  # секунд — длина вырезанной гласной после растяжения
+
+
+def cut_vowel(x, sr: int, text: str):
+    """Оставляет только гласную: кадры, где много энергии на низких частотах (у «с» её нет, у «б», «м» — мало),
+    берёт самый длинный такой участок, растягивает до VOWEL_TARGET без изменения высоты и мягко гасит конец."""
+    hop = int(sr * 0.01)
+    win = hop * 2
+    frames = [x[i:i + win] for i in range(0, max(1, len(x) - win), hop)]
+    low = []
+    for f in frames:
+        spec = np.abs(np.fft.rfft(f * np.hanning(len(f))))
+        freqs = np.fft.rfftfreq(len(f), 1 / sr)
+        low.append(float(np.sum(spec[(freqs > 150) & (freqs < 1500)] ** 2)))
+    low = np.array(low)
+    mask = low > 0.4 * low.max()
+    best, cur, start = (0, 0), 0, 0
+    for i, m in enumerate(list(mask) + [False]):
+        if m and cur == 0:
+            start = i
+        cur = cur + 1 if m else 0
+        if not m and i - start > best[1] - best[0] and i > start:
+            best = (start, i)
+    a, b = best
+    seg = x[a * hop: b * hop + win] if b - a >= 5 else x
+    print(f"  гласная из «{text}»: {len(seg) / sr:.2f} с (из {len(x) / sr:.2f})")
+    # растяжение через WSOLA-подобную склейку дешевле сделать в ffmpeg — здесь только подготовка длины
+    seg = seg.astype(np.float32)
+    rate = (len(seg) / sr) / VOWEL_TARGET
+    stretched = time_stretch(seg, sr, rate)
+    fade = int(sr * 0.08)
+    stretched[-fade:] *= np.linspace(1, 0, fade)
+    return stretched
+
+
+def time_stretch(x, sr: int, rate: float):
+    """Простое растяжение без изменения высоты (OLA с поиском похожего места, WSOLA)."""
+    if rate >= 1:
+        return x
+    win = int(sr * 0.04)
+    hop_out = win // 2
+    hop_in = hop_out * rate
+    out = np.zeros(int(len(x) / rate) + win, dtype=np.float32)
+    norm = np.zeros_like(out)
+    w = np.hanning(win).astype(np.float32)
+    tol = win // 4
+    prev = None
+    pos_out = 0
+    pos_in = 0.0
+    while int(pos_in) + win + tol < len(x):
+        p = int(pos_in)
+        if prev is not None:
+            best, best_c = p, -1e9
+            for d in range(-tol, tol + 1):
+                q = p + d
+                if q < 0:
+                    continue
+                c = float(np.dot(x[q:q + hop_out], prev))
+                if c > best_c:
+                    best, best_c = q, c
+            p = best
+        out[pos_out:pos_out + win] += x[p:p + win] * w
+        norm[pos_out:pos_out + win] += w
+        prev = x[p + hop_out:p + hop_out + hop_out]
+        pos_out += hop_out
+        pos_in += hop_in
+    norm[norm < 1e-3] = 1
+    y = (out / norm)[:pos_out]
+    return y * (0.9 / max(1e-6, float(np.abs(y).max())))
+
+
 def synthesize(force: bool) -> int:
     import torch  # noqa: WPS433
 
@@ -572,7 +647,11 @@ def synthesize(force: bool) -> int:
             except Exception as e:  # noqa: BLE001 — одна неудачная фраза не должна ронять сборку
                 print(f"  ⚠ не озвучено «{text}»: {e}")
                 continue
-            pcm = (audio.clamp(-1, 1) * 32767).short().numpy().tobytes()
+            if cid.startswith("cut/"):
+                audio = cut_vowel(audio.numpy(), sr, text)
+                pcm = (np.clip(audio, -1, 1) * 32767).astype(np.int16).tobytes()
+            else:
+                pcm = (audio.clamp(-1, 1) * 32767).short().numpy().tobytes()
             wav_path = Path(tmp) / f"{cid.replace('/', '_')}.wav"
             with wave.open(str(wav_path), "wb") as wf:
                 wf.setnchannels(1)
@@ -581,7 +660,7 @@ def synthesize(force: bool) -> int:
                 wf.writeframes(pcm)
             (AUDIO_DIR / f"{cid}.mp3").parent.mkdir(parents=True, exist_ok=True)
             subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav_path),
-                            "-af", "silenceremove=start_periods=1:start_threshold=-50dB" + atempo_filter(cid),
+                            "-af", ("afade=t=in:d=0.02" if cid.startswith("cut/") else "silenceremove=start_periods=1:start_threshold=-50dB" + atempo_filter(cid)),
                             "-ac", "1", "-ar", "24000", "-b:a", "48k", str(AUDIO_DIR / f"{cid}.mp3")], check=True)
             done += 1
     return done

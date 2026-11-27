@@ -103,11 +103,11 @@
       "l": "И",
       "type": "vowel",
       "group": "new",
-      "soundText": "и",
+      "soundText": "си",
       "exampleRu": "кино",
       "exampleFr": "cinéma",
       "tipFr": "Comme le « i » de « ici ».",
-      "tempo": 0.3
+      "cut": true
     },
     {
       "l": "Й",
@@ -159,11 +159,11 @@
       "l": "О",
       "type": "vowel",
       "group": "familiar",
-      "soundText": "оо",
+      "soundText": "бом",
       "exampleRu": "кот",
       "exampleFr": "chat",
       "tipFr": "Comme « o » quand il est accentué. Sans accent, il se prononce presque comme « a ».",
-      "tempo": 0.38
+      "cut": true
     },
     {
       "l": "П",

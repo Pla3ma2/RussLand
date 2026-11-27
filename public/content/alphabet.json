@@ -196,7 +196,7 @@
    "exampleRu": "кино",
    "exampleFr": "cinéma",
    "tipFr": "Comme le « i » de « ici ».",
-   "audio": "abc30/fe0cbb8c7f06.mp3",
+   "audio": "cut/77aa0e74ed67.mp3",
    "exampleTokens": [
     {
      "t": "кино",
@@ -310,7 +310,7 @@
    "exampleRu": "кот",
    "exampleFr": "chat",
    "tipFr": "Comme « o » quand il est accentué. Sans accent, il se prononce presque comme « a ».",
-   "audio": "abc38/9f1aae0f01f9.mp3",
+   "audio": "cut/d69ca977cda0.mp3",
    "exampleTokens": [
     {
      "t": "кот",
