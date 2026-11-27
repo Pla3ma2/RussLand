@@ -1,0 +1,417 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "14-medecin",
+  "order": 14,
+  "titleFr": "Je suis malade",
+  "titleRu": "Я болею",
+  "emoji": "🤒",
+  "sceneFr": "Le lendemain du foot, Luka ne se sent pas bien. Il frappe chez sa voisine Macha… qui est médecin !",
+  "dialogue": [
+    {
+      "speaker": "masha",
+      "ru": "Л+ука? Что случилось?",
+      "fr": "Luka ? Qu'est-ce qui s'est passé ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Маша, мне плохо.",
+      "fr": "Macha, je ne me sens pas bien."
+    },
+    {
+      "speaker": "masha",
+      "ru": "Что у тебя болит?",
+      "fr": "Où est-ce que tu as mal ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "У меня болит голова. И горло тоже.",
+      "fr": "J'ai mal à la tête. Et à la gorge aussi."
+    },
+    {
+      "speaker": "masha",
+      "ru": "У тебя есть температура?",
+      "fr": "Tu as de la fièvre ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Да, тридцать восемь.",
+      "fr": "Oui, trente-huit."
+    },
+    {
+      "speaker": "masha",
+      "ru": "Это грипп. Пей чай и отдыхай.",
+      "fr": "C'est la grippe. Bois du thé et repose-toi."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Спасибо, доктор!",
+      "fr": "Merci, docteur !"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "what",
+      "speaker": "masha",
+      "ru": "Что случилось?",
+      "fr": "Qu'est-ce qui s'est passé ?",
+      "noteFr": "« Что случилось ? » = qu'est-ce qui s'est passé ? Très courant.",
+      "gap": {
+        "word": "случилось",
+        "distractors": [
+          "болит",
+          "плохо"
+        ]
+      }
+    },
+    {
+      "id": "bad",
+      "speaker": "luka",
+      "ru": "Маша, мне плохо.",
+      "fr": "Macha, je ne me sens pas bien.",
+      "noteFr": "« Мне плохо » = je me sens mal (mot à mot : « à moi, c'est mal »).",
+      "gap": {
+        "word": "плохо",
+        "distractors": [
+          "хорошо",
+          "болит"
+        ],
+        "whyFr": "« Мне плохо » = je me sens mal. « Мне хорошо », ce serait « je me sens bien »."
+      }
+    },
+    {
+      "id": "hurt",
+      "speaker": "masha",
+      "ru": "Что у тебя болит?",
+      "fr": "Où est-ce que tu as mal ?",
+      "noteFr": "Mot à mot : « qu'est-ce qui te fait mal ? ». « Болит » = fait mal.",
+      "gap": {
+        "word": "болит",
+        "distractors": [
+          "плохо",
+          "горло"
+        ]
+      },
+      "orders": [
+        "что у тебя болит",
+        "у тебя что болит"
+      ]
+    },
+    {
+      "id": "head",
+      "speaker": "luka",
+      "ru": "У меня болит голова.",
+      "fr": "J'ai mal à la tête.",
+      "noteFr": "Mot à mot : « chez moi, la tête fait mal ». La partie du corps reste à la forme de base.",
+      "gap": {
+        "word": "голова",
+        "distractors": [
+          "голову",
+          "плохо"
+        ],
+        "whyFr": "C'est la tête qui fait l'action (elle fait mal) : forme de base « голова », sans -у."
+      },
+      "orders": [
+        "у меня болит голова",
+        "голова у меня болит",
+        "у меня голова болит"
+      ]
+    },
+    {
+      "id": "throat",
+      "speaker": "luka",
+      "ru": "И горло тоже.",
+      "fr": "Et à la gorge aussi.",
+      "noteFr": "« Горло » = la gorge. « Тоже » = aussi.",
+      "gap": {
+        "word": "тоже",
+        "distractors": [
+          "болит",
+          "есть"
+        ]
+      }
+    },
+    {
+      "id": "fever",
+      "speaker": "masha",
+      "ru": "У тебя есть температура?",
+      "fr": "Tu as de la fièvre ?",
+      "noteFr": "« Температура » = fièvre (mot à mot : température).",
+      "gap": {
+        "word": "температура",
+        "distractors": [
+          "голова",
+          "горло"
+        ]
+      },
+      "orders": [
+        "у тебя есть температура",
+        "температура у тебя есть",
+        "есть у тебя температура"
+      ]
+    },
+    {
+      "id": "advice",
+      "speaker": "masha",
+      "ru": "Пей чай и отдыхай.",
+      "fr": "Bois du thé et repose-toi.",
+      "noteFr": "L'impératif avec « ты » : « пей » (bois), « отдыхай » (repose-toi).",
+      "gap": {
+        "word": "отдыхай",
+        "distractors": [
+          "отдыхаю",
+          "плохо"
+        ],
+        "whyFr": "Pour donner un conseil à « ты » : « отдыхай » (-й). « Отдыхаю », c'est « je me repose »."
+      },
+      "orders": [
+        "пей чай и отдыхай",
+        "отдыхай и пей чай"
+      ]
+    },
+    {
+      "id": "doctor",
+      "speaker": "luka",
+      "ru": "Спасибо, доктор!",
+      "fr": "Merci, docteur !",
+      "noteFr": "« Доктор » = docteur, comme en français."
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Ça ne va pas",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "what",
+            "bad"
+          ]
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 0
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "hurt",
+            "head"
+          ],
+          "review": [
+            "bad"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Les conseils du médecin",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "bad",
+            "hurt",
+            "head"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "throat",
+            "fever"
+          ],
+          "review": [
+            "head"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "advice",
+            "doctor"
+          ],
+          "review": [
+            "fever",
+            "throat"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "masha",
+      "fr": [
+        "Pour dire où tu as mal : « у меня болит… » + la partie du corps, à la forme de base. « У меня болит голова » = j'ai mal à la tête.",
+        "Tu reconnais « у меня » ? C'est le même que dans « у меня есть » (j'ai)."
+      ]
+    },
+    {
+      "by": "masha",
+      "fr": [
+        "Pour donner un conseil ou un ordre à un ami : « пей » (bois), « отдыхай » (repose-toi), « слушай » (écoute).",
+        "Avec « вы », on ajoute -те : « отдыхайте », « пейте ». Tu connais déjà « говорите медленнее » !"
+      ]
+    }
+  ],
+  "explore": {
+    "type": "plain",
+    "speaker": "luka",
+    "frame": "У меня болит ___.",
+    "frameFr": "J'ai mal ___.",
+    "color": "#5c677d",
+    "hintFr": "Mets chaque partie du corps dans la phrase et écoute.",
+    "words": [
+      {
+        "tile": "голова",
+        "fr": "à la tête",
+        "phraseFr": "J'ai mal à la tête."
+      },
+      {
+        "tile": "горло",
+        "fr": "à la gorge",
+        "phraseFr": "J'ai mal à la gorge."
+      },
+      {
+        "tile": "живот",
+        "fr": "au ventre",
+        "phraseFr": "J'ai mal au ventre."
+      },
+      {
+        "tile": "зуб",
+        "fr": "à une dent",
+        "phraseFr": "J'ai mal à une dent."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Dis que tu as mal au ventre.",
+      "answer": "живот"
+    },
+    {
+      "type": "pick",
+      "fr": "Dis que tu as mal à une dent.",
+      "answer": "зуб"
+    }
+  ],
+  "cando": [
+    "dire que tu ne te sens pas bien",
+    "dire où tu as mal",
+    "comprendre un conseil simple"
+  ],
+  "unlocks": [],
+  "glossary": {
+    "я": "je, moi",
+    "ты": "tu",
+    "вы": "vous",
+    "да": "oui",
+    "нет": "non",
+    "а": "et, mais",
+    "и": "et",
+    "это": "c'est, voici",
+    "не": "ne… pas",
+    "в": "dans, à",
+    "на": "sur, en",
+    "что": "quoi, que",
+    "как": "comment, comme",
+    "где": "où",
+    "очень": "très",
+    "спасибо": "merci",
+    "пожалуйста": "s'il te plaît / je t'en prie",
+    "хорошо": "bien, d'accord",
+    "привет": "salut",
+    "лука": "Luka (prénom)",
+    "маша": "Macha (prénom)",
+    "олег": "Oleg (prénom)",
+    "анна": "Anna (prénom)",
+    "у": "chez",
+    "меня": "moi (у меня = j'ai)",
+    "тебя": "toi (у тебя = tu as)",
+    "есть": "il y a",
+    "мой": "mon",
+    "моя": "ma",
+    "мне": "à moi",
+    "тоже": "aussi",
+    "сегодня": "aujourd'hui",
+    "завтра": "demain",
+    "вчера": "hier",
+    "потом": "puis, ensuite",
+    "давай": "allons-y, faisons",
+    "случилось": "(s'est) passé",
+    "плохо": "mal",
+    "болит": "fait mal",
+    "голова": "tête",
+    "голову": "tête (après хочу, люблю…)",
+    "горло": "gorge",
+    "температура": "fièvre, température",
+    "тридцать": "trente",
+    "восемь": "huit",
+    "грипп": "grippe",
+    "пей": "bois !",
+    "чай": "thé",
+    "отдыхай": "repose-toi !",
+    "отдыхаю": "(je) me repose",
+    "доктор": "docteur",
+    "живот": "ventre",
+    "зуб": "dent"
+  },
+  "combos": [
+    {
+      "ru": "Маша, у меня болит живот.",
+      "fr": "Macha, j'ai mal au ventre.",
+      "extra": [
+        "плохо"
+      ],
+      "orders": [
+        "маша у меня болит живот",
+        "маша у меня живот болит"
+      ]
+    },
+    {
+      "ru": "Мне плохо. Я буду отдыхать д+ома.",
+      "fr": "Je ne me sens pas bien. Je vais me reposer à la maison.",
+      "extra": [
+        "отдыхай"
+      ]
+    },
+    {
+      "ru": "Говорите медленнее, доктор!",
+      "fr": "Parlez plus lentement, docteur !",
+      "extra": [
+        "говорю"
+      ]
+    }
+  ]
+}

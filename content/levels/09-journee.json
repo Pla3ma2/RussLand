@@ -1,0 +1,468 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "09-journee",
+  "order": 9,
+  "titleFr": "Ma journée",
+  "titleRu": "Мой день",
+  "emoji": "⏰",
+  "sceneFr": "Quelques jours plus tard, Oleg croise Luka dans la rue et lui demande comment se passent ses journées.",
+  "dialogue": [
+    {
+      "speaker": "oleg",
+      "ru": "Привет, Л+ука! Что ты делаешь днём?",
+      "fr": "Salut, Luka ! Qu'est-ce que tu fais dans la journée ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Утром я учу русский.",
+      "fr": "Le matin, j'apprends le russe."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Днём я работаю.",
+      "fr": "L'après-midi, je travaille."
+    },
+    {
+      "speaker": "oleg",
+      "ru": "А где ты работаешь?",
+      "fr": "Et où est-ce que tu travailles ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Я работаю в кафе. А ты?",
+      "fr": "Je travaille dans un café. Et toi ?"
+    },
+    {
+      "speaker": "oleg",
+      "ru": "Я работаю в банке.",
+      "fr": "Je travaille dans une banque."
+    },
+    {
+      "speaker": "luka",
+      "ru": "А что ты делаешь вечером?",
+      "fr": "Et qu'est-ce que tu fais le soir ?"
+    },
+    {
+      "speaker": "oleg",
+      "ru": "Вечером я отдыхаю: читаю или смотрю фильмы.",
+      "fr": "Le soir, je me repose : je lis ou je regarde des films."
+    }
+  ],
+  "phrases": [
+    {
+      "id": "whatdo",
+      "speaker": "oleg",
+      "ru": "Что ты делаешь днём?",
+      "fr": "Qu'est-ce que tu fais dans la journée ?",
+      "noteFr": "« Делаешь » = (tu) fais. « Днём » = dans la journée, l'après-midi.",
+      "gap": {
+        "word": "делаешь",
+        "distractors": [
+          "делаю",
+          "утром"
+        ],
+        "whyFr": "Avec « ты », le verbe finit en -ешь : « ты делаешь ». « Делаю », c'est pour « я »."
+      },
+      "orders": [
+        "что ты делаешь днём",
+        "что ты днём делаешь"
+      ]
+    },
+    {
+      "id": "morning",
+      "speaker": "luka",
+      "ru": "Утром я учу русский.",
+      "fr": "Le matin, j'apprends le russe.",
+      "noteFr": "« Утром » = le matin. « Учу » = (j')apprends.",
+      "gap": {
+        "word": "утром",
+        "distractors": [
+          "кафе",
+          "банке"
+        ]
+      },
+      "orders": [
+        "утром я учу русский",
+        "я учу русский утром"
+      ]
+    },
+    {
+      "id": "work",
+      "speaker": "luka",
+      "ru": "Днём я работаю.",
+      "fr": "L'après-midi, je travaille.",
+      "noteFr": "« Работаю » = (je) travaille. Encore la fin -ю pour « я » !",
+      "gap": {
+        "word": "работаю",
+        "distractors": [
+          "работаешь",
+          "кафе"
+        ],
+        "whyFr": "Avec « я », le verbe finit en -ю : « я работаю »."
+      },
+      "orders": [
+        "днём я работаю",
+        "я работаю днём"
+      ]
+    },
+    {
+      "id": "wherework",
+      "speaker": "oleg",
+      "ru": "А где ты работаешь?",
+      "fr": "Et où est-ce que tu travailles ?",
+      "noteFr": "« Где » = où. « Ты работаешь » = tu travailles.",
+      "gap": {
+        "word": "работаешь",
+        "distractors": [
+          "работаю",
+          "вечером"
+        ],
+        "whyFr": "Avec « ты » : « работаешь » (-ешь)."
+      },
+      "orders": [
+        "а где ты работаешь"
+      ]
+    },
+    {
+      "id": "cafe",
+      "speaker": "luka",
+      "ru": "Я работаю в кафе. А ты?",
+      "fr": "Je travaille dans un café. Et toi ?",
+      "noteFr": "« Кафе » ne change jamais. « А ты ? » = et toi ?",
+      "gap": {
+        "word": "кафе",
+        "distractors": [
+          "кафею",
+          "утром"
+        ]
+      }
+    },
+    {
+      "id": "bank",
+      "speaker": "oleg",
+      "ru": "Я работаю в банке.",
+      "fr": "Je travaille dans une banque.",
+      "noteFr": "« Банк » → « в банке » : le vert du lieu, comme « в парке ».",
+      "gap": {
+        "word": "банке",
+        "distractors": [
+          "банк",
+          "вечером"
+        ],
+        "whyFr": "Pour dire où : « в » + -е. « Банк » → « в банке »."
+      },
+      "orders": [
+        "я работаю в банке",
+        "в банке я работаю"
+      ]
+    },
+    {
+      "id": "evening",
+      "speaker": "luka",
+      "ru": "А что ты делаешь вечером?",
+      "fr": "Et qu'est-ce que tu fais le soir ?",
+      "noteFr": "« Вечером » = le soir. Matin, journée, soir : утром, днём, вечером.",
+      "gap": {
+        "word": "вечером",
+        "distractors": [
+          "банке",
+          "работаю"
+        ]
+      },
+      "orders": [
+        "а что ты делаешь вечером",
+        "а что ты вечером делаешь"
+      ]
+    },
+    {
+      "id": "rest",
+      "speaker": "oleg",
+      "ru": "Вечером я отдыхаю: читаю или смотрю фильмы.",
+      "fr": "Le soir, je me repose : je lis ou je regarde des films.",
+      "noteFr": "« Отдыхаю » = je me repose, « читаю » = je lis, « смотрю » = je regarde.",
+      "gap": {
+        "word": "отдыхаю",
+        "distractors": [
+          "отдыхаешь",
+          "банке"
+        ],
+        "whyFr": "Avec « я » : « отдыхаю » (-ю)."
+      }
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Le matin et la journée",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "whatdo",
+            "morning"
+          ]
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 0
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "work",
+            "wherework"
+          ],
+          "review": [
+            "whatdo",
+            "morning"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Le travail et le soir",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "whatdo",
+            "work",
+            "wherework"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "cafe",
+            "bank"
+          ],
+          "review": [
+            "wherework"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "evening",
+            "rest"
+          ],
+          "review": [
+            "cafe",
+            "bank"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "oleg",
+      "fr": [
+        "Beaucoup de verbes russes marchent comme « работать » (travailler) : on enlève -ть et on ajoute la fin de la personne.",
+        "Я работа-ю, ты работа-ешь, он работа-ет, мы работа-ем, вы работа-ете, они работа-ют. Retiens surtout -ю (je) et -ешь (tu) : ce sont les plus utiles pour parler."
+      ]
+    },
+    {
+      "by": "oleg",
+      "fr": [
+        "Pour dire quand : « утром » (le matin), « днём » (dans la journée), « вечером » (le soir).",
+        "Pas besoin de préposition : le mot seul suffit. « Вечером я отдыхаю » = le soir, je me repose."
+      ]
+    }
+  ],
+  "explore": {
+    "type": "person",
+    "speaker": "luka",
+    "verb": "работать",
+    "frame": "___ {V} в кафе.",
+    "frameFr": "___ travailler dans un café.",
+    "color": "#8e44ad",
+    "hintFr": "Change la personne et écoute la fin du verbe.",
+    "words": [
+      {
+        "tile": "я",
+        "fr": "je",
+        "phraseFr": "Je travaille dans un café."
+      },
+      {
+        "tile": "ты",
+        "fr": "tu",
+        "phraseFr": "Tu travailles dans un café."
+      },
+      {
+        "tile": "он",
+        "fr": "il",
+        "phraseFr": "Il travaille dans un café."
+      },
+      {
+        "tile": "мы",
+        "fr": "nous",
+        "phraseFr": "Nous travaillons dans un café."
+      },
+      {
+        "tile": "вы",
+        "fr": "vous",
+        "phraseFr": "Vous travaillez dans un café."
+      },
+      {
+        "tile": "они",
+        "fr": "ils, elles",
+        "phraseFr": "Ils travaillent dans un café."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Dis : « Tu travailles dans un café. »",
+      "answer": "ты"
+    },
+    {
+      "type": "pick",
+      "fr": "Dis : « Ils travaillent dans un café. »",
+      "answer": "они"
+    }
+  ],
+  "cando": [
+    "raconter ta journée",
+    "dire où tu travailles",
+    "dire ce que tu fais le soir"
+  ],
+  "unlocks": [
+    {
+      "case": "loct",
+      "gender": "masc",
+      "from": "банк",
+      "to": "банке"
+    }
+  ],
+  "glossary": {
+    "я": "je, moi",
+    "ты": "tu",
+    "вы": "vous",
+    "да": "oui",
+    "нет": "non",
+    "а": "et, mais",
+    "и": "et",
+    "это": "c'est, voici",
+    "не": "ne… pas",
+    "в": "dans, à",
+    "на": "sur, en",
+    "что": "quoi, que",
+    "как": "comment, comme",
+    "где": "où",
+    "очень": "très",
+    "спасибо": "merci",
+    "пожалуйста": "s'il te plaît / je t'en prie",
+    "хорошо": "bien, d'accord",
+    "привет": "salut",
+    "лука": "Luka (prénom)",
+    "маша": "Macha (prénom)",
+    "олег": "Oleg (prénom)",
+    "анна": "Anna (prénom)",
+    "у": "chez",
+    "меня": "moi (у меня = j'ai)",
+    "тебя": "toi (у тебя = tu as)",
+    "есть": "il y a",
+    "мой": "mon",
+    "моя": "ma",
+    "мне": "à moi",
+    "тоже": "aussi",
+    "сегодня": "aujourd'hui",
+    "завтра": "demain",
+    "вчера": "hier",
+    "потом": "puis, ensuite",
+    "давай": "allons-y, faisons",
+    "делаешь": "(tu) fais",
+    "делаю": "(je) fais",
+    "днём": "dans la journée",
+    "днем": "dans la journée",
+    "утром": "le matin",
+    "учу": "(j')apprends",
+    "русский": "le russe",
+    "работаю": "(je) travaille",
+    "работаешь": "(tu) travailles",
+    "работает": "(il) travaille",
+    "работаем": "(nous) travaillons",
+    "работаете": "(vous) travaillez",
+    "работают": "(ils) travaillent",
+    "кафе": "café",
+    "банке": "banque (après в)",
+    "банк": "banque",
+    "вечером": "le soir",
+    "отдыхаю": "(je) me repose",
+    "отдыхаешь": "(tu) te reposes",
+    "читаю": "(je) lis",
+    "или": "ou",
+    "смотрю": "(je) regarde",
+    "фильмы": "films",
+    "он": "il",
+    "мы": "nous",
+    "они": "ils, elles",
+    "кафею": "(forme inexistante)"
+  },
+  "combos": [
+    {
+      "ru": "Мой папа работает в банке.",
+      "fr": "Mon père travaille dans une banque.",
+      "extra": [
+        "работаю"
+      ],
+      "orders": [
+        "мой папа работает в банке",
+        "в банке работает мой папа"
+      ]
+    },
+    {
+      "ru": "Вечером я читаю книги.",
+      "fr": "Le soir, je lis des livres.",
+      "extra": [
+        "утром"
+      ],
+      "orders": [
+        "вечером я читаю книги",
+        "я читаю книги вечером"
+      ]
+    },
+    {
+      "ru": "Ты работаешь в кафе?",
+      "fr": "Tu travailles dans un café ?",
+      "extra": [
+        "работаю"
+      ],
+      "orders": [
+        "ты работаешь в кафе",
+        "в кафе ты работаешь"
+      ]
+    }
+  ]
+}

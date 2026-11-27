@@ -1,0 +1,2203 @@
+{
+ "version": 2,
+ "id": "16-hiver",
+ "order": 16,
+ "titleFr": "L'hiver arrive",
+ "titleRu": "Зима",
+ "emoji": "❄️",
+ "sceneFr": "Novembre à Saint-Pétersbourg. En sortant du théâtre, Luka découvre la neige… et le froid russe.",
+ "learner": "luka",
+ "speakers": {
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  },
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "luka",
+   "ru": "Ой, как холодно!",
+   "fr": "Oh, qu'il fait froid !",
+   "tokens": [
+    {
+     "t": "Ой",
+     "s": 0,
+     "w": true,
+     "a": "d0c6d2387eac.mp3",
+     "l": "ой"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "как",
+     "s": 1,
+     "w": true,
+     "a": "5211d8f6c0b1.mp3",
+     "l": "как"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "холодно",
+     "s": 1,
+     "w": true,
+     "a": "8482b15f9a14.mp3",
+     "l": "холодно"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "a3b77f4875f3.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Да, сегодня минус десять.",
+   "fr": "Oui, aujourd'hui il fait moins dix.",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "сегодня",
+     "s": 3,
+     "w": true,
+     "a": "ee9959a29d9b.mp3",
+     "l": "сегодня"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "минус",
+     "s": 1,
+     "w": true,
+     "a": "2dd61ded53c7.mp3",
+     "l": "минус"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "десять",
+     "s": 1,
+     "w": true,
+     "a": "b765b1ecc0c3.mp3",
+     "l": "десять"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "e3edf2926559.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Минус десять? А во Франции сейчас тепло.",
+   "fr": "Moins dix ? Et en France, en ce moment, il fait doux.",
+   "tokens": [
+    {
+     "t": "Минус",
+     "s": 1,
+     "w": true,
+     "a": "2dd61ded53c7.mp3",
+     "l": "минус"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "десять",
+     "s": 1,
+     "w": true,
+     "a": "b765b1ecc0c3.mp3",
+     "l": "десять"
+    },
+    {
+     "t": "? ",
+     "w": false
+    },
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "во",
+     "s": 1,
+     "w": true,
+     "a": "94135b8098e4.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Франции",
+     "s": 2,
+     "w": true,
+     "a": "d249934360f5.mp3",
+     "l": "франция"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сейчас",
+     "s": 4,
+     "w": true,
+     "a": "f97236955f75.mp3",
+     "l": "сейчас"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тепло",
+     "s": 4,
+     "w": true,
+     "a": "f45197b94fdc.mp3",
+     "l": "тепло"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ef81a07738f8.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Где твоя шапка?",
+   "fr": "Où est ton bonnet ?",
+   "tokens": [
+    {
+     "t": "Где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "твоя",
+     "s": 3,
+     "w": true,
+     "a": "ae8d82bf906c.mp3",
+     "l": "твой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "шапка",
+     "s": 1,
+     "w": true,
+     "a": "5ae771d4b676.mp3",
+     "l": "шапка"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "d2bf25508aaa.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "У меня нет шапки.",
+   "fr": "Je n'ai pas de bonnet.",
+   "tokens": [
+    {
+     "t": "У",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "меня",
+     "s": 3,
+     "w": true,
+     "a": "2e3dc1afb7c3.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "шапки",
+     "s": 1,
+     "w": true,
+     "a": "054df05c438e.mp3",
+     "l": "шапка"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "df69a70d8706.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Завтра надо купить шапку!",
+   "fr": "Demain, il faut acheter un bonnet !",
+   "tokens": [
+    {
+     "t": "Завтра",
+     "s": 1,
+     "w": true,
+     "a": "8c010caec9ab.mp3",
+     "l": "завтра"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "надо",
+     "s": 1,
+     "w": true,
+     "a": "6da396553a75.mp3",
+     "l": "надо"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "купить",
+     "s": 3,
+     "w": true,
+     "a": "8317c23f0a81.mp3",
+     "l": "купить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "шапку",
+     "s": 1,
+     "w": true,
+     "a": "0811f8bb6308.mp3",
+     "l": "шапка"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "6eebc0ed282f.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Хорошо. А ты любишь зиму?",
+   "fr": "D'accord. Et toi, tu aimes l'hiver ?",
+   "tokens": [
+    {
+     "t": "Хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "любишь",
+     "s": 1,
+     "w": true,
+     "a": "43a2843c63be.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "зиму",
+     "s": 1,
+     "w": true,
+     "a": "b85ff1e99d89.mp3",
+     "l": "зима"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "ed0e64a7def9.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Очень люблю! Зимой красиво.",
+   "fr": "J'adore ! En hiver, c'est beau.",
+   "tokens": [
+    {
+     "t": "Очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "люблю",
+     "s": 4,
+     "w": true,
+     "a": "1b47671db5c8.mp3",
+     "l": "любить"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Зимой",
+     "s": 3,
+     "w": true,
+     "a": "49091c222a7f.mp3",
+     "l": "зимой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "красиво",
+     "s": 4,
+     "w": true,
+     "a": "468310ed94a4.mp3",
+     "l": "красиво"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "07c010066b74.mp3"
+  }
+ ],
+ "phrases": {
+  "cold": {
+   "speaker": "luka",
+   "ru": "Ой, как холодно!",
+   "fr": "Oh, qu'il fait froid !",
+   "tokens": [
+    {
+     "t": "Ой",
+     "s": 0,
+     "w": true,
+     "a": "d0c6d2387eac.mp3",
+     "l": "ой"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "как",
+     "s": 1,
+     "w": true,
+     "a": "5211d8f6c0b1.mp3",
+     "l": "как"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "холодно",
+     "s": 1,
+     "w": true,
+     "a": "8482b15f9a14.mp3",
+     "l": "холодно"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "a3b77f4875f3.mp3",
+   "id": "cold",
+   "noteFr": "« Холодно » = il fait froid. Pas de « il fait » en russe : un seul mot suffit !",
+   "gap": {
+    "index": 4,
+    "whyFr": "Il fait froid : « холодно ». « Тепло » veut dire « il fait doux ».",
+    "distractors": [
+     {
+      "t": "тепло",
+      "a": "f45197b94fdc.mp3",
+      "s": 4
+     },
+     {
+      "t": "шапка",
+      "a": "5ae771d4b676.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "minus": {
+   "speaker": "masha",
+   "ru": "Да, сегодня минус десять.",
+   "fr": "Oui, aujourd'hui il fait moins dix.",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "сегодня",
+     "s": 3,
+     "w": true,
+     "a": "ee9959a29d9b.mp3",
+     "l": "сегодня"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "минус",
+     "s": 1,
+     "w": true,
+     "a": "2dd61ded53c7.mp3",
+     "l": "минус"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "десять",
+     "s": 1,
+     "w": true,
+     "a": "b765b1ecc0c3.mp3",
+     "l": "десять"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "e3edf2926559.mp3",
+   "id": "minus",
+   "noteFr": "« Минус десять » = moins dix. « Сегодня » = aujourd'hui.",
+   "gap": {
+    "index": 6,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "шапку",
+      "a": "0811f8bb6308.mp3",
+      "s": 1
+     },
+     {
+      "t": "зиму",
+      "a": "b85ff1e99d89.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "warm": {
+   "speaker": "luka",
+   "ru": "А во Франции сейчас тепло.",
+   "fr": "Et en France, en ce moment, il fait doux.",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "во",
+     "s": 1,
+     "w": true,
+     "a": "94135b8098e4.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Франции",
+     "s": 2,
+     "w": true,
+     "a": "d249934360f5.mp3",
+     "l": "франция"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сейчас",
+     "s": 4,
+     "w": true,
+     "a": "f97236955f75.mp3",
+     "l": "сейчас"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тепло",
+     "s": 4,
+     "w": true,
+     "a": "f45197b94fdc.mp3",
+     "l": "тепло"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "a9d9ec214d9f.mp3",
+   "id": "warm",
+   "noteFr": "« Во Франции » = en France (« во » devant certains sons, pour que ce soit plus facile à dire). « Тепло » = il fait doux, chaud.",
+   "gap": {
+    "index": 4,
+    "whyFr": "Pour dire où : « во Франции ». Tu connais « из Франции » depuis la première leçon !",
+    "distractors": [
+     {
+      "t": "франция",
+      "a": "9e4dbb094fcc.mp3",
+      "s": 2
+     },
+     {
+      "t": "шапки",
+      "a": "054df05c438e.mp3",
+      "s": 1
+     }
+    ]
+   },
+   "orders": [
+    "а во франции сейчас тепло",
+    "а сейчас во франции тепло"
+   ]
+  },
+  "hat": {
+   "speaker": "masha",
+   "ru": "Где твоя шапка?",
+   "fr": "Où est ton bonnet ?",
+   "tokens": [
+    {
+     "t": "Где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "твоя",
+     "s": 3,
+     "w": true,
+     "a": "ae8d82bf906c.mp3",
+     "l": "твой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "шапка",
+     "s": 1,
+     "w": true,
+     "a": "5ae771d4b676.mp3",
+     "l": "шапка"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "d2bf25508aaa.mp3",
+   "id": "hat",
+   "noteFr": "« Твоя » = ta (« твой » = ton). « Шапка » = bonnet.",
+   "gap": {
+    "index": 2,
+    "whyFr": "« Шапка » est féminin (-а) : « твоя ». « Твой », c'est pour un mot masculin.",
+    "distractors": [
+     {
+      "t": "твой",
+      "a": "01ac9c2b0736.mp3",
+      "s": 2
+     },
+     {
+      "t": "моя",
+      "a": "256d62a930d9.mp3",
+      "s": 2
+     }
+    ]
+   },
+   "orders": [
+    "где твоя шапка"
+   ]
+  },
+  "nohat": {
+   "speaker": "luka",
+   "ru": "У меня нет шапки.",
+   "fr": "Je n'ai pas de bonnet.",
+   "tokens": [
+    {
+     "t": "У",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "меня",
+     "s": 3,
+     "w": true,
+     "a": "2e3dc1afb7c3.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "шапки",
+     "s": 1,
+     "w": true,
+     "a": "054df05c438e.mp3",
+     "l": "шапка"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "df69a70d8706.mp3",
+   "id": "nohat",
+   "noteFr": "« У меня нет… » = je n'ai pas de… Le mot change : « шапка » → « нет шапки ». Retiens-le pour l'instant.",
+   "gap": {
+    "index": 4,
+    "whyFr": "« У меня нет » = je n'ai pas. « У меня есть », ce serait « j'ai ».",
+    "distractors": [
+     {
+      "t": "есть",
+      "a": "91c9dda6ba7c.mp3",
+      "s": 0
+     },
+     {
+      "t": "надо",
+      "a": "6da396553a75.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "buy": {
+   "speaker": "masha",
+   "ru": "Завтра надо купить шапку!",
+   "fr": "Demain, il faut acheter un bonnet !",
+   "tokens": [
+    {
+     "t": "Завтра",
+     "s": 1,
+     "w": true,
+     "a": "8c010caec9ab.mp3",
+     "l": "завтра"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "надо",
+     "s": 1,
+     "w": true,
+     "a": "6da396553a75.mp3",
+     "l": "надо"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "купить",
+     "s": 3,
+     "w": true,
+     "a": "8317c23f0a81.mp3",
+     "l": "купить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "шапку",
+     "s": 1,
+     "w": true,
+     "a": "0811f8bb6308.mp3",
+     "l": "шапка"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "6eebc0ed282f.mp3",
+   "id": "buy",
+   "noteFr": "« Надо » = il faut. « Купить » = acheter. Le bonnet est ce qu'on achète : « шапку » (-у).",
+   "gap": {
+    "index": 6,
+    "whyFr": "On achète le bonnet : c'est le bleu, « шапку » (-у), comme après « хочу ».",
+    "distractors": [
+     {
+      "t": "шапка",
+      "a": "5ae771d4b676.mp3",
+      "s": 1
+     },
+     {
+      "t": "шапки",
+      "a": "054df05c438e.mp3",
+      "s": 1
+     }
+    ]
+   },
+   "orders": [
+    "завтра надо купить шапку",
+    "надо купить шапку завтра"
+   ]
+  },
+  "winter": {
+   "speaker": "luka",
+   "ru": "А ты любишь зиму?",
+   "fr": "Et toi, tu aimes l'hiver ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "любишь",
+     "s": 1,
+     "w": true,
+     "a": "43a2843c63be.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "зиму",
+     "s": 1,
+     "w": true,
+     "a": "b85ff1e99d89.mp3",
+     "l": "зима"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "dbd7cfa6adca.mp3",
+   "id": "winter",
+   "noteFr": "« Зима » = hiver → « люблю зиму ». Encore le bleu !",
+   "gap": {
+    "index": 6,
+    "whyFr": "Après « любишь », « зима » → « зиму » (-у).",
+    "distractors": [
+     {
+      "t": "зима",
+      "a": "3503e8930f3d.mp3",
+      "s": 3
+     },
+     {
+      "t": "зимой",
+      "a": "49091c222a7f.mp3",
+      "s": 3
+     }
+    ]
+   },
+   "orders": [
+    "а ты любишь зиму"
+   ]
+  },
+  "beautiful": {
+   "speaker": "masha",
+   "ru": "Очень люблю! Зимой красиво.",
+   "fr": "J'adore ! En hiver, c'est beau.",
+   "tokens": [
+    {
+     "t": "Очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "люблю",
+     "s": 4,
+     "w": true,
+     "a": "1b47671db5c8.mp3",
+     "l": "любить"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Зимой",
+     "s": 3,
+     "w": true,
+     "a": "49091c222a7f.mp3",
+     "l": "зимой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "красиво",
+     "s": 4,
+     "w": true,
+     "a": "468310ed94a4.mp3",
+     "l": "красиво"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "07c010066b74.mp3",
+   "id": "beautiful",
+   "noteFr": "« Зимой » = en hiver (comme « утром », « вечером »). « Красиво » = c'est beau.",
+   "gap": {
+    "index": 6,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "холодно",
+      "a": "8482b15f9a14.mp3",
+      "s": 1
+     },
+     {
+      "t": "десять",
+      "a": "b765b1ecc0c3.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "c1": {
+   "speaker": "luka",
+   "ru": "Вчера было холодно.",
+   "fr": "Hier, il faisait froid.",
+   "tokens": [
+    {
+     "t": "Вчера",
+     "s": 4,
+     "w": true,
+     "a": "2334f6a49ca2.mp3",
+     "l": "вчера"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "было",
+     "s": 1,
+     "w": true,
+     "a": "b9c8b948282f.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "холодно",
+     "s": 1,
+     "w": true,
+     "a": "8482b15f9a14.mp3",
+     "l": "холодно"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "367c26fe0591.mp3",
+   "id": "c1",
+   "noteFr": "",
+   "orders": [
+    "вчера было холодно",
+    "было холодно вчера"
+   ],
+   "combo": {
+    "from": [
+     "Le week-end",
+     "Au restaurant",
+     "L'hiver arrive"
+    ],
+    "extra": [
+     {
+      "t": "тепло",
+      "a": "f45197b94fdc.mp3",
+      "s": 4
+     }
+    ]
+   }
+  },
+  "c2": {
+   "speaker": "luka",
+   "ru": "Где твоя собака?",
+   "fr": "Où est ton chien ?",
+   "tokens": [
+    {
+     "t": "Где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "твоя",
+     "s": 3,
+     "w": true,
+     "a": "ae8d82bf906c.mp3",
+     "l": "твой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "собака",
+     "s": 3,
+     "w": true,
+     "a": "aca66e0a70ff.mp3",
+     "l": "собака"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "0b2113b4442e.mp3",
+   "id": "c2",
+   "noteFr": "",
+   "orders": [
+    "где твоя собака"
+   ],
+   "combo": {
+    "from": [
+     "Je ne comprends pas",
+     "L'hiver arrive",
+     "Ma famille"
+    ],
+    "extra": [
+     {
+      "t": "моя",
+      "a": "256d62a930d9.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "c3": {
+   "speaker": "luka",
+   "ru": "Завтра надо купить билеты.",
+   "fr": "Demain, il faut acheter les billets.",
+   "tokens": [
+    {
+     "t": "Завтра",
+     "s": 1,
+     "w": true,
+     "a": "8c010caec9ab.mp3",
+     "l": "завтра"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "надо",
+     "s": 1,
+     "w": true,
+     "a": "6da396553a75.mp3",
+     "l": "надо"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "купить",
+     "s": 3,
+     "w": true,
+     "a": "8317c23f0a81.mp3",
+     "l": "купить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "билеты",
+     "s": 3,
+     "w": true,
+     "a": "5def5b4d9364.mp3",
+     "l": "билет"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "3f7c9dcfdea1.mp3",
+   "id": "c3",
+   "noteFr": "",
+   "orders": [
+    "завтра надо купить билеты",
+    "надо купить билеты завтра"
+   ],
+   "combo": {
+    "from": [
+     "Les projets",
+     "L'hiver arrive",
+     "Une invitation"
+    ],
+    "extra": [
+     {
+      "t": "куплю",
+      "a": "c55a7708ac7d.mp3",
+      "s": 4
+     }
+    ]
+   }
+  },
+  "c4": {
+   "speaker": "luka",
+   "ru": "Зимой холодно, но красиво.",
+   "fr": "En hiver, il fait froid, mais c'est beau.",
+   "tokens": [
+    {
+     "t": "Зимой",
+     "s": 3,
+     "w": true,
+     "a": "49091c222a7f.mp3",
+     "l": "зимой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "холодно",
+     "s": 1,
+     "w": true,
+     "a": "8482b15f9a14.mp3",
+     "l": "холодно"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "но",
+     "s": 1,
+     "w": true,
+     "a": "e9cdd3dfae39.mp3",
+     "l": "но"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "красиво",
+     "s": 4,
+     "w": true,
+     "a": "468310ed94a4.mp3",
+     "l": "красиво"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "588f9618c31b.mp3",
+   "id": "c4",
+   "noteFr": "",
+   "orders": [
+    "зимой холодно но красиво"
+   ],
+   "combo": {
+    "from": [
+     "L'hiver arrive",
+     "Je ne comprends pas"
+    ],
+    "extra": [
+     {
+      "t": "тепло",
+      "a": "f45197b94fdc.mp3",
+      "s": 4
+     }
+    ]
+   }
+  }
+ },
+ "parts": [
+  {
+   "titleFr": "Le froid",
+   "steps": [
+    {
+     "type": "scene"
+    },
+    {
+     "type": "explore"
+    },
+    {
+     "type": "insight",
+     "index": 0
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "cold",
+      "minus"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "warm",
+      "hat"
+     ],
+     "review": [
+      "cold"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Un bonnet !",
+   "steps": [
+    {
+     "type": "warmup",
+     "phrases": [
+      "cold",
+      "minus",
+      "hat"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "nohat",
+      "buy"
+     ],
+     "review": [
+      "hat",
+      "warm"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "winter",
+      "beautiful"
+     ],
+     "review": [
+      "buy"
+     ]
+    },
+    {
+     "type": "insight",
+     "index": 1
+    },
+    {
+     "type": "combine",
+     "phrases": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Joue la scène",
+   "steps": [
+    {
+     "type": "final"
+    },
+    {
+     "type": "roleplay"
+    }
+   ]
+  }
+ ],
+ "insights": [
+  {
+   "by": "masha",
+   "fr": [
+    "Pour la météo, un seul mot suffit : « холодно » (il fait froid), « тепло » (il fait doux), « жарко » (il fait chaud).",
+    "Et pour le passé : « было холодно » (il faisait froid). Pour le futur : « будет холодно »."
+   ]
+  },
+  {
+   "by": "masha",
+   "fr": [
+    "Bravo, tu as fait un vrai tour de la vie en Russie : te présenter, commander, demander ton chemin, faire des courses, parler de ta famille, de ta journée, de tes projets…",
+    "Et tu as vu que les phrases se construisent comme un puzzle : tu prends des morceaux que tu connais, et tu dis quelque chose de nouveau !"
+   ]
+  }
+ ],
+ "explore": {
+  "type": "plain",
+  "frameFr": "Aujourd'hui, il fait ___.",
+  "color": "#5c677d",
+  "hintFr": "Mets chaque mot dans la phrase et écoute.",
+  "before": [
+   {
+    "t": "Сегодня",
+    "s": 3,
+    "w": true,
+    "a": "ee9959a29d9b.mp3",
+    "l": "сегодня"
+   },
+   {
+    "t": " ",
+    "w": false
+   }
+  ],
+  "after": [
+   {
+    "t": ".",
+    "w": false
+   }
+  ],
+  "verb": null,
+  "words": [
+   {
+    "tile": "холодно",
+    "tileStress": 1,
+    "fr": "froid",
+    "phraseFr": "Aujourd'hui, il fait froid.",
+    "phrase": "Сегодня холодно.",
+    "morph": {
+     "from": "холодно",
+     "to": "холодно",
+     "stem": "холодно",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": false
+    },
+    "audioTile": "8482b15f9a14.mp3",
+    "audioPhrase": "527b4ae032b7.mp3"
+   },
+   {
+    "tile": "тепло",
+    "tileStress": 4,
+    "fr": "doux",
+    "phraseFr": "Aujourd'hui, il fait doux.",
+    "phrase": "Сегодня тепло.",
+    "morph": {
+     "from": "тепло",
+     "to": "тепло",
+     "stem": "тепло",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 4,
+     "stressTo": 4,
+     "changed": false
+    },
+    "audioTile": "f45197b94fdc.mp3",
+    "audioPhrase": "5b66bf7deff4.mp3"
+   },
+   {
+    "tile": "жарко",
+    "tileStress": 1,
+    "fr": "chaud",
+    "phraseFr": "Aujourd'hui, il fait chaud.",
+    "phrase": "Сегодня жарко.",
+    "morph": {
+     "from": "жарко",
+     "to": "жарко",
+     "stem": "жарко",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": false
+    },
+    "audioTile": "eff8fe8219bc.mp3",
+    "audioPhrase": "f55af154239e.mp3"
+   },
+   {
+    "tile": "красиво",
+    "tileStress": 4,
+    "fr": "beau (c'est beau)",
+    "phraseFr": "Aujourd'hui, c'est beau.",
+    "phrase": "Сегодня красиво.",
+    "morph": {
+     "from": "красиво",
+     "to": "красиво",
+     "stem": "красиво",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 4,
+     "stressTo": 4,
+     "changed": false
+    },
+    "audioTile": "468310ed94a4.mp3",
+    "audioPhrase": "bcb8cd8aa301.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Dis qu'il fait chaud aujourd'hui.",
+   "answer": "жарко"
+  },
+  {
+   "type": "pick",
+   "fr": "Dis qu'il fait froid aujourd'hui.",
+   "answer": "холодно"
+  }
+ ],
+ "grammar": [
+  "а во франции сейчас тепло",
+  "а ты любишь зиму",
+  "вчера было холодно",
+  "где твоя собака",
+  "где твоя шапка",
+  "да сегодня минус десять",
+  "завтра надо купить билеты",
+  "завтра надо купить шапку",
+  "зимой холодно но красиво",
+  "минус десять а во франции сейчас тепло",
+  "ой как холодно",
+  "очень люблю зимой красиво",
+  "у меня нет шапки",
+  "хорошо а ты любишь зиму",
+  "[unk]"
+ ],
+ "cando": [
+  "parler de la météo",
+  "dire « il faut »",
+  "dire « je n'ai pas de… »"
+ ],
+ "glossary": {
+  "я": "je, moi",
+  "ты": "tu",
+  "вы": "vous",
+  "да": "oui",
+  "нет": "non",
+  "а": "et, mais",
+  "и": "et",
+  "это": "c'est, voici",
+  "не": "ne… pas",
+  "в": "dans, à",
+  "на": "sur, en",
+  "что": "quoi, que",
+  "как": "comment, comme",
+  "где": "où",
+  "очень": "très",
+  "спасибо": "merci",
+  "пожалуйста": "s'il te plaît / je t'en prie",
+  "хорошо": "bien, d'accord",
+  "привет": "salut",
+  "лука": "Luka (prénom)",
+  "маша": "Macha (prénom)",
+  "олег": "Oleg (prénom)",
+  "анна": "Anna (prénom)",
+  "у": "chez",
+  "меня": "moi (у меня = j'ai)",
+  "тебя": "toi (у тебя = tu as)",
+  "есть": "il y a",
+  "мой": "mon",
+  "моя": "ma",
+  "мне": "à moi",
+  "тоже": "aussi",
+  "сегодня": "aujourd'hui",
+  "завтра": "demain",
+  "вчера": "hier",
+  "потом": "puis, ensuite",
+  "давай": "allons-y, faisons",
+  "ой": "oh, aïe",
+  "холодно": "il fait froid",
+  "тепло": "il fait doux",
+  "минус": "moins",
+  "десять": "dix",
+  "во": "en, dans (devant certains sons)",
+  "франции": "France",
+  "франция": "France",
+  "сейчас": "maintenant",
+  "твоя": "ta",
+  "твой": "ton",
+  "шапка": "bonnet",
+  "шапки": "bonnet (après нет)",
+  "шапку": "bonnet (après купить)",
+  "надо": "il faut",
+  "купить": "acheter",
+  "любишь": "(tu) aimes",
+  "зиму": "hiver (après люблю)",
+  "зима": "hiver",
+  "зимой": "en hiver",
+  "люблю": "(j')aime",
+  "красиво": "c'est beau",
+  "жарко": "il fait chaud",
+  "было": "c'était",
+  "собака": "chien",
+  "билеты": "billets",
+  "но": "mais"
+ },
+ "unlocks": [
+  {
+   "case": "accs",
+   "gender": "femn",
+   "from": "зима",
+   "to": "зиму"
+  }
+ ],
+ "items": [
+  {
+   "id": "16-hiver:cold",
+   "ru": "Ой, как холодно!",
+   "fr": "Oh, qu'il fait froid !",
+   "tokens": [
+    {
+     "t": "Ой",
+     "s": 0,
+     "w": true,
+     "a": "d0c6d2387eac.mp3",
+     "l": "ой"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "как",
+     "s": 1,
+     "w": true,
+     "a": "5211d8f6c0b1.mp3",
+     "l": "как"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "холодно",
+     "s": 1,
+     "w": true,
+     "a": "8482b15f9a14.mp3",
+     "l": "холодно"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "a3b77f4875f3.mp3"
+  },
+  {
+   "id": "16-hiver:minus",
+   "ru": "Да, сегодня минус десять.",
+   "fr": "Oui, aujourd'hui il fait moins dix.",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "сегодня",
+     "s": 3,
+     "w": true,
+     "a": "ee9959a29d9b.mp3",
+     "l": "сегодня"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "минус",
+     "s": 1,
+     "w": true,
+     "a": "2dd61ded53c7.mp3",
+     "l": "минус"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "десять",
+     "s": 1,
+     "w": true,
+     "a": "b765b1ecc0c3.mp3",
+     "l": "десять"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "e3edf2926559.mp3"
+  },
+  {
+   "id": "16-hiver:warm",
+   "ru": "А во Франции сейчас тепло.",
+   "fr": "Et en France, en ce moment, il fait doux.",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "во",
+     "s": 1,
+     "w": true,
+     "a": "94135b8098e4.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Франции",
+     "s": 2,
+     "w": true,
+     "a": "d249934360f5.mp3",
+     "l": "франция"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сейчас",
+     "s": 4,
+     "w": true,
+     "a": "f97236955f75.mp3",
+     "l": "сейчас"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тепло",
+     "s": 4,
+     "w": true,
+     "a": "f45197b94fdc.mp3",
+     "l": "тепло"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "a9d9ec214d9f.mp3"
+  },
+  {
+   "id": "16-hiver:hat",
+   "ru": "Где твоя шапка?",
+   "fr": "Où est ton bonnet ?",
+   "tokens": [
+    {
+     "t": "Где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "твоя",
+     "s": 3,
+     "w": true,
+     "a": "ae8d82bf906c.mp3",
+     "l": "твой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "шапка",
+     "s": 1,
+     "w": true,
+     "a": "5ae771d4b676.mp3",
+     "l": "шапка"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "d2bf25508aaa.mp3"
+  },
+  {
+   "id": "16-hiver:nohat",
+   "ru": "У меня нет шапки.",
+   "fr": "Je n'ai pas de bonnet.",
+   "tokens": [
+    {
+     "t": "У",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "меня",
+     "s": 3,
+     "w": true,
+     "a": "2e3dc1afb7c3.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "шапки",
+     "s": 1,
+     "w": true,
+     "a": "054df05c438e.mp3",
+     "l": "шапка"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "df69a70d8706.mp3"
+  },
+  {
+   "id": "16-hiver:buy",
+   "ru": "Завтра надо купить шапку!",
+   "fr": "Demain, il faut acheter un bonnet !",
+   "tokens": [
+    {
+     "t": "Завтра",
+     "s": 1,
+     "w": true,
+     "a": "8c010caec9ab.mp3",
+     "l": "завтра"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "надо",
+     "s": 1,
+     "w": true,
+     "a": "6da396553a75.mp3",
+     "l": "надо"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "купить",
+     "s": 3,
+     "w": true,
+     "a": "8317c23f0a81.mp3",
+     "l": "купить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "шапку",
+     "s": 1,
+     "w": true,
+     "a": "0811f8bb6308.mp3",
+     "l": "шапка"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "6eebc0ed282f.mp3"
+  },
+  {
+   "id": "16-hiver:winter",
+   "ru": "А ты любишь зиму?",
+   "fr": "Et toi, tu aimes l'hiver ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "любишь",
+     "s": 1,
+     "w": true,
+     "a": "43a2843c63be.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "зиму",
+     "s": 1,
+     "w": true,
+     "a": "b85ff1e99d89.mp3",
+     "l": "зима"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "dbd7cfa6adca.mp3"
+  },
+  {
+   "id": "16-hiver:beautiful",
+   "ru": "Очень люблю! Зимой красиво.",
+   "fr": "J'adore ! En hiver, c'est beau.",
+   "tokens": [
+    {
+     "t": "Очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "люблю",
+     "s": 4,
+     "w": true,
+     "a": "1b47671db5c8.mp3",
+     "l": "любить"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Зимой",
+     "s": 3,
+     "w": true,
+     "a": "49091c222a7f.mp3",
+     "l": "зимой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "красиво",
+     "s": 4,
+     "w": true,
+     "a": "468310ed94a4.mp3",
+     "l": "красиво"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "07c010066b74.mp3"
+  },
+  {
+   "id": "16-hiver:c1",
+   "ru": "Вчера было холодно.",
+   "fr": "Hier, il faisait froid.",
+   "tokens": [
+    {
+     "t": "Вчера",
+     "s": 4,
+     "w": true,
+     "a": "2334f6a49ca2.mp3",
+     "l": "вчера"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "было",
+     "s": 1,
+     "w": true,
+     "a": "b9c8b948282f.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "холодно",
+     "s": 1,
+     "w": true,
+     "a": "8482b15f9a14.mp3",
+     "l": "холодно"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "367c26fe0591.mp3"
+  },
+  {
+   "id": "16-hiver:c2",
+   "ru": "Где твоя собака?",
+   "fr": "Où est ton chien ?",
+   "tokens": [
+    {
+     "t": "Где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "твоя",
+     "s": 3,
+     "w": true,
+     "a": "ae8d82bf906c.mp3",
+     "l": "твой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "собака",
+     "s": 3,
+     "w": true,
+     "a": "aca66e0a70ff.mp3",
+     "l": "собака"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "0b2113b4442e.mp3"
+  },
+  {
+   "id": "16-hiver:c3",
+   "ru": "Завтра надо купить билеты.",
+   "fr": "Demain, il faut acheter les billets.",
+   "tokens": [
+    {
+     "t": "Завтра",
+     "s": 1,
+     "w": true,
+     "a": "8c010caec9ab.mp3",
+     "l": "завтра"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "надо",
+     "s": 1,
+     "w": true,
+     "a": "6da396553a75.mp3",
+     "l": "надо"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "купить",
+     "s": 3,
+     "w": true,
+     "a": "8317c23f0a81.mp3",
+     "l": "купить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "билеты",
+     "s": 3,
+     "w": true,
+     "a": "5def5b4d9364.mp3",
+     "l": "билет"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "3f7c9dcfdea1.mp3"
+  },
+  {
+   "id": "16-hiver:c4",
+   "ru": "Зимой холодно, но красиво.",
+   "fr": "En hiver, il fait froid, mais c'est beau.",
+   "tokens": [
+    {
+     "t": "Зимой",
+     "s": 3,
+     "w": true,
+     "a": "49091c222a7f.mp3",
+     "l": "зимой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "холодно",
+     "s": 1,
+     "w": true,
+     "a": "8482b15f9a14.mp3",
+     "l": "холодно"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "но",
+     "s": 1,
+     "w": true,
+     "a": "e9cdd3dfae39.mp3",
+     "l": "но"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "красиво",
+     "s": 4,
+     "w": true,
+     "a": "468310ed94a4.mp3",
+     "l": "красиво"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "588f9618c31b.mp3"
+  }
+ ],
+ "hasAudio": false
+}

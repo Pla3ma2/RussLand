@@ -1,0 +1,2249 @@
+{
+ "version": 2,
+ "id": "12-weekend",
+ "order": 12,
+ "titleFr": "Le week-end",
+ "titleRu": "Выходные",
+ "emoji": "🎬",
+ "sceneFr": "Lundi soir, Luka passe au café. Anna lui demande comment s'est passé son week-end.",
+ "learner": "luka",
+ "speakers": {
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  },
+  "anna": {
+   "name": "Анна",
+   "nameFr": "Anna",
+   "color": "#81b29a"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "anna",
+   "ru": "Привет, Лука! Что ты делал в субботу?",
+   "fr": "Salut, Luka ! Qu'est-ce que tu as fait samedi ?",
+   "tokens": [
+    {
+     "t": "Привет",
+     "s": 4,
+     "w": true,
+     "a": "465595078eb6.mp3",
+     "l": "привет"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "делал",
+     "s": 1,
+     "w": true,
+     "a": "b41edf1f9197.mp3",
+     "l": "делать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "субботу",
+     "s": 4,
+     "w": true,
+     "a": "dcc66f37de17.mp3",
+     "l": "суббота"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "abc9c0bfa343.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "В субботу я был в музее.",
+   "fr": "Samedi, j'étais au musée.",
+   "tokens": [
+    {
+     "t": "В",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "субботу",
+     "s": 4,
+     "w": true,
+     "a": "dcc66f37de17.mp3",
+     "l": "суббота"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "был",
+     "s": 1,
+     "w": true,
+     "a": "fe467c080eca.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "музее",
+     "s": 3,
+     "w": true,
+     "a": "f96b2588b9dc.mp3",
+     "l": "музей"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "02d1ebe5e826.mp3"
+  },
+  {
+   "speaker": "anna",
+   "ru": "Один?",
+   "fr": "Tout seul ?",
+   "tokens": [
+    {
+     "t": "Один",
+     "s": 2,
+     "w": true,
+     "a": "d481fd179fb8.mp3",
+     "l": "один"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "1b83a0f48da8.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Нет, с Машей. А вечером мы смотрели фильм.",
+   "fr": "Non, avec Macha. Et le soir, on a regardé un film.",
+   "tokens": [
+    {
+     "t": "Нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "с",
+     "s": null,
+     "w": true,
+     "a": "37421d1ce7f3.mp3",
+     "l": "с"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Машей",
+     "s": 1,
+     "w": true,
+     "a": "a63b7a6d1a87.mp3",
+     "l": "маша"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вечером",
+     "s": 1,
+     "w": true,
+     "a": "27c36ef3a59f.mp3",
+     "l": "вечером"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мы",
+     "s": 1,
+     "w": true,
+     "a": "a234675be3c5.mp3",
+     "l": "мы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "смотрели",
+     "s": 5,
+     "w": true,
+     "a": "84c62e069436.mp3",
+     "l": "смотреть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "фильм",
+     "s": 1,
+     "w": true,
+     "a": "ca743a601527.mp3",
+     "l": "фильм"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "c8eee80da8e3.mp3"
+  },
+  {
+   "speaker": "anna",
+   "ru": "А в воскресенье?",
+   "fr": "Et dimanche ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "воскресенье",
+     "s": 7,
+     "w": true,
+     "a": "bf220bdc451f.mp3",
+     "l": "воскресение"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "9e12f7bdeea7.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "В воскресенье я отдыхал дома. А ты?",
+   "fr": "Dimanche, je me suis reposé à la maison. Et toi ?",
+   "tokens": [
+    {
+     "t": "В",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "воскресенье",
+     "s": 7,
+     "w": true,
+     "a": "bf220bdc451f.mp3",
+     "l": "воскресение"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "отдыхал",
+     "s": 5,
+     "w": true,
+     "a": "5aba286fa30a.mp3",
+     "l": "отдыхать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дома",
+     "s": 1,
+     "w": true,
+     "a": "97f89f92319f.mp3",
+     "l": "дом"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "082ed908ee9a.mp3"
+  },
+  {
+   "speaker": "anna",
+   "ru": "А я работала. Весь день!",
+   "fr": "Et moi, j'ai travaillé. Toute la journée !",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работала",
+     "s": 3,
+     "w": true,
+     "a": "bcf619bcd3f0.mp3",
+     "l": "работать"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Весь",
+     "s": 1,
+     "w": true,
+     "a": "c7bdb61ff9ab.mp3",
+     "l": "весь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "день",
+     "s": 1,
+     "w": true,
+     "a": "f0d5c469ba4e.mp3",
+     "l": "день"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "95f9b0236a61.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Бедная Анна!",
+   "fr": "Pauvre Anna !",
+   "tokens": [
+    {
+     "t": "Бедная",
+     "s": 1,
+     "w": true,
+     "a": "a97461a39614.mp3",
+     "l": "бедный"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Анна",
+     "s": 0,
+     "w": true,
+     "a": "3b145c7baf49.mp3",
+     "l": "анна"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "2b858bb3b14d.mp3"
+  }
+ ],
+ "phrases": {
+  "whatdid": {
+   "speaker": "anna",
+   "ru": "Что ты делал в субботу?",
+   "fr": "Qu'est-ce que tu as fait samedi ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "делал",
+     "s": 1,
+     "w": true,
+     "a": "b41edf1f9197.mp3",
+     "l": "делать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "субботу",
+     "s": 4,
+     "w": true,
+     "a": "dcc66f37de17.mp3",
+     "l": "суббота"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "e6033b7955e8.mp3",
+   "id": "whatdid",
+   "noteFr": "Le passé : « делал » = (tu) as fait. « В субботу » = samedi.",
+   "gap": {
+    "index": 4,
+    "whyFr": "Ici on parle du passé (samedi dernier) : « делал ». « Делаешь », c'est le présent.",
+    "distractors": [
+     {
+      "t": "делаешь",
+      "a": "036b99a05825.mp3",
+      "s": 1
+     },
+     {
+      "t": "был",
+      "a": "fe467c080eca.mp3",
+      "s": 1
+     }
+    ]
+   },
+   "orders": [
+    "что ты делал в субботу",
+    "что ты в субботу делал"
+   ]
+  },
+  "museum": {
+   "speaker": "luka",
+   "ru": "В субботу я был в музее.",
+   "fr": "Samedi, j'étais au musée.",
+   "tokens": [
+    {
+     "t": "В",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "субботу",
+     "s": 4,
+     "w": true,
+     "a": "dcc66f37de17.mp3",
+     "l": "суббота"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "был",
+     "s": 1,
+     "w": true,
+     "a": "fe467c080eca.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "музее",
+     "s": 3,
+     "w": true,
+     "a": "f96b2588b9dc.mp3",
+     "l": "музей"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "02d1ebe5e826.mp3",
+   "id": "museum",
+   "noteFr": "« Был » = j'étais (un homme). « В музее » : le vert du lieu.",
+   "gap": {
+    "index": 6,
+    "whyFr": "Luka est un homme : « я был ». Une femme dirait « я была ».",
+    "distractors": [
+     {
+      "t": "была",
+      "a": "32318fe62e2b.mp3",
+      "s": 3
+     },
+     {
+      "t": "один",
+      "a": "d481fd179fb8.mp3",
+      "s": 2
+     }
+    ]
+   },
+   "orders": [
+    "в субботу я был в музее",
+    "я был в музее в субботу"
+   ]
+  },
+  "alone": {
+   "speaker": "anna",
+   "ru": "Один?",
+   "fr": "Tout seul ?",
+   "tokens": [
+    {
+     "t": "Один",
+     "s": 2,
+     "w": true,
+     "a": "d481fd179fb8.mp3",
+     "l": "один"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "1b83a0f48da8.mp3",
+   "id": "alone",
+   "noteFr": "« Один » = un, seul."
+  },
+  "withmasha": {
+   "speaker": "luka",
+   "ru": "Нет, с Машей.",
+   "fr": "Non, avec Macha.",
+   "tokens": [
+    {
+     "t": "Нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "с",
+     "s": null,
+     "w": true,
+     "a": "37421d1ce7f3.mp3",
+     "l": "с"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Машей",
+     "s": 1,
+     "w": true,
+     "a": "a63b7a6d1a87.mp3",
+     "l": "маша"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "bd63c556d0e9.mp3",
+   "id": "withmasha",
+   "noteFr": "« С » = avec. Après « с », le nom change : « Маша » → « с Машей ». Retiens-le tel quel pour l'instant.",
+   "gap": {
+    "index": 2,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "в",
+      "a": "3c5b79b7f921.mp3",
+      "s": null
+     },
+     {
+      "t": "на",
+      "a": "618d69551a14.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "film": {
+   "speaker": "luka",
+   "ru": "А вечером мы смотрели фильм.",
+   "fr": "Et le soir, on a regardé un film.",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вечером",
+     "s": 1,
+     "w": true,
+     "a": "27c36ef3a59f.mp3",
+     "l": "вечером"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мы",
+     "s": 1,
+     "w": true,
+     "a": "a234675be3c5.mp3",
+     "l": "мы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "смотрели",
+     "s": 5,
+     "w": true,
+     "a": "84c62e069436.mp3",
+     "l": "смотреть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "фильм",
+     "s": 1,
+     "w": true,
+     "a": "ca743a601527.mp3",
+     "l": "фильм"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "1377066b5fef.mp3",
+   "id": "film",
+   "noteFr": "« Мы смотрели » = nous avons regardé. Au pluriel, le passé finit en -ли.",
+   "gap": {
+    "index": 6,
+    "whyFr": "Avec « мы » (nous), le passé finit en -ли : « смотрели ».",
+    "distractors": [
+     {
+      "t": "смотрел",
+      "a": "cb49e9b0d3dc.mp3",
+      "s": 5
+     },
+     {
+      "t": "дома",
+      "a": "97f89f92319f.mp3",
+      "s": 1
+     }
+    ]
+   },
+   "orders": [
+    "а вечером мы смотрели фильм",
+    "а мы вечером смотрели фильм"
+   ]
+  },
+  "sunday": {
+   "speaker": "anna",
+   "ru": "А в воскресенье?",
+   "fr": "Et dimanche ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "воскресенье",
+     "s": 7,
+     "w": true,
+     "a": "bf220bdc451f.mp3",
+     "l": "воскресение"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "9e12f7bdeea7.mp3",
+   "id": "sunday",
+   "noteFr": "« Воскресенье » = dimanche."
+  },
+  "rested": {
+   "speaker": "luka",
+   "ru": "В воскресенье я отдыхал дома.",
+   "fr": "Dimanche, je me suis reposé à la maison.",
+   "tokens": [
+    {
+     "t": "В",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "воскресенье",
+     "s": 7,
+     "w": true,
+     "a": "bf220bdc451f.mp3",
+     "l": "воскресение"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "отдыхал",
+     "s": 5,
+     "w": true,
+     "a": "5aba286fa30a.mp3",
+     "l": "отдыхать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дома",
+     "s": 1,
+     "w": true,
+     "a": "97f89f92319f.mp3",
+     "l": "дом"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "bf2fd2ba6c19.mp3",
+   "id": "rested",
+   "noteFr": "« Отдыхал » = je me suis reposé (homme). « Дома » = à la maison.",
+   "gap": {
+    "index": 6,
+    "whyFr": "Luka est un homme : « отдыхал ». Une femme dirait « отдыхала ».",
+    "distractors": [
+     {
+      "t": "отдыхала",
+      "a": "965c85d9947f.mp3",
+      "s": 5
+     },
+     {
+      "t": "музее",
+      "a": "f96b2588b9dc.mp3",
+      "s": 3
+     }
+    ]
+   },
+   "orders": [
+    "в воскресенье я отдыхал дома",
+    "я отдыхал дома в воскресенье"
+   ]
+  },
+  "worked": {
+   "speaker": "anna",
+   "ru": "А я работала. Весь день!",
+   "fr": "Et moi, j'ai travaillé. Toute la journée !",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работала",
+     "s": 3,
+     "w": true,
+     "a": "bcf619bcd3f0.mp3",
+     "l": "работать"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Весь",
+     "s": 1,
+     "w": true,
+     "a": "c7bdb61ff9ab.mp3",
+     "l": "весь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "день",
+     "s": 1,
+     "w": true,
+     "a": "f0d5c469ba4e.mp3",
+     "l": "день"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "95f9b0236a61.mp3",
+   "id": "worked",
+   "noteFr": "Anna est une femme : « работала » (avec -а). « Весь день » = toute la journée.",
+   "gap": {
+    "index": 4,
+    "whyFr": "Anna est une femme, donc -ла : « я работала ». « Работал », c'est pour un homme.",
+    "distractors": [
+     {
+      "t": "работал",
+      "a": "e2b9a4586b45.mp3",
+      "s": 3
+     },
+     {
+      "t": "дома",
+      "a": "97f89f92319f.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "c1": {
+   "speaker": "luka",
+   "ru": "Вчера я был в театре.",
+   "fr": "Hier, j'étais au théâtre.",
+   "tokens": [
+    {
+     "t": "Вчера",
+     "s": 4,
+     "w": true,
+     "a": "2334f6a49ca2.mp3",
+     "l": "вчера"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "был",
+     "s": 1,
+     "w": true,
+     "a": "fe467c080eca.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "театре",
+     "s": 2,
+     "w": true,
+     "a": "5702abdc7a87.mp3",
+     "l": "театр"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "e388ff54a02a.mp3",
+   "id": "c1",
+   "noteFr": "",
+   "orders": [
+    "вчера я был в театре",
+    "я был в театре вчера"
+   ],
+   "combo": {
+    "from": [
+     "Le week-end",
+     "Faire connaissance",
+     "Où es-tu ?"
+    ],
+    "extra": [
+     {
+      "t": "музее",
+      "a": "f96b2588b9dc.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "c2": {
+   "speaker": "luka",
+   "ru": "В субботу я работал.",
+   "fr": "Samedi, j'ai travaillé.",
+   "tokens": [
+    {
+     "t": "В",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "субботу",
+     "s": 4,
+     "w": true,
+     "a": "dcc66f37de17.mp3",
+     "l": "суббота"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работал",
+     "s": 3,
+     "w": true,
+     "a": "e2b9a4586b45.mp3",
+     "l": "работать"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "aeff21e3cb87.mp3",
+   "id": "c2",
+   "noteFr": "",
+   "orders": [
+    "в субботу я работал",
+    "я работал в субботу"
+   ],
+   "combo": {
+    "from": [
+     "Où es-tu ?",
+     "Le week-end",
+     "Faire connaissance"
+    ],
+    "extra": [
+     {
+      "t": "работала",
+      "a": "bcf619bcd3f0.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "c3": {
+   "speaker": "luka",
+   "ru": "Вчера мы смотрели фильм дома.",
+   "fr": "Hier, on a regardé un film à la maison.",
+   "tokens": [
+    {
+     "t": "Вчера",
+     "s": 4,
+     "w": true,
+     "a": "2334f6a49ca2.mp3",
+     "l": "вчера"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мы",
+     "s": 1,
+     "w": true,
+     "a": "a234675be3c5.mp3",
+     "l": "мы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "смотрели",
+     "s": 5,
+     "w": true,
+     "a": "84c62e069436.mp3",
+     "l": "смотреть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "фильм",
+     "s": 1,
+     "w": true,
+     "a": "ca743a601527.mp3",
+     "l": "фильм"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дома",
+     "s": 1,
+     "w": true,
+     "a": "97f89f92319f.mp3",
+     "l": "дом"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "54a7002737c0.mp3",
+   "id": "c3",
+   "noteFr": "",
+   "orders": [
+    "вчера мы смотрели фильм дома",
+    "вчера мы смотрели дома фильм",
+    "мы смотрели фильм дома вчера"
+   ],
+   "combo": {
+    "from": [
+     "Le week-end",
+     "Je ne comprends pas",
+     "Chez des amis"
+    ],
+    "extra": [
+     {
+      "t": "один",
+      "a": "d481fd179fb8.mp3",
+      "s": 2
+     }
+    ]
+   }
+  }
+ },
+ "parts": [
+  {
+   "titleFr": "Samedi",
+   "steps": [
+    {
+     "type": "scene"
+    },
+    {
+     "type": "explore"
+    },
+    {
+     "type": "insight",
+     "index": 0
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "whatdid",
+      "museum"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "alone",
+      "withmasha",
+      "film"
+     ],
+     "review": [
+      "museum"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Dimanche",
+   "steps": [
+    {
+     "type": "warmup",
+     "phrases": [
+      "whatdid",
+      "museum",
+      "film"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "sunday",
+      "rested"
+     ],
+     "review": [
+      "withmasha",
+      "film"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "worked"
+     ],
+     "review": [
+      "rested",
+      "museum"
+     ]
+    },
+    {
+     "type": "insight",
+     "index": 1
+    },
+    {
+     "type": "combine",
+     "phrases": [
+      "c1",
+      "c2",
+      "c3"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Joue la scène",
+   "steps": [
+    {
+     "type": "final"
+    },
+    {
+     "type": "roleplay"
+    }
+   ]
+  }
+ ],
+ "insights": [
+  {
+   "by": "anna",
+   "fr": [
+    "Le passé russe est simple : on enlève -ть et on met -л. « Работать » → « работал ».",
+    "Mais il suit le genre ! Un homme dit « я работал », une femme « я работала ». Pour « nous » ou « vous » : « работали ».",
+    "Et « être » au passé : « был » (homme), « была » (femme), « были » (pluriel)."
+   ]
+  },
+  {
+   "by": "anna",
+   "fr": [
+    "Les jours avec « в » : « в субботу » (samedi), « в воскресенье » (dimanche), « в понедельник » (lundi).",
+    "Tu remarques ? Il n'y a qu'un seul passé en russe pour « j'ai travaillé », « je travaillais »… Pratique !"
+   ]
+  }
+ ],
+ "explore": {
+  "type": "plain",
+  "frameFr": "Hier, je ___.",
+  "color": "#5c677d",
+  "hintFr": "Écoute la fin : -л pour un homme, -ла pour une femme.",
+  "before": [
+   {
+    "t": "Вчера",
+    "s": 4,
+    "w": true,
+    "a": "2334f6a49ca2.mp3",
+    "l": "вчера"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "я",
+    "s": 0,
+    "w": true,
+    "a": "70b9d9783365.mp3",
+    "l": "я"
+   },
+   {
+    "t": " ",
+    "w": false
+   }
+  ],
+  "after": [
+   {
+    "t": ".",
+    "w": false
+   }
+  ],
+  "verb": null,
+  "words": [
+   {
+    "tile": "работал",
+    "tileStress": 3,
+    "fr": "ai travaillé (homme)",
+    "phraseFr": "Hier, j'ai travaillé. (un homme)",
+    "phrase": "Вчера я работал.",
+    "morph": {
+     "from": "работал",
+     "to": "работал",
+     "stem": "работал",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": false
+    },
+    "audioTile": "e2b9a4586b45.mp3",
+    "audioPhrase": "417f726bd081.mp3"
+   },
+   {
+    "tile": "работала",
+    "tileStress": 3,
+    "fr": "ai travaillé (femme)",
+    "phraseFr": "Hier, j'ai travaillé. (une femme)",
+    "phrase": "Вчера я работала.",
+    "morph": {
+     "from": "работала",
+     "to": "работала",
+     "stem": "работала",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": false
+    },
+    "audioTile": "bcf619bcd3f0.mp3",
+    "audioPhrase": "96232e4830f5.mp3"
+   },
+   {
+    "tile": "отдыхал",
+    "tileStress": 5,
+    "fr": "me suis reposé (homme)",
+    "phraseFr": "Hier, je me suis reposé.",
+    "phrase": "Вчера я отдыхал.",
+    "morph": {
+     "from": "отдыхал",
+     "to": "отдыхал",
+     "stem": "отдыхал",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": false
+    },
+    "audioTile": "5aba286fa30a.mp3",
+    "audioPhrase": "c0e11fd9f2ea.mp3"
+   },
+   {
+    "tile": "отдыхала",
+    "tileStress": 5,
+    "fr": "me suis reposée (femme)",
+    "phraseFr": "Hier, je me suis reposée.",
+    "phrase": "Вчера я отдыхала.",
+    "morph": {
+     "from": "отдыхала",
+     "to": "отдыхала",
+     "stem": "отдыхала",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": false
+    },
+    "audioTile": "965c85d9947f.mp3",
+    "audioPhrase": "dff4f24c5382.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Une femme dit : « Hier, j'ai travaillé. »",
+   "answer": "работала"
+  },
+  {
+   "type": "pick",
+   "fr": "Un homme dit : « Hier, je me suis reposé. »",
+   "answer": "отдыхал"
+  }
+ ],
+ "grammar": [
+  "а в воскресенье",
+  "а вечером мы смотрели фильм",
+  "а я работала весь день",
+  "бедная анна",
+  "в воскресенье я отдыхал дома",
+  "в воскресенье я отдыхал дома а ты",
+  "в субботу я был в музее",
+  "в субботу я работал",
+  "вчера мы смотрели фильм дома",
+  "вчера я был в театре",
+  "нет с машей",
+  "нет с машей а вечером мы смотрели фильм",
+  "один",
+  "привет лука что ты делал в субботу",
+  "что ты делал в субботу",
+  "[unk]"
+ ],
+ "cando": [
+  "raconter ton week-end",
+  "parler au passé",
+  "dire avec qui tu étais"
+ ],
+ "glossary": {
+  "я": "je, moi",
+  "ты": "tu",
+  "вы": "vous",
+  "да": "oui",
+  "нет": "non",
+  "а": "et, mais",
+  "и": "et",
+  "это": "c'est, voici",
+  "не": "ne… pas",
+  "в": "dans, à",
+  "на": "sur, en",
+  "что": "quoi, que",
+  "как": "comment, comme",
+  "где": "où",
+  "очень": "très",
+  "спасибо": "merci",
+  "пожалуйста": "s'il te plaît / je t'en prie",
+  "хорошо": "bien, d'accord",
+  "привет": "salut",
+  "лука": "Luka (prénom)",
+  "маша": "Macha (prénom)",
+  "олег": "Oleg (prénom)",
+  "анна": "Anna (prénom)",
+  "у": "chez",
+  "меня": "moi (у меня = j'ai)",
+  "тебя": "toi (у тебя = tu as)",
+  "есть": "il y a",
+  "мой": "mon",
+  "моя": "ma",
+  "мне": "à moi",
+  "тоже": "aussi",
+  "сегодня": "aujourd'hui",
+  "завтра": "demain",
+  "вчера": "hier",
+  "потом": "puis, ensuite",
+  "давай": "allons-y, faisons",
+  "делал": "(tu) as fait",
+  "делаешь": "(tu) fais",
+  "субботу": "samedi (в субботу)",
+  "был": "(j')étais (homme)",
+  "была": "(j')étais (femme)",
+  "музее": "musée (après в)",
+  "один": "seul, un",
+  "с": "avec",
+  "машей": "Macha (après с)",
+  "вечером": "le soir",
+  "мы": "nous",
+  "смотрели": "(nous) avons regardé",
+  "смотрел": "(il) a regardé",
+  "фильм": "film",
+  "воскресенье": "dimanche",
+  "отдыхал": "(je) me suis reposé",
+  "отдыхала": "(je) me suis reposée",
+  "дома": "à la maison",
+  "работала": "(j')ai travaillé (femme)",
+  "работал": "(j')ai travaillé (homme)",
+  "весь": "tout",
+  "день": "jour, journée",
+  "бедная": "pauvre"
+ },
+ "unlocks": [
+  {
+   "case": "loct",
+   "gender": "neut",
+   "from": "музей",
+   "to": "музее"
+  }
+ ],
+ "items": [
+  {
+   "id": "12-weekend:whatdid",
+   "ru": "Что ты делал в субботу?",
+   "fr": "Qu'est-ce que tu as fait samedi ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "делал",
+     "s": 1,
+     "w": true,
+     "a": "b41edf1f9197.mp3",
+     "l": "делать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "субботу",
+     "s": 4,
+     "w": true,
+     "a": "dcc66f37de17.mp3",
+     "l": "суббота"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "e6033b7955e8.mp3"
+  },
+  {
+   "id": "12-weekend:museum",
+   "ru": "В субботу я был в музее.",
+   "fr": "Samedi, j'étais au musée.",
+   "tokens": [
+    {
+     "t": "В",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "субботу",
+     "s": 4,
+     "w": true,
+     "a": "dcc66f37de17.mp3",
+     "l": "суббота"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "был",
+     "s": 1,
+     "w": true,
+     "a": "fe467c080eca.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "музее",
+     "s": 3,
+     "w": true,
+     "a": "f96b2588b9dc.mp3",
+     "l": "музей"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "02d1ebe5e826.mp3"
+  },
+  {
+   "id": "12-weekend:alone",
+   "ru": "Один?",
+   "fr": "Tout seul ?",
+   "tokens": [
+    {
+     "t": "Один",
+     "s": 2,
+     "w": true,
+     "a": "d481fd179fb8.mp3",
+     "l": "один"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "1b83a0f48da8.mp3"
+  },
+  {
+   "id": "12-weekend:withmasha",
+   "ru": "Нет, с Машей.",
+   "fr": "Non, avec Macha.",
+   "tokens": [
+    {
+     "t": "Нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "с",
+     "s": null,
+     "w": true,
+     "a": "37421d1ce7f3.mp3",
+     "l": "с"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Машей",
+     "s": 1,
+     "w": true,
+     "a": "a63b7a6d1a87.mp3",
+     "l": "маша"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "bd63c556d0e9.mp3"
+  },
+  {
+   "id": "12-weekend:film",
+   "ru": "А вечером мы смотрели фильм.",
+   "fr": "Et le soir, on a regardé un film.",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вечером",
+     "s": 1,
+     "w": true,
+     "a": "27c36ef3a59f.mp3",
+     "l": "вечером"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мы",
+     "s": 1,
+     "w": true,
+     "a": "a234675be3c5.mp3",
+     "l": "мы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "смотрели",
+     "s": 5,
+     "w": true,
+     "a": "84c62e069436.mp3",
+     "l": "смотреть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "фильм",
+     "s": 1,
+     "w": true,
+     "a": "ca743a601527.mp3",
+     "l": "фильм"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "1377066b5fef.mp3"
+  },
+  {
+   "id": "12-weekend:sunday",
+   "ru": "А в воскресенье?",
+   "fr": "Et dimanche ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "воскресенье",
+     "s": 7,
+     "w": true,
+     "a": "bf220bdc451f.mp3",
+     "l": "воскресение"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "9e12f7bdeea7.mp3"
+  },
+  {
+   "id": "12-weekend:rested",
+   "ru": "В воскресенье я отдыхал дома.",
+   "fr": "Dimanche, je me suis reposé à la maison.",
+   "tokens": [
+    {
+     "t": "В",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "воскресенье",
+     "s": 7,
+     "w": true,
+     "a": "bf220bdc451f.mp3",
+     "l": "воскресение"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "отдыхал",
+     "s": 5,
+     "w": true,
+     "a": "5aba286fa30a.mp3",
+     "l": "отдыхать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дома",
+     "s": 1,
+     "w": true,
+     "a": "97f89f92319f.mp3",
+     "l": "дом"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "bf2fd2ba6c19.mp3"
+  },
+  {
+   "id": "12-weekend:worked",
+   "ru": "А я работала. Весь день!",
+   "fr": "Et moi, j'ai travaillé. Toute la journée !",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работала",
+     "s": 3,
+     "w": true,
+     "a": "bcf619bcd3f0.mp3",
+     "l": "работать"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Весь",
+     "s": 1,
+     "w": true,
+     "a": "c7bdb61ff9ab.mp3",
+     "l": "весь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "день",
+     "s": 1,
+     "w": true,
+     "a": "f0d5c469ba4e.mp3",
+     "l": "день"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "95f9b0236a61.mp3"
+  },
+  {
+   "id": "12-weekend:c1",
+   "ru": "Вчера я был в театре.",
+   "fr": "Hier, j'étais au théâtre.",
+   "tokens": [
+    {
+     "t": "Вчера",
+     "s": 4,
+     "w": true,
+     "a": "2334f6a49ca2.mp3",
+     "l": "вчера"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "был",
+     "s": 1,
+     "w": true,
+     "a": "fe467c080eca.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "театре",
+     "s": 2,
+     "w": true,
+     "a": "5702abdc7a87.mp3",
+     "l": "театр"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "e388ff54a02a.mp3"
+  },
+  {
+   "id": "12-weekend:c2",
+   "ru": "В субботу я работал.",
+   "fr": "Samedi, j'ai travaillé.",
+   "tokens": [
+    {
+     "t": "В",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "субботу",
+     "s": 4,
+     "w": true,
+     "a": "dcc66f37de17.mp3",
+     "l": "суббота"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работал",
+     "s": 3,
+     "w": true,
+     "a": "e2b9a4586b45.mp3",
+     "l": "работать"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "aeff21e3cb87.mp3"
+  },
+  {
+   "id": "12-weekend:c3",
+   "ru": "Вчера мы смотрели фильм дома.",
+   "fr": "Hier, on a regardé un film à la maison.",
+   "tokens": [
+    {
+     "t": "Вчера",
+     "s": 4,
+     "w": true,
+     "a": "2334f6a49ca2.mp3",
+     "l": "вчера"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мы",
+     "s": 1,
+     "w": true,
+     "a": "a234675be3c5.mp3",
+     "l": "мы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "смотрели",
+     "s": 5,
+     "w": true,
+     "a": "84c62e069436.mp3",
+     "l": "смотреть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "фильм",
+     "s": 1,
+     "w": true,
+     "a": "ca743a601527.mp3",
+     "l": "фильм"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дома",
+     "s": 1,
+     "w": true,
+     "a": "97f89f92319f.mp3",
+     "l": "дом"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "54a7002737c0.mp3"
+  }
+ ],
+ "hasAudio": false
+}

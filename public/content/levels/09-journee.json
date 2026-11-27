@@ -1,0 +1,2392 @@
+{
+ "version": 2,
+ "id": "09-journee",
+ "order": 9,
+ "titleFr": "Ma journée",
+ "titleRu": "Мой день",
+ "emoji": "⏰",
+ "sceneFr": "Quelques jours plus tard, Oleg croise Luka dans la rue et lui demande comment se passent ses journées.",
+ "learner": "luka",
+ "speakers": {
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  },
+  "oleg": {
+   "name": "Олег",
+   "nameFr": "Oleg",
+   "color": "#9a6fb0"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "oleg",
+   "ru": "Привет, Лука! Что ты делаешь днём?",
+   "fr": "Salut, Luka ! Qu'est-ce que tu fais dans la journée ?",
+   "tokens": [
+    {
+     "t": "Привет",
+     "s": 4,
+     "w": true,
+     "a": "465595078eb6.mp3",
+     "l": "привет"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "делаешь",
+     "s": 1,
+     "w": true,
+     "a": "036b99a05825.mp3",
+     "l": "делать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "днём",
+     "s": 2,
+     "w": true,
+     "a": "1961c630ff19.mp3",
+     "l": "день"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "85a0744b7a50.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Утром я учу русский.",
+   "fr": "Le matin, j'apprends le russe.",
+   "tokens": [
+    {
+     "t": "Утром",
+     "s": 0,
+     "w": true,
+     "a": "de7476a2f814.mp3",
+     "l": "утром"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "учу",
+     "s": 2,
+     "w": true,
+     "a": "5f8cc73dc812.mp3",
+     "l": "учить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "русский",
+     "s": 1,
+     "w": true,
+     "a": "e9990cae86f0.mp3",
+     "l": "русский"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "0b5a760213fd.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Днём я работаю.",
+   "fr": "L'après-midi, je travaille.",
+   "tokens": [
+    {
+     "t": "Днём",
+     "s": 2,
+     "w": true,
+     "a": "1961c630ff19.mp3",
+     "l": "день"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работаю",
+     "s": 3,
+     "w": true,
+     "a": "c044cc17ebbc.mp3",
+     "l": "работать"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "fa5966725e77.mp3"
+  },
+  {
+   "speaker": "oleg",
+   "ru": "А где ты работаешь?",
+   "fr": "Et où est-ce que tu travailles ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работаешь",
+     "s": 3,
+     "w": true,
+     "a": "a1c7dc2380c8.mp3",
+     "l": "работать"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "46451a845dfb.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Я работаю в кафе. А ты?",
+   "fr": "Je travaille dans un café. Et toi ?",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работаю",
+     "s": 3,
+     "w": true,
+     "a": "c044cc17ebbc.mp3",
+     "l": "работать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кафе",
+     "s": 3,
+     "w": true,
+     "a": "d700d700529b.mp3",
+     "l": "кафе"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "66514f95ab8e.mp3"
+  },
+  {
+   "speaker": "oleg",
+   "ru": "Я работаю в банке.",
+   "fr": "Je travaille dans une banque.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работаю",
+     "s": 3,
+     "w": true,
+     "a": "c044cc17ebbc.mp3",
+     "l": "работать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "банке",
+     "s": 1,
+     "w": true,
+     "a": "692bfa43e6ea.mp3",
+     "l": "банк"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ac33f7a09c2f.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "А что ты делаешь вечером?",
+   "fr": "Et qu'est-ce que tu fais le soir ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "делаешь",
+     "s": 1,
+     "w": true,
+     "a": "036b99a05825.mp3",
+     "l": "делать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вечером",
+     "s": 1,
+     "w": true,
+     "a": "27c36ef3a59f.mp3",
+     "l": "вечером"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "79391c264413.mp3"
+  },
+  {
+   "speaker": "oleg",
+   "ru": "Вечером я отдыхаю: читаю или смотрю фильмы.",
+   "fr": "Le soir, je me repose : je lis ou je regarde des films.",
+   "tokens": [
+    {
+     "t": "Вечером",
+     "s": 1,
+     "w": true,
+     "a": "27c36ef3a59f.mp3",
+     "l": "вечером"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "отдыхаю",
+     "s": 5,
+     "w": true,
+     "a": "c199336c4c7e.mp3",
+     "l": "отдыхать"
+    },
+    {
+     "t": ": ",
+     "w": false
+    },
+    {
+     "t": "читаю",
+     "s": 3,
+     "w": true,
+     "a": "f1a681ed9f8d.mp3",
+     "l": "читать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "или",
+     "s": 0,
+     "w": true,
+     "a": "41e8d899849a.mp3",
+     "l": "или"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "смотрю",
+     "s": 5,
+     "w": true,
+     "a": "24c397ede735.mp3",
+     "l": "смотреть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "фильмы",
+     "s": 1,
+     "w": true,
+     "a": "555f513be19c.mp3",
+     "l": "фильм"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "55e84c365895.mp3"
+  }
+ ],
+ "phrases": {
+  "whatdo": {
+   "speaker": "oleg",
+   "ru": "Что ты делаешь днём?",
+   "fr": "Qu'est-ce que tu fais dans la journée ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "делаешь",
+     "s": 1,
+     "w": true,
+     "a": "036b99a05825.mp3",
+     "l": "делать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "днём",
+     "s": 2,
+     "w": true,
+     "a": "1961c630ff19.mp3",
+     "l": "день"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "9f08f70bfe6a.mp3",
+   "id": "whatdo",
+   "noteFr": "« Делаешь » = (tu) fais. « Днём » = dans la journée, l'après-midi.",
+   "gap": {
+    "index": 4,
+    "whyFr": "Avec « ты », le verbe finit en -ешь : « ты делаешь ». « Делаю », c'est pour « я ».",
+    "distractors": [
+     {
+      "t": "делаю",
+      "a": "83c3912eae27.mp3",
+      "s": 1
+     },
+     {
+      "t": "утром",
+      "a": "de7476a2f814.mp3",
+      "s": 0
+     }
+    ]
+   },
+   "orders": [
+    "что ты делаешь днём",
+    "что ты днём делаешь"
+   ]
+  },
+  "morning": {
+   "speaker": "luka",
+   "ru": "Утром я учу русский.",
+   "fr": "Le matin, j'apprends le russe.",
+   "tokens": [
+    {
+     "t": "Утром",
+     "s": 0,
+     "w": true,
+     "a": "de7476a2f814.mp3",
+     "l": "утром"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "учу",
+     "s": 2,
+     "w": true,
+     "a": "5f8cc73dc812.mp3",
+     "l": "учить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "русский",
+     "s": 1,
+     "w": true,
+     "a": "e9990cae86f0.mp3",
+     "l": "русский"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "0b5a760213fd.mp3",
+   "id": "morning",
+   "noteFr": "« Утром » = le matin. « Учу » = (j')apprends.",
+   "gap": {
+    "index": 0,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "кафе",
+      "a": "d700d700529b.mp3",
+      "s": 3
+     },
+     {
+      "t": "банке",
+      "a": "692bfa43e6ea.mp3",
+      "s": 1
+     }
+    ]
+   },
+   "orders": [
+    "утром я учу русский",
+    "я учу русский утром"
+   ]
+  },
+  "work": {
+   "speaker": "luka",
+   "ru": "Днём я работаю.",
+   "fr": "L'après-midi, je travaille.",
+   "tokens": [
+    {
+     "t": "Днём",
+     "s": 2,
+     "w": true,
+     "a": "1961c630ff19.mp3",
+     "l": "день"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работаю",
+     "s": 3,
+     "w": true,
+     "a": "c044cc17ebbc.mp3",
+     "l": "работать"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "fa5966725e77.mp3",
+   "id": "work",
+   "noteFr": "« Работаю » = (je) travaille. Encore la fin -ю pour « я » !",
+   "gap": {
+    "index": 4,
+    "whyFr": "Avec « я », le verbe finit en -ю : « я работаю ».",
+    "distractors": [
+     {
+      "t": "работаешь",
+      "a": "a1c7dc2380c8.mp3",
+      "s": 3
+     },
+     {
+      "t": "кафе",
+      "a": "d700d700529b.mp3",
+      "s": 3
+     }
+    ]
+   },
+   "orders": [
+    "днём я работаю",
+    "я работаю днём"
+   ]
+  },
+  "wherework": {
+   "speaker": "oleg",
+   "ru": "А где ты работаешь?",
+   "fr": "Et où est-ce que tu travailles ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работаешь",
+     "s": 3,
+     "w": true,
+     "a": "a1c7dc2380c8.mp3",
+     "l": "работать"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "46451a845dfb.mp3",
+   "id": "wherework",
+   "noteFr": "« Где » = où. « Ты работаешь » = tu travailles.",
+   "gap": {
+    "index": 6,
+    "whyFr": "Avec « ты » : « работаешь » (-ешь).",
+    "distractors": [
+     {
+      "t": "работаю",
+      "a": "c044cc17ebbc.mp3",
+      "s": 3
+     },
+     {
+      "t": "вечером",
+      "a": "27c36ef3a59f.mp3",
+      "s": 1
+     }
+    ]
+   },
+   "orders": [
+    "а где ты работаешь"
+   ]
+  },
+  "cafe": {
+   "speaker": "luka",
+   "ru": "Я работаю в кафе. А ты?",
+   "fr": "Je travaille dans un café. Et toi ?",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работаю",
+     "s": 3,
+     "w": true,
+     "a": "c044cc17ebbc.mp3",
+     "l": "работать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кафе",
+     "s": 3,
+     "w": true,
+     "a": "d700d700529b.mp3",
+     "l": "кафе"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "66514f95ab8e.mp3",
+   "id": "cafe",
+   "noteFr": "« Кафе » ne change jamais. « А ты ? » = et toi ?",
+   "gap": {
+    "index": 6,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "кафею",
+      "a": "3a15b2692a55.mp3",
+      "s": 1
+     },
+     {
+      "t": "утром",
+      "a": "de7476a2f814.mp3",
+      "s": 0
+     }
+    ]
+   }
+  },
+  "bank": {
+   "speaker": "oleg",
+   "ru": "Я работаю в банке.",
+   "fr": "Je travaille dans une banque.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работаю",
+     "s": 3,
+     "w": true,
+     "a": "c044cc17ebbc.mp3",
+     "l": "работать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "банке",
+     "s": 1,
+     "w": true,
+     "a": "692bfa43e6ea.mp3",
+     "l": "банк"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ac33f7a09c2f.mp3",
+   "id": "bank",
+   "noteFr": "« Банк » → « в банке » : le vert du lieu, comme « в парке ».",
+   "gap": {
+    "index": 6,
+    "whyFr": "Pour dire où : « в » + -е. « Банк » → « в банке ».",
+    "distractors": [
+     {
+      "t": "банк",
+      "a": "7bc003bf4da8.mp3",
+      "s": 1
+     },
+     {
+      "t": "вечером",
+      "a": "27c36ef3a59f.mp3",
+      "s": 1
+     }
+    ]
+   },
+   "orders": [
+    "я работаю в банке",
+    "в банке я работаю"
+   ]
+  },
+  "evening": {
+   "speaker": "luka",
+   "ru": "А что ты делаешь вечером?",
+   "fr": "Et qu'est-ce que tu fais le soir ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "делаешь",
+     "s": 1,
+     "w": true,
+     "a": "036b99a05825.mp3",
+     "l": "делать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вечером",
+     "s": 1,
+     "w": true,
+     "a": "27c36ef3a59f.mp3",
+     "l": "вечером"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "79391c264413.mp3",
+   "id": "evening",
+   "noteFr": "« Вечером » = le soir. Matin, journée, soir : утром, днём, вечером.",
+   "gap": {
+    "index": 8,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "банке",
+      "a": "692bfa43e6ea.mp3",
+      "s": 1
+     },
+     {
+      "t": "работаю",
+      "a": "c044cc17ebbc.mp3",
+      "s": 3
+     }
+    ]
+   },
+   "orders": [
+    "а что ты делаешь вечером",
+    "а что ты вечером делаешь"
+   ]
+  },
+  "rest": {
+   "speaker": "oleg",
+   "ru": "Вечером я отдыхаю: читаю или смотрю фильмы.",
+   "fr": "Le soir, je me repose : je lis ou je regarde des films.",
+   "tokens": [
+    {
+     "t": "Вечером",
+     "s": 1,
+     "w": true,
+     "a": "27c36ef3a59f.mp3",
+     "l": "вечером"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "отдыхаю",
+     "s": 5,
+     "w": true,
+     "a": "c199336c4c7e.mp3",
+     "l": "отдыхать"
+    },
+    {
+     "t": ": ",
+     "w": false
+    },
+    {
+     "t": "читаю",
+     "s": 3,
+     "w": true,
+     "a": "f1a681ed9f8d.mp3",
+     "l": "читать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "или",
+     "s": 0,
+     "w": true,
+     "a": "41e8d899849a.mp3",
+     "l": "или"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "смотрю",
+     "s": 5,
+     "w": true,
+     "a": "24c397ede735.mp3",
+     "l": "смотреть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "фильмы",
+     "s": 1,
+     "w": true,
+     "a": "555f513be19c.mp3",
+     "l": "фильм"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "55e84c365895.mp3",
+   "id": "rest",
+   "noteFr": "« Отдыхаю » = je me repose, « читаю » = je lis, « смотрю » = je regarde.",
+   "gap": {
+    "index": 4,
+    "whyFr": "Avec « я » : « отдыхаю » (-ю).",
+    "distractors": [
+     {
+      "t": "отдыхаешь",
+      "a": "33bcc43b9824.mp3",
+      "s": 5
+     },
+     {
+      "t": "банке",
+      "a": "692bfa43e6ea.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "c1": {
+   "speaker": "luka",
+   "ru": "Мой папа работает в банке.",
+   "fr": "Mon père travaille dans une banque.",
+   "tokens": [
+    {
+     "t": "Мой",
+     "s": 1,
+     "w": true,
+     "a": "5e69d8e4000b.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "папа",
+     "s": 1,
+     "w": true,
+     "a": "bc1c0e6f10e8.mp3",
+     "l": "папа"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работает",
+     "s": 3,
+     "w": true,
+     "a": "41b8787c0589.mp3",
+     "l": "работать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "банке",
+     "s": 1,
+     "w": true,
+     "a": "692bfa43e6ea.mp3",
+     "l": "банк"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "43c4a1103651.mp3",
+   "id": "c1",
+   "noteFr": "",
+   "orders": [
+    "мой папа работает в банке",
+    "в банке работает мой папа"
+   ],
+   "combo": {
+    "from": [
+     "Chez des amis",
+     "Ma famille",
+     "Ma journée",
+     "Où es-tu ?"
+    ],
+    "extra": [
+     {
+      "t": "работаю",
+      "a": "c044cc17ebbc.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "c2": {
+   "speaker": "luka",
+   "ru": "Вечером я читаю книги.",
+   "fr": "Le soir, je lis des livres.",
+   "tokens": [
+    {
+     "t": "Вечером",
+     "s": 1,
+     "w": true,
+     "a": "27c36ef3a59f.mp3",
+     "l": "вечером"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "читаю",
+     "s": 3,
+     "w": true,
+     "a": "f1a681ed9f8d.mp3",
+     "l": "читать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "книги",
+     "s": 2,
+     "w": true,
+     "a": "567c12b2aa96.mp3",
+     "l": "книга"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "2ebc7a6fbe17.mp3",
+   "id": "c2",
+   "noteFr": "",
+   "orders": [
+    "вечером я читаю книги",
+    "я читаю книги вечером"
+   ],
+   "combo": {
+    "from": [
+     "Ma journée",
+     "Faire connaissance",
+     "Chez des amis"
+    ],
+    "extra": [
+     {
+      "t": "утром",
+      "a": "de7476a2f814.mp3",
+      "s": 0
+     }
+    ]
+   }
+  },
+  "c3": {
+   "speaker": "luka",
+   "ru": "Ты работаешь в кафе?",
+   "fr": "Tu travailles dans un café ?",
+   "tokens": [
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работаешь",
+     "s": 3,
+     "w": true,
+     "a": "a1c7dc2380c8.mp3",
+     "l": "работать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кафе",
+     "s": 3,
+     "w": true,
+     "a": "d700d700529b.mp3",
+     "l": "кафе"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "5be434a653d7.mp3",
+   "id": "c3",
+   "noteFr": "",
+   "orders": [
+    "ты работаешь в кафе",
+    "в кафе ты работаешь"
+   ],
+   "combo": {
+    "from": [
+     "Je ne comprends pas",
+     "Ma journée",
+     "Où es-tu ?"
+    ],
+    "extra": [
+     {
+      "t": "работаю",
+      "a": "c044cc17ebbc.mp3",
+      "s": 3
+     }
+    ]
+   }
+  }
+ },
+ "parts": [
+  {
+   "titleFr": "Le matin et la journée",
+   "steps": [
+    {
+     "type": "scene"
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "whatdo",
+      "morning"
+     ]
+    },
+    {
+     "type": "explore"
+    },
+    {
+     "type": "insight",
+     "index": 0
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "work",
+      "wherework"
+     ],
+     "review": [
+      "whatdo",
+      "morning"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Le travail et le soir",
+   "steps": [
+    {
+     "type": "warmup",
+     "phrases": [
+      "whatdo",
+      "work",
+      "wherework"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "cafe",
+      "bank"
+     ],
+     "review": [
+      "wherework"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "evening",
+      "rest"
+     ],
+     "review": [
+      "cafe",
+      "bank"
+     ]
+    },
+    {
+     "type": "insight",
+     "index": 1
+    },
+    {
+     "type": "combine",
+     "phrases": [
+      "c1",
+      "c2",
+      "c3"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Joue la scène",
+   "steps": [
+    {
+     "type": "final"
+    },
+    {
+     "type": "roleplay"
+    }
+   ]
+  }
+ ],
+ "insights": [
+  {
+   "by": "oleg",
+   "fr": [
+    "Beaucoup de verbes russes marchent comme « работать » (travailler) : on enlève -ть et on ajoute la fin de la personne.",
+    "Я работа-ю, ты работа-ешь, он работа-ет, мы работа-ем, вы работа-ете, они работа-ют. Retiens surtout -ю (je) et -ешь (tu) : ce sont les plus utiles pour parler."
+   ]
+  },
+  {
+   "by": "oleg",
+   "fr": [
+    "Pour dire quand : « утром » (le matin), « днём » (dans la journée), « вечером » (le soir).",
+    "Pas besoin de préposition : le mot seul suffit. « Вечером я отдыхаю » = le soir, je me repose."
+   ]
+  }
+ ],
+ "explore": {
+  "type": "person",
+  "frameFr": "___ travailler dans un café.",
+  "color": "#8e44ad",
+  "hintFr": "Change la personne et écoute la fin du verbe.",
+  "before": [],
+  "after": [
+   {
+    "t": "  ",
+    "w": false
+   },
+   {
+    "t": "в",
+    "s": null,
+    "w": true,
+    "a": "3c5b79b7f921.mp3",
+    "l": "в"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "кафе",
+    "s": 3,
+    "w": true,
+    "a": "d700d700529b.mp3",
+    "l": "кафе"
+   },
+   {
+    "t": ".",
+    "w": false
+   }
+  ],
+  "verb": "работать",
+  "words": [
+   {
+    "tile": "я",
+    "tileStress": 0,
+    "fr": "je",
+    "phraseFr": "Je travaille dans un café.",
+    "phrase": "Я работаю в кафе.",
+    "morph": {
+     "from": "работать",
+     "to": "работаю",
+     "stem": "работа",
+     "endFrom": "ть",
+     "endTo": "ю",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": true
+    },
+    "audioTile": "70b9d9783365.mp3",
+    "audioPhrase": "d70d235738aa.mp3"
+   },
+   {
+    "tile": "ты",
+    "tileStress": 1,
+    "fr": "tu",
+    "phraseFr": "Tu travailles dans un café.",
+    "phrase": "Ты работаешь в кафе.",
+    "morph": {
+     "from": "работать",
+     "to": "работаешь",
+     "stem": "работа",
+     "endFrom": "ть",
+     "endTo": "ешь",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": true
+    },
+    "audioTile": "984afcea50b6.mp3",
+    "audioPhrase": "64074f3fdda6.mp3"
+   },
+   {
+    "tile": "он",
+    "tileStress": 0,
+    "fr": "il",
+    "phraseFr": "Il travaille dans un café.",
+    "phrase": "Он работает в кафе.",
+    "morph": {
+     "from": "работать",
+     "to": "работает",
+     "stem": "работа",
+     "endFrom": "ть",
+     "endTo": "ет",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": true
+    },
+    "audioTile": "3adf56884a0b.mp3",
+    "audioPhrase": "5a3cf7a78520.mp3"
+   },
+   {
+    "tile": "мы",
+    "tileStress": 1,
+    "fr": "nous",
+    "phraseFr": "Nous travaillons dans un café.",
+    "phrase": "Мы работаем в кафе.",
+    "morph": {
+     "from": "работать",
+     "to": "работаем",
+     "stem": "работа",
+     "endFrom": "ть",
+     "endTo": "ем",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": true
+    },
+    "audioTile": "a234675be3c5.mp3",
+    "audioPhrase": "10feaa45e120.mp3"
+   },
+   {
+    "tile": "вы",
+    "tileStress": 1,
+    "fr": "vous",
+    "phraseFr": "Vous travaillez dans un café.",
+    "phrase": "Вы работаете в кафе.",
+    "morph": {
+     "from": "работать",
+     "to": "работаете",
+     "stem": "работа",
+     "endFrom": "ть",
+     "endTo": "ете",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": true
+    },
+    "audioTile": "8b7efd6df007.mp3",
+    "audioPhrase": "404ab41df519.mp3"
+   },
+   {
+    "tile": "они",
+    "tileStress": 2,
+    "fr": "ils, elles",
+    "phraseFr": "Ils travaillent dans un café.",
+    "phrase": "Они работают в кафе.",
+    "morph": {
+     "from": "работать",
+     "to": "работают",
+     "stem": "работа",
+     "endFrom": "ть",
+     "endTo": "ют",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": true
+    },
+    "audioTile": "7c61158febc8.mp3",
+    "audioPhrase": "404ee991923c.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Dis : « Tu travailles dans un café. »",
+   "answer": "ты"
+  },
+  {
+   "type": "pick",
+   "fr": "Dis : « Ils travaillent dans un café. »",
+   "answer": "они"
+  }
+ ],
+ "grammar": [
+  "а где ты работаешь",
+  "а что ты делаешь вечером",
+  "вечером я отдыхаю читаю или смотрю фильмы",
+  "вечером я читаю книги",
+  "днём я работаю",
+  "мой папа работает в банке",
+  "привет лука что ты делаешь днём",
+  "ты работаешь в кафе",
+  "утром я учу русский",
+  "что ты делаешь днём",
+  "я работаю в банке",
+  "я работаю в кафе а ты",
+  "[unk]"
+ ],
+ "cando": [
+  "raconter ta journée",
+  "dire où tu travailles",
+  "dire ce que tu fais le soir"
+ ],
+ "glossary": {
+  "я": "je, moi",
+  "ты": "tu",
+  "вы": "vous",
+  "да": "oui",
+  "нет": "non",
+  "а": "et, mais",
+  "и": "et",
+  "это": "c'est, voici",
+  "не": "ne… pas",
+  "в": "dans, à",
+  "на": "sur, en",
+  "что": "quoi, que",
+  "как": "comment, comme",
+  "где": "où",
+  "очень": "très",
+  "спасибо": "merci",
+  "пожалуйста": "s'il te plaît / je t'en prie",
+  "хорошо": "bien, d'accord",
+  "привет": "salut",
+  "лука": "Luka (prénom)",
+  "маша": "Macha (prénom)",
+  "олег": "Oleg (prénom)",
+  "анна": "Anna (prénom)",
+  "у": "chez",
+  "меня": "moi (у меня = j'ai)",
+  "тебя": "toi (у тебя = tu as)",
+  "есть": "il y a",
+  "мой": "mon",
+  "моя": "ma",
+  "мне": "à moi",
+  "тоже": "aussi",
+  "сегодня": "aujourd'hui",
+  "завтра": "demain",
+  "вчера": "hier",
+  "потом": "puis, ensuite",
+  "давай": "allons-y, faisons",
+  "делаешь": "(tu) fais",
+  "делаю": "(je) fais",
+  "днем": "dans la journée",
+  "утром": "le matin",
+  "учу": "(j')apprends",
+  "русский": "le russe",
+  "работаю": "(je) travaille",
+  "работаешь": "(tu) travailles",
+  "работает": "(il) travaille",
+  "работаем": "(nous) travaillons",
+  "работаете": "(vous) travaillez",
+  "работают": "(ils) travaillent",
+  "кафе": "café",
+  "банке": "banque (après в)",
+  "банк": "banque",
+  "вечером": "le soir",
+  "отдыхаю": "(je) me repose",
+  "отдыхаешь": "(tu) te reposes",
+  "читаю": "(je) lis",
+  "или": "ou",
+  "смотрю": "(je) regarde",
+  "фильмы": "films",
+  "он": "il",
+  "мы": "nous",
+  "они": "ils, elles",
+  "кафею": "(forme inexistante)",
+  "папа": "papa, père",
+  "книги": "livres"
+ },
+ "unlocks": [
+  {
+   "case": "loct",
+   "gender": "masc",
+   "from": "банк",
+   "to": "банке"
+  }
+ ],
+ "items": [
+  {
+   "id": "09-journee:whatdo",
+   "ru": "Что ты делаешь днём?",
+   "fr": "Qu'est-ce que tu fais dans la journée ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "делаешь",
+     "s": 1,
+     "w": true,
+     "a": "036b99a05825.mp3",
+     "l": "делать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "днём",
+     "s": 2,
+     "w": true,
+     "a": "1961c630ff19.mp3",
+     "l": "день"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "9f08f70bfe6a.mp3"
+  },
+  {
+   "id": "09-journee:morning",
+   "ru": "Утром я учу русский.",
+   "fr": "Le matin, j'apprends le russe.",
+   "tokens": [
+    {
+     "t": "Утром",
+     "s": 0,
+     "w": true,
+     "a": "de7476a2f814.mp3",
+     "l": "утром"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "учу",
+     "s": 2,
+     "w": true,
+     "a": "5f8cc73dc812.mp3",
+     "l": "учить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "русский",
+     "s": 1,
+     "w": true,
+     "a": "e9990cae86f0.mp3",
+     "l": "русский"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "0b5a760213fd.mp3"
+  },
+  {
+   "id": "09-journee:work",
+   "ru": "Днём я работаю.",
+   "fr": "L'après-midi, je travaille.",
+   "tokens": [
+    {
+     "t": "Днём",
+     "s": 2,
+     "w": true,
+     "a": "1961c630ff19.mp3",
+     "l": "день"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работаю",
+     "s": 3,
+     "w": true,
+     "a": "c044cc17ebbc.mp3",
+     "l": "работать"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "fa5966725e77.mp3"
+  },
+  {
+   "id": "09-journee:wherework",
+   "ru": "А где ты работаешь?",
+   "fr": "Et où est-ce que tu travailles ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работаешь",
+     "s": 3,
+     "w": true,
+     "a": "a1c7dc2380c8.mp3",
+     "l": "работать"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "46451a845dfb.mp3"
+  },
+  {
+   "id": "09-journee:cafe",
+   "ru": "Я работаю в кафе. А ты?",
+   "fr": "Je travaille dans un café. Et toi ?",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работаю",
+     "s": 3,
+     "w": true,
+     "a": "c044cc17ebbc.mp3",
+     "l": "работать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кафе",
+     "s": 3,
+     "w": true,
+     "a": "d700d700529b.mp3",
+     "l": "кафе"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "66514f95ab8e.mp3"
+  },
+  {
+   "id": "09-journee:bank",
+   "ru": "Я работаю в банке.",
+   "fr": "Je travaille dans une banque.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работаю",
+     "s": 3,
+     "w": true,
+     "a": "c044cc17ebbc.mp3",
+     "l": "работать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "банке",
+     "s": 1,
+     "w": true,
+     "a": "692bfa43e6ea.mp3",
+     "l": "банк"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ac33f7a09c2f.mp3"
+  },
+  {
+   "id": "09-journee:evening",
+   "ru": "А что ты делаешь вечером?",
+   "fr": "Et qu'est-ce que tu fais le soir ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "делаешь",
+     "s": 1,
+     "w": true,
+     "a": "036b99a05825.mp3",
+     "l": "делать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вечером",
+     "s": 1,
+     "w": true,
+     "a": "27c36ef3a59f.mp3",
+     "l": "вечером"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "79391c264413.mp3"
+  },
+  {
+   "id": "09-journee:rest",
+   "ru": "Вечером я отдыхаю: читаю или смотрю фильмы.",
+   "fr": "Le soir, je me repose : je lis ou je regarde des films.",
+   "tokens": [
+    {
+     "t": "Вечером",
+     "s": 1,
+     "w": true,
+     "a": "27c36ef3a59f.mp3",
+     "l": "вечером"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "отдыхаю",
+     "s": 5,
+     "w": true,
+     "a": "c199336c4c7e.mp3",
+     "l": "отдыхать"
+    },
+    {
+     "t": ": ",
+     "w": false
+    },
+    {
+     "t": "читаю",
+     "s": 3,
+     "w": true,
+     "a": "f1a681ed9f8d.mp3",
+     "l": "читать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "или",
+     "s": 0,
+     "w": true,
+     "a": "41e8d899849a.mp3",
+     "l": "или"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "смотрю",
+     "s": 5,
+     "w": true,
+     "a": "24c397ede735.mp3",
+     "l": "смотреть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "фильмы",
+     "s": 1,
+     "w": true,
+     "a": "555f513be19c.mp3",
+     "l": "фильм"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "55e84c365895.mp3"
+  },
+  {
+   "id": "09-journee:c1",
+   "ru": "Мой папа работает в банке.",
+   "fr": "Mon père travaille dans une banque.",
+   "tokens": [
+    {
+     "t": "Мой",
+     "s": 1,
+     "w": true,
+     "a": "5e69d8e4000b.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "папа",
+     "s": 1,
+     "w": true,
+     "a": "bc1c0e6f10e8.mp3",
+     "l": "папа"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работает",
+     "s": 3,
+     "w": true,
+     "a": "41b8787c0589.mp3",
+     "l": "работать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "банке",
+     "s": 1,
+     "w": true,
+     "a": "692bfa43e6ea.mp3",
+     "l": "банк"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "43c4a1103651.mp3"
+  },
+  {
+   "id": "09-journee:c2",
+   "ru": "Вечером я читаю книги.",
+   "fr": "Le soir, je lis des livres.",
+   "tokens": [
+    {
+     "t": "Вечером",
+     "s": 1,
+     "w": true,
+     "a": "27c36ef3a59f.mp3",
+     "l": "вечером"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "читаю",
+     "s": 3,
+     "w": true,
+     "a": "f1a681ed9f8d.mp3",
+     "l": "читать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "книги",
+     "s": 2,
+     "w": true,
+     "a": "567c12b2aa96.mp3",
+     "l": "книга"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "2ebc7a6fbe17.mp3"
+  },
+  {
+   "id": "09-journee:c3",
+   "ru": "Ты работаешь в кафе?",
+   "fr": "Tu travailles dans un café ?",
+   "tokens": [
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работаешь",
+     "s": 3,
+     "w": true,
+     "a": "a1c7dc2380c8.mp3",
+     "l": "работать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кафе",
+     "s": 3,
+     "w": true,
+     "a": "d700d700529b.mp3",
+     "l": "кафе"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "5be434a653d7.mp3"
+  }
+ ],
+ "hasAudio": false
+}

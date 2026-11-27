@@ -30,7 +30,7 @@
     },
     {
       "speaker": "luka",
-      "ru": "Сейчас я живу в Петерб+урге. А дома я живу в Ли+оне.",
+      "ru": "Сейчас я живу в Петерб+урге. А д+ома я живу в Ли+оне.",
       "fr": "En ce moment, j'habite à Saint-Pétersbourg. Mais chez moi, j'habite à Lyon."
     },
     {
@@ -139,7 +139,7 @@
     {
       "id": "livelyon",
       "speaker": "luka",
-      "ru": "А дома я живу в Ли+оне.",
+      "ru": "А д+ома я живу в Ли+оне.",
       "fr": "Mais chez moi, j'habite à Lyon.",
       "noteFr": "« Дома » = à la maison, chez moi.",
       "gap": {
@@ -290,6 +290,15 @@
           "review": [
             "music",
             "books"
+          ]
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3",
+            "c4"
           ]
         }
       ]
@@ -447,5 +456,43 @@
     "париж": "Paris",
     "марсель": "Marseille",
     "россия": "Russie"
-  }
+  },
+  "combos": [
+    {
+      "ru": "Ты любишь кофе?",
+      "fr": "Tu aimes le café ?",
+      "extra": [
+        "люблю"
+      ],
+      "orders": [
+        "ты любишь кофе",
+        "кофе ты любишь"
+      ]
+    },
+    {
+      "ru": "Я люблю чай, но не люблю кофе.",
+      "fr": "J'aime le thé, mais je n'aime pas le café.",
+      "extra": [
+        "любишь"
+      ]
+    },
+    {
+      "ru": "Ты живёшь в России?",
+      "fr": "Tu habites en Russie ?",
+      "extra": [
+        "россия"
+      ],
+      "orders": [
+        "ты живёшь в россии",
+        "в россии ты живёшь"
+      ]
+    },
+    {
+      "ru": "Я живу в Париже, а ты?",
+      "fr": "J'habite à Paris, et toi ?",
+      "extra": [
+        "париж"
+      ]
+    }
+  ]
 }

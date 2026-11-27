@@ -23,6 +23,8 @@ type Ex =
   | { k: "match"; ps: string[] }
   | { k: "gap"; p: string }
   | { k: "order"; p: string }
+  | { k: "puzzle"; ps: string[] }
+  | { k: "combo"; p: string }
   | { k: "speak"; p: string; hint: boolean }
   | { k: "insight"; i: number; examples: boolean }
   | { k: "explore" }
@@ -124,6 +126,13 @@ function buildPart(steps: StepV2[]): Ex[] {
         out.push(...shuffle(ids).map((p): Ex => ({ k: "speak", p, hint: true })));
         break;
       }
+      case "combine": {
+        // пазл: новые фразы из уже знакомых кусочков
+        out.push({ k: "puzzle", ps: st.phrases });
+        for (const p of st.phrases) out.push({ k: "combo", p });
+        for (const p of shuffle(st.phrases)) out.push({ k: "speak", p, hint: true });
+        break;
+      }
       case "roleplay":
         out.push({ k: "roleplay" });
         break;
@@ -143,6 +152,63 @@ function interleave(list: Ex[]): Ex[] {
     }
   }
   return a;
+}
+
+
+/** «Собери фразу». В пазле: новая фраза + лишние слова, и подпись, откуда кусочки. */
+function orderTask(p: PhraseV2, ctx: Ctx, combo: boolean) {
+    const words = p.tokens.filter((t) => t.w);
+
+    const isName = (t: string) => lv.glossary[t.toLowerCase()]?.includes("prénom");
+    const shown = (t: string) => (isName(t) ? t : t.toLowerCase());
+    const extra = combo ? p.combo?.extra ?? [] : [];
+    const pool = shuffle([...words, ...extra.map((x) => ({ t: x.t, s: x.s, a: x.a, w: true }))].map((t, i) => ({ id: i, t })));
+    let answer: typeof pool = [];
+    ctx.body.innerHTML = `
+      ${combo ? `<div class="task-kicker">🧩 Nouvelle phrase</div><p class="hint center puzzle-hint">Tu connais déjà tous ces mots. Attention : il y a des morceaux en trop !</p>` : `<div class="task-kicker">Remets les mots dans l'ordre</div>`}
+      <p class="fr big-fr center">« ${esc(p.fr)} »</p>
+      <div class="answer-row"></div>
+      <div class="tiles pool"></div>
+      <div class="row"><button class="link small reset" type="button">Recommencer</button></div>`;
+    const render = () => {
+      $(".answer-row", ctx.body).innerHTML = answer.length
+        ? answer.map((x, i) => `<button class="tile small" data-a="${i}"><span class="tw">${renderStressed(shown(x.t.t), x.t.s, x.t.t)}</span></button>`).join("")
+        : `<span class="placeholder">Touche les mots dans le bon ordre</span>`;
+      $(".pool", ctx.body).innerHTML = pool.filter((x) => !answer.includes(x))
+        .map((x) => `<button class="tile small" data-p="${x.id}"><span class="tw">${renderStressed(shown(x.t.t), x.t.s, x.t.t)}</span></button>`).join("");
+      $$<HTMLButtonElement>("[data-p]", ctx.body).forEach((b) => {
+        b.onclick = () => {
+          const x = pool.find((y) => y.id === Number(b.dataset.p))!;
+          answer.push(x);
+          if (x.t.a) play(x.t.a, x.t.t);
+          render();
+          if (answer.length === words.length) check();
+        };
+      });
+      $$<HTMLButtonElement>("[data-a]", ctx.body).forEach((b) => {
+        b.onclick = () => {
+          answer.splice(Number(b.dataset.a), 1);
+          render();
+        };
+      });
+    };
+    const check = async () => {
+      const said = normalize(answer.map((x) => x.t.t).join(" "));
+      const ok = (p.orders ?? []).some((o) => normalize(o) === said);
+      const row = $(".answer-row", ctx.body);
+      row.classList.add(ok ? "good" : "bad");
+      row.innerHTML = `<div class="ru">${ok ? tokensHtml(p.tokens) : esc(answer.map((x) => shown(x.t.t)).join(" "))}</div>`;
+      if (ok) bindTokens(row, p.tokens, { glossary: lv.glossary });
+      $(".pool", ctx.body).innerHTML = "";
+      $(".reset", ctx.body).remove();
+      ctx.result(ok, `« ${ruHtml(p)} »`);
+      await play(p.audio, p.ru);
+    };
+    $(".reset", ctx.body).onclick = () => {
+      answer = [];
+      render();
+    };
+    render();
 }
 
 /* ======================= прохождение части ======================= */
@@ -422,59 +488,22 @@ const RENDER: { [K in Ex["k"]]: (ex: Extract<Ex, { k: K }>, ctx: Ctx) => void } 
   },
 
   order(ex, ctx) {
-    const p = P(ex.p);
-    const words = p.tokens.filter((t) => t.w);
-    const isName = (t: string) => lv.glossary[t.toLowerCase()]?.includes("prénom");
-    const shown = (t: string) => (isName(t) ? t : t.toLowerCase());
-    const pool = shuffle(words.map((t, i) => ({ id: i, t })));
-    let answer: typeof pool = [];
-    ctx.body.innerHTML = `
-      <div class="task-kicker">Remets les mots dans l'ordre</div>
-      <p class="fr big-fr center">« ${esc(p.fr)} »</p>
-      <div class="answer-row"></div>
-      <div class="tiles pool"></div>
-      <div class="row"><button class="link small reset" type="button">Recommencer</button></div>`;
-    const render = () => {
-      $(".answer-row", ctx.body).innerHTML = answer.length
-        ? answer.map((x, i) => `<button class="tile small" data-a="${i}"><span class="tw">${renderStressed(shown(x.t.t), x.t.s, x.t.t)}</span></button>`).join("")
-        : `<span class="placeholder">Touche les mots dans le bon ordre</span>`;
-      $(".pool", ctx.body).innerHTML = pool.filter((x) => !answer.includes(x))
-        .map((x) => `<button class="tile small" data-p="${x.id}"><span class="tw">${renderStressed(shown(x.t.t), x.t.s, x.t.t)}</span></button>`).join("");
-      $$<HTMLButtonElement>("[data-p]", ctx.body).forEach((b) => {
-        b.onclick = () => {
-          const x = pool.find((y) => y.id === Number(b.dataset.p))!;
-          answer.push(x);
-          if (x.t.a) play(x.t.a, x.t.t);
-          render();
-          if (answer.length === words.length) check();
-        };
-      });
-      $$<HTMLButtonElement>("[data-a]", ctx.body).forEach((b) => {
-        b.onclick = () => {
-          answer.splice(Number(b.dataset.a), 1);
-          render();
-        };
-      });
-    };
-    const check = async () => {
-      const said = normalize(answer.map((x) => x.t.t).join(" "));
-      const ok = (p.orders ?? []).some((o) => normalize(o) === said);
-      const row = $(".answer-row", ctx.body);
-      row.classList.add(ok ? "good" : "bad");
-      row.innerHTML = `<div class="ru">${ok ? tokensHtml(p.tokens) : esc(answer.map((x) => shown(x.t.t)).join(" "))}</div>`;
-      if (ok) bindTokens(row, p.tokens, { glossary: lv.glossary });
-      $(".pool", ctx.body).innerHTML = "";
-      $(".reset", ctx.body).remove();
-      ctx.result(ok, `« ${ruHtml(p)} »`);
-      await play(p.audio, p.ru);
-    };
-    $(".reset", ctx.body).onclick = () => {
-      answer = [];
-      render();
-    };
-    render();
+    orderTask(P(ex.p), ctx, false);
   },
 
+  puzzle(ex, ctx) {
+    const from = [...new Set(ex.ps.flatMap((id) => P(id).combo?.from ?? []))];
+    ctx.body.innerHTML = `
+      <div class="task-kicker">🧩 Le puzzle</div>
+      <h2>Tu peux déjà dire beaucoup plus !</h2>
+      <p>Avec les mots que tu connais, on peut construire des phrases toutes neuves. C'est comme un puzzle : tu prends un morceau d'une phrase, un morceau d'une autre… et tu obtiens une phrase à toi.</p>
+      <p class="hint">Les morceaux viennent de : ${from.map((t) => `<b>${esc(t)}</b>`).join(", ")}.</p>`;
+    ctx.ready("C'est parti");
+  },
+
+  combo(ex, ctx) {
+    orderTask(P(ex.p), ctx, true);
+  },
   speak(ex, ctx) {
     const p = P(ex.p);
     const words = p.tokens.filter((t) => t.w);

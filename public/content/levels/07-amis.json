@@ -8,15 +8,15 @@
  "sceneFr": "Le soir, Macha invite Luka à dîner. Son ami Oleg est là aussi… et Luka a l'impression de l'avoir déjà vu quelque part.",
  "learner": "luka",
  "speakers": {
-  "luka": {
-   "name": "Лука",
-   "nameFr": "Luka",
-   "color": "#3d5a80"
-  },
   "oleg": {
    "name": "Олег",
    "nameFr": "Oleg",
    "color": "#9a6fb0"
+  },
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
   },
   "masha": {
    "name": "Маша",
@@ -1327,6 +1327,339 @@
    "audio": "ca0ee4d6c57f.mp3",
    "id": "dinner",
    "noteFr": "Mot à mot : « allons dîner ! »."
+  },
+  "c1": {
+   "speaker": "luka",
+   "ru": "Ты любишь кофе?",
+   "fr": "Tu aimes le café ?",
+   "tokens": [
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "любишь",
+     "s": 1,
+     "w": true,
+     "a": "43a2843c63be.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кофе",
+     "s": 1,
+     "w": true,
+     "a": "4cff920b1130.mp3",
+     "l": "кофе"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "46eb2fd19cf7.mp3",
+   "id": "c1",
+   "noteFr": "",
+   "orders": [
+    "ты любишь кофе",
+    "кофе ты любишь"
+   ],
+   "combo": {
+    "from": [
+     "Je ne comprends pas",
+     "Chez des amis",
+     "Au café"
+    ],
+    "extra": [
+     {
+      "t": "люблю",
+      "a": "1b47671db5c8.mp3",
+      "s": 4
+     }
+    ]
+   }
+  },
+  "c2": {
+   "speaker": "luka",
+   "ru": "Я люблю чай, но не люблю кофе.",
+   "fr": "J'aime le thé, mais je n'aime pas le café.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "люблю",
+     "s": 4,
+     "w": true,
+     "a": "1b47671db5c8.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "чай",
+     "s": 1,
+     "w": true,
+     "a": "0f1ca028b347.mp3",
+     "l": "чай"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "но",
+     "s": 1,
+     "w": true,
+     "a": "e9cdd3dfae39.mp3",
+     "l": "но"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "люблю",
+     "s": 4,
+     "w": true,
+     "a": "1b47671db5c8.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кофе",
+     "s": 1,
+     "w": true,
+     "a": "4cff920b1130.mp3",
+     "l": "кофе"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "7e806fa5673e.mp3",
+   "id": "c2",
+   "noteFr": "",
+   "orders": [
+    "я люблю чай но не люблю кофе"
+   ],
+   "combo": {
+    "from": [
+     "Faire connaissance",
+     "Chez des amis",
+     "Au café",
+     "Je ne comprends pas"
+    ],
+    "extra": [
+     {
+      "t": "любишь",
+      "a": "43a2843c63be.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "c3": {
+   "speaker": "luka",
+   "ru": "Ты живёшь в России?",
+   "fr": "Tu habites en Russie ?",
+   "tokens": [
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "живёшь",
+     "s": 3,
+     "w": true,
+     "a": "3d92af7d3970.mp3",
+     "l": "жить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "России",
+     "s": 4,
+     "w": true,
+     "a": "c47186992594.mp3",
+     "l": "россия"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "17934309e9d7.mp3",
+   "id": "c3",
+   "noteFr": "",
+   "orders": [
+    "ты живёшь в россии",
+    "в россии ты живёшь"
+   ],
+   "combo": {
+    "from": [
+     "Je ne comprends pas",
+     "Chez des amis",
+     "Où es-tu ?"
+    ],
+    "extra": [
+     {
+      "t": "россия",
+      "a": "10e96ba558a9.mp3",
+      "s": 4
+     }
+    ]
+   }
+  },
+  "c4": {
+   "speaker": "luka",
+   "ru": "Я живу в Париже, а ты?",
+   "fr": "J'habite à Paris, et toi ?",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "живу",
+     "s": 3,
+     "w": true,
+     "a": "1fe8f57e8827.mp3",
+     "l": "жить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Париже",
+     "s": 3,
+     "w": true,
+     "a": "69178e915968.mp3",
+     "l": "париж"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "а",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "46955b47a159.mp3",
+   "id": "c4",
+   "noteFr": "",
+   "orders": [
+    "я живу в париже а ты"
+   ],
+   "combo": {
+    "from": [
+     "Faire connaissance",
+     "Chez des amis",
+     "Où es-tu ?",
+     "Se présenter",
+     "Je ne comprends pas"
+    ],
+    "extra": [
+     {
+      "t": "париж",
+      "a": "739866fc21dd.mp3",
+      "s": 3
+     }
+    ]
+   }
   }
  },
  "parts": [
@@ -1407,6 +1740,15 @@
      "review": [
       "music",
       "books"
+     ]
+    },
+    {
+     "type": "combine",
+     "phrases": [
+      "c1",
+      "c2",
+      "c3",
+      "c4"
      ]
     }
    ]
@@ -1589,7 +1931,11 @@
   "привет мы знакомы банк да",
   "сейчас я живу в петербурге",
   "сейчас я живу в петербурге а дома я живу в лионе",
+  "ты живёшь в россии",
+  "ты любишь кофе",
+  "я живу в париже а ты",
   "я люблю музыку и кино",
+  "я люблю чай но не люблю кофе",
   "[unk]"
  ],
  "cando": [
@@ -1637,7 +1983,11 @@
   "ужинать": "dîner",
   "париж": "Paris",
   "марсель": "Marseille",
-  "россия": "Russie"
+  "россия": "Russie",
+  "кофе": "café",
+  "чай": "thé",
+  "но": "mais",
+  "не": "ne… pas"
  },
  "unlocks": [
   {
@@ -2226,6 +2576,258 @@
     }
    ],
    "audio": "ca0ee4d6c57f.mp3"
+  },
+  {
+   "id": "07-amis:c1",
+   "ru": "Ты любишь кофе?",
+   "fr": "Tu aimes le café ?",
+   "tokens": [
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "любишь",
+     "s": 1,
+     "w": true,
+     "a": "43a2843c63be.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кофе",
+     "s": 1,
+     "w": true,
+     "a": "4cff920b1130.mp3",
+     "l": "кофе"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "46eb2fd19cf7.mp3"
+  },
+  {
+   "id": "07-amis:c2",
+   "ru": "Я люблю чай, но не люблю кофе.",
+   "fr": "J'aime le thé, mais je n'aime pas le café.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "люблю",
+     "s": 4,
+     "w": true,
+     "a": "1b47671db5c8.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "чай",
+     "s": 1,
+     "w": true,
+     "a": "0f1ca028b347.mp3",
+     "l": "чай"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "но",
+     "s": 1,
+     "w": true,
+     "a": "e9cdd3dfae39.mp3",
+     "l": "но"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "люблю",
+     "s": 4,
+     "w": true,
+     "a": "1b47671db5c8.mp3",
+     "l": "любить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кофе",
+     "s": 1,
+     "w": true,
+     "a": "4cff920b1130.mp3",
+     "l": "кофе"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "7e806fa5673e.mp3"
+  },
+  {
+   "id": "07-amis:c3",
+   "ru": "Ты живёшь в России?",
+   "fr": "Tu habites en Russie ?",
+   "tokens": [
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "живёшь",
+     "s": 3,
+     "w": true,
+     "a": "3d92af7d3970.mp3",
+     "l": "жить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "России",
+     "s": 4,
+     "w": true,
+     "a": "c47186992594.mp3",
+     "l": "россия"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "17934309e9d7.mp3"
+  },
+  {
+   "id": "07-amis:c4",
+   "ru": "Я живу в Париже, а ты?",
+   "fr": "J'habite à Paris, et toi ?",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "живу",
+     "s": 3,
+     "w": true,
+     "a": "1fe8f57e8827.mp3",
+     "l": "жить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Париже",
+     "s": 3,
+     "w": true,
+     "a": "69178e915968.mp3",
+     "l": "париж"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "а",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "46955b47a159.mp3"
   }
  ],
  "hasAudio": false

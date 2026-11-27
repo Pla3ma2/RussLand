@@ -400,3 +400,4 @@ table.carte td small { display: block; font-size: 11px; }
 @media (prefers-color-scheme: dark) {
   .lvl, .flash { background: #1f2229; }
 }
+.puzzle-hint { margin-top: -2px; }

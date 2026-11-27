@@ -1,0 +1,438 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "08-famille",
+  "order": 8,
+  "titleFr": "Ma famille",
+  "titleRu": "Моя семья",
+  "emoji": "👨‍👩‍👧",
+  "sceneFr": "Au dîner, Macha demande à Luka s'il a de la famille en France. Luka sort son téléphone pour montrer des photos.",
+  "dialogue": [
+    {
+      "speaker": "masha",
+      "ru": "Л+ука, у тебя есть брат или сестра?",
+      "fr": "Luka, tu as un frère ou une sœur ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Да, у меня есть сестра.",
+      "fr": "Oui, j'ai une sœur."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Вот фото. Это моя сестра. Её зовут Ж+юли.",
+      "fr": "Voici une photo. C'est ma sœur. Elle s'appelle Julie."
+    },
+    {
+      "speaker": "masha",
+      "ru": "Какая красивая! А это кто?",
+      "fr": "Qu'elle est belle ! Et ça, c'est qui ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Это мой папа, а это моя мама.",
+      "fr": "C'est mon père, et ça, c'est ma mère."
+    },
+    {
+      "speaker": "masha",
+      "ru": "А у меня есть брат. Он живёт в Москве.",
+      "fr": "Et moi, j'ai un frère. Il habite à Moscou."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Как его зовут?",
+      "fr": "Comment il s'appelle ?"
+    },
+    {
+      "speaker": "masha",
+      "ru": "Его зовут Ант+он.",
+      "fr": "Il s'appelle Anton."
+    }
+  ],
+  "phrases": [
+    {
+      "id": "haveq",
+      "speaker": "masha",
+      "ru": "У тебя есть брат или сестра?",
+      "fr": "Tu as un frère ou une sœur ?",
+      "noteFr": "« У тебя есть…? » = « tu as… ? » (mot à mot : « chez toi, il y a… ? »). « Или » = ou.",
+      "gap": {
+        "word": "или",
+        "distractors": [
+          "тоже",
+          "вот"
+        ]
+      },
+      "orders": [
+        "у тебя есть брат или сестра",
+        "у тебя есть сестра или брат"
+      ]
+    },
+    {
+      "id": "havesis",
+      "speaker": "luka",
+      "ru": "Да, у меня есть сестра.",
+      "fr": "Oui, j'ai une sœur.",
+      "noteFr": "« У меня есть » = « j'ai ». Pas de verbe « avoir » : on dit « chez moi, il y a ».",
+      "gap": {
+        "word": "меня",
+        "distractors": [
+          "тебя",
+          "мой"
+        ],
+        "whyFr": "« У меня » = chez moi → j'ai. « У тебя », c'est « tu as »."
+      },
+      "orders": [
+        "да у меня есть сестра"
+      ]
+    },
+    {
+      "id": "mysis",
+      "speaker": "luka",
+      "ru": "Это моя сестра.",
+      "fr": "C'est ma sœur.",
+      "noteFr": "« Сестра » est féminin (-а), donc « моя ».",
+      "gap": {
+        "word": "моя",
+        "distractors": [
+          "мой",
+          "кто"
+        ],
+        "whyFr": "« Сестра » finit par -а : c'est féminin, donc « моя » (ma)."
+      }
+    },
+    {
+      "id": "hername",
+      "speaker": "luka",
+      "ru": "Её зовут Ж+юли.",
+      "fr": "Elle s'appelle Julie.",
+      "noteFr": "Comme « меня зовут », avec « её » (elle) : « on l'appelle Julie ».",
+      "gap": {
+        "word": "её",
+        "distractors": [
+          "его",
+          "вот"
+        ],
+        "whyFr": "Pour une femme : « её зовут ». « Его », c'est pour un homme."
+      }
+    },
+    {
+      "id": "who",
+      "speaker": "masha",
+      "ru": "А это кто?",
+      "fr": "Et ça, c'est qui ?",
+      "noteFr": "« Кто » = qui.",
+      "gap": {
+        "word": "кто",
+        "distractors": [
+          "моя",
+          "или"
+        ]
+      }
+    },
+    {
+      "id": "parents",
+      "speaker": "luka",
+      "ru": "Это мой папа, а это моя мама.",
+      "fr": "C'est mon père, et ça, c'est ma mère.",
+      "noteFr": "« Папа » finit par -а mais c'est un homme : on dit « мой папа ». Le sens l'emporte !",
+      "gap": {
+        "word": "мой",
+        "distractors": [
+          "моя",
+          "кто"
+        ],
+        "whyFr": "« Папа » est un homme, donc « мой », même avec -а à la fin."
+      }
+    },
+    {
+      "id": "brother",
+      "speaker": "masha",
+      "ru": "А у меня есть брат. Он живёт в Москве.",
+      "fr": "Et moi, j'ai un frère. Il habite à Moscou.",
+      "noteFr": "« Он » = il. « В Москве » : tu connais ce vert (le lieu).",
+      "gap": {
+        "word": "москве",
+        "distractors": [
+          "москва",
+          "брат"
+        ],
+        "whyFr": "Après « в » pour dire où l'on est : « Москва » → « в Москве »."
+      }
+    },
+    {
+      "id": "hisname",
+      "speaker": "luka",
+      "ru": "Как его зовут?",
+      "fr": "Comment il s'appelle ?",
+      "noteFr": "Pour un homme : « его зовут ». Attention, « его » se prononce « ïévo ».",
+      "gap": {
+        "word": "его",
+        "distractors": [
+          "её",
+          "кто"
+        ],
+        "whyFr": "Pour un homme : « его зовут ». « Её », c'est pour une femme."
+      },
+      "orders": [
+        "как его зовут",
+        "как зовут его"
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Frères et sœurs",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 0
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "haveq",
+            "havesis"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "mysis",
+            "hername"
+          ],
+          "review": [
+            "havesis"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Les parents",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "haveq",
+            "havesis",
+            "mysis"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "who",
+            "parents"
+          ],
+          "review": [
+            "mysis",
+            "hername"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "brother",
+            "hisname"
+          ],
+          "review": [
+            "parents",
+            "hername"
+          ]
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "masha",
+      "fr": [
+        "Pour dire « j'ai », le russe dit « chez moi, il y a » : « у меня есть ».",
+        "« У меня есть брат » = j'ai un frère. « У тебя есть… ? » = tu as… ?"
+      ]
+    },
+    {
+      "by": "masha",
+      "fr": [
+        "« Мой » (mon) et « моя » (ma) suivent le genre, comme en français : « мой брат », « моя сестра ».",
+        "Et pour le prénom de quelqu'un d'autre : « его зовут » (il s'appelle), « её зовут » (elle s'appelle)."
+      ]
+    }
+  ],
+  "explore": {
+    "type": "plain",
+    "speaker": "luka",
+    "frame": "У меня есть ___.",
+    "frameFr": "J'ai ___.",
+    "color": "#5c677d",
+    "hintFr": "Mets chaque mot dans la phrase et écoute.",
+    "words": [
+      {
+        "tile": "брат",
+        "fr": "un frère",
+        "phraseFr": "J'ai un frère."
+      },
+      {
+        "tile": "сестра",
+        "fr": "une sœur",
+        "phraseFr": "J'ai une sœur."
+      },
+      {
+        "tile": "собака",
+        "fr": "un chien",
+        "phraseFr": "J'ai un chien."
+      },
+      {
+        "tile": "кошка",
+        "fr": "un chat",
+        "phraseFr": "J'ai un chat."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Dis : « J'ai un chien. »",
+      "answer": "собака"
+    },
+    {
+      "type": "pick",
+      "fr": "Dis : « J'ai une sœur. »",
+      "answer": "сестра"
+    }
+  ],
+  "cando": [
+    "parler de ta famille",
+    "dire « j'ai »",
+    "dire comment s'appelle quelqu'un"
+  ],
+  "unlocks": [
+    {
+      "case": "loct",
+      "gender": "femn",
+      "from": "Москва",
+      "to": "Москве"
+    }
+  ],
+  "glossary": {
+    "я": "je, moi",
+    "ты": "tu",
+    "вы": "vous",
+    "да": "oui",
+    "нет": "non",
+    "а": "et, mais",
+    "и": "et",
+    "это": "c'est, voici",
+    "не": "ne… pas",
+    "в": "dans, à",
+    "на": "sur, en",
+    "что": "quoi, que",
+    "как": "comment, comme",
+    "где": "où",
+    "очень": "très",
+    "спасибо": "merci",
+    "пожалуйста": "s'il te plaît / je t'en prie",
+    "хорошо": "bien, d'accord",
+    "привет": "salut",
+    "лука": "Luka (prénom)",
+    "маша": "Macha (prénom)",
+    "олег": "Oleg (prénom)",
+    "анна": "Anna (prénom)",
+    "у": "chez",
+    "меня": "moi (у меня = j'ai)",
+    "тебя": "toi (у тебя = tu as)",
+    "есть": "il y a",
+    "мой": "mon",
+    "моя": "ma",
+    "мне": "à moi",
+    "тоже": "aussi",
+    "сегодня": "aujourd'hui",
+    "завтра": "demain",
+    "вчера": "hier",
+    "потом": "puis, ensuite",
+    "давай": "allons-y, faisons",
+    "брат": "frère",
+    "или": "ou",
+    "сестра": "sœur",
+    "вот": "voici, voilà",
+    "фото": "photo",
+    "её": "elle, la (её зовут = elle s'appelle)",
+    "зовут": "(on) appelle",
+    "жюли": "Julie",
+    "какая": "quelle, comme",
+    "красивая": "belle",
+    "кто": "qui",
+    "папа": "papa, père",
+    "мама": "maman, mère",
+    "он": "il",
+    "живёт": "(il) habite",
+    "живет": "(il) habite",
+    "москве": "Moscou (après в)",
+    "москва": "Moscou",
+    "его": "lui, le (его зовут = il s'appelle)",
+    "антон": "Anton",
+    "собака": "chien",
+    "кошка": "chat"
+  },
+  "combos": [
+    {
+      "ru": "У тебя есть собака?",
+      "fr": "Tu as un chien ?",
+      "extra": [
+        "меня"
+      ],
+      "orders": [
+        "у тебя есть собака",
+        "собака у тебя есть",
+        "есть у тебя собака"
+      ]
+    },
+    {
+      "ru": "Это мой брат. Его зовут Олег.",
+      "fr": "C'est mon frère. Il s'appelle Oleg.",
+      "extra": [
+        "моя"
+      ]
+    },
+    {
+      "ru": "Моя мама живёт в Лионе.",
+      "fr": "Ma mère habite à Lyon.",
+      "extra": [
+        "мой"
+      ],
+      "orders": [
+        "моя мама живёт в лионе",
+        "в лионе живёт моя мама"
+      ]
+    }
+  ]
+}

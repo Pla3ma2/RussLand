@@ -147,6 +147,7 @@ export interface PhraseV2 extends Line {
   noteFr: string;
   gap?: { index: number; whyFr?: string; distractors: { t: string; a: string; s: number | null }[] };
   orders?: string[];
+  combo?: { from: string[]; extra: { t: string; a: string; s: number | null }[] };
 }
 
 export type StepV2 =
@@ -156,6 +157,7 @@ export type StepV2 =
   | { type: "insight"; index: number }
   | { type: "explore" }
   | { type: "final" }
+  | { type: "combine"; phrases: string[] }
   | { type: "roleplay" };
 
 export interface LevelV2 {

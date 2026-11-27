@@ -1,0 +1,2037 @@
+{
+ "version": 2,
+ "id": "14-medecin",
+ "order": 14,
+ "titleFr": "Je suis malade",
+ "titleRu": "Я болею",
+ "emoji": "🤒",
+ "sceneFr": "Le lendemain du foot, Luka ne se sent pas bien. Il frappe chez sa voisine Macha… qui est médecin !",
+ "learner": "luka",
+ "speakers": {
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  },
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "masha",
+   "ru": "Лука? Что случилось?",
+   "fr": "Luka ? Qu'est-ce qui s'est passé ?",
+   "tokens": [
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": "? ",
+     "w": false
+    },
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "случилось",
+     "s": 4,
+     "w": true,
+     "a": "f27960d12597.mp3",
+     "l": "случиться"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "16cffb21e154.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Маша, мне плохо.",
+   "fr": "Macha, je ne me sens pas bien.",
+   "tokens": [
+    {
+     "t": "Маша",
+     "s": 1,
+     "w": true,
+     "a": "db2f8c7ea687.mp3",
+     "l": "маша"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "плохо",
+     "s": 2,
+     "w": true,
+     "a": "07daac928bc7.mp3",
+     "l": "плохо"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "72427d8e1252.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Что у тебя болит?",
+   "fr": "Où est-ce que tu as mal ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "у",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тебя",
+     "s": 3,
+     "w": true,
+     "a": "a677bbe7ebdf.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "болит",
+     "s": 3,
+     "w": true,
+     "a": "dcea905286ac.mp3",
+     "l": "болеть"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "188bf93f3d06.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "У меня болит голова. И горло тоже.",
+   "fr": "J'ai mal à la tête. Et à la gorge aussi.",
+   "tokens": [
+    {
+     "t": "У",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "меня",
+     "s": 3,
+     "w": true,
+     "a": "2e3dc1afb7c3.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "болит",
+     "s": 3,
+     "w": true,
+     "a": "dcea905286ac.mp3",
+     "l": "болеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "голова",
+     "s": 5,
+     "w": true,
+     "a": "6e487ea48e95.mp3",
+     "l": "голова"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "И",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "горло",
+     "s": 1,
+     "w": true,
+     "a": "611e843f6abd.mp3",
+     "l": "горло"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тоже",
+     "s": 1,
+     "w": true,
+     "a": "0b041fee8598.mp3",
+     "l": "тоже"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "f43b5b29ff06.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "У тебя есть температура?",
+   "fr": "Tu as de la fièvre ?",
+   "tokens": [
+    {
+     "t": "У",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тебя",
+     "s": 3,
+     "w": true,
+     "a": "a677bbe7ebdf.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "есть",
+     "s": 0,
+     "w": true,
+     "a": "91c9dda6ba7c.mp3",
+     "l": "есть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "температура",
+     "s": 8,
+     "w": true,
+     "a": "9dbaf85c7d36.mp3",
+     "l": "температура"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "42e39cf51e26.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Да, тридцать восемь.",
+   "fr": "Oui, trente-huit.",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "тридцать",
+     "s": 2,
+     "w": true,
+     "a": "ecc7802a4a1a.mp3",
+     "l": "тридцать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "восемь",
+     "s": 1,
+     "w": true,
+     "a": "a47b3c484775.mp3",
+     "l": "восемь"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "2d94f51710ce.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Это грипп. Пей чай и отдыхай.",
+   "fr": "C'est la grippe. Bois du thé et repose-toi.",
+   "tokens": [
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "грипп",
+     "s": 2,
+     "w": true,
+     "a": "79eb19003628.mp3",
+     "l": "грипп"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Пей",
+     "s": 1,
+     "w": true,
+     "a": "cf1f969d0114.mp3",
+     "l": "пить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "чай",
+     "s": 1,
+     "w": true,
+     "a": "0f1ca028b347.mp3",
+     "l": "чай"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "отдыхай",
+     "s": 5,
+     "w": true,
+     "a": "2844a810735e.mp3",
+     "l": "отдыхать"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "7b81d3437ffa.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Спасибо, доктор!",
+   "fr": "Merci, docteur !",
+   "tokens": [
+    {
+     "t": "Спасибо",
+     "s": 4,
+     "w": true,
+     "a": "84fecfa1b01c.mp3",
+     "l": "спасибо"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "доктор",
+     "s": 1,
+     "w": true,
+     "a": "6b6e51ad989a.mp3",
+     "l": "доктор"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "31c8bbe22bbc.mp3"
+  }
+ ],
+ "phrases": {
+  "what": {
+   "speaker": "masha",
+   "ru": "Что случилось?",
+   "fr": "Qu'est-ce qui s'est passé ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "случилось",
+     "s": 4,
+     "w": true,
+     "a": "f27960d12597.mp3",
+     "l": "случиться"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "33707f6b6f75.mp3",
+   "id": "what",
+   "noteFr": "« Что случилось ? » = qu'est-ce qui s'est passé ? Très courant.",
+   "gap": {
+    "index": 2,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "болит",
+      "a": "dcea905286ac.mp3",
+      "s": 3
+     },
+     {
+      "t": "плохо",
+      "a": "07daac928bc7.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "bad": {
+   "speaker": "luka",
+   "ru": "Маша, мне плохо.",
+   "fr": "Macha, je ne me sens pas bien.",
+   "tokens": [
+    {
+     "t": "Маша",
+     "s": 1,
+     "w": true,
+     "a": "db2f8c7ea687.mp3",
+     "l": "маша"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "плохо",
+     "s": 2,
+     "w": true,
+     "a": "07daac928bc7.mp3",
+     "l": "плохо"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "72427d8e1252.mp3",
+   "id": "bad",
+   "noteFr": "« Мне плохо » = je me sens mal (mot à mot : « à moi, c'est mal »).",
+   "gap": {
+    "index": 4,
+    "whyFr": "« Мне плохо » = je me sens mal. « Мне хорошо », ce serait « je me sens bien ».",
+    "distractors": [
+     {
+      "t": "хорошо",
+      "a": "a779ac8a9072.mp3",
+      "s": 5
+     },
+     {
+      "t": "болит",
+      "a": "dcea905286ac.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "hurt": {
+   "speaker": "masha",
+   "ru": "Что у тебя болит?",
+   "fr": "Où est-ce que tu as mal ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "у",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тебя",
+     "s": 3,
+     "w": true,
+     "a": "a677bbe7ebdf.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "болит",
+     "s": 3,
+     "w": true,
+     "a": "dcea905286ac.mp3",
+     "l": "болеть"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "188bf93f3d06.mp3",
+   "id": "hurt",
+   "noteFr": "Mot à mot : « qu'est-ce qui te fait mal ? ». « Болит » = fait mal.",
+   "gap": {
+    "index": 6,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "плохо",
+      "a": "07daac928bc7.mp3",
+      "s": 2
+     },
+     {
+      "t": "горло",
+      "a": "611e843f6abd.mp3",
+      "s": 1
+     }
+    ]
+   },
+   "orders": [
+    "что у тебя болит",
+    "у тебя что болит"
+   ]
+  },
+  "head": {
+   "speaker": "luka",
+   "ru": "У меня болит голова.",
+   "fr": "J'ai mal à la tête.",
+   "tokens": [
+    {
+     "t": "У",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "меня",
+     "s": 3,
+     "w": true,
+     "a": "2e3dc1afb7c3.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "болит",
+     "s": 3,
+     "w": true,
+     "a": "dcea905286ac.mp3",
+     "l": "болеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "голова",
+     "s": 5,
+     "w": true,
+     "a": "6e487ea48e95.mp3",
+     "l": "голова"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "34b1ca3bfc22.mp3",
+   "id": "head",
+   "noteFr": "Mot à mot : « chez moi, la tête fait mal ». La partie du corps reste à la forme de base.",
+   "gap": {
+    "index": 6,
+    "whyFr": "C'est la tête qui fait l'action (elle fait mal) : forme de base « голова », sans -у.",
+    "distractors": [
+     {
+      "t": "голову",
+      "a": "e0d080e56dbd.mp3",
+      "s": 1
+     },
+     {
+      "t": "плохо",
+      "a": "07daac928bc7.mp3",
+      "s": 2
+     }
+    ]
+   },
+   "orders": [
+    "у меня болит голова",
+    "голова у меня болит",
+    "у меня голова болит"
+   ]
+  },
+  "throat": {
+   "speaker": "luka",
+   "ru": "И горло тоже.",
+   "fr": "Et à la gorge aussi.",
+   "tokens": [
+    {
+     "t": "И",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "горло",
+     "s": 1,
+     "w": true,
+     "a": "611e843f6abd.mp3",
+     "l": "горло"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тоже",
+     "s": 1,
+     "w": true,
+     "a": "0b041fee8598.mp3",
+     "l": "тоже"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "4ab9ee4fb996.mp3",
+   "id": "throat",
+   "noteFr": "« Горло » = la gorge. « Тоже » = aussi.",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "болит",
+      "a": "dcea905286ac.mp3",
+      "s": 3
+     },
+     {
+      "t": "есть",
+      "a": "91c9dda6ba7c.mp3",
+      "s": 0
+     }
+    ]
+   }
+  },
+  "fever": {
+   "speaker": "masha",
+   "ru": "У тебя есть температура?",
+   "fr": "Tu as de la fièvre ?",
+   "tokens": [
+    {
+     "t": "У",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тебя",
+     "s": 3,
+     "w": true,
+     "a": "a677bbe7ebdf.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "есть",
+     "s": 0,
+     "w": true,
+     "a": "91c9dda6ba7c.mp3",
+     "l": "есть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "температура",
+     "s": 8,
+     "w": true,
+     "a": "9dbaf85c7d36.mp3",
+     "l": "температура"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "42e39cf51e26.mp3",
+   "id": "fever",
+   "noteFr": "« Температура » = fièvre (mot à mot : température).",
+   "gap": {
+    "index": 6,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "голова",
+      "a": "6e487ea48e95.mp3",
+      "s": 5
+     },
+     {
+      "t": "горло",
+      "a": "611e843f6abd.mp3",
+      "s": 1
+     }
+    ]
+   },
+   "orders": [
+    "у тебя есть температура",
+    "температура у тебя есть",
+    "есть у тебя температура"
+   ]
+  },
+  "advice": {
+   "speaker": "masha",
+   "ru": "Пей чай и отдыхай.",
+   "fr": "Bois du thé et repose-toi.",
+   "tokens": [
+    {
+     "t": "Пей",
+     "s": 1,
+     "w": true,
+     "a": "cf1f969d0114.mp3",
+     "l": "пить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "чай",
+     "s": 1,
+     "w": true,
+     "a": "0f1ca028b347.mp3",
+     "l": "чай"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "отдыхай",
+     "s": 5,
+     "w": true,
+     "a": "2844a810735e.mp3",
+     "l": "отдыхать"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "a7e2f3582f0f.mp3",
+   "id": "advice",
+   "noteFr": "L'impératif avec « ты » : « пей » (bois), « отдыхай » (repose-toi).",
+   "gap": {
+    "index": 6,
+    "whyFr": "Pour donner un conseil à « ты » : « отдыхай » (-й). « Отдыхаю », c'est « je me repose ».",
+    "distractors": [
+     {
+      "t": "отдыхаю",
+      "a": "c199336c4c7e.mp3",
+      "s": 5
+     },
+     {
+      "t": "плохо",
+      "a": "07daac928bc7.mp3",
+      "s": 2
+     }
+    ]
+   },
+   "orders": [
+    "пей чай и отдыхай",
+    "отдыхай и пей чай"
+   ]
+  },
+  "doctor": {
+   "speaker": "luka",
+   "ru": "Спасибо, доктор!",
+   "fr": "Merci, docteur !",
+   "tokens": [
+    {
+     "t": "Спасибо",
+     "s": 4,
+     "w": true,
+     "a": "84fecfa1b01c.mp3",
+     "l": "спасибо"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "доктор",
+     "s": 1,
+     "w": true,
+     "a": "6b6e51ad989a.mp3",
+     "l": "доктор"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "31c8bbe22bbc.mp3",
+   "id": "doctor",
+   "noteFr": "« Доктор » = docteur, comme en français."
+  },
+  "c1": {
+   "speaker": "luka",
+   "ru": "Маша, у меня болит живот.",
+   "fr": "Macha, j'ai mal au ventre.",
+   "tokens": [
+    {
+     "t": "Маша",
+     "s": 1,
+     "w": true,
+     "a": "db2f8c7ea687.mp3",
+     "l": "маша"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "у",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "меня",
+     "s": 3,
+     "w": true,
+     "a": "2e3dc1afb7c3.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "болит",
+     "s": 3,
+     "w": true,
+     "a": "dcea905286ac.mp3",
+     "l": "болеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "живот",
+     "s": 3,
+     "w": true,
+     "a": "0ea126e54477.mp3",
+     "l": "живот"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "e30b56ff2b39.mp3",
+   "id": "c1",
+   "noteFr": "",
+   "orders": [
+    "маша у меня болит живот",
+    "маша у меня живот болит"
+   ],
+   "combo": {
+    "from": [
+     "Faire connaissance",
+     "Au magasin",
+     "Je suis malade"
+    ],
+    "extra": [
+     {
+      "t": "плохо",
+      "a": "07daac928bc7.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "c2": {
+   "speaker": "luka",
+   "ru": "Мне плохо. Я буду отдыхать дома.",
+   "fr": "Je ne me sens pas bien. Je vais me reposer à la maison.",
+   "tokens": [
+    {
+     "t": "Мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "плохо",
+     "s": 2,
+     "w": true,
+     "a": "07daac928bc7.mp3",
+     "l": "плохо"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "буду",
+     "s": 1,
+     "w": true,
+     "a": "f863b4d8649d.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "отдыхать",
+     "s": 5,
+     "w": true,
+     "a": "bbb38b666094.mp3",
+     "l": "отдыхать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дома",
+     "s": 1,
+     "w": true,
+     "a": "97f89f92319f.mp3",
+     "l": "дом"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "19b50e85cb24.mp3",
+   "id": "c2",
+   "noteFr": "",
+   "orders": [
+    "мне плохо я буду отдыхать дома"
+   ],
+   "combo": {
+    "from": [
+     "Je suis malade",
+     "Je ne comprends pas",
+     "Faire connaissance",
+     "Au restaurant",
+     "Les projets",
+     "Chez des amis"
+    ],
+    "extra": [
+     {
+      "t": "отдыхай",
+      "a": "2844a810735e.mp3",
+      "s": 5
+     }
+    ]
+   }
+  },
+  "c3": {
+   "speaker": "luka",
+   "ru": "Говорите медленнее, доктор!",
+   "fr": "Parlez plus lentement, docteur !",
+   "tokens": [
+    {
+     "t": "Говорите",
+     "s": 5,
+     "w": true,
+     "a": "af41f5721ac9.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "медленнее",
+     "s": 1,
+     "w": true,
+     "a": "072a7ce06e76.mp3",
+     "l": "медленный"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "доктор",
+     "s": 1,
+     "w": true,
+     "a": "6b6e51ad989a.mp3",
+     "l": "доктор"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "b4fa17cca2ea.mp3",
+   "id": "c3",
+   "noteFr": "",
+   "orders": [
+    "говорите медленнее доктор"
+   ],
+   "combo": {
+    "from": [
+     "Se présenter",
+     "Je ne comprends pas",
+     "Je suis malade"
+    ],
+    "extra": [
+     {
+      "t": "говорю",
+      "a": "7060cf7cbf69.mp3",
+      "s": 5
+     }
+    ]
+   }
+  }
+ },
+ "parts": [
+  {
+   "titleFr": "Ça ne va pas",
+   "steps": [
+    {
+     "type": "scene"
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "what",
+      "bad"
+     ]
+    },
+    {
+     "type": "explore"
+    },
+    {
+     "type": "insight",
+     "index": 0
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "hurt",
+      "head"
+     ],
+     "review": [
+      "bad"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Les conseils du médecin",
+   "steps": [
+    {
+     "type": "warmup",
+     "phrases": [
+      "bad",
+      "hurt",
+      "head"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "throat",
+      "fever"
+     ],
+     "review": [
+      "head"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "advice",
+      "doctor"
+     ],
+     "review": [
+      "fever",
+      "throat"
+     ]
+    },
+    {
+     "type": "insight",
+     "index": 1
+    },
+    {
+     "type": "combine",
+     "phrases": [
+      "c1",
+      "c2",
+      "c3"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Joue la scène",
+   "steps": [
+    {
+     "type": "final"
+    },
+    {
+     "type": "roleplay"
+    }
+   ]
+  }
+ ],
+ "insights": [
+  {
+   "by": "masha",
+   "fr": [
+    "Pour dire où tu as mal : « у меня болит… » + la partie du corps, à la forme de base. « У меня болит голова » = j'ai mal à la tête.",
+    "Tu reconnais « у меня » ? C'est le même que dans « у меня есть » (j'ai)."
+   ]
+  },
+  {
+   "by": "masha",
+   "fr": [
+    "Pour donner un conseil ou un ordre à un ami : « пей » (bois), « отдыхай » (repose-toi), « слушай » (écoute).",
+    "Avec « вы », on ajoute -те : « отдыхайте », « пейте ». Tu connais déjà « говорите медленнее » !"
+   ]
+  }
+ ],
+ "explore": {
+  "type": "plain",
+  "frameFr": "J'ai mal ___.",
+  "color": "#5c677d",
+  "hintFr": "Mets chaque partie du corps dans la phrase et écoute.",
+  "before": [
+   {
+    "t": "У",
+    "s": 0,
+    "w": true,
+    "a": "4e374e10f94b.mp3",
+    "l": "у"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "меня",
+    "s": 3,
+    "w": true,
+    "a": "2e3dc1afb7c3.mp3",
+    "l": "я"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "болит",
+    "s": 3,
+    "w": true,
+    "a": "dcea905286ac.mp3",
+    "l": "болеть"
+   },
+   {
+    "t": " ",
+    "w": false
+   }
+  ],
+  "after": [
+   {
+    "t": ".",
+    "w": false
+   }
+  ],
+  "verb": null,
+  "words": [
+   {
+    "tile": "голова",
+    "tileStress": 5,
+    "fr": "à la tête",
+    "phraseFr": "J'ai mal à la tête.",
+    "phrase": "У меня болит голова.",
+    "morph": {
+     "from": "голова",
+     "to": "голова",
+     "stem": "голова",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": false
+    },
+    "audioTile": "6e487ea48e95.mp3",
+    "audioPhrase": "34b1ca3bfc22.mp3"
+   },
+   {
+    "tile": "горло",
+    "tileStress": 1,
+    "fr": "à la gorge",
+    "phraseFr": "J'ai mal à la gorge.",
+    "phrase": "У меня болит горло.",
+    "morph": {
+     "from": "горло",
+     "to": "горло",
+     "stem": "горло",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": false
+    },
+    "audioTile": "611e843f6abd.mp3",
+    "audioPhrase": "f0d8461e4a2c.mp3"
+   },
+   {
+    "tile": "живот",
+    "tileStress": 3,
+    "fr": "au ventre",
+    "phraseFr": "J'ai mal au ventre.",
+    "phrase": "У меня болит живот.",
+    "morph": {
+     "from": "живот",
+     "to": "живот",
+     "stem": "живот",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": false
+    },
+    "audioTile": "0ea126e54477.mp3",
+    "audioPhrase": "6379f33c16bb.mp3"
+   },
+   {
+    "tile": "зуб",
+    "tileStress": 1,
+    "fr": "à une dent",
+    "phraseFr": "J'ai mal à une dent.",
+    "phrase": "У меня болит зуб.",
+    "morph": {
+     "from": "зуб",
+     "to": "зуб",
+     "stem": "зуб",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": false
+    },
+    "audioTile": "d33981b52a2f.mp3",
+    "audioPhrase": "e716079009c1.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Dis que tu as mal au ventre.",
+   "answer": "живот"
+  },
+  {
+   "type": "pick",
+   "fr": "Dis que tu as mal à une dent.",
+   "answer": "зуб"
+  }
+ ],
+ "grammar": [
+  "говорите медленнее доктор",
+  "да тридцать восемь",
+  "и горло тоже",
+  "лука что случилось",
+  "маша мне плохо",
+  "маша у меня болит живот",
+  "мне плохо я буду отдыхать дома",
+  "пей чай и отдыхай",
+  "спасибо доктор",
+  "у меня болит голова",
+  "у меня болит голова и горло тоже",
+  "у тебя есть температура",
+  "что случилось",
+  "что у тебя болит",
+  "это грипп пей чай и отдыхай",
+  "[unk]"
+ ],
+ "cando": [
+  "dire que tu ne te sens pas bien",
+  "dire où tu as mal",
+  "comprendre un conseil simple"
+ ],
+ "glossary": {
+  "я": "je, moi",
+  "ты": "tu",
+  "вы": "vous",
+  "да": "oui",
+  "нет": "non",
+  "а": "et, mais",
+  "и": "et",
+  "это": "c'est, voici",
+  "не": "ne… pas",
+  "в": "dans, à",
+  "на": "sur, en",
+  "что": "quoi, que",
+  "как": "comment, comme",
+  "где": "où",
+  "очень": "très",
+  "спасибо": "merci",
+  "пожалуйста": "s'il te plaît / je t'en prie",
+  "хорошо": "bien, d'accord",
+  "привет": "salut",
+  "лука": "Luka (prénom)",
+  "маша": "Macha (prénom)",
+  "олег": "Oleg (prénom)",
+  "анна": "Anna (prénom)",
+  "у": "chez",
+  "меня": "moi (у меня = j'ai)",
+  "тебя": "toi (у тебя = tu as)",
+  "есть": "il y a",
+  "мой": "mon",
+  "моя": "ma",
+  "мне": "à moi",
+  "тоже": "aussi",
+  "сегодня": "aujourd'hui",
+  "завтра": "demain",
+  "вчера": "hier",
+  "потом": "puis, ensuite",
+  "давай": "allons-y, faisons",
+  "случилось": "(s'est) passé",
+  "плохо": "mal",
+  "болит": "fait mal",
+  "голова": "tête",
+  "голову": "tête (après хочу, люблю…)",
+  "горло": "gorge",
+  "температура": "fièvre, température",
+  "тридцать": "trente",
+  "восемь": "huit",
+  "грипп": "grippe",
+  "пей": "bois !",
+  "чай": "thé",
+  "отдыхай": "repose-toi !",
+  "отдыхаю": "(je) me repose",
+  "доктор": "docteur",
+  "живот": "ventre",
+  "зуб": "dent",
+  "буду": "(je) serai / prendrai",
+  "отдыхать": "se reposer",
+  "дома": "à la maison",
+  "говорите": "(vous) parlez",
+  "медленнее": "plus lentement"
+ },
+ "unlocks": [],
+ "items": [
+  {
+   "id": "14-medecin:what",
+   "ru": "Что случилось?",
+   "fr": "Qu'est-ce qui s'est passé ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "случилось",
+     "s": 4,
+     "w": true,
+     "a": "f27960d12597.mp3",
+     "l": "случиться"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "33707f6b6f75.mp3"
+  },
+  {
+   "id": "14-medecin:bad",
+   "ru": "Маша, мне плохо.",
+   "fr": "Macha, je ne me sens pas bien.",
+   "tokens": [
+    {
+     "t": "Маша",
+     "s": 1,
+     "w": true,
+     "a": "db2f8c7ea687.mp3",
+     "l": "маша"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "плохо",
+     "s": 2,
+     "w": true,
+     "a": "07daac928bc7.mp3",
+     "l": "плохо"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "72427d8e1252.mp3"
+  },
+  {
+   "id": "14-medecin:hurt",
+   "ru": "Что у тебя болит?",
+   "fr": "Où est-ce que tu as mal ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "у",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тебя",
+     "s": 3,
+     "w": true,
+     "a": "a677bbe7ebdf.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "болит",
+     "s": 3,
+     "w": true,
+     "a": "dcea905286ac.mp3",
+     "l": "болеть"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "188bf93f3d06.mp3"
+  },
+  {
+   "id": "14-medecin:head",
+   "ru": "У меня болит голова.",
+   "fr": "J'ai mal à la tête.",
+   "tokens": [
+    {
+     "t": "У",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "меня",
+     "s": 3,
+     "w": true,
+     "a": "2e3dc1afb7c3.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "болит",
+     "s": 3,
+     "w": true,
+     "a": "dcea905286ac.mp3",
+     "l": "болеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "голова",
+     "s": 5,
+     "w": true,
+     "a": "6e487ea48e95.mp3",
+     "l": "голова"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "34b1ca3bfc22.mp3"
+  },
+  {
+   "id": "14-medecin:throat",
+   "ru": "И горло тоже.",
+   "fr": "Et à la gorge aussi.",
+   "tokens": [
+    {
+     "t": "И",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "горло",
+     "s": 1,
+     "w": true,
+     "a": "611e843f6abd.mp3",
+     "l": "горло"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тоже",
+     "s": 1,
+     "w": true,
+     "a": "0b041fee8598.mp3",
+     "l": "тоже"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "4ab9ee4fb996.mp3"
+  },
+  {
+   "id": "14-medecin:fever",
+   "ru": "У тебя есть температура?",
+   "fr": "Tu as de la fièvre ?",
+   "tokens": [
+    {
+     "t": "У",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тебя",
+     "s": 3,
+     "w": true,
+     "a": "a677bbe7ebdf.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "есть",
+     "s": 0,
+     "w": true,
+     "a": "91c9dda6ba7c.mp3",
+     "l": "есть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "температура",
+     "s": 8,
+     "w": true,
+     "a": "9dbaf85c7d36.mp3",
+     "l": "температура"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "42e39cf51e26.mp3"
+  },
+  {
+   "id": "14-medecin:advice",
+   "ru": "Пей чай и отдыхай.",
+   "fr": "Bois du thé et repose-toi.",
+   "tokens": [
+    {
+     "t": "Пей",
+     "s": 1,
+     "w": true,
+     "a": "cf1f969d0114.mp3",
+     "l": "пить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "чай",
+     "s": 1,
+     "w": true,
+     "a": "0f1ca028b347.mp3",
+     "l": "чай"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "отдыхай",
+     "s": 5,
+     "w": true,
+     "a": "2844a810735e.mp3",
+     "l": "отдыхать"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "a7e2f3582f0f.mp3"
+  },
+  {
+   "id": "14-medecin:doctor",
+   "ru": "Спасибо, доктор!",
+   "fr": "Merci, docteur !",
+   "tokens": [
+    {
+     "t": "Спасибо",
+     "s": 4,
+     "w": true,
+     "a": "84fecfa1b01c.mp3",
+     "l": "спасибо"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "доктор",
+     "s": 1,
+     "w": true,
+     "a": "6b6e51ad989a.mp3",
+     "l": "доктор"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "31c8bbe22bbc.mp3"
+  },
+  {
+   "id": "14-medecin:c1",
+   "ru": "Маша, у меня болит живот.",
+   "fr": "Macha, j'ai mal au ventre.",
+   "tokens": [
+    {
+     "t": "Маша",
+     "s": 1,
+     "w": true,
+     "a": "db2f8c7ea687.mp3",
+     "l": "маша"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "у",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "меня",
+     "s": 3,
+     "w": true,
+     "a": "2e3dc1afb7c3.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "болит",
+     "s": 3,
+     "w": true,
+     "a": "dcea905286ac.mp3",
+     "l": "болеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "живот",
+     "s": 3,
+     "w": true,
+     "a": "0ea126e54477.mp3",
+     "l": "живот"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "e30b56ff2b39.mp3"
+  },
+  {
+   "id": "14-medecin:c2",
+   "ru": "Мне плохо. Я буду отдыхать дома.",
+   "fr": "Je ne me sens pas bien. Je vais me reposer à la maison.",
+   "tokens": [
+    {
+     "t": "Мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "плохо",
+     "s": 2,
+     "w": true,
+     "a": "07daac928bc7.mp3",
+     "l": "плохо"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "буду",
+     "s": 1,
+     "w": true,
+     "a": "f863b4d8649d.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "отдыхать",
+     "s": 5,
+     "w": true,
+     "a": "bbb38b666094.mp3",
+     "l": "отдыхать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дома",
+     "s": 1,
+     "w": true,
+     "a": "97f89f92319f.mp3",
+     "l": "дом"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "19b50e85cb24.mp3"
+  },
+  {
+   "id": "14-medecin:c3",
+   "ru": "Говорите медленнее, доктор!",
+   "fr": "Parlez plus lentement, docteur !",
+   "tokens": [
+    {
+     "t": "Говорите",
+     "s": 5,
+     "w": true,
+     "a": "af41f5721ac9.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "медленнее",
+     "s": 1,
+     "w": true,
+     "a": "072a7ce06e76.mp3",
+     "l": "медленный"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "доктор",
+     "s": 1,
+     "w": true,
+     "a": "6b6e51ad989a.mp3",
+     "l": "доктор"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "b4fa17cca2ea.mp3"
+  }
+ ],
+ "hasAudio": false
+}

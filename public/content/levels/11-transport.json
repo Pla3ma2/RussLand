@@ -1,0 +1,2132 @@
+{
+ "version": 2,
+ "id": "11-transport",
+ "order": 11,
+ "titleFr": "Prendre le métro",
+ "titleRu": "На метро",
+ "emoji": "🚇",
+ "sceneFr": "Lundi matin, Luka part à son cours de russe. Dans l'ascenseur, il retrouve Macha qui va à l'hôpital.",
+ "learner": "luka",
+ "speakers": {
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  },
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "masha",
+   "ru": "Доброе утро, Лука! Куда ты идёшь?",
+   "fr": "Bonjour, Luka ! Où est-ce que tu vas ?",
+   "tokens": [
+    {
+     "t": "Доброе",
+     "s": 1,
+     "w": true,
+     "a": "ae8f3a77633f.mp3",
+     "l": "добрый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "утро",
+     "s": 0,
+     "w": true,
+     "a": "20d04794e549.mp3",
+     "l": "утро"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Куда",
+     "s": 3,
+     "w": true,
+     "a": "a4fece99391c.mp3",
+     "l": "куда"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "идёшь",
+     "s": 2,
+     "w": true,
+     "a": "f2f10e84b69e.mp3",
+     "l": "идти"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "751815c1a470.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Доброе утро! Я иду на урок.",
+   "fr": "Bonjour ! Je vais à mon cours.",
+   "tokens": [
+    {
+     "t": "Доброе",
+     "s": 1,
+     "w": true,
+     "a": "ae8f3a77633f.mp3",
+     "l": "добрый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "утро",
+     "s": 0,
+     "w": true,
+     "a": "20d04794e549.mp3",
+     "l": "утро"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "иду",
+     "s": 2,
+     "w": true,
+     "a": "7d1f57a66b7b.mp3",
+     "l": "идти"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "урок",
+     "s": 2,
+     "w": true,
+     "a": "0b1e76679f28.mp3",
+     "l": "урок"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "4818de183629.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Ты едешь на метро?",
+   "fr": "Tu y vas en métro ?",
+   "tokens": [
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "едешь",
+     "s": 0,
+     "w": true,
+     "a": "5a90c16e681d.mp3",
+     "l": "ехать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "метро",
+     "s": 4,
+     "w": true,
+     "a": "bf84861a30b9.mp3",
+     "l": "метро"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "b90b922d1249.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Нет, я еду на автобусе. А ты?",
+   "fr": "Non, j'y vais en bus. Et toi ?",
+   "tokens": [
+    {
+     "t": "Нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "еду",
+     "s": 0,
+     "w": true,
+     "a": "e6862b82d048.mp3",
+     "l": "еда"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "автобусе",
+     "s": 3,
+     "w": true,
+     "a": "3cfeb2dead53.mp3",
+     "l": "автобус"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "7d81064ec82d.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Я еду в больницу. На метро.",
+   "fr": "Je vais à l'hôpital. En métro.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "еду",
+     "s": 0,
+     "w": true,
+     "a": "e6862b82d048.mp3",
+     "l": "еда"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "больницу",
+     "s": 5,
+     "w": true,
+     "a": "f5dab28f7cbc.mp3",
+     "l": "больница"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "На",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "метро",
+     "s": 4,
+     "w": true,
+     "a": "bf84861a30b9.mp3",
+     "l": "метро"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "3f6451edf890.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Это далеко?",
+   "fr": "C'est loin ?",
+   "tokens": [
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "далеко",
+     "s": 5,
+     "w": true,
+     "a": "142b03006798.mp3",
+     "l": "далеко"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "105808f55971.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Нет, двадцать минут. Пока!",
+   "fr": "Non, vingt minutes. Salut !",
+   "tokens": [
+    {
+     "t": "Нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "двадцать",
+     "s": 2,
+     "w": true,
+     "a": "027cae5adf6b.mp3",
+     "l": "двадцать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "минут",
+     "s": 3,
+     "w": true,
+     "a": "2e01f27b926b.mp3",
+     "l": "минута"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Пока",
+     "s": 3,
+     "w": true,
+     "a": "f78104620718.mp3",
+     "l": "пока"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "e9afc6133451.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Пока! Хорошего дня!",
+   "fr": "Salut ! Bonne journée !",
+   "tokens": [
+    {
+     "t": "Пока",
+     "s": 3,
+     "w": true,
+     "a": "f78104620718.mp3",
+     "l": "пока"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Хорошего",
+     "s": 3,
+     "w": true,
+     "a": "ef4737b712fb.mp3",
+     "l": "хороший"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дня",
+     "s": 2,
+     "w": true,
+     "a": "0d102b005234.mp3",
+     "l": "день"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "51c1e57be816.mp3"
+  }
+ ],
+ "phrases": {
+  "where": {
+   "speaker": "masha",
+   "ru": "Куда ты идёшь?",
+   "fr": "Où est-ce que tu vas ?",
+   "tokens": [
+    {
+     "t": "Куда",
+     "s": 3,
+     "w": true,
+     "a": "a4fece99391c.mp3",
+     "l": "куда"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "идёшь",
+     "s": 2,
+     "w": true,
+     "a": "f2f10e84b69e.mp3",
+     "l": "идти"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "131368b9a1b9.mp3",
+   "id": "where",
+   "noteFr": "« Куда » = où (vers où on va). « Где » = où on est. « Идёшь » = (tu) vas, à pied.",
+   "gap": {
+    "index": 0,
+    "whyFr": "Pour une direction (aller vers) : « куда ». « Где », c'est pour l'endroit où l'on est.",
+    "distractors": [
+     {
+      "t": "где",
+      "a": "fe72644ce047.mp3",
+      "s": 2
+     },
+     {
+      "t": "пока",
+      "a": "f78104620718.mp3",
+      "s": 3
+     }
+    ]
+   },
+   "orders": [
+    "куда ты идёшь",
+    "ты куда идёшь"
+   ]
+  },
+  "lesson": {
+   "speaker": "luka",
+   "ru": "Я иду на урок.",
+   "fr": "Je vais à mon cours.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "иду",
+     "s": 2,
+     "w": true,
+     "a": "7d1f57a66b7b.mp3",
+     "l": "идти"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "урок",
+     "s": 2,
+     "w": true,
+     "a": "0b1e76679f28.mp3",
+     "l": "урок"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "9df991b8de2e.mp3",
+   "id": "lesson",
+   "noteFr": "« Иду » = (je) vais, à pied. « На урок » = au cours.",
+   "gap": {
+    "index": 2,
+    "whyFr": "Avec « я » : « иду ». « Идёшь », c'est pour « ты ».",
+    "distractors": [
+     {
+      "t": "идёшь",
+      "a": "f2f10e84b69e.mp3",
+      "s": 2
+     },
+     {
+      "t": "пока",
+      "a": "f78104620718.mp3",
+      "s": 3
+     }
+    ]
+   },
+   "orders": [
+    "я иду на урок",
+    "на урок я иду"
+   ]
+  },
+  "metroq": {
+   "speaker": "masha",
+   "ru": "Ты едешь на метро?",
+   "fr": "Tu y vas en métro ?",
+   "tokens": [
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "едешь",
+     "s": 0,
+     "w": true,
+     "a": "5a90c16e681d.mp3",
+     "l": "ехать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "метро",
+     "s": 4,
+     "w": true,
+     "a": "bf84861a30b9.mp3",
+     "l": "метро"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "b90b922d1249.mp3",
+   "id": "metroq",
+   "noteFr": "« Ехать » = aller en véhicule : « ты едешь ». « На метро » = en métro.",
+   "gap": {
+    "index": 2,
+    "whyFr": "Avec « ты » : « едешь ». « Еду », c'est pour « я ».",
+    "distractors": [
+     {
+      "t": "еду",
+      "a": "a3c7dbaba6b2.mp3",
+      "s": 2
+     },
+     {
+      "t": "куда",
+      "a": "a4fece99391c.mp3",
+      "s": 3
+     }
+    ]
+   },
+   "orders": [
+    "ты едешь на метро",
+    "на метро ты едешь"
+   ]
+  },
+  "bus": {
+   "speaker": "luka",
+   "ru": "Нет, я еду на автобусе.",
+   "fr": "Non, j'y vais en bus.",
+   "tokens": [
+    {
+     "t": "Нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "еду",
+     "s": 0,
+     "w": true,
+     "a": "e6862b82d048.mp3",
+     "l": "еда"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "автобусе",
+     "s": 3,
+     "w": true,
+     "a": "3cfeb2dead53.mp3",
+     "l": "автобус"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "11d5d5ad3266.mp3",
+   "id": "bus",
+   "noteFr": "« На автобусе » = en bus : « автобус » prend -е, comme pour un lieu.",
+   "gap": {
+    "index": 8,
+    "whyFr": "Avec « на » pour le moyen de transport : « автобус » → « на автобусе ».",
+    "distractors": [
+     {
+      "t": "автобус",
+      "a": "333182cf20d4.mp3",
+      "s": 3
+     },
+     {
+      "t": "метро",
+      "a": "bf84861a30b9.mp3",
+      "s": 4
+     }
+    ]
+   },
+   "orders": [
+    "нет я еду на автобусе",
+    "нет на автобусе я еду"
+   ]
+  },
+  "hospital": {
+   "speaker": "masha",
+   "ru": "Я еду в больницу.",
+   "fr": "Je vais à l'hôpital.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "еду",
+     "s": 0,
+     "w": true,
+     "a": "e6862b82d048.mp3",
+     "l": "еда"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "больницу",
+     "s": 5,
+     "w": true,
+     "a": "f5dab28f7cbc.mp3",
+     "l": "больница"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "110a07e9fe97.mp3",
+   "id": "hospital",
+   "noteFr": "« Больница » = hôpital. Pour aller vers, « в » + -у : « в больницу ».",
+   "gap": {
+    "index": 6,
+    "whyFr": "Pour aller VERS un lieu : « в больницу » (-у). « В больнице » (-е), c'est quand on y est déjà.",
+    "distractors": [
+     {
+      "t": "больнице",
+      "a": "bb5f2e5b9aba.mp3",
+      "s": 5
+     },
+     {
+      "t": "автобусе",
+      "a": "3cfeb2dead53.mp3",
+      "s": 3
+     }
+    ]
+   },
+   "orders": [
+    "я еду в больницу",
+    "в больницу я еду"
+   ]
+  },
+  "far": {
+   "speaker": "luka",
+   "ru": "Это далеко?",
+   "fr": "C'est loin ?",
+   "tokens": [
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "далеко",
+     "s": 5,
+     "w": true,
+     "a": "142b03006798.mp3",
+     "l": "далеко"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "105808f55971.mp3",
+   "id": "far",
+   "noteFr": "Tu le connais déjà !",
+   "gap": {
+    "index": 2,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "пока",
+      "a": "f78104620718.mp3",
+      "s": 3
+     },
+     {
+      "t": "урок",
+      "a": "0b1e76679f28.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "twenty": {
+   "speaker": "masha",
+   "ru": "Нет, двадцать минут. Пока!",
+   "fr": "Non, vingt minutes. Salut !",
+   "tokens": [
+    {
+     "t": "Нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "двадцать",
+     "s": 2,
+     "w": true,
+     "a": "027cae5adf6b.mp3",
+     "l": "двадцать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "минут",
+     "s": 3,
+     "w": true,
+     "a": "2e01f27b926b.mp3",
+     "l": "минута"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Пока",
+     "s": 3,
+     "w": true,
+     "a": "f78104620718.mp3",
+     "l": "пока"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "e9afc6133451.mp3",
+   "id": "twenty",
+   "noteFr": "« Двадцать » = vingt. « Пока » = salut (pour partir), entre amis.",
+   "gap": {
+    "index": 2,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "куда",
+      "a": "a4fece99391c.mp3",
+      "s": 3
+     },
+     {
+      "t": "урок",
+      "a": "0b1e76679f28.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "niceday": {
+   "speaker": "luka",
+   "ru": "Пока! Хорошего дня!",
+   "fr": "Salut ! Bonne journée !",
+   "tokens": [
+    {
+     "t": "Пока",
+     "s": 3,
+     "w": true,
+     "a": "f78104620718.mp3",
+     "l": "пока"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Хорошего",
+     "s": 3,
+     "w": true,
+     "a": "ef4737b712fb.mp3",
+     "l": "хороший"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дня",
+     "s": 2,
+     "w": true,
+     "a": "0d102b005234.mp3",
+     "l": "день"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "51c1e57be816.mp3",
+   "id": "niceday",
+   "noteFr": "« Хорошего дня » = bonne journée.",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "урок",
+      "a": "0b1e76679f28.mp3",
+      "s": 2
+     },
+     {
+      "t": "метро",
+      "a": "bf84861a30b9.mp3",
+      "s": 4
+     }
+    ]
+   }
+  },
+  "c1": {
+   "speaker": "luka",
+   "ru": "Куда ты едешь?",
+   "fr": "Où est-ce que tu vas (en véhicule) ?",
+   "tokens": [
+    {
+     "t": "Куда",
+     "s": 3,
+     "w": true,
+     "a": "a4fece99391c.mp3",
+     "l": "куда"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "едешь",
+     "s": 0,
+     "w": true,
+     "a": "5a90c16e681d.mp3",
+     "l": "ехать"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "8b00c4f53a63.mp3",
+   "id": "c1",
+   "noteFr": "",
+   "orders": [
+    "куда ты едешь",
+    "ты куда едешь"
+   ],
+   "combo": {
+    "from": [
+     "Prendre le métro",
+     "Je ne comprends pas"
+    ],
+    "extra": [
+     {
+      "t": "где",
+      "a": "fe72644ce047.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "c2": {
+   "speaker": "luka",
+   "ru": "Я иду в парк.",
+   "fr": "Je vais au parc.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "иду",
+     "s": 2,
+     "w": true,
+     "a": "7d1f57a66b7b.mp3",
+     "l": "идти"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "парк",
+     "s": 1,
+     "w": true,
+     "a": "3ca7ccbdbe24.mp3",
+     "l": "парк"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "7689f59c8bde.mp3",
+   "id": "c2",
+   "noteFr": "Pour aller VERS : « в парк », sans -е.",
+   "orders": [
+    "я иду в парк",
+    "в парк я иду"
+   ],
+   "combo": {
+    "from": [
+     "Faire connaissance",
+     "Où es-tu ?"
+    ],
+    "extra": [
+     {
+      "t": "парке",
+      "a": "4f451702cba3.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "c3": {
+   "speaker": "luka",
+   "ru": "Ты едешь на такси?",
+   "fr": "Tu y vas en taxi ?",
+   "tokens": [
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "едешь",
+     "s": 0,
+     "w": true,
+     "a": "5a90c16e681d.mp3",
+     "l": "ехать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "такси",
+     "s": 4,
+     "w": true,
+     "a": "24b813e2b0e6.mp3",
+     "l": "такси"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "f69129b29a76.mp3",
+   "id": "c3",
+   "noteFr": "",
+   "orders": [
+    "ты едешь на такси",
+    "на такси ты едешь"
+   ],
+   "combo": {
+    "from": [
+     "Je ne comprends pas",
+     "Prendre le métro"
+    ],
+    "extra": [
+     {
+      "t": "еду",
+      "a": "a3c7dbaba6b2.mp3",
+      "s": 2
+     }
+    ]
+   }
+  }
+ },
+ "parts": [
+  {
+   "titleFr": "Où vas-tu ?",
+   "steps": [
+    {
+     "type": "scene"
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "where",
+      "lesson"
+     ]
+    },
+    {
+     "type": "insight",
+     "index": 0
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "metroq",
+      "bus"
+     ],
+     "review": [
+      "where",
+      "lesson"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "En métro, en bus",
+   "steps": [
+    {
+     "type": "warmup",
+     "phrases": [
+      "where",
+      "lesson",
+      "metroq"
+     ]
+    },
+    {
+     "type": "explore"
+    },
+    {
+     "type": "insight",
+     "index": 1
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "hospital",
+      "far"
+     ],
+     "review": [
+      "metroq",
+      "bus"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "twenty",
+      "niceday"
+     ],
+     "review": [
+      "hospital"
+     ]
+    },
+    {
+     "type": "combine",
+     "phrases": [
+      "c1",
+      "c2",
+      "c3"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Joue la scène",
+   "steps": [
+    {
+     "type": "final"
+    },
+    {
+     "type": "roleplay"
+    }
+   ]
+  }
+ ],
+ "insights": [
+  {
+   "by": "masha",
+   "fr": [
+    "Le russe a deux verbes pour « aller » : « идти » à pied (я иду, ты идёшь) et « ехать » en véhicule (я еду, ты едешь).",
+    "Et deux « où » : « где » (où l'on est) et « куда » (où l'on va)."
+   ]
+  },
+  {
+   "by": "masha",
+   "fr": [
+    "Pour le moyen de transport : « на » + le vert du lieu : « на автобусе », « на машине ». « Метро » et « такси » ne changent jamais.",
+    "Mais pour aller VERS un lieu, c'est le bleu : « я еду в больницу » (-у). Comparer : « я в больнице » = j'y suis."
+   ]
+  }
+ ],
+ "explore": {
+  "type": "case",
+  "frameFr": "J'y vais en ___.",
+  "color": "#2a9d8f",
+  "hintFr": "Mets chaque transport après « на » et regarde bien la fin du mot.",
+  "before": [
+   {
+    "t": "Я",
+    "s": 0,
+    "w": true,
+    "a": "70b9d9783365.mp3",
+    "l": "я"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "еду",
+    "s": 0,
+    "w": true,
+    "a": "e6862b82d048.mp3",
+    "l": "еда"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "на",
+    "s": 1,
+    "w": true,
+    "a": "618d69551a14.mp3",
+    "l": "на"
+   },
+   {
+    "t": " ",
+    "w": false
+   }
+  ],
+  "after": [
+   {
+    "t": ".",
+    "w": false
+   }
+  ],
+  "verb": null,
+  "words": [
+   {
+    "tile": "метро",
+    "tileStress": 4,
+    "fr": "métro",
+    "phraseFr": "J'y vais en métro.",
+    "phrase": "Я еду на метро.",
+    "morph": {
+     "from": "метро",
+     "to": "метро",
+     "stem": "метро",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 4,
+     "stressTo": 4,
+     "changed": false
+    },
+    "audioTile": "bf84861a30b9.mp3",
+    "audioPhrase": "d378a3004f96.mp3"
+   },
+   {
+    "tile": "автобус",
+    "tileStress": 3,
+    "fr": "bus",
+    "phraseFr": "J'y vais en bus.",
+    "phrase": "Я еду на автобусе.",
+    "morph": {
+     "from": "автобус",
+     "to": "автобусе",
+     "stem": "автобус",
+     "endFrom": "",
+     "endTo": "е",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": true
+    },
+    "audioTile": "333182cf20d4.mp3",
+    "audioPhrase": "0c402671f436.mp3"
+   },
+   {
+    "tile": "машина",
+    "tileStress": 3,
+    "fr": "voiture",
+    "phraseFr": "J'y vais en voiture.",
+    "phrase": "Я еду на машине.",
+    "morph": {
+     "from": "машина",
+     "to": "машине",
+     "stem": "машин",
+     "endFrom": "а",
+     "endTo": "е",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": true
+    },
+    "audioTile": "6191c0679fef.mp3",
+    "audioPhrase": "db6bb87f8db3.mp3"
+   },
+   {
+    "tile": "такси",
+    "tileStress": 4,
+    "fr": "taxi",
+    "phraseFr": "J'y vais en taxi.",
+    "phrase": "Я еду на такси.",
+    "morph": {
+     "from": "такси",
+     "to": "такси",
+     "stem": "такси",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 4,
+     "stressTo": 4,
+     "changed": false
+    },
+    "audioTile": "24b813e2b0e6.mp3",
+    "audioPhrase": "483e751c5f06.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Dis que tu y vas en voiture.",
+   "answer": "машина"
+  },
+  {
+   "type": "pick",
+   "fr": "Dis que tu y vas en taxi.",
+   "answer": "такси"
+  }
+ ],
+ "grammar": [
+  "доброе утро лука куда ты идёшь",
+  "доброе утро я иду на урок",
+  "куда ты едешь",
+  "куда ты идёшь",
+  "нет двадцать минут пока",
+  "нет я еду на автобусе",
+  "нет я еду на автобусе а ты",
+  "пока хорошего дня",
+  "ты едешь на метро",
+  "ты едешь на такси",
+  "это далеко",
+  "я еду в больницу",
+  "я еду в больницу на метро",
+  "я иду в парк",
+  "я иду на урок",
+  "[unk]"
+ ],
+ "cando": [
+  "dire où tu vas",
+  "dire comment tu y vas",
+  "dire au revoir entre amis"
+ ],
+ "glossary": {
+  "я": "je, moi",
+  "ты": "tu",
+  "вы": "vous",
+  "да": "oui",
+  "нет": "non",
+  "а": "et, mais",
+  "и": "et",
+  "это": "c'est, voici",
+  "не": "ne… pas",
+  "в": "dans, à",
+  "на": "sur, en",
+  "что": "quoi, que",
+  "как": "comment, comme",
+  "где": "où",
+  "очень": "très",
+  "спасибо": "merci",
+  "пожалуйста": "s'il te plaît / je t'en prie",
+  "хорошо": "bien, d'accord",
+  "привет": "salut",
+  "лука": "Luka (prénom)",
+  "маша": "Macha (prénom)",
+  "олег": "Oleg (prénom)",
+  "анна": "Anna (prénom)",
+  "у": "chez",
+  "меня": "moi (у меня = j'ai)",
+  "тебя": "toi (у тебя = tu as)",
+  "есть": "il y a",
+  "мой": "mon",
+  "моя": "ma",
+  "мне": "à moi",
+  "тоже": "aussi",
+  "сегодня": "aujourd'hui",
+  "завтра": "demain",
+  "вчера": "hier",
+  "потом": "puis, ensuite",
+  "давай": "allons-y, faisons",
+  "доброе": "bon (доброе утро = bonjour, le matin)",
+  "утро": "matin",
+  "куда": "où (vers où)",
+  "идешь": "(tu) vas (à pied)",
+  "иду": "(je) vais (à pied)",
+  "урок": "cours, leçon",
+  "едешь": "(tu) vas (en véhicule)",
+  "еду": "(je) vais (en véhicule)",
+  "метро": "métro",
+  "автобусе": "bus (après на)",
+  "автобус": "bus",
+  "больницу": "hôpital (vers)",
+  "больнице": "hôpital (dedans)",
+  "больница": "hôpital",
+  "далеко": "loin",
+  "двадцать": "vingt",
+  "минут": "minutes",
+  "пока": "salut (au revoir)",
+  "хорошего": "bon(ne)",
+  "дня": "journée (хорошего дня = bonne journée)",
+  "машина": "voiture",
+  "такси": "taxi",
+  "парк": "parc"
+ },
+ "unlocks": [
+  {
+   "case": "loct",
+   "gender": "masc",
+   "from": "автобус",
+   "to": "автобусе"
+  },
+  {
+   "case": "accs",
+   "gender": "femn",
+   "from": "больница",
+   "to": "больницу"
+  }
+ ],
+ "items": [
+  {
+   "id": "11-transport:where",
+   "ru": "Куда ты идёшь?",
+   "fr": "Où est-ce que tu vas ?",
+   "tokens": [
+    {
+     "t": "Куда",
+     "s": 3,
+     "w": true,
+     "a": "a4fece99391c.mp3",
+     "l": "куда"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "идёшь",
+     "s": 2,
+     "w": true,
+     "a": "f2f10e84b69e.mp3",
+     "l": "идти"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "131368b9a1b9.mp3"
+  },
+  {
+   "id": "11-transport:lesson",
+   "ru": "Я иду на урок.",
+   "fr": "Je vais à mon cours.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "иду",
+     "s": 2,
+     "w": true,
+     "a": "7d1f57a66b7b.mp3",
+     "l": "идти"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "урок",
+     "s": 2,
+     "w": true,
+     "a": "0b1e76679f28.mp3",
+     "l": "урок"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "9df991b8de2e.mp3"
+  },
+  {
+   "id": "11-transport:metroq",
+   "ru": "Ты едешь на метро?",
+   "fr": "Tu y vas en métro ?",
+   "tokens": [
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "едешь",
+     "s": 0,
+     "w": true,
+     "a": "5a90c16e681d.mp3",
+     "l": "ехать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "метро",
+     "s": 4,
+     "w": true,
+     "a": "bf84861a30b9.mp3",
+     "l": "метро"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "b90b922d1249.mp3"
+  },
+  {
+   "id": "11-transport:bus",
+   "ru": "Нет, я еду на автобусе.",
+   "fr": "Non, j'y vais en bus.",
+   "tokens": [
+    {
+     "t": "Нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "еду",
+     "s": 0,
+     "w": true,
+     "a": "e6862b82d048.mp3",
+     "l": "еда"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "автобусе",
+     "s": 3,
+     "w": true,
+     "a": "3cfeb2dead53.mp3",
+     "l": "автобус"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "11d5d5ad3266.mp3"
+  },
+  {
+   "id": "11-transport:hospital",
+   "ru": "Я еду в больницу.",
+   "fr": "Je vais à l'hôpital.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "еду",
+     "s": 0,
+     "w": true,
+     "a": "e6862b82d048.mp3",
+     "l": "еда"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "больницу",
+     "s": 5,
+     "w": true,
+     "a": "f5dab28f7cbc.mp3",
+     "l": "больница"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "110a07e9fe97.mp3"
+  },
+  {
+   "id": "11-transport:far",
+   "ru": "Это далеко?",
+   "fr": "C'est loin ?",
+   "tokens": [
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "далеко",
+     "s": 5,
+     "w": true,
+     "a": "142b03006798.mp3",
+     "l": "далеко"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "105808f55971.mp3"
+  },
+  {
+   "id": "11-transport:twenty",
+   "ru": "Нет, двадцать минут. Пока!",
+   "fr": "Non, vingt minutes. Salut !",
+   "tokens": [
+    {
+     "t": "Нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "двадцать",
+     "s": 2,
+     "w": true,
+     "a": "027cae5adf6b.mp3",
+     "l": "двадцать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "минут",
+     "s": 3,
+     "w": true,
+     "a": "2e01f27b926b.mp3",
+     "l": "минута"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Пока",
+     "s": 3,
+     "w": true,
+     "a": "f78104620718.mp3",
+     "l": "пока"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "e9afc6133451.mp3"
+  },
+  {
+   "id": "11-transport:niceday",
+   "ru": "Пока! Хорошего дня!",
+   "fr": "Salut ! Bonne journée !",
+   "tokens": [
+    {
+     "t": "Пока",
+     "s": 3,
+     "w": true,
+     "a": "f78104620718.mp3",
+     "l": "пока"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Хорошего",
+     "s": 3,
+     "w": true,
+     "a": "ef4737b712fb.mp3",
+     "l": "хороший"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дня",
+     "s": 2,
+     "w": true,
+     "a": "0d102b005234.mp3",
+     "l": "день"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "51c1e57be816.mp3"
+  },
+  {
+   "id": "11-transport:c1",
+   "ru": "Куда ты едешь?",
+   "fr": "Où est-ce que tu vas (en véhicule) ?",
+   "tokens": [
+    {
+     "t": "Куда",
+     "s": 3,
+     "w": true,
+     "a": "a4fece99391c.mp3",
+     "l": "куда"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "едешь",
+     "s": 0,
+     "w": true,
+     "a": "5a90c16e681d.mp3",
+     "l": "ехать"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "8b00c4f53a63.mp3"
+  },
+  {
+   "id": "11-transport:c2",
+   "ru": "Я иду в парк.",
+   "fr": "Je vais au parc.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "иду",
+     "s": 2,
+     "w": true,
+     "a": "7d1f57a66b7b.mp3",
+     "l": "идти"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "парк",
+     "s": 1,
+     "w": true,
+     "a": "3ca7ccbdbe24.mp3",
+     "l": "парк"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "7689f59c8bde.mp3"
+  },
+  {
+   "id": "11-transport:c3",
+   "ru": "Ты едешь на такси?",
+   "fr": "Tu y vas en taxi ?",
+   "tokens": [
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "едешь",
+     "s": 0,
+     "w": true,
+     "a": "5a90c16e681d.mp3",
+     "l": "ехать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "на",
+     "s": 1,
+     "w": true,
+     "a": "618d69551a14.mp3",
+     "l": "на"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "такси",
+     "s": 4,
+     "w": true,
+     "a": "24b813e2b0e6.mp3",
+     "l": "такси"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "f69129b29a76.mp3"
+  }
+ ],
+ "hasAudio": false
+}

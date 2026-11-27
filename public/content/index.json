@@ -97,6 +97,132 @@
    ],
    "version": 2,
    "parts": 3
+  },
+  {
+   "id": "08-famille",
+   "order": 8,
+   "titleFr": "Ma famille",
+   "titleRu": "Моя семья",
+   "emoji": "👨‍👩‍👧",
+   "cando": [
+    "parler de ta famille",
+    "dire « j'ai »",
+    "dire comment s'appelle quelqu'un"
+   ],
+   "version": 2,
+   "parts": 3
+  },
+  {
+   "id": "09-journee",
+   "order": 9,
+   "titleFr": "Ma journée",
+   "titleRu": "Мой день",
+   "emoji": "⏰",
+   "cando": [
+    "raconter ta journée",
+    "dire où tu travailles",
+    "dire ce que tu fais le soir"
+   ],
+   "version": 2,
+   "parts": 3
+  },
+  {
+   "id": "10-restaurant",
+   "order": 10,
+   "titleFr": "Au restaurant",
+   "titleRu": "В ресторане",
+   "emoji": "🍲",
+   "cando": [
+    "commander au restaurant",
+    "dire que c'était bon",
+    "demander l'addition"
+   ],
+   "version": 2,
+   "parts": 3
+  },
+  {
+   "id": "11-transport",
+   "order": 11,
+   "titleFr": "Prendre le métro",
+   "titleRu": "На метро",
+   "emoji": "🚇",
+   "cando": [
+    "dire où tu vas",
+    "dire comment tu y vas",
+    "dire au revoir entre amis"
+   ],
+   "version": 2,
+   "parts": 3
+  },
+  {
+   "id": "12-weekend",
+   "order": 12,
+   "titleFr": "Le week-end",
+   "titleRu": "Выходные",
+   "emoji": "🎬",
+   "cando": [
+    "raconter ton week-end",
+    "parler au passé",
+    "dire avec qui tu étais"
+   ],
+   "version": 2,
+   "parts": 3
+  },
+  {
+   "id": "13-demain",
+   "order": 13,
+   "titleFr": "Les projets",
+   "titleRu": "Планы",
+   "emoji": "📅",
+   "cando": [
+    "parler de tes projets",
+    "parler au futur",
+    "accepter une proposition"
+   ],
+   "version": 2,
+   "parts": 3
+  },
+  {
+   "id": "14-medecin",
+   "order": 14,
+   "titleFr": "Je suis malade",
+   "titleRu": "Я болею",
+   "emoji": "🤒",
+   "cando": [
+    "dire que tu ne te sens pas bien",
+    "dire où tu as mal",
+    "comprendre un conseil simple"
+   ],
+   "version": 2,
+   "parts": 3
+  },
+  {
+   "id": "15-invitation",
+   "order": 15,
+   "titleFr": "Une invitation",
+   "titleRu": "Приглашение",
+   "emoji": "🎭",
+   "cando": [
+    "inviter quelqu'un",
+    "accepter une invitation",
+    "fixer un rendez-vous"
+   ],
+   "version": 2,
+   "parts": 3
+  },
+  {
+   "id": "16-hiver",
+   "order": 16,
+   "titleFr": "L'hiver arrive",
+   "titleRu": "Зима",
+   "emoji": "❄️",
+   "cando": [
+    "parler de la météo",
+    "dire « il faut »",
+    "dire « je n'ai pas de… »"
+   ],
+   "version": 2,
+   "parts": 3
   }
  ]
 }

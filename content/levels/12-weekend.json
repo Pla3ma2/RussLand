@@ -1,0 +1,434 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "12-weekend",
+  "order": 12,
+  "titleFr": "Le week-end",
+  "titleRu": "Выходные",
+  "emoji": "🎬",
+  "sceneFr": "Lundi soir, Luka passe au café. Anna lui demande comment s'est passé son week-end.",
+  "dialogue": [
+    {
+      "speaker": "anna",
+      "ru": "Привет, Л+ука! Что ты делал в субботу?",
+      "fr": "Salut, Luka ! Qu'est-ce que tu as fait samedi ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "В субботу я был в музее.",
+      "fr": "Samedi, j'étais au musée."
+    },
+    {
+      "speaker": "anna",
+      "ru": "Один?",
+      "fr": "Tout seul ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Нет, с Машей. А вечером мы смотрели фильм.",
+      "fr": "Non, avec Macha. Et le soir, on a regardé un film."
+    },
+    {
+      "speaker": "anna",
+      "ru": "А в воскресенье?",
+      "fr": "Et dimanche ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "В воскресенье я отдыхал д+ома. А ты?",
+      "fr": "Dimanche, je me suis reposé à la maison. Et toi ?"
+    },
+    {
+      "speaker": "anna",
+      "ru": "А я работала. Весь день!",
+      "fr": "Et moi, j'ai travaillé. Toute la journée !"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Бедная Анна!",
+      "fr": "Pauvre Anna !"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "whatdid",
+      "speaker": "anna",
+      "ru": "Что ты делал в субботу?",
+      "fr": "Qu'est-ce que tu as fait samedi ?",
+      "noteFr": "Le passé : « делал » = (tu) as fait. « В субботу » = samedi.",
+      "gap": {
+        "word": "делал",
+        "distractors": [
+          "делаешь",
+          "был"
+        ],
+        "whyFr": "Ici on parle du passé (samedi dernier) : « делал ». « Делаешь », c'est le présent."
+      },
+      "orders": [
+        "что ты делал в субботу",
+        "что ты в субботу делал"
+      ]
+    },
+    {
+      "id": "museum",
+      "speaker": "luka",
+      "ru": "В субботу я был в музее.",
+      "fr": "Samedi, j'étais au musée.",
+      "noteFr": "« Был » = j'étais (un homme). « В музее » : le vert du lieu.",
+      "gap": {
+        "word": "был",
+        "distractors": [
+          "была",
+          "один"
+        ],
+        "whyFr": "Luka est un homme : « я был ». Une femme dirait « я была »."
+      },
+      "orders": [
+        "в субботу я был в музее",
+        "я был в музее в субботу"
+      ]
+    },
+    {
+      "id": "alone",
+      "speaker": "anna",
+      "ru": "Один?",
+      "fr": "Tout seul ?",
+      "noteFr": "« Один » = un, seul."
+    },
+    {
+      "id": "withmasha",
+      "speaker": "luka",
+      "ru": "Нет, с Машей.",
+      "fr": "Non, avec Macha.",
+      "noteFr": "« С » = avec. Après « с », le nom change : « Маша » → « с Машей ». Retiens-le tel quel pour l'instant.",
+      "gap": {
+        "word": "с",
+        "distractors": [
+          "в",
+          "на"
+        ]
+      }
+    },
+    {
+      "id": "film",
+      "speaker": "luka",
+      "ru": "А вечером мы смотрели фильм.",
+      "fr": "Et le soir, on a regardé un film.",
+      "noteFr": "« Мы смотрели » = nous avons regardé. Au pluriel, le passé finit en -ли.",
+      "gap": {
+        "word": "смотрели",
+        "distractors": [
+          "смотрел",
+          "д+ома"
+        ],
+        "whyFr": "Avec « мы » (nous), le passé finit en -ли : « смотрели »."
+      },
+      "orders": [
+        "а вечером мы смотрели фильм",
+        "а мы вечером смотрели фильм"
+      ]
+    },
+    {
+      "id": "sunday",
+      "speaker": "anna",
+      "ru": "А в воскресенье?",
+      "fr": "Et dimanche ?",
+      "noteFr": "« Воскресенье » = dimanche."
+    },
+    {
+      "id": "rested",
+      "speaker": "luka",
+      "ru": "В воскресенье я отдыхал д+ома.",
+      "fr": "Dimanche, je me suis reposé à la maison.",
+      "noteFr": "« Отдыхал » = je me suis reposé (homme). « Дома » = à la maison.",
+      "gap": {
+        "word": "отдыхал",
+        "distractors": [
+          "отдыхала",
+          "музее"
+        ],
+        "whyFr": "Luka est un homme : « отдыхал ». Une femme dirait « отдыхала »."
+      },
+      "orders": [
+        "в воскресенье я отдыхал дома",
+        "я отдыхал дома в воскресенье"
+      ]
+    },
+    {
+      "id": "worked",
+      "speaker": "anna",
+      "ru": "А я работала. Весь день!",
+      "fr": "Et moi, j'ai travaillé. Toute la journée !",
+      "noteFr": "Anna est une femme : « работала » (avec -а). « Весь день » = toute la journée.",
+      "gap": {
+        "word": "работала",
+        "distractors": [
+          "работал",
+          "д+ома"
+        ],
+        "whyFr": "Anna est une femme, donc -ла : « я работала ». « Работал », c'est pour un homme."
+      }
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Samedi",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 0
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "whatdid",
+            "museum"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "alone",
+            "withmasha",
+            "film"
+          ],
+          "review": [
+            "museum"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Dimanche",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "whatdid",
+            "museum",
+            "film"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "sunday",
+            "rested"
+          ],
+          "review": [
+            "withmasha",
+            "film"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "worked"
+          ],
+          "review": [
+            "rested",
+            "museum"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "anna",
+      "fr": [
+        "Le passé russe est simple : on enlève -ть et on met -л. « Работать » → « работал ».",
+        "Mais il suit le genre ! Un homme dit « я работал », une femme « я работала ». Pour « nous » ou « vous » : « работали ».",
+        "Et « être » au passé : « был » (homme), « была » (femme), « были » (pluriel)."
+      ]
+    },
+    {
+      "by": "anna",
+      "fr": [
+        "Les jours avec « в » : « в субботу » (samedi), « в воскресенье » (dimanche), « в понедельник » (lundi).",
+        "Tu remarques ? Il n'y a qu'un seul passé en russe pour « j'ai travaillé », « je travaillais »… Pratique !"
+      ]
+    }
+  ],
+  "explore": {
+    "type": "plain",
+    "speaker": "luka",
+    "frame": "Вчера я ___.",
+    "frameFr": "Hier, je ___.",
+    "color": "#5c677d",
+    "hintFr": "Écoute la fin : -л pour un homme, -ла pour une femme.",
+    "words": [
+      {
+        "tile": "работал",
+        "fr": "ai travaillé (homme)",
+        "phraseFr": "Hier, j'ai travaillé. (un homme)"
+      },
+      {
+        "tile": "работала",
+        "fr": "ai travaillé (femme)",
+        "phraseFr": "Hier, j'ai travaillé. (une femme)"
+      },
+      {
+        "tile": "отдыхал",
+        "fr": "me suis reposé (homme)",
+        "phraseFr": "Hier, je me suis reposé."
+      },
+      {
+        "tile": "отдыхала",
+        "fr": "me suis reposée (femme)",
+        "phraseFr": "Hier, je me suis reposée."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Une femme dit : « Hier, j'ai travaillé. »",
+      "answer": "работала"
+    },
+    {
+      "type": "pick",
+      "fr": "Un homme dit : « Hier, je me suis reposé. »",
+      "answer": "отдыхал"
+    }
+  ],
+  "cando": [
+    "raconter ton week-end",
+    "parler au passé",
+    "dire avec qui tu étais"
+  ],
+  "unlocks": [
+    {
+      "case": "loct",
+      "gender": "neut",
+      "from": "музей",
+      "to": "музее"
+    }
+  ],
+  "glossary": {
+    "я": "je, moi",
+    "ты": "tu",
+    "вы": "vous",
+    "да": "oui",
+    "нет": "non",
+    "а": "et, mais",
+    "и": "et",
+    "это": "c'est, voici",
+    "не": "ne… pas",
+    "в": "dans, à",
+    "на": "sur, en",
+    "что": "quoi, que",
+    "как": "comment, comme",
+    "где": "où",
+    "очень": "très",
+    "спасибо": "merci",
+    "пожалуйста": "s'il te plaît / je t'en prie",
+    "хорошо": "bien, d'accord",
+    "привет": "salut",
+    "лука": "Luka (prénom)",
+    "маша": "Macha (prénom)",
+    "олег": "Oleg (prénom)",
+    "анна": "Anna (prénom)",
+    "у": "chez",
+    "меня": "moi (у меня = j'ai)",
+    "тебя": "toi (у тебя = tu as)",
+    "есть": "il y a",
+    "мой": "mon",
+    "моя": "ma",
+    "мне": "à moi",
+    "тоже": "aussi",
+    "сегодня": "aujourd'hui",
+    "завтра": "demain",
+    "вчера": "hier",
+    "потом": "puis, ensuite",
+    "давай": "allons-y, faisons",
+    "делал": "(tu) as fait",
+    "делаешь": "(tu) fais",
+    "субботу": "samedi (в субботу)",
+    "был": "(j')étais (homme)",
+    "была": "(j')étais (femme)",
+    "музее": "musée (après в)",
+    "один": "seul, un",
+    "с": "avec",
+    "машей": "Macha (après с)",
+    "вечером": "le soir",
+    "мы": "nous",
+    "смотрели": "(nous) avons regardé",
+    "смотрел": "(il) a regardé",
+    "фильм": "film",
+    "воскресенье": "dimanche",
+    "отдыхал": "(je) me suis reposé",
+    "отдыхала": "(je) me suis reposée",
+    "дома": "à la maison",
+    "работала": "(j')ai travaillé (femme)",
+    "работал": "(j')ai travaillé (homme)",
+    "весь": "tout",
+    "день": "jour, journée",
+    "бедная": "pauvre"
+  },
+  "combos": [
+    {
+      "ru": "Вчера я был в театре.",
+      "fr": "Hier, j'étais au théâtre.",
+      "extra": [
+        "музее"
+      ],
+      "orders": [
+        "вчера я был в театре",
+        "я был в театре вчера"
+      ]
+    },
+    {
+      "ru": "В субботу я работал.",
+      "fr": "Samedi, j'ai travaillé.",
+      "extra": [
+        "работала"
+      ],
+      "orders": [
+        "в субботу я работал",
+        "я работал в субботу"
+      ]
+    },
+    {
+      "ru": "Вчера мы смотрели фильм д+ома.",
+      "fr": "Hier, on a regardé un film à la maison.",
+      "extra": [
+        "один"
+      ],
+      "orders": [
+        "вчера мы смотрели фильм дома",
+        "вчера мы смотрели дома фильм",
+        "мы смотрели фильм дома вчера"
+      ]
+    }
+  ]
+}

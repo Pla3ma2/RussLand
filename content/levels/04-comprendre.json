@@ -253,6 +253,14 @@
         {
           "type": "insight",
           "index": 1
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3"
+          ]
         }
       ]
     },
@@ -390,5 +398,28 @@
     "понимаем": "(nous) comprenons",
     "понимают": "(ils) comprennent",
     "как": "comment"
-  }
+  },
+  "combos": [
+    {
+      "ru": "Извините, вы говорите по-французски?",
+      "fr": "Excusez-moi, vous parlez français ?",
+      "extra": [
+        "понимаю"
+      ]
+    },
+    {
+      "ru": "Мы не понимаем.",
+      "fr": "Nous ne comprenons pas.",
+      "extra": [
+        "понимаю"
+      ]
+    },
+    {
+      "ru": "Я говорю по-русски, но плохо.",
+      "fr": "Je parle russe, mais mal.",
+      "extra": [
+        "хорошо"
+      ]
+    }
+  ]
 }

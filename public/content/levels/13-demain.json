@@ -1,0 +1,2559 @@
+{
+ "version": 2,
+ "id": "13-demain",
+ "order": 13,
+ "titleFr": "Les projets",
+ "titleRu": "Планы",
+ "emoji": "📅",
+ "sceneFr": "Vendredi, Oleg appelle Luka pour parler du week-end qui arrive.",
+ "learner": "luka",
+ "speakers": {
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  },
+  "oleg": {
+   "name": "Олег",
+   "nameFr": "Oleg",
+   "color": "#9a6fb0"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "oleg",
+   "ru": "Привет, Лука! Что ты будешь делать завтра?",
+   "fr": "Salut, Luka ! Qu'est-ce que tu vas faire demain ?",
+   "tokens": [
+    {
+     "t": "Привет",
+     "s": 4,
+     "w": true,
+     "a": "465595078eb6.mp3",
+     "l": "привет"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "будешь",
+     "s": 1,
+     "w": true,
+     "a": "0daa21d9f07f.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "делать",
+     "s": 1,
+     "w": true,
+     "a": "67e124b7116e.mp3",
+     "l": "делать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "завтра",
+     "s": 1,
+     "w": true,
+     "a": "8c010caec9ab.mp3",
+     "l": "завтра"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "a96bb315421c.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Утром я буду учить русский.",
+   "fr": "Le matin, je vais étudier le russe.",
+   "tokens": [
+    {
+     "t": "Утром",
+     "s": 0,
+     "w": true,
+     "a": "de7476a2f814.mp3",
+     "l": "утром"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "буду",
+     "s": 1,
+     "w": true,
+     "a": "f863b4d8649d.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "учить",
+     "s": 2,
+     "w": true,
+     "a": "7faa30febfbd.mp3",
+     "l": "учить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "русский",
+     "s": 1,
+     "w": true,
+     "a": "e9990cae86f0.mp3",
+     "l": "русский"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "a3793f60af79.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "А потом я буду гулять в парке.",
+   "fr": "Et après, je vais me promener au parc.",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "потом",
+     "s": 3,
+     "w": true,
+     "a": "88ef6411a08b.mp3",
+     "l": "потом"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "буду",
+     "s": 1,
+     "w": true,
+     "a": "f863b4d8649d.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "гулять",
+     "s": 3,
+     "w": true,
+     "a": "708f0328f10c.mp3",
+     "l": "гулять"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "парке",
+     "s": 1,
+     "w": true,
+     "a": "4f451702cba3.mp3",
+     "l": "парка"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "e463dc781006.mp3"
+  },
+  {
+   "speaker": "oleg",
+   "ru": "А вечером? Ты будешь дома?",
+   "fr": "Et le soir ? Tu seras à la maison ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вечером",
+     "s": 1,
+     "w": true,
+     "a": "27c36ef3a59f.mp3",
+     "l": "вечером"
+    },
+    {
+     "t": "? ",
+     "w": false
+    },
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "будешь",
+     "s": 1,
+     "w": true,
+     "a": "0daa21d9f07f.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дома",
+     "s": 1,
+     "w": true,
+     "a": "97f89f92319f.mp3",
+     "l": "дом"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "fb9a77203f47.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Не знаю. А что?",
+   "fr": "Je ne sais pas. Pourquoi ?",
+   "tokens": [
+    {
+     "t": "Не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "знаю",
+     "s": 2,
+     "w": true,
+     "a": "a0abb1c3f6a0.mp3",
+     "l": "знать"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "7fb03ce4d719.mp3"
+  },
+  {
+   "speaker": "oleg",
+   "ru": "Мы будем играть в футбол. Хочешь с нами?",
+   "fr": "On va jouer au foot. Tu veux venir avec nous ?",
+   "tokens": [
+    {
+     "t": "Мы",
+     "s": 1,
+     "w": true,
+     "a": "a234675be3c5.mp3",
+     "l": "мы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "будем",
+     "s": 1,
+     "w": true,
+     "a": "56b90073e866.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "играть",
+     "s": 3,
+     "w": true,
+     "a": "fdefbe32f178.mp3",
+     "l": "играть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "футбол",
+     "s": 4,
+     "w": true,
+     "a": "b96f2b03b8b6.mp3",
+     "l": "футбол"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Хочешь",
+     "s": 1,
+     "w": true,
+     "a": "14d6c2c314f5.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "с",
+     "s": null,
+     "w": true,
+     "a": "37421d1ce7f3.mp3",
+     "l": "с"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нами",
+     "s": 1,
+     "w": true,
+     "a": "eaf14d604363.mp3",
+     "l": "мы"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "d4894c634c1a.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Конечно хочу! Где?",
+   "fr": "Bien sûr que je veux ! Où ?",
+   "tokens": [
+    {
+     "t": "Конечно",
+     "s": 3,
+     "w": true,
+     "a": "4df928ed05d6.mp3",
+     "l": "конечно"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "bd2bd0886f46.mp3"
+  },
+  {
+   "speaker": "oleg",
+   "ru": "В парке, в семь часов.",
+   "fr": "Au parc, à sept heures.",
+   "tokens": [
+    {
+     "t": "В",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "парке",
+     "s": 1,
+     "w": true,
+     "a": "4f451702cba3.mp3",
+     "l": "парка"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "семь",
+     "s": 1,
+     "w": true,
+     "a": "51a184b078fc.mp3",
+     "l": "семь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "часов",
+     "s": 3,
+     "w": true,
+     "a": "caca8ccd3093.mp3",
+     "l": "час"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "4a1f4692280f.mp3"
+  }
+ ],
+ "phrases": {
+  "plans": {
+   "speaker": "oleg",
+   "ru": "Что ты будешь делать завтра?",
+   "fr": "Qu'est-ce que tu vas faire demain ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "будешь",
+     "s": 1,
+     "w": true,
+     "a": "0daa21d9f07f.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "делать",
+     "s": 1,
+     "w": true,
+     "a": "67e124b7116e.mp3",
+     "l": "делать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "завтра",
+     "s": 1,
+     "w": true,
+     "a": "8c010caec9ab.mp3",
+     "l": "завтра"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "d426012cd2d0.mp3",
+   "id": "plans",
+   "noteFr": "Le futur : « будешь » + verbe à l'infinitif. « Будешь делать » = tu vas faire.",
+   "gap": {
+    "index": 4,
+    "whyFr": "Avec « ты » : « будешь ». « Буду », c'est pour « я ».",
+    "distractors": [
+     {
+      "t": "буду",
+      "a": "f863b4d8649d.mp3",
+      "s": 1
+     },
+     {
+      "t": "завтра",
+      "a": "8c010caec9ab.mp3",
+      "s": 1
+     }
+    ]
+   },
+   "orders": [
+    "что ты будешь делать завтра",
+    "что ты завтра будешь делать",
+    "завтра что ты будешь делать"
+   ]
+  },
+  "study": {
+   "speaker": "luka",
+   "ru": "Утром я буду учить русский.",
+   "fr": "Le matin, je vais étudier le russe.",
+   "tokens": [
+    {
+     "t": "Утром",
+     "s": 0,
+     "w": true,
+     "a": "de7476a2f814.mp3",
+     "l": "утром"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "буду",
+     "s": 1,
+     "w": true,
+     "a": "f863b4d8649d.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "учить",
+     "s": 2,
+     "w": true,
+     "a": "7faa30febfbd.mp3",
+     "l": "учить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "русский",
+     "s": 1,
+     "w": true,
+     "a": "e9990cae86f0.mp3",
+     "l": "русский"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "a3793f60af79.mp3",
+   "id": "study",
+   "noteFr": "« Я буду » + infinitif = je vais (faire). « Учить » = étudier, apprendre.",
+   "gap": {
+    "index": 4,
+    "whyFr": "Avec « я » : « буду ».",
+    "distractors": [
+     {
+      "t": "будешь",
+      "a": "0daa21d9f07f.mp3",
+      "s": 1
+     },
+     {
+      "t": "завтра",
+      "a": "8c010caec9ab.mp3",
+      "s": 1
+     }
+    ]
+   },
+   "orders": [
+    "утром я буду учить русский",
+    "я буду учить русский утром"
+   ]
+  },
+  "walk": {
+   "speaker": "luka",
+   "ru": "А потом я буду гулять в парке.",
+   "fr": "Et après, je vais me promener au parc.",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "потом",
+     "s": 3,
+     "w": true,
+     "a": "88ef6411a08b.mp3",
+     "l": "потом"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "буду",
+     "s": 1,
+     "w": true,
+     "a": "f863b4d8649d.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "гулять",
+     "s": 3,
+     "w": true,
+     "a": "708f0328f10c.mp3",
+     "l": "гулять"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "парке",
+     "s": 1,
+     "w": true,
+     "a": "4f451702cba3.mp3",
+     "l": "парка"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "e463dc781006.mp3",
+   "id": "walk",
+   "noteFr": "« Гулять » = se promener. « В парке » : tu connais ce vert.",
+   "gap": {
+    "index": 8,
+    "whyFr": "Après « буду », le verbe reste à l'infinitif (-ть) : « буду гулять ».",
+    "distractors": [
+     {
+      "t": "гуляю",
+      "a": "24485ccd27d5.mp3",
+      "s": 3
+     },
+     {
+      "t": "парк",
+      "a": "3ca7ccbdbe24.mp3",
+      "s": 1
+     }
+    ]
+   },
+   "orders": [
+    "а потом я буду гулять в парке",
+    "а потом я буду в парке гулять"
+   ]
+  },
+  "home": {
+   "speaker": "oleg",
+   "ru": "А вечером? Ты будешь дома?",
+   "fr": "Et le soir ? Tu seras à la maison ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вечером",
+     "s": 1,
+     "w": true,
+     "a": "27c36ef3a59f.mp3",
+     "l": "вечером"
+    },
+    {
+     "t": "? ",
+     "w": false
+    },
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "будешь",
+     "s": 1,
+     "w": true,
+     "a": "0daa21d9f07f.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дома",
+     "s": 1,
+     "w": true,
+     "a": "97f89f92319f.mp3",
+     "l": "дом"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "fb9a77203f47.mp3",
+   "id": "home",
+   "noteFr": "« Ты будешь дома ? » = tu seras à la maison ? « Быть » au futur, tout seul.",
+   "gap": {
+    "index": 8,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "парк",
+      "a": "3ca7ccbdbe24.mp3",
+      "s": 1
+     },
+     {
+      "t": "завтра",
+      "a": "8c010caec9ab.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "dunno": {
+   "speaker": "luka",
+   "ru": "Не знаю. А что?",
+   "fr": "Je ne sais pas. Pourquoi ?",
+   "tokens": [
+    {
+     "t": "Не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "знаю",
+     "s": 2,
+     "w": true,
+     "a": "a0abb1c3f6a0.mp3",
+     "l": "знать"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "7fb03ce4d719.mp3",
+   "id": "dunno",
+   "noteFr": "« Не знаю » = je ne sais pas. « А что ? » = pourquoi ? (mot à mot : « et quoi ? »).",
+   "gap": {
+    "index": 2,
+    "whyFr": "Avec « я » : « знаю » (-ю).",
+    "distractors": [
+     {
+      "t": "знаешь",
+      "a": "13ca9404369e.mp3",
+      "s": 2
+     },
+     {
+      "t": "буду",
+      "a": "f863b4d8649d.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "football": {
+   "speaker": "oleg",
+   "ru": "Мы будем играть в футбол. Хочешь с нами?",
+   "fr": "On va jouer au foot. Tu veux venir avec nous ?",
+   "tokens": [
+    {
+     "t": "Мы",
+     "s": 1,
+     "w": true,
+     "a": "a234675be3c5.mp3",
+     "l": "мы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "будем",
+     "s": 1,
+     "w": true,
+     "a": "56b90073e866.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "играть",
+     "s": 3,
+     "w": true,
+     "a": "fdefbe32f178.mp3",
+     "l": "играть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "футбол",
+     "s": 4,
+     "w": true,
+     "a": "b96f2b03b8b6.mp3",
+     "l": "футбол"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Хочешь",
+     "s": 1,
+     "w": true,
+     "a": "14d6c2c314f5.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "с",
+     "s": null,
+     "w": true,
+     "a": "37421d1ce7f3.mp3",
+     "l": "с"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нами",
+     "s": 1,
+     "w": true,
+     "a": "eaf14d604363.mp3",
+     "l": "мы"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "d4894c634c1a.mp3",
+   "id": "football",
+   "noteFr": "« Мы будем » = nous allons. « Играть в футбол » = jouer au foot. « С нами » = avec nous.",
+   "gap": {
+    "index": 2,
+    "whyFr": "Avec « мы » : « будем ».",
+    "distractors": [
+     {
+      "t": "буду",
+      "a": "f863b4d8649d.mp3",
+      "s": 1
+     },
+     {
+      "t": "играть",
+      "a": "fdefbe32f178.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "sure": {
+   "speaker": "luka",
+   "ru": "Конечно хочу! Где?",
+   "fr": "Bien sûr que je veux ! Où ?",
+   "tokens": [
+    {
+     "t": "Конечно",
+     "s": 3,
+     "w": true,
+     "a": "4df928ed05d6.mp3",
+     "l": "конечно"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "bd2bd0886f46.mp3",
+   "id": "sure",
+   "noteFr": "« Конечно » = bien sûr.",
+   "gap": {
+    "index": 0,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "завтра",
+      "a": "8c010caec9ab.mp3",
+      "s": 1
+     },
+     {
+      "t": "дома",
+      "a": "97f89f92319f.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "seven": {
+   "speaker": "oleg",
+   "ru": "В парке, в семь часов.",
+   "fr": "Au parc, à sept heures.",
+   "tokens": [
+    {
+     "t": "В",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "парке",
+     "s": 1,
+     "w": true,
+     "a": "4f451702cba3.mp3",
+     "l": "парка"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "семь",
+     "s": 1,
+     "w": true,
+     "a": "51a184b078fc.mp3",
+     "l": "семь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "часов",
+     "s": 3,
+     "w": true,
+     "a": "caca8ccd3093.mp3",
+     "l": "час"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "4a1f4692280f.mp3",
+   "id": "seven",
+   "noteFr": "« В семь часов » = à sept heures.",
+   "gap": {
+    "index": 6,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "где",
+      "a": "fe72644ce047.mp3",
+      "s": 2
+     },
+     {
+      "t": "дома",
+      "a": "97f89f92319f.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "c1": {
+   "speaker": "luka",
+   "ru": "Завтра я буду работать дома.",
+   "fr": "Demain, je vais travailler à la maison.",
+   "tokens": [
+    {
+     "t": "Завтра",
+     "s": 1,
+     "w": true,
+     "a": "8c010caec9ab.mp3",
+     "l": "завтра"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "буду",
+     "s": 1,
+     "w": true,
+     "a": "f863b4d8649d.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работать",
+     "s": 3,
+     "w": true,
+     "a": "cb4e5abd3957.mp3",
+     "l": "работать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дома",
+     "s": 1,
+     "w": true,
+     "a": "97f89f92319f.mp3",
+     "l": "дом"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "db194ca2adb1.mp3",
+   "id": "c1",
+   "noteFr": "",
+   "orders": [
+    "завтра я буду работать дома",
+    "завтра я буду дома работать",
+    "я буду работать дома завтра"
+   ],
+   "combo": {
+    "from": [
+     "Les projets",
+     "Faire connaissance",
+     "Au restaurant",
+     "Chez des amis"
+    ],
+    "extra": [
+     {
+      "t": "работаю",
+      "a": "c044cc17ebbc.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "c2": {
+   "speaker": "luka",
+   "ru": "Ты будешь гулять в парке?",
+   "fr": "Tu vas te promener au parc ?",
+   "tokens": [
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "будешь",
+     "s": 1,
+     "w": true,
+     "a": "0daa21d9f07f.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "гулять",
+     "s": 3,
+     "w": true,
+     "a": "708f0328f10c.mp3",
+     "l": "гулять"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "парке",
+     "s": 1,
+     "w": true,
+     "a": "4f451702cba3.mp3",
+     "l": "парка"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "aa862cfb88bd.mp3",
+   "id": "c2",
+   "noteFr": "",
+   "orders": [
+    "ты будешь гулять в парке",
+    "ты будешь в парке гулять"
+   ],
+   "combo": {
+    "from": [
+     "Je ne comprends pas",
+     "Les projets",
+     "Où es-tu ?"
+    ],
+    "extra": [
+     {
+      "t": "буду",
+      "a": "f863b4d8649d.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "c3": {
+   "speaker": "luka",
+   "ru": "Я не знаю, где банк.",
+   "fr": "Je ne sais pas où est la banque.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "знаю",
+     "s": 2,
+     "w": true,
+     "a": "a0abb1c3f6a0.mp3",
+     "l": "знать"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "банк",
+     "s": 1,
+     "w": true,
+     "a": "7bc003bf4da8.mp3",
+     "l": "банк"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ebd7b0f55284.mp3",
+   "id": "c3",
+   "noteFr": "",
+   "orders": [
+    "я не знаю где банк"
+   ],
+   "combo": {
+    "from": [
+     "Faire connaissance",
+     "Je ne comprends pas",
+     "Les projets"
+    ],
+    "extra": [
+     {
+      "t": "буду",
+      "a": "f863b4d8649d.mp3",
+      "s": 1
+     }
+    ]
+   }
+  }
+ },
+ "parts": [
+  {
+   "titleFr": "Demain",
+   "steps": [
+    {
+     "type": "scene"
+    },
+    {
+     "type": "explore"
+    },
+    {
+     "type": "insight",
+     "index": 0
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "plans",
+      "study"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "walk",
+      "home"
+     ],
+     "review": [
+      "study"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Une proposition",
+   "steps": [
+    {
+     "type": "warmup",
+     "phrases": [
+      "plans",
+      "study",
+      "walk"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "dunno",
+      "football"
+     ],
+     "review": [
+      "walk",
+      "home"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "sure",
+      "seven"
+     ],
+     "review": [
+      "football"
+     ]
+    },
+    {
+     "type": "insight",
+     "index": 1
+    },
+    {
+     "type": "combine",
+     "phrases": [
+      "c1",
+      "c2",
+      "c3"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Joue la scène",
+   "steps": [
+    {
+     "type": "final"
+    },
+    {
+     "type": "roleplay"
+    }
+   ]
+  }
+ ],
+ "insights": [
+  {
+   "by": "oleg",
+   "fr": [
+    "Le futur, c'est facile : « буду » + le verbe à l'infinitif (avec -ть). « Я буду работать » = je vais travailler.",
+    "Seul « буду » change : я буду, ты будешь, он будет, мы будем, вы будете, они будут.",
+    "Tu connais déjà « я буду » du restaurant : « я буду суп » = je vais prendre une soupe !"
+   ]
+  },
+  {
+   "by": "oleg",
+   "fr": [
+    "Maintenant tu sais parler du passé (я работал), du présent (я работаю) et du futur (я буду работать).",
+    "Avec ces trois-là, tu peux déjà raconter presque toute ta vie !"
+   ]
+  }
+ ],
+ "explore": {
+  "type": "plain",
+  "frameFr": "Demain, je vais ___.",
+  "color": "#8e44ad",
+  "hintFr": "Mets chaque verbe après « буду » et écoute.",
+  "before": [
+   {
+    "t": "Завтра",
+    "s": 1,
+    "w": true,
+    "a": "8c010caec9ab.mp3",
+    "l": "завтра"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "я",
+    "s": 0,
+    "w": true,
+    "a": "70b9d9783365.mp3",
+    "l": "я"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "буду",
+    "s": 1,
+    "w": true,
+    "a": "f863b4d8649d.mp3",
+    "l": "быть"
+   },
+   {
+    "t": " ",
+    "w": false
+   }
+  ],
+  "after": [
+   {
+    "t": ".",
+    "w": false
+   }
+  ],
+  "verb": null,
+  "words": [
+   {
+    "tile": "работать",
+    "tileStress": 3,
+    "fr": "travailler",
+    "phraseFr": "Demain, je vais travailler.",
+    "phrase": "Завтра я буду работать.",
+    "morph": {
+     "from": "работать",
+     "to": "работать",
+     "stem": "работать",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": false
+    },
+    "audioTile": "cb4e5abd3957.mp3",
+    "audioPhrase": "6a1ac9717b26.mp3"
+   },
+   {
+    "tile": "отдыхать",
+    "tileStress": 5,
+    "fr": "me reposer",
+    "phraseFr": "Demain, je vais me reposer.",
+    "phrase": "Завтра я буду отдыхать.",
+    "morph": {
+     "from": "отдыхать",
+     "to": "отдыхать",
+     "stem": "отдыхать",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": false
+    },
+    "audioTile": "bbb38b666094.mp3",
+    "audioPhrase": "8149c245affb.mp3"
+   },
+   {
+    "tile": "читать",
+    "tileStress": 3,
+    "fr": "lire",
+    "phraseFr": "Demain, je vais lire.",
+    "phrase": "Завтра я буду читать.",
+    "morph": {
+     "from": "читать",
+     "to": "читать",
+     "stem": "читать",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": false
+    },
+    "audioTile": "261ac3a609fb.mp3",
+    "audioPhrase": "d854f50bffd4.mp3"
+   },
+   {
+    "tile": "гулять",
+    "tileStress": 3,
+    "fr": "me promener",
+    "phraseFr": "Demain, je vais me promener.",
+    "phrase": "Завтра я буду гулять.",
+    "morph": {
+     "from": "гулять",
+     "to": "гулять",
+     "stem": "гулять",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": false
+    },
+    "audioTile": "708f0328f10c.mp3",
+    "audioPhrase": "2d53e8cbb6bc.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Dis : « Demain, je vais lire. »",
+   "answer": "читать"
+  },
+  {
+   "type": "pick",
+   "fr": "Dis : « Demain, je vais travailler. »",
+   "answer": "работать"
+  }
+ ],
+ "grammar": [
+  "а вечером ты будешь дома",
+  "а потом я буду гулять в парке",
+  "в парке в семь часов",
+  "завтра я буду работать дома",
+  "конечно хочу где",
+  "мы будем играть в футбол хочешь с нами",
+  "не знаю а что",
+  "привет лука что ты будешь делать завтра",
+  "ты будешь гулять в парке",
+  "утром я буду учить русский",
+  "что ты будешь делать завтра",
+  "я не знаю где банк",
+  "[unk]"
+ ],
+ "cando": [
+  "parler de tes projets",
+  "parler au futur",
+  "accepter une proposition"
+ ],
+ "glossary": {
+  "я": "je, moi",
+  "ты": "tu",
+  "вы": "vous",
+  "да": "oui",
+  "нет": "non",
+  "а": "et, mais",
+  "и": "et",
+  "это": "c'est, voici",
+  "не": "ne… pas",
+  "в": "dans, à",
+  "на": "sur, en",
+  "что": "quoi, que",
+  "как": "comment, comme",
+  "где": "où",
+  "очень": "très",
+  "спасибо": "merci",
+  "пожалуйста": "s'il te plaît / je t'en prie",
+  "хорошо": "bien, d'accord",
+  "привет": "salut",
+  "лука": "Luka (prénom)",
+  "маша": "Macha (prénom)",
+  "олег": "Oleg (prénom)",
+  "анна": "Anna (prénom)",
+  "у": "chez",
+  "меня": "moi (у меня = j'ai)",
+  "тебя": "toi (у тебя = tu as)",
+  "есть": "il y a",
+  "мой": "mon",
+  "моя": "ma",
+  "мне": "à moi",
+  "тоже": "aussi",
+  "сегодня": "aujourd'hui",
+  "завтра": "demain",
+  "вчера": "hier",
+  "потом": "puis, ensuite",
+  "давай": "allons-y, faisons",
+  "будешь": "(tu) seras",
+  "буду": "(je) serai",
+  "будем": "(nous) serons",
+  "делать": "faire",
+  "утром": "le matin",
+  "учить": "étudier, apprendre",
+  "русский": "le russe",
+  "гулять": "se promener",
+  "гуляю": "(je) me promène",
+  "парке": "parc (après в)",
+  "парк": "parc",
+  "вечером": "le soir",
+  "дома": "à la maison",
+  "знаю": "(je) sais",
+  "знаешь": "(tu) sais",
+  "мы": "nous",
+  "играть": "jouer",
+  "футбол": "football",
+  "хочешь": "(tu) veux",
+  "с": "avec",
+  "нами": "nous (с нами = avec nous)",
+  "конечно": "bien sûr",
+  "хочу": "(je) veux",
+  "семь": "sept",
+  "часов": "heures",
+  "работать": "travailler",
+  "отдыхать": "se reposer",
+  "читать": "lire",
+  "банк": "banque"
+ },
+ "unlocks": [],
+ "items": [
+  {
+   "id": "13-demain:plans",
+   "ru": "Что ты будешь делать завтра?",
+   "fr": "Qu'est-ce que tu vas faire demain ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "будешь",
+     "s": 1,
+     "w": true,
+     "a": "0daa21d9f07f.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "делать",
+     "s": 1,
+     "w": true,
+     "a": "67e124b7116e.mp3",
+     "l": "делать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "завтра",
+     "s": 1,
+     "w": true,
+     "a": "8c010caec9ab.mp3",
+     "l": "завтра"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "d426012cd2d0.mp3"
+  },
+  {
+   "id": "13-demain:study",
+   "ru": "Утром я буду учить русский.",
+   "fr": "Le matin, je vais étudier le russe.",
+   "tokens": [
+    {
+     "t": "Утром",
+     "s": 0,
+     "w": true,
+     "a": "de7476a2f814.mp3",
+     "l": "утром"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "буду",
+     "s": 1,
+     "w": true,
+     "a": "f863b4d8649d.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "учить",
+     "s": 2,
+     "w": true,
+     "a": "7faa30febfbd.mp3",
+     "l": "учить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "русский",
+     "s": 1,
+     "w": true,
+     "a": "e9990cae86f0.mp3",
+     "l": "русский"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "a3793f60af79.mp3"
+  },
+  {
+   "id": "13-demain:walk",
+   "ru": "А потом я буду гулять в парке.",
+   "fr": "Et après, je vais me promener au parc.",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "потом",
+     "s": 3,
+     "w": true,
+     "a": "88ef6411a08b.mp3",
+     "l": "потом"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "буду",
+     "s": 1,
+     "w": true,
+     "a": "f863b4d8649d.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "гулять",
+     "s": 3,
+     "w": true,
+     "a": "708f0328f10c.mp3",
+     "l": "гулять"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "парке",
+     "s": 1,
+     "w": true,
+     "a": "4f451702cba3.mp3",
+     "l": "парка"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "e463dc781006.mp3"
+  },
+  {
+   "id": "13-demain:home",
+   "ru": "А вечером? Ты будешь дома?",
+   "fr": "Et le soir ? Tu seras à la maison ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вечером",
+     "s": 1,
+     "w": true,
+     "a": "27c36ef3a59f.mp3",
+     "l": "вечером"
+    },
+    {
+     "t": "? ",
+     "w": false
+    },
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "будешь",
+     "s": 1,
+     "w": true,
+     "a": "0daa21d9f07f.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дома",
+     "s": 1,
+     "w": true,
+     "a": "97f89f92319f.mp3",
+     "l": "дом"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "fb9a77203f47.mp3"
+  },
+  {
+   "id": "13-demain:dunno",
+   "ru": "Не знаю. А что?",
+   "fr": "Je ne sais pas. Pourquoi ?",
+   "tokens": [
+    {
+     "t": "Не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "знаю",
+     "s": 2,
+     "w": true,
+     "a": "a0abb1c3f6a0.mp3",
+     "l": "знать"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "7fb03ce4d719.mp3"
+  },
+  {
+   "id": "13-demain:football",
+   "ru": "Мы будем играть в футбол. Хочешь с нами?",
+   "fr": "On va jouer au foot. Tu veux venir avec nous ?",
+   "tokens": [
+    {
+     "t": "Мы",
+     "s": 1,
+     "w": true,
+     "a": "a234675be3c5.mp3",
+     "l": "мы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "будем",
+     "s": 1,
+     "w": true,
+     "a": "56b90073e866.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "играть",
+     "s": 3,
+     "w": true,
+     "a": "fdefbe32f178.mp3",
+     "l": "играть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "футбол",
+     "s": 4,
+     "w": true,
+     "a": "b96f2b03b8b6.mp3",
+     "l": "футбол"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Хочешь",
+     "s": 1,
+     "w": true,
+     "a": "14d6c2c314f5.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "с",
+     "s": null,
+     "w": true,
+     "a": "37421d1ce7f3.mp3",
+     "l": "с"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нами",
+     "s": 1,
+     "w": true,
+     "a": "eaf14d604363.mp3",
+     "l": "мы"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "d4894c634c1a.mp3"
+  },
+  {
+   "id": "13-demain:sure",
+   "ru": "Конечно хочу! Где?",
+   "fr": "Bien sûr que je veux ! Où ?",
+   "tokens": [
+    {
+     "t": "Конечно",
+     "s": 3,
+     "w": true,
+     "a": "4df928ed05d6.mp3",
+     "l": "конечно"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "bd2bd0886f46.mp3"
+  },
+  {
+   "id": "13-demain:seven",
+   "ru": "В парке, в семь часов.",
+   "fr": "Au parc, à sept heures.",
+   "tokens": [
+    {
+     "t": "В",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "парке",
+     "s": 1,
+     "w": true,
+     "a": "4f451702cba3.mp3",
+     "l": "парка"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "семь",
+     "s": 1,
+     "w": true,
+     "a": "51a184b078fc.mp3",
+     "l": "семь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "часов",
+     "s": 3,
+     "w": true,
+     "a": "caca8ccd3093.mp3",
+     "l": "час"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "4a1f4692280f.mp3"
+  },
+  {
+   "id": "13-demain:c1",
+   "ru": "Завтра я буду работать дома.",
+   "fr": "Demain, je vais travailler à la maison.",
+   "tokens": [
+    {
+     "t": "Завтра",
+     "s": 1,
+     "w": true,
+     "a": "8c010caec9ab.mp3",
+     "l": "завтра"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "буду",
+     "s": 1,
+     "w": true,
+     "a": "f863b4d8649d.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работать",
+     "s": 3,
+     "w": true,
+     "a": "cb4e5abd3957.mp3",
+     "l": "работать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дома",
+     "s": 1,
+     "w": true,
+     "a": "97f89f92319f.mp3",
+     "l": "дом"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "db194ca2adb1.mp3"
+  },
+  {
+   "id": "13-demain:c2",
+   "ru": "Ты будешь гулять в парке?",
+   "fr": "Tu vas te promener au parc ?",
+   "tokens": [
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "будешь",
+     "s": 1,
+     "w": true,
+     "a": "0daa21d9f07f.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "гулять",
+     "s": 3,
+     "w": true,
+     "a": "708f0328f10c.mp3",
+     "l": "гулять"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "парке",
+     "s": 1,
+     "w": true,
+     "a": "4f451702cba3.mp3",
+     "l": "парка"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "aa862cfb88bd.mp3"
+  },
+  {
+   "id": "13-demain:c3",
+   "ru": "Я не знаю, где банк.",
+   "fr": "Je ne sais pas où est la banque.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "знаю",
+     "s": 2,
+     "w": true,
+     "a": "a0abb1c3f6a0.mp3",
+     "l": "знать"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "банк",
+     "s": 1,
+     "w": true,
+     "a": "7bc003bf4da8.mp3",
+     "l": "банк"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ebd7b0f55284.mp3"
+  }
+ ],
+ "hasAudio": false
+}

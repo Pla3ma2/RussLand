@@ -220,6 +220,14 @@
         {
           "type": "insight",
           "index": 1
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3"
+          ]
         }
       ]
     },
@@ -330,5 +338,32 @@
     "француженка": "Française (femme)",
     "студент": "étudiant",
     "студентка": "étudiante"
-  }
+  },
+  "combos": [
+    {
+      "ru": "Вы француз?",
+      "fr": "Vous êtes français ?",
+      "extra": [
+        "из"
+      ]
+    },
+    {
+      "ru": "Я студентка из Франции.",
+      "fr": "Je suis étudiante, je viens de France.",
+      "extra": [
+        "студент"
+      ],
+      "orders": [
+        "я студентка из франции",
+        "я из франции я студентка"
+      ]
+    },
+    {
+      "ru": "Как вас зовут? Вы студент?",
+      "fr": "Comment vous appelez-vous ? Vous êtes étudiant ?",
+      "extra": [
+        "меня"
+      ]
+    }
+  ]
 }

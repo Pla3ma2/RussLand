@@ -1,0 +1,2062 @@
+{
+ "version": 2,
+ "id": "15-invitation",
+ "order": 15,
+ "titleFr": "Une invitation",
+ "titleRu": "Приглашение",
+ "emoji": "🎭",
+ "sceneFr": "Une semaine plus tard, Luka va mieux. Pour remercier Macha, il veut l'inviter au théâtre.",
+ "learner": "luka",
+ "speakers": {
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  },
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "luka",
+   "ru": "Маша, ты свободна в субботу?",
+   "fr": "Macha, tu es libre samedi ?",
+   "tokens": [
+    {
+     "t": "Маша",
+     "s": 1,
+     "w": true,
+     "a": "db2f8c7ea687.mp3",
+     "l": "маша"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "свободна",
+     "s": 4,
+     "w": true,
+     "a": "2f650053878b.mp3",
+     "l": "свободный"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "субботу",
+     "s": 4,
+     "w": true,
+     "a": "dcc66f37de17.mp3",
+     "l": "суббота"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "5824203528af.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Да, а что?",
+   "fr": "Oui, pourquoi ?",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "а",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "60c89342c0eb.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Давай пойдём в театр!",
+   "fr": "Allons au théâtre !",
+   "tokens": [
+    {
+     "t": "Давай",
+     "s": 3,
+     "w": true,
+     "a": "cf5a97086c92.mp3",
+     "l": "давать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пойдём",
+     "s": 4,
+     "w": true,
+     "a": "634858b1744b.mp3",
+     "l": "пойти"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "театр",
+     "s": 2,
+     "w": true,
+     "a": "f532e3828e20.mp3",
+     "l": "театр"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "a690be5ca874.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "С удовольствием! А что там идёт?",
+   "fr": "Avec plaisir ! Et qu'est-ce qui se joue ?",
+   "tokens": [
+    {
+     "t": "С",
+     "s": null,
+     "w": true,
+     "a": "37421d1ce7f3.mp3",
+     "l": "с"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "удовольствием",
+     "s": 4,
+     "w": true,
+     "a": "a5dc5da98852.mp3",
+     "l": "удовольствие"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "там",
+     "s": 1,
+     "w": true,
+     "a": "a93f0ec75463.mp3",
+     "l": "там"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "идёт",
+     "s": 2,
+     "w": true,
+     "a": "ba5113d120d9.mp3",
+     "l": "идти"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "720911dc8c72.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "«Евгений Онегин». Это опера.",
+   "fr": "« Eugène Onéguine ». C'est un opéra.",
+   "tokens": [
+    {
+     "t": "«",
+     "w": false
+    },
+    {
+     "t": "Евгений",
+     "s": 3,
+     "w": true,
+     "a": "ba1ba1fd9abc.mp3",
+     "l": "евгений"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Онегин",
+     "s": 2,
+     "w": true,
+     "a": "263e4f457ae1.mp3",
+     "l": "онегин"
+    },
+    {
+     "t": "». ",
+     "w": false
+    },
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "опера",
+     "s": 0,
+     "w": true,
+     "a": "35415d8fd44f.mp3",
+     "l": "опера"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "7eb4f6caf505.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Отлично! Во сколько?",
+   "fr": "Parfait ! À quelle heure ?",
+   "tokens": [
+    {
+     "t": "Отлично",
+     "s": 3,
+     "w": true,
+     "a": "1b0c3f2d1ffd.mp3",
+     "l": "отлично"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Во",
+     "s": 1,
+     "w": true,
+     "a": "94135b8098e4.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сколько",
+     "s": 2,
+     "w": true,
+     "a": "68f717ec536d.mp3",
+     "l": "сколько"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "07b33ad9efe5.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "В семь. Я куплю билеты.",
+   "fr": "À sept heures. J'achèterai les billets.",
+   "tokens": [
+    {
+     "t": "В",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "семь",
+     "s": 1,
+     "w": true,
+     "a": "51a184b078fc.mp3",
+     "l": "семь"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "куплю",
+     "s": 4,
+     "w": true,
+     "a": "c55a7708ac7d.mp3",
+     "l": "купить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "билеты",
+     "s": 3,
+     "w": true,
+     "a": "5def5b4d9364.mp3",
+     "l": "билет"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "12b9b52f96dc.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Спасибо, Лука! До субботы!",
+   "fr": "Merci, Luka ! À samedi !",
+   "tokens": [
+    {
+     "t": "Спасибо",
+     "s": 4,
+     "w": true,
+     "a": "84fecfa1b01c.mp3",
+     "l": "спасибо"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "До",
+     "s": 1,
+     "w": true,
+     "a": "f2096c168fa3.mp3",
+     "l": "до"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "субботы",
+     "s": 4,
+     "w": true,
+     "a": "a98d89c974b5.mp3",
+     "l": "суббота"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "fe78f3dd4b94.mp3"
+  }
+ ],
+ "phrases": {
+  "free": {
+   "speaker": "luka",
+   "ru": "Маша, ты свободна в субботу?",
+   "fr": "Macha, tu es libre samedi ?",
+   "tokens": [
+    {
+     "t": "Маша",
+     "s": 1,
+     "w": true,
+     "a": "db2f8c7ea687.mp3",
+     "l": "маша"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "свободна",
+     "s": 4,
+     "w": true,
+     "a": "2f650053878b.mp3",
+     "l": "свободный"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "субботу",
+     "s": 4,
+     "w": true,
+     "a": "dcc66f37de17.mp3",
+     "l": "суббота"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "5824203528af.mp3",
+   "id": "free",
+   "noteFr": "« Свободна » = libre (pour une femme). Pour un homme : « свободен ».",
+   "gap": {
+    "index": 4,
+    "whyFr": "Macha est une femme : « свободна » (-а). « Свободен », c'est pour un homme.",
+    "distractors": [
+     {
+      "t": "свободен",
+      "a": "30a963b3ce66.mp3",
+      "s": 4
+     },
+     {
+      "t": "театр",
+      "a": "f532e3828e20.mp3",
+      "s": 2
+     }
+    ]
+   },
+   "orders": [
+    "маша ты свободна в субботу",
+    "маша в субботу ты свободна"
+   ]
+  },
+  "why": {
+   "speaker": "masha",
+   "ru": "Да, а что?",
+   "fr": "Oui, pourquoi ?",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "а",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "60c89342c0eb.mp3",
+   "id": "why",
+   "noteFr": "Tu connais « а что ? » = pourquoi ?"
+  },
+  "letsgo": {
+   "speaker": "luka",
+   "ru": "Давай пойдём в театр!",
+   "fr": "Allons au théâtre !",
+   "tokens": [
+    {
+     "t": "Давай",
+     "s": 3,
+     "w": true,
+     "a": "cf5a97086c92.mp3",
+     "l": "давать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пойдём",
+     "s": 4,
+     "w": true,
+     "a": "634858b1744b.mp3",
+     "l": "пойти"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "театр",
+     "s": 2,
+     "w": true,
+     "a": "f532e3828e20.mp3",
+     "l": "театр"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "a690be5ca874.mp3",
+   "id": "letsgo",
+   "noteFr": "« Давай пойдём… » = allons… ! Pour aller VERS : « в театр », sans -е.",
+   "gap": {
+    "index": 6,
+    "whyFr": "On va VERS le théâtre : « в театр ». « В театре » (-е), c'est quand on y est déjà.",
+    "distractors": [
+     {
+      "t": "театре",
+      "a": "5702abdc7a87.mp3",
+      "s": 2
+     },
+     {
+      "t": "опера",
+      "a": "35415d8fd44f.mp3",
+      "s": 0
+     }
+    ]
+   },
+   "orders": [
+    "давай пойдём в театр"
+   ]
+  },
+  "pleasure": {
+   "speaker": "masha",
+   "ru": "С удовольствием!",
+   "fr": "Avec plaisir !",
+   "tokens": [
+    {
+     "t": "С",
+     "s": null,
+     "w": true,
+     "a": "37421d1ce7f3.mp3",
+     "l": "с"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "удовольствием",
+     "s": 4,
+     "w": true,
+     "a": "a5dc5da98852.mp3",
+     "l": "удовольствие"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "0d861b44fdcc.mp3",
+   "id": "pleasure",
+   "noteFr": "« С удовольствием » = avec plaisir. La réponse parfaite à une invitation.",
+   "gap": {
+    "index": 2,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "театр",
+      "a": "f532e3828e20.mp3",
+      "s": 2
+     },
+     {
+      "t": "билеты",
+      "a": "5def5b4d9364.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "opera": {
+   "speaker": "luka",
+   "ru": "Это опера.",
+   "fr": "C'est un opéra.",
+   "tokens": [
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "опера",
+     "s": 0,
+     "w": true,
+     "a": "35415d8fd44f.mp3",
+     "l": "опера"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ee67a2cc5305.mp3",
+   "id": "opera",
+   "noteFr": "« Опера » = opéra. « Евгений Онегин » est un opéra très célèbre de Tchaïkovski.",
+   "gap": {
+    "index": 2,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "театр",
+      "a": "f532e3828e20.mp3",
+      "s": 2
+     },
+     {
+      "t": "билеты",
+      "a": "5def5b4d9364.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "when": {
+   "speaker": "masha",
+   "ru": "Отлично! Во сколько?",
+   "fr": "Parfait ! À quelle heure ?",
+   "tokens": [
+    {
+     "t": "Отлично",
+     "s": 3,
+     "w": true,
+     "a": "1b0c3f2d1ffd.mp3",
+     "l": "отлично"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Во",
+     "s": 1,
+     "w": true,
+     "a": "94135b8098e4.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сколько",
+     "s": 2,
+     "w": true,
+     "a": "68f717ec536d.mp3",
+     "l": "сколько"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "07b33ad9efe5.mp3",
+   "id": "when",
+   "noteFr": "« Отлично » = parfait, excellent. « Во сколько ? » = à quelle heure ?",
+   "gap": {
+    "index": 0,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "театр",
+      "a": "f532e3828e20.mp3",
+      "s": 2
+     },
+     {
+      "t": "субботы",
+      "a": "a98d89c974b5.mp3",
+      "s": 4
+     }
+    ]
+   }
+  },
+  "tickets": {
+   "speaker": "luka",
+   "ru": "В семь. Я куплю билеты.",
+   "fr": "À sept heures. J'achèterai les billets.",
+   "tokens": [
+    {
+     "t": "В",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "семь",
+     "s": 1,
+     "w": true,
+     "a": "51a184b078fc.mp3",
+     "l": "семь"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "куплю",
+     "s": 4,
+     "w": true,
+     "a": "c55a7708ac7d.mp3",
+     "l": "купить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "билеты",
+     "s": 3,
+     "w": true,
+     "a": "5def5b4d9364.mp3",
+     "l": "билет"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "12b9b52f96dc.mp3",
+   "id": "tickets",
+   "noteFr": "« Куплю » = j'achèterai. « Билеты » = les billets.",
+   "gap": {
+    "index": 8,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "театр",
+      "a": "f532e3828e20.mp3",
+      "s": 2
+     },
+     {
+      "t": "опера",
+      "a": "35415d8fd44f.mp3",
+      "s": 0
+     }
+    ]
+   }
+  },
+  "seeyou": {
+   "speaker": "masha",
+   "ru": "До субботы!",
+   "fr": "À samedi !",
+   "tokens": [
+    {
+     "t": "До",
+     "s": 1,
+     "w": true,
+     "a": "f2096c168fa3.mp3",
+     "l": "до"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "субботы",
+     "s": 4,
+     "w": true,
+     "a": "a98d89c974b5.mp3",
+     "l": "суббота"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "ae7ad596de9d.mp3",
+   "id": "seeyou",
+   "noteFr": "« До субботы » = à samedi (jusqu'à samedi). Comme « до свидания » !",
+   "gap": {
+    "index": 2,
+    "whyFr": "Après « до » (jusqu'à) : « до субботы ». Retiens-le comme « до свидания ».",
+    "distractors": [
+     {
+      "t": "субботу",
+      "a": "dcc66f37de17.mp3",
+      "s": 4
+     },
+     {
+      "t": "театр",
+      "a": "f532e3828e20.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "c1": {
+   "speaker": "luka",
+   "ru": "Давай пойдём в кино в субботу!",
+   "fr": "Allons au cinéma samedi !",
+   "tokens": [
+    {
+     "t": "Давай",
+     "s": 3,
+     "w": true,
+     "a": "cf5a97086c92.mp3",
+     "l": "давать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пойдём",
+     "s": 4,
+     "w": true,
+     "a": "634858b1744b.mp3",
+     "l": "пойти"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кино",
+     "s": 3,
+     "w": true,
+     "a": "c3efe5a31dae.mp3",
+     "l": "кино"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "субботу",
+     "s": 4,
+     "w": true,
+     "a": "dcc66f37de17.mp3",
+     "l": "суббота"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "1b6bb3dd1635.mp3",
+   "id": "c1",
+   "noteFr": "",
+   "orders": [
+    "давай пойдём в кино в субботу",
+    "давай в субботу пойдём в кино",
+    "в субботу давай пойдём в кино"
+   ],
+   "combo": {
+    "from": [
+     "Une invitation",
+     "Où es-tu ?",
+     "Chez des amis",
+     "Le week-end"
+    ],
+    "extra": [
+     {
+      "t": "театре",
+      "a": "5702abdc7a87.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "c2": {
+   "speaker": "luka",
+   "ru": "Ты свободна завтра?",
+   "fr": "Tu es libre demain ? (à une femme)",
+   "tokens": [
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "свободна",
+     "s": 4,
+     "w": true,
+     "a": "2f650053878b.mp3",
+     "l": "свободный"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "завтра",
+     "s": 1,
+     "w": true,
+     "a": "8c010caec9ab.mp3",
+     "l": "завтра"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "a24187f54b96.mp3",
+   "id": "c2",
+   "noteFr": "",
+   "orders": [
+    "ты свободна завтра",
+    "завтра ты свободна"
+   ],
+   "combo": {
+    "from": [
+     "Je ne comprends pas",
+     "Une invitation",
+     "Les projets"
+    ],
+    "extra": [
+     {
+      "t": "субботу",
+      "a": "dcc66f37de17.mp3",
+      "s": 4
+     }
+    ]
+   }
+  },
+  "c3": {
+   "speaker": "luka",
+   "ru": "С удовольствием! Я куплю пиццу.",
+   "fr": "Avec plaisir ! J'achèterai une pizza.",
+   "tokens": [
+    {
+     "t": "С",
+     "s": null,
+     "w": true,
+     "a": "37421d1ce7f3.mp3",
+     "l": "с"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "удовольствием",
+     "s": 4,
+     "w": true,
+     "a": "a5dc5da98852.mp3",
+     "l": "удовольствие"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "куплю",
+     "s": 4,
+     "w": true,
+     "a": "c55a7708ac7d.mp3",
+     "l": "купить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пиццу",
+     "s": 1,
+     "w": true,
+     "a": "2c2ecad902c9.mp3",
+     "l": "пицца"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "a55c5847df1e.mp3",
+   "id": "c3",
+   "noteFr": "",
+   "orders": [
+    "с удовольствием я куплю пиццу"
+   ],
+   "combo": {
+    "from": [
+     "Le week-end",
+     "Une invitation",
+     "Faire connaissance",
+     "Au café"
+    ],
+    "extra": [
+     {
+      "t": "пицца",
+      "a": "e554d3ed8479.mp3",
+      "s": 1
+     }
+    ]
+   }
+  }
+ },
+ "parts": [
+  {
+   "titleFr": "Inviter",
+   "steps": [
+    {
+     "type": "scene"
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "free",
+      "why"
+     ]
+    },
+    {
+     "type": "explore"
+    },
+    {
+     "type": "insight",
+     "index": 0
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "letsgo",
+      "pleasure"
+     ],
+     "review": [
+      "free"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Se mettre d'accord",
+   "steps": [
+    {
+     "type": "warmup",
+     "phrases": [
+      "free",
+      "letsgo",
+      "pleasure"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "opera",
+      "when"
+     ],
+     "review": [
+      "letsgo"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "tickets",
+      "seeyou"
+     ],
+     "review": [
+      "when",
+      "pleasure"
+     ]
+    },
+    {
+     "type": "insight",
+     "index": 1
+    },
+    {
+     "type": "combine",
+     "phrases": [
+      "c1",
+      "c2",
+      "c3"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Joue la scène",
+   "steps": [
+    {
+     "type": "final"
+    },
+    {
+     "type": "roleplay"
+    }
+   ]
+  }
+ ],
+ "insights": [
+  {
+   "by": "masha",
+   "fr": [
+    "Pour aller VERS un lieu, on utilise le bleu, comme pour ce qu'on veut : « в театр », « в кино », « в библиотеку ».",
+    "Et pour dire où l'on EST, le vert : « в театре », « в библиотеке ». Bleu = on y va, vert = on y est !"
+   ]
+  },
+  {
+   "by": "masha",
+   "fr": [
+    "Pour inviter : « Давай пойдём… ! » (allons…). Pour accepter : « С удовольствием ! ». Pour refuser gentiment : « Извини, я не могу. »",
+    "« Свободен » (homme) / « свободна » (femme) = libre : encore le genre !"
+   ]
+  }
+ ],
+ "explore": {
+  "type": "case",
+  "frameFr": "Allons ___ !",
+  "color": "#3a86ff",
+  "hintFr": "Mets chaque lieu après « в » (on y va) et regarde bien la fin du mot.",
+  "before": [
+   {
+    "t": "Давай",
+    "s": 3,
+    "w": true,
+    "a": "cf5a97086c92.mp3",
+    "l": "давать"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "пойдём",
+    "s": 4,
+    "w": true,
+    "a": "634858b1744b.mp3",
+    "l": "пойти"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "в",
+    "s": null,
+    "w": true,
+    "a": "3c5b79b7f921.mp3",
+    "l": "в"
+   },
+   {
+    "t": " ",
+    "w": false
+   }
+  ],
+  "after": [
+   {
+    "t": "!",
+    "w": false
+   }
+  ],
+  "verb": null,
+  "words": [
+   {
+    "tile": "театр",
+    "tileStress": 2,
+    "fr": "au théâtre",
+    "phraseFr": "Allons au théâtre !",
+    "phrase": "Давай пойдём в театр!",
+    "morph": {
+     "from": "театр",
+     "to": "театр",
+     "stem": "театр",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": false
+    },
+    "audioTile": "f532e3828e20.mp3",
+    "audioPhrase": "a690be5ca874.mp3"
+   },
+   {
+    "tile": "кино",
+    "tileStress": 3,
+    "fr": "au cinéma",
+    "phraseFr": "Allons au cinéma !",
+    "phrase": "Давай пойдём в кино!",
+    "morph": {
+     "from": "кино",
+     "to": "кино",
+     "stem": "кино",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": false
+    },
+    "audioTile": "c3efe5a31dae.mp3",
+    "audioPhrase": "8101724c8796.mp3"
+   },
+   {
+    "tile": "библиотека",
+    "tileStress": 7,
+    "fr": "à la bibliothèque",
+    "phraseFr": "Allons à la bibliothèque !",
+    "phrase": "Давай пойдём в библиотеку!",
+    "morph": {
+     "from": "библиотека",
+     "to": "библиотеку",
+     "stem": "библиотек",
+     "endFrom": "а",
+     "endTo": "у",
+     "stressFrom": 7,
+     "stressTo": 7,
+     "changed": true
+    },
+    "audioTile": "f5f01dfdd63e.mp3",
+    "audioPhrase": "8206521fd610.mp3"
+   },
+   {
+    "tile": "парк",
+    "tileStress": 1,
+    "fr": "au parc",
+    "phraseFr": "Allons au parc !",
+    "phrase": "Давай пойдём в парк!",
+    "morph": {
+     "from": "парк",
+     "to": "парк",
+     "stem": "парк",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": false
+    },
+    "audioTile": "3ca7ccbdbe24.mp3",
+    "audioPhrase": "d2a955960446.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Propose d'aller à la bibliothèque.",
+   "answer": "библиотека"
+  },
+  {
+   "type": "pick",
+   "fr": "Propose d'aller au cinéma.",
+   "answer": "кино"
+  }
+ ],
+ "grammar": [
+  "в семь я куплю билеты",
+  "да а что",
+  "давай пойдём в кино в субботу",
+  "давай пойдём в театр",
+  "до субботы",
+  "евгений онегин это опера",
+  "маша ты свободна в субботу",
+  "отлично во сколько",
+  "с удовольствием",
+  "с удовольствием а что там идёт",
+  "с удовольствием я куплю пиццу",
+  "спасибо лука до субботы",
+  "ты свободна завтра",
+  "это опера",
+  "[unk]"
+ ],
+ "cando": [
+  "inviter quelqu'un",
+  "accepter une invitation",
+  "fixer un rendez-vous"
+ ],
+ "glossary": {
+  "я": "je, moi",
+  "ты": "tu",
+  "вы": "vous",
+  "да": "oui",
+  "нет": "non",
+  "а": "et, mais",
+  "и": "et",
+  "это": "c'est, voici",
+  "не": "ne… pas",
+  "в": "dans, à",
+  "на": "sur, en",
+  "что": "quoi, que",
+  "как": "comment, comme",
+  "где": "où",
+  "очень": "très",
+  "спасибо": "merci",
+  "пожалуйста": "s'il te plaît / je t'en prie",
+  "хорошо": "bien, d'accord",
+  "привет": "salut",
+  "лука": "Luka (prénom)",
+  "маша": "Macha (prénom)",
+  "олег": "Oleg (prénom)",
+  "анна": "Anna (prénom)",
+  "у": "chez",
+  "меня": "moi (у меня = j'ai)",
+  "тебя": "toi (у тебя = tu as)",
+  "есть": "il y a",
+  "мой": "mon",
+  "моя": "ma",
+  "мне": "à moi",
+  "тоже": "aussi",
+  "сегодня": "aujourd'hui",
+  "завтра": "demain",
+  "вчера": "hier",
+  "потом": "puis, ensuite",
+  "давай": "allons-y, faisons",
+  "свободна": "libre (femme)",
+  "свободен": "libre (homme)",
+  "субботу": "samedi (в субботу)",
+  "субботы": "samedi (до субботы = à samedi)",
+  "пойдем": "allons",
+  "театр": "théâtre",
+  "театре": "théâtre (après в, on y est)",
+  "с": "avec",
+  "удовольствием": "plaisir (с удовольствием = avec plaisir)",
+  "там": "là-bas",
+  "идет": "se joue, passe",
+  "евгений": "Eugène",
+  "онегин": "Onéguine",
+  "опера": "opéra",
+  "отлично": "parfait",
+  "во": "à (во сколько = à quelle heure)",
+  "сколько": "combien",
+  "семь": "sept",
+  "куплю": "(j')achèterai",
+  "билеты": "billets",
+  "до": "jusqu'à",
+  "кино": "cinéma",
+  "библиотеку": "bibliothèque (vers)",
+  "библиотека": "bibliothèque",
+  "парк": "parc"
+ },
+ "unlocks": [
+  {
+   "case": "accs",
+   "gender": "femn",
+   "from": "библиотека",
+   "to": "библиотеку"
+  }
+ ],
+ "items": [
+  {
+   "id": "15-invitation:free",
+   "ru": "Маша, ты свободна в субботу?",
+   "fr": "Macha, tu es libre samedi ?",
+   "tokens": [
+    {
+     "t": "Маша",
+     "s": 1,
+     "w": true,
+     "a": "db2f8c7ea687.mp3",
+     "l": "маша"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "свободна",
+     "s": 4,
+     "w": true,
+     "a": "2f650053878b.mp3",
+     "l": "свободный"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "субботу",
+     "s": 4,
+     "w": true,
+     "a": "dcc66f37de17.mp3",
+     "l": "суббота"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "5824203528af.mp3"
+  },
+  {
+   "id": "15-invitation:why",
+   "ru": "Да, а что?",
+   "fr": "Oui, pourquoi ?",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "а",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "60c89342c0eb.mp3"
+  },
+  {
+   "id": "15-invitation:letsgo",
+   "ru": "Давай пойдём в театр!",
+   "fr": "Allons au théâtre !",
+   "tokens": [
+    {
+     "t": "Давай",
+     "s": 3,
+     "w": true,
+     "a": "cf5a97086c92.mp3",
+     "l": "давать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пойдём",
+     "s": 4,
+     "w": true,
+     "a": "634858b1744b.mp3",
+     "l": "пойти"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "театр",
+     "s": 2,
+     "w": true,
+     "a": "f532e3828e20.mp3",
+     "l": "театр"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "a690be5ca874.mp3"
+  },
+  {
+   "id": "15-invitation:pleasure",
+   "ru": "С удовольствием!",
+   "fr": "Avec plaisir !",
+   "tokens": [
+    {
+     "t": "С",
+     "s": null,
+     "w": true,
+     "a": "37421d1ce7f3.mp3",
+     "l": "с"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "удовольствием",
+     "s": 4,
+     "w": true,
+     "a": "a5dc5da98852.mp3",
+     "l": "удовольствие"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "0d861b44fdcc.mp3"
+  },
+  {
+   "id": "15-invitation:opera",
+   "ru": "Это опера.",
+   "fr": "C'est un opéra.",
+   "tokens": [
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "опера",
+     "s": 0,
+     "w": true,
+     "a": "35415d8fd44f.mp3",
+     "l": "опера"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ee67a2cc5305.mp3"
+  },
+  {
+   "id": "15-invitation:when",
+   "ru": "Отлично! Во сколько?",
+   "fr": "Parfait ! À quelle heure ?",
+   "tokens": [
+    {
+     "t": "Отлично",
+     "s": 3,
+     "w": true,
+     "a": "1b0c3f2d1ffd.mp3",
+     "l": "отлично"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Во",
+     "s": 1,
+     "w": true,
+     "a": "94135b8098e4.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сколько",
+     "s": 2,
+     "w": true,
+     "a": "68f717ec536d.mp3",
+     "l": "сколько"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "07b33ad9efe5.mp3"
+  },
+  {
+   "id": "15-invitation:tickets",
+   "ru": "В семь. Я куплю билеты.",
+   "fr": "À sept heures. J'achèterai les billets.",
+   "tokens": [
+    {
+     "t": "В",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "семь",
+     "s": 1,
+     "w": true,
+     "a": "51a184b078fc.mp3",
+     "l": "семь"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "куплю",
+     "s": 4,
+     "w": true,
+     "a": "c55a7708ac7d.mp3",
+     "l": "купить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "билеты",
+     "s": 3,
+     "w": true,
+     "a": "5def5b4d9364.mp3",
+     "l": "билет"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "12b9b52f96dc.mp3"
+  },
+  {
+   "id": "15-invitation:seeyou",
+   "ru": "До субботы!",
+   "fr": "À samedi !",
+   "tokens": [
+    {
+     "t": "До",
+     "s": 1,
+     "w": true,
+     "a": "f2096c168fa3.mp3",
+     "l": "до"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "субботы",
+     "s": 4,
+     "w": true,
+     "a": "a98d89c974b5.mp3",
+     "l": "суббота"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "ae7ad596de9d.mp3"
+  },
+  {
+   "id": "15-invitation:c1",
+   "ru": "Давай пойдём в кино в субботу!",
+   "fr": "Allons au cinéma samedi !",
+   "tokens": [
+    {
+     "t": "Давай",
+     "s": 3,
+     "w": true,
+     "a": "cf5a97086c92.mp3",
+     "l": "давать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пойдём",
+     "s": 4,
+     "w": true,
+     "a": "634858b1744b.mp3",
+     "l": "пойти"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кино",
+     "s": 3,
+     "w": true,
+     "a": "c3efe5a31dae.mp3",
+     "l": "кино"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "субботу",
+     "s": 4,
+     "w": true,
+     "a": "dcc66f37de17.mp3",
+     "l": "суббота"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "1b6bb3dd1635.mp3"
+  },
+  {
+   "id": "15-invitation:c2",
+   "ru": "Ты свободна завтра?",
+   "fr": "Tu es libre demain ? (à une femme)",
+   "tokens": [
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "свободна",
+     "s": 4,
+     "w": true,
+     "a": "2f650053878b.mp3",
+     "l": "свободный"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "завтра",
+     "s": 1,
+     "w": true,
+     "a": "8c010caec9ab.mp3",
+     "l": "завтра"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "a24187f54b96.mp3"
+  },
+  {
+   "id": "15-invitation:c3",
+   "ru": "С удовольствием! Я куплю пиццу.",
+   "fr": "Avec plaisir ! J'achèterai une pizza.",
+   "tokens": [
+    {
+     "t": "С",
+     "s": null,
+     "w": true,
+     "a": "37421d1ce7f3.mp3",
+     "l": "с"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "удовольствием",
+     "s": 4,
+     "w": true,
+     "a": "a5dc5da98852.mp3",
+     "l": "удовольствие"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "куплю",
+     "s": 4,
+     "w": true,
+     "a": "c55a7708ac7d.mp3",
+     "l": "купить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пиццу",
+     "s": 1,
+     "w": true,
+     "a": "2c2ecad902c9.mp3",
+     "l": "пицца"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "a55c5847df1e.mp3"
+  }
+ ],
+ "hasAudio": false
+}

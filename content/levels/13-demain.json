@@ -1,0 +1,438 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "13-demain",
+  "order": 13,
+  "titleFr": "Les projets",
+  "titleRu": "Планы",
+  "emoji": "📅",
+  "sceneFr": "Vendredi, Oleg appelle Luka pour parler du week-end qui arrive.",
+  "dialogue": [
+    {
+      "speaker": "oleg",
+      "ru": "Привет, Л+ука! Что ты будешь делать завтра?",
+      "fr": "Salut, Luka ! Qu'est-ce que tu vas faire demain ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Утром я буду учить русский.",
+      "fr": "Le matin, je vais étudier le russe."
+    },
+    {
+      "speaker": "luka",
+      "ru": "А потом я буду гулять в парке.",
+      "fr": "Et après, je vais me promener au parc."
+    },
+    {
+      "speaker": "oleg",
+      "ru": "А вечером? Ты будешь д+ома?",
+      "fr": "Et le soir ? Tu seras à la maison ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Не знаю. А что?",
+      "fr": "Je ne sais pas. Pourquoi ?"
+    },
+    {
+      "speaker": "oleg",
+      "ru": "Мы будем играть в футбол. Хочешь с нами?",
+      "fr": "On va jouer au foot. Tu veux venir avec nous ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Конечно хочу! Где?",
+      "fr": "Bien sûr que je veux ! Où ?"
+    },
+    {
+      "speaker": "oleg",
+      "ru": "В парке, в семь часов.",
+      "fr": "Au parc, à sept heures."
+    }
+  ],
+  "phrases": [
+    {
+      "id": "plans",
+      "speaker": "oleg",
+      "ru": "Что ты будешь делать завтра?",
+      "fr": "Qu'est-ce que tu vas faire demain ?",
+      "noteFr": "Le futur : « будешь » + verbe à l'infinitif. « Будешь делать » = tu vas faire.",
+      "gap": {
+        "word": "будешь",
+        "distractors": [
+          "буду",
+          "завтра"
+        ],
+        "whyFr": "Avec « ты » : « будешь ». « Буду », c'est pour « я »."
+      },
+      "orders": [
+        "что ты будешь делать завтра",
+        "что ты завтра будешь делать",
+        "завтра что ты будешь делать"
+      ]
+    },
+    {
+      "id": "study",
+      "speaker": "luka",
+      "ru": "Утром я буду учить русский.",
+      "fr": "Le matin, je vais étudier le russe.",
+      "noteFr": "« Я буду » + infinitif = je vais (faire). « Учить » = étudier, apprendre.",
+      "gap": {
+        "word": "буду",
+        "distractors": [
+          "будешь",
+          "завтра"
+        ],
+        "whyFr": "Avec « я » : « буду »."
+      },
+      "orders": [
+        "утром я буду учить русский",
+        "я буду учить русский утром"
+      ]
+    },
+    {
+      "id": "walk",
+      "speaker": "luka",
+      "ru": "А потом я буду гулять в парке.",
+      "fr": "Et après, je vais me promener au parc.",
+      "noteFr": "« Гулять » = se promener. « В парке » : tu connais ce vert.",
+      "gap": {
+        "word": "гулять",
+        "distractors": [
+          "гуляю",
+          "парк"
+        ],
+        "whyFr": "Après « буду », le verbe reste à l'infinitif (-ть) : « буду гулять »."
+      },
+      "orders": [
+        "а потом я буду гулять в парке",
+        "а потом я буду в парке гулять"
+      ]
+    },
+    {
+      "id": "home",
+      "speaker": "oleg",
+      "ru": "А вечером? Ты будешь д+ома?",
+      "fr": "Et le soir ? Tu seras à la maison ?",
+      "noteFr": "« Ты будешь дома ? » = tu seras à la maison ? « Быть » au futur, tout seul.",
+      "gap": {
+        "word": "дома",
+        "distractors": [
+          "парк",
+          "завтра"
+        ]
+      }
+    },
+    {
+      "id": "dunno",
+      "speaker": "luka",
+      "ru": "Не знаю. А что?",
+      "fr": "Je ne sais pas. Pourquoi ?",
+      "noteFr": "« Не знаю » = je ne sais pas. « А что ? » = pourquoi ? (mot à mot : « et quoi ? »).",
+      "gap": {
+        "word": "знаю",
+        "distractors": [
+          "знаешь",
+          "буду"
+        ],
+        "whyFr": "Avec « я » : « знаю » (-ю)."
+      }
+    },
+    {
+      "id": "football",
+      "speaker": "oleg",
+      "ru": "Мы будем играть в футбол. Хочешь с нами?",
+      "fr": "On va jouer au foot. Tu veux venir avec nous ?",
+      "noteFr": "« Мы будем » = nous allons. « Играть в футбол » = jouer au foot. « С нами » = avec nous.",
+      "gap": {
+        "word": "будем",
+        "distractors": [
+          "буду",
+          "играть"
+        ],
+        "whyFr": "Avec « мы » : « будем »."
+      }
+    },
+    {
+      "id": "sure",
+      "speaker": "luka",
+      "ru": "Конечно хочу! Где?",
+      "fr": "Bien sûr que je veux ! Où ?",
+      "noteFr": "« Конечно » = bien sûr.",
+      "gap": {
+        "word": "конечно",
+        "distractors": [
+          "завтра",
+          "д+ома"
+        ]
+      }
+    },
+    {
+      "id": "seven",
+      "speaker": "oleg",
+      "ru": "В парке, в семь часов.",
+      "fr": "Au parc, à sept heures.",
+      "noteFr": "« В семь часов » = à sept heures.",
+      "gap": {
+        "word": "семь",
+        "distractors": [
+          "где",
+          "д+ома"
+        ]
+      }
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Demain",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 0
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "plans",
+            "study"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "walk",
+            "home"
+          ],
+          "review": [
+            "study"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Une proposition",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "plans",
+            "study",
+            "walk"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "dunno",
+            "football"
+          ],
+          "review": [
+            "walk",
+            "home"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "sure",
+            "seven"
+          ],
+          "review": [
+            "football"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "oleg",
+      "fr": [
+        "Le futur, c'est facile : « буду » + le verbe à l'infinitif (avec -ть). « Я буду работать » = je vais travailler.",
+        "Seul « буду » change : я буду, ты будешь, он будет, мы будем, вы будете, они будут.",
+        "Tu connais déjà « я буду » du restaurant : « я буду суп » = je vais prendre une soupe !"
+      ]
+    },
+    {
+      "by": "oleg",
+      "fr": [
+        "Maintenant tu sais parler du passé (я работал), du présent (я работаю) et du futur (я буду работать).",
+        "Avec ces trois-là, tu peux déjà raconter presque toute ta vie !"
+      ]
+    }
+  ],
+  "explore": {
+    "type": "plain",
+    "speaker": "luka",
+    "frame": "Завтра я буду ___.",
+    "frameFr": "Demain, je vais ___.",
+    "color": "#8e44ad",
+    "hintFr": "Mets chaque verbe après « буду » et écoute.",
+    "words": [
+      {
+        "tile": "работать",
+        "fr": "travailler",
+        "phraseFr": "Demain, je vais travailler."
+      },
+      {
+        "tile": "отдыхать",
+        "fr": "me reposer",
+        "phraseFr": "Demain, je vais me reposer."
+      },
+      {
+        "tile": "читать",
+        "fr": "lire",
+        "phraseFr": "Demain, je vais lire."
+      },
+      {
+        "tile": "гулять",
+        "fr": "me promener",
+        "phraseFr": "Demain, je vais me promener."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Dis : « Demain, je vais lire. »",
+      "answer": "читать"
+    },
+    {
+      "type": "pick",
+      "fr": "Dis : « Demain, je vais travailler. »",
+      "answer": "работать"
+    }
+  ],
+  "cando": [
+    "parler de tes projets",
+    "parler au futur",
+    "accepter une proposition"
+  ],
+  "unlocks": [],
+  "glossary": {
+    "я": "je, moi",
+    "ты": "tu",
+    "вы": "vous",
+    "да": "oui",
+    "нет": "non",
+    "а": "et, mais",
+    "и": "et",
+    "это": "c'est, voici",
+    "не": "ne… pas",
+    "в": "dans, à",
+    "на": "sur, en",
+    "что": "quoi, que",
+    "как": "comment, comme",
+    "где": "où",
+    "очень": "très",
+    "спасибо": "merci",
+    "пожалуйста": "s'il te plaît / je t'en prie",
+    "хорошо": "bien, d'accord",
+    "привет": "salut",
+    "лука": "Luka (prénom)",
+    "маша": "Macha (prénom)",
+    "олег": "Oleg (prénom)",
+    "анна": "Anna (prénom)",
+    "у": "chez",
+    "меня": "moi (у меня = j'ai)",
+    "тебя": "toi (у тебя = tu as)",
+    "есть": "il y a",
+    "мой": "mon",
+    "моя": "ma",
+    "мне": "à moi",
+    "тоже": "aussi",
+    "сегодня": "aujourd'hui",
+    "завтра": "demain",
+    "вчера": "hier",
+    "потом": "puis, ensuite",
+    "давай": "allons-y, faisons",
+    "будешь": "(tu) seras",
+    "буду": "(je) serai",
+    "будем": "(nous) serons",
+    "делать": "faire",
+    "утром": "le matin",
+    "учить": "étudier, apprendre",
+    "русский": "le russe",
+    "гулять": "se promener",
+    "гуляю": "(je) me promène",
+    "парке": "parc (après в)",
+    "парк": "parc",
+    "вечером": "le soir",
+    "дома": "à la maison",
+    "знаю": "(je) sais",
+    "знаешь": "(tu) sais",
+    "мы": "nous",
+    "играть": "jouer",
+    "футбол": "football",
+    "хочешь": "(tu) veux",
+    "с": "avec",
+    "нами": "nous (с нами = avec nous)",
+    "конечно": "bien sûr",
+    "хочу": "(je) veux",
+    "семь": "sept",
+    "часов": "heures",
+    "работать": "travailler",
+    "отдыхать": "se reposer",
+    "читать": "lire"
+  },
+  "combos": [
+    {
+      "ru": "Завтра я буду работать д+ома.",
+      "fr": "Demain, je vais travailler à la maison.",
+      "extra": [
+        "работаю"
+      ],
+      "orders": [
+        "завтра я буду работать дома",
+        "завтра я буду дома работать",
+        "я буду работать дома завтра"
+      ]
+    },
+    {
+      "ru": "Ты будешь гулять в парке?",
+      "fr": "Tu vas te promener au parc ?",
+      "extra": [
+        "буду"
+      ],
+      "orders": [
+        "ты будешь гулять в парке",
+        "ты будешь в парке гулять"
+      ]
+    },
+    {
+      "ru": "Я не знаю, где банк.",
+      "fr": "Je ne sais pas où est la banque.",
+      "extra": [
+        "буду"
+      ]
+    }
+  ]
+}

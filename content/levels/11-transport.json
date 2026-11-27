@@ -1,0 +1,458 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "11-transport",
+  "order": 11,
+  "titleFr": "Prendre le métro",
+  "titleRu": "На метро",
+  "emoji": "🚇",
+  "sceneFr": "Lundi matin, Luka part à son cours de russe. Dans l'ascenseur, il retrouve Macha qui va à l'hôpital.",
+  "dialogue": [
+    {
+      "speaker": "masha",
+      "ru": "Доброе утро, Л+ука! Куда ты идёшь?",
+      "fr": "Bonjour, Luka ! Où est-ce que tu vas ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Доброе утро! Я иду на урок.",
+      "fr": "Bonjour ! Je vais à mon cours."
+    },
+    {
+      "speaker": "masha",
+      "ru": "Ты едешь на метро?",
+      "fr": "Tu y vas en métro ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Нет, я еду на автобусе. А ты?",
+      "fr": "Non, j'y vais en bus. Et toi ?"
+    },
+    {
+      "speaker": "masha",
+      "ru": "Я еду в больницу. На метро.",
+      "fr": "Je vais à l'hôpital. En métro."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Это далеко?",
+      "fr": "C'est loin ?"
+    },
+    {
+      "speaker": "masha",
+      "ru": "Нет, двадцать минут. Пока!",
+      "fr": "Non, vingt minutes. Salut !"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Пока! Хорошего дня!",
+      "fr": "Salut ! Bonne journée !"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "where",
+      "speaker": "masha",
+      "ru": "Куда ты идёшь?",
+      "fr": "Où est-ce que tu vas ?",
+      "noteFr": "« Куда » = où (vers où on va). « Где » = où on est. « Идёшь » = (tu) vas, à pied.",
+      "gap": {
+        "word": "куда",
+        "distractors": [
+          "где",
+          "пока"
+        ],
+        "whyFr": "Pour une direction (aller vers) : « куда ». « Где », c'est pour l'endroit où l'on est."
+      },
+      "orders": [
+        "куда ты идёшь",
+        "ты куда идёшь"
+      ]
+    },
+    {
+      "id": "lesson",
+      "speaker": "luka",
+      "ru": "Я иду на урок.",
+      "fr": "Je vais à mon cours.",
+      "noteFr": "« Иду » = (je) vais, à pied. « На урок » = au cours.",
+      "gap": {
+        "word": "иду",
+        "distractors": [
+          "идёшь",
+          "пока"
+        ],
+        "whyFr": "Avec « я » : « иду ». « Идёшь », c'est pour « ты »."
+      },
+      "orders": [
+        "я иду на урок",
+        "на урок я иду"
+      ]
+    },
+    {
+      "id": "metroq",
+      "speaker": "masha",
+      "ru": "Ты едешь на метро?",
+      "fr": "Tu y vas en métro ?",
+      "noteFr": "« Ехать » = aller en véhicule : « ты едешь ». « На метро » = en métro.",
+      "gap": {
+        "word": "едешь",
+        "distractors": [
+          "еду",
+          "куда"
+        ],
+        "whyFr": "Avec « ты » : « едешь ». « Еду », c'est pour « я »."
+      },
+      "orders": [
+        "ты едешь на метро",
+        "на метро ты едешь"
+      ]
+    },
+    {
+      "id": "bus",
+      "speaker": "luka",
+      "ru": "Нет, я еду на автобусе.",
+      "fr": "Non, j'y vais en bus.",
+      "noteFr": "« На автобусе » = en bus : « автобус » prend -е, comme pour un lieu.",
+      "gap": {
+        "word": "автобусе",
+        "distractors": [
+          "автобус",
+          "метро"
+        ],
+        "whyFr": "Avec « на » pour le moyen de transport : « автобус » → « на автобусе »."
+      },
+      "orders": [
+        "нет я еду на автобусе",
+        "нет на автобусе я еду"
+      ]
+    },
+    {
+      "id": "hospital",
+      "speaker": "masha",
+      "ru": "Я еду в больницу.",
+      "fr": "Je vais à l'hôpital.",
+      "noteFr": "« Больница » = hôpital. Pour aller vers, « в » + -у : « в больницу ».",
+      "gap": {
+        "word": "больницу",
+        "distractors": [
+          "больнице",
+          "автобусе"
+        ],
+        "whyFr": "Pour aller VERS un lieu : « в больницу » (-у). « В больнице » (-е), c'est quand on y est déjà."
+      },
+      "orders": [
+        "я еду в больницу",
+        "в больницу я еду"
+      ]
+    },
+    {
+      "id": "far",
+      "speaker": "luka",
+      "ru": "Это далеко?",
+      "fr": "C'est loin ?",
+      "noteFr": "Tu le connais déjà !",
+      "gap": {
+        "word": "далеко",
+        "distractors": [
+          "пока",
+          "урок"
+        ]
+      }
+    },
+    {
+      "id": "twenty",
+      "speaker": "masha",
+      "ru": "Нет, двадцать минут. Пока!",
+      "fr": "Non, vingt minutes. Salut !",
+      "noteFr": "« Двадцать » = vingt. « Пока » = salut (pour partir), entre amis.",
+      "gap": {
+        "word": "двадцать",
+        "distractors": [
+          "куда",
+          "урок"
+        ]
+      }
+    },
+    {
+      "id": "niceday",
+      "speaker": "luka",
+      "ru": "Пока! Хорошего дня!",
+      "fr": "Salut ! Bonne journée !",
+      "noteFr": "« Хорошего дня » = bonne journée.",
+      "gap": {
+        "word": "дня",
+        "distractors": [
+          "урок",
+          "метро"
+        ]
+      }
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Où vas-tu ?",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "where",
+            "lesson"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 0
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "metroq",
+            "bus"
+          ],
+          "review": [
+            "where",
+            "lesson"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "En métro, en bus",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "where",
+            "lesson",
+            "metroq"
+          ]
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 1
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "hospital",
+            "far"
+          ],
+          "review": [
+            "metroq",
+            "bus"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "twenty",
+            "niceday"
+          ],
+          "review": [
+            "hospital"
+          ]
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "masha",
+      "fr": [
+        "Le russe a deux verbes pour « aller » : « идти » à pied (я иду, ты идёшь) et « ехать » en véhicule (я еду, ты едешь).",
+        "Et deux « où » : « где » (où l'on est) et « куда » (où l'on va)."
+      ]
+    },
+    {
+      "by": "masha",
+      "fr": [
+        "Pour le moyen de transport : « на » + le vert du lieu : « на автобусе », « на машине ». « Метро » et « такси » ne changent jamais.",
+        "Mais pour aller VERS un lieu, c'est le bleu : « я еду в больницу » (-у). Comparer : « я в больнице » = j'y suis."
+      ]
+    }
+  ],
+  "explore": {
+    "type": "case",
+    "speaker": "luka",
+    "case": "loct",
+    "frame": "Я еду на ___.",
+    "frameFr": "J'y vais en ___.",
+    "color": "#2a9d8f",
+    "hintFr": "Mets chaque transport après « на » et regarde bien la fin du mot.",
+    "words": [
+      {
+        "tile": "метро",
+        "fr": "métro",
+        "phraseFr": "J'y vais en métro."
+      },
+      {
+        "tile": "автобус",
+        "fr": "bus",
+        "phraseFr": "J'y vais en bus."
+      },
+      {
+        "tile": "машина",
+        "fr": "voiture",
+        "phraseFr": "J'y vais en voiture."
+      },
+      {
+        "tile": "такси",
+        "fr": "taxi",
+        "phraseFr": "J'y vais en taxi."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Dis que tu y vas en voiture.",
+      "answer": "машина"
+    },
+    {
+      "type": "pick",
+      "fr": "Dis que tu y vas en taxi.",
+      "answer": "такси"
+    }
+  ],
+  "cando": [
+    "dire où tu vas",
+    "dire comment tu y vas",
+    "dire au revoir entre amis"
+  ],
+  "unlocks": [
+    {
+      "case": "loct",
+      "gender": "masc",
+      "from": "автобус",
+      "to": "автобусе"
+    },
+    {
+      "case": "accs",
+      "gender": "femn",
+      "from": "больница",
+      "to": "больницу"
+    }
+  ],
+  "glossary": {
+    "я": "je, moi",
+    "ты": "tu",
+    "вы": "vous",
+    "да": "oui",
+    "нет": "non",
+    "а": "et, mais",
+    "и": "et",
+    "это": "c'est, voici",
+    "не": "ne… pas",
+    "в": "dans, à",
+    "на": "sur, en",
+    "что": "quoi, que",
+    "как": "comment, comme",
+    "где": "où",
+    "очень": "très",
+    "спасибо": "merci",
+    "пожалуйста": "s'il te plaît / je t'en prie",
+    "хорошо": "bien, d'accord",
+    "привет": "salut",
+    "лука": "Luka (prénom)",
+    "маша": "Macha (prénom)",
+    "олег": "Oleg (prénom)",
+    "анна": "Anna (prénom)",
+    "у": "chez",
+    "меня": "moi (у меня = j'ai)",
+    "тебя": "toi (у тебя = tu as)",
+    "есть": "il y a",
+    "мой": "mon",
+    "моя": "ma",
+    "мне": "à moi",
+    "тоже": "aussi",
+    "сегодня": "aujourd'hui",
+    "завтра": "demain",
+    "вчера": "hier",
+    "потом": "puis, ensuite",
+    "давай": "allons-y, faisons",
+    "доброе": "bon (доброе утро = bonjour, le matin)",
+    "утро": "matin",
+    "куда": "où (vers où)",
+    "идёшь": "(tu) vas (à pied)",
+    "идешь": "(tu) vas (à pied)",
+    "иду": "(je) vais (à pied)",
+    "урок": "cours, leçon",
+    "едешь": "(tu) vas (en véhicule)",
+    "еду": "(je) vais (en véhicule)",
+    "метро": "métro",
+    "автобусе": "bus (après на)",
+    "автобус": "bus",
+    "больницу": "hôpital (vers)",
+    "больнице": "hôpital (dedans)",
+    "больница": "hôpital",
+    "далеко": "loin",
+    "двадцать": "vingt",
+    "минут": "minutes",
+    "пока": "salut (au revoir)",
+    "хорошего": "bon(ne)",
+    "дня": "journée (хорошего дня = bonne journée)",
+    "машина": "voiture",
+    "такси": "taxi"
+  },
+  "combos": [
+    {
+      "ru": "Куда ты едешь?",
+      "fr": "Où est-ce que tu vas (en véhicule) ?",
+      "extra": [
+        "где"
+      ],
+      "orders": [
+        "куда ты едешь",
+        "ты куда едешь"
+      ]
+    },
+    {
+      "ru": "Я иду в парк.",
+      "fr": "Je vais au parc.",
+      "extra": [
+        "парке"
+      ],
+      "orders": [
+        "я иду в парк",
+        "в парк я иду"
+      ],
+      "noteFr": "Pour aller VERS : « в парк », sans -е."
+    },
+    {
+      "ru": "Ты едешь на такси?",
+      "fr": "Tu y vas en taxi ?",
+      "extra": [
+        "еду"
+      ],
+      "orders": [
+        "ты едешь на такси",
+        "на такси ты едешь"
+      ]
+    }
+  ]
+}

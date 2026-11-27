@@ -250,6 +250,16 @@ def norm_words(s: str) -> str:
     return " ".join(re.sub(r"[^а-яё\- ]", " ", s.replace("+", "").lower()).split())
 
 
+# Пазл: всё, что ученик уже видел в прошлых уроках (формы слов → в каком уроке впервые), и их переводы
+KNOWN: dict[str, str] = {}
+GLOSS_ALL: dict[str, str] = {}
+nk = lambda w: w.lower().replace("ё", "е")
+
+
+def forms_of(text: str) -> list[str]:
+    return [nk(m.group()) for m in WORD_RE.finditer(text.replace("+", ""))]
+
+
 def build_lesson_v2(src: dict) -> dict:
     """Урок новой схемы: фразы проходят «лестницу» упражнений блоками, урок делится на части."""
     lid = src["id"]
@@ -268,14 +278,14 @@ def build_lesson_v2(src: dict) -> dict:
                 out["gap"] = {
                     "index": idx,
                     "whyFr": g.get("whyFr", ""),
-                    "distractors": [{"t": d, "a": clip(accent(d).lower(), WORD_VOICE), "s": split_word(accent(d))[1]}
+                    "distractors": [{"t": d.replace("+", ""), "a": clip(accent(d).lower(), WORD_VOICE), "s": split_word(accent(d))[1]}
                                     for d in g["distractors"]],
                 }
                 full = norm_words(p["ru"])
                 for d in g["distractors"]:
                     if d.lower() == g["word"].lower():
                         errors.append(f"{lid}/{p['id']}: отвлекающий вариант совпадает с ответом")
-                    swapped = re.sub(rf"(?i)(?<![а-яё]){re.escape(g['word'])}(?![а-яё])", d, p["ru"].replace("+", ""))
+                    swapped = re.sub(rf"(?i)(?<![а-яё]){re.escape(g['word'])}(?![а-яё])", d.replace("+", ""), p["ru"].replace("+", ""))
                     if norm_words(swapped) == full:
                         errors.append(f"{lid}/{p['id']}: отвлекающий вариант даёт ту же фразу")
         if "orders" in p:
@@ -292,7 +302,7 @@ def build_lesson_v2(src: dict) -> dict:
     for part in src["parts"]:
         for st in part["steps"]:
             for pid in st.get("phrases", []) + st.get("review", []):
-                if pid not in phrases:
+                if pid not in phrases and not (st["type"] == "combine"):
                     errors.append(f"{lid}: шаг ссылается на неизвестную фразу «{pid}»")
 
     explore = build_explore(src["explore"])
@@ -313,6 +323,48 @@ def build_lesson_v2(src: dict) -> dict:
     if missing:
         print(f"  ⚠ {lid}: нет перевода в glossary для: {', '.join(missing)}")
 
+    # слова этого урока становятся «известными»
+    lesson_forms = set()
+    for txt in [d["ru"] for d in src["dialogue"]] + [p["ru"] for p in src["phrases"]] + [w["phrase"] for w in explore["words"]] + [w["tile"] for w in explore["words"]]:
+        lesson_forms.update(forms_of(txt))
+    for f in lesson_forms:
+        KNOWN.setdefault(f, src["titleFr"])
+    for k, v in glossary.items():
+        GLOSS_ALL.setdefault(k, v)
+
+    # Пазл: новые фразы ТОЛЬКО из уже знакомых слов (из этого и прошлых уроков)
+    for i, c in enumerate(src.get("combos", [])):
+        cid = f"c{i + 1}"
+        unknown = [f for f in forms_of(c["ru"]) if f not in KNOWN]
+        if unknown:
+            errors.append(f"{lid}/пазл «{c['ru']}»: незнакомые слова {unknown}")
+        if norm_words(c["ru"]) in {norm_words(x["ru"]) for x in list(src["phrases"]) + list(src["dialogue"])}:
+            errors.append(f"{lid}/пазл «{c['ru']}»: такая фраза уже есть в уроке — это не новая комбинация")
+        ln = line(c["ru"], c["fr"], c.get("speaker", learner))
+        alts = [norm_words(o) for o in c.get("orders", [c["ru"]])]
+        if norm_words(c["ru"]) not in alts:
+            errors.append(f"{lid}/пазл «{c['ru']}»: основной порядок не входит в orders")
+        words_c = {nk(t["t"]) for t in ln["tokens"] if t["w"]}
+        for x in c.get("extra", []):
+            x = x.replace("+", "")
+            if nk(x) in words_c:
+                errors.append(f"{lid}/пазл «{c['ru']}»: лишнее слово «{x}» есть во фразе")
+            if nk(x) not in KNOWN:
+                errors.append(f"{lid}/пазл «{c['ru']}»: лишнее слово «{x}» ещё не изучено")
+        src_lessons = []
+        for f in forms_of(c["ru"]):
+            t = KNOWN.get(f)
+            if t and t not in src_lessons:
+                src_lessons.append(t)
+        phrases[cid] = {**ln, "id": cid, "noteFr": c.get("noteFr", ""), "orders": alts,
+                        "combo": {"from": src_lessons,
+                                  "extra": [{"t": x.replace("+", ""), "a": clip(accent(x).lower(), WORD_VOICE), "s": split_word(accent(x))[1]}
+                                            for x in c.get("extra", [])]}}
+        for t in ln["tokens"]:
+            if t["w"] and nk(t["t"]) not in glossary and nk(t["t"]) in GLOSS_ALL:
+                glossary[nk(t["t"])] = GLOSS_ALL[nk(t["t"])]
+
+    grammar = sorted(set(grammar[:-1]) | {re.sub(r"[^а-яё ]", "", x["ru"].lower()).strip() for x in phrases.values()}) + ["[unk]"]
     items = [{"id": f"{lid}:{p['id']}", "ru": p["ru"], "fr": p["fr"], "tokens": p["tokens"], "audio": p["audio"]}
              for p in phrases.values()]
     return {

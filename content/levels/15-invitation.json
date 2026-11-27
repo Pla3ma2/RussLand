@@ -1,0 +1,429 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "15-invitation",
+  "order": 15,
+  "titleFr": "Une invitation",
+  "titleRu": "Приглашение",
+  "emoji": "🎭",
+  "sceneFr": "Une semaine plus tard, Luka va mieux. Pour remercier Macha, il veut l'inviter au théâtre.",
+  "dialogue": [
+    {
+      "speaker": "luka",
+      "ru": "Маша, ты свободна в субботу?",
+      "fr": "Macha, tu es libre samedi ?"
+    },
+    {
+      "speaker": "masha",
+      "ru": "Да, а что?",
+      "fr": "Oui, pourquoi ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Давай пойдём в театр!",
+      "fr": "Allons au théâtre !"
+    },
+    {
+      "speaker": "masha",
+      "ru": "С удовольствием! А что там идёт?",
+      "fr": "Avec plaisir ! Et qu'est-ce qui se joue ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "«Евгений Онегин». Это опера.",
+      "fr": "« Eugène Onéguine ». C'est un opéra."
+    },
+    {
+      "speaker": "masha",
+      "ru": "Отлично! Во сколько?",
+      "fr": "Parfait ! À quelle heure ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "В семь. Я куплю билеты.",
+      "fr": "À sept heures. J'achèterai les billets."
+    },
+    {
+      "speaker": "masha",
+      "ru": "Спасибо, Л+ука! До субботы!",
+      "fr": "Merci, Luka ! À samedi !"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "free",
+      "speaker": "luka",
+      "ru": "Маша, ты свободна в субботу?",
+      "fr": "Macha, tu es libre samedi ?",
+      "noteFr": "« Свободна » = libre (pour une femme). Pour un homme : « свободен ».",
+      "gap": {
+        "word": "свободна",
+        "distractors": [
+          "свободен",
+          "театр"
+        ],
+        "whyFr": "Macha est une femme : « свободна » (-а). « Свободен », c'est pour un homme."
+      },
+      "orders": [
+        "маша ты свободна в субботу",
+        "маша в субботу ты свободна"
+      ]
+    },
+    {
+      "id": "why",
+      "speaker": "masha",
+      "ru": "Да, а что?",
+      "fr": "Oui, pourquoi ?",
+      "noteFr": "Tu connais « а что ? » = pourquoi ?"
+    },
+    {
+      "id": "letsgo",
+      "speaker": "luka",
+      "ru": "Давай пойдём в театр!",
+      "fr": "Allons au théâtre !",
+      "noteFr": "« Давай пойдём… » = allons… ! Pour aller VERS : « в театр », sans -е.",
+      "gap": {
+        "word": "театр",
+        "distractors": [
+          "театре",
+          "опера"
+        ],
+        "whyFr": "On va VERS le théâtre : « в театр ». « В театре » (-е), c'est quand on y est déjà."
+      },
+      "orders": [
+        "давай пойдём в театр"
+      ]
+    },
+    {
+      "id": "pleasure",
+      "speaker": "masha",
+      "ru": "С удовольствием!",
+      "fr": "Avec plaisir !",
+      "noteFr": "« С удовольствием » = avec plaisir. La réponse parfaite à une invitation.",
+      "gap": {
+        "word": "удовольствием",
+        "distractors": [
+          "театр",
+          "билеты"
+        ]
+      }
+    },
+    {
+      "id": "opera",
+      "speaker": "luka",
+      "ru": "Это опера.",
+      "fr": "C'est un opéra.",
+      "noteFr": "« Опера » = opéra. « Евгений Онегин » est un opéra très célèbre de Tchaïkovski.",
+      "gap": {
+        "word": "опера",
+        "distractors": [
+          "театр",
+          "билеты"
+        ]
+      }
+    },
+    {
+      "id": "when",
+      "speaker": "masha",
+      "ru": "Отлично! Во сколько?",
+      "fr": "Parfait ! À quelle heure ?",
+      "noteFr": "« Отлично » = parfait, excellent. « Во сколько ? » = à quelle heure ?",
+      "gap": {
+        "word": "отлично",
+        "distractors": [
+          "театр",
+          "субботы"
+        ]
+      }
+    },
+    {
+      "id": "tickets",
+      "speaker": "luka",
+      "ru": "В семь. Я куплю билеты.",
+      "fr": "À sept heures. J'achèterai les billets.",
+      "noteFr": "« Куплю » = j'achèterai. « Билеты » = les billets.",
+      "gap": {
+        "word": "билеты",
+        "distractors": [
+          "театр",
+          "опера"
+        ]
+      }
+    },
+    {
+      "id": "seeyou",
+      "speaker": "masha",
+      "ru": "До субботы!",
+      "fr": "À samedi !",
+      "noteFr": "« До субботы » = à samedi (jusqu'à samedi). Comme « до свидания » !",
+      "gap": {
+        "word": "субботы",
+        "distractors": [
+          "субботу",
+          "театр"
+        ],
+        "whyFr": "Après « до » (jusqu'à) : « до субботы ». Retiens-le comme « до свидания »."
+      }
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Inviter",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "free",
+            "why"
+          ]
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 0
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "letsgo",
+            "pleasure"
+          ],
+          "review": [
+            "free"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Se mettre d'accord",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "free",
+            "letsgo",
+            "pleasure"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "opera",
+            "when"
+          ],
+          "review": [
+            "letsgo"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "tickets",
+            "seeyou"
+          ],
+          "review": [
+            "when",
+            "pleasure"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "masha",
+      "fr": [
+        "Pour aller VERS un lieu, on utilise le bleu, comme pour ce qu'on veut : « в театр », « в кино », « в библиотеку ».",
+        "Et pour dire où l'on EST, le vert : « в театре », « в библиотеке ». Bleu = on y va, vert = on y est !"
+      ]
+    },
+    {
+      "by": "masha",
+      "fr": [
+        "Pour inviter : « Давай пойдём… ! » (allons…). Pour accepter : « С удовольствием ! ». Pour refuser gentiment : « Извини, я не могу. »",
+        "« Свободен » (homme) / « свободна » (femme) = libre : encore le genre !"
+      ]
+    }
+  ],
+  "explore": {
+    "type": "case",
+    "speaker": "luka",
+    "case": "accs",
+    "frame": "Давай пойдём в ___!",
+    "frameFr": "Allons ___ !",
+    "color": "#3a86ff",
+    "hintFr": "Mets chaque lieu après « в » (on y va) et regarde bien la fin du mot.",
+    "words": [
+      {
+        "tile": "театр",
+        "fr": "au théâtre",
+        "phraseFr": "Allons au théâtre !"
+      },
+      {
+        "tile": "кино",
+        "fr": "au cinéma",
+        "phraseFr": "Allons au cinéma !"
+      },
+      {
+        "tile": "библиотека",
+        "fr": "à la bibliothèque",
+        "phraseFr": "Allons à la bibliothèque !"
+      },
+      {
+        "tile": "парк",
+        "fr": "au parc",
+        "phraseFr": "Allons au parc !"
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Propose d'aller à la bibliothèque.",
+      "answer": "библиотека"
+    },
+    {
+      "type": "pick",
+      "fr": "Propose d'aller au cinéma.",
+      "answer": "кино"
+    }
+  ],
+  "cando": [
+    "inviter quelqu'un",
+    "accepter une invitation",
+    "fixer un rendez-vous"
+  ],
+  "unlocks": [
+    {
+      "case": "accs",
+      "gender": "femn",
+      "from": "библиотека",
+      "to": "библиотеку"
+    }
+  ],
+  "glossary": {
+    "я": "je, moi",
+    "ты": "tu",
+    "вы": "vous",
+    "да": "oui",
+    "нет": "non",
+    "а": "et, mais",
+    "и": "et",
+    "это": "c'est, voici",
+    "не": "ne… pas",
+    "в": "dans, à",
+    "на": "sur, en",
+    "что": "quoi, que",
+    "как": "comment, comme",
+    "где": "où",
+    "очень": "très",
+    "спасибо": "merci",
+    "пожалуйста": "s'il te plaît / je t'en prie",
+    "хорошо": "bien, d'accord",
+    "привет": "salut",
+    "лука": "Luka (prénom)",
+    "маша": "Macha (prénom)",
+    "олег": "Oleg (prénom)",
+    "анна": "Anna (prénom)",
+    "у": "chez",
+    "меня": "moi (у меня = j'ai)",
+    "тебя": "toi (у тебя = tu as)",
+    "есть": "il y a",
+    "мой": "mon",
+    "моя": "ma",
+    "мне": "à moi",
+    "тоже": "aussi",
+    "сегодня": "aujourd'hui",
+    "завтра": "demain",
+    "вчера": "hier",
+    "потом": "puis, ensuite",
+    "давай": "allons-y, faisons",
+    "свободна": "libre (femme)",
+    "свободен": "libre (homme)",
+    "субботу": "samedi (в субботу)",
+    "субботы": "samedi (до субботы = à samedi)",
+    "пойдём": "allons",
+    "пойдем": "allons",
+    "театр": "théâtre",
+    "театре": "théâtre (après в, on y est)",
+    "с": "avec",
+    "удовольствием": "plaisir (с удовольствием = avec plaisir)",
+    "там": "là-bas",
+    "идёт": "se joue, passe",
+    "идет": "se joue, passe",
+    "евгений": "Eugène",
+    "онегин": "Onéguine",
+    "опера": "opéra",
+    "отлично": "parfait",
+    "во": "à (во сколько = à quelle heure)",
+    "сколько": "combien",
+    "семь": "sept",
+    "куплю": "(j')achèterai",
+    "билеты": "billets",
+    "до": "jusqu'à",
+    "кино": "cinéma",
+    "библиотеку": "bibliothèque (vers)",
+    "библиотека": "bibliothèque",
+    "парк": "parc"
+  },
+  "combos": [
+    {
+      "ru": "Давай пойдём в кино в субботу!",
+      "fr": "Allons au cinéma samedi !",
+      "extra": [
+        "театре"
+      ],
+      "orders": [
+        "давай пойдём в кино в субботу",
+        "давай в субботу пойдём в кино",
+        "в субботу давай пойдём в кино"
+      ]
+    },
+    {
+      "ru": "Ты свободна завтра?",
+      "fr": "Tu es libre demain ? (à une femme)",
+      "extra": [
+        "субботу"
+      ],
+      "orders": [
+        "ты свободна завтра",
+        "завтра ты свободна"
+      ]
+    },
+    {
+      "ru": "С удовольствием! Я куплю пиццу.",
+      "fr": "Avec plaisir ! J'achèterai une pizza.",
+      "extra": [
+        "пицца"
+      ]
+    }
+  ]
+}

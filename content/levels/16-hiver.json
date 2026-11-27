@@ -1,0 +1,448 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "16-hiver",
+  "order": 16,
+  "titleFr": "L'hiver arrive",
+  "titleRu": "Зима",
+  "emoji": "❄️",
+  "sceneFr": "Novembre à Saint-Pétersbourg. En sortant du théâtre, Luka découvre la neige… et le froid russe.",
+  "dialogue": [
+    {
+      "speaker": "luka",
+      "ru": "Ой, как холодно!",
+      "fr": "Oh, qu'il fait froid !"
+    },
+    {
+      "speaker": "masha",
+      "ru": "Да, сегодня минус десять.",
+      "fr": "Oui, aujourd'hui il fait moins dix."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Минус десять? А во Франции сейчас тепло.",
+      "fr": "Moins dix ? Et en France, en ce moment, il fait doux."
+    },
+    {
+      "speaker": "masha",
+      "ru": "Где твоя шапка?",
+      "fr": "Où est ton bonnet ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "У меня нет шапки.",
+      "fr": "Je n'ai pas de bonnet."
+    },
+    {
+      "speaker": "masha",
+      "ru": "Завтра надо купить шапку!",
+      "fr": "Demain, il faut acheter un bonnet !"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Хорошо. А ты любишь зиму?",
+      "fr": "D'accord. Et toi, tu aimes l'hiver ?"
+    },
+    {
+      "speaker": "masha",
+      "ru": "Очень люблю! Зимой красиво.",
+      "fr": "J'adore ! En hiver, c'est beau."
+    }
+  ],
+  "phrases": [
+    {
+      "id": "cold",
+      "speaker": "luka",
+      "ru": "Ой, как холодно!",
+      "fr": "Oh, qu'il fait froid !",
+      "noteFr": "« Холодно » = il fait froid. Pas de « il fait » en russe : un seul mot suffit !",
+      "gap": {
+        "word": "холодно",
+        "distractors": [
+          "тепло",
+          "шапка"
+        ],
+        "whyFr": "Il fait froid : « холодно ». « Тепло » veut dire « il fait doux »."
+      }
+    },
+    {
+      "id": "minus",
+      "speaker": "masha",
+      "ru": "Да, сегодня минус десять.",
+      "fr": "Oui, aujourd'hui il fait moins dix.",
+      "noteFr": "« Минус десять » = moins dix. « Сегодня » = aujourd'hui.",
+      "gap": {
+        "word": "десять",
+        "distractors": [
+          "шапку",
+          "зиму"
+        ]
+      }
+    },
+    {
+      "id": "warm",
+      "speaker": "luka",
+      "ru": "А во Франции сейчас тепло.",
+      "fr": "Et en France, en ce moment, il fait doux.",
+      "noteFr": "« Во Франции » = en France (« во » devant certains sons, pour que ce soit plus facile à dire). « Тепло » = il fait doux, chaud.",
+      "gap": {
+        "word": "франции",
+        "distractors": [
+          "франция",
+          "шапки"
+        ],
+        "whyFr": "Pour dire où : « во Франции ». Tu connais « из Франции » depuis la première leçon !"
+      },
+      "orders": [
+        "а во франции сейчас тепло",
+        "а сейчас во франции тепло"
+      ]
+    },
+    {
+      "id": "hat",
+      "speaker": "masha",
+      "ru": "Где твоя шапка?",
+      "fr": "Où est ton bonnet ?",
+      "noteFr": "« Твоя » = ta (« твой » = ton). « Шапка » = bonnet.",
+      "gap": {
+        "word": "твоя",
+        "distractors": [
+          "твой",
+          "моя"
+        ],
+        "whyFr": "« Шапка » est féminin (-а) : « твоя ». « Твой », c'est pour un mot masculin."
+      },
+      "orders": [
+        "где твоя шапка"
+      ]
+    },
+    {
+      "id": "nohat",
+      "speaker": "luka",
+      "ru": "У меня нет шапки.",
+      "fr": "Je n'ai pas de bonnet.",
+      "noteFr": "« У меня нет… » = je n'ai pas de… Le mot change : « шапка » → « нет шапки ». Retiens-le pour l'instant.",
+      "gap": {
+        "word": "нет",
+        "distractors": [
+          "есть",
+          "надо"
+        ],
+        "whyFr": "« У меня нет » = je n'ai pas. « У меня есть », ce serait « j'ai »."
+      }
+    },
+    {
+      "id": "buy",
+      "speaker": "masha",
+      "ru": "Завтра надо купить шапку!",
+      "fr": "Demain, il faut acheter un bonnet !",
+      "noteFr": "« Надо » = il faut. « Купить » = acheter. Le bonnet est ce qu'on achète : « шапку » (-у).",
+      "gap": {
+        "word": "шапку",
+        "distractors": [
+          "шапка",
+          "шапки"
+        ],
+        "whyFr": "On achète le bonnet : c'est le bleu, « шапку » (-у), comme après « хочу »."
+      },
+      "orders": [
+        "завтра надо купить шапку",
+        "надо купить шапку завтра"
+      ]
+    },
+    {
+      "id": "winter",
+      "speaker": "luka",
+      "ru": "А ты любишь зиму?",
+      "fr": "Et toi, tu aimes l'hiver ?",
+      "noteFr": "« Зима » = hiver → « люблю зиму ». Encore le bleu !",
+      "gap": {
+        "word": "зиму",
+        "distractors": [
+          "зима",
+          "зимой"
+        ],
+        "whyFr": "Après « любишь », « зима » → « зиму » (-у)."
+      },
+      "orders": [
+        "а ты любишь зиму"
+      ]
+    },
+    {
+      "id": "beautiful",
+      "speaker": "masha",
+      "ru": "Очень люблю! Зимой красиво.",
+      "fr": "J'adore ! En hiver, c'est beau.",
+      "noteFr": "« Зимой » = en hiver (comme « утром », « вечером »). « Красиво » = c'est beau.",
+      "gap": {
+        "word": "красиво",
+        "distractors": [
+          "холодно",
+          "десять"
+        ]
+      }
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Le froid",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 0
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "cold",
+            "minus"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "warm",
+            "hat"
+          ],
+          "review": [
+            "cold"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Un bonnet !",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "cold",
+            "minus",
+            "hat"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "nohat",
+            "buy"
+          ],
+          "review": [
+            "hat",
+            "warm"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "winter",
+            "beautiful"
+          ],
+          "review": [
+            "buy"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3",
+            "c4"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "masha",
+      "fr": [
+        "Pour la météo, un seul mot suffit : « холодно » (il fait froid), « тепло » (il fait doux), « жарко » (il fait chaud).",
+        "Et pour le passé : « было холодно » (il faisait froid). Pour le futur : « будет холодно »."
+      ]
+    },
+    {
+      "by": "masha",
+      "fr": [
+        "Bravo, tu as fait un vrai tour de la vie en Russie : te présenter, commander, demander ton chemin, faire des courses, parler de ta famille, de ta journée, de tes projets…",
+        "Et tu as vu que les phrases se construisent comme un puzzle : tu prends des morceaux que tu connais, et tu dis quelque chose de nouveau !"
+      ]
+    }
+  ],
+  "explore": {
+    "type": "plain",
+    "speaker": "luka",
+    "frame": "Сегодня ___.",
+    "frameFr": "Aujourd'hui, il fait ___.",
+    "color": "#5c677d",
+    "hintFr": "Mets chaque mot dans la phrase et écoute.",
+    "words": [
+      {
+        "tile": "холодно",
+        "fr": "froid",
+        "phraseFr": "Aujourd'hui, il fait froid."
+      },
+      {
+        "tile": "тепло",
+        "fr": "doux",
+        "phraseFr": "Aujourd'hui, il fait doux."
+      },
+      {
+        "tile": "жарко",
+        "fr": "chaud",
+        "phraseFr": "Aujourd'hui, il fait chaud."
+      },
+      {
+        "tile": "красиво",
+        "fr": "beau (c'est beau)",
+        "phraseFr": "Aujourd'hui, c'est beau."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Dis qu'il fait chaud aujourd'hui.",
+      "answer": "жарко"
+    },
+    {
+      "type": "pick",
+      "fr": "Dis qu'il fait froid aujourd'hui.",
+      "answer": "холодно"
+    }
+  ],
+  "cando": [
+    "parler de la météo",
+    "dire « il faut »",
+    "dire « je n'ai pas de… »"
+  ],
+  "unlocks": [
+    {
+      "case": "accs",
+      "gender": "femn",
+      "from": "зима",
+      "to": "зиму"
+    }
+  ],
+  "glossary": {
+    "я": "je, moi",
+    "ты": "tu",
+    "вы": "vous",
+    "да": "oui",
+    "нет": "non",
+    "а": "et, mais",
+    "и": "et",
+    "это": "c'est, voici",
+    "не": "ne… pas",
+    "в": "dans, à",
+    "на": "sur, en",
+    "что": "quoi, que",
+    "как": "comment, comme",
+    "где": "où",
+    "очень": "très",
+    "спасибо": "merci",
+    "пожалуйста": "s'il te plaît / je t'en prie",
+    "хорошо": "bien, d'accord",
+    "привет": "salut",
+    "лука": "Luka (prénom)",
+    "маша": "Macha (prénom)",
+    "олег": "Oleg (prénom)",
+    "анна": "Anna (prénom)",
+    "у": "chez",
+    "меня": "moi (у меня = j'ai)",
+    "тебя": "toi (у тебя = tu as)",
+    "есть": "il y a",
+    "мой": "mon",
+    "моя": "ma",
+    "мне": "à moi",
+    "тоже": "aussi",
+    "сегодня": "aujourd'hui",
+    "завтра": "demain",
+    "вчера": "hier",
+    "потом": "puis, ensuite",
+    "давай": "allons-y, faisons",
+    "ой": "oh, aïe",
+    "холодно": "il fait froid",
+    "тепло": "il fait doux",
+    "минус": "moins",
+    "десять": "dix",
+    "во": "en, dans (devant certains sons)",
+    "франции": "France",
+    "франция": "France",
+    "сейчас": "maintenant",
+    "твоя": "ta",
+    "твой": "ton",
+    "шапка": "bonnet",
+    "шапки": "bonnet (après нет)",
+    "шапку": "bonnet (après купить)",
+    "надо": "il faut",
+    "купить": "acheter",
+    "любишь": "(tu) aimes",
+    "зиму": "hiver (après люблю)",
+    "зима": "hiver",
+    "зимой": "en hiver",
+    "люблю": "(j')aime",
+    "красиво": "c'est beau",
+    "жарко": "il fait chaud"
+  },
+  "combos": [
+    {
+      "ru": "Вчера было холодно.",
+      "fr": "Hier, il faisait froid.",
+      "extra": [
+        "тепло"
+      ],
+      "orders": [
+        "вчера было холодно",
+        "было холодно вчера"
+      ]
+    },
+    {
+      "ru": "Где твоя собака?",
+      "fr": "Où est ton chien ?",
+      "extra": [
+        "моя"
+      ]
+    },
+    {
+      "ru": "Завтра надо купить билеты.",
+      "fr": "Demain, il faut acheter les billets.",
+      "extra": [
+        "куплю"
+      ],
+      "orders": [
+        "завтра надо купить билеты",
+        "надо купить билеты завтра"
+      ]
+    },
+    {
+      "ru": "Зимой холодно, но красиво.",
+      "fr": "En hiver, il fait froid, mais c'est beau.",
+      "extra": [
+        "тепло"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2052 @@
+{
+ "version": 2,
+ "id": "10-restaurant",
+ "order": 10,
+ "titleFr": "Au restaurant",
+ "titleRu": "В ресторане",
+ "emoji": "🍲",
+ "sceneFr": "Vendredi soir, Luka et Macha dînent au restaurant. La serveuse, c'est Anna, du café ! Elle y travaille le soir.",
+ "learner": "luka",
+ "speakers": {
+  "anna": {
+   "name": "Анна",
+   "nameFr": "Anna",
+   "color": "#81b29a"
+  },
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  },
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "anna",
+   "ru": "Добрый вечер! Вот меню.",
+   "fr": "Bonsoir ! Voici le menu.",
+   "tokens": [
+    {
+     "t": "Добрый",
+     "s": 1,
+     "w": true,
+     "a": "c5b2f108249e.mp3",
+     "l": "добрый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вечер",
+     "s": 1,
+     "w": true,
+     "a": "1ef30a8e9de5.mp3",
+     "l": "вечер"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Вот",
+     "s": 1,
+     "w": true,
+     "a": "a716dd666e5a.mp3",
+     "l": "вот"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "меню",
+     "s": 3,
+     "w": true,
+     "a": "415054933ba9.mp3",
+     "l": "меню"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "79686fd5c03c.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Анна? Добрый вечер!",
+   "fr": "Anna ? Bonsoir !",
+   "tokens": [
+    {
+     "t": "Анна",
+     "s": 0,
+     "w": true,
+     "a": "3b145c7baf49.mp3",
+     "l": "анна"
+    },
+    {
+     "t": "? ",
+     "w": false
+    },
+    {
+     "t": "Добрый",
+     "s": 1,
+     "w": true,
+     "a": "c5b2f108249e.mp3",
+     "l": "добрый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вечер",
+     "s": 1,
+     "w": true,
+     "a": "1ef30a8e9de5.mp3",
+     "l": "вечер"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "e536b48a6563.mp3"
+  },
+  {
+   "speaker": "anna",
+   "ru": "Что вы будете?",
+   "fr": "Qu'est-ce que vous prenez ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вы",
+     "s": 1,
+     "w": true,
+     "a": "8b7efd6df007.mp3",
+     "l": "вы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "будете",
+     "s": 1,
+     "w": true,
+     "a": "6d0b4339d1ba.mp3",
+     "l": "быть"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "bc45571c8529.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Я буду суп и рыбу.",
+   "fr": "Je vais prendre une soupe et du poisson.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "буду",
+     "s": 1,
+     "w": true,
+     "a": "f863b4d8649d.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "суп",
+     "s": 1,
+     "w": true,
+     "a": "527de7696f59.mp3",
+     "l": "суп"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "рыбу",
+     "s": 1,
+     "w": true,
+     "a": "969bfc818aa9.mp3",
+     "l": "рыба"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "06ed60d31230.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "А я буду салат и курицу.",
+   "fr": "Et moi, je vais prendre une salade et du poulet.",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "буду",
+     "s": 1,
+     "w": true,
+     "a": "f863b4d8649d.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "салат",
+     "s": 3,
+     "w": true,
+     "a": "e30156b27019.mp3",
+     "l": "салат"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "курицу",
+     "s": 1,
+     "w": true,
+     "a": "a56b9824585e.mp3",
+     "l": "курица"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "0c4cc257774a.mp3"
+  },
+  {
+   "speaker": "anna",
+   "ru": "Что вы будете пить?",
+   "fr": "Qu'est-ce que vous allez boire ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вы",
+     "s": 1,
+     "w": true,
+     "a": "8b7efd6df007.mp3",
+     "l": "вы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "будете",
+     "s": 1,
+     "w": true,
+     "a": "6d0b4339d1ba.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пить",
+     "s": 1,
+     "w": true,
+     "a": "c85ae7fc4439.mp3",
+     "l": "пить"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "f5de5d72d5dc.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Воду, пожалуйста.",
+   "fr": "De l'eau, s'il vous plaît.",
+   "tokens": [
+    {
+     "t": "Воду",
+     "s": 1,
+     "w": true,
+     "a": "9a6b49502738.mp3",
+     "l": "вода"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3",
+     "l": "пожалуйста"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "b27ec7eb19fb.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Было очень вкусно! Счёт, пожалуйста.",
+   "fr": "C'était très bon ! L'addition, s'il vous plaît.",
+   "tokens": [
+    {
+     "t": "Было",
+     "s": 1,
+     "w": true,
+     "a": "b9c8b948282f.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вкусно",
+     "s": 2,
+     "w": true,
+     "a": "fed471b63464.mp3",
+     "l": "вкусно"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Счёт",
+     "s": 2,
+     "w": true,
+     "a": "f3816b5f2b7c.mp3",
+     "l": "счёт"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3",
+     "l": "пожалуйста"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "afe10b01f6e2.mp3"
+  }
+ ],
+ "phrases": {
+  "evening": {
+   "speaker": "anna",
+   "ru": "Добрый вечер! Вот меню.",
+   "fr": "Bonsoir ! Voici le menu.",
+   "tokens": [
+    {
+     "t": "Добрый",
+     "s": 1,
+     "w": true,
+     "a": "c5b2f108249e.mp3",
+     "l": "добрый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вечер",
+     "s": 1,
+     "w": true,
+     "a": "1ef30a8e9de5.mp3",
+     "l": "вечер"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Вот",
+     "s": 1,
+     "w": true,
+     "a": "a716dd666e5a.mp3",
+     "l": "вот"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "меню",
+     "s": 3,
+     "w": true,
+     "a": "415054933ba9.mp3",
+     "l": "меню"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "79686fd5c03c.mp3",
+   "id": "evening",
+   "noteFr": "« Добрый вечер » = bonsoir (mot à mot : bonne soirée). « Меню » ne change jamais.",
+   "gap": {
+    "index": 2,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "меню",
+      "a": "415054933ba9.mp3",
+      "s": 3
+     },
+     {
+      "t": "суп",
+      "a": "527de7696f59.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "order": {
+   "speaker": "anna",
+   "ru": "Что вы будете?",
+   "fr": "Qu'est-ce que vous prenez ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вы",
+     "s": 1,
+     "w": true,
+     "a": "8b7efd6df007.mp3",
+     "l": "вы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "будете",
+     "s": 1,
+     "w": true,
+     "a": "6d0b4339d1ba.mp3",
+     "l": "быть"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "bc45571c8529.mp3",
+   "id": "order",
+   "noteFr": "Au restaurant, « Что вы будете ? » = qu'est-ce que vous prenez ? (mot à mot : « que serez-vous ? »).",
+   "gap": {
+    "index": 4,
+    "whyFr": "Avec « вы » : « будете ». « Буду », c'est pour « я ».",
+    "distractors": [
+     {
+      "t": "буду",
+      "a": "f863b4d8649d.mp3",
+      "s": 1
+     },
+     {
+      "t": "суп",
+      "a": "527de7696f59.mp3",
+      "s": 1
+     }
+    ]
+   },
+   "orders": [
+    "что вы будете"
+   ]
+  },
+  "soup": {
+   "speaker": "masha",
+   "ru": "Я буду суп и рыбу.",
+   "fr": "Je vais prendre une soupe et du poisson.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "буду",
+     "s": 1,
+     "w": true,
+     "a": "f863b4d8649d.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "суп",
+     "s": 1,
+     "w": true,
+     "a": "527de7696f59.mp3",
+     "l": "суп"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "рыбу",
+     "s": 1,
+     "w": true,
+     "a": "969bfc818aa9.mp3",
+     "l": "рыба"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "06ed60d31230.mp3",
+   "id": "soup",
+   "noteFr": "« Я буду… » = je vais prendre. Après « буду », c'est comme après « хочу » : « рыба » → « рыбу ».",
+   "gap": {
+    "index": 8,
+    "whyFr": "Après « я буду » (je prends), « рыба » → « рыбу », comme après « хочу ».",
+    "distractors": [
+     {
+      "t": "рыба",
+      "a": "1c3789b0d5c4.mp3",
+      "s": 1
+     },
+     {
+      "t": "меню",
+      "a": "415054933ba9.mp3",
+      "s": 3
+     }
+    ]
+   },
+   "orders": [
+    "я буду суп и рыбу",
+    "я буду рыбу и суп"
+   ]
+  },
+  "chicken": {
+   "speaker": "luka",
+   "ru": "А я буду салат и курицу.",
+   "fr": "Et moi, je vais prendre une salade et du poulet.",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "буду",
+     "s": 1,
+     "w": true,
+     "a": "f863b4d8649d.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "салат",
+     "s": 3,
+     "w": true,
+     "a": "e30156b27019.mp3",
+     "l": "салат"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "курицу",
+     "s": 1,
+     "w": true,
+     "a": "a56b9824585e.mp3",
+     "l": "курица"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "0c4cc257774a.mp3",
+   "id": "chicken",
+   "noteFr": "« Курица » = poulet → « курицу ». « Салат » (masculin) ne change pas.",
+   "gap": {
+    "index": 10,
+    "whyFr": "Après « буду », « курица » → « курицу » : le -а devient -у.",
+    "distractors": [
+     {
+      "t": "курица",
+      "a": "00a5485c8a45.mp3",
+      "s": 1
+     },
+     {
+      "t": "счёт",
+      "a": "f3816b5f2b7c.mp3",
+      "s": 2
+     }
+    ]
+   },
+   "orders": [
+    "а я буду салат и курицу",
+    "а я буду курицу и салат"
+   ]
+  },
+  "drink": {
+   "speaker": "anna",
+   "ru": "Что вы будете пить?",
+   "fr": "Qu'est-ce que vous allez boire ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вы",
+     "s": 1,
+     "w": true,
+     "a": "8b7efd6df007.mp3",
+     "l": "вы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "будете",
+     "s": 1,
+     "w": true,
+     "a": "6d0b4339d1ba.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пить",
+     "s": 1,
+     "w": true,
+     "a": "c85ae7fc4439.mp3",
+     "l": "пить"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "f5de5d72d5dc.mp3",
+   "id": "drink",
+   "noteFr": "« Пить » = boire.",
+   "gap": {
+    "index": 6,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "суп",
+      "a": "527de7696f59.mp3",
+      "s": 1
+     },
+     {
+      "t": "меню",
+      "a": "415054933ba9.mp3",
+      "s": 3
+     }
+    ]
+   },
+   "orders": [
+    "что вы будете пить"
+   ]
+  },
+  "water": {
+   "speaker": "luka",
+   "ru": "Воду, пожалуйста.",
+   "fr": "De l'eau, s'il vous plaît.",
+   "tokens": [
+    {
+     "t": "Воду",
+     "s": 1,
+     "w": true,
+     "a": "9a6b49502738.mp3",
+     "l": "вода"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3",
+     "l": "пожалуйста"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "b27ec7eb19fb.mp3",
+   "id": "water",
+   "noteFr": "Le verbe est sous-entendu (« je prends »), donc on garde « воду ».",
+   "gap": {
+    "index": 0,
+    "whyFr": "La phrase complète, c'est « я буду воду » : donc « воду », avec -у.",
+    "distractors": [
+     {
+      "t": "вода",
+      "a": "1b83b6fefbb0.mp3",
+      "s": 3
+     },
+     {
+      "t": "счёт",
+      "a": "f3816b5f2b7c.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "tasty": {
+   "speaker": "masha",
+   "ru": "Было очень вкусно!",
+   "fr": "C'était très bon !",
+   "tokens": [
+    {
+     "t": "Было",
+     "s": 1,
+     "w": true,
+     "a": "b9c8b948282f.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вкусно",
+     "s": 2,
+     "w": true,
+     "a": "fed471b63464.mp3",
+     "l": "вкусно"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "a3edba44aa18.mp3",
+   "id": "tasty",
+   "noteFr": "« Вкусно » = bon (pour la nourriture). « Было » = c'était.",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "меню",
+      "a": "415054933ba9.mp3",
+      "s": 3
+     },
+     {
+      "t": "суп",
+      "a": "527de7696f59.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "bill": {
+   "speaker": "masha",
+   "ru": "Счёт, пожалуйста.",
+   "fr": "L'addition, s'il vous plaît.",
+   "tokens": [
+    {
+     "t": "Счёт",
+     "s": 2,
+     "w": true,
+     "a": "f3816b5f2b7c.mp3",
+     "l": "счёт"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3",
+     "l": "пожалуйста"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "8fc6cec9083b.mp3",
+   "id": "bill",
+   "noteFr": "« Счёт » = l'addition. Très utile !",
+   "gap": {
+    "index": 0,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "суп",
+      "a": "527de7696f59.mp3",
+      "s": 1
+     },
+     {
+      "t": "вечер",
+      "a": "1ef30a8e9de5.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "c1": {
+   "speaker": "luka",
+   "ru": "Я буду пиццу и чай.",
+   "fr": "Je vais prendre une pizza et du thé.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "буду",
+     "s": 1,
+     "w": true,
+     "a": "f863b4d8649d.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пиццу",
+     "s": 1,
+     "w": true,
+     "a": "2c2ecad902c9.mp3",
+     "l": "пицца"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "чай",
+     "s": 1,
+     "w": true,
+     "a": "0f1ca028b347.mp3",
+     "l": "чай"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "bebf25b69c46.mp3",
+   "id": "c1",
+   "noteFr": "",
+   "orders": [
+    "я буду пиццу и чай",
+    "я буду чай и пиццу"
+   ],
+   "combo": {
+    "from": [
+     "Faire connaissance",
+     "Au restaurant",
+     "Au café",
+     "Se présenter"
+    ],
+    "extra": [
+     {
+      "t": "пицца",
+      "a": "e554d3ed8479.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "c2": {
+   "speaker": "luka",
+   "ru": "Вы будете кофе?",
+   "fr": "Vous prenez un café ?",
+   "tokens": [
+    {
+     "t": "Вы",
+     "s": 1,
+     "w": true,
+     "a": "8b7efd6df007.mp3",
+     "l": "вы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "будете",
+     "s": 1,
+     "w": true,
+     "a": "6d0b4339d1ba.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кофе",
+     "s": 1,
+     "w": true,
+     "a": "4cff920b1130.mp3",
+     "l": "кофе"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "d29603775ee7.mp3",
+   "id": "c2",
+   "noteFr": "",
+   "orders": [
+    "вы будете кофе"
+   ],
+   "combo": {
+    "from": [
+     "Faire connaissance",
+     "Au restaurant",
+     "Au café"
+    ],
+    "extra": [
+     {
+      "t": "буду",
+      "a": "f863b4d8649d.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "c3": {
+   "speaker": "luka",
+   "ru": "Было очень интересно!",
+   "fr": "C'était très intéressant !",
+   "tokens": [
+    {
+     "t": "Было",
+     "s": 1,
+     "w": true,
+     "a": "b9c8b948282f.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "интересно",
+     "s": 5,
+     "w": true,
+     "a": "a60fbdeaa4d8.mp3",
+     "l": "интересно"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "b9d7ed09d1d0.mp3",
+   "id": "c3",
+   "noteFr": "",
+   "orders": [
+    "было очень интересно"
+   ],
+   "combo": {
+    "from": [
+     "Au restaurant",
+     "Faire connaissance",
+     "Chez des amis"
+    ],
+    "extra": [
+     {
+      "t": "счёт",
+      "a": "f3816b5f2b7c.mp3",
+      "s": 2
+     }
+    ]
+   }
+  }
+ },
+ "parts": [
+  {
+   "titleFr": "Commander",
+   "steps": [
+    {
+     "type": "scene"
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "evening",
+      "order"
+     ]
+    },
+    {
+     "type": "explore"
+    },
+    {
+     "type": "insight",
+     "index": 0
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "soup",
+      "chicken"
+     ],
+     "review": [
+      "order"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Boire et payer",
+   "steps": [
+    {
+     "type": "warmup",
+     "phrases": [
+      "order",
+      "soup",
+      "chicken"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "drink",
+      "water"
+     ],
+     "review": [
+      "soup",
+      "chicken"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "tasty",
+      "bill"
+     ],
+     "review": [
+      "drink",
+      "water"
+     ]
+    },
+    {
+     "type": "insight",
+     "index": 1
+    },
+    {
+     "type": "combine",
+     "phrases": [
+      "c1",
+      "c2",
+      "c3"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Joue la scène",
+   "steps": [
+    {
+     "type": "final"
+    },
+    {
+     "type": "roleplay"
+    }
+   ]
+  }
+ ],
+ "insights": [
+  {
+   "by": "anna",
+   "fr": [
+    "Au restaurant, pour commander, on dit « я буду… » (je vais prendre).",
+    "Après « буду », c'est le même bleu qu'après « хочу » : « рыба » → « рыбу », « курица » → « курицу ». « Суп » et « салат » (masculins) ne bougent pas."
+   ]
+  },
+  {
+   "by": "anna",
+   "fr": [
+    "Les mots magiques du restaurant : « меню » (le menu), « счёт » (l'addition), « вкусно » (c'est bon).",
+    "« Добрый вечер » = bonsoir. Le matin, on dit « доброе утро », la journée « добрый день »."
+   ]
+  }
+ ],
+ "explore": {
+  "type": "case",
+  "frameFr": "Je vais prendre ___.",
+  "color": "#3a86ff",
+  "hintFr": "Mets chaque plat après « я буду » et regarde bien la fin du mot.",
+  "before": [
+   {
+    "t": "Я",
+    "s": 0,
+    "w": true,
+    "a": "70b9d9783365.mp3",
+    "l": "я"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "буду",
+    "s": 1,
+    "w": true,
+    "a": "f863b4d8649d.mp3",
+    "l": "быть"
+   },
+   {
+    "t": " ",
+    "w": false
+   }
+  ],
+  "after": [
+   {
+    "t": ".",
+    "w": false
+   }
+  ],
+  "verb": null,
+  "words": [
+   {
+    "tile": "суп",
+    "tileStress": 1,
+    "fr": "une soupe",
+    "phraseFr": "Je vais prendre une soupe.",
+    "phrase": "Я буду суп.",
+    "morph": {
+     "from": "суп",
+     "to": "суп",
+     "stem": "суп",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": false
+    },
+    "audioTile": "527de7696f59.mp3",
+    "audioPhrase": "6b5da0ac8fd4.mp3"
+   },
+   {
+    "tile": "рыба",
+    "tileStress": 1,
+    "fr": "le poisson",
+    "phraseFr": "Je vais prendre du poisson.",
+    "phrase": "Я буду рыбу.",
+    "morph": {
+     "from": "рыба",
+     "to": "рыбу",
+     "stem": "рыб",
+     "endFrom": "а",
+     "endTo": "у",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": true
+    },
+    "audioTile": "1c3789b0d5c4.mp3",
+    "audioPhrase": "03e5e82fc0ea.mp3"
+   },
+   {
+    "tile": "салат",
+    "tileStress": 3,
+    "fr": "une salade",
+    "phraseFr": "Je vais prendre une salade.",
+    "phrase": "Я буду салат.",
+    "morph": {
+     "from": "салат",
+     "to": "салат",
+     "stem": "салат",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": false
+    },
+    "audioTile": "e30156b27019.mp3",
+    "audioPhrase": "c72a44ffd3c2.mp3"
+   },
+   {
+    "tile": "курица",
+    "tileStress": 1,
+    "fr": "le poulet",
+    "phraseFr": "Je vais prendre du poulet.",
+    "phrase": "Я буду курицу.",
+    "morph": {
+     "from": "курица",
+     "to": "курицу",
+     "stem": "куриц",
+     "endFrom": "а",
+     "endTo": "у",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": true
+    },
+    "audioTile": "00a5485c8a45.mp3",
+    "audioPhrase": "bd01de885da6.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Commande du poulet.",
+   "answer": "курица"
+  },
+  {
+   "type": "pick",
+   "fr": "Commande une soupe.",
+   "answer": "суп"
+  }
+ ],
+ "grammar": [
+  "а я буду салат и курицу",
+  "анна добрый вечер",
+  "было очень вкусно",
+  "было очень вкусно счёт пожалуйста",
+  "было очень интересно",
+  "воду пожалуйста",
+  "вы будете кофе",
+  "добрый вечер вот меню",
+  "счёт пожалуйста",
+  "что вы будете",
+  "что вы будете пить",
+  "я буду пиццу и чай",
+  "я буду суп и рыбу",
+  "[unk]"
+ ],
+ "cando": [
+  "commander au restaurant",
+  "dire que c'était bon",
+  "demander l'addition"
+ ],
+ "glossary": {
+  "я": "je, moi",
+  "ты": "tu",
+  "вы": "vous",
+  "да": "oui",
+  "нет": "non",
+  "а": "et, mais",
+  "и": "et",
+  "это": "c'est, voici",
+  "не": "ne… pas",
+  "в": "dans, à",
+  "на": "sur, en",
+  "что": "quoi, que",
+  "как": "comment, comme",
+  "где": "où",
+  "очень": "très",
+  "спасибо": "merci",
+  "пожалуйста": "s'il te plaît / je t'en prie",
+  "хорошо": "bien, d'accord",
+  "привет": "salut",
+  "лука": "Luka (prénom)",
+  "маша": "Macha (prénom)",
+  "олег": "Oleg (prénom)",
+  "анна": "Anna (prénom)",
+  "у": "chez",
+  "меня": "moi (у меня = j'ai)",
+  "тебя": "toi (у тебя = tu as)",
+  "есть": "il y a",
+  "мой": "mon",
+  "моя": "ma",
+  "мне": "à moi",
+  "тоже": "aussi",
+  "сегодня": "aujourd'hui",
+  "завтра": "demain",
+  "вчера": "hier",
+  "потом": "puis, ensuite",
+  "давай": "allons-y, faisons",
+  "добрый": "bon (добрый вечер = bonsoir)",
+  "вечер": "soir",
+  "вот": "voici, voilà",
+  "меню": "menu",
+  "будете": "(vous) serez / prendrez",
+  "буду": "(je) serai / prendrai",
+  "суп": "soupe",
+  "рыбу": "poisson (après буду)",
+  "рыба": "poisson",
+  "салат": "salade",
+  "курицу": "poulet (après буду)",
+  "курица": "poulet",
+  "пить": "boire",
+  "воду": "eau (après буду)",
+  "вода": "eau",
+  "было": "c'était",
+  "вкусно": "bon (au goût)",
+  "счет": "addition",
+  "чай": "thé",
+  "кофе": "café",
+  "интересно": "intéressant"
+ },
+ "unlocks": [
+  {
+   "case": "accs",
+   "gender": "femn",
+   "from": "курица",
+   "to": "курицу"
+  },
+  {
+   "case": "accs",
+   "gender": "masc",
+   "from": "суп",
+   "to": "суп"
+  }
+ ],
+ "items": [
+  {
+   "id": "10-restaurant:evening",
+   "ru": "Добрый вечер! Вот меню.",
+   "fr": "Bonsoir ! Voici le menu.",
+   "tokens": [
+    {
+     "t": "Добрый",
+     "s": 1,
+     "w": true,
+     "a": "c5b2f108249e.mp3",
+     "l": "добрый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вечер",
+     "s": 1,
+     "w": true,
+     "a": "1ef30a8e9de5.mp3",
+     "l": "вечер"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Вот",
+     "s": 1,
+     "w": true,
+     "a": "a716dd666e5a.mp3",
+     "l": "вот"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "меню",
+     "s": 3,
+     "w": true,
+     "a": "415054933ba9.mp3",
+     "l": "меню"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "79686fd5c03c.mp3"
+  },
+  {
+   "id": "10-restaurant:order",
+   "ru": "Что вы будете?",
+   "fr": "Qu'est-ce que vous prenez ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вы",
+     "s": 1,
+     "w": true,
+     "a": "8b7efd6df007.mp3",
+     "l": "вы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "будете",
+     "s": 1,
+     "w": true,
+     "a": "6d0b4339d1ba.mp3",
+     "l": "быть"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "bc45571c8529.mp3"
+  },
+  {
+   "id": "10-restaurant:soup",
+   "ru": "Я буду суп и рыбу.",
+   "fr": "Je vais prendre une soupe et du poisson.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "буду",
+     "s": 1,
+     "w": true,
+     "a": "f863b4d8649d.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "суп",
+     "s": 1,
+     "w": true,
+     "a": "527de7696f59.mp3",
+     "l": "суп"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "рыбу",
+     "s": 1,
+     "w": true,
+     "a": "969bfc818aa9.mp3",
+     "l": "рыба"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "06ed60d31230.mp3"
+  },
+  {
+   "id": "10-restaurant:chicken",
+   "ru": "А я буду салат и курицу.",
+   "fr": "Et moi, je vais prendre une salade et du poulet.",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "буду",
+     "s": 1,
+     "w": true,
+     "a": "f863b4d8649d.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "салат",
+     "s": 3,
+     "w": true,
+     "a": "e30156b27019.mp3",
+     "l": "салат"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "курицу",
+     "s": 1,
+     "w": true,
+     "a": "a56b9824585e.mp3",
+     "l": "курица"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "0c4cc257774a.mp3"
+  },
+  {
+   "id": "10-restaurant:drink",
+   "ru": "Что вы будете пить?",
+   "fr": "Qu'est-ce que vous allez boire ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вы",
+     "s": 1,
+     "w": true,
+     "a": "8b7efd6df007.mp3",
+     "l": "вы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "будете",
+     "s": 1,
+     "w": true,
+     "a": "6d0b4339d1ba.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пить",
+     "s": 1,
+     "w": true,
+     "a": "c85ae7fc4439.mp3",
+     "l": "пить"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "f5de5d72d5dc.mp3"
+  },
+  {
+   "id": "10-restaurant:water",
+   "ru": "Воду, пожалуйста.",
+   "fr": "De l'eau, s'il vous plaît.",
+   "tokens": [
+    {
+     "t": "Воду",
+     "s": 1,
+     "w": true,
+     "a": "9a6b49502738.mp3",
+     "l": "вода"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3",
+     "l": "пожалуйста"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "b27ec7eb19fb.mp3"
+  },
+  {
+   "id": "10-restaurant:tasty",
+   "ru": "Было очень вкусно!",
+   "fr": "C'était très bon !",
+   "tokens": [
+    {
+     "t": "Было",
+     "s": 1,
+     "w": true,
+     "a": "b9c8b948282f.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вкусно",
+     "s": 2,
+     "w": true,
+     "a": "fed471b63464.mp3",
+     "l": "вкусно"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "a3edba44aa18.mp3"
+  },
+  {
+   "id": "10-restaurant:bill",
+   "ru": "Счёт, пожалуйста.",
+   "fr": "L'addition, s'il vous plaît.",
+   "tokens": [
+    {
+     "t": "Счёт",
+     "s": 2,
+     "w": true,
+     "a": "f3816b5f2b7c.mp3",
+     "l": "счёт"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "пожалуйста",
+     "s": 3,
+     "w": true,
+     "a": "6a0f645d4907.mp3",
+     "l": "пожалуйста"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "8fc6cec9083b.mp3"
+  },
+  {
+   "id": "10-restaurant:c1",
+   "ru": "Я буду пиццу и чай.",
+   "fr": "Je vais prendre une pizza et du thé.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "буду",
+     "s": 1,
+     "w": true,
+     "a": "f863b4d8649d.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пиццу",
+     "s": 1,
+     "w": true,
+     "a": "2c2ecad902c9.mp3",
+     "l": "пицца"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "чай",
+     "s": 1,
+     "w": true,
+     "a": "0f1ca028b347.mp3",
+     "l": "чай"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "bebf25b69c46.mp3"
+  },
+  {
+   "id": "10-restaurant:c2",
+   "ru": "Вы будете кофе?",
+   "fr": "Vous prenez un café ?",
+   "tokens": [
+    {
+     "t": "Вы",
+     "s": 1,
+     "w": true,
+     "a": "8b7efd6df007.mp3",
+     "l": "вы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "будете",
+     "s": 1,
+     "w": true,
+     "a": "6d0b4339d1ba.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кофе",
+     "s": 1,
+     "w": true,
+     "a": "4cff920b1130.mp3",
+     "l": "кофе"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "d29603775ee7.mp3"
+  },
+  {
+   "id": "10-restaurant:c3",
+   "ru": "Было очень интересно!",
+   "fr": "C'était très intéressant !",
+   "tokens": [
+    {
+     "t": "Было",
+     "s": 1,
+     "w": true,
+     "a": "b9c8b948282f.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "интересно",
+     "s": 5,
+     "w": true,
+     "a": "a60fbdeaa4d8.mp3",
+     "l": "интересно"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "b9d7ed09d1d0.mp3"
+  }
+ ],
+ "hasAudio": false
+}

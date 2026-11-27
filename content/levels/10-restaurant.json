@@ -1,0 +1,438 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "10-restaurant",
+  "order": 10,
+  "titleFr": "Au restaurant",
+  "titleRu": "В ресторане",
+  "emoji": "🍲",
+  "sceneFr": "Vendredi soir, Luka et Macha dînent au restaurant. La serveuse, c'est Anna, du café ! Elle y travaille le soir.",
+  "dialogue": [
+    {
+      "speaker": "anna",
+      "ru": "Добрый вечер! Вот меню.",
+      "fr": "Bonsoir ! Voici le menu."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Анна? Добрый вечер!",
+      "fr": "Anna ? Bonsoir !"
+    },
+    {
+      "speaker": "anna",
+      "ru": "Что вы будете?",
+      "fr": "Qu'est-ce que vous prenez ?"
+    },
+    {
+      "speaker": "masha",
+      "ru": "Я буду суп и рыбу.",
+      "fr": "Je vais prendre une soupe et du poisson."
+    },
+    {
+      "speaker": "luka",
+      "ru": "А я буду салат и курицу.",
+      "fr": "Et moi, je vais prendre une salade et du poulet."
+    },
+    {
+      "speaker": "anna",
+      "ru": "Что вы будете пить?",
+      "fr": "Qu'est-ce que vous allez boire ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Воду, пожалуйста.",
+      "fr": "De l'eau, s'il vous plaît."
+    },
+    {
+      "speaker": "masha",
+      "ru": "Было очень вкусно! Счёт, пожалуйста.",
+      "fr": "C'était très bon ! L'addition, s'il vous plaît."
+    }
+  ],
+  "phrases": [
+    {
+      "id": "evening",
+      "speaker": "anna",
+      "ru": "Добрый вечер! Вот меню.",
+      "fr": "Bonsoir ! Voici le menu.",
+      "noteFr": "« Добрый вечер » = bonsoir (mot à mot : bonne soirée). « Меню » ne change jamais.",
+      "gap": {
+        "word": "вечер",
+        "distractors": [
+          "меню",
+          "суп"
+        ]
+      }
+    },
+    {
+      "id": "order",
+      "speaker": "anna",
+      "ru": "Что вы будете?",
+      "fr": "Qu'est-ce que vous prenez ?",
+      "noteFr": "Au restaurant, « Что вы будете ? » = qu'est-ce que vous prenez ? (mot à mot : « que serez-vous ? »).",
+      "gap": {
+        "word": "будете",
+        "distractors": [
+          "буду",
+          "суп"
+        ],
+        "whyFr": "Avec « вы » : « будете ». « Буду », c'est pour « я »."
+      },
+      "orders": [
+        "что вы будете"
+      ]
+    },
+    {
+      "id": "soup",
+      "speaker": "masha",
+      "ru": "Я буду суп и рыбу.",
+      "fr": "Je vais prendre une soupe et du poisson.",
+      "noteFr": "« Я буду… » = je vais prendre. Après « буду », c'est comme après « хочу » : « рыба » → « рыбу ».",
+      "gap": {
+        "word": "рыбу",
+        "distractors": [
+          "рыба",
+          "меню"
+        ],
+        "whyFr": "Après « я буду » (je prends), « рыба » → « рыбу », comme après « хочу »."
+      },
+      "orders": [
+        "я буду суп и рыбу",
+        "я буду рыбу и суп"
+      ]
+    },
+    {
+      "id": "chicken",
+      "speaker": "luka",
+      "ru": "А я буду салат и курицу.",
+      "fr": "Et moi, je vais prendre une salade et du poulet.",
+      "noteFr": "« Курица » = poulet → « курицу ». « Салат » (masculin) ne change pas.",
+      "gap": {
+        "word": "курицу",
+        "distractors": [
+          "курица",
+          "счёт"
+        ],
+        "whyFr": "Après « буду », « курица » → « курицу » : le -а devient -у."
+      },
+      "orders": [
+        "а я буду салат и курицу",
+        "а я буду курицу и салат"
+      ]
+    },
+    {
+      "id": "drink",
+      "speaker": "anna",
+      "ru": "Что вы будете пить?",
+      "fr": "Qu'est-ce que vous allez boire ?",
+      "noteFr": "« Пить » = boire.",
+      "gap": {
+        "word": "пить",
+        "distractors": [
+          "суп",
+          "меню"
+        ]
+      },
+      "orders": [
+        "что вы будете пить"
+      ]
+    },
+    {
+      "id": "water",
+      "speaker": "luka",
+      "ru": "Воду, пожалуйста.",
+      "fr": "De l'eau, s'il vous plaît.",
+      "noteFr": "Le verbe est sous-entendu (« je prends »), donc on garde « воду ».",
+      "gap": {
+        "word": "воду",
+        "distractors": [
+          "вода",
+          "счёт"
+        ],
+        "whyFr": "La phrase complète, c'est « я буду воду » : donc « воду », avec -у."
+      }
+    },
+    {
+      "id": "tasty",
+      "speaker": "masha",
+      "ru": "Было очень вкусно!",
+      "fr": "C'était très bon !",
+      "noteFr": "« Вкусно » = bon (pour la nourriture). « Было » = c'était.",
+      "gap": {
+        "word": "вкусно",
+        "distractors": [
+          "меню",
+          "суп"
+        ]
+      }
+    },
+    {
+      "id": "bill",
+      "speaker": "masha",
+      "ru": "Счёт, пожалуйста.",
+      "fr": "L'addition, s'il vous plaît.",
+      "noteFr": "« Счёт » = l'addition. Très utile !",
+      "gap": {
+        "word": "счёт",
+        "distractors": [
+          "суп",
+          "вечер"
+        ]
+      }
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Commander",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "evening",
+            "order"
+          ]
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 0
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "soup",
+            "chicken"
+          ],
+          "review": [
+            "order"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Boire et payer",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "order",
+            "soup",
+            "chicken"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "drink",
+            "water"
+          ],
+          "review": [
+            "soup",
+            "chicken"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "tasty",
+            "bill"
+          ],
+          "review": [
+            "drink",
+            "water"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "anna",
+      "fr": [
+        "Au restaurant, pour commander, on dit « я буду… » (je vais prendre).",
+        "Après « буду », c'est le même bleu qu'après « хочу » : « рыба » → « рыбу », « курица » → « курицу ». « Суп » et « салат » (masculins) ne bougent pas."
+      ]
+    },
+    {
+      "by": "anna",
+      "fr": [
+        "Les mots magiques du restaurant : « меню » (le menu), « счёт » (l'addition), « вкусно » (c'est bon).",
+        "« Добрый вечер » = bonsoir. Le matin, on dit « доброе утро », la journée « добрый день »."
+      ]
+    }
+  ],
+  "explore": {
+    "type": "case",
+    "speaker": "luka",
+    "case": "accs",
+    "frame": "Я буду ___.",
+    "frameFr": "Je vais prendre ___.",
+    "color": "#3a86ff",
+    "hintFr": "Mets chaque plat après « я буду » et regarde bien la fin du mot.",
+    "words": [
+      {
+        "tile": "суп",
+        "fr": "une soupe",
+        "phraseFr": "Je vais prendre une soupe."
+      },
+      {
+        "tile": "рыба",
+        "fr": "le poisson",
+        "phraseFr": "Je vais prendre du poisson."
+      },
+      {
+        "tile": "салат",
+        "fr": "une salade",
+        "phraseFr": "Je vais prendre une salade."
+      },
+      {
+        "tile": "курица",
+        "fr": "le poulet",
+        "phraseFr": "Je vais prendre du poulet."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Commande du poulet.",
+      "answer": "курица"
+    },
+    {
+      "type": "pick",
+      "fr": "Commande une soupe.",
+      "answer": "суп"
+    }
+  ],
+  "cando": [
+    "commander au restaurant",
+    "dire que c'était bon",
+    "demander l'addition"
+  ],
+  "unlocks": [
+    {
+      "case": "accs",
+      "gender": "femn",
+      "from": "курица",
+      "to": "курицу"
+    },
+    {
+      "case": "accs",
+      "gender": "masc",
+      "from": "суп",
+      "to": "суп"
+    }
+  ],
+  "glossary": {
+    "я": "je, moi",
+    "ты": "tu",
+    "вы": "vous",
+    "да": "oui",
+    "нет": "non",
+    "а": "et, mais",
+    "и": "et",
+    "это": "c'est, voici",
+    "не": "ne… pas",
+    "в": "dans, à",
+    "на": "sur, en",
+    "что": "quoi, que",
+    "как": "comment, comme",
+    "где": "où",
+    "очень": "très",
+    "спасибо": "merci",
+    "пожалуйста": "s'il te plaît / je t'en prie",
+    "хорошо": "bien, d'accord",
+    "привет": "salut",
+    "лука": "Luka (prénom)",
+    "маша": "Macha (prénom)",
+    "олег": "Oleg (prénom)",
+    "анна": "Anna (prénom)",
+    "у": "chez",
+    "меня": "moi (у меня = j'ai)",
+    "тебя": "toi (у тебя = tu as)",
+    "есть": "il y a",
+    "мой": "mon",
+    "моя": "ma",
+    "мне": "à moi",
+    "тоже": "aussi",
+    "сегодня": "aujourd'hui",
+    "завтра": "demain",
+    "вчера": "hier",
+    "потом": "puis, ensuite",
+    "давай": "allons-y, faisons",
+    "добрый": "bon (добрый вечер = bonsoir)",
+    "вечер": "soir",
+    "вот": "voici, voilà",
+    "меню": "menu",
+    "будете": "(vous) serez / prendrez",
+    "буду": "(je) serai / prendrai",
+    "суп": "soupe",
+    "рыбу": "poisson (après буду)",
+    "рыба": "poisson",
+    "салат": "salade",
+    "курицу": "poulet (après буду)",
+    "курица": "poulet",
+    "пить": "boire",
+    "воду": "eau (après буду)",
+    "вода": "eau",
+    "было": "c'était",
+    "вкусно": "bon (au goût)",
+    "счёт": "addition",
+    "счет": "addition"
+  },
+  "combos": [
+    {
+      "ru": "Я буду пиццу и чай.",
+      "fr": "Je vais prendre une pizza et du thé.",
+      "extra": [
+        "пицца"
+      ],
+      "orders": [
+        "я буду пиццу и чай",
+        "я буду чай и пиццу"
+      ]
+    },
+    {
+      "ru": "Вы будете кофе?",
+      "fr": "Vous prenez un café ?",
+      "extra": [
+        "буду"
+      ]
+    },
+    {
+      "ru": "Было очень интересно!",
+      "fr": "C'était très intéressant !",
+      "extra": [
+        "счёт"
+      ]
+    }
+  ]
+}
