@@ -8,20 +8,20 @@
  "sceneFr": "Le 1er janvier, en se promenant dans Moscou, Anton demande à Luka ce qu'il pense de la ville.",
  "learner": "luka",
  "speakers": {
-  "luka": {
-   "name": "Лука",
-   "nameFr": "Luka",
-   "color": "#3d5a80"
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
   },
   "anton": {
    "name": "Антон",
    "nameFr": "Anton",
    "color": "#457b9d"
   },
-  "masha": {
-   "name": "Маша",
-   "nameFr": "Macha",
-   "color": "#e07a5f"
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
   }
  },
  "dialogue": [

@@ -106,16 +106,18 @@
       "soundText": "ии",
       "exampleRu": "кино",
       "exampleFr": "cinéma",
-      "tipFr": "Comme le « i » de « ici »."
+      "tipFr": "Comme le « i » de « ici ».",
+      "tempo": 0.45
     },
     {
       "l": "Й",
       "type": "consonant",
       "group": "new",
-      "soundText": "ай",
+      "soundText": "ии",
       "exampleRu": "чай",
       "exampleFr": "thé",
-      "tipFr": "Un « i » très bref, comme dans « ail » : « чай » se dit « tchaï »."
+      "tipFr": "Un « i » très bref, comme dans « ail » : « чай » se dit « tchaï ».",
+      "tempo": 0.62
     },
     {
       "l": "К",
@@ -160,7 +162,8 @@
       "soundText": "оо",
       "exampleRu": "кот",
       "exampleFr": "chat",
-      "tipFr": "Comme « o » quand il est accentué. Sans accent, il se prononce presque comme « a »."
+      "tipFr": "Comme « o » quand il est accentué. Sans accent, il se prononce presque comme « a ».",
+      "tempo": 0.45
     },
     {
       "l": "П",

@@ -8,6 +8,11 @@
  "sceneFr": "Vendredi soir, Luka et Macha dînent au restaurant. La serveuse, c'est Anna, du café ! Elle y travaille le soir.",
  "learner": "luka",
  "speakers": {
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
+  },
   "luka": {
    "name": "Лука",
    "nameFr": "Luka",
@@ -17,11 +22,6 @@
    "name": "Анна",
    "nameFr": "Anna",
    "color": "#81b29a"
-  },
-  "masha": {
-   "name": "Маша",
-   "nameFr": "Macha",
-   "color": "#e07a5f"
   }
  },
  "dialogue": [

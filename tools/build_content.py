@@ -433,15 +433,36 @@ def build_texts() -> dict:
 VOWELS_RU = set("АОУЫЭИЯЁЮЕ")
 
 
+def abc_folder(L: dict) -> str:
+    """Папка = способ обработки: abc/ — растяжение 0.62, abcNN/ — растяжение 0.NN (без изменения высоты)."""
+    t = L.get("tempo")
+    if t:
+        return "abc/" if abs(t - 0.62) < 1e-6 else f"abc{round(t * 100)}/"
+    return "abc/" if L["l"] in VOWELS_RU else ""
+
+
+def atempo_filter(cid: str) -> str:
+    m = re.match(r"abc(\d*)/", cid)
+    if not m:
+        return ""
+    t = int(m.group(1)) / 100 if m.group(1) else 0.62
+    parts = []
+    while t < 0.5:  # у фильтра atempo нижняя граница 0.5 — цепочка
+        parts.append("atempo=0.5")
+        t /= 0.5
+    parts.append(f"atempo={t:.3f}")
+    return "," + ",".join(parts)
+
+
 def build_alphabet() -> dict:
     src = load(SRC / "alphabet.json")
     letters = []
     for L in src["letters"]:
         ex_tokens = tokenize(L["exampleRu"])
         letters.append({
-            **{k: v for k, v in L.items() if k != "soundText"},
+            **{k: v for k, v in L.items() if k not in ("soundText", "tempo")},
             # гласные чуть растягиваем (без изменения высоты голоса), чтобы различать «а» и «о»
-            "audio": clip(L["soundText"], WORD_VOICE, "abc/" if L["l"] in VOWELS_RU else ""),
+            "audio": clip(L["soundText"], WORD_VOICE, abc_folder(L)),
             "exampleTokens": ex_tokens,
             "exampleAudio": clip(accent(L["exampleRu"]).lower(), WORD_VOICE),
         })
@@ -558,7 +579,7 @@ def synthesize(force: bool) -> int:
                 wf.writeframes(pcm)
             (AUDIO_DIR / f"{cid}.mp3").parent.mkdir(parents=True, exist_ok=True)
             subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav_path),
-                            "-af", "silenceremove=start_periods=1:start_threshold=-50dB" + (",atempo=0.62" if cid.startswith("abc/") else ""),
+                            "-af", "silenceremove=start_periods=1:start_threshold=-50dB" + atempo_filter(cid),
                             "-ac", "1", "-ar", "24000", "-b:a", "48k", str(AUDIO_DIR / f"{cid}.mp3")], check=True)
             done += 1
     return done

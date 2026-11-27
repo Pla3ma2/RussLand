@@ -8,20 +8,20 @@
  "sceneFr": "Le 2 janvier, Anton emmène Luka et Macha à la patinoire. Luka n'a jamais patiné…",
  "learner": "luka",
  "speakers": {
-  "luka": {
-   "name": "Лука",
-   "nameFr": "Luka",
-   "color": "#3d5a80"
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
   },
   "anton": {
    "name": "Антон",
    "nameFr": "Anton",
    "color": "#457b9d"
   },
-  "masha": {
-   "name": "Маша",
-   "nameFr": "Macha",
-   "color": "#e07a5f"
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
   }
  },
  "dialogue": [

@@ -196,7 +196,7 @@
    "exampleRu": "кино",
    "exampleFr": "cinéma",
    "tipFr": "Comme le « i » de « ici ».",
-   "audio": "abc/8e69912b8a11.mp3",
+   "audio": "abc45/8e69912b8a11.mp3",
    "exampleTokens": [
     {
      "t": "кино",
@@ -215,7 +215,7 @@
    "exampleRu": "чай",
    "exampleFr": "thé",
    "tipFr": "Un « i » très bref, comme dans « ail » : « чай » se dit « tchaï ».",
-   "audio": "7d9879852c58.mp3",
+   "audio": "abc/8e69912b8a11.mp3",
    "exampleTokens": [
     {
      "t": "чай",
@@ -310,7 +310,7 @@
    "exampleRu": "кот",
    "exampleFr": "chat",
    "tipFr": "Comme « o » quand il est accentué. Sans accent, il se prononce presque comme « a ».",
-   "audio": "abc/9f1aae0f01f9.mp3",
+   "audio": "abc45/9f1aae0f01f9.mp3",
    "exampleTokens": [
     {
      "t": "кот",
