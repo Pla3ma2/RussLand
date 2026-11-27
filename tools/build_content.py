@@ -15,6 +15,7 @@
 from __future__ import annotations
 
 import argparse
+import shutil
 import numpy as np
 import hashlib
 import json
@@ -462,13 +463,22 @@ def atempo_filter(cid: str) -> str:
 
 def build_alphabet() -> dict:
     src = load(SRC / "alphabet.json")
+    # ручные звуки → public/audio/manual/
+    man = AUDIO_DIR / "manual"
+    man.mkdir(parents=True, exist_ok=True)
+    for f in (SRC / "sounds").glob("*.mp3"):
+        shutil.copyfile(f, man / f.name)
+    for L in src["letters"]:
+        if L.get("file") and not (SRC / "sounds" / L["file"]).exists():
+            errors.append(f"алфавит: нет файла content/sounds/{L['file']}")
     letters = []
     for L in src["letters"]:
         ex_tokens = tokenize(L["exampleRu"])
         letters.append({
-            **{k: v for k, v in L.items() if k not in ("soundText", "tempo", "cut")},
+            **{k: v for k, v in L.items() if k not in ("soundText", "tempo", "cut", "file")},
             # гласные чуть растягиваем (без изменения высоты голоса), чтобы различать «а» и «о»
-            "audio": clip(L["soundText"], WORD_VOICE, abc_folder(L)),
+            # готовый звук из content/sounds/ (например, гласная, присланная вручную) или синтез
+            "audio": f"manual/{L['file']}" if L.get("file") else clip(L["soundText"], WORD_VOICE, abc_folder(L)),
             "exampleTokens": ex_tokens,
             "exampleAudio": clip(accent(L["exampleRu"]).lower(), WORD_VOICE),
         })
@@ -607,13 +617,14 @@ def time_stretch(x, sr: int, rate: float):
     prev = None
     pos_out = 0
     pos_in = 0.0
-    while int(pos_in) + win + tol < len(x):
-        p = int(pos_in)
+    # поддерживаем зацикливание: если входа не хватает, продолжаем с конца гласной (она ровная)
+    while pos_out + win < len(out):
+        p = min(int(pos_in), len(x) - win - 1)
         if prev is not None:
             best, best_c = p, -1e9
             for d in range(-tol, tol + 1):
                 q = p + d
-                if q < 0:
+                if q < 0 or q + win > len(x):
                     continue
                 c = float(np.dot(x[q:q + hop_out], prev))
                 if c > best_c:
@@ -621,7 +632,7 @@ def time_stretch(x, sr: int, rate: float):
             p = best
         out[pos_out:pos_out + win] += x[p:p + win] * w
         norm[pos_out:pos_out + win] += w
-        prev = x[p + hop_out:p + hop_out + hop_out]
+        prev = x[p + hop_out:p + 2 * hop_out]
         pos_out += hop_out
         pos_in += hop_in
     norm[norm < 1e-3] = 1

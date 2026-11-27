@@ -107,7 +107,8 @@
       "exampleRu": "кино",
       "exampleFr": "cinéma",
       "tipFr": "Comme le « i » de « ici ».",
-      "cut": true
+      "cut": true,
+      "file": "i.mp3"
     },
     {
       "l": "Й",
