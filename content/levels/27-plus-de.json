@@ -1,0 +1,442 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "27-plus-de",
+  "order": 27,
+  "titleFr": "Il n'y a plus de pain !",
+  "titleRu": "Нет хлеба!",
+  "emoji": "🥖",
+  "sceneFr": "Pendant la fête, Luka ouvre le frigo… il manque des choses ! Oleg propose d'aller au magasin.",
+  "dialogue": [
+    {
+      "speaker": "luka",
+      "ru": "Ой! У нас нет хлеба!",
+      "fr": "Oh ! On n'a plus de pain !"
+    },
+    {
+      "speaker": "oleg",
+      "ru": "И сока тоже нет.",
+      "fr": "Et il n'y a plus de jus non plus."
+    },
+    {
+      "speaker": "luka",
+      "ru": "А вода есть?",
+      "fr": "Et de l'eau, il y en a ?"
+    },
+    {
+      "speaker": "oleg",
+      "ru": "Нет, воды тоже нет!",
+      "fr": "Non, plus d'eau non plus !"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Где здесь магазин?",
+      "fr": "Où est le magasin, par ici ?"
+    },
+    {
+      "speaker": "oleg",
+      "ru": "Рядом, две минуты. Я пойду.",
+      "fr": "Tout près, deux minutes. J'y vais."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Спасибо! Купи хлеб, сок и воду.",
+      "fr": "Merci ! Achète du pain, du jus et de l'eau."
+    },
+    {
+      "speaker": "oleg",
+      "ru": "Хорошо. Что-нибудь ещё?",
+      "fr": "D'accord. Autre chose ?"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "nobread",
+      "speaker": "luka",
+      "ru": "У нас нет хлеба!",
+      "fr": "On n'a plus de pain !",
+      "noteFr": "« У нас » = chez nous. « Нет » + le mot qui change : « хлеб » → « нет хлеба ».",
+      "gap": {
+        "word": "хлеба",
+        "distractors": [
+          "хлеб",
+          "рядом"
+        ],
+        "whyFr": "Après « нет » (il n'y a pas), « хлеб » devient « хлеба » (-а)."
+      },
+      "orders": [
+        "у нас нет хлеба"
+      ]
+    },
+    {
+      "id": "nojuice",
+      "speaker": "oleg",
+      "ru": "И сока тоже нет.",
+      "fr": "Et il n'y a plus de jus non plus.",
+      "noteFr": "« Сок » = jus → « нет сока ».",
+      "gap": {
+        "word": "сока",
+        "distractors": [
+          "сок",
+          "воду"
+        ],
+        "whyFr": "Après « нет », « сок » → « сока »."
+      }
+    },
+    {
+      "id": "water",
+      "speaker": "luka",
+      "ru": "А вода есть?",
+      "fr": "Et de l'eau, il y en a ?",
+      "noteFr": "Avec « есть » (il y a), le mot reste à la forme de base : « вода есть ».",
+      "gap": {
+        "word": "вода",
+        "distractors": [
+          "воды",
+          "воду"
+        ],
+        "whyFr": "Avec « есть », forme de base : « вода ». Avec « нет », ce serait « воды »."
+      },
+      "orders": [
+        "а вода есть",
+        "а есть вода"
+      ]
+    },
+    {
+      "id": "nowater",
+      "speaker": "oleg",
+      "ru": "Нет, воды тоже нет!",
+      "fr": "Non, plus d'eau non plus !",
+      "noteFr": "« Вода » → « нет воды » : -а devient -ы.",
+      "gap": {
+        "word": "воды",
+        "distractors": [
+          "вода",
+          "воду"
+        ],
+        "whyFr": "Après « нет », « вода » → « воды » (-ы)."
+      }
+    },
+    {
+      "id": "shop",
+      "speaker": "luka",
+      "ru": "Где здесь магазин?",
+      "fr": "Où est le magasin, par ici ?",
+      "noteFr": "« Магазин » = magasin. Même phrase que « где здесь банк ? ».",
+      "gap": {
+        "word": "магазин",
+        "distractors": [
+          "магазине",
+          "рядом"
+        ]
+      }
+    },
+    {
+      "id": "near",
+      "speaker": "oleg",
+      "ru": "Рядом, две минуты. Я пойду.",
+      "fr": "Tout près, deux minutes. J'y vais.",
+      "noteFr": "« Рядом » = tout près, à côté. « Я пойду » = j'y vais.",
+      "gap": {
+        "word": "рядом",
+        "distractors": [
+          "воды",
+          "купи"
+        ]
+      }
+    },
+    {
+      "id": "buy",
+      "speaker": "luka",
+      "ru": "Купи хлеб, сок и воду.",
+      "fr": "Achète du pain, du jus et de l'eau.",
+      "noteFr": "« Купи ! » = achète ! Ici, ce qu'on achète prend le bleu : « воду ». Pas « нет » ici !",
+      "gap": {
+        "word": "воду",
+        "distractors": [
+          "нет",
+          "вода"
+        ],
+        "whyFr": "On achète l'eau : le bleu, « воду ». « Воды », c'est après « нет »."
+      },
+      "orders": [
+        "купи хлеб сок и воду",
+        "купи сок хлеб и воду"
+      ]
+    },
+    {
+      "id": "more",
+      "speaker": "oleg",
+      "ru": "Хорошо. Что-нибудь ещё?",
+      "fr": "D'accord. Autre chose ?",
+      "noteFr": "Tu connais cette phrase du café !",
+      "gap": {
+        "word": "ещё",
+        "distractors": [
+          "купи",
+          "нет"
+        ]
+      }
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Le frigo est vide",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 0
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "nobread",
+            "nojuice"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "water",
+            "nowater"
+          ],
+          "review": [
+            "nobread"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Au magasin !",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "nobread",
+            "nojuice",
+            "nowater"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "shop",
+            "near"
+          ],
+          "review": [
+            "water",
+            "nowater"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "buy",
+            "more"
+          ],
+          "review": [
+            "nobread",
+            "near"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "oleg",
+      "fr": [
+        "Nouvelle couleur : l'orange ! Après « нет » (il n'y a pas), le mot change : « хлеб » → « нет хлеба », « вода » → « нет воды », « молоко » → « нет молока ».",
+        "Le plus souvent : masculin et neutre → -а, féminin -а → -ы. Tu as déjà vu « у меня нет шапки » !"
+      ]
+    },
+    {
+      "by": "oleg",
+      "fr": [
+        "Compare les trois : « вода есть » (il y a de l'eau, forme de base), « воды нет » (il n'y a pas d'eau, orange), « купи воду » (achète de l'eau, bleu).",
+        "Le même mot, trois formes : c'est tout le puzzle du russe !"
+      ]
+    }
+  ],
+  "explore": {
+    "type": "case",
+    "speaker": "luka",
+    "case": "gent",
+    "frame": "У нас нет ___.",
+    "frameFr": "On n'a pas de ___.",
+    "color": "#e76f51",
+    "hintFr": "Mets chaque mot après « нет » et regarde bien la fin du mot.",
+    "words": [
+      {
+        "tile": "хлеб",
+        "fr": "pain",
+        "phraseFr": "On n'a pas de pain."
+      },
+      {
+        "tile": "вода",
+        "fr": "eau",
+        "phraseFr": "On n'a pas d'eau."
+      },
+      {
+        "tile": "молоко",
+        "fr": "lait",
+        "phraseFr": "On n'a pas de lait."
+      },
+      {
+        "tile": "сок",
+        "fr": "jus",
+        "phraseFr": "On n'a pas de jus."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Dis qu'on n'a pas de lait.",
+      "answer": "молоко"
+    },
+    {
+      "type": "pick",
+      "fr": "Dis qu'on n'a pas d'eau.",
+      "answer": "вода"
+    }
+  ],
+  "cando": [
+    "dire qu'il manque quelque chose",
+    "demander s'il y a…",
+    "demander à quelqu'un d'acheter"
+  ],
+  "unlocks": [
+    {
+      "case": "gent",
+      "gender": "masc",
+      "from": "хлеб",
+      "to": "хлеба"
+    },
+    {
+      "case": "gent",
+      "gender": "femn",
+      "from": "вода",
+      "to": "воды"
+    },
+    {
+      "case": "gent",
+      "gender": "neut",
+      "from": "молоко",
+      "to": "молока"
+    }
+  ],
+  "glossary": {
+    "здравствуйте": "bonjour (poli)",
+    "тебе": "à toi",
+    "здесь": "ici",
+    "я": "je, moi",
+    "ты": "tu",
+    "вы": "vous",
+    "да": "oui",
+    "нет": "non",
+    "а": "et, mais",
+    "и": "et",
+    "это": "c'est, voici",
+    "не": "ne… pas",
+    "в": "dans, à",
+    "на": "sur, en",
+    "что": "quoi, que",
+    "как": "comment, comme",
+    "где": "où",
+    "очень": "très",
+    "спасибо": "merci",
+    "пожалуйста": "s'il te plaît / je t'en prie",
+    "хорошо": "bien, d'accord",
+    "привет": "salut",
+    "лука": "Luka (prénom)",
+    "маша": "Macha (prénom)",
+    "олег": "Oleg (prénom)",
+    "анна": "Anna (prénom)",
+    "у": "chez",
+    "меня": "moi (у меня = j'ai)",
+    "тебя": "toi (у тебя = tu as)",
+    "есть": "il y a",
+    "мой": "mon",
+    "моя": "ma",
+    "мне": "à moi",
+    "тоже": "aussi",
+    "сегодня": "aujourd'hui",
+    "завтра": "demain",
+    "вчера": "hier",
+    "потом": "puis, ensuite",
+    "давай": "allons-y, faisons",
+    "ой": "oh",
+    "нас": "nous (у нас = chez nous)",
+    "хлеба": "pain (après нет)",
+    "хлеб": "pain",
+    "сока": "jus (après нет)",
+    "сок": "jus",
+    "вода": "eau",
+    "воды": "eau (après нет)",
+    "воду": "eau (après купи)",
+    "магазин": "magasin",
+    "магазине": "magasin (après в)",
+    "рядом": "tout près",
+    "две": "deux",
+    "минуты": "minutes (après 2, 3, 4)",
+    "пойду": "(j')y vais",
+    "купи": "achète !",
+    "что-нибудь": "quelque chose",
+    "ещё": "encore",
+    "молоко": "lait",
+    "молока": "lait (après нет)"
+  },
+  "combos": [
+    {
+      "ru": "У меня нет шапки, но есть шарф.",
+      "fr": "Je n'ai pas de bonnet, mais j'ai une écharpe.",
+      "extra": [
+        "шапку"
+      ]
+    },
+    {
+      "ru": "У нас нет молока. Купи молоко!",
+      "fr": "On n'a pas de lait. Achète du lait !",
+      "extra": [
+        "хлеба"
+      ]
+    },
+    {
+      "ru": "Где здесь магазин? Рядом?",
+      "fr": "Où est le magasin, par ici ? Tout près ?",
+      "extra": [
+        "купи"
+      ]
+    }
+  ]
+}

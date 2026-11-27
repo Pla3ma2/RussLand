@@ -1,0 +1,2468 @@
+{
+ "version": 2,
+ "id": "29-universite",
+ "order": 29,
+ "titleFr": "À l'université",
+ "titleRu": "В университете",
+ "emoji": "🎓",
+ "sceneFr": "À l'université, une nouvelle étudiante, Nina, parle avec Luka à la pause. C'est la caissière de l'épicerie !",
+ "learner": "luka",
+ "speakers": {
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  },
+  "nina": {
+   "name": "Нина",
+   "nameFr": "Nina",
+   "color": "#c9a227"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "nina",
+   "ru": "Привет! Ты тоже здесь учишься?",
+   "fr": "Salut ! Tu étudies ici aussi ?",
+   "tokens": [
+    {
+     "t": "Привет",
+     "s": 4,
+     "w": true,
+     "a": "465595078eb6.mp3",
+     "l": "привет"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тоже",
+     "s": 1,
+     "w": true,
+     "a": "0b041fee8598.mp3",
+     "l": "тоже"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "здесь",
+     "s": 2,
+     "w": true,
+     "a": "5dc51c8ef3d7.mp3",
+     "l": "здесь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "учишься",
+     "s": 2,
+     "w": true,
+     "a": "fb142cd369bb.mp3",
+     "l": "учиться"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "88b1a2c593d4.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Да, я учусь в университете. А ты?",
+   "fr": "Oui, j'étudie à l'université. Et toi ?",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "учусь",
+     "s": 2,
+     "w": true,
+     "a": "b8cf2df7ddb5.mp3",
+     "l": "учиться"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "университете",
+     "s": 9,
+     "w": true,
+     "a": "7b8a97b7247c.mp3",
+     "l": "университет"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "26be1931c009.mp3"
+  },
+  {
+   "speaker": "nina",
+   "ru": "Я тоже! Я работаю в магазине и учусь.",
+   "fr": "Moi aussi ! Je travaille au magasin et j'étudie.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тоже",
+     "s": 1,
+     "w": true,
+     "a": "0b041fee8598.mp3",
+     "l": "тоже"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работаю",
+     "s": 3,
+     "w": true,
+     "a": "c044cc17ebbc.mp3",
+     "l": "работать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "магазине",
+     "s": 5,
+     "w": true,
+     "a": "162be3cb26e4.mp3",
+     "l": "магазин"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "учусь",
+     "s": 2,
+     "w": true,
+     "a": "b8cf2df7ddb5.mp3",
+     "l": "учиться"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "121544659378.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Что ты изучаешь?",
+   "fr": "Qu'est-ce que tu étudies ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "изучаешь",
+     "s": 4,
+     "w": true,
+     "a": "7a74659aa4a0.mp3",
+     "l": "изучать"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "a5ae6cf140ff.mp3"
+  },
+  {
+   "speaker": "nina",
+   "ru": "Я изучаю французский язык!",
+   "fr": "J'étudie le français !",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "изучаю",
+     "s": 4,
+     "w": true,
+     "a": "f9c36b88f699.mp3",
+     "l": "изучать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "французский",
+     "s": 5,
+     "w": true,
+     "a": "24ad9175ecc2.mp3",
+     "l": "французский"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "язык",
+     "s": 2,
+     "w": true,
+     "a": "6bb79e7fd3a1.mp3",
+     "l": "язык"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "59715d3bfd3e.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Правда? А я изучаю русский язык.",
+   "fr": "C'est vrai ? Et moi, j'étudie le russe.",
+   "tokens": [
+    {
+     "t": "Правда",
+     "s": 2,
+     "w": true,
+     "a": "c18e64be8efe.mp3",
+     "l": "правда"
+    },
+    {
+     "t": "? ",
+     "w": false
+    },
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "изучаю",
+     "s": 4,
+     "w": true,
+     "a": "f9c36b88f699.mp3",
+     "l": "изучать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "русский",
+     "s": 1,
+     "w": true,
+     "a": "e9990cae86f0.mp3",
+     "l": "русский"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "язык",
+     "s": 2,
+     "w": true,
+     "a": "6bb79e7fd3a1.mp3",
+     "l": "язык"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "987d07041591.mp3"
+  },
+  {
+   "speaker": "nina",
+   "ru": "Кем ты хочешь быть?",
+   "fr": "Qu'est-ce que tu veux devenir ?",
+   "tokens": [
+    {
+     "t": "Кем",
+     "s": 1,
+     "w": true,
+     "a": "749ee38ba6f7.mp3",
+     "l": "кто"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочешь",
+     "s": 1,
+     "w": true,
+     "a": "14d6c2c314f5.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "быть",
+     "s": 1,
+     "w": true,
+     "a": "00bb49d632d9.mp3",
+     "l": "быть"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "fdec12c7a381.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Я хочу быть переводчиком.",
+   "fr": "Je veux être traducteur.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "быть",
+     "s": 1,
+     "w": true,
+     "a": "00bb49d632d9.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "переводчиком",
+     "s": 5,
+     "w": true,
+     "a": "f56828d427df.mp3",
+     "l": "переводчик"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ec8aea9ff3f5.mp3"
+  }
+ ],
+ "phrases": {
+  "studyq": {
+   "speaker": "nina",
+   "ru": "Ты тоже здесь учишься?",
+   "fr": "Tu étudies ici aussi ?",
+   "tokens": [
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тоже",
+     "s": 1,
+     "w": true,
+     "a": "0b041fee8598.mp3",
+     "l": "тоже"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "здесь",
+     "s": 2,
+     "w": true,
+     "a": "5dc51c8ef3d7.mp3",
+     "l": "здесь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "учишься",
+     "s": 2,
+     "w": true,
+     "a": "fb142cd369bb.mp3",
+     "l": "учиться"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "c73b500526f0.mp3",
+   "id": "studyq",
+   "noteFr": "« Учиться » = étudier (faire ses études). « Ты учишься » = tu étudies.",
+   "gap": {
+    "index": 6,
+    "whyFr": "Avec « ты » : « учишься ». « Учусь », c'est pour « я ».",
+    "distractors": [
+     {
+      "t": "учусь",
+      "a": "b8cf2df7ddb5.mp3",
+      "s": 2
+     },
+     {
+      "t": "изучаю",
+      "a": "f9c36b88f699.mp3",
+      "s": 4
+     }
+    ]
+   },
+   "orders": [
+    "ты тоже здесь учишься",
+    "ты тоже учишься здесь"
+   ]
+  },
+  "study": {
+   "speaker": "luka",
+   "ru": "Да, я учусь в университете.",
+   "fr": "Oui, j'étudie à l'université.",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "учусь",
+     "s": 2,
+     "w": true,
+     "a": "b8cf2df7ddb5.mp3",
+     "l": "учиться"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "университете",
+     "s": 9,
+     "w": true,
+     "a": "7b8a97b7247c.mp3",
+     "l": "университет"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "df7b1a59941e.mp3",
+   "id": "study",
+   "noteFr": "« Я учусь » = j'étudie. « В университете » : le vert du lieu.",
+   "gap": {
+    "index": 4,
+    "whyFr": "Avec « я » : « учусь ».",
+    "distractors": [
+     {
+      "t": "учишься",
+      "a": "fb142cd369bb.mp3",
+      "s": 2
+     },
+     {
+      "t": "изучаю",
+      "a": "f9c36b88f699.mp3",
+      "s": 4
+     }
+    ]
+   },
+   "orders": [
+    "да я учусь в университете",
+    "да в университете я учусь"
+   ]
+  },
+  "work": {
+   "speaker": "nina",
+   "ru": "Я работаю в магазине и учусь.",
+   "fr": "Je travaille au magasin et j'étudie.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работаю",
+     "s": 3,
+     "w": true,
+     "a": "c044cc17ebbc.mp3",
+     "l": "работать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "магазине",
+     "s": 5,
+     "w": true,
+     "a": "162be3cb26e4.mp3",
+     "l": "магазин"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "учусь",
+     "s": 2,
+     "w": true,
+     "a": "b8cf2df7ddb5.mp3",
+     "l": "учиться"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "6874d2ad8093.mp3",
+   "id": "work",
+   "noteFr": "« В магазине » = au magasin (le vert du lieu).",
+   "gap": {
+    "index": 6,
+    "whyFr": "Pour dire où : « в магазине » (-е).",
+    "distractors": [
+     {
+      "t": "магазин",
+      "a": "0206a00c72ae.mp3",
+      "s": 5
+     },
+     {
+      "t": "язык",
+      "a": "6bb79e7fd3a1.mp3",
+      "s": 2
+     }
+    ]
+   },
+   "orders": [
+    "я работаю в магазине и учусь",
+    "я учусь и работаю в магазине"
+   ]
+  },
+  "what": {
+   "speaker": "luka",
+   "ru": "Что ты изучаешь?",
+   "fr": "Qu'est-ce que tu étudies ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "изучаешь",
+     "s": 4,
+     "w": true,
+     "a": "7a74659aa4a0.mp3",
+     "l": "изучать"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "a5ae6cf140ff.mp3",
+   "id": "what",
+   "noteFr": "« Изучать » = étudier une matière. « Ты изучаешь » = tu étudies.",
+   "gap": {
+    "index": 4,
+    "whyFr": "Avec « ты » : « изучаешь ».",
+    "distractors": [
+     {
+      "t": "изучаю",
+      "a": "f9c36b88f699.mp3",
+      "s": 4
+     },
+     {
+      "t": "учусь",
+      "a": "b8cf2df7ddb5.mp3",
+      "s": 2
+     }
+    ]
+   },
+   "orders": [
+    "что ты изучаешь"
+   ]
+  },
+  "french": {
+   "speaker": "nina",
+   "ru": "Я изучаю французский язык!",
+   "fr": "J'étudie le français !",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "изучаю",
+     "s": 4,
+     "w": true,
+     "a": "f9c36b88f699.mp3",
+     "l": "изучать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "французский",
+     "s": 5,
+     "w": true,
+     "a": "24ad9175ecc2.mp3",
+     "l": "французский"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "язык",
+     "s": 2,
+     "w": true,
+     "a": "6bb79e7fd3a1.mp3",
+     "l": "язык"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "59715d3bfd3e.mp3",
+   "id": "french",
+   "noteFr": "« Французский язык » = la langue française. « Язык » = langue.",
+   "gap": {
+    "index": 4,
+    "whyFr": "Pour nommer la langue : « французский язык ». « По-французски », c'est « en français ».",
+    "distractors": [
+     {
+      "t": "французски",
+      "a": "9d4ec3df262c.mp3",
+      "s": 5
+     },
+     {
+      "t": "переводчиком",
+      "a": "f56828d427df.mp3",
+      "s": 5
+     }
+    ]
+   },
+   "orders": [
+    "я изучаю французский язык"
+   ]
+  },
+  "russian": {
+   "speaker": "luka",
+   "ru": "Правда? А я изучаю русский язык.",
+   "fr": "C'est vrai ? Et moi, j'étudie le russe.",
+   "tokens": [
+    {
+     "t": "Правда",
+     "s": 2,
+     "w": true,
+     "a": "c18e64be8efe.mp3",
+     "l": "правда"
+    },
+    {
+     "t": "? ",
+     "w": false
+    },
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "изучаю",
+     "s": 4,
+     "w": true,
+     "a": "f9c36b88f699.mp3",
+     "l": "изучать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "русский",
+     "s": 1,
+     "w": true,
+     "a": "e9990cae86f0.mp3",
+     "l": "русский"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "язык",
+     "s": 2,
+     "w": true,
+     "a": "6bb79e7fd3a1.mp3",
+     "l": "язык"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "987d07041591.mp3",
+   "id": "russian",
+   "noteFr": "« Правда ? » = c'est vrai ?",
+   "gap": {
+    "index": 0,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "кем",
+      "a": "749ee38ba6f7.mp3",
+      "s": 1
+     },
+     {
+      "t": "быть",
+      "a": "00bb49d632d9.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "become": {
+   "speaker": "nina",
+   "ru": "Кем ты хочешь быть?",
+   "fr": "Qu'est-ce que tu veux devenir ?",
+   "tokens": [
+    {
+     "t": "Кем",
+     "s": 1,
+     "w": true,
+     "a": "749ee38ba6f7.mp3",
+     "l": "кто"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочешь",
+     "s": 1,
+     "w": true,
+     "a": "14d6c2c314f5.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "быть",
+     "s": 1,
+     "w": true,
+     "a": "00bb49d632d9.mp3",
+     "l": "быть"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "fdec12c7a381.mp3",
+   "id": "become",
+   "noteFr": "Mot à mot : « qui (en violet) tu veux être ? ». Après « быть », le métier prend le violet.",
+   "gap": {
+    "index": 0,
+    "whyFr": "Avec « быть », c'est « кем » (violet). « Кто », c'est juste « qui ».",
+    "distractors": [
+     {
+      "t": "кто",
+      "a": "72d9eab0cc53.mp3",
+      "s": 2
+     },
+     {
+      "t": "что",
+      "a": "209f9228f26e.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "translator": {
+   "speaker": "luka",
+   "ru": "Я хочу быть переводчиком.",
+   "fr": "Je veux être traducteur.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "быть",
+     "s": 1,
+     "w": true,
+     "a": "00bb49d632d9.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "переводчиком",
+     "s": 5,
+     "w": true,
+     "a": "f56828d427df.mp3",
+     "l": "переводчик"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ec8aea9ff3f5.mp3",
+   "id": "translator",
+   "noteFr": "« Переводчик » = traducteur → « быть переводчиком » (-ом), le violet, comme après « с ».",
+   "gap": {
+    "index": 6,
+    "whyFr": "Après « быть » (être, devenir), le violet : « переводчиком » (-ом).",
+    "distractors": [
+     {
+      "t": "переводчик",
+      "a": "a6b7c811d2e9.mp3",
+      "s": 5
+     },
+     {
+      "t": "языком",
+      "a": "62cc0db3e70d.mp3",
+      "s": 4
+     }
+    ]
+   },
+   "orders": [
+    "я хочу быть переводчиком"
+   ]
+  },
+  "c1": {
+   "speaker": "luka",
+   "ru": "Я не хочу быть переводчиком.",
+   "fr": "Je ne veux pas être traducteur.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "быть",
+     "s": 1,
+     "w": true,
+     "a": "00bb49d632d9.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "переводчиком",
+     "s": 5,
+     "w": true,
+     "a": "f56828d427df.mp3",
+     "l": "переводчик"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "6c09ccfae1cf.mp3",
+   "id": "c1",
+   "noteFr": "",
+   "orders": [
+    "я не хочу быть переводчиком"
+   ],
+   "combo": {
+    "from": [
+     "Faire connaissance",
+     "Je ne comprends pas",
+     "Au café",
+     "À l'université"
+    ],
+    "extra": [
+     {
+      "t": "кем",
+      "a": "749ee38ba6f7.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "c2": {
+   "speaker": "luka",
+   "ru": "Моя сестра учится в Париже.",
+   "fr": "Ma sœur étudie à Paris.",
+   "tokens": [
+    {
+     "t": "Моя",
+     "s": 2,
+     "w": true,
+     "a": "256d62a930d9.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сестра",
+     "s": 5,
+     "w": true,
+     "a": "76ae2fd8219b.mp3",
+     "l": "сестра"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "учится",
+     "s": 2,
+     "w": true,
+     "a": "2f81a50a571d.mp3",
+     "l": "учиться"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Париже",
+     "s": 3,
+     "w": true,
+     "a": "69178e915968.mp3",
+     "l": "париж"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "795c7d4631cb.mp3",
+   "id": "c2",
+   "noteFr": "",
+   "orders": [
+    "моя сестра учится в париже",
+    "в париже учится моя сестра"
+   ],
+   "combo": {
+    "from": [
+     "Ma famille",
+     "À l'université",
+     "Où es-tu ?",
+     "Chez des amis"
+    ],
+    "extra": [
+     {
+      "t": "учусь",
+      "a": "b8cf2df7ddb5.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "c3": {
+   "speaker": "luka",
+   "ru": "Я изучаю русский язык, а ты?",
+   "fr": "J'étudie le russe, et toi ?",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "изучаю",
+     "s": 4,
+     "w": true,
+     "a": "f9c36b88f699.mp3",
+     "l": "изучать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "русский",
+     "s": 1,
+     "w": true,
+     "a": "e9990cae86f0.mp3",
+     "l": "русский"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "язык",
+     "s": 2,
+     "w": true,
+     "a": "6bb79e7fd3a1.mp3",
+     "l": "язык"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "а",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "206cd3ac5391.mp3",
+   "id": "c3",
+   "noteFr": "",
+   "orders": [
+    "я изучаю русский язык а ты"
+   ],
+   "combo": {
+    "from": [
+     "Faire connaissance",
+     "À l'université",
+     "Ma journée",
+     "Se présenter",
+     "Je ne comprends pas"
+    ],
+    "extra": [
+     {
+      "t": "изучаешь",
+      "a": "7a74659aa4a0.mp3",
+      "s": 4
+     }
+    ]
+   }
+  }
+ },
+ "parts": [
+  {
+   "titleFr": "Tu étudies ici ?",
+   "steps": [
+    {
+     "type": "scene"
+    },
+    {
+     "type": "explore"
+    },
+    {
+     "type": "insight",
+     "index": 0
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "studyq",
+      "study"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "work",
+      "what"
+     ],
+     "review": [
+      "study"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Les projets d'avenir",
+   "steps": [
+    {
+     "type": "warmup",
+     "phrases": [
+      "studyq",
+      "study",
+      "what"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "french",
+      "russian"
+     ],
+     "review": [
+      "work",
+      "what"
+     ]
+    },
+    {
+     "type": "insight",
+     "index": 1
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "become",
+      "translator"
+     ],
+     "review": [
+      "french"
+     ]
+    },
+    {
+     "type": "combine",
+     "phrases": [
+      "c1",
+      "c2",
+      "c3"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Joue la scène",
+   "steps": [
+    {
+     "type": "final"
+    },
+    {
+     "type": "roleplay"
+    }
+   ]
+  }
+ ],
+ "insights": [
+  {
+   "by": "nina",
+   "fr": [
+    "Deux verbes pour « étudier » : « учиться » (faire des études, aller à l'université) et « изучать » + la matière (étudier le russe).",
+    "« Я учусь в университете » / « Я изучаю русский язык ». Attention : учусь, учишься, учится… ont un petit « -ся » à la fin."
+   ]
+  },
+  {
+   "by": "nina",
+   "fr": [
+    "Pour un métier qu'on veut faire : « быть » + le violet : « быть переводчиком », « быть врачом », « быть учителем ».",
+    "Mais au présent, toujours sans verbe : « я врач »."
+   ]
+  }
+ ],
+ "explore": {
+  "type": "person",
+  "frameFr": "___ étudier à l'université.",
+  "color": "#8e44ad",
+  "hintFr": "Change la personne et écoute la fin du verbe (avec -ся).",
+  "before": [],
+  "after": [
+   {
+    "t": "  ",
+    "w": false
+   },
+   {
+    "t": "в",
+    "s": null,
+    "w": true,
+    "a": "3c5b79b7f921.mp3",
+    "l": "в"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "университете",
+    "s": 9,
+    "w": true,
+    "a": "7b8a97b7247c.mp3",
+    "l": "университет"
+   },
+   {
+    "t": ".",
+    "w": false
+   }
+  ],
+  "verb": "учиться",
+  "words": [
+   {
+    "tile": "я",
+    "tileStress": 0,
+    "fr": "je",
+    "phraseFr": "J'étudie à l'université.",
+    "phrase": "Я учусь в университете.",
+    "morph": {
+     "from": "учиться",
+     "to": "учусь",
+     "stem": "уч",
+     "endFrom": "иться",
+     "endTo": "усь",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": true
+    },
+    "audioTile": "70b9d9783365.mp3",
+    "audioPhrase": "df4bef7b3711.mp3"
+   },
+   {
+    "tile": "ты",
+    "tileStress": 1,
+    "fr": "tu",
+    "phraseFr": "Tu étudies à l'université.",
+    "phrase": "Ты учишься в университете.",
+    "morph": {
+     "from": "учиться",
+     "to": "учишься",
+     "stem": "учи",
+     "endFrom": "ться",
+     "endTo": "шься",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": true
+    },
+    "audioTile": "984afcea50b6.mp3",
+    "audioPhrase": "93c67852262f.mp3"
+   },
+   {
+    "tile": "она",
+    "tileStress": 2,
+    "fr": "elle",
+    "phraseFr": "Elle étudie à l'université.",
+    "phrase": "Она учится в университете.",
+    "morph": {
+     "from": "учиться",
+     "to": "учится",
+     "stem": "учит",
+     "endFrom": "ься",
+     "endTo": "ся",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": true
+    },
+    "audioTile": "bd63622a7f54.mp3",
+    "audioPhrase": "4f511f874050.mp3"
+   },
+   {
+    "tile": "мы",
+    "tileStress": 1,
+    "fr": "nous",
+    "phraseFr": "Nous étudions à l'université.",
+    "phrase": "Мы учимся в университете.",
+    "morph": {
+     "from": "учиться",
+     "to": "учимся",
+     "stem": "учи",
+     "endFrom": "ться",
+     "endTo": "мся",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": true
+    },
+    "audioTile": "a234675be3c5.mp3",
+    "audioPhrase": "b803d321c1de.mp3"
+   },
+   {
+    "tile": "вы",
+    "tileStress": 1,
+    "fr": "vous",
+    "phraseFr": "Vous étudiez à l'université.",
+    "phrase": "Вы учитесь в университете.",
+    "morph": {
+     "from": "учиться",
+     "to": "учитесь",
+     "stem": "учит",
+     "endFrom": "ься",
+     "endTo": "есь",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": true
+    },
+    "audioTile": "8b7efd6df007.mp3",
+    "audioPhrase": "24a17388b53d.mp3"
+   },
+   {
+    "tile": "они",
+    "tileStress": 2,
+    "fr": "ils, elles",
+    "phraseFr": "Ils étudient à l'université.",
+    "phrase": "Они учатся в университете.",
+    "morph": {
+     "from": "учиться",
+     "to": "учатся",
+     "stem": "уч",
+     "endFrom": "иться",
+     "endTo": "атся",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": true
+    },
+    "audioTile": "7c61158febc8.mp3",
+    "audioPhrase": "7b1c2257567c.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Dis : « Elle étudie à l'université. »",
+   "answer": "она"
+  },
+  {
+   "type": "pick",
+   "fr": "Dis : « Nous étudions à l'université. »",
+   "answer": "мы"
+  }
+ ],
+ "grammar": [
+  "да я учусь в университете",
+  "да я учусь в университете а ты",
+  "кем ты хочешь быть",
+  "моя сестра учится в париже",
+  "правда а я изучаю русский язык",
+  "привет ты тоже здесь учишься",
+  "ты тоже здесь учишься",
+  "что ты изучаешь",
+  "я изучаю русский язык а ты",
+  "я изучаю французский язык",
+  "я не хочу быть переводчиком",
+  "я работаю в магазине и учусь",
+  "я тоже я работаю в магазине и учусь",
+  "я хочу быть переводчиком",
+  "[unk]"
+ ],
+ "cando": [
+  "parler de tes études",
+  "dire quelle langue tu étudies",
+  "dire ce que tu veux devenir"
+ ],
+ "glossary": {
+  "здравствуйте": "bonjour (poli)",
+  "тебе": "à toi",
+  "здесь": "ici",
+  "я": "je, moi",
+  "ты": "tu",
+  "вы": "vous",
+  "да": "oui",
+  "нет": "non",
+  "а": "et, mais",
+  "и": "et",
+  "это": "c'est, voici",
+  "не": "ne… pas",
+  "в": "dans, à",
+  "на": "sur, en",
+  "что": "quoi, que",
+  "как": "comment, comme",
+  "где": "où",
+  "очень": "très",
+  "спасибо": "merci",
+  "пожалуйста": "s'il te plaît / je t'en prie",
+  "хорошо": "bien, d'accord",
+  "привет": "salut",
+  "лука": "Luka (prénom)",
+  "маша": "Macha (prénom)",
+  "олег": "Oleg (prénom)",
+  "анна": "Anna (prénom)",
+  "у": "chez",
+  "меня": "moi (у меня = j'ai)",
+  "тебя": "toi (у тебя = tu as)",
+  "есть": "il y a",
+  "мой": "mon",
+  "моя": "ma",
+  "мне": "à moi",
+  "тоже": "aussi",
+  "сегодня": "aujourd'hui",
+  "завтра": "demain",
+  "вчера": "hier",
+  "потом": "puis, ensuite",
+  "давай": "allons-y, faisons",
+  "учишься": "(tu) étudies",
+  "учусь": "(j')étudie",
+  "учится": "(il, elle) étudie",
+  "учимся": "(nous) étudions",
+  "учитесь": "(vous) étudiez",
+  "учатся": "(ils) étudient",
+  "университете": "université (après в)",
+  "работаю": "(je) travaille",
+  "магазине": "magasin (après в)",
+  "магазин": "magasin",
+  "изучаешь": "(tu) étudies",
+  "изучаю": "(j')étudie",
+  "французский": "français (adj.)",
+  "французски": "(forme incomplète)",
+  "язык": "langue",
+  "языком": "langue (après с, быть)",
+  "правда": "vrai, vérité",
+  "русский": "russe",
+  "кем": "qui (après быть)",
+  "кто": "qui",
+  "хочешь": "(tu) veux",
+  "хочу": "(je) veux",
+  "быть": "être",
+  "переводчиком": "traducteur (après быть)",
+  "переводчик": "traducteur",
+  "она": "elle",
+  "мы": "nous",
+  "они": "ils, elles",
+  "нина": "Nina (prénom)",
+  "сестра": "sœur"
+ },
+ "unlocks": [
+  {
+   "verb": "учиться",
+   "persons": [
+    "я",
+    "ты",
+    "он",
+    "мы",
+    "вы",
+    "они"
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "29-universite:studyq",
+   "ru": "Ты тоже здесь учишься?",
+   "fr": "Tu étudies ici aussi ?",
+   "tokens": [
+    {
+     "t": "Ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тоже",
+     "s": 1,
+     "w": true,
+     "a": "0b041fee8598.mp3",
+     "l": "тоже"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "здесь",
+     "s": 2,
+     "w": true,
+     "a": "5dc51c8ef3d7.mp3",
+     "l": "здесь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "учишься",
+     "s": 2,
+     "w": true,
+     "a": "fb142cd369bb.mp3",
+     "l": "учиться"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "c73b500526f0.mp3"
+  },
+  {
+   "id": "29-universite:study",
+   "ru": "Да, я учусь в университете.",
+   "fr": "Oui, j'étudie à l'université.",
+   "tokens": [
+    {
+     "t": "Да",
+     "s": 1,
+     "w": true,
+     "a": "ef28ca08681f.mp3",
+     "l": "да"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "учусь",
+     "s": 2,
+     "w": true,
+     "a": "b8cf2df7ddb5.mp3",
+     "l": "учиться"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "университете",
+     "s": 9,
+     "w": true,
+     "a": "7b8a97b7247c.mp3",
+     "l": "университет"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "df7b1a59941e.mp3"
+  },
+  {
+   "id": "29-universite:work",
+   "ru": "Я работаю в магазине и учусь.",
+   "fr": "Je travaille au magasin et j'étudie.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "работаю",
+     "s": 3,
+     "w": true,
+     "a": "c044cc17ebbc.mp3",
+     "l": "работать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "магазине",
+     "s": 5,
+     "w": true,
+     "a": "162be3cb26e4.mp3",
+     "l": "магазин"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "учусь",
+     "s": 2,
+     "w": true,
+     "a": "b8cf2df7ddb5.mp3",
+     "l": "учиться"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "6874d2ad8093.mp3"
+  },
+  {
+   "id": "29-universite:what",
+   "ru": "Что ты изучаешь?",
+   "fr": "Qu'est-ce que tu étudies ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "изучаешь",
+     "s": 4,
+     "w": true,
+     "a": "7a74659aa4a0.mp3",
+     "l": "изучать"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "a5ae6cf140ff.mp3"
+  },
+  {
+   "id": "29-universite:french",
+   "ru": "Я изучаю французский язык!",
+   "fr": "J'étudie le français !",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "изучаю",
+     "s": 4,
+     "w": true,
+     "a": "f9c36b88f699.mp3",
+     "l": "изучать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "французский",
+     "s": 5,
+     "w": true,
+     "a": "24ad9175ecc2.mp3",
+     "l": "французский"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "язык",
+     "s": 2,
+     "w": true,
+     "a": "6bb79e7fd3a1.mp3",
+     "l": "язык"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "59715d3bfd3e.mp3"
+  },
+  {
+   "id": "29-universite:russian",
+   "ru": "Правда? А я изучаю русский язык.",
+   "fr": "C'est vrai ? Et moi, j'étudie le russe.",
+   "tokens": [
+    {
+     "t": "Правда",
+     "s": 2,
+     "w": true,
+     "a": "c18e64be8efe.mp3",
+     "l": "правда"
+    },
+    {
+     "t": "? ",
+     "w": false
+    },
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "изучаю",
+     "s": 4,
+     "w": true,
+     "a": "f9c36b88f699.mp3",
+     "l": "изучать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "русский",
+     "s": 1,
+     "w": true,
+     "a": "e9990cae86f0.mp3",
+     "l": "русский"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "язык",
+     "s": 2,
+     "w": true,
+     "a": "6bb79e7fd3a1.mp3",
+     "l": "язык"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "987d07041591.mp3"
+  },
+  {
+   "id": "29-universite:become",
+   "ru": "Кем ты хочешь быть?",
+   "fr": "Qu'est-ce que tu veux devenir ?",
+   "tokens": [
+    {
+     "t": "Кем",
+     "s": 1,
+     "w": true,
+     "a": "749ee38ba6f7.mp3",
+     "l": "кто"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочешь",
+     "s": 1,
+     "w": true,
+     "a": "14d6c2c314f5.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "быть",
+     "s": 1,
+     "w": true,
+     "a": "00bb49d632d9.mp3",
+     "l": "быть"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "fdec12c7a381.mp3"
+  },
+  {
+   "id": "29-universite:translator",
+   "ru": "Я хочу быть переводчиком.",
+   "fr": "Je veux être traducteur.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "быть",
+     "s": 1,
+     "w": true,
+     "a": "00bb49d632d9.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "переводчиком",
+     "s": 5,
+     "w": true,
+     "a": "f56828d427df.mp3",
+     "l": "переводчик"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ec8aea9ff3f5.mp3"
+  },
+  {
+   "id": "29-universite:c1",
+   "ru": "Я не хочу быть переводчиком.",
+   "fr": "Je ne veux pas être traducteur.",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хочу",
+     "s": 3,
+     "w": true,
+     "a": "aae1250833fa.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "быть",
+     "s": 1,
+     "w": true,
+     "a": "00bb49d632d9.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "переводчиком",
+     "s": 5,
+     "w": true,
+     "a": "f56828d427df.mp3",
+     "l": "переводчик"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "6c09ccfae1cf.mp3"
+  },
+  {
+   "id": "29-universite:c2",
+   "ru": "Моя сестра учится в Париже.",
+   "fr": "Ma sœur étudie à Paris.",
+   "tokens": [
+    {
+     "t": "Моя",
+     "s": 2,
+     "w": true,
+     "a": "256d62a930d9.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сестра",
+     "s": 5,
+     "w": true,
+     "a": "76ae2fd8219b.mp3",
+     "l": "сестра"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "учится",
+     "s": 2,
+     "w": true,
+     "a": "2f81a50a571d.mp3",
+     "l": "учиться"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Париже",
+     "s": 3,
+     "w": true,
+     "a": "69178e915968.mp3",
+     "l": "париж"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "795c7d4631cb.mp3"
+  },
+  {
+   "id": "29-universite:c3",
+   "ru": "Я изучаю русский язык, а ты?",
+   "fr": "J'étudie le russe, et toi ?",
+   "tokens": [
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "изучаю",
+     "s": 4,
+     "w": true,
+     "a": "f9c36b88f699.mp3",
+     "l": "изучать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "русский",
+     "s": 1,
+     "w": true,
+     "a": "e9990cae86f0.mp3",
+     "l": "русский"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "язык",
+     "s": 2,
+     "w": true,
+     "a": "6bb79e7fd3a1.mp3",
+     "l": "язык"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "а",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "206cd3ac5391.mp3"
+  }
+ ],
+ "hasAudio": false
+}

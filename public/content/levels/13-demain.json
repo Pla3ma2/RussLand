@@ -1837,7 +1837,14 @@
   "читать": "lire",
   "банк": "banque"
  },
- "unlocks": [],
+ "unlocks": [
+  {
+   "verb": "хотеть",
+   "persons": [
+    "ты"
+   ]
+  }
+ ],
  "items": [
   {
    "id": "13-demain:plans",

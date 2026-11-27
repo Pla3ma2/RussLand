@@ -1592,7 +1592,19 @@
   "играть": "jouer",
   "футбол": "football"
  },
- "unlocks": [],
+ "unlocks": [
+  {
+   "verb": "мочь",
+   "persons": [
+    "я",
+    "ты",
+    "он",
+    "мы",
+    "вы",
+    "они"
+   ]
+  }
+ ],
  "items": [
   {
    "id": "23-patinoire:rink",

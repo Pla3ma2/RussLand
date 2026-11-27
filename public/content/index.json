@@ -335,6 +335,90 @@
    ],
    "version": 2,
    "parts": 3
+  },
+  {
+   "id": "25-telephone",
+   "order": 25,
+   "titleFr": "Au téléphone",
+   "titleRu": "По телефону",
+   "emoji": "📞",
+   "cando": [
+    "téléphoner à un ami",
+    "inviter quelqu'un chez toi",
+    "donner une heure"
+   ],
+   "version": 2,
+   "parts": 3
+  },
+  {
+   "id": "26-anniversaire",
+   "order": 26,
+   "titleFr": "Joyeux anniversaire !",
+   "titleRu": "С днём рождения!",
+   "emoji": "🎂",
+   "cando": [
+    "souhaiter un joyeux anniversaire",
+    "dire ton âge",
+    "remercier pour un cadeau"
+   ],
+   "version": 2,
+   "parts": 3
+  },
+  {
+   "id": "27-plus-de",
+   "order": 27,
+   "titleFr": "Il n'y a plus de pain !",
+   "titleRu": "Нет хлеба!",
+   "emoji": "🥖",
+   "cando": [
+    "dire qu'il manque quelque chose",
+    "demander s'il y a…",
+    "demander à quelqu'un d'acheter"
+   ],
+   "version": 2,
+   "parts": 3
+  },
+  {
+   "id": "28-avec",
+   "order": 28,
+   "titleFr": "Avec du lait ?",
+   "titleRu": "С молоком?",
+   "emoji": "☕",
+   "cando": [
+    "commander avec / sans",
+    "dire avec qui tu sors",
+    "parler de tes amis"
+   ],
+   "version": 2,
+   "parts": 3
+  },
+  {
+   "id": "29-universite",
+   "order": 29,
+   "titleFr": "À l'université",
+   "titleRu": "В университете",
+   "emoji": "🎓",
+   "cando": [
+    "parler de tes études",
+    "dire quelle langue tu étudies",
+    "dire ce que tu veux devenir"
+   ],
+   "version": 2,
+   "parts": 3
+  },
+  {
+   "id": "30-julie",
+   "order": 30,
+   "titleFr": "Julie arrive !",
+   "titleRu": "Жюли приехала!",
+   "emoji": "🌷",
+   "cando": [
+    "présenter quelqu'un de ta famille",
+    "servir d'interprète",
+    "proposer une visite"
+   ],
+   "version": 2,
+   "parts": 3
   }
  ]
 }

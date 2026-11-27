@@ -1,0 +1,421 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "26-anniversaire",
+  "order": 26,
+  "titleFr": "Joyeux anniversaire !",
+  "titleRu": "С днём рождения!",
+  "emoji": "🎂",
+  "sceneFr": "Samedi, six heures. Les amis arrivent chez Luka pour son anniversaire.",
+  "dialogue": [
+    {
+      "speaker": "anna",
+      "ru": "С днём рождения, Л+ука!",
+      "fr": "Joyeux anniversaire, Luka !"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Спасибо! Проходи!",
+      "fr": "Merci ! Entre !"
+    },
+    {
+      "speaker": "anna",
+      "ru": "Это тебе подарок.",
+      "fr": "C'est un cadeau pour toi."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Какой красивый шарф! Спасибо!",
+      "fr": "Quelle belle écharpe ! Merci !"
+    },
+    {
+      "speaker": "oleg",
+      "ru": "Л+ука, сколько тебе лет?",
+      "fr": "Luka, quel âge as-tu ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Мне двадцать пять лет.",
+      "fr": "J'ai vingt-cinq ans."
+    },
+    {
+      "speaker": "masha",
+      "ru": "А мне тридцать. Я старше!",
+      "fr": "Et moi, trente. Je suis plus âgée !"
+    },
+    {
+      "speaker": "oleg",
+      "ru": "Желаю тебе счастья и здоровья!",
+      "fr": "Je te souhaite du bonheur et la santé !"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "happybd",
+      "speaker": "anna",
+      "ru": "С днём рождения!",
+      "fr": "Joyeux anniversaire !",
+      "noteFr": "Comme « с Новым годом », avec « с ». Mot à mot : « avec le jour de naissance ! ».",
+      "gap": {
+        "word": "днём",
+        "distractors": [
+          "день",
+          "подарок"
+        ],
+        "whyFr": "Après « с » : « с днём рождения ». Retiens-le tel quel, comme « с Новым годом »."
+      }
+    },
+    {
+      "id": "enter",
+      "speaker": "luka",
+      "ru": "Спасибо! Проходи!",
+      "fr": "Merci ! Entre !",
+      "noteFr": "« Проходи ! » = entre ! (à « ты »). Anton disait « проходите » (à « вы »).",
+      "gap": {
+        "word": "проходи",
+        "distractors": [
+          "проходите",
+          "лет"
+        ],
+        "whyFr": "Anna est une amie : on la tutoie, « проходи ». « Проходите », c'est pour « вы »."
+      }
+    },
+    {
+      "id": "present",
+      "speaker": "anna",
+      "ru": "Это тебе подарок.",
+      "fr": "C'est un cadeau pour toi.",
+      "noteFr": "« Подарок » = cadeau. « Тебе » = à toi, pour toi.",
+      "gap": {
+        "word": "подарок",
+        "distractors": [
+          "лет",
+          "желаю"
+        ]
+      }
+    },
+    {
+      "id": "scarf",
+      "speaker": "luka",
+      "ru": "Какой красивый шарф!",
+      "fr": "Quelle belle écharpe !",
+      "noteFr": "« Шарф » est masculin : « какой красивый ».",
+      "gap": {
+        "word": "какой",
+        "distractors": [
+          "какая",
+          "сколько"
+        ],
+        "whyFr": "« Шарф » est masculin : « какой » (-ой). « Какая », c'est pour un mot féminin."
+      },
+      "orders": [
+        "какой красивый шарф"
+      ]
+    },
+    {
+      "id": "age",
+      "speaker": "oleg",
+      "ru": "Л+ука, сколько тебе лет?",
+      "fr": "Luka, quel âge as-tu ?",
+      "noteFr": "Mot à mot : « combien à toi d'années ? ». L'âge se dit avec « мне / тебе ».",
+      "gap": {
+        "word": "тебе",
+        "distractors": [
+          "тебя",
+          "меня"
+        ],
+        "whyFr": "Pour l'âge : « тебе » (à toi). « Тебя » sert dans « у тебя »."
+      },
+      "orders": [
+        "лука сколько тебе лет"
+      ]
+    },
+    {
+      "id": "twentyfive",
+      "speaker": "luka",
+      "ru": "Мне двадцать пять лет.",
+      "fr": "J'ai vingt-cinq ans.",
+      "noteFr": "« Мне … лет » = j'ai … ans. Mot à mot : « à moi vingt-cinq années ».",
+      "gap": {
+        "word": "мне",
+        "distractors": [
+          "меня",
+          "тебя"
+        ],
+        "whyFr": "Pour son âge : « мне » (à moi). Pas « у меня » ici !"
+      },
+      "orders": [
+        "мне двадцать пять лет"
+      ]
+    },
+    {
+      "id": "older",
+      "speaker": "masha",
+      "ru": "А мне тридцать. Я старше!",
+      "fr": "Et moi, trente. Je suis plus âgée !",
+      "noteFr": "« Старше » = plus âgé(e).",
+      "gap": {
+        "word": "тридцать",
+        "distractors": [
+          "желаю",
+          "лет"
+        ]
+      }
+    },
+    {
+      "id": "wish",
+      "speaker": "oleg",
+      "ru": "Желаю тебе счастья и здоровья!",
+      "fr": "Je te souhaite du bonheur et la santé !",
+      "noteFr": "« Желаю тебе… » = je te souhaite… La formule de tous les anniversaires russes.",
+      "gap": {
+        "word": "желаю",
+        "distractors": [
+          "подарок",
+          "лет"
+        ]
+      }
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Les invités",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "happybd",
+            "enter"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "present",
+            "scarf"
+          ],
+          "review": [
+            "happybd"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        }
+      ]
+    },
+    {
+      "titleFr": "L'âge",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "happybd",
+            "present",
+            "scarf"
+          ]
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 0
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "age",
+            "twentyfive"
+          ],
+          "review": [
+            "present"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "older",
+            "wish"
+          ],
+          "review": [
+            "age",
+            "twentyfive"
+          ]
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "oleg",
+      "fr": [
+        "Pour l'âge, le russe dit « à moi … années » : « мне двадцать лет » (j'ai vingt ans), « тебе тридцать лет ».",
+        "Le mot « ans » change : « двадцать лет », mais « двадцать один год », « двадцать два года ». On t'a appris le plus simple : 20, 25, 30… → « лет »."
+      ]
+    },
+    {
+      "by": "anna",
+      "fr": [
+        "Les formules de fête commencent par « с » : « С днём рождения ! », « С Новым годом ! ».",
+        "Et pour souhaiter : « Желаю тебе счастья ! » (je te souhaite du bonheur)."
+      ]
+    }
+  ],
+  "explore": {
+    "type": "plain",
+    "speaker": "luka",
+    "frame": "Мне ___ лет.",
+    "frameFr": "J'ai ___ ans.",
+    "color": "#5c677d",
+    "hintFr": "Mets chaque âge dans la phrase et écoute.",
+    "words": [
+      {
+        "tile": "двадцать",
+        "fr": "vingt",
+        "phraseFr": "J'ai vingt ans."
+      },
+      {
+        "tile": "тридцать",
+        "fr": "trente",
+        "phraseFr": "J'ai trente ans."
+      },
+      {
+        "tile": "сорок",
+        "fr": "quarante",
+        "phraseFr": "J'ai quarante ans."
+      },
+      {
+        "tile": "пятьдесят",
+        "fr": "cinquante",
+        "phraseFr": "J'ai cinquante ans."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Dis : « J'ai quarante ans. »",
+      "answer": "сорок"
+    },
+    {
+      "type": "pick",
+      "fr": "Dis : « J'ai vingt ans. »",
+      "answer": "двадцать"
+    }
+  ],
+  "cando": [
+    "souhaiter un joyeux anniversaire",
+    "dire ton âge",
+    "remercier pour un cadeau"
+  ],
+  "unlocks": [],
+  "glossary": {
+    "здравствуйте": "bonjour (poli)",
+    "тебе": "à toi",
+    "здесь": "ici",
+    "я": "je, moi",
+    "ты": "tu",
+    "вы": "vous",
+    "да": "oui",
+    "нет": "non",
+    "а": "et, mais",
+    "и": "et",
+    "это": "c'est, voici",
+    "не": "ne… pas",
+    "в": "dans, à",
+    "на": "sur, en",
+    "что": "quoi, que",
+    "как": "comment, comme",
+    "где": "où",
+    "очень": "très",
+    "спасибо": "merci",
+    "пожалуйста": "s'il te plaît / je t'en prie",
+    "хорошо": "bien, d'accord",
+    "привет": "salut",
+    "лука": "Luka (prénom)",
+    "маша": "Macha (prénom)",
+    "олег": "Oleg (prénom)",
+    "анна": "Anna (prénom)",
+    "у": "chez",
+    "меня": "moi (у меня = j'ai)",
+    "тебя": "toi (у тебя = tu as)",
+    "есть": "il y a",
+    "мой": "mon",
+    "моя": "ma",
+    "мне": "à moi",
+    "тоже": "aussi",
+    "сегодня": "aujourd'hui",
+    "завтра": "demain",
+    "вчера": "hier",
+    "потом": "puis, ensuite",
+    "давай": "allons-y, faisons",
+    "с": "avec",
+    "днём": "jour (с днём рождения = joyeux anniversaire)",
+    "день": "jour",
+    "рождения": "naissance",
+    "проходи": "entre !",
+    "проходите": "entrez !",
+    "подарок": "cadeau",
+    "какой": "quel",
+    "какая": "quelle",
+    "красивый": "beau",
+    "шарф": "écharpe",
+    "сколько": "combien",
+    "лет": "ans",
+    "двадцать": "vingt",
+    "пять": "cinq",
+    "тридцать": "trente",
+    "старше": "plus âgé(e)",
+    "желаю": "(je) souhaite",
+    "счастья": "bonheur",
+    "здоровья": "santé",
+    "сорок": "quarante",
+    "пятьдесят": "cinquante"
+  },
+  "combos": [
+    {
+      "ru": "Какой красивый подарок!",
+      "fr": "Quel beau cadeau !",
+      "extra": [
+        "какая"
+      ]
+    },
+    {
+      "ru": "Сколько тебе лет? Мне сорок лет.",
+      "fr": "Quel âge as-tu ? J'ai quarante ans.",
+      "extra": [
+        "меня"
+      ]
+    },
+    {
+      "ru": "Мне двадцать лет, а тебе?",
+      "fr": "J'ai vingt ans, et toi ?",
+      "extra": [
+        "меня"
+      ]
+    }
+  ]
+}

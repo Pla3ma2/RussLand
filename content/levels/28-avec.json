@@ -1,0 +1,452 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "28-avec",
+  "order": 28,
+  "titleFr": "Avec du lait ?",
+  "titleRu": "С молоком?",
+  "emoji": "☕",
+  "sceneFr": "Le lendemain de la fête, Luka passe au café. Anna lui sert un café… et lui pose des questions sur Macha.",
+  "dialogue": [
+    {
+      "speaker": "anna",
+      "ru": "Привет, Л+ука! Тебе кофе?",
+      "fr": "Salut, Luka ! Un café pour toi ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Да, кофе с молоком, пожалуйста.",
+      "fr": "Oui, un café au lait, s'il te plaît."
+    },
+    {
+      "speaker": "anna",
+      "ru": "С сахаром?",
+      "fr": "Avec du sucre ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Нет, без сахара.",
+      "fr": "Non, sans sucre."
+    },
+    {
+      "speaker": "anna",
+      "ru": "А что ты будешь делать вечером?",
+      "fr": "Et qu'est-ce que tu vas faire ce soir ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Я пойду в кино с М+ашей.",
+      "fr": "Je vais aller au cinéma avec Macha."
+    },
+    {
+      "speaker": "anna",
+      "ru": "С Машей? Как интересно!",
+      "fr": "Avec Macha ? C'est intéressant !"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Мы просто друзья!",
+      "fr": "On est juste amis !"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "coffee",
+      "speaker": "anna",
+      "ru": "Тебе кофе?",
+      "fr": "Un café pour toi ?",
+      "noteFr": "Mot à mot : « à toi un café ? ». Très courant pour proposer.",
+      "gap": {
+        "word": "кофе",
+        "distractors": [
+          "молоком",
+          "без"
+        ]
+      }
+    },
+    {
+      "id": "milk",
+      "speaker": "luka",
+      "ru": "Да, кофе с молоком, пожалуйста.",
+      "fr": "Oui, un café au lait, s'il te plaît.",
+      "noteFr": "« С » = avec. Après « с », le mot change : « молоко » → « с молоком ».",
+      "gap": {
+        "word": "молоком",
+        "distractors": [
+          "молоко",
+          "молока"
+        ],
+        "whyFr": "Après « с » (avec), « молоко » → « с молоком » (-ом)."
+      },
+      "orders": [
+        "да кофе с молоком пожалуйста"
+      ]
+    },
+    {
+      "id": "sugar",
+      "speaker": "anna",
+      "ru": "С сахаром?",
+      "fr": "Avec du sucre ?",
+      "noteFr": "« Сахар » = sucre → « с сахаром ».",
+      "gap": {
+        "word": "сахаром",
+        "distractors": [
+          "сахар",
+          "сахара"
+        ],
+        "whyFr": "Après « с » (avec) : « сахар » → « сахаром » (-ом)."
+      }
+    },
+    {
+      "id": "without",
+      "speaker": "luka",
+      "ru": "Нет, без сахара.",
+      "fr": "Non, sans sucre.",
+      "noteFr": "« Без » = sans. Après « без », c'est l'orange, comme après « нет » : « без сахара ».",
+      "gap": {
+        "word": "сахара",
+        "distractors": [
+          "сахаром",
+          "сахар"
+        ],
+        "whyFr": "Après « без » (sans), comme après « нет » : « сахара » (-а)."
+      }
+    },
+    {
+      "id": "evening",
+      "speaker": "anna",
+      "ru": "А что ты будешь делать вечером?",
+      "fr": "Et qu'est-ce que tu vas faire ce soir ?",
+      "noteFr": "Tu connais : « будешь делать » = tu vas faire.",
+      "gap": {
+        "word": "будешь",
+        "distractors": [
+          "буду",
+          "вечером"
+        ]
+      }
+    },
+    {
+      "id": "withmasha",
+      "speaker": "luka",
+      "ru": "Я пойду в кино с М+ашей.",
+      "fr": "Je vais aller au cinéma avec Macha.",
+      "noteFr": "« Пойду » = j'irai. « С Машей » : « Маша » → « Машей ».",
+      "gap": {
+        "word": "кино",
+        "distractors": [
+          "кинотеатре",
+          "молоком"
+        ]
+      },
+      "orders": [
+        "я пойду в кино с машей",
+        "я пойду с машей в кино",
+        "с машей я пойду в кино"
+      ]
+    },
+    {
+      "id": "interesting",
+      "speaker": "anna",
+      "ru": "С Машей? Как интересно!",
+      "fr": "Avec Macha ? C'est intéressant !",
+      "noteFr": "Anna est curieuse…",
+      "gap": {
+        "word": "интересно",
+        "distractors": [
+          "сахара",
+          "кофе"
+        ]
+      }
+    },
+    {
+      "id": "friends",
+      "speaker": "luka",
+      "ru": "Мы просто друзья!",
+      "fr": "On est juste amis !",
+      "noteFr": "« Друзья » = amis (pluriel de « друг »). « Просто » = juste, simplement.",
+      "gap": {
+        "word": "друзья",
+        "distractors": [
+          "друг",
+          "кино"
+        ],
+        "whyFr": "Au pluriel : « друзья » (des amis). « Друг », c'est un seul ami."
+      }
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Le café",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "coffee",
+            "milk"
+          ]
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 0
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "sugar",
+            "without"
+          ],
+          "review": [
+            "milk"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Avec qui ?",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "coffee",
+            "milk",
+            "sugar"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "evening",
+            "withmasha"
+          ],
+          "review": [
+            "without"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "interesting",
+            "friends"
+          ],
+          "review": [
+            "withmasha"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "anna",
+      "fr": [
+        "Nouvelle couleur : le violet foncé ! Après « с » (avec), le mot prend -ом ou -ой / -ей : « с молоком », « с сахаром », « с Машей ».",
+        "Masculin et neutre : -ом. Féminin : -ой (ou -ей)."
+      ]
+    },
+    {
+      "by": "anna",
+      "fr": [
+        "Et le contraire, « без » (sans), prend l'orange, comme « нет » : « без сахара », « без молока ».",
+        "« С » (avec) = violet, « без » (sans) = orange. Avec ou sans, tu sais tout dire !"
+      ]
+    }
+  ],
+  "explore": {
+    "type": "case",
+    "speaker": "luka",
+    "case": "ablt",
+    "frame": "Чай с ___, пожалуйста.",
+    "frameFr": "Un thé avec ___, s'il vous plaît.",
+    "color": "#6a4c93",
+    "hintFr": "Mets chaque mot après « с » (avec) et regarde bien la fin du mot.",
+    "words": [
+      {
+        "tile": "молоко",
+        "fr": "du lait",
+        "phraseFr": "Un thé au lait, s'il vous plaît."
+      },
+      {
+        "tile": "сахар",
+        "fr": "du sucre",
+        "phraseFr": "Un thé avec du sucre, s'il vous plaît."
+      },
+      {
+        "tile": "лимон",
+        "fr": "du citron",
+        "phraseFr": "Un thé au citron, s'il vous plaît."
+      },
+      {
+        "tile": "мёд",
+        "formAcc": "мёдом",
+        "fr": "du miel",
+        "phraseFr": "Un thé au miel, s'il vous plaît."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Commande un thé au citron.",
+      "answer": "лимон"
+    },
+    {
+      "type": "pick",
+      "fr": "Commande un thé au miel.",
+      "answer": "мёд"
+    }
+  ],
+  "cando": [
+    "commander avec / sans",
+    "dire avec qui tu sors",
+    "parler de tes amis"
+  ],
+  "unlocks": [
+    {
+      "case": "ablt",
+      "gender": "neut",
+      "from": "молоко",
+      "to": "молоком"
+    },
+    {
+      "case": "ablt",
+      "gender": "masc",
+      "from": "сахар",
+      "to": "сахаром"
+    },
+    {
+      "case": "ablt",
+      "gender": "femn",
+      "from": "Маша",
+      "to": "Машей"
+    }
+  ],
+  "glossary": {
+    "здравствуйте": "bonjour (poli)",
+    "тебе": "à toi",
+    "здесь": "ici",
+    "я": "je, moi",
+    "ты": "tu",
+    "вы": "vous",
+    "да": "oui",
+    "нет": "non",
+    "а": "et, mais",
+    "и": "et",
+    "это": "c'est, voici",
+    "не": "ne… pas",
+    "в": "dans, à",
+    "на": "sur, en",
+    "что": "quoi, que",
+    "как": "comment, comme",
+    "где": "où",
+    "очень": "très",
+    "спасибо": "merci",
+    "пожалуйста": "s'il te plaît / je t'en prie",
+    "хорошо": "bien, d'accord",
+    "привет": "salut",
+    "лука": "Luka (prénom)",
+    "маша": "Macha (prénom)",
+    "олег": "Oleg (prénom)",
+    "анна": "Anna (prénom)",
+    "у": "chez",
+    "меня": "moi (у меня = j'ai)",
+    "тебя": "toi (у тебя = tu as)",
+    "есть": "il y a",
+    "мой": "mon",
+    "моя": "ma",
+    "мне": "à moi",
+    "тоже": "aussi",
+    "сегодня": "aujourd'hui",
+    "завтра": "demain",
+    "вчера": "hier",
+    "потом": "puis, ensuite",
+    "давай": "allons-y, faisons",
+    "кофе": "café",
+    "с": "avec",
+    "молоком": "lait (après с)",
+    "молоко": "lait",
+    "молока": "lait (après без, нет)",
+    "сахаром": "sucre (après с)",
+    "сахар": "sucre",
+    "сахара": "sucre (après без, нет)",
+    "без": "sans",
+    "будешь": "(tu) vas",
+    "буду": "(je) vais",
+    "делать": "faire",
+    "вечером": "le soir",
+    "пойду": "(j')irai",
+    "кино": "cinéma",
+    "кинотеатре": "cinéma (après в)",
+    "машей": "Macha (après с)",
+    "интересно": "intéressant",
+    "мы": "nous",
+    "просто": "juste, simplement",
+    "друзья": "amis",
+    "друг": "ami",
+    "чай": "thé",
+    "лимон": "citron",
+    "лимоном": "citron (après с)",
+    "мёд": "miel",
+    "мед": "miel",
+    "мёдом": "miel (après с)",
+    "медом": "miel (après с)"
+  },
+  "combos": [
+    {
+      "ru": "Чай с лимоном и без сахара, пожалуйста.",
+      "fr": "Un thé au citron et sans sucre, s'il vous plaît.",
+      "extra": [
+        "сахаром"
+      ]
+    },
+    {
+      "ru": "Мы с Машей просто друзья.",
+      "fr": "Macha et moi, on est juste amis.",
+      "extra": [
+        "друг"
+      ],
+      "orders": [
+        "мы с машей просто друзья"
+      ]
+    },
+    {
+      "ru": "Я буду кофе без молока.",
+      "fr": "Je vais prendre un café sans lait.",
+      "extra": [
+        "молоком"
+      ],
+      "orders": [
+        "я буду кофе без молока"
+      ]
+    }
+  ]
+}

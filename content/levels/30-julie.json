@@ -1,0 +1,462 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "30-julie",
+  "order": 30,
+  "titleFr": "Julie arrive !",
+  "titleRu": "Жюли приехала!",
+  "emoji": "🌷",
+  "sceneFr": "Au printemps, Julie, la sœur de Luka, vient le voir à Saint-Pétersbourg. Elle ne parle pas russe : Luka traduit !",
+  "dialogue": [
+    {
+      "speaker": "luka",
+      "ru": "М+аша, познакомься: это моя сестра Ж+юли.",
+      "fr": "Macha, je te présente ma sœur Julie."
+    },
+    {
+      "speaker": "masha",
+      "ru": "Очень приятно! Добро пожаловать в Петербург!",
+      "fr": "Enchantée ! Bienvenue à Saint-Pétersbourg !"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Она не говорит по-р+усски. Я переведу.",
+      "fr": "Elle ne parle pas russe. Je vais traduire."
+    },
+    {
+      "speaker": "masha",
+      "ru": "Л+ука, ты так хорошо говоришь по-р+усски!",
+      "fr": "Luka, tu parles si bien russe !"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Спасибо! Я много учился.",
+      "fr": "Merci ! J'ai beaucoup étudié."
+    },
+    {
+      "speaker": "masha",
+      "ru": "Что вы хотите посмотреть в Петербурге?",
+      "fr": "Qu'est-ce que vous voulez voir à Saint-Pétersbourg ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Эрмитаж, Неву и, конечно, наше кафе!",
+      "fr": "L'Ermitage, la Neva et, bien sûr, notre café !"
+    },
+    {
+      "speaker": "masha",
+      "ru": "Отлично! Пойдём вместе!",
+      "fr": "Parfait ! Allons-y ensemble !"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "meet",
+      "speaker": "luka",
+      "ru": "М+аша, познакомься: это моя сестра Ж+юли.",
+      "fr": "Macha, je te présente ma sœur Julie.",
+      "noteFr": "« Познакомься » = fais connaissance (à « ты »). La façon normale de présenter quelqu'un.",
+      "gap": {
+        "word": "сестра",
+        "distractors": [
+          "сестры",
+          "брат"
+        ],
+        "whyFr": "On présente : forme de base « сестра ». « Сестры », c'est après « нет »."
+      }
+    },
+    {
+      "id": "welcome",
+      "speaker": "masha",
+      "ru": "Добро пожаловать в Петербург!",
+      "fr": "Bienvenue à Saint-Pétersbourg !",
+      "noteFr": "Tu l'as entendu à Moscou ! « В Петербург » : on y arrive (sans -е).",
+      "gap": {
+        "word": "петербург",
+        "distractors": [
+          "петербурге",
+          "москве"
+        ],
+        "whyFr": "On y arrive : « в Петербург » (forme de base pour un masculin). « В Петербурге », c'est quand on y est."
+      }
+    },
+    {
+      "id": "translate",
+      "speaker": "luka",
+      "ru": "Она не говорит по-р+усски. Я переведу.",
+      "fr": "Elle ne parle pas russe. Je vais traduire.",
+      "noteFr": "« Она говорит » = elle parle. « Я переведу » = je traduirai.",
+      "gap": {
+        "word": "говорит",
+        "distractors": [
+          "говорю",
+          "говоришь"
+        ],
+        "whyFr": "Avec « она » : « говорит » (-ит)."
+      }
+    },
+    {
+      "id": "sowell",
+      "speaker": "masha",
+      "ru": "Л+ука, ты так хорошо говоришь по-р+усски!",
+      "fr": "Luka, tu parles si bien russe !",
+      "noteFr": "« Так » = si, tellement.",
+      "gap": {
+        "word": "говоришь",
+        "distractors": [
+          "говорит",
+          "говорю"
+        ],
+        "whyFr": "Avec « ты » : « говоришь » (-ишь)."
+      },
+      "orders": [
+        "лука ты так хорошо говоришь по-русски"
+      ]
+    },
+    {
+      "id": "studied",
+      "speaker": "luka",
+      "ru": "Спасибо! Я много учился.",
+      "fr": "Merci ! J'ai beaucoup étudié.",
+      "noteFr": "« Много » = beaucoup. « Я учился » = j'ai étudié (homme). Une femme dirait « училась ».",
+      "gap": {
+        "word": "много",
+        "distractors": [
+          "неву",
+          "вместе"
+        ]
+      }
+    },
+    {
+      "id": "see",
+      "speaker": "masha",
+      "ru": "Что вы хотите посмотреть в Петербурге?",
+      "fr": "Qu'est-ce que vous voulez voir à Saint-Pétersbourg ?",
+      "noteFr": "On y est : « в Петербурге » (-е).",
+      "gap": {
+        "word": "петербурге",
+        "distractors": [
+          "петербург",
+          "эрмитаж"
+        ],
+        "whyFr": "On y est : « в Петербурге » (-е), le vert du lieu."
+      },
+      "orders": [
+        "что вы хотите посмотреть в петербурге",
+        "что вы хотите в петербурге посмотреть"
+      ]
+    },
+    {
+      "id": "hermitage",
+      "speaker": "luka",
+      "ru": "Эрмитаж, Неву и, конечно, наше кафе!",
+      "fr": "L'Ermitage, la Neva et, bien sûr, notre café !",
+      "noteFr": "« Эрмитаж » = le musée de l'Ermitage. « Нева » = le fleuve → « Неву » (on veut la voir : bleu). « Наше » = notre.",
+      "gap": {
+        "word": "неву",
+        "distractors": [
+          "нева",
+          "неве"
+        ],
+        "whyFr": "On veut voir la Neva : le bleu, « Неву » (-у)."
+      }
+    },
+    {
+      "id": "together",
+      "speaker": "masha",
+      "ru": "Отлично! Пойдём вместе!",
+      "fr": "Parfait ! Allons-y ensemble !",
+      "noteFr": "« Вместе » = ensemble.",
+      "gap": {
+        "word": "вместе",
+        "distractors": [
+          "много",
+          "неву"
+        ]
+      }
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Les présentations",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "meet",
+            "welcome"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "translate",
+            "sowell"
+          ],
+          "review": [
+            "welcome"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "titleFr": "Visiter la ville",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "meet",
+            "welcome",
+            "translate"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "studied",
+            "see"
+          ],
+          "review": [
+            "sowell"
+          ]
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "hermitage",
+            "together"
+          ],
+          "review": [
+            "see"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "masha",
+      "fr": [
+        "Tu as remarqué ? Maintenant c'est toi qui traduis pour Julie ! Tu sais te présenter, présenter quelqu'un, parler de ta vie, de tes goûts, de ton passé et de tes projets.",
+        "« Она говорит » (elle parle), « ты говоришь » (tu parles), « я говорю » (je parle) : tu maîtrises les verbes au présent."
+      ]
+    },
+    {
+      "by": "masha",
+      "fr": [
+        "Récapitulons les couleurs : forme de base (qui ? quoi ?), bleu (ce qu'on veut, où l'on va), vert (où l'on est), orange (après « нет », « без »), violet (après « с », « быть »).",
+        "Avec ces cinq couleurs et les mots que tu connais, tu peux construire des centaines de phrases : c'est ton puzzle russe. Браво, Лука — et bravo à toi !"
+      ]
+    }
+  ],
+  "explore": {
+    "type": "case",
+    "speaker": "luka",
+    "case": "loct",
+    "frame": "Вчера мы были в ___.",
+    "frameFr": "Hier, nous étions ___.",
+    "color": "#2a9d8f",
+    "hintFr": "Mets chaque lieu après « в » (on y était) et regarde bien la fin du mot.",
+    "words": [
+      {
+        "tile": "музей",
+        "fr": "au musée",
+        "phraseFr": "Hier, nous étions au musée."
+      },
+      {
+        "tile": "театр",
+        "fr": "au théâtre",
+        "phraseFr": "Hier, nous étions au théâtre."
+      },
+      {
+        "tile": "парк",
+        "fr": "au parc",
+        "phraseFr": "Hier, nous étions au parc."
+      },
+      {
+        "tile": "кафе",
+        "fr": "au café",
+        "phraseFr": "Hier, nous étions au café."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Dis : « Hier, nous étions au musée. »",
+      "answer": "музей"
+    },
+    {
+      "type": "pick",
+      "fr": "Dis : « Hier, nous étions au café. »",
+      "answer": "кафе"
+    }
+  ],
+  "cando": [
+    "présenter quelqu'un de ta famille",
+    "servir d'interprète",
+    "proposer une visite"
+  ],
+  "unlocks": [
+    {
+      "case": "loct",
+      "gender": "masc",
+      "from": "музей",
+      "to": "музее"
+    },
+    {
+      "verb": "говорить",
+      "persons": [
+        "ты",
+        "он"
+      ]
+    }
+  ],
+  "glossary": {
+    "здравствуйте": "bonjour (poli)",
+    "тебе": "à toi",
+    "здесь": "ici",
+    "я": "je, moi",
+    "ты": "tu",
+    "вы": "vous",
+    "да": "oui",
+    "нет": "non",
+    "а": "et, mais",
+    "и": "et",
+    "это": "c'est, voici",
+    "не": "ne… pas",
+    "в": "dans, à",
+    "на": "sur, en",
+    "что": "quoi, que",
+    "как": "comment, comme",
+    "где": "où",
+    "очень": "très",
+    "спасибо": "merci",
+    "пожалуйста": "s'il te plaît / je t'en prie",
+    "хорошо": "bien, d'accord",
+    "привет": "salut",
+    "лука": "Luka (prénom)",
+    "маша": "Macha (prénom)",
+    "олег": "Oleg (prénom)",
+    "анна": "Anna (prénom)",
+    "у": "chez",
+    "меня": "moi (у меня = j'ai)",
+    "тебя": "toi (у тебя = tu as)",
+    "есть": "il y a",
+    "мой": "mon",
+    "моя": "ma",
+    "мне": "à moi",
+    "тоже": "aussi",
+    "сегодня": "aujourd'hui",
+    "завтра": "demain",
+    "вчера": "hier",
+    "потом": "puis, ensuite",
+    "давай": "allons-y, faisons",
+    "познакомься": "fais connaissance",
+    "сестра": "sœur",
+    "сестры": "sœur (après нет)",
+    "брат": "frère",
+    "жюли": "Julie (prénom)",
+    "приятно": "agréable",
+    "добро": "bien (добро пожаловать = bienvenue)",
+    "пожаловать": "(добро пожаловать = bienvenue)",
+    "петербург": "Saint-Pétersbourg",
+    "петербурге": "Saint-Pétersbourg (on y est)",
+    "москве": "Moscou (après в)",
+    "она": "elle",
+    "говорит": "(il, elle) parle",
+    "говорю": "(je) parle",
+    "говоришь": "(tu) parles",
+    "по-русски": "en russe",
+    "переведу": "(je) traduirai",
+    "так": "si, tellement",
+    "много": "beaucoup",
+    "учился": "(j')ai étudié",
+    "хотите": "(vous) voulez",
+    "посмотреть": "voir",
+    "эрмитаж": "l'Ermitage",
+    "неву": "la Neva (on la voit)",
+    "нева": "la Neva",
+    "неве": "la Neva (après на)",
+    "конечно": "bien sûr",
+    "наше": "notre",
+    "кафе": "café",
+    "отлично": "parfait",
+    "пойдём": "allons",
+    "пойдем": "allons",
+    "вместе": "ensemble",
+    "мы": "nous",
+    "были": "(nous) étions",
+    "музей": "musée",
+    "музее": "musée (après в)",
+    "театр": "théâtre",
+    "театре": "théâtre (après в)",
+    "парк": "parc",
+    "парке": "parc (après в)"
+  },
+  "combos": [
+    {
+      "ru": "Познакомься, это мой друг Ол+ег.",
+      "fr": "Je te présente mon ami Oleg.",
+      "extra": [
+        "моя"
+      ]
+    },
+    {
+      "ru": "Она хорошо говорит по-англ+ийски.",
+      "fr": "Elle parle bien anglais.",
+      "extra": [
+        "говоришь"
+      ],
+      "orders": [
+        "она хорошо говорит по-английски",
+        "она говорит по-английски хорошо"
+      ]
+    },
+    {
+      "ru": "Завтра мы пойдём в Эрмитаж вместе.",
+      "fr": "Demain, nous irons ensemble à l'Ermitage.",
+      "extra": [
+        "много"
+      ],
+      "orders": [
+        "завтра мы пойдём в эрмитаж вместе",
+        "завтра мы вместе пойдём в эрмитаж",
+        "мы пойдём в эрмитаж вместе завтра"
+      ]
+    }
+  ]
+}

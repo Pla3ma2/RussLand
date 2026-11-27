@@ -1,0 +1,436 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "25-telephone",
+  "order": 25,
+  "titleFr": "Au téléphone",
+  "titleRu": "По телефону",
+  "emoji": "📞",
+  "sceneFr": "Fin janvier, c'est bientôt l'anniversaire de Luka. Il appelle Anna pour l'inviter.",
+  "dialogue": [
+    {
+      "speaker": "luka",
+      "ru": "Алло, +Анна? Это Л+ука.",
+      "fr": "Allô, Anna ? C'est Luka."
+    },
+    {
+      "speaker": "anna",
+      "ru": "Привет, Л+ука! Как дела?",
+      "fr": "Salut, Luka ! Comment ça va ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Хорошо, спасибо! В субботу у меня день рождения.",
+      "fr": "Bien, merci ! Samedi, c'est mon anniversaire."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Приходи ко мне!",
+      "fr": "Viens chez moi !"
+    },
+    {
+      "speaker": "anna",
+      "ru": "С удовольствием! Во сколько?",
+      "fr": "Avec plaisir ! À quelle heure ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "В шесть часов.",
+      "fr": "À six heures."
+    },
+    {
+      "speaker": "anna",
+      "ru": "Отлично, я приду. Что тебе подарить?",
+      "fr": "Parfait, je viendrai. Qu'est-ce que je peux t'offrir ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Ничего не надо! Просто приходи.",
+      "fr": "Rien du tout ! Viens, c'est tout."
+    }
+  ],
+  "phrases": [
+    {
+      "id": "itsme",
+      "speaker": "luka",
+      "ru": "Алло, +Анна? Это Л+ука.",
+      "fr": "Allô, Anna ? C'est Luka.",
+      "noteFr": "Au téléphone, on se présente avec « это » : « Это Лука » = c'est Luka.",
+      "gap": {
+        "word": "это",
+        "distractors": [
+          "меня",
+          "дела"
+        ]
+      }
+    },
+    {
+      "id": "howareyou",
+      "speaker": "anna",
+      "ru": "Как дела?",
+      "fr": "Comment ça va ?",
+      "noteFr": "« Как дела ? » = comment ça va ? (mot à mot : comment les affaires ?). Entre amis.",
+      "gap": {
+        "word": "дела",
+        "distractors": [
+          "приду",
+          "часов"
+        ]
+      }
+    },
+    {
+      "id": "birthday",
+      "speaker": "luka",
+      "ru": "В субботу у меня день рождения.",
+      "fr": "Samedi, c'est mon anniversaire.",
+      "noteFr": "« День рождения » = anniversaire (mot à mot : jour de naissance). « У меня день рождения » = c'est mon anniversaire.",
+      "gap": {
+        "word": "рождения",
+        "distractors": [
+          "часов",
+          "дела"
+        ]
+      },
+      "orders": [
+        "в субботу у меня день рождения",
+        "у меня в субботу день рождения",
+        "у меня день рождения в субботу"
+      ]
+    },
+    {
+      "id": "come",
+      "speaker": "luka",
+      "ru": "Приходи ко мне!",
+      "fr": "Viens chez moi !",
+      "noteFr": "« Приходи ! » = viens ! (à « ты »). « Ко мне » = chez moi (quand on y va).",
+      "gap": {
+        "word": "приходи",
+        "distractors": [
+          "приду",
+          "подарить"
+        ],
+        "whyFr": "Pour inviter « ты » : « приходи ! ». « Приду », c'est « je viendrai »."
+      }
+    },
+    {
+      "id": "when",
+      "speaker": "anna",
+      "ru": "С удовольствием! Во сколько?",
+      "fr": "Avec plaisir ! À quelle heure ?",
+      "noteFr": "Tu connais les deux expressions depuis l'invitation au théâtre !",
+      "gap": {
+        "word": "сколько",
+        "distractors": [
+          "шесть",
+          "дела"
+        ]
+      }
+    },
+    {
+      "id": "six",
+      "speaker": "luka",
+      "ru": "В шесть часов.",
+      "fr": "À six heures.",
+      "noteFr": "« В шесть часов » = à six heures. De 5 à 20 : « часов ».",
+      "gap": {
+        "word": "шесть",
+        "distractors": [
+          "приду",
+          "дела"
+        ]
+      }
+    },
+    {
+      "id": "willcome",
+      "speaker": "anna",
+      "ru": "Отлично, я приду.",
+      "fr": "Parfait, je viendrai.",
+      "noteFr": "« Я приду » = je viendrai.",
+      "gap": {
+        "word": "приду",
+        "distractors": [
+          "приходи",
+          "подарить"
+        ],
+        "whyFr": "Pour dire « je viendrai » : « я приду ». « Приходи », c'est « viens ! »."
+      }
+    },
+    {
+      "id": "gift",
+      "speaker": "anna",
+      "ru": "Что тебе подарить?",
+      "fr": "Qu'est-ce que je peux t'offrir ?",
+      "noteFr": "« Подарить » = offrir. « Тебе » = à toi.",
+      "gap": {
+        "word": "подарить",
+        "distractors": [
+          "приходи",
+          "приду"
+        ]
+      }
+    },
+    {
+      "id": "nothing",
+      "speaker": "luka",
+      "ru": "Ничего не надо! Просто приходи.",
+      "fr": "Rien du tout ! Viens, c'est tout.",
+      "noteFr": "« Ничего не надо » = il ne faut rien. « Просто » = simplement.",
+      "gap": {
+        "word": "надо",
+        "distractors": [
+          "часов",
+          "дела"
+        ]
+      }
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "L'appel",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "itsme",
+            "howareyou"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "birthday",
+            "come"
+          ],
+          "review": [
+            "howareyou"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 0
+        }
+      ]
+    },
+    {
+      "titleFr": "L'heure et le cadeau",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "itsme",
+            "birthday",
+            "come"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "when",
+            "six"
+          ],
+          "review": [
+            "come"
+          ]
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 1
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "willcome",
+            "gift",
+            "nothing"
+          ],
+          "review": [
+            "six"
+          ]
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "anna",
+      "fr": [
+        "Au téléphone : « Алло ! », puis « Это Лука » (c'est Luka). Et entre amis : « Как дела ? » — « Хорошо, спасибо ! ».",
+        "« У меня день рождения » = c'est mon anniversaire (mot à mot : chez moi, il y a un jour de naissance). Tu reconnais « у меня » !"
+      ]
+    },
+    {
+      "by": "anna",
+      "fr": [
+        "Pour l'heure : « в » + le nombre + « часов » : « в пять часов », « в шесть часов », « в семь часов ».",
+        "Avec 2, 3, 4 : « часа » (« в два часа »). Avec 1 : « в час ». On se comprend même si tu te trompes !"
+      ]
+    }
+  ],
+  "explore": {
+    "type": "plain",
+    "speaker": "luka",
+    "frame": "Приходи в ___ часов!",
+    "frameFr": "Viens à ___ heures !",
+    "color": "#5c677d",
+    "hintFr": "Mets chaque nombre dans la phrase et écoute.",
+    "words": [
+      {
+        "tile": "пять",
+        "fr": "cinq",
+        "phraseFr": "Viens à cinq heures !"
+      },
+      {
+        "tile": "шесть",
+        "fr": "six",
+        "phraseFr": "Viens à six heures !"
+      },
+      {
+        "tile": "семь",
+        "fr": "sept",
+        "phraseFr": "Viens à sept heures !"
+      },
+      {
+        "tile": "восемь",
+        "fr": "huit",
+        "phraseFr": "Viens à huit heures !"
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Dis : « Viens à huit heures ! »",
+      "answer": "восемь"
+    },
+    {
+      "type": "pick",
+      "fr": "Dis : « Viens à cinq heures ! »",
+      "answer": "пять"
+    }
+  ],
+  "cando": [
+    "téléphoner à un ami",
+    "inviter quelqu'un chez toi",
+    "donner une heure"
+  ],
+  "unlocks": [],
+  "glossary": {
+    "здравствуйте": "bonjour (poli)",
+    "тебе": "à toi",
+    "здесь": "ici",
+    "я": "je, moi",
+    "ты": "tu",
+    "вы": "vous",
+    "да": "oui",
+    "нет": "non",
+    "а": "et, mais",
+    "и": "et",
+    "это": "c'est, voici",
+    "не": "ne… pas",
+    "в": "dans, à",
+    "на": "sur, en",
+    "что": "quoi, que",
+    "как": "comment",
+    "где": "où",
+    "очень": "très",
+    "спасибо": "merci",
+    "пожалуйста": "s'il te plaît / je t'en prie",
+    "хорошо": "bien, d'accord",
+    "привет": "salut",
+    "лука": "Luka (prénom)",
+    "маша": "Macha (prénom)",
+    "олег": "Oleg (prénom)",
+    "анна": "Anna (prénom)",
+    "у": "chez",
+    "меня": "moi (у меня = j'ai)",
+    "тебя": "toi (у тебя = tu as)",
+    "есть": "il y a",
+    "мой": "mon",
+    "моя": "ma",
+    "мне": "à moi",
+    "тоже": "aussi",
+    "сегодня": "aujourd'hui",
+    "завтра": "demain",
+    "вчера": "hier",
+    "потом": "puis, ensuite",
+    "давай": "allons-y, faisons",
+    "алло": "allô",
+    "дела": "affaires (как дела = ça va ?)",
+    "субботу": "samedi (в субботу)",
+    "день": "jour",
+    "рождения": "naissance (день рождения = anniversaire)",
+    "приходи": "viens !",
+    "ко": "chez, vers (ко мне = chez moi)",
+    "с": "avec",
+    "удовольствием": "plaisir (с удовольствием = avec plaisir)",
+    "во": "à (во сколько = à quelle heure)",
+    "сколько": "combien",
+    "шесть": "six",
+    "часов": "heures",
+    "отлично": "parfait",
+    "приду": "(je) viendrai",
+    "подарить": "offrir",
+    "ничего": "rien",
+    "надо": "il faut",
+    "просто": "simplement",
+    "пять": "cinq",
+    "семь": "sept",
+    "восемь": "huit"
+  },
+  "combos": [
+    {
+      "ru": "Приходи ко мне в субботу!",
+      "fr": "Viens chez moi samedi !",
+      "extra": [
+        "приду"
+      ],
+      "orders": [
+        "приходи ко мне в субботу",
+        "в субботу приходи ко мне"
+      ]
+    },
+    {
+      "ru": "Алло, Маша? Это Лука. Как дела?",
+      "fr": "Allô, Macha ? C'est Luka. Ça va ?",
+      "extra": [
+        "меня"
+      ]
+    },
+    {
+      "ru": "Завтра в семь часов я буду дома.",
+      "fr": "Demain à sept heures, je serai à la maison.",
+      "extra": [
+        "приду"
+      ],
+      "orders": [
+        "завтра в семь часов я буду дома",
+        "завтра я буду дома в семь часов"
+      ]
+    }
+  ]
+}

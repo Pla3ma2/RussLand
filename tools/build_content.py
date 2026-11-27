@@ -61,9 +61,18 @@ def write(name: str, data) -> None:
 
 # ---------- ударения ----------
 
+# Слова, где автоматическое ударение ошибается (однозначные случаи)
+STRESS_FIX = {w.replace("+", ""): w for w in [
+    "уч+ишься", "уч+ится", "уч+имся", "уч+атся", "по-англ+ийски", "по-франц+узски", "по-р+усски",
+]}
+
+
 def accent(text: str) -> str:
     """Ставит «+» перед ударной гласной. Ручные «+» в исходнике имеют приоритет."""
     manual = {w.replace("+", "").lower(): w for w in WORD_RE.findall(text) if "+" in w}
+    for w in WORD_RE.findall(text.replace("+", "")):
+        if w.lower() in STRESS_FIX and w.lower() not in manual:
+            manual[w.lower()] = STRESS_FIX[w.lower()]
     auto = accentor(text.replace("+", ""))
     if not manual:
         return auto
@@ -176,7 +185,7 @@ def build_explore(ex: dict) -> dict:
         # phrase_src может содержать ручные «+» (имена, исключения) — accent() их уважает
         if t == "person":
             pron = w["tile"]
-            form = conjugate(ex["verb"], pron)
+            form = w.get("formAcc") or conjugate(ex["verb"], pron)
             phrase_src = (before + pron + after).replace("{V}", form)
             phrase_src = phrase_src[0].upper() + phrase_src[1:]
             mu = morph_unit(ex["verb"], form, phrase_src)

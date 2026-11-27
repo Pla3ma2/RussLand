@@ -341,7 +341,19 @@
     "demander de l'aide",
     "dire « je peux / je ne peux pas »"
   ],
-  "unlocks": [],
+  "unlocks": [
+    {
+      "verb": "мочь",
+      "persons": [
+        "я",
+        "ты",
+        "он",
+        "мы",
+        "вы",
+        "они"
+      ]
+    }
+  ],
   "glossary": {
     "здравствуйте": "bonjour (poli)",
     "я": "je, moi",

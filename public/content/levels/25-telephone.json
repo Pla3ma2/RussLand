@@ -1,0 +1,2377 @@
+{
+ "version": 2,
+ "id": "25-telephone",
+ "order": 25,
+ "titleFr": "Au téléphone",
+ "titleRu": "По телефону",
+ "emoji": "📞",
+ "sceneFr": "Fin janvier, c'est bientôt l'anniversaire de Luka. Il appelle Anna pour l'inviter.",
+ "learner": "luka",
+ "speakers": {
+  "anna": {
+   "name": "Анна",
+   "nameFr": "Anna",
+   "color": "#81b29a"
+  },
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "luka",
+   "ru": "Алло, Анна? Это Лука.",
+   "fr": "Allô, Anna ? C'est Luka.",
+   "tokens": [
+    {
+     "t": "Алло",
+     "s": 3,
+     "w": true,
+     "a": "a6f45cfe38f6.mp3",
+     "l": "алло"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Анна",
+     "s": 0,
+     "w": true,
+     "a": "3b145c7baf49.mp3",
+     "l": "анна"
+    },
+    {
+     "t": "? ",
+     "w": false
+    },
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "2a5a7425e8d1.mp3"
+  },
+  {
+   "speaker": "anna",
+   "ru": "Привет, Лука! Как дела?",
+   "fr": "Salut, Luka ! Comment ça va ?",
+   "tokens": [
+    {
+     "t": "Привет",
+     "s": 4,
+     "w": true,
+     "a": "465595078eb6.mp3",
+     "l": "привет"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Как",
+     "s": 1,
+     "w": true,
+     "a": "5211d8f6c0b1.mp3",
+     "l": "как"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дела",
+     "s": 3,
+     "w": true,
+     "a": "f5add50a98c3.mp3",
+     "l": "дело"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "71c3926c6b4e.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Хорошо, спасибо! В субботу у меня день рождения.",
+   "fr": "Bien, merci ! Samedi, c'est mon anniversaire.",
+   "tokens": [
+    {
+     "t": "Хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "спасибо",
+     "s": 4,
+     "w": true,
+     "a": "84fecfa1b01c.mp3",
+     "l": "спасибо"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "В",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "субботу",
+     "s": 4,
+     "w": true,
+     "a": "dcc66f37de17.mp3",
+     "l": "суббота"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "у",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "меня",
+     "s": 3,
+     "w": true,
+     "a": "2e3dc1afb7c3.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "день",
+     "s": 1,
+     "w": true,
+     "a": "f0d5c469ba4e.mp3",
+     "l": "день"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "рождения",
+     "s": 4,
+     "w": true,
+     "a": "d6e29b5446bf.mp3",
+     "l": "рождение"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "6017c791b6d2.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Приходи ко мне!",
+   "fr": "Viens chez moi !",
+   "tokens": [
+    {
+     "t": "Приходи",
+     "s": 6,
+     "w": true,
+     "a": "bdc9ed525802.mp3",
+     "l": "приходить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ко",
+     "s": 1,
+     "w": true,
+     "a": "884f4c824463.mp3",
+     "l": "к"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "ef6ccc24ea2c.mp3"
+  },
+  {
+   "speaker": "anna",
+   "ru": "С удовольствием! Во сколько?",
+   "fr": "Avec plaisir ! À quelle heure ?",
+   "tokens": [
+    {
+     "t": "С",
+     "s": null,
+     "w": true,
+     "a": "37421d1ce7f3.mp3",
+     "l": "с"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "удовольствием",
+     "s": 4,
+     "w": true,
+     "a": "a5dc5da98852.mp3",
+     "l": "удовольствие"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Во",
+     "s": 1,
+     "w": true,
+     "a": "94135b8098e4.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сколько",
+     "s": 2,
+     "w": true,
+     "a": "68f717ec536d.mp3",
+     "l": "сколько"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "eece52f94920.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "В шесть часов.",
+   "fr": "À six heures.",
+   "tokens": [
+    {
+     "t": "В",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "шесть",
+     "s": 1,
+     "w": true,
+     "a": "f72a964d5629.mp3",
+     "l": "шесть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "часов",
+     "s": 3,
+     "w": true,
+     "a": "caca8ccd3093.mp3",
+     "l": "час"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "b102b1985873.mp3"
+  },
+  {
+   "speaker": "anna",
+   "ru": "Отлично, я приду. Что тебе подарить?",
+   "fr": "Parfait, je viendrai. Qu'est-ce que je peux t'offrir ?",
+   "tokens": [
+    {
+     "t": "Отлично",
+     "s": 3,
+     "w": true,
+     "a": "1b0c3f2d1ffd.mp3",
+     "l": "отлично"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "приду",
+     "s": 4,
+     "w": true,
+     "a": "39cea2854f97.mp3",
+     "l": "прийти"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тебе",
+     "s": 3,
+     "w": true,
+     "a": "801a217b6a9c.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "подарить",
+     "s": 5,
+     "w": true,
+     "a": "a8e2d63b8217.mp3",
+     "l": "подарить"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "f61d461deb2c.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Ничего не надо! Просто приходи.",
+   "fr": "Rien du tout ! Viens, c'est tout.",
+   "tokens": [
+    {
+     "t": "Ничего",
+     "s": 5,
+     "w": true,
+     "a": "803a7b86c540.mp3",
+     "l": "ничего"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "надо",
+     "s": 1,
+     "w": true,
+     "a": "6da396553a75.mp3",
+     "l": "надо"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Просто",
+     "s": 2,
+     "w": true,
+     "a": "b0f0f569bb47.mp3",
+     "l": "просто"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "приходи",
+     "s": 6,
+     "w": true,
+     "a": "bdc9ed525802.mp3",
+     "l": "приходить"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "b22a74711b12.mp3"
+  }
+ ],
+ "phrases": {
+  "itsme": {
+   "speaker": "luka",
+   "ru": "Алло, Анна? Это Лука.",
+   "fr": "Allô, Anna ? C'est Luka.",
+   "tokens": [
+    {
+     "t": "Алло",
+     "s": 3,
+     "w": true,
+     "a": "a6f45cfe38f6.mp3",
+     "l": "алло"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Анна",
+     "s": 0,
+     "w": true,
+     "a": "3b145c7baf49.mp3",
+     "l": "анна"
+    },
+    {
+     "t": "? ",
+     "w": false
+    },
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "2a5a7425e8d1.mp3",
+   "id": "itsme",
+   "noteFr": "Au téléphone, on se présente avec « это » : « Это Лука » = c'est Luka.",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "меня",
+      "a": "2e3dc1afb7c3.mp3",
+      "s": 3
+     },
+     {
+      "t": "дела",
+      "a": "0a5cd1a4fde3.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "howareyou": {
+   "speaker": "anna",
+   "ru": "Как дела?",
+   "fr": "Comment ça va ?",
+   "tokens": [
+    {
+     "t": "Как",
+     "s": 1,
+     "w": true,
+     "a": "5211d8f6c0b1.mp3",
+     "l": "как"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дела",
+     "s": 3,
+     "w": true,
+     "a": "f5add50a98c3.mp3",
+     "l": "дело"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "5cec5f9ca948.mp3",
+   "id": "howareyou",
+   "noteFr": "« Как дела ? » = comment ça va ? (mot à mot : comment les affaires ?). Entre amis.",
+   "gap": {
+    "index": 2,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "приду",
+      "a": "39cea2854f97.mp3",
+      "s": 4
+     },
+     {
+      "t": "часов",
+      "a": "caca8ccd3093.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "birthday": {
+   "speaker": "luka",
+   "ru": "В субботу у меня день рождения.",
+   "fr": "Samedi, c'est mon anniversaire.",
+   "tokens": [
+    {
+     "t": "В",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "субботу",
+     "s": 4,
+     "w": true,
+     "a": "dcc66f37de17.mp3",
+     "l": "суббота"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "у",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "меня",
+     "s": 3,
+     "w": true,
+     "a": "2e3dc1afb7c3.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "день",
+     "s": 1,
+     "w": true,
+     "a": "f0d5c469ba4e.mp3",
+     "l": "день"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "рождения",
+     "s": 4,
+     "w": true,
+     "a": "d6e29b5446bf.mp3",
+     "l": "рождение"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "2df7e50e58ff.mp3",
+   "id": "birthday",
+   "noteFr": "« День рождения » = anniversaire (mot à mot : jour de naissance). « У меня день рождения » = c'est mon anniversaire.",
+   "gap": {
+    "index": 10,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "часов",
+      "a": "caca8ccd3093.mp3",
+      "s": 3
+     },
+     {
+      "t": "дела",
+      "a": "0a5cd1a4fde3.mp3",
+      "s": 1
+     }
+    ]
+   },
+   "orders": [
+    "в субботу у меня день рождения",
+    "у меня в субботу день рождения",
+    "у меня день рождения в субботу"
+   ]
+  },
+  "come": {
+   "speaker": "luka",
+   "ru": "Приходи ко мне!",
+   "fr": "Viens chez moi !",
+   "tokens": [
+    {
+     "t": "Приходи",
+     "s": 6,
+     "w": true,
+     "a": "bdc9ed525802.mp3",
+     "l": "приходить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ко",
+     "s": 1,
+     "w": true,
+     "a": "884f4c824463.mp3",
+     "l": "к"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "ef6ccc24ea2c.mp3",
+   "id": "come",
+   "noteFr": "« Приходи ! » = viens ! (à « ты »). « Ко мне » = chez moi (quand on y va).",
+   "gap": {
+    "index": 0,
+    "whyFr": "Pour inviter « ты » : « приходи ! ». « Приду », c'est « je viendrai ».",
+    "distractors": [
+     {
+      "t": "приду",
+      "a": "39cea2854f97.mp3",
+      "s": 4
+     },
+     {
+      "t": "подарить",
+      "a": "a8e2d63b8217.mp3",
+      "s": 5
+     }
+    ]
+   }
+  },
+  "when": {
+   "speaker": "anna",
+   "ru": "С удовольствием! Во сколько?",
+   "fr": "Avec plaisir ! À quelle heure ?",
+   "tokens": [
+    {
+     "t": "С",
+     "s": null,
+     "w": true,
+     "a": "37421d1ce7f3.mp3",
+     "l": "с"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "удовольствием",
+     "s": 4,
+     "w": true,
+     "a": "a5dc5da98852.mp3",
+     "l": "удовольствие"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Во",
+     "s": 1,
+     "w": true,
+     "a": "94135b8098e4.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сколько",
+     "s": 2,
+     "w": true,
+     "a": "68f717ec536d.mp3",
+     "l": "сколько"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "eece52f94920.mp3",
+   "id": "when",
+   "noteFr": "Tu connais les deux expressions depuis l'invitation au théâtre !",
+   "gap": {
+    "index": 6,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "шесть",
+      "a": "f72a964d5629.mp3",
+      "s": 1
+     },
+     {
+      "t": "дела",
+      "a": "0a5cd1a4fde3.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "six": {
+   "speaker": "luka",
+   "ru": "В шесть часов.",
+   "fr": "À six heures.",
+   "tokens": [
+    {
+     "t": "В",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "шесть",
+     "s": 1,
+     "w": true,
+     "a": "f72a964d5629.mp3",
+     "l": "шесть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "часов",
+     "s": 3,
+     "w": true,
+     "a": "caca8ccd3093.mp3",
+     "l": "час"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "b102b1985873.mp3",
+   "id": "six",
+   "noteFr": "« В шесть часов » = à six heures. De 5 à 20 : « часов ».",
+   "gap": {
+    "index": 2,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "приду",
+      "a": "39cea2854f97.mp3",
+      "s": 4
+     },
+     {
+      "t": "дела",
+      "a": "0a5cd1a4fde3.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "willcome": {
+   "speaker": "anna",
+   "ru": "Отлично, я приду.",
+   "fr": "Parfait, je viendrai.",
+   "tokens": [
+    {
+     "t": "Отлично",
+     "s": 3,
+     "w": true,
+     "a": "1b0c3f2d1ffd.mp3",
+     "l": "отлично"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "приду",
+     "s": 4,
+     "w": true,
+     "a": "39cea2854f97.mp3",
+     "l": "прийти"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "01bc27365272.mp3",
+   "id": "willcome",
+   "noteFr": "« Я приду » = je viendrai.",
+   "gap": {
+    "index": 4,
+    "whyFr": "Pour dire « je viendrai » : « я приду ». « Приходи », c'est « viens ! ».",
+    "distractors": [
+     {
+      "t": "приходи",
+      "a": "bdc9ed525802.mp3",
+      "s": 6
+     },
+     {
+      "t": "подарить",
+      "a": "a8e2d63b8217.mp3",
+      "s": 5
+     }
+    ]
+   }
+  },
+  "gift": {
+   "speaker": "anna",
+   "ru": "Что тебе подарить?",
+   "fr": "Qu'est-ce que je peux t'offrir ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тебе",
+     "s": 3,
+     "w": true,
+     "a": "801a217b6a9c.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "подарить",
+     "s": 5,
+     "w": true,
+     "a": "a8e2d63b8217.mp3",
+     "l": "подарить"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "6eebb0a0769c.mp3",
+   "id": "gift",
+   "noteFr": "« Подарить » = offrir. « Тебе » = à toi.",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "приходи",
+      "a": "bdc9ed525802.mp3",
+      "s": 6
+     },
+     {
+      "t": "приду",
+      "a": "39cea2854f97.mp3",
+      "s": 4
+     }
+    ]
+   }
+  },
+  "nothing": {
+   "speaker": "luka",
+   "ru": "Ничего не надо! Просто приходи.",
+   "fr": "Rien du tout ! Viens, c'est tout.",
+   "tokens": [
+    {
+     "t": "Ничего",
+     "s": 5,
+     "w": true,
+     "a": "803a7b86c540.mp3",
+     "l": "ничего"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "надо",
+     "s": 1,
+     "w": true,
+     "a": "6da396553a75.mp3",
+     "l": "надо"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Просто",
+     "s": 2,
+     "w": true,
+     "a": "b0f0f569bb47.mp3",
+     "l": "просто"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "приходи",
+     "s": 6,
+     "w": true,
+     "a": "bdc9ed525802.mp3",
+     "l": "приходить"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "b22a74711b12.mp3",
+   "id": "nothing",
+   "noteFr": "« Ничего не надо » = il ne faut rien. « Просто » = simplement.",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "часов",
+      "a": "caca8ccd3093.mp3",
+      "s": 3
+     },
+     {
+      "t": "дела",
+      "a": "0a5cd1a4fde3.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "c1": {
+   "speaker": "luka",
+   "ru": "Приходи ко мне в субботу!",
+   "fr": "Viens chez moi samedi !",
+   "tokens": [
+    {
+     "t": "Приходи",
+     "s": 6,
+     "w": true,
+     "a": "bdc9ed525802.mp3",
+     "l": "приходить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ко",
+     "s": 1,
+     "w": true,
+     "a": "884f4c824463.mp3",
+     "l": "к"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "субботу",
+     "s": 4,
+     "w": true,
+     "a": "dcc66f37de17.mp3",
+     "l": "суббота"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "0089efc82040.mp3",
+   "id": "c1",
+   "noteFr": "",
+   "orders": [
+    "приходи ко мне в субботу",
+    "в субботу приходи ко мне"
+   ],
+   "combo": {
+    "from": [
+     "Au téléphone",
+     "Je suis malade",
+     "Où es-tu ?",
+     "Le week-end"
+    ],
+    "extra": [
+     {
+      "t": "приду",
+      "a": "39cea2854f97.mp3",
+      "s": 4
+     }
+    ]
+   }
+  },
+  "c2": {
+   "speaker": "luka",
+   "ru": "Алло, Маша? Это Лука. Как дела?",
+   "fr": "Allô, Macha ? C'est Luka. Ça va ?",
+   "tokens": [
+    {
+     "t": "Алло",
+     "s": 3,
+     "w": true,
+     "a": "a6f45cfe38f6.mp3",
+     "l": "алло"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Маша",
+     "s": 1,
+     "w": true,
+     "a": "db2f8c7ea687.mp3",
+     "l": "маша"
+    },
+    {
+     "t": "? ",
+     "w": false
+    },
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 3,
+     "w": true,
+     "a": "19138a4c7457.mp3",
+     "l": "лука"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Как",
+     "s": 1,
+     "w": true,
+     "a": "5211d8f6c0b1.mp3",
+     "l": "как"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дела",
+     "s": 3,
+     "w": true,
+     "a": "f5add50a98c3.mp3",
+     "l": "дело"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "d97e389ef18d.mp3",
+   "id": "c2",
+   "noteFr": "",
+   "orders": [
+    "алло маша это лука как дела"
+   ],
+   "combo": {
+    "from": [
+     "Où es-tu ?",
+     "Faire connaissance",
+     "Au téléphone"
+    ],
+    "extra": [
+     {
+      "t": "меня",
+      "a": "2e3dc1afb7c3.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "c3": {
+   "speaker": "luka",
+   "ru": "Завтра в семь часов я буду дома.",
+   "fr": "Demain à sept heures, je serai à la maison.",
+   "tokens": [
+    {
+     "t": "Завтра",
+     "s": 1,
+     "w": true,
+     "a": "8c010caec9ab.mp3",
+     "l": "завтра"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "семь",
+     "s": 1,
+     "w": true,
+     "a": "51a184b078fc.mp3",
+     "l": "семь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "часов",
+     "s": 3,
+     "w": true,
+     "a": "caca8ccd3093.mp3",
+     "l": "час"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "буду",
+     "s": 1,
+     "w": true,
+     "a": "f863b4d8649d.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дома",
+     "s": 1,
+     "w": true,
+     "a": "97f89f92319f.mp3",
+     "l": "дом"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "41fbbb502e2a.mp3",
+   "id": "c3",
+   "noteFr": "",
+   "orders": [
+    "завтра в семь часов я буду дома",
+    "завтра я буду дома в семь часов"
+   ],
+   "combo": {
+    "from": [
+     "Les projets",
+     "Où es-tu ?",
+     "Faire connaissance",
+     "Au restaurant",
+     "Chez des amis"
+    ],
+    "extra": [
+     {
+      "t": "приду",
+      "a": "39cea2854f97.mp3",
+      "s": 4
+     }
+    ]
+   }
+  }
+ },
+ "parts": [
+  {
+   "titleFr": "L'appel",
+   "steps": [
+    {
+     "type": "scene"
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "itsme",
+      "howareyou"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "birthday",
+      "come"
+     ],
+     "review": [
+      "howareyou"
+     ]
+    },
+    {
+     "type": "insight",
+     "index": 0
+    }
+   ]
+  },
+  {
+   "titleFr": "L'heure et le cadeau",
+   "steps": [
+    {
+     "type": "warmup",
+     "phrases": [
+      "itsme",
+      "birthday",
+      "come"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "when",
+      "six"
+     ],
+     "review": [
+      "come"
+     ]
+    },
+    {
+     "type": "explore"
+    },
+    {
+     "type": "insight",
+     "index": 1
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "willcome",
+      "gift",
+      "nothing"
+     ],
+     "review": [
+      "six"
+     ]
+    },
+    {
+     "type": "combine",
+     "phrases": [
+      "c1",
+      "c2",
+      "c3"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Joue la scène",
+   "steps": [
+    {
+     "type": "final"
+    },
+    {
+     "type": "roleplay"
+    }
+   ]
+  }
+ ],
+ "insights": [
+  {
+   "by": "anna",
+   "fr": [
+    "Au téléphone : « Алло ! », puis « Это Лука » (c'est Luka). Et entre amis : « Как дела ? » — « Хорошо, спасибо ! ».",
+    "« У меня день рождения » = c'est mon anniversaire (mot à mot : chez moi, il y a un jour de naissance). Tu reconnais « у меня » !"
+   ]
+  },
+  {
+   "by": "anna",
+   "fr": [
+    "Pour l'heure : « в » + le nombre + « часов » : « в пять часов », « в шесть часов », « в семь часов ».",
+    "Avec 2, 3, 4 : « часа » (« в два часа »). Avec 1 : « в час ». On se comprend même si tu te trompes !"
+   ]
+  }
+ ],
+ "explore": {
+  "type": "plain",
+  "frameFr": "Viens à ___ heures !",
+  "color": "#5c677d",
+  "hintFr": "Mets chaque nombre dans la phrase et écoute.",
+  "before": [
+   {
+    "t": "Приходи",
+    "s": 6,
+    "w": true,
+    "a": "bdc9ed525802.mp3",
+    "l": "приходить"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "в",
+    "s": null,
+    "w": true,
+    "a": "3c5b79b7f921.mp3",
+    "l": "в"
+   },
+   {
+    "t": " ",
+    "w": false
+   }
+  ],
+  "after": [
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "часов",
+    "s": 3,
+    "w": true,
+    "a": "caca8ccd3093.mp3",
+    "l": "час"
+   },
+   {
+    "t": "!",
+    "w": false
+   }
+  ],
+  "verb": null,
+  "words": [
+   {
+    "tile": "пять",
+    "tileStress": 1,
+    "fr": "cinq",
+    "phraseFr": "Viens à cinq heures !",
+    "phrase": "Приходи в пять часов!",
+    "morph": {
+     "from": "пять",
+     "to": "пять",
+     "stem": "пять",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": false
+    },
+    "audioTile": "c08ef4250ab4.mp3",
+    "audioPhrase": "fd078517e512.mp3"
+   },
+   {
+    "tile": "шесть",
+    "tileStress": 1,
+    "fr": "six",
+    "phraseFr": "Viens à six heures !",
+    "phrase": "Приходи в шесть часов!",
+    "morph": {
+     "from": "шесть",
+     "to": "шесть",
+     "stem": "шесть",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": false
+    },
+    "audioTile": "f72a964d5629.mp3",
+    "audioPhrase": "58773cc710e9.mp3"
+   },
+   {
+    "tile": "семь",
+    "tileStress": 1,
+    "fr": "sept",
+    "phraseFr": "Viens à sept heures !",
+    "phrase": "Приходи в семь часов!",
+    "morph": {
+     "from": "семь",
+     "to": "семь",
+     "stem": "семь",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": false
+    },
+    "audioTile": "51a184b078fc.mp3",
+    "audioPhrase": "d77114864320.mp3"
+   },
+   {
+    "tile": "восемь",
+    "tileStress": 1,
+    "fr": "huit",
+    "phraseFr": "Viens à huit heures !",
+    "phrase": "Приходи в восемь часов!",
+    "morph": {
+     "from": "восемь",
+     "to": "восемь",
+     "stem": "восемь",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": false
+    },
+    "audioTile": "a47b3c484775.mp3",
+    "audioPhrase": "2e41c31dd4fe.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Dis : « Viens à huit heures ! »",
+   "answer": "восемь"
+  },
+  {
+   "type": "pick",
+   "fr": "Dis : « Viens à cinq heures ! »",
+   "answer": "пять"
+  }
+ ],
+ "grammar": [
+  "алло анна это лука",
+  "алло маша это лука как дела",
+  "в субботу у меня день рождения",
+  "в шесть часов",
+  "завтра в семь часов я буду дома",
+  "как дела",
+  "ничего не надо просто приходи",
+  "отлично я приду",
+  "отлично я приду что тебе подарить",
+  "привет лука как дела",
+  "приходи ко мне",
+  "приходи ко мне в субботу",
+  "с удовольствием во сколько",
+  "хорошо спасибо в субботу у меня день рождения",
+  "что тебе подарить",
+  "[unk]"
+ ],
+ "cando": [
+  "téléphoner à un ami",
+  "inviter quelqu'un chez toi",
+  "donner une heure"
+ ],
+ "glossary": {
+  "здравствуйте": "bonjour (poli)",
+  "тебе": "à toi",
+  "здесь": "ici",
+  "я": "je, moi",
+  "ты": "tu",
+  "вы": "vous",
+  "да": "oui",
+  "нет": "non",
+  "а": "et, mais",
+  "и": "et",
+  "это": "c'est, voici",
+  "не": "ne… pas",
+  "в": "dans, à",
+  "на": "sur, en",
+  "что": "quoi, que",
+  "как": "comment",
+  "где": "où",
+  "очень": "très",
+  "спасибо": "merci",
+  "пожалуйста": "s'il te plaît / je t'en prie",
+  "хорошо": "bien, d'accord",
+  "привет": "salut",
+  "лука": "Luka (prénom)",
+  "маша": "Macha (prénom)",
+  "олег": "Oleg (prénom)",
+  "анна": "Anna (prénom)",
+  "у": "chez",
+  "меня": "moi (у меня = j'ai)",
+  "тебя": "toi (у тебя = tu as)",
+  "есть": "il y a",
+  "мой": "mon",
+  "моя": "ma",
+  "мне": "à moi",
+  "тоже": "aussi",
+  "сегодня": "aujourd'hui",
+  "завтра": "demain",
+  "вчера": "hier",
+  "потом": "puis, ensuite",
+  "давай": "allons-y, faisons",
+  "алло": "allô",
+  "дела": "affaires (как дела = ça va ?)",
+  "субботу": "samedi (в субботу)",
+  "день": "jour",
+  "рождения": "naissance (день рождения = anniversaire)",
+  "приходи": "viens !",
+  "ко": "chez, vers (ко мне = chez moi)",
+  "с": "avec",
+  "удовольствием": "plaisir (с удовольствием = avec plaisir)",
+  "во": "à (во сколько = à quelle heure)",
+  "сколько": "combien",
+  "шесть": "six",
+  "часов": "heures",
+  "отлично": "parfait",
+  "приду": "(je) viendrai",
+  "подарить": "offrir",
+  "ничего": "rien",
+  "надо": "il faut",
+  "просто": "simplement",
+  "пять": "cinq",
+  "семь": "sept",
+  "восемь": "huit",
+  "буду": "(je) serai / prendrai",
+  "дома": "à la maison"
+ },
+ "unlocks": [],
+ "items": [
+  {
+   "id": "25-telephone:itsme",
+   "ru": "Алло, Анна? Это Лука.",
+   "fr": "Allô, Anna ? C'est Luka.",
+   "tokens": [
+    {
+     "t": "Алло",
+     "s": 3,
+     "w": true,
+     "a": "a6f45cfe38f6.mp3",
+     "l": "алло"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Анна",
+     "s": 0,
+     "w": true,
+     "a": "3b145c7baf49.mp3",
+     "l": "анна"
+    },
+    {
+     "t": "? ",
+     "w": false
+    },
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "2a5a7425e8d1.mp3"
+  },
+  {
+   "id": "25-telephone:howareyou",
+   "ru": "Как дела?",
+   "fr": "Comment ça va ?",
+   "tokens": [
+    {
+     "t": "Как",
+     "s": 1,
+     "w": true,
+     "a": "5211d8f6c0b1.mp3",
+     "l": "как"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дела",
+     "s": 3,
+     "w": true,
+     "a": "f5add50a98c3.mp3",
+     "l": "дело"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "5cec5f9ca948.mp3"
+  },
+  {
+   "id": "25-telephone:birthday",
+   "ru": "В субботу у меня день рождения.",
+   "fr": "Samedi, c'est mon anniversaire.",
+   "tokens": [
+    {
+     "t": "В",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "субботу",
+     "s": 4,
+     "w": true,
+     "a": "dcc66f37de17.mp3",
+     "l": "суббота"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "у",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "меня",
+     "s": 3,
+     "w": true,
+     "a": "2e3dc1afb7c3.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "день",
+     "s": 1,
+     "w": true,
+     "a": "f0d5c469ba4e.mp3",
+     "l": "день"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "рождения",
+     "s": 4,
+     "w": true,
+     "a": "d6e29b5446bf.mp3",
+     "l": "рождение"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "2df7e50e58ff.mp3"
+  },
+  {
+   "id": "25-telephone:come",
+   "ru": "Приходи ко мне!",
+   "fr": "Viens chez moi !",
+   "tokens": [
+    {
+     "t": "Приходи",
+     "s": 6,
+     "w": true,
+     "a": "bdc9ed525802.mp3",
+     "l": "приходить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ко",
+     "s": 1,
+     "w": true,
+     "a": "884f4c824463.mp3",
+     "l": "к"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "ef6ccc24ea2c.mp3"
+  },
+  {
+   "id": "25-telephone:when",
+   "ru": "С удовольствием! Во сколько?",
+   "fr": "Avec plaisir ! À quelle heure ?",
+   "tokens": [
+    {
+     "t": "С",
+     "s": null,
+     "w": true,
+     "a": "37421d1ce7f3.mp3",
+     "l": "с"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "удовольствием",
+     "s": 4,
+     "w": true,
+     "a": "a5dc5da98852.mp3",
+     "l": "удовольствие"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Во",
+     "s": 1,
+     "w": true,
+     "a": "94135b8098e4.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сколько",
+     "s": 2,
+     "w": true,
+     "a": "68f717ec536d.mp3",
+     "l": "сколько"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "eece52f94920.mp3"
+  },
+  {
+   "id": "25-telephone:six",
+   "ru": "В шесть часов.",
+   "fr": "À six heures.",
+   "tokens": [
+    {
+     "t": "В",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "шесть",
+     "s": 1,
+     "w": true,
+     "a": "f72a964d5629.mp3",
+     "l": "шесть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "часов",
+     "s": 3,
+     "w": true,
+     "a": "caca8ccd3093.mp3",
+     "l": "час"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "b102b1985873.mp3"
+  },
+  {
+   "id": "25-telephone:willcome",
+   "ru": "Отлично, я приду.",
+   "fr": "Parfait, je viendrai.",
+   "tokens": [
+    {
+     "t": "Отлично",
+     "s": 3,
+     "w": true,
+     "a": "1b0c3f2d1ffd.mp3",
+     "l": "отлично"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "приду",
+     "s": 4,
+     "w": true,
+     "a": "39cea2854f97.mp3",
+     "l": "прийти"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "01bc27365272.mp3"
+  },
+  {
+   "id": "25-telephone:gift",
+   "ru": "Что тебе подарить?",
+   "fr": "Qu'est-ce que je peux t'offrir ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тебе",
+     "s": 3,
+     "w": true,
+     "a": "801a217b6a9c.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "подарить",
+     "s": 5,
+     "w": true,
+     "a": "a8e2d63b8217.mp3",
+     "l": "подарить"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "6eebb0a0769c.mp3"
+  },
+  {
+   "id": "25-telephone:nothing",
+   "ru": "Ничего не надо! Просто приходи.",
+   "fr": "Rien du tout ! Viens, c'est tout.",
+   "tokens": [
+    {
+     "t": "Ничего",
+     "s": 5,
+     "w": true,
+     "a": "803a7b86c540.mp3",
+     "l": "ничего"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "надо",
+     "s": 1,
+     "w": true,
+     "a": "6da396553a75.mp3",
+     "l": "надо"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Просто",
+     "s": 2,
+     "w": true,
+     "a": "b0f0f569bb47.mp3",
+     "l": "просто"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "приходи",
+     "s": 6,
+     "w": true,
+     "a": "bdc9ed525802.mp3",
+     "l": "приходить"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "b22a74711b12.mp3"
+  },
+  {
+   "id": "25-telephone:c1",
+   "ru": "Приходи ко мне в субботу!",
+   "fr": "Viens chez moi samedi !",
+   "tokens": [
+    {
+     "t": "Приходи",
+     "s": 6,
+     "w": true,
+     "a": "bdc9ed525802.mp3",
+     "l": "приходить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ко",
+     "s": 1,
+     "w": true,
+     "a": "884f4c824463.mp3",
+     "l": "к"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "субботу",
+     "s": 4,
+     "w": true,
+     "a": "dcc66f37de17.mp3",
+     "l": "суббота"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "0089efc82040.mp3"
+  },
+  {
+   "id": "25-telephone:c2",
+   "ru": "Алло, Маша? Это Лука. Как дела?",
+   "fr": "Allô, Macha ? C'est Luka. Ça va ?",
+   "tokens": [
+    {
+     "t": "Алло",
+     "s": 3,
+     "w": true,
+     "a": "a6f45cfe38f6.mp3",
+     "l": "алло"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Маша",
+     "s": 1,
+     "w": true,
+     "a": "db2f8c7ea687.mp3",
+     "l": "маша"
+    },
+    {
+     "t": "? ",
+     "w": false
+    },
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 3,
+     "w": true,
+     "a": "19138a4c7457.mp3",
+     "l": "лука"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Как",
+     "s": 1,
+     "w": true,
+     "a": "5211d8f6c0b1.mp3",
+     "l": "как"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дела",
+     "s": 3,
+     "w": true,
+     "a": "f5add50a98c3.mp3",
+     "l": "дело"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "d97e389ef18d.mp3"
+  },
+  {
+   "id": "25-telephone:c3",
+   "ru": "Завтра в семь часов я буду дома.",
+   "fr": "Demain à sept heures, je serai à la maison.",
+   "tokens": [
+    {
+     "t": "Завтра",
+     "s": 1,
+     "w": true,
+     "a": "8c010caec9ab.mp3",
+     "l": "завтра"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "семь",
+     "s": 1,
+     "w": true,
+     "a": "51a184b078fc.mp3",
+     "l": "семь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "часов",
+     "s": 3,
+     "w": true,
+     "a": "caca8ccd3093.mp3",
+     "l": "час"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "буду",
+     "s": 1,
+     "w": true,
+     "a": "f863b4d8649d.mp3",
+     "l": "быть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "дома",
+     "s": 1,
+     "w": true,
+     "a": "97f89f92319f.mp3",
+     "l": "дом"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "41fbbb502e2a.mp3"
+  }
+ ],
+ "hasAudio": false
+}

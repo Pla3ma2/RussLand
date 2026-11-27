@@ -354,6 +354,12 @@
       "gender": "femn",
       "from": "рыба",
       "to": "рыбу"
+    },
+    {
+      "case": "nomn",
+      "gender": "neut",
+      "from": "молоко",
+      "to": "молоко"
     }
   ],
   "glossary": {

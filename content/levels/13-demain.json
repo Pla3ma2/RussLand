@@ -336,7 +336,14 @@
     "parler au futur",
     "accepter une proposition"
   ],
-  "unlocks": [],
+  "unlocks": [
+    {
+      "verb": "хотеть",
+      "persons": [
+        "ты"
+      ]
+    }
+  ],
   "glossary": {
     "я": "je, moi",
     "ты": "tu",

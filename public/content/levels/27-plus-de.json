@@ -1,0 +1,2253 @@
+{
+ "version": 2,
+ "id": "27-plus-de",
+ "order": 27,
+ "titleFr": "Il n'y a plus de pain !",
+ "titleRu": "Нет хлеба!",
+ "emoji": "🥖",
+ "sceneFr": "Pendant la fête, Luka ouvre le frigo… il manque des choses ! Oleg propose d'aller au magasin.",
+ "learner": "luka",
+ "speakers": {
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  },
+  "oleg": {
+   "name": "Олег",
+   "nameFr": "Oleg",
+   "color": "#9a6fb0"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "luka",
+   "ru": "Ой! У нас нет хлеба!",
+   "fr": "Oh ! On n'a plus de pain !",
+   "tokens": [
+    {
+     "t": "Ой",
+     "s": 0,
+     "w": true,
+     "a": "d0c6d2387eac.mp3",
+     "l": "ой"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "У",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нас",
+     "s": 1,
+     "w": true,
+     "a": "bb4f3e31e46c.mp3",
+     "l": "мы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хлеба",
+     "s": 2,
+     "w": true,
+     "a": "643bdeadfbc3.mp3",
+     "l": "хлеб"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "37579880dc73.mp3"
+  },
+  {
+   "speaker": "oleg",
+   "ru": "И сока тоже нет.",
+   "fr": "Et il n'y a plus de jus non plus.",
+   "tokens": [
+    {
+     "t": "И",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сока",
+     "s": 1,
+     "w": true,
+     "a": "ad835d02283b.mp3",
+     "l": "сок"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тоже",
+     "s": 1,
+     "w": true,
+     "a": "0b041fee8598.mp3",
+     "l": "тоже"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "60a4be02bc20.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "А вода есть?",
+   "fr": "Et de l'eau, il y en a ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вода",
+     "s": 3,
+     "w": true,
+     "a": "1b83b6fefbb0.mp3",
+     "l": "вода"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "есть",
+     "s": 0,
+     "w": true,
+     "a": "91c9dda6ba7c.mp3",
+     "l": "есть"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "9090e145085a.mp3"
+  },
+  {
+   "speaker": "oleg",
+   "ru": "Нет, воды тоже нет!",
+   "fr": "Non, plus d'eau non plus !",
+   "tokens": [
+    {
+     "t": "Нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "воды",
+     "s": 3,
+     "w": true,
+     "a": "dd63194b6dd1.mp3",
+     "l": "вода"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тоже",
+     "s": 1,
+     "w": true,
+     "a": "0b041fee8598.mp3",
+     "l": "тоже"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "3f62ec530b4c.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Где здесь магазин?",
+   "fr": "Où est le magasin, par ici ?",
+   "tokens": [
+    {
+     "t": "Где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "здесь",
+     "s": 2,
+     "w": true,
+     "a": "5dc51c8ef3d7.mp3",
+     "l": "здесь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "магазин",
+     "s": 5,
+     "w": true,
+     "a": "0206a00c72ae.mp3",
+     "l": "магазин"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "e75bb5008df0.mp3"
+  },
+  {
+   "speaker": "oleg",
+   "ru": "Рядом, две минуты. Я пойду.",
+   "fr": "Tout près, deux minutes. J'y vais.",
+   "tokens": [
+    {
+     "t": "Рядом",
+     "s": 1,
+     "w": true,
+     "a": "080a921e42dc.mp3",
+     "l": "рядом"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "две",
+     "s": 2,
+     "w": true,
+     "a": "fc0ca319e196.mp3",
+     "l": "два"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "минуты",
+     "s": 3,
+     "w": true,
+     "a": "51f060f1574f.mp3",
+     "l": "минута"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пойду",
+     "s": 4,
+     "w": true,
+     "a": "871ecdc34c30.mp3",
+     "l": "пойти"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "7feee021ccc6.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Спасибо! Купи хлеб, сок и воду.",
+   "fr": "Merci ! Achète du pain, du jus et de l'eau.",
+   "tokens": [
+    {
+     "t": "Спасибо",
+     "s": 4,
+     "w": true,
+     "a": "84fecfa1b01c.mp3",
+     "l": "спасибо"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Купи",
+     "s": 3,
+     "w": true,
+     "a": "02cc724751e1.mp3",
+     "l": "купить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хлеб",
+     "s": 2,
+     "w": true,
+     "a": "0ca301267827.mp3",
+     "l": "хлеб"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "сок",
+     "s": 1,
+     "w": true,
+     "a": "fed4dde9f98e.mp3",
+     "l": "сок"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "воду",
+     "s": 1,
+     "w": true,
+     "a": "9a6b49502738.mp3",
+     "l": "вода"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "5bc00457ae1e.mp3"
+  },
+  {
+   "speaker": "oleg",
+   "ru": "Хорошо. Что-нибудь ещё?",
+   "fr": "D'accord. Autre chose ?",
+   "tokens": [
+    {
+     "t": "Хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Что-нибудь",
+     "s": 2,
+     "w": true,
+     "a": "2ced355b9e0e.mp3",
+     "l": "что-нибудь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ещё",
+     "s": 2,
+     "w": true,
+     "a": "62bf7c150e0b.mp3",
+     "l": "ещё"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "952d8ee806c0.mp3"
+  }
+ ],
+ "phrases": {
+  "nobread": {
+   "speaker": "luka",
+   "ru": "У нас нет хлеба!",
+   "fr": "On n'a plus de pain !",
+   "tokens": [
+    {
+     "t": "У",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нас",
+     "s": 1,
+     "w": true,
+     "a": "bb4f3e31e46c.mp3",
+     "l": "мы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хлеба",
+     "s": 2,
+     "w": true,
+     "a": "643bdeadfbc3.mp3",
+     "l": "хлеб"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "cc3cf97d800e.mp3",
+   "id": "nobread",
+   "noteFr": "« У нас » = chez nous. « Нет » + le mot qui change : « хлеб » → « нет хлеба ».",
+   "gap": {
+    "index": 6,
+    "whyFr": "Après « нет » (il n'y a pas), « хлеб » devient « хлеба » (-а).",
+    "distractors": [
+     {
+      "t": "хлеб",
+      "a": "0ca301267827.mp3",
+      "s": 2
+     },
+     {
+      "t": "рядом",
+      "a": "080a921e42dc.mp3",
+      "s": 1
+     }
+    ]
+   },
+   "orders": [
+    "у нас нет хлеба"
+   ]
+  },
+  "nojuice": {
+   "speaker": "oleg",
+   "ru": "И сока тоже нет.",
+   "fr": "Et il n'y a plus de jus non plus.",
+   "tokens": [
+    {
+     "t": "И",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сока",
+     "s": 1,
+     "w": true,
+     "a": "ad835d02283b.mp3",
+     "l": "сок"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тоже",
+     "s": 1,
+     "w": true,
+     "a": "0b041fee8598.mp3",
+     "l": "тоже"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "60a4be02bc20.mp3",
+   "id": "nojuice",
+   "noteFr": "« Сок » = jus → « нет сока ».",
+   "gap": {
+    "index": 2,
+    "whyFr": "Après « нет », « сок » → « сока ».",
+    "distractors": [
+     {
+      "t": "сок",
+      "a": "fed4dde9f98e.mp3",
+      "s": 1
+     },
+     {
+      "t": "воду",
+      "a": "9a6b49502738.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "water": {
+   "speaker": "luka",
+   "ru": "А вода есть?",
+   "fr": "Et de l'eau, il y en a ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вода",
+     "s": 3,
+     "w": true,
+     "a": "1b83b6fefbb0.mp3",
+     "l": "вода"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "есть",
+     "s": 0,
+     "w": true,
+     "a": "91c9dda6ba7c.mp3",
+     "l": "есть"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "9090e145085a.mp3",
+   "id": "water",
+   "noteFr": "Avec « есть » (il y a), le mot reste à la forme de base : « вода есть ».",
+   "gap": {
+    "index": 2,
+    "whyFr": "Avec « есть », forme de base : « вода ». Avec « нет », ce serait « воды ».",
+    "distractors": [
+     {
+      "t": "воды",
+      "a": "dd63194b6dd1.mp3",
+      "s": 3
+     },
+     {
+      "t": "воду",
+      "a": "9a6b49502738.mp3",
+      "s": 1
+     }
+    ]
+   },
+   "orders": [
+    "а вода есть",
+    "а есть вода"
+   ]
+  },
+  "nowater": {
+   "speaker": "oleg",
+   "ru": "Нет, воды тоже нет!",
+   "fr": "Non, plus d'eau non plus !",
+   "tokens": [
+    {
+     "t": "Нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "воды",
+     "s": 3,
+     "w": true,
+     "a": "dd63194b6dd1.mp3",
+     "l": "вода"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тоже",
+     "s": 1,
+     "w": true,
+     "a": "0b041fee8598.mp3",
+     "l": "тоже"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "3f62ec530b4c.mp3",
+   "id": "nowater",
+   "noteFr": "« Вода » → « нет воды » : -а devient -ы.",
+   "gap": {
+    "index": 2,
+    "whyFr": "Après « нет », « вода » → « воды » (-ы).",
+    "distractors": [
+     {
+      "t": "вода",
+      "a": "1b83b6fefbb0.mp3",
+      "s": 3
+     },
+     {
+      "t": "воду",
+      "a": "9a6b49502738.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "shop": {
+   "speaker": "luka",
+   "ru": "Где здесь магазин?",
+   "fr": "Où est le magasin, par ici ?",
+   "tokens": [
+    {
+     "t": "Где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "здесь",
+     "s": 2,
+     "w": true,
+     "a": "5dc51c8ef3d7.mp3",
+     "l": "здесь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "магазин",
+     "s": 5,
+     "w": true,
+     "a": "0206a00c72ae.mp3",
+     "l": "магазин"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "e75bb5008df0.mp3",
+   "id": "shop",
+   "noteFr": "« Магазин » = magasin. Même phrase que « где здесь банк ? ».",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "магазине",
+      "a": "162be3cb26e4.mp3",
+      "s": 5
+     },
+     {
+      "t": "рядом",
+      "a": "080a921e42dc.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "near": {
+   "speaker": "oleg",
+   "ru": "Рядом, две минуты. Я пойду.",
+   "fr": "Tout près, deux minutes. J'y vais.",
+   "tokens": [
+    {
+     "t": "Рядом",
+     "s": 1,
+     "w": true,
+     "a": "080a921e42dc.mp3",
+     "l": "рядом"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "две",
+     "s": 2,
+     "w": true,
+     "a": "fc0ca319e196.mp3",
+     "l": "два"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "минуты",
+     "s": 3,
+     "w": true,
+     "a": "51f060f1574f.mp3",
+     "l": "минута"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пойду",
+     "s": 4,
+     "w": true,
+     "a": "871ecdc34c30.mp3",
+     "l": "пойти"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "7feee021ccc6.mp3",
+   "id": "near",
+   "noteFr": "« Рядом » = tout près, à côté. « Я пойду » = j'y vais.",
+   "gap": {
+    "index": 0,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "воды",
+      "a": "dd63194b6dd1.mp3",
+      "s": 3
+     },
+     {
+      "t": "купи",
+      "a": "02cc724751e1.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "buy": {
+   "speaker": "luka",
+   "ru": "Купи хлеб, сок и воду.",
+   "fr": "Achète du pain, du jus et de l'eau.",
+   "tokens": [
+    {
+     "t": "Купи",
+     "s": 3,
+     "w": true,
+     "a": "02cc724751e1.mp3",
+     "l": "купить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хлеб",
+     "s": 2,
+     "w": true,
+     "a": "0ca301267827.mp3",
+     "l": "хлеб"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "сок",
+     "s": 1,
+     "w": true,
+     "a": "fed4dde9f98e.mp3",
+     "l": "сок"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "воду",
+     "s": 1,
+     "w": true,
+     "a": "9a6b49502738.mp3",
+     "l": "вода"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "f48e1d4cceeb.mp3",
+   "id": "buy",
+   "noteFr": "« Купи ! » = achète ! Ici, ce qu'on achète prend le bleu : « воду ». Pas « нет » ici !",
+   "gap": {
+    "index": 8,
+    "whyFr": "On achète l'eau : le bleu, « воду ». « Воды », c'est après « нет ».",
+    "distractors": [
+     {
+      "t": "нет",
+      "a": "2e0323d3f1b3.mp3",
+      "s": 1
+     },
+     {
+      "t": "вода",
+      "a": "1b83b6fefbb0.mp3",
+      "s": 3
+     }
+    ]
+   },
+   "orders": [
+    "купи хлеб сок и воду",
+    "купи сок хлеб и воду"
+   ]
+  },
+  "more": {
+   "speaker": "oleg",
+   "ru": "Хорошо. Что-нибудь ещё?",
+   "fr": "D'accord. Autre chose ?",
+   "tokens": [
+    {
+     "t": "Хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Что-нибудь",
+     "s": 2,
+     "w": true,
+     "a": "2ced355b9e0e.mp3",
+     "l": "что-нибудь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ещё",
+     "s": 2,
+     "w": true,
+     "a": "62bf7c150e0b.mp3",
+     "l": "ещё"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "952d8ee806c0.mp3",
+   "id": "more",
+   "noteFr": "Tu connais cette phrase du café !",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "купи",
+      "a": "02cc724751e1.mp3",
+      "s": 3
+     },
+     {
+      "t": "нет",
+      "a": "2e0323d3f1b3.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "c1": {
+   "speaker": "luka",
+   "ru": "У меня нет шапки, но есть шарф.",
+   "fr": "Je n'ai pas de bonnet, mais j'ai une écharpe.",
+   "tokens": [
+    {
+     "t": "У",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "меня",
+     "s": 3,
+     "w": true,
+     "a": "2e3dc1afb7c3.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "шапки",
+     "s": 1,
+     "w": true,
+     "a": "054df05c438e.mp3",
+     "l": "шапка"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "но",
+     "s": 1,
+     "w": true,
+     "a": "e9cdd3dfae39.mp3",
+     "l": "но"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "есть",
+     "s": 0,
+     "w": true,
+     "a": "91c9dda6ba7c.mp3",
+     "l": "есть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "шарф",
+     "s": 1,
+     "w": true,
+     "a": "40abecf70a7a.mp3",
+     "l": "шарф"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "4d27bffc11e5.mp3",
+   "id": "c1",
+   "noteFr": "",
+   "orders": [
+    "у меня нет шапки но есть шарф"
+   ],
+   "combo": {
+    "from": [
+     "Au magasin",
+     "Faire connaissance",
+     "Je ne comprends pas",
+     "L'hiver arrive",
+     "Acheter un bonnet"
+    ],
+    "extra": [
+     {
+      "t": "шапку",
+      "a": "0811f8bb6308.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "c2": {
+   "speaker": "luka",
+   "ru": "У нас нет молока. Купи молоко!",
+   "fr": "On n'a pas de lait. Achète du lait !",
+   "tokens": [
+    {
+     "t": "У",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нас",
+     "s": 1,
+     "w": true,
+     "a": "bb4f3e31e46c.mp3",
+     "l": "мы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "молока",
+     "s": 5,
+     "w": true,
+     "a": "779482851dbc.mp3",
+     "l": "молоко"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Купи",
+     "s": 3,
+     "w": true,
+     "a": "02cc724751e1.mp3",
+     "l": "купить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "молоко",
+     "s": 5,
+     "w": true,
+     "a": "37048ec5851a.mp3",
+     "l": "молоко"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "6dc7a2f2f587.mp3",
+   "id": "c2",
+   "noteFr": "",
+   "orders": [
+    "у нас нет молока купи молоко"
+   ],
+   "combo": {
+    "from": [
+     "Au magasin",
+     "Le Nouvel An",
+     "Je ne comprends pas",
+     "Il n'y a plus de pain !"
+    ],
+    "extra": [
+     {
+      "t": "хлеба",
+      "a": "643bdeadfbc3.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "c3": {
+   "speaker": "luka",
+   "ru": "Где здесь магазин? Рядом?",
+   "fr": "Où est le magasin, par ici ? Tout près ?",
+   "tokens": [
+    {
+     "t": "Где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "здесь",
+     "s": 2,
+     "w": true,
+     "a": "5dc51c8ef3d7.mp3",
+     "l": "здесь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "магазин",
+     "s": 5,
+     "w": true,
+     "a": "0206a00c72ae.mp3",
+     "l": "магазин"
+    },
+    {
+     "t": "? ",
+     "w": false
+    },
+    {
+     "t": "Рядом",
+     "s": 1,
+     "w": true,
+     "a": "080a921e42dc.mp3",
+     "l": "рядом"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "536d3c743167.mp3",
+   "id": "c3",
+   "noteFr": "",
+   "orders": [
+    "где здесь магазин рядом"
+   ],
+   "combo": {
+    "from": [
+     "Je ne comprends pas",
+     "Il n'y a plus de pain !"
+    ],
+    "extra": [
+     {
+      "t": "купи",
+      "a": "02cc724751e1.mp3",
+      "s": 3
+     }
+    ]
+   }
+  }
+ },
+ "parts": [
+  {
+   "titleFr": "Le frigo est vide",
+   "steps": [
+    {
+     "type": "scene"
+    },
+    {
+     "type": "explore"
+    },
+    {
+     "type": "insight",
+     "index": 0
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "nobread",
+      "nojuice"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "water",
+      "nowater"
+     ],
+     "review": [
+      "nobread"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Au magasin !",
+   "steps": [
+    {
+     "type": "warmup",
+     "phrases": [
+      "nobread",
+      "nojuice",
+      "nowater"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "shop",
+      "near"
+     ],
+     "review": [
+      "water",
+      "nowater"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "buy",
+      "more"
+     ],
+     "review": [
+      "nobread",
+      "near"
+     ]
+    },
+    {
+     "type": "insight",
+     "index": 1
+    },
+    {
+     "type": "combine",
+     "phrases": [
+      "c1",
+      "c2",
+      "c3"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Joue la scène",
+   "steps": [
+    {
+     "type": "final"
+    },
+    {
+     "type": "roleplay"
+    }
+   ]
+  }
+ ],
+ "insights": [
+  {
+   "by": "oleg",
+   "fr": [
+    "Nouvelle couleur : l'orange ! Après « нет » (il n'y a pas), le mot change : « хлеб » → « нет хлеба », « вода » → « нет воды », « молоко » → « нет молока ».",
+    "Le plus souvent : masculin et neutre → -а, féminin -а → -ы. Tu as déjà vu « у меня нет шапки » !"
+   ]
+  },
+  {
+   "by": "oleg",
+   "fr": [
+    "Compare les trois : « вода есть » (il y a de l'eau, forme de base), « воды нет » (il n'y a pas d'eau, orange), « купи воду » (achète de l'eau, bleu).",
+    "Le même mot, trois formes : c'est tout le puzzle du russe !"
+   ]
+  }
+ ],
+ "explore": {
+  "type": "case",
+  "frameFr": "On n'a pas de ___.",
+  "color": "#e76f51",
+  "hintFr": "Mets chaque mot après « нет » et regarde bien la fin du mot.",
+  "before": [
+   {
+    "t": "У",
+    "s": 0,
+    "w": true,
+    "a": "4e374e10f94b.mp3",
+    "l": "у"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "нас",
+    "s": 1,
+    "w": true,
+    "a": "bb4f3e31e46c.mp3",
+    "l": "мы"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "нет",
+    "s": 1,
+    "w": true,
+    "a": "2e0323d3f1b3.mp3",
+    "l": "нет"
+   },
+   {
+    "t": " ",
+    "w": false
+   }
+  ],
+  "after": [
+   {
+    "t": ".",
+    "w": false
+   }
+  ],
+  "verb": null,
+  "words": [
+   {
+    "tile": "хлеб",
+    "tileStress": 2,
+    "fr": "pain",
+    "phraseFr": "On n'a pas de pain.",
+    "phrase": "У нас нет хлеба.",
+    "morph": {
+     "from": "хлеб",
+     "to": "хлеба",
+     "stem": "хлеб",
+     "endFrom": "",
+     "endTo": "а",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": true
+    },
+    "audioTile": "0ca301267827.mp3",
+    "audioPhrase": "e1992c8bccfe.mp3"
+   },
+   {
+    "tile": "вода",
+    "tileStress": 3,
+    "fr": "eau",
+    "phraseFr": "On n'a pas d'eau.",
+    "phrase": "У нас нет воды.",
+    "morph": {
+     "from": "вода",
+     "to": "воды",
+     "stem": "вод",
+     "endFrom": "а",
+     "endTo": "ы",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": true
+    },
+    "audioTile": "1b83b6fefbb0.mp3",
+    "audioPhrase": "99b25157b120.mp3"
+   },
+   {
+    "tile": "молоко",
+    "tileStress": 5,
+    "fr": "lait",
+    "phraseFr": "On n'a pas de lait.",
+    "phrase": "У нас нет молока.",
+    "morph": {
+     "from": "молоко",
+     "to": "молока",
+     "stem": "молок",
+     "endFrom": "о",
+     "endTo": "а",
+     "stressFrom": 5,
+     "stressTo": 5,
+     "changed": true
+    },
+    "audioTile": "37048ec5851a.mp3",
+    "audioPhrase": "ec6cb4ea09c9.mp3"
+   },
+   {
+    "tile": "сок",
+    "tileStress": 1,
+    "fr": "jus",
+    "phraseFr": "On n'a pas de jus.",
+    "phrase": "У нас нет сока.",
+    "morph": {
+     "from": "сок",
+     "to": "сока",
+     "stem": "сок",
+     "endFrom": "",
+     "endTo": "а",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": true
+    },
+    "audioTile": "fed4dde9f98e.mp3",
+    "audioPhrase": "1c1161b2520b.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Dis qu'on n'a pas de lait.",
+   "answer": "молоко"
+  },
+  {
+   "type": "pick",
+   "fr": "Dis qu'on n'a pas d'eau.",
+   "answer": "вода"
+  }
+ ],
+ "grammar": [
+  "а вода есть",
+  "где здесь магазин",
+  "где здесь магазин рядом",
+  "и сока тоже нет",
+  "купи хлеб сок и воду",
+  "нет воды тоже нет",
+  "ой у нас нет хлеба",
+  "рядом две минуты я пойду",
+  "спасибо купи хлеб сок и воду",
+  "у меня нет шапки но есть шарф",
+  "у нас нет молока купи молоко",
+  "у нас нет хлеба",
+  "хорошо чтонибудь ещё",
+  "[unk]"
+ ],
+ "cando": [
+  "dire qu'il manque quelque chose",
+  "demander s'il y a…",
+  "demander à quelqu'un d'acheter"
+ ],
+ "glossary": {
+  "здравствуйте": "bonjour (poli)",
+  "тебе": "à toi",
+  "здесь": "ici",
+  "я": "je, moi",
+  "ты": "tu",
+  "вы": "vous",
+  "да": "oui",
+  "нет": "non",
+  "а": "et, mais",
+  "и": "et",
+  "это": "c'est, voici",
+  "не": "ne… pas",
+  "в": "dans, à",
+  "на": "sur, en",
+  "что": "quoi, que",
+  "как": "comment, comme",
+  "где": "où",
+  "очень": "très",
+  "спасибо": "merci",
+  "пожалуйста": "s'il te plaît / je t'en prie",
+  "хорошо": "bien, d'accord",
+  "привет": "salut",
+  "лука": "Luka (prénom)",
+  "маша": "Macha (prénom)",
+  "олег": "Oleg (prénom)",
+  "анна": "Anna (prénom)",
+  "у": "chez",
+  "меня": "moi (у меня = j'ai)",
+  "тебя": "toi (у тебя = tu as)",
+  "есть": "il y a",
+  "мой": "mon",
+  "моя": "ma",
+  "мне": "à moi",
+  "тоже": "aussi",
+  "сегодня": "aujourd'hui",
+  "завтра": "demain",
+  "вчера": "hier",
+  "потом": "puis, ensuite",
+  "давай": "allons-y, faisons",
+  "ой": "oh",
+  "нас": "nous (у нас = chez nous)",
+  "хлеба": "pain (après нет)",
+  "хлеб": "pain",
+  "сока": "jus (après нет)",
+  "сок": "jus",
+  "вода": "eau",
+  "воды": "eau (après нет)",
+  "воду": "eau (après купи)",
+  "магазин": "magasin",
+  "магазине": "magasin (après в)",
+  "рядом": "tout près",
+  "две": "deux",
+  "минуты": "minutes (après 2, 3, 4)",
+  "пойду": "(j')y vais",
+  "купи": "achète !",
+  "что-нибудь": "quelque chose",
+  "еще": "encore",
+  "молоко": "lait",
+  "молока": "lait (après нет)",
+  "шапки": "bonnet (après нет)",
+  "но": "mais",
+  "шарф": "écharpe"
+ },
+ "unlocks": [
+  {
+   "case": "gent",
+   "gender": "masc",
+   "from": "хлеб",
+   "to": "хлеба"
+  },
+  {
+   "case": "gent",
+   "gender": "femn",
+   "from": "вода",
+   "to": "воды"
+  },
+  {
+   "case": "gent",
+   "gender": "neut",
+   "from": "молоко",
+   "to": "молока"
+  }
+ ],
+ "items": [
+  {
+   "id": "27-plus-de:nobread",
+   "ru": "У нас нет хлеба!",
+   "fr": "On n'a plus de pain !",
+   "tokens": [
+    {
+     "t": "У",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нас",
+     "s": 1,
+     "w": true,
+     "a": "bb4f3e31e46c.mp3",
+     "l": "мы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хлеба",
+     "s": 2,
+     "w": true,
+     "a": "643bdeadfbc3.mp3",
+     "l": "хлеб"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "cc3cf97d800e.mp3"
+  },
+  {
+   "id": "27-plus-de:nojuice",
+   "ru": "И сока тоже нет.",
+   "fr": "Et il n'y a plus de jus non plus.",
+   "tokens": [
+    {
+     "t": "И",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сока",
+     "s": 1,
+     "w": true,
+     "a": "ad835d02283b.mp3",
+     "l": "сок"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тоже",
+     "s": 1,
+     "w": true,
+     "a": "0b041fee8598.mp3",
+     "l": "тоже"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "60a4be02bc20.mp3"
+  },
+  {
+   "id": "27-plus-de:water",
+   "ru": "А вода есть?",
+   "fr": "Et de l'eau, il y en a ?",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вода",
+     "s": 3,
+     "w": true,
+     "a": "1b83b6fefbb0.mp3",
+     "l": "вода"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "есть",
+     "s": 0,
+     "w": true,
+     "a": "91c9dda6ba7c.mp3",
+     "l": "есть"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "9090e145085a.mp3"
+  },
+  {
+   "id": "27-plus-de:nowater",
+   "ru": "Нет, воды тоже нет!",
+   "fr": "Non, plus d'eau non plus !",
+   "tokens": [
+    {
+     "t": "Нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "воды",
+     "s": 3,
+     "w": true,
+     "a": "dd63194b6dd1.mp3",
+     "l": "вода"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тоже",
+     "s": 1,
+     "w": true,
+     "a": "0b041fee8598.mp3",
+     "l": "тоже"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "3f62ec530b4c.mp3"
+  },
+  {
+   "id": "27-plus-de:shop",
+   "ru": "Где здесь магазин?",
+   "fr": "Où est le magasin, par ici ?",
+   "tokens": [
+    {
+     "t": "Где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "здесь",
+     "s": 2,
+     "w": true,
+     "a": "5dc51c8ef3d7.mp3",
+     "l": "здесь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "магазин",
+     "s": 5,
+     "w": true,
+     "a": "0206a00c72ae.mp3",
+     "l": "магазин"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "e75bb5008df0.mp3"
+  },
+  {
+   "id": "27-plus-de:near",
+   "ru": "Рядом, две минуты. Я пойду.",
+   "fr": "Tout près, deux minutes. J'y vais.",
+   "tokens": [
+    {
+     "t": "Рядом",
+     "s": 1,
+     "w": true,
+     "a": "080a921e42dc.mp3",
+     "l": "рядом"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "две",
+     "s": 2,
+     "w": true,
+     "a": "fc0ca319e196.mp3",
+     "l": "два"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "минуты",
+     "s": 3,
+     "w": true,
+     "a": "51f060f1574f.mp3",
+     "l": "минута"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пойду",
+     "s": 4,
+     "w": true,
+     "a": "871ecdc34c30.mp3",
+     "l": "пойти"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "7feee021ccc6.mp3"
+  },
+  {
+   "id": "27-plus-de:buy",
+   "ru": "Купи хлеб, сок и воду.",
+   "fr": "Achète du pain, du jus et de l'eau.",
+   "tokens": [
+    {
+     "t": "Купи",
+     "s": 3,
+     "w": true,
+     "a": "02cc724751e1.mp3",
+     "l": "купить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хлеб",
+     "s": 2,
+     "w": true,
+     "a": "0ca301267827.mp3",
+     "l": "хлеб"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "сок",
+     "s": 1,
+     "w": true,
+     "a": "fed4dde9f98e.mp3",
+     "l": "сок"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "воду",
+     "s": 1,
+     "w": true,
+     "a": "9a6b49502738.mp3",
+     "l": "вода"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "f48e1d4cceeb.mp3"
+  },
+  {
+   "id": "27-plus-de:more",
+   "ru": "Хорошо. Что-нибудь ещё?",
+   "fr": "D'accord. Autre chose ?",
+   "tokens": [
+    {
+     "t": "Хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Что-нибудь",
+     "s": 2,
+     "w": true,
+     "a": "2ced355b9e0e.mp3",
+     "l": "что-нибудь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "ещё",
+     "s": 2,
+     "w": true,
+     "a": "62bf7c150e0b.mp3",
+     "l": "ещё"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "952d8ee806c0.mp3"
+  },
+  {
+   "id": "27-plus-de:c1",
+   "ru": "У меня нет шапки, но есть шарф.",
+   "fr": "Je n'ai pas de bonnet, mais j'ai une écharpe.",
+   "tokens": [
+    {
+     "t": "У",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "меня",
+     "s": 3,
+     "w": true,
+     "a": "2e3dc1afb7c3.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "шапки",
+     "s": 1,
+     "w": true,
+     "a": "054df05c438e.mp3",
+     "l": "шапка"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "но",
+     "s": 1,
+     "w": true,
+     "a": "e9cdd3dfae39.mp3",
+     "l": "но"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "есть",
+     "s": 0,
+     "w": true,
+     "a": "91c9dda6ba7c.mp3",
+     "l": "есть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "шарф",
+     "s": 1,
+     "w": true,
+     "a": "40abecf70a7a.mp3",
+     "l": "шарф"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "4d27bffc11e5.mp3"
+  },
+  {
+   "id": "27-plus-de:c2",
+   "ru": "У нас нет молока. Купи молоко!",
+   "fr": "On n'a pas de lait. Achète du lait !",
+   "tokens": [
+    {
+     "t": "У",
+     "s": 0,
+     "w": true,
+     "a": "4e374e10f94b.mp3",
+     "l": "у"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нас",
+     "s": 1,
+     "w": true,
+     "a": "bb4f3e31e46c.mp3",
+     "l": "мы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "нет",
+     "s": 1,
+     "w": true,
+     "a": "2e0323d3f1b3.mp3",
+     "l": "нет"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "молока",
+     "s": 5,
+     "w": true,
+     "a": "779482851dbc.mp3",
+     "l": "молоко"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Купи",
+     "s": 3,
+     "w": true,
+     "a": "02cc724751e1.mp3",
+     "l": "купить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "молоко",
+     "s": 5,
+     "w": true,
+     "a": "37048ec5851a.mp3",
+     "l": "молоко"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "6dc7a2f2f587.mp3"
+  },
+  {
+   "id": "27-plus-de:c3",
+   "ru": "Где здесь магазин? Рядом?",
+   "fr": "Où est le magasin, par ici ? Tout près ?",
+   "tokens": [
+    {
+     "t": "Где",
+     "s": 2,
+     "w": true,
+     "a": "fe72644ce047.mp3",
+     "l": "где"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "здесь",
+     "s": 2,
+     "w": true,
+     "a": "5dc51c8ef3d7.mp3",
+     "l": "здесь"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "магазин",
+     "s": 5,
+     "w": true,
+     "a": "0206a00c72ae.mp3",
+     "l": "магазин"
+    },
+    {
+     "t": "? ",
+     "w": false
+    },
+    {
+     "t": "Рядом",
+     "s": 1,
+     "w": true,
+     "a": "080a921e42dc.mp3",
+     "l": "рядом"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "536d3c743167.mp3"
+  }
+ ],
+ "hasAudio": false
+}

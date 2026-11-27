@@ -1,0 +1,475 @@
+{
+  "version": 2,
+  "learner": "luka",
+  "id": "29-universite",
+  "order": 29,
+  "titleFr": "À l'université",
+  "titleRu": "В университете",
+  "emoji": "🎓",
+  "sceneFr": "À l'université, une nouvelle étudiante, Nina, parle avec Luka à la pause. C'est la caissière de l'épicerie !",
+  "dialogue": [
+    {
+      "speaker": "nina",
+      "ru": "Привет! Ты тоже здесь уч+ишься?",
+      "fr": "Salut ! Tu étudies ici aussi ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Да, я учусь в университете. А ты?",
+      "fr": "Oui, j'étudie à l'université. Et toi ?"
+    },
+    {
+      "speaker": "nina",
+      "ru": "Я тоже! Я работаю в магазине и учусь.",
+      "fr": "Moi aussi ! Je travaille au magasin et j'étudie."
+    },
+    {
+      "speaker": "luka",
+      "ru": "Что ты изучаешь?",
+      "fr": "Qu'est-ce que tu étudies ?"
+    },
+    {
+      "speaker": "nina",
+      "ru": "Я изучаю французский язык!",
+      "fr": "J'étudie le français !"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Правда? А я изучаю русский язык.",
+      "fr": "C'est vrai ? Et moi, j'étudie le russe."
+    },
+    {
+      "speaker": "nina",
+      "ru": "Кем ты хочешь быть?",
+      "fr": "Qu'est-ce que tu veux devenir ?"
+    },
+    {
+      "speaker": "luka",
+      "ru": "Я хочу быть переводчиком.",
+      "fr": "Je veux être traducteur."
+    }
+  ],
+  "phrases": [
+    {
+      "id": "studyq",
+      "speaker": "nina",
+      "ru": "Ты тоже здесь уч+ишься?",
+      "fr": "Tu étudies ici aussi ?",
+      "noteFr": "« Учиться » = étudier (faire ses études). « Ты учишься » = tu étudies.",
+      "gap": {
+        "word": "учишься",
+        "distractors": [
+          "учусь",
+          "изучаю"
+        ],
+        "whyFr": "Avec « ты » : « учишься ». « Учусь », c'est pour « я »."
+      },
+      "orders": [
+        "ты тоже здесь учишься",
+        "ты тоже учишься здесь"
+      ]
+    },
+    {
+      "id": "study",
+      "speaker": "luka",
+      "ru": "Да, я учусь в университете.",
+      "fr": "Oui, j'étudie à l'université.",
+      "noteFr": "« Я учусь » = j'étudie. « В университете » : le vert du lieu.",
+      "gap": {
+        "word": "учусь",
+        "distractors": [
+          "учишься",
+          "изучаю"
+        ],
+        "whyFr": "Avec « я » : « учусь »."
+      },
+      "orders": [
+        "да я учусь в университете",
+        "да в университете я учусь"
+      ]
+    },
+    {
+      "id": "work",
+      "speaker": "nina",
+      "ru": "Я работаю в магазине и учусь.",
+      "fr": "Je travaille au magasin et j'étudie.",
+      "noteFr": "« В магазине » = au magasin (le vert du lieu).",
+      "gap": {
+        "word": "магазине",
+        "distractors": [
+          "магазин",
+          "язык"
+        ],
+        "whyFr": "Pour dire où : « в магазине » (-е)."
+      },
+      "orders": [
+        "я работаю в магазине и учусь",
+        "я учусь и работаю в магазине"
+      ]
+    },
+    {
+      "id": "what",
+      "speaker": "luka",
+      "ru": "Что ты изучаешь?",
+      "fr": "Qu'est-ce que tu étudies ?",
+      "noteFr": "« Изучать » = étudier une matière. « Ты изучаешь » = tu étudies.",
+      "gap": {
+        "word": "изучаешь",
+        "distractors": [
+          "изучаю",
+          "учусь"
+        ],
+        "whyFr": "Avec « ты » : « изучаешь »."
+      },
+      "orders": [
+        "что ты изучаешь"
+      ]
+    },
+    {
+      "id": "french",
+      "speaker": "nina",
+      "ru": "Я изучаю французский язык!",
+      "fr": "J'étudie le français !",
+      "noteFr": "« Французский язык » = la langue française. « Язык » = langue.",
+      "gap": {
+        "word": "французский",
+        "distractors": [
+          "французски",
+          "переводчиком"
+        ],
+        "whyFr": "Pour nommer la langue : « французский язык ». « По-французски », c'est « en français »."
+      },
+      "orders": [
+        "я изучаю французский язык"
+      ]
+    },
+    {
+      "id": "russian",
+      "speaker": "luka",
+      "ru": "Правда? А я изучаю русский язык.",
+      "fr": "C'est vrai ? Et moi, j'étudie le russe.",
+      "noteFr": "« Правда ? » = c'est vrai ?",
+      "gap": {
+        "word": "правда",
+        "distractors": [
+          "кем",
+          "быть"
+        ]
+      }
+    },
+    {
+      "id": "become",
+      "speaker": "nina",
+      "ru": "Кем ты хочешь быть?",
+      "fr": "Qu'est-ce que tu veux devenir ?",
+      "noteFr": "Mot à mot : « qui (en violet) tu veux être ? ». Après « быть », le métier prend le violet.",
+      "gap": {
+        "word": "кем",
+        "distractors": [
+          "кто",
+          "что"
+        ],
+        "whyFr": "Avec « быть », c'est « кем » (violet). « Кто », c'est juste « qui »."
+      }
+    },
+    {
+      "id": "translator",
+      "speaker": "luka",
+      "ru": "Я хочу быть переводчиком.",
+      "fr": "Je veux être traducteur.",
+      "noteFr": "« Переводчик » = traducteur → « быть переводчиком » (-ом), le violet, comme après « с ».",
+      "gap": {
+        "word": "переводчиком",
+        "distractors": [
+          "переводчик",
+          "языком"
+        ],
+        "whyFr": "Après « быть » (être, devenir), le violet : « переводчиком » (-ом)."
+      },
+      "orders": [
+        "я хочу быть переводчиком"
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "titleFr": "Tu étudies ici ?",
+      "steps": [
+        {
+          "type": "scene"
+        },
+        {
+          "type": "explore"
+        },
+        {
+          "type": "insight",
+          "index": 0
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "studyq",
+            "study"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "work",
+            "what"
+          ],
+          "review": [
+            "study"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Les projets d'avenir",
+      "steps": [
+        {
+          "type": "warmup",
+          "phrases": [
+            "studyq",
+            "study",
+            "what"
+          ]
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "french",
+            "russian"
+          ],
+          "review": [
+            "work",
+            "what"
+          ]
+        },
+        {
+          "type": "insight",
+          "index": 1
+        },
+        {
+          "type": "block",
+          "phrases": [
+            "become",
+            "translator"
+          ],
+          "review": [
+            "french"
+          ]
+        },
+        {
+          "type": "combine",
+          "phrases": [
+            "c1",
+            "c2",
+            "c3"
+          ]
+        }
+      ]
+    },
+    {
+      "titleFr": "Joue la scène",
+      "steps": [
+        {
+          "type": "final"
+        },
+        {
+          "type": "roleplay"
+        }
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "by": "nina",
+      "fr": [
+        "Deux verbes pour « étudier » : « учиться » (faire des études, aller à l'université) et « изучать » + la matière (étudier le russe).",
+        "« Я учусь в университете » / « Я изучаю русский язык ». Attention : учусь, учишься, учится… ont un petit « -ся » à la fin."
+      ]
+    },
+    {
+      "by": "nina",
+      "fr": [
+        "Pour un métier qu'on veut faire : « быть » + le violet : « быть переводчиком », « быть врачом », « быть учителем ».",
+        "Mais au présent, toujours sans verbe : « я врач »."
+      ]
+    }
+  ],
+  "explore": {
+    "type": "person",
+    "speaker": "luka",
+    "verb": "учиться",
+    "frame": "___ {V} в университете.",
+    "frameFr": "___ étudier à l'université.",
+    "color": "#8e44ad",
+    "hintFr": "Change la personne et écoute la fin du verbe (avec -ся).",
+    "words": [
+      {
+        "tile": "я",
+        "formAcc": "уч+усь",
+        "fr": "je",
+        "phraseFr": "J'étudie à l'université."
+      },
+      {
+        "tile": "ты",
+        "formAcc": "уч+ишься",
+        "fr": "tu",
+        "phraseFr": "Tu étudies à l'université."
+      },
+      {
+        "tile": "она",
+        "formAcc": "уч+ится",
+        "fr": "elle",
+        "phraseFr": "Elle étudie à l'université."
+      },
+      {
+        "tile": "мы",
+        "formAcc": "уч+имся",
+        "fr": "nous",
+        "phraseFr": "Nous étudions à l'université."
+      },
+      {
+        "tile": "вы",
+        "formAcc": "уч+итесь",
+        "fr": "vous",
+        "phraseFr": "Vous étudiez à l'université."
+      },
+      {
+        "tile": "они",
+        "formAcc": "уч+атся",
+        "fr": "ils, elles",
+        "phraseFr": "Ils étudient à l'université."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "type": "pick",
+      "fr": "Dis : « Elle étudie à l'université. »",
+      "answer": "она"
+    },
+    {
+      "type": "pick",
+      "fr": "Dis : « Nous étudions à l'université. »",
+      "answer": "мы"
+    }
+  ],
+  "cando": [
+    "parler de tes études",
+    "dire quelle langue tu étudies",
+    "dire ce que tu veux devenir"
+  ],
+  "unlocks": [
+    {
+      "verb": "учиться",
+      "persons": [
+        "я",
+        "ты",
+        "он",
+        "мы",
+        "вы",
+        "они"
+      ]
+    }
+  ],
+  "glossary": {
+    "здравствуйте": "bonjour (poli)",
+    "тебе": "à toi",
+    "здесь": "ici",
+    "я": "je, moi",
+    "ты": "tu",
+    "вы": "vous",
+    "да": "oui",
+    "нет": "non",
+    "а": "et, mais",
+    "и": "et",
+    "это": "c'est, voici",
+    "не": "ne… pas",
+    "в": "dans, à",
+    "на": "sur, en",
+    "что": "quoi, que",
+    "как": "comment, comme",
+    "где": "où",
+    "очень": "très",
+    "спасибо": "merci",
+    "пожалуйста": "s'il te plaît / je t'en prie",
+    "хорошо": "bien, d'accord",
+    "привет": "salut",
+    "лука": "Luka (prénom)",
+    "маша": "Macha (prénom)",
+    "олег": "Oleg (prénom)",
+    "анна": "Anna (prénom)",
+    "у": "chez",
+    "меня": "moi (у меня = j'ai)",
+    "тебя": "toi (у тебя = tu as)",
+    "есть": "il y a",
+    "мой": "mon",
+    "моя": "ma",
+    "мне": "à moi",
+    "тоже": "aussi",
+    "сегодня": "aujourd'hui",
+    "завтра": "demain",
+    "вчера": "hier",
+    "потом": "puis, ensuite",
+    "давай": "allons-y, faisons",
+    "учишься": "(tu) étudies",
+    "учусь": "(j')étudie",
+    "учится": "(il, elle) étudie",
+    "учимся": "(nous) étudions",
+    "учитесь": "(vous) étudiez",
+    "учатся": "(ils) étudient",
+    "университете": "université (après в)",
+    "работаю": "(je) travaille",
+    "магазине": "magasin (après в)",
+    "магазин": "magasin",
+    "изучаешь": "(tu) étudies",
+    "изучаю": "(j')étudie",
+    "французский": "français (adj.)",
+    "французски": "(forme incomplète)",
+    "язык": "langue",
+    "языком": "langue (après с, быть)",
+    "правда": "vrai, vérité",
+    "русский": "russe",
+    "кем": "qui (après быть)",
+    "кто": "qui",
+    "хочешь": "(tu) veux",
+    "хочу": "(je) veux",
+    "быть": "être",
+    "переводчиком": "traducteur (après быть)",
+    "переводчик": "traducteur",
+    "она": "elle",
+    "мы": "nous",
+    "они": "ils, elles",
+    "нина": "Nina (prénom)"
+  },
+  "combos": [
+    {
+      "ru": "Я не хочу быть переводчиком.",
+      "fr": "Je ne veux pas être traducteur.",
+      "extra": [
+        "кем"
+      ]
+    },
+    {
+      "ru": "Моя сестра уч+ится в Париже.",
+      "fr": "Ma sœur étudie à Paris.",
+      "extra": [
+        "учусь"
+      ],
+      "orders": [
+        "моя сестра учится в париже",
+        "в париже учится моя сестра"
+      ]
+    },
+    {
+      "ru": "Я изучаю русский язык, а ты?",
+      "fr": "J'étudie le russe, et toi ?",
+      "extra": [
+        "изучаешь"
+      ]
+    }
+  ]
+}

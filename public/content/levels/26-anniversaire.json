@@ -1,0 +1,2097 @@
+{
+ "version": 2,
+ "id": "26-anniversaire",
+ "order": 26,
+ "titleFr": "Joyeux anniversaire !",
+ "titleRu": "С днём рождения!",
+ "emoji": "🎂",
+ "sceneFr": "Samedi, six heures. Les amis arrivent chez Luka pour son anniversaire.",
+ "learner": "luka",
+ "speakers": {
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  },
+  "anna": {
+   "name": "Анна",
+   "nameFr": "Anna",
+   "color": "#81b29a"
+  },
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
+  },
+  "oleg": {
+   "name": "Олег",
+   "nameFr": "Oleg",
+   "color": "#9a6fb0"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "anna",
+   "ru": "С днём рождения, Лука!",
+   "fr": "Joyeux anniversaire, Luka !",
+   "tokens": [
+    {
+     "t": "С",
+     "s": null,
+     "w": true,
+     "a": "37421d1ce7f3.mp3",
+     "l": "с"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "днём",
+     "s": 2,
+     "w": true,
+     "a": "1961c630ff19.mp3",
+     "l": "день"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "рождения",
+     "s": 4,
+     "w": true,
+     "a": "d6e29b5446bf.mp3",
+     "l": "рождение"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "37221d5b10dd.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Спасибо! Проходи!",
+   "fr": "Merci ! Entre !",
+   "tokens": [
+    {
+     "t": "Спасибо",
+     "s": 4,
+     "w": true,
+     "a": "84fecfa1b01c.mp3",
+     "l": "спасибо"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Проходи",
+     "s": 6,
+     "w": true,
+     "a": "87086763e838.mp3",
+     "l": "проходить"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "14a3f6deee3a.mp3"
+  },
+  {
+   "speaker": "anna",
+   "ru": "Это тебе подарок.",
+   "fr": "C'est un cadeau pour toi.",
+   "tokens": [
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тебе",
+     "s": 3,
+     "w": true,
+     "a": "801a217b6a9c.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "подарок",
+     "s": 3,
+     "w": true,
+     "a": "a876be054958.mp3",
+     "l": "подарок"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "9e2a5aaad397.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Какой красивый шарф! Спасибо!",
+   "fr": "Quelle belle écharpe ! Merci !",
+   "tokens": [
+    {
+     "t": "Какой",
+     "s": 3,
+     "w": true,
+     "a": "f2e47639aa1d.mp3",
+     "l": "какой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "красивый",
+     "s": 4,
+     "w": true,
+     "a": "9860d85e3802.mp3",
+     "l": "красивый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "шарф",
+     "s": 1,
+     "w": true,
+     "a": "40abecf70a7a.mp3",
+     "l": "шарф"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Спасибо",
+     "s": 4,
+     "w": true,
+     "a": "84fecfa1b01c.mp3",
+     "l": "спасибо"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "0ae8a05681a8.mp3"
+  },
+  {
+   "speaker": "oleg",
+   "ru": "Лука, сколько тебе лет?",
+   "fr": "Luka, quel âge as-tu ?",
+   "tokens": [
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "сколько",
+     "s": 2,
+     "w": true,
+     "a": "68f717ec536d.mp3",
+     "l": "сколько"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тебе",
+     "s": 3,
+     "w": true,
+     "a": "801a217b6a9c.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "лет",
+     "s": 1,
+     "w": true,
+     "a": "914659a5182f.mp3",
+     "l": "год"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "7c2d7339b1ce.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Мне двадцать пять лет.",
+   "fr": "J'ai vingt-cinq ans.",
+   "tokens": [
+    {
+     "t": "Мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "двадцать",
+     "s": 2,
+     "w": true,
+     "a": "027cae5adf6b.mp3",
+     "l": "двадцать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пять",
+     "s": 1,
+     "w": true,
+     "a": "c08ef4250ab4.mp3",
+     "l": "пять"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "лет",
+     "s": 1,
+     "w": true,
+     "a": "914659a5182f.mp3",
+     "l": "год"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "3c3d02b5d631.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "А мне тридцать. Я старше!",
+   "fr": "Et moi, trente. Je suis plus âgée !",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тридцать",
+     "s": 2,
+     "w": true,
+     "a": "ecc7802a4a1a.mp3",
+     "l": "тридцать"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "старше",
+     "s": 2,
+     "w": true,
+     "a": "3c142923ab5c.mp3",
+     "l": "старший"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "c91263498356.mp3"
+  },
+  {
+   "speaker": "oleg",
+   "ru": "Желаю тебе счастья и здоровья!",
+   "fr": "Je te souhaite du bonheur et la santé !",
+   "tokens": [
+    {
+     "t": "Желаю",
+     "s": 3,
+     "w": true,
+     "a": "5b474ed241c9.mp3",
+     "l": "желать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тебе",
+     "s": 3,
+     "w": true,
+     "a": "801a217b6a9c.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "счастья",
+     "s": 2,
+     "w": true,
+     "a": "9d712f37e103.mp3",
+     "l": "счастие"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "здоровья",
+     "s": 4,
+     "w": true,
+     "a": "8bd6295a731d.mp3",
+     "l": "здоровье"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "2e5b8c421748.mp3"
+  }
+ ],
+ "phrases": {
+  "happybd": {
+   "speaker": "anna",
+   "ru": "С днём рождения!",
+   "fr": "Joyeux anniversaire !",
+   "tokens": [
+    {
+     "t": "С",
+     "s": null,
+     "w": true,
+     "a": "37421d1ce7f3.mp3",
+     "l": "с"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "днём",
+     "s": 2,
+     "w": true,
+     "a": "1961c630ff19.mp3",
+     "l": "день"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "рождения",
+     "s": 4,
+     "w": true,
+     "a": "d6e29b5446bf.mp3",
+     "l": "рождение"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "96adefb84d39.mp3",
+   "id": "happybd",
+   "noteFr": "Comme « с Новым годом », avec « с ». Mot à mot : « avec le jour de naissance ! ».",
+   "gap": {
+    "index": 2,
+    "whyFr": "Après « с » : « с днём рождения ». Retiens-le tel quel, comme « с Новым годом ».",
+    "distractors": [
+     {
+      "t": "день",
+      "a": "f0d5c469ba4e.mp3",
+      "s": 1
+     },
+     {
+      "t": "подарок",
+      "a": "a876be054958.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "enter": {
+   "speaker": "luka",
+   "ru": "Спасибо! Проходи!",
+   "fr": "Merci ! Entre !",
+   "tokens": [
+    {
+     "t": "Спасибо",
+     "s": 4,
+     "w": true,
+     "a": "84fecfa1b01c.mp3",
+     "l": "спасибо"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Проходи",
+     "s": 6,
+     "w": true,
+     "a": "87086763e838.mp3",
+     "l": "проходить"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "14a3f6deee3a.mp3",
+   "id": "enter",
+   "noteFr": "« Проходи ! » = entre ! (à « ты »). Anton disait « проходите » (à « вы »).",
+   "gap": {
+    "index": 2,
+    "whyFr": "Anna est une amie : on la tutoie, « проходи ». « Проходите », c'est pour « вы ».",
+    "distractors": [
+     {
+      "t": "проходите",
+      "a": "1495417147c3.mp3",
+      "s": 6
+     },
+     {
+      "t": "лет",
+      "a": "914659a5182f.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "present": {
+   "speaker": "anna",
+   "ru": "Это тебе подарок.",
+   "fr": "C'est un cadeau pour toi.",
+   "tokens": [
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тебе",
+     "s": 3,
+     "w": true,
+     "a": "801a217b6a9c.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "подарок",
+     "s": 3,
+     "w": true,
+     "a": "a876be054958.mp3",
+     "l": "подарок"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "9e2a5aaad397.mp3",
+   "id": "present",
+   "noteFr": "« Подарок » = cadeau. « Тебе » = à toi, pour toi.",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "лет",
+      "a": "914659a5182f.mp3",
+      "s": 1
+     },
+     {
+      "t": "желаю",
+      "a": "5b474ed241c9.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "scarf": {
+   "speaker": "luka",
+   "ru": "Какой красивый шарф!",
+   "fr": "Quelle belle écharpe !",
+   "tokens": [
+    {
+     "t": "Какой",
+     "s": 3,
+     "w": true,
+     "a": "f2e47639aa1d.mp3",
+     "l": "какой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "красивый",
+     "s": 4,
+     "w": true,
+     "a": "9860d85e3802.mp3",
+     "l": "красивый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "шарф",
+     "s": 1,
+     "w": true,
+     "a": "40abecf70a7a.mp3",
+     "l": "шарф"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "96f1ef8743e9.mp3",
+   "id": "scarf",
+   "noteFr": "« Шарф » est masculin : « какой красивый ».",
+   "gap": {
+    "index": 0,
+    "whyFr": "« Шарф » est masculin : « какой » (-ой). « Какая », c'est pour un mot féminin.",
+    "distractors": [
+     {
+      "t": "какая",
+      "a": "1cdce61f032f.mp3",
+      "s": 3
+     },
+     {
+      "t": "сколько",
+      "a": "68f717ec536d.mp3",
+      "s": 2
+     }
+    ]
+   },
+   "orders": [
+    "какой красивый шарф"
+   ]
+  },
+  "age": {
+   "speaker": "oleg",
+   "ru": "Лука, сколько тебе лет?",
+   "fr": "Luka, quel âge as-tu ?",
+   "tokens": [
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "сколько",
+     "s": 2,
+     "w": true,
+     "a": "68f717ec536d.mp3",
+     "l": "сколько"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тебе",
+     "s": 3,
+     "w": true,
+     "a": "801a217b6a9c.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "лет",
+     "s": 1,
+     "w": true,
+     "a": "914659a5182f.mp3",
+     "l": "год"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "7c2d7339b1ce.mp3",
+   "id": "age",
+   "noteFr": "Mot à mot : « combien à toi d'années ? ». L'âge se dit avec « мне / тебе ».",
+   "gap": {
+    "index": 4,
+    "whyFr": "Pour l'âge : « тебе » (à toi). « Тебя » sert dans « у тебя ».",
+    "distractors": [
+     {
+      "t": "тебя",
+      "a": "a677bbe7ebdf.mp3",
+      "s": 3
+     },
+     {
+      "t": "меня",
+      "a": "2e3dc1afb7c3.mp3",
+      "s": 3
+     }
+    ]
+   },
+   "orders": [
+    "лука сколько тебе лет"
+   ]
+  },
+  "twentyfive": {
+   "speaker": "luka",
+   "ru": "Мне двадцать пять лет.",
+   "fr": "J'ai vingt-cinq ans.",
+   "tokens": [
+    {
+     "t": "Мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "двадцать",
+     "s": 2,
+     "w": true,
+     "a": "027cae5adf6b.mp3",
+     "l": "двадцать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пять",
+     "s": 1,
+     "w": true,
+     "a": "c08ef4250ab4.mp3",
+     "l": "пять"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "лет",
+     "s": 1,
+     "w": true,
+     "a": "914659a5182f.mp3",
+     "l": "год"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "3c3d02b5d631.mp3",
+   "id": "twentyfive",
+   "noteFr": "« Мне … лет » = j'ai … ans. Mot à mot : « à moi vingt-cinq années ».",
+   "gap": {
+    "index": 0,
+    "whyFr": "Pour son âge : « мне » (à moi). Pas « у меня » ici !",
+    "distractors": [
+     {
+      "t": "меня",
+      "a": "2e3dc1afb7c3.mp3",
+      "s": 3
+     },
+     {
+      "t": "тебя",
+      "a": "a677bbe7ebdf.mp3",
+      "s": 3
+     }
+    ]
+   },
+   "orders": [
+    "мне двадцать пять лет"
+   ]
+  },
+  "older": {
+   "speaker": "masha",
+   "ru": "А мне тридцать. Я старше!",
+   "fr": "Et moi, trente. Je suis plus âgée !",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тридцать",
+     "s": 2,
+     "w": true,
+     "a": "ecc7802a4a1a.mp3",
+     "l": "тридцать"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "старше",
+     "s": 2,
+     "w": true,
+     "a": "3c142923ab5c.mp3",
+     "l": "старший"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "c91263498356.mp3",
+   "id": "older",
+   "noteFr": "« Старше » = plus âgé(e).",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "желаю",
+      "a": "5b474ed241c9.mp3",
+      "s": 3
+     },
+     {
+      "t": "лет",
+      "a": "914659a5182f.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "wish": {
+   "speaker": "oleg",
+   "ru": "Желаю тебе счастья и здоровья!",
+   "fr": "Je te souhaite du bonheur et la santé !",
+   "tokens": [
+    {
+     "t": "Желаю",
+     "s": 3,
+     "w": true,
+     "a": "5b474ed241c9.mp3",
+     "l": "желать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тебе",
+     "s": 3,
+     "w": true,
+     "a": "801a217b6a9c.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "счастья",
+     "s": 2,
+     "w": true,
+     "a": "9d712f37e103.mp3",
+     "l": "счастие"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "здоровья",
+     "s": 4,
+     "w": true,
+     "a": "8bd6295a731d.mp3",
+     "l": "здоровье"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "2e5b8c421748.mp3",
+   "id": "wish",
+   "noteFr": "« Желаю тебе… » = je te souhaite… La formule de tous les anniversaires russes.",
+   "gap": {
+    "index": 0,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "подарок",
+      "a": "a876be054958.mp3",
+      "s": 3
+     },
+     {
+      "t": "лет",
+      "a": "914659a5182f.mp3",
+      "s": 1
+     }
+    ]
+   }
+  },
+  "c1": {
+   "speaker": "luka",
+   "ru": "Какой красивый подарок!",
+   "fr": "Quel beau cadeau !",
+   "tokens": [
+    {
+     "t": "Какой",
+     "s": 3,
+     "w": true,
+     "a": "f2e47639aa1d.mp3",
+     "l": "какой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "красивый",
+     "s": 4,
+     "w": true,
+     "a": "9860d85e3802.mp3",
+     "l": "красивый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "подарок",
+     "s": 3,
+     "w": true,
+     "a": "a876be054958.mp3",
+     "l": "подарок"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "5419e3eaef88.mp3",
+   "id": "c1",
+   "noteFr": "",
+   "orders": [
+    "какой красивый подарок"
+   ],
+   "combo": {
+    "from": [
+     "Joyeux anniversaire !",
+     "Bienvenue à Moscou"
+    ],
+    "extra": [
+     {
+      "t": "какая",
+      "a": "1cdce61f032f.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "c2": {
+   "speaker": "luka",
+   "ru": "Сколько тебе лет? Мне сорок лет.",
+   "fr": "Quel âge as-tu ? J'ai quarante ans.",
+   "tokens": [
+    {
+     "t": "Сколько",
+     "s": 2,
+     "w": true,
+     "a": "68f717ec536d.mp3",
+     "l": "сколько"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тебе",
+     "s": 3,
+     "w": true,
+     "a": "801a217b6a9c.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "лет",
+     "s": 1,
+     "w": true,
+     "a": "914659a5182f.mp3",
+     "l": "год"
+    },
+    {
+     "t": "? ",
+     "w": false
+    },
+    {
+     "t": "Мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сорок",
+     "s": 1,
+     "w": true,
+     "a": "66c3cc3abc21.mp3",
+     "l": "сорок"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "лет",
+     "s": 1,
+     "w": true,
+     "a": "914659a5182f.mp3",
+     "l": "год"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "4b9e8714ed7c.mp3",
+   "id": "c2",
+   "noteFr": "",
+   "orders": [
+    "сколько тебе лет мне сорок лет"
+   ],
+   "combo": {
+    "from": [
+     "Au magasin",
+     "Ça te plaît ?",
+     "Joyeux anniversaire !",
+     "Je suis malade"
+    ],
+    "extra": [
+     {
+      "t": "меня",
+      "a": "2e3dc1afb7c3.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "c3": {
+   "speaker": "luka",
+   "ru": "Мне двадцать лет, а тебе?",
+   "fr": "J'ai vingt ans, et toi ?",
+   "tokens": [
+    {
+     "t": "Мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "двадцать",
+     "s": 2,
+     "w": true,
+     "a": "027cae5adf6b.mp3",
+     "l": "двадцать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "лет",
+     "s": 1,
+     "w": true,
+     "a": "914659a5182f.mp3",
+     "l": "год"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "а",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тебе",
+     "s": 3,
+     "w": true,
+     "a": "801a217b6a9c.mp3",
+     "l": "ты"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "a831a8b92278.mp3",
+   "id": "c3",
+   "noteFr": "",
+   "orders": [
+    "мне двадцать лет а тебе"
+   ],
+   "combo": {
+    "from": [
+     "Je suis malade",
+     "Prendre le métro",
+     "Joyeux anniversaire !",
+     "Se présenter",
+     "Ça te plaît ?"
+    ],
+    "extra": [
+     {
+      "t": "меня",
+      "a": "2e3dc1afb7c3.mp3",
+      "s": 3
+     }
+    ]
+   }
+  }
+ },
+ "parts": [
+  {
+   "titleFr": "Les invités",
+   "steps": [
+    {
+     "type": "scene"
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "happybd",
+      "enter"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "present",
+      "scarf"
+     ],
+     "review": [
+      "happybd"
+     ]
+    },
+    {
+     "type": "insight",
+     "index": 1
+    }
+   ]
+  },
+  {
+   "titleFr": "L'âge",
+   "steps": [
+    {
+     "type": "warmup",
+     "phrases": [
+      "happybd",
+      "present",
+      "scarf"
+     ]
+    },
+    {
+     "type": "explore"
+    },
+    {
+     "type": "insight",
+     "index": 0
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "age",
+      "twentyfive"
+     ],
+     "review": [
+      "present"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "older",
+      "wish"
+     ],
+     "review": [
+      "age",
+      "twentyfive"
+     ]
+    },
+    {
+     "type": "combine",
+     "phrases": [
+      "c1",
+      "c2",
+      "c3"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Joue la scène",
+   "steps": [
+    {
+     "type": "final"
+    },
+    {
+     "type": "roleplay"
+    }
+   ]
+  }
+ ],
+ "insights": [
+  {
+   "by": "oleg",
+   "fr": [
+    "Pour l'âge, le russe dit « à moi … années » : « мне двадцать лет » (j'ai vingt ans), « тебе тридцать лет ».",
+    "Le mot « ans » change : « двадцать лет », mais « двадцать один год », « двадцать два года ». On t'a appris le plus simple : 20, 25, 30… → « лет »."
+   ]
+  },
+  {
+   "by": "anna",
+   "fr": [
+    "Les formules de fête commencent par « с » : « С днём рождения ! », « С Новым годом ! ».",
+    "Et pour souhaiter : « Желаю тебе счастья ! » (je te souhaite du bonheur)."
+   ]
+  }
+ ],
+ "explore": {
+  "type": "plain",
+  "frameFr": "J'ai ___ ans.",
+  "color": "#5c677d",
+  "hintFr": "Mets chaque âge dans la phrase et écoute.",
+  "before": [
+   {
+    "t": "Мне",
+    "s": 2,
+    "w": true,
+    "a": "f7ae2aa9215e.mp3",
+    "l": "я"
+   },
+   {
+    "t": " ",
+    "w": false
+   }
+  ],
+  "after": [
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "лет",
+    "s": 1,
+    "w": true,
+    "a": "914659a5182f.mp3",
+    "l": "год"
+   },
+   {
+    "t": ".",
+    "w": false
+   }
+  ],
+  "verb": null,
+  "words": [
+   {
+    "tile": "двадцать",
+    "tileStress": 2,
+    "fr": "vingt",
+    "phraseFr": "J'ai vingt ans.",
+    "phrase": "Мне двадцать лет.",
+    "morph": {
+     "from": "двадцать",
+     "to": "двадцать",
+     "stem": "двадцать",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": false
+    },
+    "audioTile": "027cae5adf6b.mp3",
+    "audioPhrase": "12f91c0c63ec.mp3"
+   },
+   {
+    "tile": "тридцать",
+    "tileStress": 2,
+    "fr": "trente",
+    "phraseFr": "J'ai trente ans.",
+    "phrase": "Мне тридцать лет.",
+    "morph": {
+     "from": "тридцать",
+     "to": "тридцать",
+     "stem": "тридцать",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": false
+    },
+    "audioTile": "ecc7802a4a1a.mp3",
+    "audioPhrase": "a8ca1f97d6ba.mp3"
+   },
+   {
+    "tile": "сорок",
+    "tileStress": 3,
+    "fr": "quarante",
+    "phraseFr": "J'ai quarante ans.",
+    "phrase": "Мне сорок лет.",
+    "morph": {
+     "from": "сорок",
+     "to": "сорок",
+     "stem": "сорок",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 3,
+     "stressTo": 1,
+     "changed": false
+    },
+    "audioTile": "e669fa43e7c6.mp3",
+    "audioPhrase": "94c8d738737a.mp3"
+   },
+   {
+    "tile": "пятьдесят",
+    "tileStress": 7,
+    "fr": "cinquante",
+    "phraseFr": "J'ai cinquante ans.",
+    "phrase": "Мне пятьдесят лет.",
+    "morph": {
+     "from": "пятьдесят",
+     "to": "пятьдесят",
+     "stem": "пятьдесят",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 7,
+     "stressTo": 7,
+     "changed": false
+    },
+    "audioTile": "8376ec927b91.mp3",
+    "audioPhrase": "0995a0d9c88e.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Dis : « J'ai quarante ans. »",
+   "answer": "сорок"
+  },
+  {
+   "type": "pick",
+   "fr": "Dis : « J'ai vingt ans. »",
+   "answer": "двадцать"
+  }
+ ],
+ "grammar": [
+  "а мне тридцать я старше",
+  "желаю тебе счастья и здоровья",
+  "какой красивый подарок",
+  "какой красивый шарф",
+  "какой красивый шарф спасибо",
+  "лука сколько тебе лет",
+  "мне двадцать лет а тебе",
+  "мне двадцать пять лет",
+  "с днём рождения",
+  "с днём рождения лука",
+  "сколько тебе лет мне сорок лет",
+  "спасибо проходи",
+  "это тебе подарок",
+  "[unk]"
+ ],
+ "cando": [
+  "souhaiter un joyeux anniversaire",
+  "dire ton âge",
+  "remercier pour un cadeau"
+ ],
+ "glossary": {
+  "здравствуйте": "bonjour (poli)",
+  "тебе": "à toi",
+  "здесь": "ici",
+  "я": "je, moi",
+  "ты": "tu",
+  "вы": "vous",
+  "да": "oui",
+  "нет": "non",
+  "а": "et, mais",
+  "и": "et",
+  "это": "c'est, voici",
+  "не": "ne… pas",
+  "в": "dans, à",
+  "на": "sur, en",
+  "что": "quoi, que",
+  "как": "comment, comme",
+  "где": "où",
+  "очень": "très",
+  "спасибо": "merci",
+  "пожалуйста": "s'il te plaît / je t'en prie",
+  "хорошо": "bien, d'accord",
+  "привет": "salut",
+  "лука": "Luka (prénom)",
+  "маша": "Macha (prénom)",
+  "олег": "Oleg (prénom)",
+  "анна": "Anna (prénom)",
+  "у": "chez",
+  "меня": "moi (у меня = j'ai)",
+  "тебя": "toi (у тебя = tu as)",
+  "есть": "il y a",
+  "мой": "mon",
+  "моя": "ma",
+  "мне": "à moi",
+  "тоже": "aussi",
+  "сегодня": "aujourd'hui",
+  "завтра": "demain",
+  "вчера": "hier",
+  "потом": "puis, ensuite",
+  "давай": "allons-y, faisons",
+  "с": "avec",
+  "днем": "jour (с днём рождения = joyeux anniversaire)",
+  "день": "jour",
+  "рождения": "naissance",
+  "проходи": "entre !",
+  "проходите": "entrez !",
+  "подарок": "cadeau",
+  "какой": "quel",
+  "какая": "quelle",
+  "красивый": "beau",
+  "шарф": "écharpe",
+  "сколько": "combien",
+  "лет": "ans",
+  "двадцать": "vingt",
+  "пять": "cinq",
+  "тридцать": "trente",
+  "старше": "plus âgé(e)",
+  "желаю": "(je) souhaite",
+  "счастья": "bonheur",
+  "здоровья": "santé",
+  "сорок": "quarante",
+  "пятьдесят": "cinquante"
+ },
+ "unlocks": [],
+ "items": [
+  {
+   "id": "26-anniversaire:happybd",
+   "ru": "С днём рождения!",
+   "fr": "Joyeux anniversaire !",
+   "tokens": [
+    {
+     "t": "С",
+     "s": null,
+     "w": true,
+     "a": "37421d1ce7f3.mp3",
+     "l": "с"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "днём",
+     "s": 2,
+     "w": true,
+     "a": "1961c630ff19.mp3",
+     "l": "день"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "рождения",
+     "s": 4,
+     "w": true,
+     "a": "d6e29b5446bf.mp3",
+     "l": "рождение"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "96adefb84d39.mp3"
+  },
+  {
+   "id": "26-anniversaire:enter",
+   "ru": "Спасибо! Проходи!",
+   "fr": "Merci ! Entre !",
+   "tokens": [
+    {
+     "t": "Спасибо",
+     "s": 4,
+     "w": true,
+     "a": "84fecfa1b01c.mp3",
+     "l": "спасибо"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Проходи",
+     "s": 6,
+     "w": true,
+     "a": "87086763e838.mp3",
+     "l": "проходить"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "14a3f6deee3a.mp3"
+  },
+  {
+   "id": "26-anniversaire:present",
+   "ru": "Это тебе подарок.",
+   "fr": "C'est un cadeau pour toi.",
+   "tokens": [
+    {
+     "t": "Это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тебе",
+     "s": 3,
+     "w": true,
+     "a": "801a217b6a9c.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "подарок",
+     "s": 3,
+     "w": true,
+     "a": "a876be054958.mp3",
+     "l": "подарок"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "9e2a5aaad397.mp3"
+  },
+  {
+   "id": "26-anniversaire:scarf",
+   "ru": "Какой красивый шарф!",
+   "fr": "Quelle belle écharpe !",
+   "tokens": [
+    {
+     "t": "Какой",
+     "s": 3,
+     "w": true,
+     "a": "f2e47639aa1d.mp3",
+     "l": "какой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "красивый",
+     "s": 4,
+     "w": true,
+     "a": "9860d85e3802.mp3",
+     "l": "красивый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "шарф",
+     "s": 1,
+     "w": true,
+     "a": "40abecf70a7a.mp3",
+     "l": "шарф"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "96f1ef8743e9.mp3"
+  },
+  {
+   "id": "26-anniversaire:age",
+   "ru": "Лука, сколько тебе лет?",
+   "fr": "Luka, quel âge as-tu ?",
+   "tokens": [
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "сколько",
+     "s": 2,
+     "w": true,
+     "a": "68f717ec536d.mp3",
+     "l": "сколько"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тебе",
+     "s": 3,
+     "w": true,
+     "a": "801a217b6a9c.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "лет",
+     "s": 1,
+     "w": true,
+     "a": "914659a5182f.mp3",
+     "l": "год"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "7c2d7339b1ce.mp3"
+  },
+  {
+   "id": "26-anniversaire:twentyfive",
+   "ru": "Мне двадцать пять лет.",
+   "fr": "J'ai vingt-cinq ans.",
+   "tokens": [
+    {
+     "t": "Мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "двадцать",
+     "s": 2,
+     "w": true,
+     "a": "027cae5adf6b.mp3",
+     "l": "двадцать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пять",
+     "s": 1,
+     "w": true,
+     "a": "c08ef4250ab4.mp3",
+     "l": "пять"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "лет",
+     "s": 1,
+     "w": true,
+     "a": "914659a5182f.mp3",
+     "l": "год"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "3c3d02b5d631.mp3"
+  },
+  {
+   "id": "26-anniversaire:older",
+   "ru": "А мне тридцать. Я старше!",
+   "fr": "Et moi, trente. Je suis plus âgée !",
+   "tokens": [
+    {
+     "t": "А",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тридцать",
+     "s": 2,
+     "w": true,
+     "a": "ecc7802a4a1a.mp3",
+     "l": "тридцать"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "старше",
+     "s": 2,
+     "w": true,
+     "a": "3c142923ab5c.mp3",
+     "l": "старший"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "c91263498356.mp3"
+  },
+  {
+   "id": "26-anniversaire:wish",
+   "ru": "Желаю тебе счастья и здоровья!",
+   "fr": "Je te souhaite du bonheur et la santé !",
+   "tokens": [
+    {
+     "t": "Желаю",
+     "s": 3,
+     "w": true,
+     "a": "5b474ed241c9.mp3",
+     "l": "желать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тебе",
+     "s": 3,
+     "w": true,
+     "a": "801a217b6a9c.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "счастья",
+     "s": 2,
+     "w": true,
+     "a": "9d712f37e103.mp3",
+     "l": "счастие"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "здоровья",
+     "s": 4,
+     "w": true,
+     "a": "8bd6295a731d.mp3",
+     "l": "здоровье"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "2e5b8c421748.mp3"
+  },
+  {
+   "id": "26-anniversaire:c1",
+   "ru": "Какой красивый подарок!",
+   "fr": "Quel beau cadeau !",
+   "tokens": [
+    {
+     "t": "Какой",
+     "s": 3,
+     "w": true,
+     "a": "f2e47639aa1d.mp3",
+     "l": "какой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "красивый",
+     "s": 4,
+     "w": true,
+     "a": "9860d85e3802.mp3",
+     "l": "красивый"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "подарок",
+     "s": 3,
+     "w": true,
+     "a": "a876be054958.mp3",
+     "l": "подарок"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "5419e3eaef88.mp3"
+  },
+  {
+   "id": "26-anniversaire:c2",
+   "ru": "Сколько тебе лет? Мне сорок лет.",
+   "fr": "Quel âge as-tu ? J'ai quarante ans.",
+   "tokens": [
+    {
+     "t": "Сколько",
+     "s": 2,
+     "w": true,
+     "a": "68f717ec536d.mp3",
+     "l": "сколько"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тебе",
+     "s": 3,
+     "w": true,
+     "a": "801a217b6a9c.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "лет",
+     "s": 1,
+     "w": true,
+     "a": "914659a5182f.mp3",
+     "l": "год"
+    },
+    {
+     "t": "? ",
+     "w": false
+    },
+    {
+     "t": "Мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сорок",
+     "s": 1,
+     "w": true,
+     "a": "66c3cc3abc21.mp3",
+     "l": "сорок"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "лет",
+     "s": 1,
+     "w": true,
+     "a": "914659a5182f.mp3",
+     "l": "год"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "4b9e8714ed7c.mp3"
+  },
+  {
+   "id": "26-anniversaire:c3",
+   "ru": "Мне двадцать лет, а тебе?",
+   "fr": "J'ai vingt ans, et toi ?",
+   "tokens": [
+    {
+     "t": "Мне",
+     "s": 2,
+     "w": true,
+     "a": "f7ae2aa9215e.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "двадцать",
+     "s": 2,
+     "w": true,
+     "a": "027cae5adf6b.mp3",
+     "l": "двадцать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "лет",
+     "s": 1,
+     "w": true,
+     "a": "914659a5182f.mp3",
+     "l": "год"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "а",
+     "s": 0,
+     "w": true,
+     "a": "1cf82fa4439c.mp3",
+     "l": "а"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "тебе",
+     "s": 3,
+     "w": true,
+     "a": "801a217b6a9c.mp3",
+     "l": "ты"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "a831a8b92278.mp3"
+  }
+ ],
+ "hasAudio": false
+}

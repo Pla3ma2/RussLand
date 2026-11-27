@@ -1,0 +1,2560 @@
+{
+ "version": 2,
+ "id": "30-julie",
+ "order": 30,
+ "titleFr": "Julie arrive !",
+ "titleRu": "Жюли приехала!",
+ "emoji": "🌷",
+ "sceneFr": "Au printemps, Julie, la sœur de Luka, vient le voir à Saint-Pétersbourg. Elle ne parle pas russe : Luka traduit !",
+ "learner": "luka",
+ "speakers": {
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
+  },
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  }
+ },
+ "dialogue": [
+  {
+   "speaker": "luka",
+   "ru": "Маша, познакомься: это моя сестра Жюли.",
+   "fr": "Macha, je te présente ma sœur Julie.",
+   "tokens": [
+    {
+     "t": "Маша",
+     "s": 1,
+     "w": true,
+     "a": "db2f8c7ea687.mp3",
+     "l": "маша"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "познакомься",
+     "s": 6,
+     "w": true,
+     "a": "c03433d6c5a1.mp3",
+     "l": "познакомиться"
+    },
+    {
+     "t": ": ",
+     "w": false
+    },
+    {
+     "t": "это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "моя",
+     "s": 2,
+     "w": true,
+     "a": "256d62a930d9.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сестра",
+     "s": 5,
+     "w": true,
+     "a": "76ae2fd8219b.mp3",
+     "l": "сестра"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Жюли",
+     "s": 1,
+     "w": true,
+     "a": "966d580ffaa0.mp3",
+     "l": "жюли"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "c400040e3ed9.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Очень приятно! Добро пожаловать в Петербург!",
+   "fr": "Enchantée ! Bienvenue à Saint-Pétersbourg !",
+   "tokens": [
+    {
+     "t": "Очень",
+     "s": 0,
+     "w": true,
+     "a": "c94f0362a664.mp3",
+     "l": "очень"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "приятно",
+     "s": 3,
+     "w": true,
+     "a": "5728d5aa0fde.mp3",
+     "l": "приятно"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Добро",
+     "s": 4,
+     "w": true,
+     "a": "6d662a4c13ce.mp3",
+     "l": "добро"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пожаловать",
+     "s": 3,
+     "w": true,
+     "a": "38c1b0c1cbbf.mp3",
+     "l": "пожаловать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Петербург",
+     "s": 6,
+     "w": true,
+     "a": "51030830758b.mp3",
+     "l": "петербург"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "02fbea071608.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Она не говорит по-русски. Я переведу.",
+   "fr": "Elle ne parle pas russe. Je vais traduire.",
+   "tokens": [
+    {
+     "t": "Она",
+     "s": 2,
+     "w": true,
+     "a": "bd63622a7f54.mp3",
+     "l": "она"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говорит",
+     "s": 5,
+     "w": true,
+     "a": "f6e27065d9f5.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-русски",
+     "s": 4,
+     "w": true,
+     "a": "1875ccbd5a57.mp3",
+     "l": "по-русски"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "переведу",
+     "s": 7,
+     "w": true,
+     "a": "de881a113b12.mp3",
+     "l": "перевести"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "fbec65413979.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Лука, ты так хорошо говоришь по-русски!",
+   "fr": "Luka, tu parles si bien russe !",
+   "tokens": [
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "так",
+     "s": 1,
+     "w": true,
+     "a": "4b4a256e0d11.mp3",
+     "l": "так"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говоришь",
+     "s": 5,
+     "w": true,
+     "a": "7e8a5711a5f1.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-русски",
+     "s": 4,
+     "w": true,
+     "a": "1875ccbd5a57.mp3",
+     "l": "по-русски"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "f08bc3e30df6.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Спасибо! Я много учился.",
+   "fr": "Merci ! J'ai beaucoup étudié.",
+   "tokens": [
+    {
+     "t": "Спасибо",
+     "s": 4,
+     "w": true,
+     "a": "84fecfa1b01c.mp3",
+     "l": "спасибо"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "много",
+     "s": 2,
+     "w": true,
+     "a": "88001b1a224c.mp3",
+     "l": "много"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "учился",
+     "s": 2,
+     "w": true,
+     "a": "e77bf28254e9.mp3",
+     "l": "учиться"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "7b2043ebd969.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Что вы хотите посмотреть в Петербурге?",
+   "fr": "Qu'est-ce que vous voulez voir à Saint-Pétersbourg ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вы",
+     "s": 1,
+     "w": true,
+     "a": "8b7efd6df007.mp3",
+     "l": "вы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хотите",
+     "s": 3,
+     "w": true,
+     "a": "ddec86766e69.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "посмотреть",
+     "s": 7,
+     "w": true,
+     "a": "f8a27dac0262.mp3",
+     "l": "посмотреть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Петербурге",
+     "s": 6,
+     "w": true,
+     "a": "b6acec023825.mp3",
+     "l": "петербург"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "86767d24ba7e.mp3"
+  },
+  {
+   "speaker": "luka",
+   "ru": "Эрмитаж, Неву и, конечно, наше кафе!",
+   "fr": "L'Ermitage, la Neva et, bien sûr, notre café !",
+   "tokens": [
+    {
+     "t": "Эрмитаж",
+     "s": 5,
+     "w": true,
+     "a": "63e31099f131.mp3",
+     "l": "эрмитаж"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Неву",
+     "s": 3,
+     "w": true,
+     "a": "20425e9143a1.mp3",
+     "l": "нева"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "конечно",
+     "s": 3,
+     "w": true,
+     "a": "4df928ed05d6.mp3",
+     "l": "конечно"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "наше",
+     "s": 1,
+     "w": true,
+     "a": "6e98ac8cbbfb.mp3",
+     "l": "наш"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кафе",
+     "s": 3,
+     "w": true,
+     "a": "d700d700529b.mp3",
+     "l": "кафе"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "d37b974c24fc.mp3"
+  },
+  {
+   "speaker": "masha",
+   "ru": "Отлично! Пойдём вместе!",
+   "fr": "Parfait ! Allons-y ensemble !",
+   "tokens": [
+    {
+     "t": "Отлично",
+     "s": 3,
+     "w": true,
+     "a": "1b0c3f2d1ffd.mp3",
+     "l": "отлично"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Пойдём",
+     "s": 4,
+     "w": true,
+     "a": "634858b1744b.mp3",
+     "l": "пойти"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вместе",
+     "s": 2,
+     "w": true,
+     "a": "e5a876ba584b.mp3",
+     "l": "вместе"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "84ddedf77991.mp3"
+  }
+ ],
+ "phrases": {
+  "meet": {
+   "speaker": "luka",
+   "ru": "Маша, познакомься: это моя сестра Жюли.",
+   "fr": "Macha, je te présente ma sœur Julie.",
+   "tokens": [
+    {
+     "t": "Маша",
+     "s": 1,
+     "w": true,
+     "a": "db2f8c7ea687.mp3",
+     "l": "маша"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "познакомься",
+     "s": 6,
+     "w": true,
+     "a": "c03433d6c5a1.mp3",
+     "l": "познакомиться"
+    },
+    {
+     "t": ": ",
+     "w": false
+    },
+    {
+     "t": "это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "моя",
+     "s": 2,
+     "w": true,
+     "a": "256d62a930d9.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сестра",
+     "s": 5,
+     "w": true,
+     "a": "76ae2fd8219b.mp3",
+     "l": "сестра"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Жюли",
+     "s": 1,
+     "w": true,
+     "a": "966d580ffaa0.mp3",
+     "l": "жюли"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "c400040e3ed9.mp3",
+   "id": "meet",
+   "noteFr": "« Познакомься » = fais connaissance (à « ты »). La façon normale de présenter quelqu'un.",
+   "gap": {
+    "index": 8,
+    "whyFr": "On présente : forme de base « сестра ». « Сестры », c'est après « нет ».",
+    "distractors": [
+     {
+      "t": "сестры",
+      "a": "715011f8be36.mp3",
+      "s": 1
+     },
+     {
+      "t": "брат",
+      "a": "f2dad5bf24ef.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "welcome": {
+   "speaker": "masha",
+   "ru": "Добро пожаловать в Петербург!",
+   "fr": "Bienvenue à Saint-Pétersbourg !",
+   "tokens": [
+    {
+     "t": "Добро",
+     "s": 4,
+     "w": true,
+     "a": "6d662a4c13ce.mp3",
+     "l": "добро"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пожаловать",
+     "s": 3,
+     "w": true,
+     "a": "38c1b0c1cbbf.mp3",
+     "l": "пожаловать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Петербург",
+     "s": 6,
+     "w": true,
+     "a": "51030830758b.mp3",
+     "l": "петербург"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "ee535f0f3931.mp3",
+   "id": "welcome",
+   "noteFr": "Tu l'as entendu à Moscou ! « В Петербург » : on y arrive (sans -е).",
+   "gap": {
+    "index": 6,
+    "whyFr": "On y arrive : « в Петербург » (forme de base pour un masculin). « В Петербурге », c'est quand on y est.",
+    "distractors": [
+     {
+      "t": "петербурге",
+      "a": "b6acec023825.mp3",
+      "s": 6
+     },
+     {
+      "t": "москве",
+      "a": "93a66821e1ad.mp3",
+      "s": 5
+     }
+    ]
+   }
+  },
+  "translate": {
+   "speaker": "luka",
+   "ru": "Она не говорит по-русски. Я переведу.",
+   "fr": "Elle ne parle pas russe. Je vais traduire.",
+   "tokens": [
+    {
+     "t": "Она",
+     "s": 2,
+     "w": true,
+     "a": "bd63622a7f54.mp3",
+     "l": "она"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говорит",
+     "s": 5,
+     "w": true,
+     "a": "f6e27065d9f5.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-русски",
+     "s": 4,
+     "w": true,
+     "a": "1875ccbd5a57.mp3",
+     "l": "по-русски"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "переведу",
+     "s": 7,
+     "w": true,
+     "a": "de881a113b12.mp3",
+     "l": "перевести"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "fbec65413979.mp3",
+   "id": "translate",
+   "noteFr": "« Она говорит » = elle parle. « Я переведу » = je traduirai.",
+   "gap": {
+    "index": 4,
+    "whyFr": "Avec « она » : « говорит » (-ит).",
+    "distractors": [
+     {
+      "t": "говорю",
+      "a": "7060cf7cbf69.mp3",
+      "s": 5
+     },
+     {
+      "t": "говоришь",
+      "a": "7e8a5711a5f1.mp3",
+      "s": 5
+     }
+    ]
+   }
+  },
+  "sowell": {
+   "speaker": "masha",
+   "ru": "Лука, ты так хорошо говоришь по-русски!",
+   "fr": "Luka, tu parles si bien russe !",
+   "tokens": [
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "так",
+     "s": 1,
+     "w": true,
+     "a": "4b4a256e0d11.mp3",
+     "l": "так"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говоришь",
+     "s": 5,
+     "w": true,
+     "a": "7e8a5711a5f1.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-русски",
+     "s": 4,
+     "w": true,
+     "a": "1875ccbd5a57.mp3",
+     "l": "по-русски"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "f08bc3e30df6.mp3",
+   "id": "sowell",
+   "noteFr": "« Так » = si, tellement.",
+   "gap": {
+    "index": 8,
+    "whyFr": "Avec « ты » : « говоришь » (-ишь).",
+    "distractors": [
+     {
+      "t": "говорит",
+      "a": "f6e27065d9f5.mp3",
+      "s": 5
+     },
+     {
+      "t": "говорю",
+      "a": "7060cf7cbf69.mp3",
+      "s": 5
+     }
+    ]
+   },
+   "orders": [
+    "лука ты так хорошо говоришь по-русски"
+   ]
+  },
+  "studied": {
+   "speaker": "luka",
+   "ru": "Спасибо! Я много учился.",
+   "fr": "Merci ! J'ai beaucoup étudié.",
+   "tokens": [
+    {
+     "t": "Спасибо",
+     "s": 4,
+     "w": true,
+     "a": "84fecfa1b01c.mp3",
+     "l": "спасибо"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "много",
+     "s": 2,
+     "w": true,
+     "a": "88001b1a224c.mp3",
+     "l": "много"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "учился",
+     "s": 2,
+     "w": true,
+     "a": "e77bf28254e9.mp3",
+     "l": "учиться"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "7b2043ebd969.mp3",
+   "id": "studied",
+   "noteFr": "« Много » = beaucoup. « Я учился » = j'ai étudié (homme). Une femme dirait « училась ».",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "неву",
+      "a": "20425e9143a1.mp3",
+      "s": 3
+     },
+     {
+      "t": "вместе",
+      "a": "e5a876ba584b.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "see": {
+   "speaker": "masha",
+   "ru": "Что вы хотите посмотреть в Петербурге?",
+   "fr": "Qu'est-ce que vous voulez voir à Saint-Pétersbourg ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вы",
+     "s": 1,
+     "w": true,
+     "a": "8b7efd6df007.mp3",
+     "l": "вы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хотите",
+     "s": 3,
+     "w": true,
+     "a": "ddec86766e69.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "посмотреть",
+     "s": 7,
+     "w": true,
+     "a": "f8a27dac0262.mp3",
+     "l": "посмотреть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Петербурге",
+     "s": 6,
+     "w": true,
+     "a": "b6acec023825.mp3",
+     "l": "петербург"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "86767d24ba7e.mp3",
+   "id": "see",
+   "noteFr": "On y est : « в Петербурге » (-е).",
+   "gap": {
+    "index": 10,
+    "whyFr": "On y est : « в Петербурге » (-е), le vert du lieu.",
+    "distractors": [
+     {
+      "t": "петербург",
+      "a": "51030830758b.mp3",
+      "s": 6
+     },
+     {
+      "t": "эрмитаж",
+      "a": "63e31099f131.mp3",
+      "s": 5
+     }
+    ]
+   },
+   "orders": [
+    "что вы хотите посмотреть в петербурге",
+    "что вы хотите в петербурге посмотреть"
+   ]
+  },
+  "hermitage": {
+   "speaker": "luka",
+   "ru": "Эрмитаж, Неву и, конечно, наше кафе!",
+   "fr": "L'Ermitage, la Neva et, bien sûr, notre café !",
+   "tokens": [
+    {
+     "t": "Эрмитаж",
+     "s": 5,
+     "w": true,
+     "a": "63e31099f131.mp3",
+     "l": "эрмитаж"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Неву",
+     "s": 3,
+     "w": true,
+     "a": "20425e9143a1.mp3",
+     "l": "нева"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "конечно",
+     "s": 3,
+     "w": true,
+     "a": "4df928ed05d6.mp3",
+     "l": "конечно"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "наше",
+     "s": 1,
+     "w": true,
+     "a": "6e98ac8cbbfb.mp3",
+     "l": "наш"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кафе",
+     "s": 3,
+     "w": true,
+     "a": "d700d700529b.mp3",
+     "l": "кафе"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "d37b974c24fc.mp3",
+   "id": "hermitage",
+   "noteFr": "« Эрмитаж » = le musée de l'Ermitage. « Нева » = le fleuve → « Неву » (on veut la voir : bleu). « Наше » = notre.",
+   "gap": {
+    "index": 2,
+    "whyFr": "On veut voir la Neva : le bleu, « Неву » (-у).",
+    "distractors": [
+     {
+      "t": "нева",
+      "a": "7ccd127dc854.mp3",
+      "s": 3
+     },
+     {
+      "t": "неве",
+      "a": "2493758398ed.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "together": {
+   "speaker": "masha",
+   "ru": "Отлично! Пойдём вместе!",
+   "fr": "Parfait ! Allons-y ensemble !",
+   "tokens": [
+    {
+     "t": "Отлично",
+     "s": 3,
+     "w": true,
+     "a": "1b0c3f2d1ffd.mp3",
+     "l": "отлично"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Пойдём",
+     "s": 4,
+     "w": true,
+     "a": "634858b1744b.mp3",
+     "l": "пойти"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вместе",
+     "s": 2,
+     "w": true,
+     "a": "e5a876ba584b.mp3",
+     "l": "вместе"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "84ddedf77991.mp3",
+   "id": "together",
+   "noteFr": "« Вместе » = ensemble.",
+   "gap": {
+    "index": 4,
+    "whyFr": "",
+    "distractors": [
+     {
+      "t": "много",
+      "a": "88001b1a224c.mp3",
+      "s": 2
+     },
+     {
+      "t": "неву",
+      "a": "20425e9143a1.mp3",
+      "s": 3
+     }
+    ]
+   }
+  },
+  "c1": {
+   "speaker": "luka",
+   "ru": "Познакомься, это мой друг Олег.",
+   "fr": "Je te présente mon ami Oleg.",
+   "tokens": [
+    {
+     "t": "Познакомься",
+     "s": 6,
+     "w": true,
+     "a": "c03433d6c5a1.mp3",
+     "l": "познакомиться"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мой",
+     "s": 1,
+     "w": true,
+     "a": "5e69d8e4000b.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "друг",
+     "s": 2,
+     "w": true,
+     "a": "fe74b24be4f9.mp3",
+     "l": "друг"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Олег",
+     "s": 2,
+     "w": true,
+     "a": "26ccd9749ec0.mp3",
+     "l": "олег"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "cec357f6e511.mp3",
+   "id": "c1",
+   "noteFr": "",
+   "orders": [
+    "познакомься это мой друг олег"
+   ],
+   "combo": {
+    "from": [
+     "Julie arrive !",
+     "Où es-tu ?",
+     "Chez des amis"
+    ],
+    "extra": [
+     {
+      "t": "моя",
+      "a": "256d62a930d9.mp3",
+      "s": 2
+     }
+    ]
+   }
+  },
+  "c2": {
+   "speaker": "luka",
+   "ru": "Она хорошо говорит по-английски.",
+   "fr": "Elle parle bien anglais.",
+   "tokens": [
+    {
+     "t": "Она",
+     "s": 2,
+     "w": true,
+     "a": "bd63622a7f54.mp3",
+     "l": "она"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говорит",
+     "s": 5,
+     "w": true,
+     "a": "f6e27065d9f5.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-английски",
+     "s": 7,
+     "w": true,
+     "a": "c0f8fa40aea5.mp3",
+     "l": "по-английски"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ba2c47c94c3f.mp3",
+   "id": "c2",
+   "noteFr": "",
+   "orders": [
+    "она хорошо говорит по-английски",
+    "она говорит по-английски хорошо"
+   ],
+   "combo": {
+    "from": [
+     "Je ne comprends pas",
+     "Se présenter",
+     "Julie arrive !"
+    ],
+    "extra": [
+     {
+      "t": "говоришь",
+      "a": "7e8a5711a5f1.mp3",
+      "s": 5
+     }
+    ]
+   }
+  },
+  "c3": {
+   "speaker": "luka",
+   "ru": "Завтра мы пойдём в Эрмитаж вместе.",
+   "fr": "Demain, nous irons ensemble à l'Ermitage.",
+   "tokens": [
+    {
+     "t": "Завтра",
+     "s": 1,
+     "w": true,
+     "a": "8c010caec9ab.mp3",
+     "l": "завтра"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мы",
+     "s": 1,
+     "w": true,
+     "a": "a234675be3c5.mp3",
+     "l": "мы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пойдём",
+     "s": 4,
+     "w": true,
+     "a": "634858b1744b.mp3",
+     "l": "пойти"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Эрмитаж",
+     "s": 5,
+     "w": true,
+     "a": "63e31099f131.mp3",
+     "l": "эрмитаж"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вместе",
+     "s": 2,
+     "w": true,
+     "a": "e5a876ba584b.mp3",
+     "l": "вместе"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "f4eb37da9a0e.mp3",
+   "id": "c3",
+   "noteFr": "",
+   "orders": [
+    "завтра мы пойдём в эрмитаж вместе",
+    "завтра мы вместе пойдём в эрмитаж",
+    "мы пойдём в эрмитаж вместе завтра"
+   ],
+   "combo": {
+    "from": [
+     "Les projets",
+     "Je ne comprends pas",
+     "Une invitation",
+     "Où es-tu ?",
+     "Julie arrive !"
+    ],
+    "extra": [
+     {
+      "t": "много",
+      "a": "88001b1a224c.mp3",
+      "s": 2
+     }
+    ]
+   }
+  }
+ },
+ "parts": [
+  {
+   "titleFr": "Les présentations",
+   "steps": [
+    {
+     "type": "scene"
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "meet",
+      "welcome"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "translate",
+      "sowell"
+     ],
+     "review": [
+      "welcome"
+     ]
+    },
+    {
+     "type": "insight",
+     "index": 0
+    }
+   ]
+  },
+  {
+   "titleFr": "Visiter la ville",
+   "steps": [
+    {
+     "type": "warmup",
+     "phrases": [
+      "meet",
+      "welcome",
+      "translate"
+     ]
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "studied",
+      "see"
+     ],
+     "review": [
+      "sowell"
+     ]
+    },
+    {
+     "type": "explore"
+    },
+    {
+     "type": "block",
+     "phrases": [
+      "hermitage",
+      "together"
+     ],
+     "review": [
+      "see"
+     ]
+    },
+    {
+     "type": "insight",
+     "index": 1
+    },
+    {
+     "type": "combine",
+     "phrases": [
+      "c1",
+      "c2",
+      "c3"
+     ]
+    }
+   ]
+  },
+  {
+   "titleFr": "Joue la scène",
+   "steps": [
+    {
+     "type": "final"
+    },
+    {
+     "type": "roleplay"
+    }
+   ]
+  }
+ ],
+ "insights": [
+  {
+   "by": "masha",
+   "fr": [
+    "Tu as remarqué ? Maintenant c'est toi qui traduis pour Julie ! Tu sais te présenter, présenter quelqu'un, parler de ta vie, de tes goûts, de ton passé et de tes projets.",
+    "« Она говорит » (elle parle), « ты говоришь » (tu parles), « я говорю » (je parle) : tu maîtrises les verbes au présent."
+   ]
+  },
+  {
+   "by": "masha",
+   "fr": [
+    "Récapitulons les couleurs : forme de base (qui ? quoi ?), bleu (ce qu'on veut, où l'on va), vert (où l'on est), orange (après « нет », « без »), violet (après « с », « быть »).",
+    "Avec ces cinq couleurs et les mots que tu connais, tu peux construire des centaines de phrases : c'est ton puzzle russe. Браво, Лука — et bravo à toi !"
+   ]
+  }
+ ],
+ "explore": {
+  "type": "case",
+  "frameFr": "Hier, nous étions ___.",
+  "color": "#2a9d8f",
+  "hintFr": "Mets chaque lieu après « в » (on y était) et regarde bien la fin du mot.",
+  "before": [
+   {
+    "t": "Вчера",
+    "s": 4,
+    "w": true,
+    "a": "2334f6a49ca2.mp3",
+    "l": "вчера"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "мы",
+    "s": 1,
+    "w": true,
+    "a": "a234675be3c5.mp3",
+    "l": "мы"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "были",
+    "s": 1,
+    "w": true,
+    "a": "0515ac9b9af7.mp3",
+    "l": "быть"
+   },
+   {
+    "t": " ",
+    "w": false
+   },
+   {
+    "t": "в",
+    "s": null,
+    "w": true,
+    "a": "3c5b79b7f921.mp3",
+    "l": "в"
+   },
+   {
+    "t": " ",
+    "w": false
+   }
+  ],
+  "after": [
+   {
+    "t": ".",
+    "w": false
+   }
+  ],
+  "verb": null,
+  "words": [
+   {
+    "tile": "музей",
+    "tileStress": 3,
+    "fr": "au musée",
+    "phraseFr": "Hier, nous étions au musée.",
+    "phrase": "Вчера мы были в музее.",
+    "morph": {
+     "from": "музей",
+     "to": "музее",
+     "stem": "музе",
+     "endFrom": "й",
+     "endTo": "е",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": true
+    },
+    "audioTile": "f77c322e3b9f.mp3",
+    "audioPhrase": "8d490eb64c2f.mp3"
+   },
+   {
+    "tile": "театр",
+    "tileStress": 2,
+    "fr": "au théâtre",
+    "phraseFr": "Hier, nous étions au théâtre.",
+    "phrase": "Вчера мы были в театре.",
+    "morph": {
+     "from": "театр",
+     "to": "театре",
+     "stem": "театр",
+     "endFrom": "",
+     "endTo": "е",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": true
+    },
+    "audioTile": "f532e3828e20.mp3",
+    "audioPhrase": "1442fdcffd57.mp3"
+   },
+   {
+    "tile": "парк",
+    "tileStress": 1,
+    "fr": "au parc",
+    "phraseFr": "Hier, nous étions au parc.",
+    "phrase": "Вчера мы были в парке.",
+    "morph": {
+     "from": "парк",
+     "to": "парке",
+     "stem": "парк",
+     "endFrom": "",
+     "endTo": "е",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": true
+    },
+    "audioTile": "3ca7ccbdbe24.mp3",
+    "audioPhrase": "eaa349a219ff.mp3"
+   },
+   {
+    "tile": "кафе",
+    "tileStress": 3,
+    "fr": "au café",
+    "phraseFr": "Hier, nous étions au café.",
+    "phrase": "Вчера мы были в кафе.",
+    "morph": {
+     "from": "кафе",
+     "to": "кафе",
+     "stem": "кафе",
+     "endFrom": "",
+     "endTo": "",
+     "stressFrom": 3,
+     "stressTo": 3,
+     "changed": false
+    },
+    "audioTile": "d700d700529b.mp3",
+    "audioPhrase": "5ca577ab4adc.mp3"
+   }
+  ]
+ },
+ "tasks": [
+  {
+   "type": "pick",
+   "fr": "Dis : « Hier, nous étions au musée. »",
+   "answer": "музей"
+  },
+  {
+   "type": "pick",
+   "fr": "Dis : « Hier, nous étions au café. »",
+   "answer": "кафе"
+  }
+ ],
+ "grammar": [
+  "добро пожаловать в петербург",
+  "завтра мы пойдём в эрмитаж вместе",
+  "лука ты так хорошо говоришь порусски",
+  "маша познакомься это моя сестра жюли",
+  "она не говорит порусски я переведу",
+  "она хорошо говорит поанглийски",
+  "отлично пойдём вместе",
+  "очень приятно добро пожаловать в петербург",
+  "познакомься это мой друг олег",
+  "спасибо я много учился",
+  "что вы хотите посмотреть в петербурге",
+  "эрмитаж неву и конечно наше кафе",
+  "[unk]"
+ ],
+ "cando": [
+  "présenter quelqu'un de ta famille",
+  "servir d'interprète",
+  "proposer une visite"
+ ],
+ "glossary": {
+  "здравствуйте": "bonjour (poli)",
+  "тебе": "à toi",
+  "здесь": "ici",
+  "я": "je, moi",
+  "ты": "tu",
+  "вы": "vous",
+  "да": "oui",
+  "нет": "non",
+  "а": "et, mais",
+  "и": "et",
+  "это": "c'est, voici",
+  "не": "ne… pas",
+  "в": "dans, à",
+  "на": "sur, en",
+  "что": "quoi, que",
+  "как": "comment, comme",
+  "где": "où",
+  "очень": "très",
+  "спасибо": "merci",
+  "пожалуйста": "s'il te plaît / je t'en prie",
+  "хорошо": "bien, d'accord",
+  "привет": "salut",
+  "лука": "Luka (prénom)",
+  "маша": "Macha (prénom)",
+  "олег": "Oleg (prénom)",
+  "анна": "Anna (prénom)",
+  "у": "chez",
+  "меня": "moi (у меня = j'ai)",
+  "тебя": "toi (у тебя = tu as)",
+  "есть": "il y a",
+  "мой": "mon",
+  "моя": "ma",
+  "мне": "à moi",
+  "тоже": "aussi",
+  "сегодня": "aujourd'hui",
+  "завтра": "demain",
+  "вчера": "hier",
+  "потом": "puis, ensuite",
+  "давай": "allons-y, faisons",
+  "познакомься": "fais connaissance",
+  "сестра": "sœur",
+  "сестры": "sœur (après нет)",
+  "брат": "frère",
+  "жюли": "Julie (prénom)",
+  "приятно": "agréable",
+  "добро": "bien (добро пожаловать = bienvenue)",
+  "пожаловать": "(добро пожаловать = bienvenue)",
+  "петербург": "Saint-Pétersbourg",
+  "петербурге": "Saint-Pétersbourg (on y est)",
+  "москве": "Moscou (après в)",
+  "она": "elle",
+  "говорит": "(il, elle) parle",
+  "говорю": "(je) parle",
+  "говоришь": "(tu) parles",
+  "по-русски": "en russe",
+  "переведу": "(je) traduirai",
+  "так": "si, tellement",
+  "много": "beaucoup",
+  "учился": "(j')ai étudié",
+  "хотите": "(vous) voulez",
+  "посмотреть": "voir",
+  "эрмитаж": "l'Ermitage",
+  "неву": "la Neva (on la voit)",
+  "нева": "la Neva",
+  "неве": "la Neva (après на)",
+  "конечно": "bien sûr",
+  "наше": "notre",
+  "кафе": "café",
+  "отлично": "parfait",
+  "пойдем": "allons",
+  "вместе": "ensemble",
+  "мы": "nous",
+  "были": "(nous) étions",
+  "музей": "musée",
+  "музее": "musée (après в)",
+  "театр": "théâtre",
+  "театре": "théâtre (après в)",
+  "парк": "parc",
+  "парке": "parc (après в)",
+  "друг": "ami",
+  "по-английски": "en anglais"
+ },
+ "unlocks": [
+  {
+   "case": "loct",
+   "gender": "masc",
+   "from": "музей",
+   "to": "музее"
+  },
+  {
+   "verb": "говорить",
+   "persons": [
+    "ты",
+    "он"
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "30-julie:meet",
+   "ru": "Маша, познакомься: это моя сестра Жюли.",
+   "fr": "Macha, je te présente ma sœur Julie.",
+   "tokens": [
+    {
+     "t": "Маша",
+     "s": 1,
+     "w": true,
+     "a": "db2f8c7ea687.mp3",
+     "l": "маша"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "познакомься",
+     "s": 6,
+     "w": true,
+     "a": "c03433d6c5a1.mp3",
+     "l": "познакомиться"
+    },
+    {
+     "t": ": ",
+     "w": false
+    },
+    {
+     "t": "это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "моя",
+     "s": 2,
+     "w": true,
+     "a": "256d62a930d9.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "сестра",
+     "s": 5,
+     "w": true,
+     "a": "76ae2fd8219b.mp3",
+     "l": "сестра"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Жюли",
+     "s": 1,
+     "w": true,
+     "a": "966d580ffaa0.mp3",
+     "l": "жюли"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "c400040e3ed9.mp3"
+  },
+  {
+   "id": "30-julie:welcome",
+   "ru": "Добро пожаловать в Петербург!",
+   "fr": "Bienvenue à Saint-Pétersbourg !",
+   "tokens": [
+    {
+     "t": "Добро",
+     "s": 4,
+     "w": true,
+     "a": "6d662a4c13ce.mp3",
+     "l": "добро"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пожаловать",
+     "s": 3,
+     "w": true,
+     "a": "38c1b0c1cbbf.mp3",
+     "l": "пожаловать"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Петербург",
+     "s": 6,
+     "w": true,
+     "a": "51030830758b.mp3",
+     "l": "петербург"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "ee535f0f3931.mp3"
+  },
+  {
+   "id": "30-julie:translate",
+   "ru": "Она не говорит по-русски. Я переведу.",
+   "fr": "Elle ne parle pas russe. Je vais traduire.",
+   "tokens": [
+    {
+     "t": "Она",
+     "s": 2,
+     "w": true,
+     "a": "bd63622a7f54.mp3",
+     "l": "она"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "не",
+     "s": 1,
+     "w": true,
+     "a": "e20f13ca63d8.mp3",
+     "l": "не"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говорит",
+     "s": 5,
+     "w": true,
+     "a": "f6e27065d9f5.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-русски",
+     "s": 4,
+     "w": true,
+     "a": "1875ccbd5a57.mp3",
+     "l": "по-русски"
+    },
+    {
+     "t": ". ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "переведу",
+     "s": 7,
+     "w": true,
+     "a": "de881a113b12.mp3",
+     "l": "перевести"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "fbec65413979.mp3"
+  },
+  {
+   "id": "30-julie:sowell",
+   "ru": "Лука, ты так хорошо говоришь по-русски!",
+   "fr": "Luka, tu parles si bien russe !",
+   "tokens": [
+    {
+     "t": "Лука",
+     "s": 1,
+     "w": true,
+     "a": "805013b1f494.mp3",
+     "l": "лука"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "ты",
+     "s": 1,
+     "w": true,
+     "a": "984afcea50b6.mp3",
+     "l": "ты"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "так",
+     "s": 1,
+     "w": true,
+     "a": "4b4a256e0d11.mp3",
+     "l": "так"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говоришь",
+     "s": 5,
+     "w": true,
+     "a": "7e8a5711a5f1.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-русски",
+     "s": 4,
+     "w": true,
+     "a": "1875ccbd5a57.mp3",
+     "l": "по-русски"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "f08bc3e30df6.mp3"
+  },
+  {
+   "id": "30-julie:studied",
+   "ru": "Спасибо! Я много учился.",
+   "fr": "Merci ! J'ai beaucoup étudié.",
+   "tokens": [
+    {
+     "t": "Спасибо",
+     "s": 4,
+     "w": true,
+     "a": "84fecfa1b01c.mp3",
+     "l": "спасибо"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Я",
+     "s": 0,
+     "w": true,
+     "a": "70b9d9783365.mp3",
+     "l": "я"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "много",
+     "s": 2,
+     "w": true,
+     "a": "88001b1a224c.mp3",
+     "l": "много"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "учился",
+     "s": 2,
+     "w": true,
+     "a": "e77bf28254e9.mp3",
+     "l": "учиться"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "7b2043ebd969.mp3"
+  },
+  {
+   "id": "30-julie:see",
+   "ru": "Что вы хотите посмотреть в Петербурге?",
+   "fr": "Qu'est-ce que vous voulez voir à Saint-Pétersbourg ?",
+   "tokens": [
+    {
+     "t": "Что",
+     "s": 2,
+     "w": true,
+     "a": "209f9228f26e.mp3",
+     "l": "что"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вы",
+     "s": 1,
+     "w": true,
+     "a": "8b7efd6df007.mp3",
+     "l": "вы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хотите",
+     "s": 3,
+     "w": true,
+     "a": "ddec86766e69.mp3",
+     "l": "хотеть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "посмотреть",
+     "s": 7,
+     "w": true,
+     "a": "f8a27dac0262.mp3",
+     "l": "посмотреть"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Петербурге",
+     "s": 6,
+     "w": true,
+     "a": "b6acec023825.mp3",
+     "l": "петербург"
+    },
+    {
+     "t": "?",
+     "w": false
+    }
+   ],
+   "audio": "86767d24ba7e.mp3"
+  },
+  {
+   "id": "30-julie:hermitage",
+   "ru": "Эрмитаж, Неву и, конечно, наше кафе!",
+   "fr": "L'Ermitage, la Neva et, bien sûr, notre café !",
+   "tokens": [
+    {
+     "t": "Эрмитаж",
+     "s": 5,
+     "w": true,
+     "a": "63e31099f131.mp3",
+     "l": "эрмитаж"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "Неву",
+     "s": 3,
+     "w": true,
+     "a": "20425e9143a1.mp3",
+     "l": "нева"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "и",
+     "s": 0,
+     "w": true,
+     "a": "200abcf7ec0e.mp3",
+     "l": "и"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "конечно",
+     "s": 3,
+     "w": true,
+     "a": "4df928ed05d6.mp3",
+     "l": "конечно"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "наше",
+     "s": 1,
+     "w": true,
+     "a": "6e98ac8cbbfb.mp3",
+     "l": "наш"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "кафе",
+     "s": 3,
+     "w": true,
+     "a": "d700d700529b.mp3",
+     "l": "кафе"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "d37b974c24fc.mp3"
+  },
+  {
+   "id": "30-julie:together",
+   "ru": "Отлично! Пойдём вместе!",
+   "fr": "Parfait ! Allons-y ensemble !",
+   "tokens": [
+    {
+     "t": "Отлично",
+     "s": 3,
+     "w": true,
+     "a": "1b0c3f2d1ffd.mp3",
+     "l": "отлично"
+    },
+    {
+     "t": "! ",
+     "w": false
+    },
+    {
+     "t": "Пойдём",
+     "s": 4,
+     "w": true,
+     "a": "634858b1744b.mp3",
+     "l": "пойти"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вместе",
+     "s": 2,
+     "w": true,
+     "a": "e5a876ba584b.mp3",
+     "l": "вместе"
+    },
+    {
+     "t": "!",
+     "w": false
+    }
+   ],
+   "audio": "84ddedf77991.mp3"
+  },
+  {
+   "id": "30-julie:c1",
+   "ru": "Познакомься, это мой друг Олег.",
+   "fr": "Je te présente mon ami Oleg.",
+   "tokens": [
+    {
+     "t": "Познакомься",
+     "s": 6,
+     "w": true,
+     "a": "c03433d6c5a1.mp3",
+     "l": "познакомиться"
+    },
+    {
+     "t": ", ",
+     "w": false
+    },
+    {
+     "t": "это",
+     "s": 0,
+     "w": true,
+     "a": "eecbe7a3009e.mp3",
+     "l": "это"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мой",
+     "s": 1,
+     "w": true,
+     "a": "5e69d8e4000b.mp3",
+     "l": "мой"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "друг",
+     "s": 2,
+     "w": true,
+     "a": "fe74b24be4f9.mp3",
+     "l": "друг"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Олег",
+     "s": 2,
+     "w": true,
+     "a": "26ccd9749ec0.mp3",
+     "l": "олег"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "cec357f6e511.mp3"
+  },
+  {
+   "id": "30-julie:c2",
+   "ru": "Она хорошо говорит по-английски.",
+   "fr": "Elle parle bien anglais.",
+   "tokens": [
+    {
+     "t": "Она",
+     "s": 2,
+     "w": true,
+     "a": "bd63622a7f54.mp3",
+     "l": "она"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "хорошо",
+     "s": 5,
+     "w": true,
+     "a": "a779ac8a9072.mp3",
+     "l": "хорошо"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "говорит",
+     "s": 5,
+     "w": true,
+     "a": "f6e27065d9f5.mp3",
+     "l": "говорить"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "по-английски",
+     "s": 7,
+     "w": true,
+     "a": "c0f8fa40aea5.mp3",
+     "l": "по-английски"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "ba2c47c94c3f.mp3"
+  },
+  {
+   "id": "30-julie:c3",
+   "ru": "Завтра мы пойдём в Эрмитаж вместе.",
+   "fr": "Demain, nous irons ensemble à l'Ermitage.",
+   "tokens": [
+    {
+     "t": "Завтра",
+     "s": 1,
+     "w": true,
+     "a": "8c010caec9ab.mp3",
+     "l": "завтра"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "мы",
+     "s": 1,
+     "w": true,
+     "a": "a234675be3c5.mp3",
+     "l": "мы"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "пойдём",
+     "s": 4,
+     "w": true,
+     "a": "634858b1744b.mp3",
+     "l": "пойти"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "в",
+     "s": null,
+     "w": true,
+     "a": "3c5b79b7f921.mp3",
+     "l": "в"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "Эрмитаж",
+     "s": 5,
+     "w": true,
+     "a": "63e31099f131.mp3",
+     "l": "эрмитаж"
+    },
+    {
+     "t": " ",
+     "w": false
+    },
+    {
+     "t": "вместе",
+     "s": 2,
+     "w": true,
+     "a": "e5a876ba584b.mp3",
+     "l": "вместе"
+    },
+    {
+     "t": ".",
+     "w": false
+    }
+   ],
+   "audio": "f4eb37da9a0e.mp3"
+  }
+ ],
+ "hasAudio": false
+}

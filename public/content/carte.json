@@ -17,6 +17,18 @@
    "fr": "Le lieu où l'on est",
    "hintFr": "après в (dans, à)",
    "color": "#2a9d8f"
+  },
+  {
+   "id": "gent",
+   "fr": "Quand il n'y a pas",
+   "hintFr": "après нет, без",
+   "color": "#e76f51"
+  },
+  {
+   "id": "ablt",
+   "fr": "Avec",
+   "hintFr": "après с (avec), быть",
+   "color": "#6a4c93"
   }
  ],
  "genders": [
@@ -395,6 +407,150 @@
      "stressTo": 1,
      "changed": true,
      "audio": "d2d6d63bb91d.mp3"
+    }
+   }
+  },
+  {
+   "verb": "мочь",
+   "fr": "pouvoir",
+   "forms": {
+    "я": {
+     "from": "мочь",
+     "to": "могу",
+     "stem": "мо",
+     "endFrom": "чь",
+     "endTo": "гу",
+     "stressFrom": 1,
+     "stressTo": 3,
+     "changed": true,
+     "audio": "a2032b90ac26.mp3"
+    },
+    "ты": {
+     "from": "мочь",
+     "to": "можешь",
+     "stem": "мо",
+     "endFrom": "чь",
+     "endTo": "жешь",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": true,
+     "audio": "6c9b2504ca52.mp3"
+    },
+    "он": {
+     "from": "мочь",
+     "to": "может",
+     "stem": "мо",
+     "endFrom": "чь",
+     "endTo": "жет",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": true,
+     "audio": "4086ca04d0bf.mp3"
+    },
+    "мы": {
+     "from": "мочь",
+     "to": "можем",
+     "stem": "мо",
+     "endFrom": "чь",
+     "endTo": "жем",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": true,
+     "audio": "d92ca7a76863.mp3"
+    },
+    "вы": {
+     "from": "мочь",
+     "to": "можете",
+     "stem": "мо",
+     "endFrom": "чь",
+     "endTo": "жете",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": true,
+     "audio": "9261c770f31d.mp3"
+    },
+    "они": {
+     "from": "мочь",
+     "to": "могут",
+     "stem": "мо",
+     "endFrom": "чь",
+     "endTo": "гут",
+     "stressFrom": 1,
+     "stressTo": 1,
+     "changed": true,
+     "audio": "6daed3edecf8.mp3"
+    }
+   }
+  },
+  {
+   "verb": "учиться",
+   "fr": "étudier",
+   "forms": {
+    "я": {
+     "from": "учиться",
+     "to": "учусь",
+     "stem": "уч",
+     "endFrom": "иться",
+     "endTo": "усь",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": true,
+     "audio": "b8cf2df7ddb5.mp3"
+    },
+    "ты": {
+     "from": "учиться",
+     "to": "учишься",
+     "stem": "учи",
+     "endFrom": "ться",
+     "endTo": "шься",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": true,
+     "audio": "fb142cd369bb.mp3"
+    },
+    "он": {
+     "from": "учиться",
+     "to": "учится",
+     "stem": "учит",
+     "endFrom": "ься",
+     "endTo": "ся",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": true,
+     "audio": "2f81a50a571d.mp3"
+    },
+    "мы": {
+     "from": "учиться",
+     "to": "учимся",
+     "stem": "учи",
+     "endFrom": "ться",
+     "endTo": "мся",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": true,
+     "audio": "131c7a3c8c22.mp3"
+    },
+    "вы": {
+     "from": "учиться",
+     "to": "учитесь",
+     "stem": "учит",
+     "endFrom": "ься",
+     "endTo": "есь",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": true,
+     "audio": "878c67b4cba9.mp3"
+    },
+    "они": {
+     "from": "учиться",
+     "to": "учатся",
+     "stem": "уч",
+     "endFrom": "иться",
+     "endTo": "атся",
+     "stressFrom": 2,
+     "stressTo": 2,
+     "changed": true,
+     "audio": "f87c99dc845f.mp3"
     }
    }
   }
