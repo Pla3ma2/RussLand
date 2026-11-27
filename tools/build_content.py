@@ -430,6 +430,9 @@ def build_texts() -> dict:
 
 # ---------- чтение и алфавит ----------
 
+VOWELS_RU = set("АОУЫЭИЯЁЮЕ")
+
+
 def build_alphabet() -> dict:
     src = load(SRC / "alphabet.json")
     letters = []
@@ -437,7 +440,8 @@ def build_alphabet() -> dict:
         ex_tokens = tokenize(L["exampleRu"])
         letters.append({
             **{k: v for k, v in L.items() if k != "soundText"},
-            "audio": clip(L["soundText"], WORD_VOICE),
+            # гласные чуть растягиваем (без изменения высоты голоса), чтобы различать «а» и «о»
+            "audio": clip(L["soundText"], WORD_VOICE, "abc/" if L["l"] in VOWELS_RU else ""),
             "exampleTokens": ex_tokens,
             "exampleAudio": clip(accent(L["exampleRu"]).lower(), WORD_VOICE),
         })
@@ -554,7 +558,7 @@ def synthesize(force: bool) -> int:
                 wf.writeframes(pcm)
             (AUDIO_DIR / f"{cid}.mp3").parent.mkdir(parents=True, exist_ok=True)
             subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav_path),
-                            "-af", "silenceremove=start_periods=1:start_threshold=-50dB",
+                            "-af", "silenceremove=start_periods=1:start_threshold=-50dB" + (",atempo=0.62" if cid.startswith("abc/") else ""),
                             "-ac", "1", "-ar", "24000", "-b:a", "48k", str(AUDIO_DIR / f"{cid}.mp3")], check=True)
             done += 1
     return done

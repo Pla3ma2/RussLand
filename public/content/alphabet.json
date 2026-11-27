@@ -25,7 +25,7 @@
    "exampleRu": "мама",
    "exampleFr": "maman",
    "tipFr": "Comme le « a » de « papa ».",
-   "audio": "b44f1d2ca680.mp3",
+   "audio": "abc/b44f1d2ca680.mp3",
    "exampleTokens": [
     {
      "t": "мама",
@@ -120,7 +120,7 @@
    "exampleRu": "нет",
    "exampleFr": "non",
    "tipFr": "Se prononce « ié ». Après une consonne, il la rend douce : « нет » se dit « niet ».",
-   "audio": "0ebe8ff0dbbb.mp3",
+   "audio": "abc/0ebe8ff0dbbb.mp3",
    "exampleTokens": [
     {
      "t": "нет",
@@ -139,7 +139,7 @@
    "exampleRu": "ёлка",
    "exampleFr": "sapin",
    "tipFr": "Se prononce « io ». Il est toujours accentué.",
-   "audio": "51520ea27f1d.mp3",
+   "audio": "abc/51520ea27f1d.mp3",
    "exampleTokens": [
     {
      "t": "ёлка",
@@ -196,7 +196,7 @@
    "exampleRu": "кино",
    "exampleFr": "cinéma",
    "tipFr": "Comme le « i » de « ici ».",
-   "audio": "8e69912b8a11.mp3",
+   "audio": "abc/8e69912b8a11.mp3",
    "exampleTokens": [
     {
      "t": "кино",
@@ -310,7 +310,7 @@
    "exampleRu": "кот",
    "exampleFr": "chat",
    "tipFr": "Comme « o » quand il est accentué. Sans accent, il se prononce presque comme « a ».",
-   "audio": "9f1aae0f01f9.mp3",
+   "audio": "abc/9f1aae0f01f9.mp3",
    "exampleTokens": [
     {
      "t": "кот",
@@ -405,7 +405,7 @@
    "exampleRu": "суп",
    "exampleFr": "soupe",
    "tipFr": "Ressemble à un Y, mais se prononce « ou ».",
-   "audio": "1e4a423877e7.mp3",
+   "audio": "abc/1e4a423877e7.mp3",
    "exampleTokens": [
     {
      "t": "суп",
@@ -557,7 +557,7 @@
    "exampleRu": "мы",
    "exampleFr": "nous",
    "tipFr": "Un son qui n'existe pas en français : dis « i » en reculant la langue, comme si tu avais un bonbon dans la bouche.",
-   "audio": "a6fedc236114.mp3",
+   "audio": "abc/a6fedc236114.mp3",
    "exampleTokens": [
     {
      "t": "мы",
@@ -595,7 +595,7 @@
    "exampleRu": "это",
    "exampleFr": "c'est",
    "tipFr": "Comme le « è » de « mère ».",
-   "audio": "5174b01afbb1.mp3",
+   "audio": "abc/5174b01afbb1.mp3",
    "exampleTokens": [
     {
      "t": "это",
@@ -614,7 +614,7 @@
    "exampleRu": "юмор",
    "exampleFr": "humour",
    "tipFr": "Se prononce « iou ».",
-   "audio": "04ff1503f9e6.mp3",
+   "audio": "abc/04ff1503f9e6.mp3",
    "exampleTokens": [
     {
      "t": "юмор",
@@ -633,7 +633,7 @@
    "exampleRu": "я",
    "exampleFr": "je, moi",
    "tipFr": "Se prononce « ia ». Toute seule, c'est aussi le mot « je » !",
-   "audio": "0a245e03f72e.mp3",
+   "audio": "abc/0a245e03f72e.mp3",
    "exampleTokens": [
     {
      "t": "я",

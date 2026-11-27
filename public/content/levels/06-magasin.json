@@ -8,15 +8,15 @@
  "sceneFr": "Avant de rejoindre Macha, Luka fait quelques courses dans la petite épicerie du quartier. Nina tient la caisse.",
  "learner": "luka",
  "speakers": {
-  "luka": {
-   "name": "Лука",
-   "nameFr": "Luka",
-   "color": "#3d5a80"
-  },
   "nina": {
    "name": "Нина",
    "nameFr": "Nina",
    "color": "#c9a227"
+  },
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
   }
  },
  "dialogue": [

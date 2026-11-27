@@ -8,15 +8,15 @@
  "sceneFr": "Quelques jours plus tard, Oleg croise Luka dans la rue et lui demande comment se passent ses journées.",
  "learner": "luka",
  "speakers": {
-  "oleg": {
-   "name": "Олег",
-   "nameFr": "Oleg",
-   "color": "#9a6fb0"
-  },
   "luka": {
    "name": "Лука",
    "nameFr": "Luka",
    "color": "#3d5a80"
+  },
+  "oleg": {
+   "name": "Олег",
+   "nameFr": "Oleg",
+   "color": "#9a6fb0"
   }
  },
  "dialogue": [

@@ -8,6 +8,11 @@
  "sceneFr": "Anton fait visiter son appartement à Luka et Macha.",
  "learner": "luka",
  "speakers": {
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
+  },
   "anton": {
    "name": "Антон",
    "nameFr": "Anton",
@@ -17,11 +22,6 @@
    "name": "Маша",
    "nameFr": "Macha",
    "color": "#e07a5f"
-  },
-  "luka": {
-   "name": "Лука",
-   "nameFr": "Luka",
-   "color": "#3d5a80"
   }
  },
  "dialogue": [
