@@ -6,6 +6,8 @@ import { dueIds } from "./srs";
 import { $, $$, esc } from "./ui";
 import { registerSW } from "virtual:pwa-register";
 
+declare const __BUILD__: string;
+
 /* После каждого обновления сайта старые файлы удаляются. Если в телефоне осталась старая
    версия страницы, её куски уже не скачать — тогда просто перезагружаемся на новую версию. */
 registerSW({ immediate: true });
@@ -96,7 +98,7 @@ async function renderLessons() {
       <div class="lesson coming"><span class="lesson-emoji">✨</span><span class="lesson-body"><b>La suite arrive bientôt…</b></span></div>
     </section>
     <p class="center"><button class="link small" id="reset">Réinitialiser ma progression</button></p>
-    <p class="center muted credits">Voix : Silero Models (CC BY-NC 4.0) · Reconnaissance vocale : Vosk</p>`;
+    <p class="center muted credits">Voix : Silero Models (CC BY-NC 4.0) · Reconnaissance vocale : Vosk · version ${__BUILD__}</p>`;
   page.querySelector("#rev")?.addEventListener("click", () => navigate("review/session"));
   page.querySelector("#read")?.addEventListener("click", () => navigate("reading"));
   $$<HTMLButtonElement>(".lesson[data-id]", page).forEach((b) => {

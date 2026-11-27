@@ -8,15 +8,15 @@
  "sceneFr": "Au dîner, Macha demande à Luka s'il a de la famille en France. Luka sort son téléphone pour montrer des photos.",
  "learner": "luka",
  "speakers": {
-  "masha": {
-   "name": "Маша",
-   "nameFr": "Macha",
-   "color": "#e07a5f"
-  },
   "luka": {
    "name": "Лука",
    "nameFr": "Luka",
    "color": "#3d5a80"
+  },
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
   }
  },
  "dialogue": [

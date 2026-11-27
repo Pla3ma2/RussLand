@@ -4,6 +4,7 @@ import { VitePWA } from "vite-plugin-pwa";
 export default defineConfig({
   base: "./",
   build: { target: "es2020" },
+  define: { __BUILD__: JSON.stringify(new Date().toISOString().slice(0, 16).replace("T", " ")) },
   plugins: [
     VitePWA({
       registerType: "autoUpdate",
@@ -24,15 +25,24 @@ export default defineConfig({
         ],
       },
       workbox: {
-        // уроки и озвучка — в офлайн-кэш сразу; модель Vosk (45 МБ) сама сохраняется в IndexedDB, когда её включат
-        globPatterns: ["**/*.{js,css,html,svg,png,json,mp3}"],
-        globIgnores: ["**/models/**", "**/vosk-*.js", "**/audio/w/**"],
+        // В установочный кэш — только само приложение (≈1 МБ), чтобы обновление ставилось быстро и надёжно.
+        // Уроки (json) — «сначала сеть», озвучка — сохраняется по мере прослушивания.
+        globPatterns: ["**/*.{js,css,html,svg,png,webmanifest}"],
+        globIgnores: ["**/models/**", "**/vosk-*.js", "**/audio/**", "**/content/**"],
+        cleanupOutdatedCaches: true,
+        skipWaiting: true,
+        clientsClaim: true,
         runtimeCaching: [
           {
+            urlPattern: ({ url }) => /\/content\/.*\.json$/.test(url.pathname),
+            handler: "NetworkFirst",
+            options: { cacheName: "content", networkTimeoutSeconds: 4, expiration: { maxEntries: 100 } },
+          },
+          {
             // озвучка 5000 слов (~5000 файлов) — сохраняется по мере прослушивания
-            urlPattern: ({ url }) => /\/audio\/w\//.test(url.pathname),
+            urlPattern: ({ url }) => /\/audio\/.*\.mp3$/.test(url.pathname),
             handler: "CacheFirst",
-            options: { cacheName: "word-audio", expiration: { maxEntries: 6000 } },
+            options: { cacheName: "audio", expiration: { maxEntries: 12000 }, cacheableResponse: { statuses: [0, 200] } },
           },
           {
             // движок распознавания (5 МБ) кэшируем, только когда его включат

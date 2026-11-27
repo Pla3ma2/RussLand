@@ -605,6 +605,12 @@ def main() -> int:
     print(f"Аудиофраз: {len(clips)}")
     if args.audio:
         print(f"Озвучено новых: {synthesize(args.force)}")
+        # контроль: звуки букв не должны быть пустыми (иначе телефон читает букву своим голосом)
+        for L in alphabet["letters"]:
+            f = AUDIO_DIR / L["audio"]
+            dur = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(f)],
+                                 capture_output=True, text=True).stdout.strip() if f.exists() else "нет файла"
+            print(f"  буква {L['l']}: {dur}")
     return 0
 
 

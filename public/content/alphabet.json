@@ -25,7 +25,7 @@
    "exampleRu": "мама",
    "exampleFr": "maman",
    "tipFr": "Comme le « a » de « papa ».",
-   "audio": "da5753504aa9.mp3",
+   "audio": "b44f1d2ca680.mp3",
    "exampleTokens": [
     {
      "t": "мама",
@@ -62,8 +62,8 @@
    "group": "deceiver",
    "exampleRu": "вода",
    "exampleFr": "eau",
-   "tipFr": "Ressemble à un B, mais se prononce « v ».",
-   "audio": "090df931a73d.mp3",
+   "tipFr": "Ressemble à un B, mais se prononce « v ». On l'entend avec une voyelle : « ва ».",
+   "audio": "fd17e0cf7a8f.mp3",
    "exampleTokens": [
     {
      "t": "вода",
@@ -120,7 +120,7 @@
    "exampleRu": "нет",
    "exampleFr": "non",
    "tipFr": "Se prononce « ié ». Après une consonne, il la rend douce : « нет » se dit « niet ».",
-   "audio": "4e15d87d8530.mp3",
+   "audio": "0ebe8ff0dbbb.mp3",
    "exampleTokens": [
     {
      "t": "нет",
@@ -139,7 +139,7 @@
    "exampleRu": "ёлка",
    "exampleFr": "sapin",
    "tipFr": "Se prononce « io ». Il est toujours accentué.",
-   "audio": "4fd85483c961.mp3",
+   "audio": "51520ea27f1d.mp3",
    "exampleTokens": [
     {
      "t": "ёлка",
@@ -157,8 +157,8 @@
    "group": "new",
    "exampleRu": "журнал",
    "exampleFr": "magazine",
-   "tipFr": "Comme le « j » de « journal ».",
-   "audio": "1681eac0559a.mp3",
+   "tipFr": "Comme le « j » de « journal ». On l'entend avec une voyelle : « жа ».",
+   "audio": "8f7286ccbf27.mp3",
    "exampleTokens": [
     {
      "t": "журнал",
@@ -176,8 +176,8 @@
    "group": "new",
    "exampleRu": "зима",
    "exampleFr": "hiver",
-   "tipFr": "Ressemble au chiffre 3, se prononce « z ».",
-   "audio": "33dd46ae3d4f.mp3",
+   "tipFr": "Ressemble au chiffre 3, se prononce « z ». On l'entend avec une voyelle : « за ».",
+   "audio": "043292af7269.mp3",
    "exampleTokens": [
     {
      "t": "зима",
@@ -196,7 +196,7 @@
    "exampleRu": "кино",
    "exampleFr": "cinéma",
    "tipFr": "Comme le « i » de « ici ».",
-   "audio": "f47530e7ebfc.mp3",
+   "audio": "8e69912b8a11.mp3",
    "exampleTokens": [
     {
      "t": "кино",
@@ -252,8 +252,8 @@
    "group": "new",
    "exampleRu": "лампа",
    "exampleFr": "lampe",
-   "tipFr": "Comme « l », mais plus dur, la langue plus en arrière.",
-   "audio": "377260953dd0.mp3",
+   "tipFr": "Comme « l », mais plus dur, la langue plus en arrière. On l'entend avec une voyelle : « ла ».",
+   "audio": "c280d0a53884.mp3",
    "exampleTokens": [
     {
      "t": "лампа",
@@ -271,8 +271,8 @@
    "group": "familiar",
    "exampleRu": "мама",
    "exampleFr": "maman",
-   "tipFr": "Comme « m ».",
-   "audio": "6665a537ddee.mp3",
+   "tipFr": "Comme « m ». On l'entend avec une voyelle : « ма ».",
+   "audio": "a2cfdf51e00d.mp3",
    "exampleTokens": [
     {
      "t": "мама",
@@ -290,8 +290,8 @@
    "group": "deceiver",
    "exampleRu": "нос",
    "exampleFr": "nez",
-   "tipFr": "Ressemble à un H, mais se prononce « n ».",
-   "audio": "9b4d232b6ce9.mp3",
+   "tipFr": "Ressemble à un H, mais se prononce « n ». On l'entend avec une voyelle : « на ».",
+   "audio": "385e4cd73291.mp3",
    "exampleTokens": [
     {
      "t": "нос",
@@ -310,7 +310,7 @@
    "exampleRu": "кот",
    "exampleFr": "chat",
    "tipFr": "Comme « o » quand il est accentué. Sans accent, il se prononce presque comme « a ».",
-   "audio": "57535dbc9d5b.mp3",
+   "audio": "9f1aae0f01f9.mp3",
    "exampleTokens": [
     {
      "t": "кот",
@@ -347,8 +347,8 @@
    "group": "deceiver",
    "exampleRu": "рот",
    "exampleFr": "bouche",
-   "tipFr": "Ressemble à un P, mais c'est un « r » roulé, comme en espagnol ou en italien.",
-   "audio": "9a3b2b150ef2.mp3",
+   "tipFr": "Ressemble à un P, mais c'est un « r » roulé, comme en espagnol ou en italien. On l'entend avec une voyelle : « ра ».",
+   "audio": "1a5326c544ab.mp3",
    "exampleTokens": [
     {
      "t": "рот",
@@ -366,8 +366,8 @@
    "group": "deceiver",
    "exampleRu": "сок",
    "exampleFr": "jus",
-   "tipFr": "Ressemble à un C, mais se prononce toujours « s », jamais « k ».",
-   "audio": "8a0a78b7ae5d.mp3",
+   "tipFr": "Ressemble à un C, mais se prononce toujours « s », jamais « k ». On l'entend avec une voyelle : « са ».",
+   "audio": "b0724fc4653a.mp3",
    "exampleTokens": [
     {
      "t": "сок",
@@ -405,7 +405,7 @@
    "exampleRu": "суп",
    "exampleFr": "soupe",
    "tipFr": "Ressemble à un Y, mais se prononce « ou ».",
-   "audio": "16f0c9d21da6.mp3",
+   "audio": "1e4a423877e7.mp3",
    "exampleTokens": [
     {
      "t": "суп",
@@ -423,8 +423,8 @@
    "group": "new",
    "exampleRu": "фото",
    "exampleFr": "photo",
-   "tipFr": "Comme « f ».",
-   "audio": "f71b2ffe8ea8.mp3",
+   "tipFr": "Comme « f ». On l'entend avec une voyelle : « фа ».",
+   "audio": "f925a82ebda1.mp3",
    "exampleTokens": [
     {
      "t": "фото",
@@ -442,8 +442,8 @@
    "group": "deceiver",
    "exampleRu": "хлеб",
    "exampleFr": "pain",
-   "tipFr": "Ressemble à un X, mais c'est un souffle rauque, comme la « jota » espagnole.",
-   "audio": "e7fcc5800698.mp3",
+   "tipFr": "Ressemble à un X, mais c'est un souffle rauque, comme la « jota » espagnole. On l'entend avec une voyelle : « ха ».",
+   "audio": "502a46907ea6.mp3",
    "exampleTokens": [
     {
      "t": "хлеб",
@@ -461,7 +461,7 @@
    "group": "new",
    "exampleRu": "центр",
    "exampleFr": "centre",
-   "tipFr": "Se prononce « ts », comme dans « tsar ».",
+   "tipFr": "Se prononce « ts », comme dans « tsar ». On l'entend avec une voyelle : « ца ».",
    "audio": "e0427d4bf9b3.mp3",
    "exampleTokens": [
     {
@@ -480,7 +480,7 @@
    "group": "new",
    "exampleRu": "чай",
    "exampleFr": "thé",
-   "tipFr": "Se prononce « tch », comme dans « tchèque ».",
+   "tipFr": "Se prononce « tch », comme dans « tchèque ». On l'entend avec une voyelle : « ча ».",
    "audio": "4960dd95fe13.mp3",
    "exampleTokens": [
     {
@@ -499,8 +499,8 @@
    "group": "new",
    "exampleRu": "шапка",
    "exampleFr": "bonnet",
-   "tipFr": "Comme le « ch » de « chat », mais plus dur.",
-   "audio": "9fc0fec91276.mp3",
+   "tipFr": "Comme le « ch » de « chat », mais plus dur. On l'entend avec une voyelle : « ша ».",
+   "audio": "ffea7361c555.mp3",
    "exampleTokens": [
     {
      "t": "шапка",
@@ -518,8 +518,8 @@
    "group": "new",
    "exampleRu": "борщ",
    "exampleFr": "bortsch",
-   "tipFr": "Un « ch » long et doux, en souriant.",
-   "audio": "428f5a60ce04.mp3",
+   "tipFr": "Un « ch » long et doux, en souriant. On l'entend avec une voyelle : « ща ».",
+   "audio": "2c268188dd12.mp3",
    "exampleTokens": [
     {
      "t": "борщ",
@@ -557,7 +557,7 @@
    "exampleRu": "мы",
    "exampleFr": "nous",
    "tipFr": "Un son qui n'existe pas en français : dis « i » en reculant la langue, comme si tu avais un bonbon dans la bouche.",
-   "audio": "8daf6f826b08.mp3",
+   "audio": "a6fedc236114.mp3",
    "exampleTokens": [
     {
      "t": "мы",
@@ -595,7 +595,7 @@
    "exampleRu": "это",
    "exampleFr": "c'est",
    "tipFr": "Comme le « è » de « mère ».",
-   "audio": "66d203bc1162.mp3",
+   "audio": "5174b01afbb1.mp3",
    "exampleTokens": [
     {
      "t": "это",
@@ -614,7 +614,7 @@
    "exampleRu": "юмор",
    "exampleFr": "humour",
    "tipFr": "Se prononce « iou ».",
-   "audio": "2dc2d029dfe4.mp3",
+   "audio": "04ff1503f9e6.mp3",
    "exampleTokens": [
     {
      "t": "юмор",
@@ -633,7 +633,7 @@
    "exampleRu": "я",
    "exampleFr": "je, moi",
    "tipFr": "Se prononce « ia ». Toute seule, c'est aussi le mot « je » !",
-   "audio": "fe5bbdc4a00e.mp3",
+   "audio": "0a245e03f72e.mp3",
    "exampleTokens": [
     {
      "t": "я",
