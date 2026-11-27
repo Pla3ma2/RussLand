@@ -13,15 +13,15 @@
    "nameFr": "Macha",
    "color": "#e07a5f"
   },
-  "luka": {
-   "name": "Лука",
-   "nameFr": "Luka",
-   "color": "#3d5a80"
-  },
   "oleg": {
    "name": "Олег",
    "nameFr": "Oleg",
    "color": "#9a6fb0"
+  },
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
   }
  },
  "dialogue": [

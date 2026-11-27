@@ -8,15 +8,15 @@
  "sceneFr": "Lundi matin, Luka part à son cours de russe. Dans l'ascenseur, il retrouve Macha qui va à l'hôpital.",
  "learner": "luka",
  "speakers": {
-  "luka": {
-   "name": "Лука",
-   "nameFr": "Luka",
-   "color": "#3d5a80"
-  },
   "masha": {
    "name": "Маша",
    "nameFr": "Macha",
    "color": "#e07a5f"
+  },
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
   }
  },
  "dialogue": [

@@ -451,6 +451,8 @@ def atempo_filter(cid: str) -> str:
         parts.append("atempo=0.5")
         t /= 0.5
     parts.append(f"atempo={t:.3f}")
+    # хвост: убираем тишину и придыхание в конце (иначе «о» звучит как «оф») и мягко гасим звук
+    parts += ["areverse", "silenceremove=start_periods=1:start_threshold=-35dB", "afade=t=in:d=0.12", "areverse"]
     return "," + ",".join(parts)
 
 

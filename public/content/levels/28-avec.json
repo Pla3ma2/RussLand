@@ -8,15 +8,15 @@
  "sceneFr": "Le lendemain de la fête, Luka passe au café. Anna lui sert un café… et lui pose des questions sur Macha.",
  "learner": "luka",
  "speakers": {
-  "luka": {
-   "name": "Лука",
-   "nameFr": "Luka",
-   "color": "#3d5a80"
-  },
   "anna": {
    "name": "Анна",
    "nameFr": "Anna",
    "color": "#81b29a"
+  },
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
   }
  },
  "dialogue": [

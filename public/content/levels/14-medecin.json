@@ -8,15 +8,15 @@
  "sceneFr": "Le lendemain du foot, Luka ne se sent pas bien. Il frappe chez sa voisine Macha… qui est médecin !",
  "learner": "luka",
  "speakers": {
-  "luka": {
-   "name": "Лука",
-   "nameFr": "Luka",
-   "color": "#3d5a80"
-  },
   "masha": {
    "name": "Маша",
    "nameFr": "Macha",
    "color": "#e07a5f"
+  },
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
   }
  },
  "dialogue": [

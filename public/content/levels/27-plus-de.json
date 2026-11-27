@@ -8,15 +8,15 @@
  "sceneFr": "Pendant la fête, Luka ouvre le frigo… il manque des choses ! Oleg propose d'aller au magasin.",
  "learner": "luka",
  "speakers": {
-  "luka": {
-   "name": "Лука",
-   "nameFr": "Luka",
-   "color": "#3d5a80"
-  },
   "oleg": {
    "name": "Олег",
    "nameFr": "Oleg",
    "color": "#9a6fb0"
+  },
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
   }
  },
  "dialogue": [
