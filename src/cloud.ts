@@ -116,8 +116,8 @@ function loginScreen(app: HTMLElement): Promise<void> {
         }
         rememberLogin(login);
         resolve();
-      } catch {
-        msg.innerHTML = `Impossible de joindre le serveur. Vérifie ta connexion Internet et réessaie.`;
+      } catch (err) {
+        msg.innerHTML = `Impossible de joindre le serveur (${esc(String((err as Error).message ?? err))}). Vérifie ta connexion Internet et réessaie.`;
       }
     };
   });
