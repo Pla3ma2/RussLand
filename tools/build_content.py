@@ -466,8 +466,12 @@ def build_alphabet() -> dict:
     # ручные звуки → public/audio/manual/
     man = AUDIO_DIR / "manual"
     man.mkdir(parents=True, exist_ok=True)
+    manual_name = {}
     for f in (SRC / "sounds").glob("*.mp3"):
-        shutil.copyfile(f, man / f.name)
+        # имя с хешем содержимого: телефон кэширует звук навсегда, новый файл = новое имя
+        name = f"{f.stem}-{hashlib.sha1(f.read_bytes()).hexdigest()[:8]}.mp3"
+        manual_name[f.name] = name
+        shutil.copyfile(f, man / name)
     for L in src["letters"]:
         if L.get("file") and not (SRC / "sounds" / L["file"]).exists():
             errors.append(f"алфавит: нет файла content/sounds/{L['file']}")
@@ -478,7 +482,7 @@ def build_alphabet() -> dict:
             **{k: v for k, v in L.items() if k not in ("soundText", "tempo", "cut", "file")},
             # гласные чуть растягиваем (без изменения высоты голоса), чтобы различать «а» и «о»
             # готовый звук из content/sounds/ (например, гласная, присланная вручную) или синтез
-            "audio": f"manual/{L['file']}" if L.get("file") else clip(L["soundText"], WORD_VOICE, abc_folder(L)),
+            "audio": f"manual/{manual_name.get(L['file'], L['file'])}" if L.get("file") else clip(L["soundText"], WORD_VOICE, abc_folder(L)),
             "exampleTokens": ex_tokens,
             "exampleAudio": clip(accent(L["exampleRu"]).lower(), WORD_VOICE),
         })

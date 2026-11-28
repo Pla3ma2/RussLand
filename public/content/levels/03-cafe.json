@@ -8,15 +8,15 @@
  "sceneFr": "Le lendemain matin, Luka entre dans le petit café au coin de sa rue. Derrière le comptoir, Anna lui sourit.",
  "learner": "luka",
  "speakers": {
-  "luka": {
-   "name": "Лука",
-   "nameFr": "Luka",
-   "color": "#3d5a80"
-  },
   "anna": {
    "name": "Анна",
    "nameFr": "Anna",
    "color": "#81b29a"
+  },
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
   }
  },
  "dialogue": [

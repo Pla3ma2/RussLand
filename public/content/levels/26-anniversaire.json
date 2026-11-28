@@ -8,15 +8,15 @@
  "sceneFr": "Samedi, six heures. Les amis arrivent chez Luka pour son anniversaire.",
  "learner": "luka",
  "speakers": {
-  "masha": {
-   "name": "Маша",
-   "nameFr": "Macha",
-   "color": "#e07a5f"
-  },
   "luka": {
    "name": "Лука",
    "nameFr": "Luka",
    "color": "#3d5a80"
+  },
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
   },
   "anna": {
    "name": "Анна",
