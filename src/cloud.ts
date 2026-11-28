@@ -8,7 +8,19 @@ import { esc } from "./ui";
 
 const LOGIN_KEY = "russland-login";
 export const cloudEnabled = () => !!SUPABASE_URL && !!SUPABASE_KEY;
-export const currentLogin = () => localStorage.getItem(LOGIN_KEY) ?? "";
+/* Логин запоминается на устройстве (localStorage + cookie на 10 лет как запасной вариант),
+   поэтому входить нужно только один раз — дальше приложение открывается сразу. */
+const cookieLogin = () => decodeURIComponent(document.cookie.match(/(?:^|; )russland_login=([^;]*)/)?.[1] ?? "");
+export const currentLogin = () => localStorage.getItem(LOGIN_KEY) || cookieLogin();
+function rememberLogin(login: string) {
+  localStorage.setItem(LOGIN_KEY, login);
+  document.cookie = `russland_login=${encodeURIComponent(login)}; max-age=${60 * 60 * 24 * 3650}; path=/; SameSite=Lax`;
+  void navigator.storage?.persist?.(); // просим браузер не чистить данные сайта
+}
+function forgetLogin() {
+  localStorage.removeItem(LOGIN_KEY);
+  document.cookie = "russland_login=; max-age=0; path=/";
+}
 const norm = (s: string) => s.trim().toLowerCase().replace(/\s+/g, "-").slice(0, 32);
 
 function api(path: string, init: RequestInit = {}) {
@@ -64,6 +76,7 @@ export async function startCloud(app: HTMLElement): Promise<void> {
   onSave(schedulePush);
   const login = currentLogin();
   if (!login) return loginScreen(app);
+  rememberLogin(login); // восстановить, если браузер почистил одно из хранилищ
   try {
     const remote = await pull(login);
     if (remote) replaceProgress(remote);
@@ -101,7 +114,7 @@ function loginScreen(app: HTMLElement): Promise<void> {
         } else {
           await push(login, progress()); // nouveau compte : on garde ce qui a déjà été fait sur ce téléphone
         }
-        localStorage.setItem(LOGIN_KEY, login);
+        rememberLogin(login);
         resolve();
       } catch {
         msg.innerHTML = `Impossible de joindre le serveur. Vérifie ta connexion Internet et réessaie.`;
@@ -112,7 +125,7 @@ function loginScreen(app: HTMLElement): Promise<void> {
 
 export function logout() {
   if (!confirm(`Se déconnecter de « ${esc(currentLogin())} » ?`)) return;
-  localStorage.removeItem(LOGIN_KEY);
+  forgetLogin();
   localStorage.removeItem("russland-progress-v1");
   location.reload();
 }
