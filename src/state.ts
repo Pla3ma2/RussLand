@@ -53,8 +53,23 @@ let state: Progress = (() => {
 
 export const progress = () => state;
 
+const listeners: ((p: Progress) => void)[] = [];
+/** Подписка на каждое сохранение (для синхронизации с сервером). */
+export const onSave = (fn: (p: Progress) => void) => listeners.push(fn);
+
+/** Заменить весь прогресс (данные пришли с сервера). */
+export function replaceProgress(raw: unknown) {
+  state = revive({ ...empty(), ...(raw as Progress) });
+  try {
+    localStorage.setItem(KEY, JSON.stringify(state));
+  } catch {
+    /* */
+  }
+}
+
 export function save(mutator?: (p: Progress) => void) {
   mutator?.(state);
+  listeners.forEach((fn) => fn(state));
   try {
     localStorage.setItem(KEY, JSON.stringify(state));
   } catch {

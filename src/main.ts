@@ -4,13 +4,21 @@ import { getIndex } from "./content";
 import { progress, save, streak, resetProgress } from "./state";
 import { dueIds } from "./srs";
 import { $, $$, esc } from "./ui";
-import { registerSW } from "virtual:pwa-register";
+import { startCloud, currentLogin, logout } from "./cloud";
 
 declare const __BUILD__: string;
 
-/* После каждого обновления сайта старые файлы удаляются. Если в телефоне осталась старая
-   версия страницы, её куски уже не скачать — тогда просто перезагружаемся на новую версию. */
-registerSW({ immediate: true });
+/* Приложение работает только онлайн: удаляем старый офлайн-кэш и service worker, если они остались. */
+(async () => {
+  try {
+    const regs = (await navigator.serviceWorker?.getRegistrations?.()) ?? [];
+    const keys = "caches" in window ? await caches.keys() : [];
+    await Promise.all([...regs.map((r) => r.unregister()), ...keys.map((k) => caches.delete(k))]);
+    if (navigator.serviceWorker?.controller) reloadOnce(); // страницу отдал старый кэш — грузим заново с сайта
+  } catch {
+    /* ничего страшного */
+  }
+})();
 window.addEventListener("vite:preloadError", (e) => {
   e.preventDefault();
   reloadOnce();
@@ -97,6 +105,7 @@ async function renderLessons() {
       }).join("")}
       <div class="lesson coming"><span class="lesson-emoji">✨</span><span class="lesson-body"><b>La suite arrive bientôt…</b></span></div>
     </section>
+    ${currentLogin() ? `<p class="center muted small-line">Connecté : <b>${esc(currentLogin())}</b> · <button class="link small" id="logout">Se déconnecter</button></p>` : ""}
     <p class="center"><button class="link small" id="reset">Réinitialiser ma progression</button></p>
     <p class="center muted credits">Voix : Silero Models (CC BY-NC 4.0) · Reconnaissance vocale : Vosk · version ${__BUILD__}</p>`;
   page.querySelector("#rev")?.addEventListener("click", () => navigate("review/session"));
@@ -112,6 +121,7 @@ async function renderLessons() {
       navigate(`level/${b.dataset.id}`);
     };
   });
+  page.querySelector("#logout")?.addEventListener("click", logout);
   $("#reset", page).onclick = () => {
     if (confirm("Effacer toute ta progression ?")) {
       resetProgress();
@@ -151,4 +161,4 @@ route("carte", async () => {
   await (await import("./carte")).renderCarte(app);
 });
 
-startRouter(app);
+startCloud(app).then(() => startRouter(app));

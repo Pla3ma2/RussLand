@@ -5,7 +5,7 @@ const cache = new Map<string, Promise<unknown>>();
 
 function get<T>(path: string): Promise<T> {
   if (!cache.has(path)) {
-    const p = fetch(`./content/${path}`).then((r) => {
+    const p = fetch(`./content/${path}`, { cache: "no-cache" }).then((r) => {
       if (!r.ok) throw new Error(`${path}: ${r.status}`);
       return r.json();
     });
