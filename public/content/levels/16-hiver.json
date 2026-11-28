@@ -8,15 +8,15 @@
  "sceneFr": "Novembre à Saint-Pétersbourg. En sortant du théâtre, Luka découvre la neige… et le froid russe.",
  "learner": "luka",
  "speakers": {
-  "masha": {
-   "name": "Маша",
-   "nameFr": "Macha",
-   "color": "#e07a5f"
-  },
   "luka": {
    "name": "Лука",
    "nameFr": "Luka",
    "color": "#3d5a80"
+  },
+  "masha": {
+   "name": "Маша",
+   "nameFr": "Macha",
+   "color": "#e07a5f"
   }
  },
  "dialogue": [

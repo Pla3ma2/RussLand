@@ -8,15 +8,15 @@
  "sceneFr": "Anton, le frère de Macha, les invite à Moscou pour le Nouvel An. Luka va à la gare acheter les billets.",
  "learner": "luka",
  "speakers": {
-  "luka": {
-   "name": "Лука",
-   "nameFr": "Luka",
-   "color": "#3d5a80"
-  },
   "cashier": {
    "name": "Кассир",
    "nameFr": "Caissière",
    "color": "#6d597a"
+  },
+  "luka": {
+   "name": "Лука",
+   "nameFr": "Luka",
+   "color": "#3d5a80"
   }
  },
  "dialogue": [
