@@ -346,9 +346,10 @@ table.carte td small { display: block; font-size: 11px; }
 .lvl { background: var(--card); border: 2px solid var(--line); border-bottom-width: 4px; border-radius: 14px; padding: 10px 4px; display: flex; flex-direction: column; align-items: center; gap: 2px; }
 .lvl b { font-size: 20px; }
 .lvl small { font-size: 10px; color: var(--muted); }
-.lvl.done { border-color: var(--good); }
+.lvl.done { border-color: var(--good); background: #e5f4f1; }
+.ok-txt { color: var(--good); }
 .lvl.done small { color: var(--good); font-size: 13px; }
-.lvl.open:not(.done) { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(61,90,128,.15); }
+.lvl.open:not(.done) { border-color: var(--line); }
 .lvl.locked { opacity: .5; }
 .wlist { list-style: none; margin: 0; padding: 0; }
 .wrow { display: flex; align-items: center; border-bottom: 1px solid var(--line); transition: background .2s; }
@@ -400,6 +401,7 @@ table.carte td small { display: block; font-size: 11px; }
 .word-tip.has-star .tip-txt { text-align: left; }
 @media (prefers-color-scheme: dark) {
   .lvl, .flash { background: #1f2229; }
+  .lvl.done { background: #1d2a28; }
 }
 .puzzle-hint { margin-top: -2px; }
 

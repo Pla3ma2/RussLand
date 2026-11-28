@@ -27,8 +27,8 @@ const firstLvl = (st: (typeof STAGES)[number]) => st.from / PER;
 const stageOfLvl = (l: number) => STAGES.findIndex((s) => l >= firstLvl(s) && l < firstLvl(s) + lvlCount(s));
 const doneLv = () => progress().words.levels;
 const isDone = (l: number) => !!doneLv()[l];
-/** Уровень открыт: первый на ступени, пройденный, или следующий после пройденного. */
-const isOpen = (l: number) => isDone(l) || l === firstLvl(STAGES[stageOfLvl(l)]) || isDone(l - 1);
+/** Любой уровень можно начать сразу; пройденные подсвечиваются зелёным. */
+const isOpen = (_l: number) => true;
 const learnedIdx = () => Object.keys(doneLv()).filter((k) => doneLv()[+k]).flatMap((k) => Array.from({ length: PER }, (_, j) => +k * PER + j));
 
 /** Слово для упражнений — из базы или из «Mes cartes». */
@@ -120,12 +120,12 @@ export async function renderStage(root: HTMLElement, sStr: string) {
   const n = lvlCount(st);
   const f = firstLvl(st);
   flowFrame(root, `${st.emoji} ${st.name}`, "words", `
-    <section class="card"><p class="hint" style="margin:0">${esc(st.hint)}</p></section>
+    <section class="card"><p class="hint" style="margin:0">${esc(st.hint)} Commence par n'importe quel niveau : ceux que tu as réussis sont en <b class="ok-txt">vert</b>.</p></section>
     <section class="lvl-grid">
       ${Array.from({ length: n }, (_, j) => {
         const l = f + j;
-        const cls = isDone(l) ? "done" : isOpen(l) ? "open" : "locked";
-        return `<button class="lvl ${cls}" data-l="${l}"><b>${j + 1}</b><small>${isDone(l) ? "✓" : cls === "locked" ? "🔒" : `${l * PER + 1}–${l * PER + PER}`}</small></button>`;
+        const cls = isDone(l) ? "done" : "open";
+        return `<button class="lvl ${cls}" data-l="${l}"><b>${j + 1}</b><small>${isDone(l) ? "✓ appris" : `${l * PER + 1}–${l * PER + PER}`}</small></button>`;
       }).join("")}
     </section>`);
   $$<HTMLButtonElement>(".lvl", root).forEach((b) => {
@@ -139,7 +139,8 @@ export async function renderStage(root: HTMLElement, sStr: string) {
       navigate(`words/l/${b.dataset.l}`);
     };
   });
-  root.querySelector(".lvl.open:not(.done)")?.scrollIntoView({ block: "center" });
+  // к первому непройденному уровню
+  root.querySelector(".lvl:not(.done)")?.scrollIntoView({ block: "center" });
 }
 
 /* ======================= уровень: список → карточки → тест ======================= */
