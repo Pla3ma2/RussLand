@@ -32,7 +32,7 @@ function api(path: string, init: RequestInit = {}) {
 
 async function pull(login: string): Promise<Progress | null> {
   const r = await api(`progress?login=eq.${encodeURIComponent(login)}&select=data`);
-  if (!r.ok) throw new Error(`serveur ${r.status}`);
+  if (!r.ok) throw new Error(`serveur ${r.status} ${(await r.text()).slice(0, 160)}`);
   const rows = (await r.json()) as { data: Progress }[];
   return rows[0]?.data ?? null;
 }
@@ -43,7 +43,7 @@ async function push(login: string, data: Progress) {
     headers: { Prefer: "resolution=merge-duplicates" },
     body: JSON.stringify({ login, data, updated_at: new Date().toISOString() }),
   });
-  if (!r.ok) throw new Error(`serveur ${r.status}`);
+  if (!r.ok) throw new Error(`serveur ${r.status} ${(await r.text()).slice(0, 160)}`);
 }
 
 let timer: ReturnType<typeof setTimeout> | undefined;
