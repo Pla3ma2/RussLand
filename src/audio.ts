@@ -67,7 +67,16 @@ export function play(file: string, text: string, rate = 1): Promise<void> {
 }
 
 /* Один общий плеер: на iPhone звук разрешён элементу, который уже играл после касания экрана. */
-const SILENT = "data:audio/mp3;base64,SUQzBAAAAAAAI1RTU0UAAAAPAAADTGF2ZjU4Ljc2LjEwMAAAAAAAAAAAAAAA//tQxAADB8AhSmxhIIEVCSiJrDCQBTcu3UrAIwUdkRgQbFAZC1CQEwTJ9mjRvBA4UOLD8nKVOWfh+UlK3z/177OXrfOdKl7pyn3Xf//WreyTRUoAWgBgkOAGbZHBgG1OF6zM82DWbZaUmMBptgQhGjsyYqc9ae9XFz280948NMBWInljyzsNRFLPWdnZGWrddDsjK1unuSrVN9jJsK8KuQtQCtMBjCEtImISdNKJOopIpBFpNSMbIHCSRpRR5iakjTiyzLhchUUBwCgyKiweBv/7UsQbg8isVNoMPMjAAAA0gAAABEVFGmgqK////9bP/6XCykxBTUUzLjEwMKqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq";
+/** Настоящая тишина: WAV из нулей (0,05 с), собранный прямо в коде. */
+function silentWav(): string {
+  const n = 1200, buf = new ArrayBuffer(44 + n * 2), v = new DataView(buf);
+  const str = (o: number, t: string) => [...t].forEach((c, k) => v.setUint8(o + k, c.charCodeAt(0)));
+  str(0, "RIFF"); v.setUint32(4, 36 + n * 2, true); str(8, "WAVE"); str(12, "fmt ");
+  v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, 1, true);
+  v.setUint32(24, 24000, true); v.setUint32(28, 48000, true); v.setUint16(32, 2, true); v.setUint16(34, 16, true);
+  str(36, "data"); v.setUint32(40, n * 2, true);
+  return URL.createObjectURL(new Blob([buf], { type: "audio/wav" }));
+}
 let shared: HTMLAudioElement | null = null;
 function player(): HTMLAudioElement {
   if (!shared) shared = new Audio();
@@ -76,8 +85,14 @@ function player(): HTMLAudioElement {
 function unlock() {
   const a = player();
   if (a.src) return;
-  a.src = SILENT;
-  a.play().catch(() => {});
+  const url = silentWav();
+  a.muted = true; // даже если что-то пойдёт не так — ничего не будет слышно
+  a.src = url;
+  const done = () => {
+    if (a.src === url) a.pause(); // не трогаем, если уже играет настоящий звук
+    a.muted = false;
+  };
+  a.play().then(done, done);
 }
 document.addEventListener("pointerdown", unlock, { once: true, capture: true });
 
@@ -85,6 +100,7 @@ function playUrl(url: string, text: string, rate: number): Promise<void> {
   return new Promise((resolve) => {
     const a = player();
     a.onended = a.onerror = null;
+    a.muted = false;
     a.src = url;
     a.playbackRate = rate;
     current = a;
@@ -111,6 +127,7 @@ export function playBlob(blob: Blob): Promise<void> {
     const url = URL.createObjectURL(blob);
     const a = player();
     a.onended = a.onerror = null;
+    a.muted = false;
     a.src = url;
     a.playbackRate = 1;
     current = a;
